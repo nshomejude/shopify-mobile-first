@@ -1,4 +1,4 @@
-import { HeroSection } from "@/components/shop/HeroSection";
+import { Navigation } from "@/components/shop/Navigation";
 import { WhyBuyFromUs } from "@/components/shop/WhyBuyFromUs";
 import { FilterSidebar } from "@/components/shop/FilterSidebar";
 import { MobileFilterDrawer } from "@/components/shop/MobileFilterDrawer";
@@ -104,7 +104,7 @@ const products = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <HeroSection />
+      <Navigation />
       <WhyBuyFromUs />
       
       <section className="container mx-auto px-4 py-8 md:py-12">

@@ -3,10 +3,10 @@ import { LayoutGrid, LayoutList, Columns3, Grid3x3 } from "lucide-react";
 
 export const Navigation = () => {
   const variants = [
-    { path: "/", label: "Sidebar Grid", icon: LayoutGrid },
-    { path: "/shop-horizontal", label: "Top Filters", icon: Columns3 },
-    { path: "/shop-large", label: "Large Cards", icon: Grid3x3 },
-    { path: "/shop-list", label: "List View", icon: LayoutList },
+    { path: "/", label: "Shop 1", icon: LayoutGrid },
+    { path: "/shop-horizontal", label: "Shop 2", icon: Columns3 },
+    { path: "/shop-large", label: "Shop 3", icon: Grid3x3 },
+    { path: "/shop-list", label: "Shop 4", icon: LayoutList },
   ];
 
   return (

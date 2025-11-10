@@ -8,6 +8,14 @@ const rotatingTexts = [
   { main: "Trusted Healthcare Solutions", sub: "Licensed, certified, and trusted by healthcare professionals nationwide." },
   { main: "Wellness Delivered Daily", sub: "From prescriptions to vitamins, everything you need for a healthier life." },
   { main: "Your Family's Health Partner", sub: "Professional care and genuine products you can trust for everyone." },
+  { main: "Spring Sale - Up to 40% Off", sub: "Save big on vitamins, supplements, and wellness essentials this season." },
+  { main: "New Arrivals Just Added", sub: "Discover the latest health innovations and premium wellness products." },
+  { main: "Stay Healthy This Winter", sub: "Stock up on immunity boosters, cold remedies, and essential vitamins." },
+  { main: "Free Shipping on Orders Over $50", sub: "Get your medications and health products delivered with no extra cost." },
+  { main: "Boost Your Immunity Today", sub: "Explore our curated selection of vitamins, minerals, and immune support." },
+  { main: "Expert Health Advice Available", sub: "Our licensed pharmacists are here to help with all your health questions." },
+  { main: "Summer Wellness Collection", sub: "Sunscreen, hydration, and outdoor health essentials for the perfect summer." },
+  { main: "Back to School Health Essentials", sub: "Everything your family needs to stay healthy during the school year." },
 ];
 
 export const Hero = () => {
@@ -45,7 +53,10 @@ export const Hero = () => {
                 }`}
               >
                 {rotatingTexts[currentIndex].main.split(" ").map((word, i) => {
-                  const isHighlight = word === "Priority" || word === "Solutions" || word === "Daily" || word === "Partner";
+                  const isHighlight = word === "Priority" || word === "Solutions" || word === "Daily" || 
+                                     word === "Partner" || word === "Off" || word === "Added" || 
+                                     word === "Winter" || word === "$50" || word === "Today" || 
+                                     word === "Available" || word === "Collection" || word === "Essentials";
                   return isHighlight ? (
                     <span key={i} className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                       {word}{" "}

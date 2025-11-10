@@ -15,6 +15,7 @@ import { PrescriptionUpload } from "./pages/PrescriptionUpload";
 import { LabVerification } from "./pages/LabVerification";
 import { SafetyCompliance } from "./pages/SafetyCompliance";
 import { DrugInformation } from "./pages/DrugInformation";
+import { ProductDetail } from "./pages/ProductDetail";
 import { AgeVerificationModal } from "./components/shop/AgeVerificationModal";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="/lab-verification" element={<LabVerification />} />
             <Route path="/safety-compliance" element={<SafetyCompliance />} />
             <Route path="/drug-information" element={<DrugInformation />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -136,12 +136,11 @@ const ShopHorizontal = () => {
           </div>
         </div>
 
-        {/* Product Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4 lg:gap-5">
           {filteredProducts.map((product) => (
             <ProductCard 
               key={product.id} 
-              id={parseInt(product.id.split("-")[1])}
+              id={product.id}
               image={product.image}
               name={product.name}
               price={product.price}

@@ -3,9 +3,10 @@ import { Card } from "@/components/ui/card";
 import { Star, ShoppingCart } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 
 interface ProductCardProps {
-  id: number;
+  id: string;
   image: string;
   name: string;
   price: number;
@@ -26,10 +27,11 @@ export const ProductCard = ({
   inStock 
 }: ProductCardProps) => {
   const { addItem } = useCart();
+  const navigate = useNavigate();
 
   const handleAddToCart = () => {
     addItem({
-      id,
+      id: parseInt(id.split("-")[1]) || 1,
       name,
       price,
       image,
@@ -40,9 +42,12 @@ export const ProductCard = ({
     });
   };
   return (
-    <Card className="group overflow-hidden bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-      <div className="relative aspect-square overflow-hidden bg-muted">
-        <img 
+    <Card className="group overflow-hidden bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
+      <div 
+        className="relative aspect-square overflow-hidden bg-muted"
+        onClick={() => navigate(`/product/${id}`)}
+      >
+        <img
           src={image} 
           alt={name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -60,7 +65,10 @@ export const ProductCard = ({
       </div>
       
       <div className="p-3 md:p-4">
-        <h3 className="font-semibold text-sm md:text-base mb-2 line-clamp-2 min-h-[2.5rem] md:min-h-[3rem]">
+        <h3 
+          className="font-semibold text-sm md:text-base mb-2 line-clamp-2 min-h-[2.5rem] md:min-h-[3rem] cursor-pointer hover:text-primary transition-colors"
+          onClick={() => navigate(`/product/${id}`)}
+        >
           {name}
         </h3>
         

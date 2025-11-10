@@ -12,9 +12,11 @@ import { Star, ShoppingCart, Info, Package, Search } from "lucide-react";
 import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 
 const ShopList = () => {
   const { addItem } = useCart();
+  const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   
@@ -143,11 +145,14 @@ const ShopList = () => {
 
             <div className="space-y-4">
               {filteredProducts.map((product) => (
-                <Card key={product.id} className="overflow-hidden hover:shadow-lg transition-shadow bg-card">
+                <Card key={product.id} className="overflow-hidden hover:shadow-lg transition-shadow bg-card cursor-pointer">
                   <div className="flex flex-col md:flex-row gap-4 p-4 md:p-6">
                     {/* Image */}
-                    <div className="relative w-full md:w-48 aspect-square md:aspect-auto md:h-48 flex-shrink-0 overflow-hidden rounded-lg bg-muted">
-                      <img 
+                    <div 
+                      className="relative w-full md:w-48 aspect-square md:aspect-auto md:h-48 flex-shrink-0 overflow-hidden rounded-lg bg-muted"
+                      onClick={() => navigate(`/product/${product.id}`)}
+                    >
+                      <img
                         src={product.image} 
                         alt={product.name}
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
@@ -163,7 +168,12 @@ const ShopList = () => {
                     <div className="flex-1 flex flex-col">
                       <div className="flex items-start justify-between gap-4 mb-2">
                         <div>
-                          <h3 className="font-bold text-lg md:text-xl mb-1">{product.name}</h3>
+                          <h3 
+                            className="font-bold text-lg md:text-xl mb-1 hover:text-primary transition-colors cursor-pointer"
+                            onClick={() => navigate(`/product/${product.id}`)}
+                          >
+                            {product.name}
+                          </h3>
                           <div className="flex items-center gap-2 text-xs text-muted-foreground mb-2">
                             <span className="font-medium">{product.subcategory}</span>
                             {product.requiresPrescription && (
@@ -220,7 +230,12 @@ const ShopList = () => {
                               Out of Stock
                             </Badge>
                           )}
-                          <Button variant="ghost" size="sm" className="h-8">
+                          <Button 
+                            variant="ghost" 
+                            size="sm" 
+                            className="h-8"
+                            onClick={() => navigate(`/product/${product.id}`)}
+                          >
                             <Info className="w-4 h-4 mr-1" />
                             Details
                           </Button>

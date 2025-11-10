@@ -2,47 +2,9 @@ import { ProductCard } from "@/components/shop/ProductCard";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { products } from "@/data/products";
 
-const featuredProducts = [
-  {
-    id: 1,
-    name: "Premium Pain Relief Tablets 500mg",
-    price: 24.99,
-    oldPrice: 34.99,
-    rating: 4.5,
-    reviews: 128,
-    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=500&h=500&fit=crop",
-    inStock: true
-  },
-  {
-    id: 2,
-    name: "Vitamin D3 5000 IU - 120 Capsules",
-    price: 19.99,
-    rating: 4.8,
-    reviews: 256,
-    image: "https://images.unsplash.com/photo-1550572017-4334f83c4eaa?w=500&h=500&fit=crop",
-    inStock: true
-  },
-  {
-    id: 3,
-    name: "First Aid Kit Complete Set",
-    price: 39.99,
-    oldPrice: 49.99,
-    rating: 4.7,
-    reviews: 89,
-    image: "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=500&h=500&fit=crop",
-    inStock: true
-  },
-  {
-    id: 5,
-    name: "Omega-3 Fish Oil 1000mg",
-    price: 22.99,
-    rating: 4.9,
-    reviews: 312,
-    image: "https://images.unsplash.com/photo-1579722821273-0f6c7d6f5d5e?w=500&h=500&fit=crop",
-    inStock: true
-  },
-];
+const featuredProducts = products.slice(0, 4);
 
 export const FeaturedProducts = () => {
   return (
@@ -67,7 +29,17 @@ export const FeaturedProducts = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {featuredProducts.map((product) => (
-            <ProductCard key={product.id} {...product} />
+            <ProductCard 
+              key={product.id} 
+              id={product.id}
+              image={product.image}
+              name={product.name}
+              price={product.price}
+              oldPrice={product.oldPrice}
+              rating={product.rating}
+              reviews={product.reviews}
+              inStock={product.inStock}
+            />
           ))}
         </div>
       </div>

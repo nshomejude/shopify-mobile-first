@@ -10,9 +10,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
+import { useNavigate } from "react-router-dom";
 
 const ShopLarge = () => {
   const { addItem } = useCart();
+  const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
   
   const filteredProducts = products.filter((product) => {
@@ -76,9 +78,12 @@ const ShopLarge = () => {
         {/* Large Product Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredProducts.map((product) => (
-            <Card key={product.id} className="group overflow-hidden bg-card hover:shadow-xl transition-all duration-300">
-              <div className="relative aspect-square overflow-hidden bg-muted">
-                <img 
+            <Card key={product.id} className="group overflow-hidden bg-card hover:shadow-xl transition-all duration-300 cursor-pointer">
+              <div 
+                className="relative aspect-square overflow-hidden bg-muted"
+                onClick={() => navigate(`/product/${product.id}`)}
+              >
+                <img
                   src={product.image} 
                   alt={product.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -122,7 +127,10 @@ const ShopLarge = () => {
                   </span>
                 </div>
 
-                <h3 className="font-bold text-lg mb-2 line-clamp-2 min-h-[3.5rem]">
+                <h3 
+                  className="font-bold text-lg mb-2 line-clamp-2 min-h-[3.5rem] hover:text-primary transition-colors cursor-pointer"
+                  onClick={() => navigate(`/product/${product.id}`)}
+                >
                   {product.name}
                 </h3>
                 

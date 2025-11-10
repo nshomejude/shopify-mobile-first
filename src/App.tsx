@@ -10,6 +10,7 @@ import ShopHorizontal from "./pages/ShopHorizontal";
 import ShopLarge from "./pages/ShopLarge";
 import ShopList from "./pages/ShopList";
 import NotFound from "./pages/NotFound";
+import { CategoryLanding } from "./pages/CategoryLanding";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/shop-horizontal" element={<ShopHorizontal />} />
             <Route path="/shop-large" element={<ShopLarge />} />
             <Route path="/shop-list" element={<ShopList />} />
+            <Route path="/category/:slug" element={<CategoryLanding />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -225,6 +225,23 @@ export const categories: Record<string, Category> = {
     verificationProcess: 'Valid prescription required. Hormone level testing may be required.',
   },
 
+  'anabolic-steroids': {
+    id: 'anabolic-steroids',
+    slug: 'anabolic-steroids',
+    name: 'Anabolic Steroids & TRT',
+    description: 'Testosterone replacement therapy and anabolic hormones',
+    longDescription: 'Prescription anabolic steroids for testosterone replacement therapy (TRT), hypogonadism treatment, and medically supervised hormone optimization. Includes testosterone cypionate, enanthate, and other anabolic agents prescribed for legitimate medical conditions.',
+    icon: Dna,
+    heroImage: '/placeholder.svg',
+    requiresPrescription: true,
+    requiresLabLicense: false,
+    targetAudience: 'patients',
+    parentCategory: 'prescription-drugs',
+    legalNotice: 'Schedule III controlled substances. Prescription required. Use only for legitimate medical conditions. Regular blood work and monitoring mandatory. Abuse can cause serious health risks.',
+    verificationProcess: 'Valid prescription from endocrinologist or qualified physician required. Baseline hormone panel and regular monitoring necessary.',
+    featured: true,
+  },
+
   // Research Chemicals Hub
   'research-chemicals': {
     id: 'research-chemicals',

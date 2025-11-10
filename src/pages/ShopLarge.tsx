@@ -1,88 +1,64 @@
+import { useState } from "react";
 import { Navigation } from "@/components/shop/Navigation";
 import { WhyBuyFromUs } from "@/components/shop/WhyBuyFromUs";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Star, ShoppingCart, Heart, Eye } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Star, ShoppingCart, Heart, Eye, Search } from "lucide-react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-
-const products = [
-  {
-    id: 1,
-    name: "Premium Pain Relief Tablets 500mg",
-    price: 24.99,
-    oldPrice: 34.99,
-    rating: 4.5,
-    reviews: 128,
-    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=800&fit=crop",
-    inStock: true,
-    description: "Fast-acting pain relief formula for headaches, muscle aches, and minor pains. Pharmacy-grade quality."
-  },
-  {
-    id: 2,
-    name: "Vitamin D3 5000 IU - 120 Capsules",
-    price: 19.99,
-    rating: 4.8,
-    reviews: 256,
-    image: "https://images.unsplash.com/photo-1550572017-4334f83c4eaa?w=800&h=800&fit=crop",
-    inStock: true,
-    description: "High-potency vitamin D3 supplement for bone health and immune support. 4-month supply."
-  },
-  {
-    id: 3,
-    name: "First Aid Kit Complete Set",
-    price: 39.99,
-    oldPrice: 49.99,
-    rating: 4.7,
-    reviews: 89,
-    image: "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=800&h=800&fit=crop",
-    inStock: true,
-    description: "Comprehensive 200-piece first aid kit for home, office, or travel. All essential supplies included."
-  },
-  {
-    id: 4,
-    name: "Advanced Probiotic Complex",
-    price: 29.99,
-    rating: 4.6,
-    reviews: 167,
-    image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800&h=800&fit=crop",
-    inStock: false,
-    description: "Multi-strain probiotic formula for digestive health and gut balance. 50 billion CFU per serving."
-  },
-  {
-    id: 5,
-    name: "Omega-3 Fish Oil 1000mg",
-    price: 22.99,
-    rating: 4.9,
-    reviews: 312,
-    image: "https://images.unsplash.com/photo-1579722821273-0f6c7d6f5d5e?w=800&h=800&fit=crop",
-    inStock: true,
-    description: "Pure omega-3 fish oil for heart health and brain function. Molecularly distilled for purity."
-  },
-  {
-    id: 6,
-    name: "Multivitamin Daily Essentials",
-    price: 16.99,
-    rating: 4.4,
-    reviews: 203,
-    image: "https://images.unsplash.com/photo-1628771065518-0d82f1938462?w=800&h=800&fit=crop",
-    inStock: true,
-    description: "Complete daily multivitamin with 23 essential vitamins and minerals for overall wellness."
-  }
-];
+import { products, Product } from "@/data/products";
+import { useCart } from "@/contexts/CartContext";
+import { toast } from "@/hooks/use-toast";
 
 const ShopLarge = () => {
+  const { addItem } = useCart();
+  const [searchQuery, setSearchQuery] = useState("");
+  
+  const filteredProducts = products.filter((product) => {
+    return product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+           product.description.toLowerCase().includes(searchQuery.toLowerCase());
+  });
+
+  const handleAddToCart = (product: Product) => {
+    addItem({
+      id: parseInt(product.id.split("-")[1]),
+      name: product.name,
+      price: product.price,
+      image: product.image,
+    });
+    toast({
+      title: "Added to cart",
+      description: `${product.name} has been added to your cart.`,
+    });
+  };
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
       <WhyBuyFromUs />
       
       <section className="container mx-auto px-4 py-6 md:py-8">
+        {/* Search Bar */}
+        <div className="mb-6">
+          <div className="relative max-w-xl">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+            <Input
+              type="search"
+              placeholder="Search products..."
+              className="pl-10 h-12"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
+        </div>
         {/* Header with Sort */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-2">Featured Products</h2>
-            <p className="text-sm text-muted-foreground">Showing 6 of 24 products</p>
+            <p className="text-sm text-muted-foreground">
+              Showing {filteredProducts.length} of {products.length} products
+            </p>
           </div>
           <Select defaultValue="featured">
             <SelectTrigger className="w-full sm:w-[200px]">
@@ -99,7 +75,7 @@ const ShopLarge = () => {
 
         {/* Large Product Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {products.map((product) => (
+          {filteredProducts.map((product) => (
             <Card key={product.id} className="group overflow-hidden bg-card hover:shadow-xl transition-all duration-300">
               <div className="relative aspect-square overflow-hidden bg-muted">
                 <img 
@@ -168,6 +144,7 @@ const ShopLarge = () => {
                 <Button 
                   className="w-full h-12 text-base touch-manipulation active:scale-95 transition-transform" 
                   disabled={!product.inStock}
+                  onClick={() => handleAddToCart(product)}
                 >
                   <ShoppingCart className="w-5 h-5 mr-2" />
                   {product.inStock ? "Add to Cart" : "Out of Stock"}

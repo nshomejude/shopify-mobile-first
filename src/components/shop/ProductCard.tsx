@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Star, ShoppingCart } from "lucide-react";
+import { useCart } from "@/contexts/CartContext";
+import { toast } from "@/hooks/use-toast";
 
 interface ProductCardProps {
+  id: number;
   image: string;
   name: string;
   price: number;
@@ -13,6 +16,7 @@ interface ProductCardProps {
 }
 
 export const ProductCard = ({ 
+  id,
   image, 
   name, 
   price, 
@@ -21,6 +25,20 @@ export const ProductCard = ({
   reviews,
   inStock 
 }: ProductCardProps) => {
+  const { addItem } = useCart();
+
+  const handleAddToCart = () => {
+    addItem({
+      id,
+      name,
+      price,
+      image,
+    });
+    toast({
+      title: "Added to cart",
+      description: `${name} has been added to your cart.`,
+    });
+  };
   return (
     <Card className="group overflow-hidden bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
       <div className="relative aspect-square overflow-hidden bg-muted">
@@ -75,6 +93,7 @@ export const ProductCard = ({
           className="w-full touch-manipulation active:scale-95 transition-transform" 
           size="sm"
           disabled={!inStock}
+          onClick={handleAddToCart}
         >
           <ShoppingCart className="w-4 h-4 mr-2" />
           Add to Cart

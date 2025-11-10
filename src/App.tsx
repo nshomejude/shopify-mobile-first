@@ -17,6 +17,9 @@ import { SafetyCompliance } from "./pages/SafetyCompliance";
 import { DrugInformation } from "./pages/DrugInformation";
 import { ProductDetail } from "./pages/ProductDetail";
 import { AgeVerificationModal } from "./components/shop/AgeVerificationModal";
+import Contact from "./pages/Contact";
+import FAQ from "./pages/FAQ";
+import Blog from "./pages/Blog";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +43,9 @@ const App = () => (
             <Route path="/safety-compliance" element={<SafetyCompliance />} />
             <Route path="/drug-information" element={<DrugInformation />} />
             <Route path="/product/:id" element={<ProductDetail />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/blog" element={<Blog />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

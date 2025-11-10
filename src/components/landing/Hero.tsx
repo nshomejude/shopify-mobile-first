@@ -1,34 +1,71 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ShieldCheck, Truck, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/hero-pharmacy.jpg";
+import { useState, useEffect } from "react";
+
+const rotatingTexts = [
+  { main: "Your Health, Our Priority", sub: "Quality pharmaceuticals and health products delivered to your doorstep." },
+  { main: "Trusted Healthcare Solutions", sub: "Licensed, certified, and trusted by healthcare professionals nationwide." },
+  { main: "Wellness Delivered Daily", sub: "From prescriptions to vitamins, everything you need for a healthier life." },
+  { main: "Your Family's Health Partner", sub: "Professional care and genuine products you can trust for everyone." },
+];
 
 export const Hero = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsAnimating(true);
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev + 1) % rotatingTexts.length);
+        setIsAnimating(false);
+      }, 500);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative min-h-[600px] md:min-h-[700px] bg-gradient-to-br from-primary/5 via-background to-accent/5 overflow-hidden">
       <div className="container mx-auto px-4 py-12 md:py-20">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="max-w-4xl mx-auto">
           {/* Text Content */}
-          <div className="space-y-6 md:space-y-8 animate-fade-in">
+          <div className="space-y-6 md:space-y-8 text-center">
             <div className="inline-block">
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold">
                 Trusted by 50,000+ Customers
               </span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Your Health, Our{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Priority
-              </span>
-            </h1>
+            <div className="min-h-[200px] md:min-h-[240px] flex flex-col justify-center">
+              <h1 
+                className={`text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6 transition-all duration-500 ${
+                  isAnimating ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
+                }`}
+              >
+                {rotatingTexts[currentIndex].main.split(" ").map((word, i) => {
+                  const isHighlight = word === "Priority" || word === "Solutions" || word === "Daily" || word === "Partner";
+                  return isHighlight ? (
+                    <span key={i} className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                      {word}{" "}
+                    </span>
+                  ) : (
+                    <span key={i}>{word} </span>
+                  );
+                })}
+              </h1>
+              
+              <p 
+                className={`text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto transition-all duration-500 ${
+                  isAnimating ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
+                }`}
+              >
+                {rotatingTexts[currentIndex].sub}
+              </p>
+            </div>
             
-            <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              Quality pharmaceuticals and health products delivered to your doorstep. 
-              Licensed, certified, and trusted by healthcare professionals.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="text-base group">
                 <Link to="/shop-horizontal">
                   Shop Now
@@ -41,49 +78,37 @@ export const Hero = () => {
             </div>
             
             {/* Trust Indicators */}
-            <div className="grid grid-cols-3 gap-4 pt-8 border-t border-border/50">
-              <div className="flex items-center gap-2">
-                <ShieldCheck className="h-5 w-5 text-primary" />
-                <span className="text-sm font-medium">Certified</span>
+            <div className="grid grid-cols-3 gap-6 md:gap-8 pt-12 border-t border-border/50 max-w-2xl mx-auto">
+              <div className="flex flex-col items-center gap-2 text-center">
+                <ShieldCheck className="h-8 w-8 md:h-10 md:w-10 text-primary mb-2" />
+                <span className="text-sm md:text-base font-medium">Certified</span>
+                <span className="text-xs text-muted-foreground">FDA Approved</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Truck className="h-5 w-5 text-primary" />
-                <span className="text-sm font-medium">Fast Delivery</span>
+              <div className="flex flex-col items-center gap-2 text-center">
+                <Truck className="h-8 w-8 md:h-10 md:w-10 text-primary mb-2" />
+                <span className="text-sm md:text-base font-medium">Fast Delivery</span>
+                <span className="text-xs text-muted-foreground">2-3 Days</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Clock className="h-5 w-5 text-primary" />
-                <span className="text-sm font-medium">24/7 Support</span>
+              <div className="flex flex-col items-center gap-2 text-center">
+                <Clock className="h-8 w-8 md:h-10 md:w-10 text-primary mb-2" />
+                <span className="text-sm md:text-base font-medium">24/7 Support</span>
+                <span className="text-xs text-muted-foreground">Always Here</span>
               </div>
             </div>
-          </div>
-          
-          {/* Image */}
-          <div className="relative lg:h-[600px] h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src={heroImage}
-              alt="Professional pharmacy with certified pharmacist"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />
             
-            {/* Floating Card */}
-            <div className="absolute bottom-6 left-6 right-6 bg-card/95 backdrop-blur-sm p-4 md:p-6 rounded-xl shadow-lg border border-border/50">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm text-muted-foreground mb-1">Average Rating</p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-2xl font-bold text-primary">4.9</span>
-                    <div className="flex">
-                      {[...Array(5)].map((_, i) => (
-                        <span key={i} className="text-yellow-500">★</span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <div className="text-right">
-                  <p className="text-sm text-muted-foreground mb-1">Reviews</p>
-                  <p className="text-2xl font-bold">12,450+</p>
-                </div>
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-6 md:gap-8 pt-12 max-w-2xl mx-auto">
+              <div className="text-center">
+                <p className="text-3xl md:text-4xl font-bold text-primary mb-1">4.9</p>
+                <p className="text-sm text-muted-foreground">Average Rating</p>
+              </div>
+              <div className="text-center">
+                <p className="text-3xl md:text-4xl font-bold text-primary mb-1">50K+</p>
+                <p className="text-sm text-muted-foreground">Happy Customers</p>
+              </div>
+              <div className="text-center">
+                <p className="text-3xl md:text-4xl font-bold text-primary mb-1">12K+</p>
+                <p className="text-sm text-muted-foreground">Reviews</p>
               </div>
             </div>
           </div>

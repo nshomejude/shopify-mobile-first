@@ -73,20 +73,26 @@ export const CategoryLanding = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg">
-                Browse Products
-                <ArrowRight className="ml-2 h-5 w-5" />
+              <Button size="lg" className="text-lg" asChild>
+                <Link to="/shop-horizontal">
+                  Browse Products
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
               </Button>
               {category.requiresPrescription && (
-                <Button size="lg" variant="outline" className="text-lg">
-                  <Upload className="mr-2 h-5 w-5" />
-                  Upload Prescription
+                <Button size="lg" variant="outline" className="text-lg" asChild>
+                  <Link to="/prescription-upload">
+                    <Upload className="mr-2 h-5 w-5" />
+                    Upload Prescription
+                  </Link>
                 </Button>
               )}
               {category.requiresLabLicense && (
-                <Button size="lg" variant="outline" className="text-lg">
-                  <Shield className="mr-2 h-5 w-5" />
-                  Verify Lab License
+                <Button size="lg" variant="outline" className="text-lg" asChild>
+                  <Link to="/lab-verification">
+                    <Shield className="mr-2 h-5 w-5" />
+                    Verify Lab License
+                  </Link>
                 </Button>
               )}
             </div>
@@ -219,12 +225,16 @@ export const CategoryLanding = () => {
               : "Submit your laboratory credentials to access our research catalog"}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg">
-              Start Ordering
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="text-lg" asChild>
+              <Link to={category.requiresPrescription ? "/prescription-upload" : "/lab-verification"}>
+                {category.requiresPrescription ? "Upload Prescription" : "Verify Laboratory"}
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg">
-              Contact Support
+            <Button size="lg" variant="outline" className="text-lg" asChild>
+              <Link to="/safety-compliance">
+                Learn About Safety
+              </Link>
             </Button>
           </div>
         </div>

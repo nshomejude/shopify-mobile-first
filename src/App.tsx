@@ -11,6 +11,11 @@ import ShopLarge from "./pages/ShopLarge";
 import ShopList from "./pages/ShopList";
 import NotFound from "./pages/NotFound";
 import { CategoryLanding } from "./pages/CategoryLanding";
+import { PrescriptionUpload } from "./pages/PrescriptionUpload";
+import { LabVerification } from "./pages/LabVerification";
+import { SafetyCompliance } from "./pages/SafetyCompliance";
+import { DrugInformation } from "./pages/DrugInformation";
+import { AgeVerificationModal } from "./components/shop/AgeVerificationModal";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +25,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
+        <AgeVerificationModal />
         <BrowserRouter>
           <CartSidebar />
           <Routes>
@@ -28,6 +34,10 @@ const App = () => (
             <Route path="/shop-large" element={<ShopLarge />} />
             <Route path="/shop-list" element={<ShopList />} />
             <Route path="/category/:slug" element={<CategoryLanding />} />
+            <Route path="/prescription-upload" element={<PrescriptionUpload />} />
+            <Route path="/lab-verification" element={<LabVerification />} />
+            <Route path="/safety-compliance" element={<SafetyCompliance />} />
+            <Route path="/drug-information" element={<DrugInformation />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

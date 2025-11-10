@@ -18,6 +18,7 @@ const footerLinks = {
   Support: [
     { label: "Help Center", href: "#" },
     { label: "Track Order", href: "#" },
+    { label: "Drug Information", href: "/drug-information" },
     { label: "Shipping Info", href: "#" },
     { label: "Returns", href: "#" },
   ],
@@ -26,6 +27,11 @@ const footerLinks = {
     { label: "Terms of Service", href: "#" },
     { label: "Cookie Policy", href: "#" },
     { label: "HIPAA Compliance", href: "#" },
+    { label: "Safety & Compliance", href: "/safety-compliance" },
+  ],
+  Services: [
+    { label: "Upload Prescription", href: "/prescription-upload" },
+    { label: "Lab Verification", href: "/lab-verification" },
   ],
 };
 

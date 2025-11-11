@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, ShieldCheck, Truck, Clock, Pill, TestTube, Microscope, Stethoscope, Activity, Heart, FlaskConical, Syringe, Cross } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { HeroSearchBar } from "./HeroSearchBar";
 
 const rotatingTexts = [
   { main: "Your Health, Our Priority", sub: "Quality pharmaceuticals and health products delivered to your doorstep." },
@@ -86,6 +87,11 @@ export const Hero = () => {
               >
                 {rotatingTexts[currentIndex].sub}
               </p>
+            </div>
+
+            {/* Search Bar */}
+            <div className="max-w-2xl mx-auto">
+              <HeroSearchBar />
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

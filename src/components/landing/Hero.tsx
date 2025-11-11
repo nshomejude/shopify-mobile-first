@@ -36,33 +36,46 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[600px] md:min-h-[700px] bg-gradient-to-br from-primary/5 via-background to-accent/5 overflow-hidden">
+    <section className="relative min-h-[700px] md:min-h-[850px] overflow-hidden">
+      {/* Animated Gradient Mesh Background */}
+      <div className="absolute inset-0 bg-background">
+        <div className="absolute inset-0 opacity-60" style={{ background: 'var(--gradient-mesh)' }} />
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
+      </div>
+
+      {/* Animated Gradient Orbs */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-primary/30 to-accent/20 rounded-full blur-3xl animate-float-slow" />
+        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-accent/30 to-primary/20 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: '-10s' }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-primary/10 to-transparent rounded-full blur-2xl animate-pulse-glow" />
+      </div>
+
       {/* Floating Medical Icons Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <Pill className="absolute top-20 left-[10%] w-12 h-12 text-primary/10 animate-float" style={{ animationDelay: '0s' }} />
-        <TestTube className="absolute top-40 right-[15%] w-16 h-16 text-accent/10 animate-float" style={{ animationDelay: '1s' }} />
-        <Microscope className="absolute bottom-40 left-[20%] w-14 h-14 text-primary/10 animate-float" style={{ animationDelay: '2s' }} />
-        <Stethoscope className="absolute top-60 right-[25%] w-12 h-12 text-accent/10 animate-float" style={{ animationDelay: '3s' }} />
-        <FlaskConical className="absolute bottom-60 right-[10%] w-16 h-16 text-primary/10 animate-float" style={{ animationDelay: '1.5s' }} />
-        <Cross className="absolute top-32 right-[40%] w-10 h-10 text-accent/10 animate-float" style={{ animationDelay: '2.5s' }} />
-        <Syringe className="absolute bottom-32 left-[35%] w-12 h-12 text-primary/10 animate-float" style={{ animationDelay: '0.5s' }} />
-        <Heart className="absolute top-[50%] left-[8%] w-10 h-10 text-accent/10 animate-float" style={{ animationDelay: '3.5s' }} />
+        <Pill className="absolute top-20 left-[10%] w-12 h-12 text-primary/20 animate-float drop-shadow-lg" style={{ animationDelay: '0s' }} />
+        <TestTube className="absolute top-40 right-[15%] w-16 h-16 text-accent/20 animate-float drop-shadow-lg" style={{ animationDelay: '1s' }} />
+        <Microscope className="absolute bottom-40 left-[20%] w-14 h-14 text-primary/20 animate-float drop-shadow-lg" style={{ animationDelay: '2s' }} />
+        <Stethoscope className="absolute top-60 right-[25%] w-12 h-12 text-accent/20 animate-float drop-shadow-lg" style={{ animationDelay: '3s' }} />
+        <FlaskConical className="absolute bottom-60 right-[10%] w-16 h-16 text-primary/20 animate-float drop-shadow-lg" style={{ animationDelay: '1.5s' }} />
+        <Cross className="absolute top-32 right-[40%] w-10 h-10 text-accent/20 animate-float drop-shadow-lg" style={{ animationDelay: '2.5s' }} />
+        <Syringe className="absolute bottom-32 left-[35%] w-12 h-12 text-primary/20 animate-float drop-shadow-lg" style={{ animationDelay: '0.5s' }} />
+        <Heart className="absolute top-[50%] left-[8%] w-10 h-10 text-accent/20 animate-float drop-shadow-lg" style={{ animationDelay: '3.5s' }} />
       </div>
       
-      <div className="container mx-auto px-4 py-12 md:py-20">
-        <div className="max-w-4xl mx-auto">
+      <div className="container mx-auto px-4 py-16 md:py-24">
+        <div className="max-w-6xl mx-auto">
           {/* Text Content */}
-          <div className="space-y-6 md:space-y-8 text-center relative z-10">
-            <div className="inline-block">
-              <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold backdrop-blur-sm">
-                Trusted by 50,000+ Customers
+          <div className="space-y-8 md:space-y-10 text-center relative z-10">
+            <div className="inline-block animate-fade-in">
+              <span className="px-6 py-2.5 glass-effect text-primary rounded-full text-sm font-bold tracking-wide shadow-lg border border-primary/20">
+                ✨ Trusted by 50,000+ Customers Worldwide
               </span>
             </div>
             
-            <div className="min-h-[200px] md:min-h-[240px] flex flex-col justify-center">
+            <div className="min-h-[240px] md:min-h-[280px] flex flex-col justify-center">
               <h1 
-                className={`text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6 transition-all duration-500 ${
-                  isAnimating ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
+                className={`text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-[1.1] mb-8 transition-all duration-500 ${
+                  isAnimating ? "opacity-0 translate-y-4 scale-95" : "opacity-100 translate-y-0 scale-100"
                 }`}
               >
                 {rotatingTexts[currentIndex].main.split(" ").map((word, i) => {
@@ -71,17 +84,19 @@ export const Hero = () => {
                                      word === "Winter" || word === "$50" || word === "Today" || 
                                      word === "Available" || word === "Collection" || word === "Essentials";
                   return isHighlight ? (
-                    <span key={i} className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                    <span key={i} className="inline-block text-gradient animate-gradient">
                       {word}{" "}
                     </span>
                   ) : (
-                    <span key={i}>{word} </span>
+                    <span key={i} className="inline-block bg-clip-text text-transparent bg-gradient-to-br from-foreground to-foreground/70">
+                      {word}{" "}
+                    </span>
                   );
                 })}
               </h1>
               
               <p 
-                className={`text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto transition-all duration-500 ${
+                className={`text-xl md:text-2xl lg:text-3xl text-muted-foreground/90 max-w-4xl mx-auto font-light leading-relaxed transition-all duration-500 ${
                   isAnimating ? "opacity-0 translate-y-4" : "opacity-100 translate-y-0"
                 }`}
               >
@@ -90,104 +105,101 @@ export const Hero = () => {
             </div>
 
             {/* Search Bar */}
-            <div className="max-w-2xl mx-auto">
+            <div className="max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <HeroSearchBar />
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base group">
+            <div className="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              <Button asChild size="lg" className="text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all group relative overflow-hidden">
                 <Link to="/shop-horizontal">
-                  Shop Now
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  <span className="relative z-10">Shop Now</span>
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform relative z-10" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary-light to-accent opacity-0 group-hover:opacity-100 transition-opacity" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="text-base">
+              <Button asChild variant="outline" size="lg" className="text-lg px-8 py-6 rounded-full glass-effect hover:bg-card/80 transition-all shadow-lg hover:shadow-xl border-2">
                 <Link to="/shop-list">Browse Products</Link>
               </Button>
             </div>
             
             {/* Enhanced Trust Indicators with Medical Icons */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 pt-12 border-t border-border/50 max-w-3xl mx-auto">
-              <div className="flex flex-col items-center gap-2 text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-colors">
-                <div className="p-3 bg-primary/10 rounded-full">
-                  <ShieldCheck className="h-6 w-6 text-primary" />
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 pt-16 max-w-5xl mx-auto">
+              <div className="group flex flex-col items-center gap-3 text-center p-6 rounded-2xl glass-effect hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-border/20">
+                <div className="p-4 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                  <ShieldCheck className="h-7 w-7 text-primary" />
                 </div>
-                <span className="text-sm font-medium">FDA Certified</span>
-                <span className="text-xs text-muted-foreground">Licensed Pharmacy</span>
+                <span className="text-sm font-bold text-foreground">FDA Certified</span>
+                <span className="text-xs text-muted-foreground leading-tight">Licensed Pharmacy</span>
               </div>
-              <div className="flex flex-col items-center gap-2 text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-colors">
-                <div className="p-3 bg-accent/10 rounded-full">
-                  <Pill className="h-6 w-6 text-accent" />
+              <div className="group flex flex-col items-center gap-3 text-center p-6 rounded-2xl glass-effect hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-border/20">
+                <div className="p-4 bg-gradient-to-br from-accent/20 to-accent/10 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                  <Pill className="h-7 w-7 text-accent" />
                 </div>
-                <span className="text-sm font-medium">Quality Meds</span>
-                <span className="text-xs text-muted-foreground">Verified Products</span>
+                <span className="text-sm font-bold text-foreground">Quality Meds</span>
+                <span className="text-xs text-muted-foreground leading-tight">Verified Products</span>
               </div>
-              <div className="flex flex-col items-center gap-2 text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-colors">
-                <div className="p-3 bg-primary/10 rounded-full">
-                  <TestTube className="h-6 w-6 text-primary" />
+              <div className="group flex flex-col items-center gap-3 text-center p-6 rounded-2xl glass-effect hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-border/20">
+                <div className="p-4 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                  <TestTube className="h-7 w-7 text-primary" />
                 </div>
-                <span className="text-sm font-medium">Lab Tested</span>
-                <span className="text-xs text-muted-foreground">Research Grade</span>
+                <span className="text-sm font-bold text-foreground">Lab Tested</span>
+                <span className="text-xs text-muted-foreground leading-tight">Research Grade</span>
               </div>
-              <div className="flex flex-col items-center gap-2 text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm hover:bg-card/80 transition-colors">
-                <div className="p-3 bg-accent/10 rounded-full">
-                  <Truck className="h-6 w-6 text-accent" />
+              <div className="group flex flex-col items-center gap-3 text-center p-6 rounded-2xl glass-effect hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-border/20">
+                <div className="p-4 bg-gradient-to-br from-accent/20 to-accent/10 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-inner">
+                  <Truck className="h-7 w-7 text-accent" />
                 </div>
-                <span className="text-sm font-medium">Fast Delivery</span>
-                <span className="text-xs text-muted-foreground">2-3 Days</span>
+                <span className="text-sm font-bold text-foreground">Fast Delivery</span>
+                <span className="text-xs text-muted-foreground leading-tight">2-3 Days</span>
               </div>
             </div>
             
             {/* Medical Services Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-8 max-w-3xl mx-auto">
-              <div className="flex items-center gap-3 p-3 rounded-lg bg-card/30 backdrop-blur-sm">
-                <Activity className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-sm text-foreground">Health Monitoring</span>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 pt-12 max-w-4xl mx-auto">
+              <div className="flex items-center gap-3 p-4 rounded-xl glass-effect border border-border/20 hover:border-primary/30 transition-all hover:scale-105 group">
+                <Activity className="h-5 w-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-foreground">Health Monitoring</span>
               </div>
-              <div className="flex items-center gap-3 p-3 rounded-lg bg-card/30 backdrop-blur-sm">
-                <Stethoscope className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-sm text-foreground">Expert Consultation</span>
+              <div className="flex items-center gap-3 p-4 rounded-xl glass-effect border border-border/20 hover:border-accent/30 transition-all hover:scale-105 group">
+                <Stethoscope className="h-5 w-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-foreground">Expert Consultation</span>
               </div>
-              <div className="flex items-center gap-3 p-3 rounded-lg bg-card/30 backdrop-blur-sm">
-                <Microscope className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-sm text-foreground">Lab Services</span>
+              <div className="flex items-center gap-3 p-4 rounded-xl glass-effect border border-border/20 hover:border-primary/30 transition-all hover:scale-105 group">
+                <Microscope className="h-5 w-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-foreground">Lab Services</span>
               </div>
-              <div className="flex items-center gap-3 p-3 rounded-lg bg-card/30 backdrop-blur-sm">
-                <Heart className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-sm text-foreground">Patient Care</span>
+              <div className="flex items-center gap-3 p-4 rounded-xl glass-effect border border-border/20 hover:border-accent/30 transition-all hover:scale-105 group">
+                <Heart className="h-5 w-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-foreground">Patient Care</span>
               </div>
-              <div className="flex items-center gap-3 p-3 rounded-lg bg-card/30 backdrop-blur-sm">
-                <Clock className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-sm text-foreground">24/7 Support</span>
+              <div className="flex items-center gap-3 p-4 rounded-xl glass-effect border border-border/20 hover:border-primary/30 transition-all hover:scale-105 group">
+                <Clock className="h-5 w-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-foreground">24/7 Support</span>
               </div>
-              <div className="flex items-center gap-3 p-3 rounded-lg bg-card/30 backdrop-blur-sm">
-                <Cross className="h-5 w-5 text-accent flex-shrink-0" />
-                <span className="text-sm text-foreground">Emergency Ready</span>
+              <div className="flex items-center gap-3 p-4 rounded-xl glass-effect border border-border/20 hover:border-accent/30 transition-all hover:scale-105 group">
+                <Cross className="h-5 w-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="text-sm font-medium text-foreground">Emergency Ready</span>
               </div>
             </div>
             
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 md:gap-8 pt-8 max-w-2xl mx-auto">
-              <div className="text-center">
-                <p className="text-3xl md:text-4xl font-bold text-primary mb-1">4.9</p>
-                <p className="text-sm text-muted-foreground">Average Rating</p>
+            <div className="grid grid-cols-3 gap-8 md:gap-12 pt-12 max-w-3xl mx-auto">
+              <div className="text-center p-6 rounded-2xl glass-effect border border-border/20 hover:border-primary/30 transition-all hover:scale-105 group">
+                <p className="text-4xl md:text-5xl font-black text-gradient mb-2 group-hover:scale-110 transition-transform inline-block">4.9</p>
+                <p className="text-sm font-medium text-muted-foreground">Average Rating</p>
               </div>
-              <div className="text-center">
-                <p className="text-3xl md:text-4xl font-bold text-primary mb-1">50K+</p>
-                <p className="text-sm text-muted-foreground">Happy Customers</p>
+              <div className="text-center p-6 rounded-2xl glass-effect border border-border/20 hover:border-accent/30 transition-all hover:scale-105 group">
+                <p className="text-4xl md:text-5xl font-black text-gradient mb-2 group-hover:scale-110 transition-transform inline-block">50K+</p>
+                <p className="text-sm font-medium text-muted-foreground">Happy Customers</p>
               </div>
-              <div className="text-center">
-                <p className="text-3xl md:text-4xl font-bold text-primary mb-1">12K+</p>
-                <p className="text-sm text-muted-foreground">Reviews</p>
+              <div className="text-center p-6 rounded-2xl glass-effect border border-border/20 hover:border-primary/30 transition-all hover:scale-105 group">
+                <p className="text-4xl md:text-5xl font-black text-gradient mb-2 group-hover:scale-110 transition-transform inline-block">12K+</p>
+                <p className="text-sm font-medium text-muted-foreground">Reviews</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      {/* Background Decoration */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-72 h-72 bg-accent/5 rounded-full blur-3xl" />
     </section>
   );
 };

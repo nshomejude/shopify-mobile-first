@@ -16,7 +16,7 @@ import { LabVerification } from "./pages/LabVerification";
 import { SafetyCompliance } from "./pages/SafetyCompliance";
 import { DrugInformation } from "./pages/DrugInformation";
 import { ProductDetail } from "./pages/ProductDetail";
-import { AgeVerificationModal } from "./components/shop/AgeVerificationModal";
+
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import Blog from "./pages/Blog";
@@ -30,7 +30,7 @@ const App = () => (
       <CartProvider>
         <Toaster />
         <Sonner />
-        <AgeVerificationModal />
+        
         <BrowserRouter>
           <CartSidebar />
           <Routes>

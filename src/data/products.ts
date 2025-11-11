@@ -1,3 +1,17 @@
+export interface MedicalInfo {
+  dosage: {
+    standard: string;
+    administration: string[];
+    specialPopulations?: string;
+  };
+  sideEffects: {
+    common: string[];
+    serious: string[];
+  };
+  contraindications: string[];
+  drugInteractions: string[];
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -15,6 +29,7 @@ export interface Product {
   strengthOptions?: string[];
   formOptions?: string[];
   tags?: string[];
+  medicalInfo?: MedicalInfo;
 }
 
 export const products: Product[] = [
@@ -35,7 +50,34 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["325mg", "500mg", "650mg"],
     formOptions: ["Tablet", "Capsule", "Liquid"],
-    tags: ["pain-relief", "fever"]
+    tags: ["pain-relief", "fever"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 325-650mg every 4-6 hours as needed. Maximum 4000mg per day.",
+        administration: [
+          "Take with or without food",
+          "Swallow tablets whole with water",
+          "For liquid form, use measuring device provided",
+          "Do not exceed recommended dosage"
+        ],
+        specialPopulations: "Reduced doses for liver disease. Children: dose based on weight (10-15mg/kg every 4-6 hours)."
+      },
+      sideEffects: {
+        common: ["Nausea", "Stomach upset", "Headache"],
+        serious: ["Severe allergic reactions (rash, itching, swelling)", "Liver damage with overdose", "Dark urine or yellowing of skin/eyes", "Unusual bleeding or bruising"]
+      },
+      contraindications: [
+        "Severe liver disease or liver failure",
+        "Known hypersensitivity to acetaminophen",
+        "Active alcohol use disorder"
+      ],
+      drugInteractions: [
+        "Warfarin - may increase bleeding risk",
+        "Alcohol - increases risk of liver damage",
+        "Other acetaminophen-containing products - risk of overdose",
+        "Carbamazepine, phenytoin - may reduce effectiveness"
+      ]
+    }
   },
   {
     id: "rx-002",
@@ -51,7 +93,38 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["200mg", "400mg", "600mg", "800mg"],
     formOptions: ["Tablet", "Capsule"],
-    tags: ["pain-relief", "anti-inflammatory"]
+    tags: ["pain-relief", "anti-inflammatory"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 200-400mg every 4-6 hours. Maximum 1200mg daily (OTC) or 3200mg daily (prescription).",
+        administration: [
+          "Take with food or milk to reduce stomach upset",
+          "Swallow tablets whole with full glass of water",
+          "Do not lie down for 10 minutes after taking",
+          "Use lowest effective dose for shortest duration"
+        ],
+        specialPopulations: "Avoid in third trimester of pregnancy. Reduce dose in elderly and renal impairment."
+      },
+      sideEffects: {
+        common: ["Upset stomach", "Heartburn", "Nausea", "Dizziness", "Mild headache"],
+        serious: ["GI bleeding or ulcers", "Heart attack or stroke", "Severe allergic reactions", "Kidney problems", "Liver damage", "High blood pressure"]
+      },
+      contraindications: [
+        "History of peptic ulcer or GI bleeding",
+        "Severe heart failure",
+        "Active inflammatory bowel disease",
+        "Third trimester of pregnancy",
+        "Allergy to NSAIDs or aspirin"
+      ],
+      drugInteractions: [
+        "Aspirin - may reduce cardioprotective effect",
+        "Warfarin, anticoagulants - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced effectiveness, kidney issues",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased toxicity",
+        "Corticosteroids - increased GI bleeding risk"
+      ]
+    }
   },
   {
     id: "rx-003",
@@ -67,7 +140,38 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["220mg", "375mg", "500mg"],
     formOptions: ["Tablet"],
-    tags: ["pain-relief", "anti-inflammatory"]
+    tags: ["pain-relief", "anti-inflammatory"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 220-550mg twice daily. Maximum 1500mg per day.",
+        administration: [
+          "Take with food or antacid to minimize GI upset",
+          "Swallow tablet whole with full glass of water",
+          "Take at same times each day for chronic conditions",
+          "May take 2 weeks for full anti-inflammatory effect"
+        ],
+        specialPopulations: "Avoid in pregnancy, especially third trimester. Reduce dose in elderly patients and those with kidney disease."
+      },
+      sideEffects: {
+        common: ["Heartburn", "Stomach pain", "Nausea", "Headache", "Dizziness", "Drowsiness"],
+        serious: ["Stomach/intestinal bleeding", "Heart attack or stroke", "Kidney failure", "Severe skin reactions", "Liver problems"]
+      },
+      contraindications: [
+        "History of asthma, urticaria with NSAIDs",
+        "Active peptic ulcer disease",
+        "Severe renal or hepatic impairment",
+        "Post-CABG surgery",
+        "Third trimester pregnancy"
+      ],
+      drugInteractions: [
+        "Anticoagulants (warfarin) - increased bleeding risk",
+        "Aspirin - reduced cardiovascular protective effect",
+        "SSRIs - increased GI bleeding risk",
+        "ACE inhibitors/ARBs - reduced antihypertensive effect",
+        "Methotrexate - increased toxicity",
+        "Cyclosporine - increased nephrotoxicity"
+      ]
+    }
   },
   {
     id: "rx-004",
@@ -116,7 +220,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["pain-relief", "opioid", "controlled"]
+    tags: ["pain-relief", "opioid", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 50-100mg every 4-6 hours as needed. Maximum 400mg per day. Start with lowest dose.",
+        administration: [
+          "Take with or without food",
+          "Swallow tablets whole, do not crush or break",
+          "For extended-release: take once daily at same time",
+          "Taper dose gradually when discontinuing after long-term use"
+        ],
+        specialPopulations: "Avoid in children under 12. Reduce dose in elderly, renal or hepatic impairment. Not recommended during pregnancy or breastfeeding."
+      },
+      sideEffects: {
+        common: ["Dizziness", "Nausea", "Constipation", "Headache", "Drowsiness", "Dry mouth"],
+        serious: ["Respiratory depression", "Seizures", "Serotonin syndrome", "Severe allergic reactions", "Addiction and dependence", "Withdrawal symptoms"]
+      },
+      contraindications: [
+        "Acute intoxication with alcohol, hypnotics, or opioids",
+        "Severe respiratory depression",
+        "Uncontrolled epilepsy or seizure disorder",
+        "Use of MAOIs within 14 days",
+        "Children under 12 years"
+      ],
+      drugInteractions: [
+        "MAOIs - risk of serotonin syndrome",
+        "SSRIs, SNRIs - increased seizure risk and serotonin syndrome",
+        "CNS depressants (benzodiazepines, alcohol) - enhanced sedation and respiratory depression",
+        "Carbamazepine - reduced tramadol effectiveness",
+        "Warfarin - may increase bleeding risk",
+        "CYP2D6 inhibitors (quinidine, fluoxetine) - altered tramadol metabolism"
+      ]
+    }
   },
   {
     id: "rx-007",
@@ -301,7 +436,39 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
-    tags: ["depression", "anxiety", "ssri"]
+    tags: ["depression", "anxiety", "ssri"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Start 50mg once daily. May increase by 50mg increments weekly. Maximum 200mg daily.",
+        administration: [
+          "Take once daily, morning or evening",
+          "Can be taken with or without food",
+          "Swallow tablet whole with water",
+          "May take 4-6 weeks for full therapeutic effect",
+          "Do not stop abruptly - taper dose gradually"
+        ],
+        specialPopulations: "Children 6-12: start 25mg daily. Elderly: use lower doses. Avoid in pregnancy first trimester; weigh risks/benefits in later pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Diarrhea", "Insomnia", "Drowsiness", "Dry mouth", "Sexual dysfunction", "Increased sweating", "Tremor"],
+        serious: ["Serotonin syndrome", "Increased suicidal thoughts (especially in young adults)", "Severe allergic reactions", "Seizures", "Abnormal bleeding", "Hyponatremia", "QT prolongation"]
+      },
+      contraindications: [
+        "Use of MAOIs within 14 days",
+        "Use of pimozide",
+        "Hypersensitivity to sertraline",
+        "Concurrent use with disulfiram (liquid formulation)"
+      ],
+      drugInteractions: [
+        "MAOIs - risk of serotonin syndrome (contraindicated)",
+        "Other serotonergic drugs (tramadol, triptans) - increased serotonin syndrome risk",
+        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
+        "Pimozide - QT prolongation",
+        "Tricyclic antidepressants - increased TCA levels",
+        "Benzodiazepines - may increase sedation",
+        "Alcohol - avoid concurrent use"
+      ]
+    }
   },
   {
     id: "rx-018",
@@ -691,7 +858,41 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["500mg", "850mg", "1000mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["diabetes", "blood-sugar"]
+    tags: ["diabetes", "blood-sugar"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Start 500mg twice daily or 850mg once daily with meals. Gradually increase. Maximum 2550mg daily in divided doses.",
+        administration: [
+          "Take with meals to reduce GI side effects",
+          "Swallow extended-release tablets whole, do not crush or chew",
+          "For immediate-release: take 2-3 times daily with meals",
+          "Increase dose gradually every 1-2 weeks as tolerated",
+          "Monitor blood glucose regularly"
+        ],
+        specialPopulations: "Not recommended for children under 10. Elderly: use conservative dosing and monitor renal function. Contraindicated in severe renal impairment (eGFR <30)."
+      },
+      sideEffects: {
+        common: ["Diarrhea", "Nausea", "Upset stomach", "Gas", "Bloating", "Loss of appetite", "Metallic taste"],
+        serious: ["Lactic acidosis (rare but serious)", "Vitamin B12 deficiency with long-term use", "Hypoglycemia (especially with other diabetes meds)", "Severe allergic reactions"]
+      },
+      contraindications: [
+        "Severe renal impairment (eGFR <30 mL/min/1.73m²)",
+        "Acute or chronic metabolic acidosis",
+        "Diabetic ketoacidosis",
+        "Severe hepatic impairment",
+        "Acute heart failure or unstable heart failure",
+        "Conditions predisposing to lactic acidosis"
+      ],
+      drugInteractions: [
+        "Contrast dyes (iodinated) - hold metformin 48hrs before/after procedure",
+        "Alcohol - increases lactic acidosis risk",
+        "Cimetidine - increases metformin levels",
+        "Insulin, sulfonylureas - increased hypoglycemia risk",
+        "Carbonic anhydrase inhibitors - increased lactic acidosis risk",
+        "Diuretics - may affect kidney function and metformin clearance",
+        "Corticosteroids - may reduce glucose-lowering effect"
+      ]
+    }
   },
   {
     id: "rx-041",

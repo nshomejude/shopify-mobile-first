@@ -370,40 +370,47 @@ export const ProductDetail = () => {
                   <div>
                     <h4 className="font-semibold mb-2">Standard Adult Dosage</h4>
                     <p className="text-muted-foreground">
-                      The typical starting dose is determined based on the condition being treated, patient age, weight, 
-                      and other medications being taken. Your healthcare provider will prescribe the appropriate dosage for your specific situation.
+                      {product.medicalInfo?.dosage.standard || "The typical starting dose is determined based on the condition being treated, patient age, weight, and other medications being taken. Your healthcare provider will prescribe the appropriate dosage for your specific situation."}
                     </p>
                   </div>
 
                   <div>
                     <h4 className="font-semibold mb-2">How to Take</h4>
-                    <ul className="space-y-2 text-muted-foreground">
-                      <li className="flex items-start gap-2">
-                        <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span>Take at the same time each day to maintain consistent levels</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span>Can be taken with or without food unless otherwise directed</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span>Swallow tablets whole with water; do not crush or chew</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span>If you miss a dose, take it as soon as you remember unless it's almost time for the next dose</span>
-                      </li>
-                    </ul>
+                    {product.medicalInfo?.dosage.administration && product.medicalInfo.dosage.administration.length > 0 ? (
+                      <ul className="space-y-2 text-muted-foreground">
+                        {product.medicalInfo.dosage.administration.map((instruction, index) => (
+                          <li key={index} className="flex items-start gap-2">
+                            <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                            <span>{instruction}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <ul className="space-y-2 text-muted-foreground">
+                        <li className="flex items-start gap-2">
+                          <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                          <span>Take at the same time each day to maintain consistent levels</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                          <span>Can be taken with or without food unless otherwise directed</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Clock className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                          <span>Swallow tablets whole with water; do not crush or chew</span>
+                        </li>
+                      </ul>
+                    )}
                   </div>
 
-                  <div>
-                    <h4 className="font-semibold mb-2">Special Populations</h4>
-                    <p className="text-muted-foreground">
-                      Dosage adjustments may be necessary for elderly patients, those with kidney or liver impairment, 
-                      or individuals taking certain other medications. Consult your healthcare provider for personalized guidance.
-                    </p>
-                  </div>
+                  {product.medicalInfo?.dosage.specialPopulations && (
+                    <div>
+                      <h4 className="font-semibold mb-2">Special Populations</h4>
+                      <p className="text-muted-foreground">
+                        {product.medicalInfo.dosage.specialPopulations}
+                      </p>
+                    </div>
+                  )}
                 </div>
               </TabsContent>
 
@@ -420,13 +427,20 @@ export const ProductDetail = () => {
                 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-semibold mb-3 text-amber-600">Common Side Effects (may affect up to 1 in 10 people)</h4>
-                    <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                      <li>Mild headache or dizziness</li>
-                      <li>Nausea or stomach upset</li>
-                      <li>Temporary drowsiness or fatigue</li>
-                      <li>Dry mouth</li>
-                    </ul>
+                    <h4 className="font-semibold mb-3 text-amber-600">Common Side Effects</h4>
+                    {product.medicalInfo?.sideEffects.common && product.medicalInfo.sideEffects.common.length > 0 ? (
+                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                        {product.medicalInfo.sideEffects.common.map((effect, index) => (
+                          <li key={index}>{effect}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                        <li>Mild headache or dizziness</li>
+                        <li>Nausea or stomach upset</li>
+                        <li>Temporary drowsiness or fatigue</li>
+                      </ul>
+                    )}
                     <p className="text-sm text-muted-foreground mt-3">
                       These side effects are usually mild and tend to improve as your body adjusts to the medication.
                     </p>
@@ -435,25 +449,20 @@ export const ProductDetail = () => {
                   <Separator />
 
                   <div>
-                    <h4 className="font-semibold mb-3 text-orange-600">Uncommon Side Effects (may affect up to 1 in 100 people)</h4>
-                    <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                      <li>Sleep disturbances</li>
-                      <li>Changes in appetite</li>
-                      <li>Minor skin reactions</li>
-                      <li>Muscle aches or weakness</li>
-                    </ul>
-                  </div>
-
-                  <Separator />
-
-                  <div>
-                    <h4 className="font-semibold mb-3 text-red-600">Serious Side Effects (rare but require immediate medical attention)</h4>
-                    <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                      <li>Severe allergic reactions (rash, swelling, difficulty breathing)</li>
-                      <li>Irregular heartbeat or chest pain</li>
-                      <li>Severe dizziness or fainting</li>
-                      <li>Signs of liver problems (yellowing of skin/eyes, dark urine)</li>
-                    </ul>
+                    <h4 className="font-semibold mb-3 text-red-600">Serious Side Effects (require immediate medical attention)</h4>
+                    {product.medicalInfo?.sideEffects.serious && product.medicalInfo.sideEffects.serious.length > 0 ? (
+                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                        {product.medicalInfo.sideEffects.serious.map((effect, index) => (
+                          <li key={index}>{effect}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                        <li>Severe allergic reactions (rash, swelling, difficulty breathing)</li>
+                        <li>Irregular heartbeat or chest pain</li>
+                        <li>Severe dizziness or fainting</li>
+                      </ul>
+                    )}
                   </div>
 
                   <Alert>
@@ -472,51 +481,53 @@ export const ProductDetail = () => {
                   <Alert variant="destructive">
                     <AlertTriangle className="h-4 w-4" />
                     <AlertDescription>
-                      <strong>Do not use this medication if you:</strong>
-                      <ul className="mt-2 space-y-1 ml-4 list-disc">
-                        <li>Are allergic to any of the ingredients</li>
-                        <li>Are pregnant or breastfeeding without consulting your doctor</li>
-                        <li>Have severe kidney or liver disease</li>
-                        <li>Are taking certain other medications (check with your pharmacist)</li>
-                      </ul>
+                      <strong>Contraindications - Do not use this medication if you have:</strong>
+                      {product.medicalInfo?.contraindications && product.medicalInfo.contraindications.length > 0 ? (
+                        <ul className="mt-2 space-y-1 ml-4 list-disc">
+                          {product.medicalInfo.contraindications.map((contraindication, index) => (
+                            <li key={index}>{contraindication}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <ul className="mt-2 space-y-1 ml-4 list-disc">
+                          <li>Known allergy to this medication or its ingredients</li>
+                          <li>Severe kidney or liver disease</li>
+                          <li>Certain medical conditions as advised by your doctor</li>
+                        </ul>
+                      )}
                     </AlertDescription>
                   </Alert>
 
                   <div>
-                    <h4 className="font-semibold mb-3">Before Taking This Medication</h4>
-                    <p className="text-muted-foreground mb-3">
-                      Inform your healthcare provider about all your medical conditions, including:
-                    </p>
-                    <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                      <li>Heart conditions or high blood pressure</li>
-                      <li>Kidney or liver problems</li>
-                      <li>Diabetes or blood sugar issues</li>
-                      <li>Mental health conditions</li>
-                      <li>Any allergies</li>
-                      <li>If you are pregnant, planning to become pregnant, or breastfeeding</li>
-                    </ul>
-                  </div>
-
-                  <div>
                     <h4 className="font-semibold mb-3">Drug Interactions</h4>
                     <p className="text-muted-foreground mb-3">
-                      This medication may interact with other drugs. Tell your doctor about all medications you take, including:
+                      This medication may interact with the following:
                     </p>
-                    <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                      <li>Prescription medications</li>
-                      <li>Over-the-counter drugs</li>
-                      <li>Vitamins and supplements</li>
-                      <li>Herbal products</li>
-                    </ul>
+                    {product.medicalInfo?.drugInteractions && product.medicalInfo.drugInteractions.length > 0 ? (
+                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                        {product.medicalInfo.drugInteractions.map((interaction, index) => (
+                          <li key={index}>{interaction}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                        <li>Other prescription medications</li>
+                        <li>Over-the-counter drugs and supplements</li>
+                        <li>Herbal products</li>
+                      </ul>
+                    )}
+                    <p className="text-sm text-muted-foreground mt-3">
+                      Always inform your healthcare provider about all medications you are taking.
+                    </p>
                   </div>
 
                   <div>
                     <h4 className="font-semibold mb-3">Storage & Handling</h4>
                     <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                      <li>Store at room temperature away from moisture and heat</li>
+                      <li>Store at room temperature (15-30°C) away from moisture and heat</li>
                       <li>Keep out of reach of children and pets</li>
                       <li>Do not use after expiration date</li>
-                      <li>Dispose of unused medication properly</li>
+                      <li>Dispose of unused medication properly at a pharmacy or designated collection site</li>
                     </ul>
                   </div>
                 </div>

@@ -9,8 +9,11 @@ import { Input } from "@/components/ui/input";
 import { Search, ChevronLeft, ChevronRight } from "lucide-react";
 import { products } from "@/data/products";
 import { useProductFilters } from "@/hooks/useProductFilters";
+import { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
 const ShopHorizontal = () => {
+  const [searchParams] = useSearchParams();
   const {
     filters,
     updateFilter,
@@ -21,6 +24,24 @@ const ShopHorizontal = () => {
     resultCount,
     totalCount
   } = useProductFilters(products);
+
+  // Apply URL params on mount
+  useEffect(() => {
+    const search = searchParams.get("search");
+    const category = searchParams.get("category");
+    const minPrice = searchParams.get("minPrice");
+    const maxPrice = searchParams.get("maxPrice");
+    const prescription = searchParams.get("prescription");
+
+    if (search) updateFilter("searchQuery", search);
+    if (category) updateFilter("categories", [category]);
+    if (minPrice && maxPrice) updateFilter("priceRange", [Number(minPrice), Number(maxPrice)]);
+    if (prescription) {
+      updateFilter("requiresPrescription", 
+        prescription === "prescription" ? true : prescription === "no-prescription" ? false : null
+      );
+    }
+  }, [searchParams]);
 
   return (
     <div className="min-h-screen bg-background">

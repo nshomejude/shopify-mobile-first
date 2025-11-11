@@ -1,32 +1,33 @@
-import { useState } from "react";
 import { Navigation } from "@/components/shop/Navigation";
 import { WhyBuyFromUs } from "@/components/shop/WhyBuyFromUs";
+import { FilterSidebar } from "@/components/shop/FilterSidebar";
+import { MobileFilterDrawer } from "@/components/shop/MobileFilterDrawer";
+import { SortDropdown } from "@/components/shop/SortDropdown";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Label } from "@/components/ui/label";
-import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { Star, ShoppingCart, Info, Package, Search } from "lucide-react";
 import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
+import { useProductFilters } from "@/hooks/useProductFilters";
 
 const ShopList = () => {
   const { addItem } = useCart();
   const navigate = useNavigate();
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   
-  const filteredProducts = products.filter((product) => {
-    const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         product.description.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesCategory = selectedCategories.length === 0 || 
-                           selectedCategories.includes(product.subcategory || "");
-    return matchesSearch && matchesCategory;
-  });
+  const {
+    filters,
+    updateFilter,
+    resetFilters,
+    toggleCategory,
+    filteredAndSortedProducts,
+    uniqueCategories,
+    resultCount,
+    totalCount
+  } = useProductFilters(products);
 
   const handleAddToCart = (product: Product) => {
     addItem({
@@ -40,8 +41,6 @@ const ShopList = () => {
       description: `${product.name} has been added to your cart.`,
     });
   };
-
-  const categories = Array.from(new Set(products.map(p => p.subcategory).filter(Boolean)));
 
   return (
     <div className="min-h-screen bg-background">
@@ -57,94 +56,48 @@ const ShopList = () => {
               type="search"
               placeholder="Search products..."
               className="pl-10 h-12"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              value={filters.searchQuery}
+              onChange={(e) => updateFilter("searchQuery", e.target.value)}
             />
           </div>
         </div>
 
+        {/* Mobile Filter Drawer */}
+        <MobileFilterDrawer
+          filters={filters}
+          categories={uniqueCategories}
+          onFilterChange={updateFilter}
+          onToggleCategory={toggleCategory}
+          onReset={resetFilters}
+        />
+
         <div className="flex gap-6">
-          {/* Enhanced Sidebar */}
-          <aside className="hidden lg:block w-72 space-y-4">
-            <Card className="p-6 sticky top-4 bg-card shadow-card">
-              <h3 className="text-lg font-bold mb-4">Refine Results</h3>
-              
-              <div className="space-y-5">
-                <div>
-                  <Label className="text-sm font-semibold mb-3 block">Categories</Label>
-                  <div className="space-y-2">
-                    {categories.map((cat) => (
-                      <div key={cat} className="flex items-center space-x-2">
-                        <Checkbox 
-                          id={`list-${cat}`}
-                          checked={selectedCategories.includes(cat)}
-                          onCheckedChange={(checked) => {
-                            setSelectedCategories(
-                              checked 
-                                ? [...selectedCategories, cat]
-                                : selectedCategories.filter(c => c !== cat)
-                            );
-                          }}
-                        />
-                        <label htmlFor={`list-${cat}`} className="text-sm cursor-pointer">
-                          {cat}
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <Separator />
-
-                <div>
-                  <Label className="text-sm font-semibold mb-3 block">Price</Label>
-                  <div className="space-y-2">
-                    {["Under $20", "$20 - $40", "$40 - $60", "Over $60"].map((range) => (
-                      <div key={range} className="flex items-center space-x-2">
-                        <Checkbox id={range} />
-                        <label htmlFor={range} className="text-sm cursor-pointer">
-                          {range}
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <Separator />
-
-                <div>
-                  <Label className="text-sm font-semibold mb-3 block">Rating</Label>
-                  <div className="space-y-2">
-                    {[5, 4, 3].map((stars) => (
-                      <div key={stars} className="flex items-center space-x-2">
-                        <Checkbox id={`${stars}-stars`} />
-                        <label htmlFor={`${stars}-stars`} className="text-sm cursor-pointer flex items-center">
-                          <div className="flex">
-                            {[...Array(stars)].map((_, i) => (
-                              <Star key={i} className="w-3 h-3 fill-warning text-warning" />
-                            ))}
-                          </div>
-                          <span className="ml-1">& Up</span>
-                        </label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </Card>
-          </aside>
+          {/* Desktop Sidebar */}
+          <FilterSidebar
+            filters={filters}
+            categories={uniqueCategories}
+            onFilterChange={updateFilter}
+            onToggleCategory={toggleCategory}
+            onReset={resetFilters}
+          />
 
           {/* List View Products */}
           <div className="flex-1">
-            <div className="mb-6">
-              <h2 className="text-2xl font-bold mb-2">All Products</h2>
-              <p className="text-sm text-muted-foreground">
-                Showing {filteredProducts.length} of {products.length} results
-              </p>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+              <div>
+                <h2 className="text-2xl font-bold mb-1">All Products</h2>
+                <p className="text-sm text-muted-foreground">
+                  Showing {resultCount} of {totalCount} results
+                </p>
+              </div>
+              <SortDropdown
+                value={filters.sortBy}
+                onChange={(value) => updateFilter("sortBy", value)}
+              />
             </div>
 
             <div className="space-y-4">
-              {filteredProducts.map((product) => (
+              {filteredAndSortedProducts.map((product) => (
                 <Card key={product.id} className="overflow-hidden hover:shadow-lg transition-shadow bg-card cursor-pointer">
                   <div className="flex flex-col md:flex-row gap-4 p-4 md:p-6">
                     {/* Image */}
@@ -256,14 +209,25 @@ const ShopList = () => {
               ))}
             </div>
 
+            {filteredAndSortedProducts.length === 0 && (
+              <div className="text-center py-12">
+                <p className="text-lg text-muted-foreground">No products found matching your filters.</p>
+                <Button onClick={resetFilters} className="mt-4">
+                  Clear Filters
+                </Button>
+              </div>
+            )}
+
             {/* Pagination */}
-            <div className="flex justify-center items-center gap-2 mt-8">
-              <Button variant="outline" disabled>Previous</Button>
-              <Button variant="default">1</Button>
-              <Button variant="outline">2</Button>
-              <Button variant="outline">3</Button>
-              <Button variant="outline">Next</Button>
-            </div>
+            {filteredAndSortedProducts.length > 12 && (
+              <div className="flex justify-center items-center gap-2 mt-8">
+                <Button variant="outline" disabled>Previous</Button>
+                <Button variant="default">1</Button>
+                <Button variant="outline">2</Button>
+                <Button variant="outline">3</Button>
+                <Button variant="outline">Next</Button>
+              </div>
+            )}
           </div>
         </div>
       </section>

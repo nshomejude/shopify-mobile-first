@@ -1,26 +1,33 @@
-import { useState } from "react";
 import { Navigation } from "@/components/shop/Navigation";
 import { WhyBuyFromUs } from "@/components/shop/WhyBuyFromUs";
+import { FilterSidebar } from "@/components/shop/FilterSidebar";
+import { MobileFilterDrawer } from "@/components/shop/MobileFilterDrawer";
+import { SortDropdown } from "@/components/shop/SortDropdown";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Star, ShoppingCart, Heart, Eye, Search } from "lucide-react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
+import { useProductFilters } from "@/hooks/useProductFilters";
 
 const ShopLarge = () => {
   const { addItem } = useCart();
   const navigate = useNavigate();
-  const [searchQuery, setSearchQuery] = useState("");
   
-  const filteredProducts = products.filter((product) => {
-    return product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-           product.description.toLowerCase().includes(searchQuery.toLowerCase());
-  });
+  const {
+    filters,
+    updateFilter,
+    resetFilters,
+    toggleCategory,
+    filteredAndSortedProducts,
+    uniqueCategories,
+    resultCount,
+    totalCount
+  } = useProductFilters(products);
 
   const handleAddToCart = (product: Product) => {
     addItem({
@@ -43,41 +50,56 @@ const ShopLarge = () => {
       <section className="container mx-auto px-4 py-6 md:py-8">
         {/* Search Bar */}
         <div className="mb-6">
-          <div className="relative max-w-xl">
+          <div className="relative max-w-xl mx-auto">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
             <Input
               type="search"
-              placeholder="Search products..."
+              placeholder="Search medicines, supplements, and more..."
               className="pl-10 h-12"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              value={filters.searchQuery}
+              onChange={(e) => updateFilter("searchQuery", e.target.value)}
             />
           </div>
         </div>
-        {/* Header with Sort */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-2">Featured Products</h2>
-            <p className="text-sm text-muted-foreground">
-              Showing {filteredProducts.length} of {products.length} products
-            </p>
-          </div>
-          <Select defaultValue="featured">
-            <SelectTrigger className="w-full sm:w-[200px]">
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="featured">Featured</SelectItem>
-              <SelectItem value="price-low">Price: Low to High</SelectItem>
-              <SelectItem value="price-high">Price: High to Low</SelectItem>
-              <SelectItem value="rating">Best Rating</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
 
-        {/* Large Product Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {filteredProducts.map((product) => (
+        {/* Mobile Filter Drawer */}
+        <MobileFilterDrawer
+          filters={filters}
+          categories={uniqueCategories}
+          onFilterChange={updateFilter}
+          onToggleCategory={toggleCategory}
+          onReset={resetFilters}
+        />
+
+        <div className="flex gap-6">
+          {/* Desktop Sidebar */}
+          <FilterSidebar
+            filters={filters}
+            categories={uniqueCategories}
+            onFilterChange={updateFilter}
+            onToggleCategory={toggleCategory}
+            onReset={resetFilters}
+          />
+
+          {/* Results and Product Grid */}
+          <div className="flex-1">
+            {/* Header with Sort */}
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">Featured Products</h2>
+                <p className="text-sm text-muted-foreground">
+                  Showing {resultCount} of {totalCount} products
+                </p>
+              </div>
+              <SortDropdown
+                value={filters.sortBy}
+                onChange={(value) => updateFilter("sortBy", value)}
+              />
+            </div>
+
+            {/* Large Product Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {filteredAndSortedProducts.slice(0, 12).map((product) => (
             <Card key={product.id} className="group overflow-hidden bg-card hover:shadow-xl transition-all duration-300 cursor-pointer">
               <div 
                 className="relative aspect-square overflow-hidden bg-muted"
@@ -159,14 +181,27 @@ const ShopLarge = () => {
                 </Button>
               </div>
             </Card>
-          ))}
-        </div>
+              ))}
+            </div>
 
-        {/* Load More */}
-        <div className="flex justify-center mt-10">
-          <Button size="lg" variant="outline" className="min-w-[200px]">
-            Load More Products
-          </Button>
+            {filteredAndSortedProducts.length === 0 && (
+              <div className="text-center py-12">
+                <p className="text-lg text-muted-foreground">No products found matching your filters.</p>
+                <Button onClick={resetFilters} className="mt-4">
+                  Clear Filters
+                </Button>
+              </div>
+            )}
+
+            {/* Load More */}
+            {filteredAndSortedProducts.length > 12 && (
+              <div className="flex justify-center mt-10">
+                <Button size="lg" variant="outline" className="min-w-[200px]">
+                  Load More Products
+                </Button>
+              </div>
+            )}
+          </div>
         </div>
       </section>
     </div>

@@ -18,6 +18,7 @@ import { TermsOfService } from "./pages/TermsOfService";
 import { DrugInformation } from "./pages/DrugInformation";
 import { DrugInteractionChecker } from "./pages/DrugInteractionChecker";
 import { ProductDetail } from "./pages/ProductDetail";
+import { ProductDistributionReport } from "./pages/ProductDistributionReport";
 
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/faq" element={<FAQ />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/categories" element={<CategoriesDirectory />} />
+            <Route path="/product-distribution-report" element={<ProductDistributionReport />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

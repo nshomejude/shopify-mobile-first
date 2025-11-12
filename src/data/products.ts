@@ -1724,6 +1724,102 @@ export const products: Product[] = [
       ]
     }
   },
+  {
+    id: "rx-034a",
+    name: "Zaleplon (Sonata)",
+    description: "Fast-acting hypnotic for difficulty falling asleep",
+    price: 46.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "sleep-aids",
+    inStock: true,
+    rating: 4.4,
+    reviews: 312,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg"],
+    formOptions: ["Capsule"],
+    tags: ["insomnia", "sleep", "sleep-onset", "hypnotic"],
+    variationPrices: {
+      minPrice: 46.00,
+      maxPrice: 58.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 10mg at bedtime. Elderly/low weight: 5mg at bedtime. Maximum 20mg for occasional patients.",
+        administration: [
+          "Take immediately before bedtime or after going to bed with difficulty falling asleep",
+          "Ensure at least 4 hours available for sleep",
+          "Can be taken with light meal but onset may be delayed",
+          "Short-term use only (7-10 days)"
+        ],
+        specialPopulations: "5mg for elderly, hepatic impairment, or concurrent CNS depressants. Not recommended in pregnancy or severe renal impairment."
+      },
+      sideEffects: {
+        common: ["Dizziness", "Headache", "Drowsiness", "Nausea", "Weakness"],
+        serious: ["Complex sleep behaviors", "Amnesia", "Hallucinations", "Abnormal thinking", "Anxiety", "Depression", "Dependence"]
+      },
+      contraindications: [
+        "Known hypersensitivity to zaleplon",
+        "Severe hepatic impairment"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, benzodiazepines, alcohol) - enhanced sedation",
+        "CYP3A4 inhibitors (ketoconazole, erythromycin) - increased zaleplon levels",
+        "Rifampin - significantly decreased zaleplon efficacy",
+        "Cimetidine - increased zaleplon concentrations",
+        "Food - delays absorption"
+      ]
+    }
+  },
+  {
+    id: "rx-034b",
+    name: "Doxepin (Silenor)",
+    description: "Low-dose antidepressant approved for sleep maintenance insomnia",
+    price: 41.50,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "sleep-aids",
+    inStock: true,
+    rating: 4.3,
+    reviews: 267,
+    requiresPrescription: true,
+    strengthOptions: ["3mg", "6mg"],
+    formOptions: ["Tablet"],
+    tags: ["insomnia", "sleep-maintenance", "sleep", "antidepressant"],
+    variationPrices: {
+      minPrice: 41.50,
+      maxPrice: 52.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 6mg at bedtime (30 minutes before). Elderly: 3mg initially. Maximum 6mg.",
+        administration: [
+          "Take within 30 minutes of bedtime",
+          "Do NOT take within 3 hours of a meal",
+          "Swallow tablets whole with water",
+          "Can be used longer-term unlike traditional sleep aids"
+        ],
+        specialPopulations: "3mg for elderly (≥65 years). Use caution in hepatic impairment. Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Nausea", "Upper respiratory infection", "Sedation"],
+        serious: ["Worsening depression", "Suicidal thoughts", "Severe allergic reactions", "Urinary retention", "Narrow-angle glaucoma exacerbation"]
+      },
+      contraindications: [
+        "Untreated narrow-angle glaucoma",
+        "Severe urinary retention",
+        "Known hypersensitivity to doxepin or tricyclic antidepressants",
+        "Concurrent use or within 14 days of MAO inhibitors"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - potentially fatal interaction, contraindicated",
+        "CNS depressants (alcohol, sedatives) - enhanced sedation",
+        "CYP2D6 inhibitors (fluoxetine, paroxetine) - increased doxepin levels",
+        "Cimetidine - increased doxepin concentrations",
+        "Tolazamide - severe hypoglycemia reported"
+      ]
+    }
+  },
 
   // ADHD Medications (35-38)
   {

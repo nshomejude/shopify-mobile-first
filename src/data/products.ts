@@ -3474,7 +3474,7 @@ export const products: Product[] = [
         "Women who are or may become pregnant",
         "Children",
         "Hypersensitivity to finasteride"
-      },
+      ],
       drugInteractions: [
         "Minimal drug interactions",
         "May affect PSA levels (decreases by ~50%)"
@@ -3611,7 +3611,7 @@ export const products: Product[] = [
         "Pregnancy",
         "Breastfeeding",
         "Hypersensitivity to GnRH agonists"
-      },
+      ],
       drugInteractions: [
         "Hyperprolactinemic drugs - may reduce efficacy",
         "QT-prolonging drugs - additive QT effects"
@@ -3658,7 +3658,7 @@ export const products: Product[] = [
         "Severe hepatic impairment",
         "Hypotension (<90/50 mmHg)",
         "Retinitis pigmentosa"
-      },
+      ],
       drugInteractions: [
         "Nitrates - severe hypotension (contraindicated)",
         "Alpha-blockers - hypotension (use caution, separate timing)",

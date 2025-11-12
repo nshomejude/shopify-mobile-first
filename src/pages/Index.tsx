@@ -17,11 +17,35 @@ const Index = () => {
         <DemoModeBanner />
       </div>
       <Hero />
+      
+      {/* Subtle Section Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50" />
+      
       <CategoryShowcase />
+      
+      {/* Subtle Section Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50 my-12" />
+      
       <FeaturedCategories />
+      
+      {/* Subtle Section Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50 my-12" />
+      
       <FeaturedProducts />
+      
+      {/* Subtle Section Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50 my-12" />
+      
       <WhyBuyFromUs />
+      
+      {/* Subtle Section Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50 my-12" />
+      
       <Testimonials />
+      
+      {/* Subtle Section Divider */}
+      <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50 my-12" />
+      
       <Newsletter />
       <Footer />
     </div>

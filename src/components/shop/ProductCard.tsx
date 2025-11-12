@@ -32,6 +32,7 @@ export const ProductCard = ({
   const handleAddToCart = () => {
     addItem({
       id: parseInt(id.split("-")[1]) || 1,
+      productId: id,
       name,
       price,
       image,

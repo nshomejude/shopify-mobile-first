@@ -82,6 +82,7 @@ export const ProductDetail = () => {
   const handleAddToCart = () => {
     addItem({
       id: parseInt(product.id.split("-")[1]),
+      productId: product.id,
       name: product.name,
       price: product.price,
       image: product.image,

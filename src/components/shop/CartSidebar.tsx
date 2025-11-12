@@ -9,6 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
+import { DrugInteractionWarnings } from "./DrugInteractionWarnings";
 
 export const CartSidebar = () => {
   const { items, totalPrice, isOpen, setIsOpen, updateQuantity, removeItem, clearCart } = useCart();
@@ -86,6 +87,11 @@ export const CartSidebar = () => {
             </ScrollArea>
 
             <div className="border-t p-6 space-y-4">
+              <DrugInteractionWarnings 
+                productIds={items.map(item => item.productId)} 
+              />
+              
+              {items.some(item => item.productId) && <Separator />}
               <div className="flex items-center justify-between text-sm">
                 <span className="text-muted-foreground">Subtotal</span>
                 <span className="font-medium">${totalPrice.toFixed(2)}</span>

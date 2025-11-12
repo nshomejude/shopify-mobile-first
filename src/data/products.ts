@@ -6279,6 +6279,614 @@ export const products: Product[] = [
     demoMode: true
   },
   {
+    id: "rx-079o",
+    name: "Norethindrone",
+    description: "Progestin for contraception and menstrual disorders",
+    price: 22.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "contraceptives",
+    inStock: true,
+    rating: 4.6,
+    reviews: 523,
+    requiresPrescription: true,
+    strengthOptions: ["0.35mg", "5mg"],
+    formOptions: ["Tablet"],
+    tags: ["progestin", "contraceptive", "mini-pill", "hormone"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 32.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Contraception (mini-pill): 0.35mg daily at same time. Endometriosis/amenorrhea: 5mg daily for 14 days, then increase. Highly variable based on indication.",
+        administration: [
+          "Take at exact same time every day (±3 hours)",
+          "Start first day of menstrual period or immediately postpartum (non-breastfeeding)",
+          "Use backup contraception first 48 hours",
+          "No pill-free interval for mini-pill formulation"
+        ],
+        specialPopulations: "Safe during breastfeeding (mini-pill dose). Contraindicated in pregnancy, breast cancer, liver disease. Use caution with hypertension and diabetes."
+      },
+      sideEffects: {
+        common: ["Irregular bleeding/spotting", "Headache", "Breast tenderness", "Nausea", "Mood changes", "Acne", "Weight gain"],
+        serious: ["Ectopic pregnancy (contraceptive failure)", "Thromboembolism (rare with progestin-only)", "Hepatic adenoma", "Depression"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Known or suspected breast cancer",
+        "Undiagnosed vaginal bleeding",
+        "Active liver disease or tumors",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers (anticonvulsants, rifampin, St. John's Wort) - decreased contraceptive effectiveness",
+        "Griseofulvin - may reduce contraceptive efficacy",
+        "Lamotrigine - no significant interaction (unlike combined oral contraceptives)"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079p",
+    name: "Drospirenone/Ethinylestradiol (Yasmin)",
+    description: "Combined oral contraceptive with anti-androgenic progestin",
+    price: 34.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "contraceptives",
+    inStock: true,
+    rating: 4.7,
+    reviews: 892,
+    requiresPrescription: true,
+    strengthOptions: ["3mg/30mcg"],
+    formOptions: ["Tablet"],
+    tags: ["contraceptive", "combination-pill", "anti-androgenic", "acne"],
+    variationPrices: {
+      minPrice: 34.99,
+      maxPrice: 48.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "One active tablet daily for 21 days, followed by 7 placebo days (or 24 active + 4 placebo for some formulations). Start first day of period or first Sunday.",
+        administration: [
+          "Take at same time every day",
+          "Use backup contraception first 7 days",
+          "Follow missed pill guidelines carefully",
+          "Monitor potassium levels (drospirenone has anti-mineralocorticoid activity)"
+        ],
+        specialPopulations: "Contraindicated with renal/adrenal/hepatic insufficiency. Increased thrombosis risk in smokers >35 years. Not for breastfeeding (first 6 weeks)."
+      },
+      sideEffects: {
+        common: ["Nausea", "Breast tenderness", "Headache", "Mood changes", "Weight gain", "Irregular bleeding"],
+        serious: ["Venous thromboembolism", "Arterial thrombosis", "Hyperkalemia", "Stroke", "Myocardial infarction", "Gallbladder disease", "Hepatic adenomas"]
+      },
+      contraindications: [
+        "Renal insufficiency",
+        "Adrenal insufficiency",
+        "Severe hepatic disease",
+        "Smoking in women >35 years",
+        "Thromboembolic disorders or history",
+        "Migraine with aura",
+        "Pregnancy",
+        "Breast cancer"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers - decreased contraceptive effectiveness",
+        "ACE inhibitors, ARBs, potassium-sparing diuretics, NSAIDs - increased hyperkalemia risk",
+        "Lamotrigine - decreased lamotrigine levels",
+        "St. John's Wort - decreased effectiveness"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079q",
+    name: "Testosterone Patch (Transdermal)",
+    description: "Transdermal testosterone for hypogonadism and trans masculine HRT",
+    price: 128.99,
+    oldPrice: 248.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.5,
+    reviews: 234,
+    requiresPrescription: true,
+    strengthOptions: ["2mg/day", "4mg/day"],
+    formOptions: ["Transdermal Patch"],
+    tags: ["testosterone", "patch", "transgender", "hrt"],
+    variationPrices: {
+      minPrice: 128.99,
+      maxPrice: 178.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Apply one patch nightly to clean, dry skin. Start 2mg, may increase to 4mg based on testosterone levels. Apply to back, abdomen, upper arms, or thighs.",
+        administration: [
+          "Apply to clean, dry, intact skin",
+          "Rotate application sites",
+          "Apply at night (10 pm mimics natural rhythm)",
+          "Remove old patch before applying new one",
+          "Avoid swimming/bathing for 3 hours after application",
+          "Do not apply to scrotum"
+        ],
+        specialPopulations: "Contraindicated in breast/prostate cancer, pregnancy, breastfeeding. Monitor hematocrit, PSA (in natal males), lipids, liver function."
+      },
+      sideEffects: {
+        common: ["Application site reactions (itching, erythema)", "Acne", "Increased libido", "Mood changes", "Headache"],
+        serious: ["Polycythemia", "Sleep apnea", "Prostate hyperplasia/cancer", "Cardiovascular events", "Hepatotoxicity", "Thromboembolism"]
+      },
+      contraindications: [
+        "Breast cancer",
+        "Prostate cancer",
+        "Pregnancy and breastfeeding",
+        "Known hypersensitivity",
+        "Severe cardiac, hepatic, or renal disease"
+      ],
+      drugInteractions: [
+        "Warfarin - may enhance anticoagulant effect",
+        "Insulin/oral hypoglycemics - may decrease glucose, adjust doses",
+        "Corticosteroids - increased risk of edema"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079r",
+    name: "Menotropins (hMG)",
+    description: "Human menopausal gonadotropin for ovulation induction",
+    price: 328.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "fertility",
+    inStock: true,
+    rating: 4.6,
+    reviews: 145,
+    requiresPrescription: true,
+    strengthOptions: ["75 IU FSH + 75 IU LH"],
+    formOptions: ["Injectable (for reconstitution)"],
+    tags: ["fertility", "hmg", "ovulation-induction", "ivf"],
+    variationPrices: {
+      minPrice: 328.99,
+      maxPrice: 478.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Individualized. Typical: 150 IU daily for first 5 days, adjust based on response. Maximum 450 IU/day. Duration 7-12 days until follicles mature. Requires close monitoring.",
+        administration: [
+          "SC or IM injection",
+          "Reconstitute immediately before use",
+          "Rotate injection sites",
+          "Close ultrasound and hormone monitoring required",
+          "Timing critical - typically given in evening"
+        ],
+        specialPopulations: "Contraindicated in primary ovarian failure, uncontrolled thyroid/adrenal disorders, tumors, pregnancy. High OHSS risk in PCOS and young women."
+      },
+      sideEffects: {
+        common: ["Injection site reactions", "Headache", "Abdominal bloating/pain", "Ovarian enlargement", "Breast tenderness", "Mood changes"],
+        serious: ["Ovarian hyperstimulation syndrome (OHSS)", "Multiple pregnancies", "Ovarian torsion", "Thromboembolism", "Ectopic pregnancy", "Ovarian cancer (long-term risk unclear)"]
+      },
+      contraindications: [
+        "Primary ovarian failure (high FSH)",
+        "Uncontrolled thyroid or adrenal dysfunction",
+        "Pituitary tumor or hypothalamic tumor",
+        "Pregnancy",
+        "Ovarian cysts or enlargement (not PCOS)",
+        "Sex hormone-dependent tumors",
+        "Abnormal uterine bleeding of unknown etiology"
+      ],
+      drugInteractions: [
+        "Minimal significant interactions",
+        "Concurrent fertility medications require careful monitoring"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079s",
+    name: "Buserelin Acetate",
+    description: "GnRH agonist nasal spray for endometriosis and IVF protocols",
+    price: 248.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "puberty-blockers",
+    inStock: true,
+    rating: 4.4,
+    reviews: 123,
+    requiresPrescription: true,
+    strengthOptions: ["150mcg/spray"],
+    formOptions: ["Nasal Spray"],
+    tags: ["gnrh-agonist", "endometriosis", "ivf", "hormone"],
+    variationPrices: {
+      minPrice: 248.99,
+      maxPrice: 348.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Endometriosis: 400mcg (one spray each nostril) three times daily. IVF protocols: variable dosing. Begin on day 1 or 2 of menstrual cycle.",
+        administration: [
+          "Spray into nostril while sniffing gently",
+          "Alternate nostrils if using multiple sprays",
+          "Blow nose before administration if needed",
+          "Regular dosing times preferred",
+          "Continue throughout treatment cycle"
+        ],
+        specialPopulations: "Contraindicated in pregnancy, breastfeeding, undiagnosed vaginal bleeding. Monitor bone density with prolonged use. Not for children except specific endocrine conditions."
+      },
+      sideEffects: {
+        common: ["Nasal irritation", "Hot flashes", "Headache", "Decreased libido", "Vaginal dryness", "Mood changes", "Nasal bleeding"],
+        serious: ["Bone density loss", "Ovarian cysts", "Depression", "Pituitary apoplexy (rare)", "Anaphylaxis (rare)"]
+      },
+      contraindications: [
+        "Pregnancy and breastfeeding",
+        "Undiagnosed vaginal bleeding",
+        "Known hypersensitivity to GnRH or GnRH agonist analogs",
+        "Hormone-dependent tumors"
+      ],
+      drugInteractions: [
+        "Minimal clinically significant interactions",
+        "May interact with other hormonal therapies"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079t",
+    name: "Cetorelix Acetate",
+    description: "GnRH antagonist for controlled ovarian stimulation in IVF",
+    price: 178.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "fertility",
+    inStock: true,
+    rating: 4.5,
+    reviews: 98,
+    requiresPrescription: true,
+    strengthOptions: ["0.25mg", "3mg"],
+    formOptions: ["Injectable (for reconstitution)"],
+    tags: ["gnrh-antagonist", "ivf", "fertility", "ovulation-control"],
+    variationPrices: {
+      minPrice: 178.99,
+      maxPrice: 298.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Multiple-dose: 0.25mg SC once daily starting on stimulation day 5 or 6. Single-dose: 3mg SC on stimulation day 7. Continue until hCG trigger.",
+        administration: [
+          "SC injection in lower abdominal wall",
+          "Reconstitute immediately before use",
+          "Rotate injection sites",
+          "Administer same time each day (multiple-dose)",
+          "Part of controlled ovarian stimulation protocol only"
+        ],
+        specialPopulations: "Contraindicated in pregnancy, severe renal/hepatic impairment. Not for use outside assisted reproductive technology setting."
+      },
+      sideEffects: {
+        common: ["Injection site reactions", "Nausea", "Headache", "Ovarian hyperstimulation syndrome (mild)"],
+        serious: ["Severe OHSS", "Anaphylaxis", "Hypersensitivity reactions", "Ectopic pregnancy"]
+      },
+      contraindications: [
+        "Pregnancy and breastfeeding",
+        "Known hypersensitivity to GnRH or analogs",
+        "Severe renal impairment (CrCl <30)",
+        "Moderate to severe hepatic impairment"
+      ],
+      drugInteractions: [
+        "No clinically significant drug-drug interactions identified",
+        "Part of complex fertility protocol - use as directed"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079u",
+    name: "Desiccated Thyroid (Thyroid USP)",
+    description: "Natural thyroid hormone extract for hypothyroidism",
+    price: 32.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "thyroid",
+    inStock: true,
+    rating: 4.6,
+    reviews: 456,
+    requiresPrescription: true,
+    strengthOptions: ["30mg (½ grain)", "60mg (1 grain)", "90mg (1½ grain)", "120mg (2 grain)"],
+    formOptions: ["Tablet"],
+    tags: ["thyroid", "natural-thyroid", "hypothyroidism", "t4-t3"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 54.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Start 30mg (½ grain) daily, increase by 15-30mg every 2-4 weeks based on response. Typical maintenance: 60-120mg daily. Take on empty stomach.",
+        administration: [
+          "Take on empty stomach, 30-60 minutes before breakfast",
+          "Take at consistent time each day",
+          "Separate from calcium, iron, antacids by 4+ hours",
+          "Monitor TSH, free T4, and free T3 levels regularly"
+        ],
+        specialPopulations: "Reduce initial dose in elderly, cardiovascular disease, or adrenal insufficiency. Not standardized like synthetic thyroid - potency may vary."
+      },
+      sideEffects: {
+        common: ["Mild hair loss (transient)", "Weight loss", "Increased appetite", "Nervousness", "Tremor"],
+        serious: ["Cardiac arrhythmias", "Angina", "Myocardial infarction", "Heart failure", "Osteoporosis (chronic overtreatment)", "Adrenal crisis (in undiagnosed adrenal insufficiency)"]
+      },
+      contraindications: [
+        "Uncorrected adrenal insufficiency",
+        "Acute myocardial infarction",
+        "Uncorrected thyrotoxicosis",
+        "Known hypersensitivity to porcine protein"
+      },
+      drugInteractions: [
+        "Anticoagulants - increased anticoagulant effect",
+        "Diabetes medications - may increase insulin requirements",
+        "Sympathomimetics - increased risk of coronary insufficiency",
+        "Cholestyramine, colestipol - decreased thyroid absorption",
+        "Estrogens - may increase thyroid requirements",
+        "Antidepressants - may enhance effects of both"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079v",
+    name: "Prednisone (Low-dose Endocrine)",
+    description: "Glucocorticoid for endocrine disorders and immune suppression",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "thyroid-endocrine",
+    inStock: true,
+    rating: 4.5,
+    reviews: 678,
+    requiresPrescription: true,
+    strengthOptions: ["1mg", "2.5mg", "5mg", "10mg", "20mg"],
+    formOptions: ["Tablet"],
+    tags: ["corticosteroid", "immune-suppressant", "endocrine", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 28.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Highly variable: 5-60mg daily depending on condition. Adrenal insufficiency: 2.5-7.5mg daily. Autoimmune: 10-60mg daily. Taper when discontinuing long-term therapy.",
+        administration: [
+          "Take with food to reduce GI upset",
+          "Single daily dose typically in morning",
+          "For divided doses: larger dose in morning",
+          "Never stop abruptly after >2 weeks use - taper required",
+          "Stress dosing may be needed"
+        ],
+        specialPopulations: "Use lowest effective dose for shortest duration. Monitor growth in children. Elderly at higher risk of adverse effects. Pregnancy Category C."
+      },
+      sideEffects: {
+        common: ["Increased appetite", "Weight gain", "Insomnia", "Mood changes", "Acne", "Dyspepsia", "Hyperglycemia"],
+        serious: ["Adrenal suppression", "Cushing's syndrome", "Osteoporosis", "Avascular necrosis", "Infections", "GI bleeding", "Psychiatric effects", "Hypertension", "Diabetes"]
+      },
+      contraindications: [
+        "Systemic fungal infections",
+        "Known hypersensitivity",
+        "Live virus vaccines (if immunosuppressive doses)"
+      ],
+      drugInteractions: [
+        "NSAIDs - increased GI bleeding risk",
+        "Anticoagulants - variable effects on coagulation",
+        "Diabetes medications - decreased effectiveness, hyperglycemia",
+        "CYP3A4 inducers - decreased prednisone effects",
+        "CYP3A4 inhibitors - increased prednisone effects",
+        "Vaccines - reduced vaccine efficacy, increased infection risk with live vaccines"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079w",
+    name: "Mifepristone (RU-486)",
+    description: "Progesterone antagonist for medical abortion and Cushing's syndrome",
+    price: 248.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "hrt",
+    inStock: true,
+    rating: 4.3,
+    reviews: 189,
+    requiresPrescription: true,
+    strengthOptions: ["200mg", "300mg"],
+    formOptions: ["Tablet"],
+    tags: ["abortion", "progesterone-antagonist", "cushing-syndrome", "controlled"],
+    variationPrices: {
+      minPrice: 248.99,
+      maxPrice: 348.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Medical abortion: 200mg (or 600mg) single dose, followed by misoprostol 24-48 hours later. Cushing's syndrome: 300mg once daily, may increase to 1200mg/day. Protocol-specific dosing.",
+        administration: [
+          "Swallow tablets whole with water",
+          "For abortion: requires follow-up and misoprostol administration",
+          "For Cushing's: take with food",
+          "Must be prescribed and administered under REMS program (abortion indication)"
+        ],
+        specialPopulations: "Contraindicated in ectopic pregnancy, IUD in place, long-term corticosteroid therapy, bleeding disorders, anticoagulation. Requires ultrasound confirmation before use."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Diarrhea", "Cramping", "Bleeding", "Headache", "Dizziness", "Fatigue"],
+        serious: ["Severe bleeding", "Infection (sepsis)", "Ectopic pregnancy rupture", "Incomplete abortion", "Adrenal insufficiency (Cushing's use)", "QT prolongation", "Endometrial changes"]
+      },
+      contraindications: [
+        "Confirmed or suspected ectopic pregnancy",
+        "IUD in place",
+        "Chronic adrenal failure",
+        "Concurrent long-term corticosteroid therapy",
+        "Hemorrhagic disorders or concurrent anticoagulation",
+        "Porphyria",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers (rifampin, anticonvulsants) - decreased mifepristone levels",
+        "CYP3A4 inhibitors (ketoconazole, erythromycin) - increased mifepristone levels",
+        "Corticosteroids - mifepristone antagonizes effects",
+        "Warfarin - monitor INR",
+        "St. John's Wort - decreased mifepristone effectiveness"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079x",
+    name: "Misoprostol",
+    description: "Prostaglandin for medical abortion, labor induction, and ulcer prevention",
+    price: 48.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "hrt",
+    inStock: true,
+    rating: 4.4,
+    reviews: 312,
+    requiresPrescription: true,
+    strengthOptions: ["200mcg"],
+    formOptions: ["Tablet"],
+    tags: ["prostaglandin", "abortion", "labor-induction", "ulcer-prevention"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 68.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Medical abortion: 800mcg vaginally, buccally, or sublingually 24-48 hours after mifepristone. Ulcer prevention: 200mcg four times daily with food. Labor induction: variable protocols.",
+        administration: [
+          "For abortion: vaginal, buccal (in cheek), or sublingual route",
+          "For ulcers: swallow with food and at bedtime",
+          "Timing critical when used with mifepristone",
+          "Follow protocol-specific instructions"
+        ],
+        specialPopulations: "Contraindicated in pregnancy (unless for abortion/labor induction). Use caution in cardiovascular disease, inflammatory bowel disease."
+      },
+      sideEffects: {
+        common: ["Diarrhea", "Abdominal pain", "Nausea", "Cramping", "Bleeding", "Headache", "Flatulence"],
+        serious: ["Severe bleeding", "Uterine rupture (labor use)", "Infection", "Incomplete abortion", "Cardiovascular events", "Hypotension"]
+      },
+      contraindications: [
+        "Pregnancy (except for abortion/induction indications)",
+        "Known hypersensitivity to prostaglandins",
+        "Inflammatory bowel disease (relative for ulcer indication)"
+      ],
+      drugInteractions: [
+        "Magnesium-containing antacids - worsens diarrhea",
+        "NSAIDs - may reduce ulcer-protective effects",
+        "Minimal other significant interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079y",
+    name: "Progesterone Vaginal Gel",
+    description: "Bioidentical progesterone for luteal support and pregnancy maintenance",
+    price: 88.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "fertility",
+    inStock: true,
+    rating: 4.7,
+    reviews: 423,
+    requiresPrescription: true,
+    strengthOptions: ["4% (45mg)", "8% (90mg)"],
+    formOptions: ["Vaginal Gel"],
+    tags: ["progesterone", "fertility", "luteal-support", "ivf"],
+    variationPrices: {
+      minPrice: 88.99,
+      maxPrice: 128.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Luteal support (ART): 90mg once daily or 45mg twice daily starting day after egg retrieval. Continue through 10-12 weeks of pregnancy if conception occurs.",
+        administration: [
+          "Insert applicator deep into vagina",
+          "Administer at bedtime for once-daily dosing",
+          "Lie down for 15-30 minutes after insertion",
+          "Do not use tampons during treatment",
+          "Continue as directed even if bleeding occurs"
+        ],
+        specialPopulations: "Contraindicated in undiagnosed vaginal bleeding, liver disease, breast cancer, thromboembolic disorders. Pregnancy Category B - used to support pregnancy."
+      },
+      sideEffects: {
+        common: ["Vaginal discharge", "Abdominal pain", "Breast tenderness", "Nausea", "Headache", "Drowsiness", "Bloating"],
+        serious: ["Thromboembolism (rare)", "Depression", "Breakthrough bleeding", "Allergic reactions"]
+      },
+      contraindications: [
+        "Undiagnosed vaginal bleeding",
+        "Known or suspected breast cancer",
+        "Active or history of thromboembolic disease",
+        "Liver dysfunction or disease",
+        "Known hypersensitivity to progesterone"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers - may decrease progesterone levels",
+        "CYP3A4 inhibitors - may increase progesterone levels",
+        "Minimal clinically significant interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079z",
+    name: "Estradiol Valerate Injection",
+    description: "Long-acting estrogen injection for HRT and trans feminine therapy",
+    price: 64.99,
+    oldPrice: 124.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.8,
+    reviews: 345,
+    requiresPrescription: true,
+    strengthOptions: ["10mg/mL", "20mg/mL", "40mg/mL"],
+    formOptions: ["Injectable (IM)"],
+    tags: ["estradiol", "estrogen", "injection", "transgender", "hrt"],
+    variationPrices: {
+      minPrice: 64.99,
+      maxPrice: 98.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Trans feminine HRT: 5-20mg IM every 1-2 weeks. Menopause: 10-20mg IM every 4 weeks. Individualize based on estradiol levels.",
+        administration: [
+          "Deep IM injection (buttock or thigh)",
+          "Rotate injection sites",
+          "Draw up dose carefully using appropriate syringe",
+          "Inject slowly",
+          "Monitor estradiol levels to guide dosing"
+        ],
+        specialPopulations: "Contraindicated in breast cancer, thromboembolic disease, undiagnosed vaginal bleeding, liver disease, pregnancy. Increased VTE risk with smoking."
+      },
+      sideEffects: {
+        common: ["Injection site pain", "Breast tenderness/growth", "Nausea", "Headache", "Mood changes", "Weight gain", "Fluid retention"],
+        serious: ["Venous thromboembolism", "Stroke", "Myocardial infarction", "Breast cancer (long-term)", "Gallbladder disease", "Hyperprolactinemia", "Hepatic adenoma"]
+      },
+      contraindications: [
+        "Known or suspected breast cancer or estrogen-dependent neoplasia",
+        "Active or history of thromboembolism",
+        "Active or recent arterial thromboembolic disease",
+        "Liver dysfunction or disease",
+        "Undiagnosed abnormal vaginal bleeding",
+        "Pregnancy",
+        "Known protein C, S, or antithrombin deficiency"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers (rifampin, anticonvulsants) - decreased estradiol levels",
+        "CYP3A4 inhibitors - increased estradiol levels",
+        "Thyroid hormone - may increase thyroid requirements",
+        "Corticosteroids - may enhance effects",
+        "Lamotrigine - decreased lamotrigine levels"
+      ]
+    },
+    demoMode: true
+  },
+  {
     id: "rx-080",
     name: "Sildenafil",
     description: "PDE5 inhibitor for erectile dysfunction and pulmonary hypertension",

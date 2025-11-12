@@ -12,9 +12,9 @@ export const SafetyCompliance = () => {
       <main className="container mx-auto px-4 py-8 mt-20">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold mb-4">Safety & Compliance</h1>
+            <h1 className="text-4xl font-bold mb-4">Prescription & Licensing Compliance Policy</h1>
             <p className="text-lg text-muted-foreground">
-              Our commitment to safety, security, and regulatory compliance.
+              At HealthStore, we operate strictly within national and international pharmaceutical laws. We do not sell or dispense any medication or research chemical without verified authorization.
             </p>
           </div>
 
@@ -22,9 +22,101 @@ export const SafetyCompliance = () => {
             <Shield className="h-4 w-4" />
             <AlertTitle>Fully Licensed & Regulated</AlertTitle>
             <AlertDescription>
-              We operate under strict federal and state regulations to ensure the highest standards of pharmaceutical safety.
+              We operate under strict federal and state regulations to ensure the highest standards of pharmaceutical safety. All transactions require verification and authorization.
             </AlertDescription>
           </Alert>
+
+          <Card className="mb-6">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <FileCheck className="h-5 w-5" />
+                Official Policy Statement
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div>
+                <h3 className="font-semibold mb-2">Prescription Medications</h3>
+                <p className="text-sm text-muted-foreground">
+                  All prescription drugs listed on this website require a valid, verifiable prescription from a licensed medical practitioner. Prescriptions are manually reviewed by our licensed pharmacists before any order is processed.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Licensed Laboratories & Research Institutions</h3>
+                <p className="text-sm text-muted-foreground">
+                  For research chemicals, analytical reagents, and controlled laboratory compounds, purchases are restricted to verified laboratories and authorized institutions only. Applicants must submit valid company registration documents, pharmaceutical or research licenses, and official authorization letters before any sale or shipment.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Verification Period</h3>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
+                  <li>Document and license verification takes up to 7 business days</li>
+                  <li>License validation and approval take an additional 5–7 business days</li>
+                  <li>Only after successful verification is your account activated for orders</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">No Sales to Individuals Without Verification</h3>
+                <p className="text-sm text-muted-foreground">
+                  We do not ship to individuals, entities, or addresses that fail verification. Any attempt to falsify documents or prescriptions will result in permanent blacklisting and reporting to relevant authorities.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Ongoing Compliance</h3>
+                <p className="text-sm text-muted-foreground">
+                  Periodic license renewals and audits are required for continued access. Our verification system automatically flags expired or revoked licenses to prevent unauthorized transactions.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="mb-6 border-primary/50 bg-primary/5">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <AlertTriangle className="h-5 w-5 text-primary" />
+                Verification Workflow
+              </CardTitle>
+              <CardDescription>Complete process timeline for account authorization</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">1</div>
+                  <div>
+                    <h4 className="font-semibold mb-1">Account Creation</h4>
+                    <p className="text-sm text-muted-foreground">Upload your company documents or medical prescription during registration.</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">2</div>
+                  <div>
+                    <h4 className="font-semibold mb-1">Preliminary Review (Week 1)</h4>
+                    <p className="text-sm text-muted-foreground">Our compliance team verifies the authenticity of your business documents or prescription.</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">3</div>
+                  <div>
+                    <h4 className="font-semibold mb-1">License Validation (Week 2)</h4>
+                    <p className="text-sm text-muted-foreground">We contact the issuing authority or medical board to validate your license or prescription authenticity.</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">4</div>
+                  <div>
+                    <h4 className="font-semibold mb-1">Approval Notification</h4>
+                    <p className="text-sm text-muted-foreground">Once verified, your account is upgraded to an Authorized Buyer or Verified Patient.</p>
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">5</div>
+                  <div>
+                    <h4 className="font-semibold mb-1">Order Processing</h4>
+                    <p className="text-sm text-muted-foreground">Authorized accounts can now browse, order, and schedule delivery through our secure pharmacy portal.</p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
 
           <div className="space-y-6">
             <Card>

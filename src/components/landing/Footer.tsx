@@ -93,6 +93,18 @@ export const Footer = () => {
         </div>
         
         <Separator className="mb-8 opacity-50" />
+
+        {/* Compliance Disclaimers */}
+        <div className="mb-8 p-6 rounded-lg bg-muted/30 border border-border/50">
+          <h4 className="font-semibold text-sm mb-3 text-foreground">Compliance & Legal Notice</h4>
+          <div className="space-y-2 text-xs text-muted-foreground">
+            <p>• All medications and research compounds are dispensed or supplied only upon verified prescription or license.</p>
+            <p>• Verification typically takes 7–14 business days. No exceptions.</p>
+            <p>• We cooperate with national and international health authorities to maintain legal integrity.</p>
+            <p>• Orders from unverified sources are automatically rejected.</p>
+            <p>• Prescription uploads are encrypted and stored under strict confidentiality in compliance with medical data laws.</p>
+          </div>
+        </div>
         
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-sm text-muted-foreground text-center md:text-left">

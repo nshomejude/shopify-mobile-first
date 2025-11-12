@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Star, Settings } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Star, Settings, ShieldCheck, FlaskConical } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { formatPriceRange } from "@/lib/utils";
+import { products } from "@/data/products";
 
 interface ProductCardProps {
   id: string;
@@ -30,6 +32,7 @@ export const ProductCard = ({
   hasVariations = true
 }: ProductCardProps) => {
   const navigate = useNavigate();
+  const product = products.find(p => p.id === id);
 
   const handleSelectOptions = () => {
     navigate(`/product/${id}`);
@@ -54,6 +57,27 @@ export const ProductCard = ({
         {oldPrice && (
           <div className="absolute top-2 right-2 bg-destructive text-destructive-foreground text-xs font-bold px-2 py-1 rounded">
             -{Math.round(((oldPrice - price) / oldPrice) * 100)}%
+          </div>
+        )}
+        {product?.demoMode && (
+          <div className="absolute top-2 left-2 bg-warning text-warning-foreground text-xs font-bold px-2 py-1 rounded">
+            DEMO
+          </div>
+        )}
+        {(product?.requiresPrescription || product?.requiresLabLicense) && (
+          <div className="absolute bottom-2 left-2 right-2 flex gap-1">
+            {product.requiresPrescription && (
+              <Badge variant="secondary" className="text-xs px-1.5 py-0.5">
+                <ShieldCheck className="w-3 h-3 mr-1" />
+                Rx
+              </Badge>
+            )}
+            {product.requiresLabLicense && (
+              <Badge variant="outline" className="text-xs px-1.5 py-0.5 bg-background/90">
+                <FlaskConical className="w-3 h-3 mr-1" />
+                Lab
+              </Badge>
+            )}
           </div>
         )}
       </div>

@@ -22,7 +22,10 @@ export interface Category {
   subcategories?: string[];
   legalNotice: string;
   verificationProcess: string;
+  verificationTimeDays?: number;
+  demoMode?: boolean;
   featured?: boolean;
+  complianceNotice?: string;
 }
 
 export const categories: Record<string, Category> = {
@@ -41,6 +44,9 @@ export const categories: Record<string, Category> = {
     subcategories: ['opioid-analgesics', 'non-opioid-analgesics', 'nsaids', 'neuropathic-pain-agents', 'topical-analgesics'],
     legalNotice: 'Controlled substances require valid prescription. Opioids are Schedule II-IV. Risk of dependency and abuse. Use only as directed by healthcare provider.',
     verificationProcess: 'Upload prescription or have your doctor send it directly. Photo ID verification required for controlled substances. Pharmacist counseling provided.',
+    verificationTimeDays: 7,
+    demoMode: true,
+    complianceNotice: 'All products in this category require a verified prescription and patient identity verification before dispatch.',
     featured: true,
   },
 
@@ -58,6 +64,8 @@ export const categories: Record<string, Category> = {
     parentCategory: 'painkillers',
     legalNotice: 'Schedule II controlled substances. High risk of dependency. Valid prescription required. No refills on Schedule II medications.',
     verificationProcess: 'New prescription required monthly for Schedule II. Photo ID and signature required at pickup.',
+    verificationTimeDays: 7,
+    demoMode: true,
   },
 
   'non-opioid-analgesics': {
@@ -74,6 +82,8 @@ export const categories: Record<string, Category> = {
     parentCategory: 'painkillers',
     legalNotice: 'OTC and prescription formulations available. Follow dosing instructions to avoid liver damage with acetaminophen.',
     verificationProcess: 'No prescription needed for OTC formulations. Prescription-strength requires valid prescription.',
+    verificationTimeDays: 3,
+    demoMode: true,
   },
 
   'nsaids': {
@@ -90,6 +100,8 @@ export const categories: Record<string, Category> = {
     parentCategory: 'painkillers',
     legalNotice: 'May increase cardiovascular and GI risks. Use lowest effective dose for shortest duration.',
     verificationProcess: 'Prescription-strength requires valid prescription. OTC versions available.',
+    verificationTimeDays: 3,
+    demoMode: true,
   },
 
   'neuropathic-pain-agents': {

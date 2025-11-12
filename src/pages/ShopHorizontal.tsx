@@ -11,6 +11,7 @@ import { products } from "@/data/products";
 import { useProductFilters } from "@/hooks/useProductFilters";
 import { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
+import { DemoModeBanner } from "@/components/DemoModeBanner";
 
 const ShopHorizontal = () => {
   const [searchParams] = useSearchParams();
@@ -49,6 +50,7 @@ const ShopHorizontal = () => {
       <WhyBuyFromUs />
       
       <section className="container mx-auto px-4 py-6 md:py-8">
+        <DemoModeBanner />
         {/* Search Bar */}
         <div className="mb-6">
           <div className="relative max-w-xl mx-auto">

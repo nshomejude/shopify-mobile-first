@@ -31,6 +31,8 @@ import { VariationSwatch } from "@/components/shop/VariationSwatch";
 import { getSwatchStyleForProduct } from "@/utils/swatchStyleMapper";
 import { useDrugInteractions } from "@/hooks/useDrugInteractions";
 import { DrugInteractionWarnings } from "@/components/shop/DrugInteractionWarnings";
+import { DemoModeBanner } from "@/components/DemoModeBanner";
+import { VerificationBadge } from "@/components/landing/VerificationBadge";
 
 const mockReviews = [
   {
@@ -124,6 +126,7 @@ export const ProductDetail = () => {
       <Navigation />
       
       <main className="container mx-auto px-4 py-8 mt-20">
+        <DemoModeBanner />
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
           <Link to="/" className="hover:text-primary">Home</Link>
@@ -157,24 +160,26 @@ export const ProductDetail = () => {
             </Card>
             
             {product.requiresPrescription && (
-              <Alert>
-                <FileText className="h-4 w-4" />
-                <AlertDescription>
-                  This medication requires a valid prescription. 
-                  <Link to="/prescription-upload" className="text-primary hover:underline ml-1">
-                    Upload your prescription
+              <Alert className="border-warning bg-warning/10">
+                <FileText className="h-4 w-4 text-warning" />
+                <AlertDescription className="text-warning-foreground">
+                  <strong>Prescription Required:</strong> This medication requires a valid prescription. 
+                  Verification takes {product.verificationPeriodDays || 7} business days.
+                  <Link to="/prescription-upload" className="text-primary hover:underline ml-1 font-semibold">
+                    Upload your prescription →
                   </Link>
                 </AlertDescription>
               </Alert>
             )}
 
             {product.requiresLabLicense && (
-              <Alert>
-                <Shield className="h-4 w-4" />
-                <AlertDescription>
-                  This research chemical requires laboratory verification.
-                  <Link to="/lab-verification" className="text-primary hover:underline ml-1">
-                    Verify your lab
+              <Alert className="border-warning bg-warning/10">
+                <Shield className="h-4 w-4 text-warning" />
+                <AlertDescription className="text-warning-foreground">
+                  <strong>Lab License Required:</strong> This research chemical requires laboratory verification.
+                  Verification takes {product.verificationPeriodDays || 7} business days.
+                  <Link to="/lab-verification" className="text-primary hover:underline ml-1 font-semibold">
+                    Verify your lab →
                   </Link>
                 </AlertDescription>
               </Alert>

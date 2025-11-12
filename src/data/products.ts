@@ -37,6 +37,7 @@ export interface Product {
   reviews: number;
   requiresPrescription?: boolean;
   requiresLabLicense?: boolean;
+  verificationPeriodDays?: number;
   strengthOptions?: string[];
   formOptions?: string[];
   tags?: string[];
@@ -46,6 +47,7 @@ export interface Product {
     minPrice: number;
     maxPrice: number;
   };
+  demoMode?: boolean;
 }
 
 export const products: Product[] = [

@@ -12,6 +12,7 @@ import { products, Product } from "@/data/products";
 import { useNavigate } from "react-router-dom";
 import { useProductFilters } from "@/hooks/useProductFilters";
 import { formatPriceRange } from "@/lib/utils";
+import { DemoModeBanner } from "@/components/DemoModeBanner";
 
 const ShopLarge = () => {
   const navigate = useNavigate();
@@ -33,6 +34,7 @@ const ShopLarge = () => {
       <WhyBuyFromUs />
       
       <section className="container mx-auto px-4 py-6 md:py-8">
+        <DemoModeBanner />
         {/* Search Bar */}
         <div className="mb-6">
           <div className="relative max-w-xl mx-auto">

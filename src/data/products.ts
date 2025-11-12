@@ -6586,12 +6586,12 @@ export const products: Product[] = [
     price: 32.99,
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
     category: "prescription-drugs",
-    subcategory: "thyroid",
+    subcategory: "thyroid-endocrine",
     inStock: true,
     rating: 4.6,
     reviews: 456,
     requiresPrescription: true,
-    strengthOptions: ["30mg (½ grain)", "60mg (1 grain)", "90mg (1½ grain)", "120mg (2 grain)"],
+    strengthOptions: ["30mg", "60mg", "90mg", "120mg"],
     formOptions: ["Tablet"],
     tags: ["thyroid", "natural-thyroid", "hypothyroidism", "t4-t3"],
     variationPrices: {
@@ -6600,7 +6600,7 @@ export const products: Product[] = [
     },
     medicalInfo: {
       dosage: {
-        standard: "Start 30mg (½ grain) daily, increase by 15-30mg every 2-4 weeks based on response. Typical maintenance: 60-120mg daily. Take on empty stomach.",
+        standard: "Start 30mg daily, increase by 15-30mg every 2-4 weeks based on response. Typical maintenance: 60-120mg daily. Take on empty stomach.",
         administration: [
           "Take on empty stomach, 30-60 minutes before breakfast",
           "Take at consistent time each day",
@@ -6618,7 +6618,7 @@ export const products: Product[] = [
         "Acute myocardial infarction",
         "Uncorrected thyrotoxicosis",
         "Known hypersensitivity to porcine protein"
-      },
+      ],
       drugInteractions: [
         "Anticoagulants - increased anticoagulant effect",
         "Diabetes medications - may increase insulin requirements",
@@ -6731,8 +6731,7 @@ export const products: Product[] = [
         "Warfarin - monitor INR",
         "St. John's Wort - decreased mifepristone effectiveness"
       ]
-    },
-    demoMode: true
+    }
   },
   {
     id: "rx-079x",
@@ -6778,8 +6777,7 @@ export const products: Product[] = [
         "NSAIDs - may reduce ulcer-protective effects",
         "Minimal other significant interactions"
       ]
-    },
-    demoMode: true
+    }
   },
   {
     id: "rx-079y",

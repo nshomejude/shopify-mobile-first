@@ -1116,7 +1116,34 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "100mg", "200mg", "300mg", "400mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["antipsychotic", "bipolar"]
+    tags: ["antipsychotic", "bipolar"],
+    medicalInfo: {
+      dosage: {
+        standard: "Schizophrenia: Start 25mg twice daily, titrate by 25-50mg increments. Target 300-400mg/day in 2-3 doses. Maximum 800mg/day. Bipolar: 50-800mg/day.",
+        administration: [
+          "Take with or without food",
+          "Extended-release: swallow whole, do not crush or chew",
+          "Immediate-release: typically twice daily",
+          "Taper gradually when discontinuing"
+        ],
+        specialPopulations: "Reduce dose in elderly and hepatic impairment. Use caution in pregnancy and breastfeeding."
+      },
+      sideEffects: {
+        common: ["Somnolence", "Dry mouth", "Constipation", "Dizziness", "Weight gain", "Dyspepsia"],
+        serious: ["Metabolic syndrome (hyperglycemia, dyslipidemia)", "Tardive dyskinesia", "Neuroleptic malignant syndrome", "QT prolongation", "Orthostatic hypotension", "Increased suicidal thoughts"]
+      },
+      contraindications: [
+        "Known hypersensitivity to quetiapine",
+        "Concurrent use with strong CYP3A4 inhibitors (relative)"
+      ],
+      drugInteractions: [
+        "CYP3A4 inhibitors (ketoconazole, erythromycin) - increased quetiapine levels",
+        "CYP3A4 inducers (carbamazepine, phenytoin) - decreased quetiapine levels",
+        "CNS depressants - enhanced sedation",
+        "Antihypertensives - enhanced hypotensive effects",
+        "QT-prolonging drugs - additive QT prolongation"
+      ]
+    }
   },
   {
     id: "rx-025",
@@ -1133,7 +1160,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2.5mg", "5mg", "7.5mg", "10mg", "15mg", "20mg"],
     formOptions: ["Tablet"],
-    tags: ["antipsychotic", "bipolar"]
+    tags: ["antipsychotic", "bipolar"],
+    medicalInfo: {
+      dosage: {
+        standard: "Schizophrenia: Start 5-10mg once daily, adjust by 5mg increments. Target 10-15mg/day. Maximum 20mg/day. Bipolar: 10-15mg/day.",
+        administration: [
+          "Take once daily, with or without food",
+          "Can be taken at bedtime due to sedation",
+          "Orally disintegrating tablet available (no water needed)",
+          "Taper gradually when stopping"
+        ],
+        specialPopulations: "Lower starting dose (5mg) for elderly or debilitated patients. Not recommended in pregnancy or breastfeeding."
+      },
+      sideEffects: {
+        common: ["Weight gain", "Somnolence", "Dry mouth", "Constipation", "Dizziness", "Increased appetite"],
+        serious: ["Metabolic syndrome (hyperglycemia, diabetes, dyslipidemia)", "Tardive dyskinesia", "Neuroleptic malignant syndrome", "Orthostatic hypotension", "Hyperprolactinemia", "Agranulocytosis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to olanzapine"
+      ],
+      drugInteractions: [
+        "CNS depressants (alcohol, benzodiazepines) - enhanced sedation",
+        "Fluvoxamine - increased olanzapine levels",
+        "Carbamazepine - decreased olanzapine levels",
+        "Antihypertensives - enhanced hypotensive effects",
+        "Anticholinergics - additive anticholinergic effects"
+      ]
+    }
   },
   {
     id: "rx-026",
@@ -1150,7 +1203,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.5mg", "1mg", "2mg", "3mg", "4mg"],
     formOptions: ["Tablet", "Oral Solution"],
-    tags: ["antipsychotic"]
+    tags: ["antipsychotic"],
+    medicalInfo: {
+      dosage: {
+        standard: "Schizophrenia: Start 2mg/day in 1-2 doses. Titrate by 1-2mg/day. Target 4-8mg/day. Maximum 16mg/day. Bipolar: 2-6mg/day.",
+        administration: [
+          "Take once or twice daily with or without food",
+          "Oral solution: use measuring device provided",
+          "Can be taken with food if stomach upset",
+          "Taper gradually when discontinuing"
+        ],
+        specialPopulations: "Start 0.5mg twice daily in elderly and renal/hepatic impairment. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Parkinsonism", "Akathisia", "Dystonia", "Somnolence", "Weight gain", "Hyperprolactinemia symptoms"],
+        serious: ["Tardive dyskinesia", "Neuroleptic malignant syndrome", "Metabolic changes", "Orthostatic hypotension", "Stroke in elderly with dementia", "QT prolongation"]
+      },
+      contraindications: [
+        "Known hypersensitivity to risperidone or paliperidone"
+      ],
+      drugInteractions: [
+        "CYP2D6 inhibitors (fluoxetine, paroxetine) - increased risperidone levels",
+        "Carbamazepine - decreased risperidone levels",
+        "CNS depressants - enhanced sedation",
+        "Antihypertensives - enhanced hypotensive effects",
+        "Levodopa, dopamine agonists - antagonism of effects"
+      ]
+    }
   },
   {
     id: "rx-027",
@@ -1167,7 +1246,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2mg", "5mg", "10mg", "15mg", "20mg", "30mg"],
     formOptions: ["Tablet"],
-    tags: ["antipsychotic", "bipolar"]
+    tags: ["antipsychotic", "bipolar"],
+    medicalInfo: {
+      dosage: {
+        standard: "Schizophrenia: Start 10-15mg once daily. Target 10-15mg/day. Maximum 30mg/day. Bipolar: 15-30mg/day. Depression adjunct: 2-15mg/day.",
+        administration: [
+          "Take once daily with or without food",
+          "Consistent timing recommended",
+          "Orally disintegrating tablet available",
+          "May take 1-2 weeks for full effect"
+        ],
+        specialPopulations: "Reduce dose by 50% with strong CYP2D6 or CYP3A4 inhibitors. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Akathisia", "Headache", "Insomnia", "Nausea", "Weight gain (less than other antipsychotics)", "Anxiety"],
+        serious: ["Neuroleptic malignant syndrome", "Tardive dyskinesia", "Metabolic changes", "Orthostatic hypotension", "Seizures", "Compulsive behaviors (gambling, eating)"]
+      },
+      contraindications: [
+        "Known hypersensitivity to aripiprazole"
+      ],
+      drugInteractions: [
+        "CYP3A4 inhibitors (ketoconazole) - increase aripiprazole dose up to double",
+        "CYP2D6 inhibitors (quinidine, fluoxetine) - reduce aripiprazole dose by half",
+        "CYP3A4 inducers (carbamazepine) - reduce aripiprazole levels",
+        "CNS depressants - enhanced sedation",
+        "Antihypertensives - enhanced hypotensive effects"
+      ]
+    }
   },
 
   // Benzodiazepines & Sleep (28-34)
@@ -1185,7 +1290,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.25mg", "0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet"],
-    tags: ["anxiety", "benzodiazepine", "controlled"]
+    tags: ["anxiety", "benzodiazepine", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Anxiety: Start 0.25-0.5mg three times daily. Maximum 4mg/day. Panic disorder: Start 0.5mg three times daily, may increase. Maximum 10mg/day.",
+        administration: [
+          "Take with or without food",
+          "Immediate-release: 2-3 times daily",
+          "Extended-release: once daily",
+          "NEVER stop abruptly - taper slowly to avoid seizures"
+        ],
+        specialPopulations: "Reduce dose in elderly and hepatic impairment. Contraindicated in pregnancy. Avoid in breastfeeding."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Dizziness", "Fatigue", "Memory impairment", "Coordination problems", "Slurred speech"],
+        serious: ["Physical dependence", "Withdrawal seizures", "Respiratory depression", "Cognitive impairment", "Increased fall risk", "Paradoxical agitation"]
+      },
+      contraindications: [
+        "Acute narrow-angle glaucoma",
+        "Concurrent ketoconazole or itraconazole use",
+        "Known hypersensitivity to benzodiazepines",
+        "Pregnancy"
+      ],
+      drugInteractions: [
+        "CYP3A4 inhibitors (ketoconazole, itraconazole) - contraindicated, severe toxicity",
+        "CNS depressants (opioids, alcohol) - severe respiratory depression, death",
+        "Other benzodiazepines - additive effects",
+        "Antifungals, macrolides - increased alprazolam levels",
+        "Grapefruit juice - increased levels"
+      ]
+    }
   },
   {
     id: "rx-029",
@@ -1201,7 +1335,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2mg", "5mg", "10mg"],
     formOptions: ["Tablet"],
-    tags: ["anxiety", "benzodiazepine", "controlled"]
+    tags: ["anxiety", "benzodiazepine", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Anxiety: 2-10mg 2-4 times daily. Muscle spasms: 2-15mg 3-4 times daily. Status epilepticus: IV 5-10mg (hospital setting).",
+        administration: [
+          "Take with or without food",
+          "Can be taken with food to reduce GI upset",
+          "Long half-life allows flexible dosing",
+          "Taper slowly when discontinuing - do NOT stop abruptly"
+        ],
+        specialPopulations: "Reduce dose in elderly, debilitated, and hepatic impairment. Contraindicated in pregnancy."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Fatigue", "Muscle weakness", "Ataxia", "Confusion", "Memory impairment"],
+        serious: ["Physical dependence and addiction", "Withdrawal seizures", "Respiratory depression", "Paradoxical reactions (aggression)", "Cognitive impairment", "Falls"]
+      },
+      contraindications: [
+        "Acute narrow-angle glaucoma",
+        "Severe respiratory insufficiency",
+        "Sleep apnea syndrome",
+        "Severe hepatic insufficiency",
+        "Myasthenia gravis",
+        "Pregnancy and breastfeeding"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, alcohol) - severe respiratory depression",
+        "CYP3A4 inhibitors - increased diazepam levels",
+        "Phenytoin, carbamazepine - decreased diazepam levels",
+        "Antacids - may alter absorption",
+        "Cimetidine - increased diazepam levels"
+      ]
+    }
   },
   {
     id: "rx-030",
@@ -1217,7 +1382,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet"],
-    tags: ["anxiety", "benzodiazepine", "controlled"]
+    tags: ["anxiety", "benzodiazepine", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Anxiety: 2-3mg daily in 2-3 divided doses. Maximum 10mg/day. Insomnia: 2-4mg at bedtime.",
+        administration: [
+          "Take with or without food",
+          "Can be taken 2-3 times daily",
+          "Intermediate half-life (10-20 hours)",
+          "Taper slowly over weeks when discontinuing"
+        ],
+        specialPopulations: "Start 1-2mg/day in elderly. Reduce dose in hepatic impairment. Contraindicated in pregnancy."
+      },
+      sideEffects: {
+        common: ["Sedation", "Dizziness", "Weakness", "Unsteadiness", "Memory problems", "Confusion (especially elderly)"],
+        serious: ["Physical dependence", "Withdrawal syndrome", "Respiratory depression", "Increased fall risk", "Cognitive decline", "Paradoxical reactions"]
+      },
+      contraindications: [
+        "Acute narrow-angle glaucoma",
+        "Sleep apnea",
+        "Severe respiratory insufficiency",
+        "Known hypersensitivity",
+        "Pregnancy and breastfeeding"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, alcohol, barbiturates) - enhanced sedation, respiratory depression",
+        "Probenecid - decreased lorazepam clearance",
+        "Valproate - increased lorazepam levels",
+        "Other benzodiazepines - additive effects",
+        "Scopolamine - increased sedation and hallucinations"
+      ]
+    }
   },
   {
     id: "rx-031",
@@ -1233,7 +1428,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet"],
-    tags: ["anxiety", "benzodiazepine", "seizures", "controlled"]
+    tags: ["anxiety", "benzodiazepine", "seizures", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Panic disorder: Start 0.25mg twice daily, increase to 1mg/day after 3 days. Maximum 4mg/day. Seizures: Start 1.5mg/day in 3 doses, increase gradually.",
+        administration: [
+          "Take with or without food",
+          "Usually 2-3 times daily",
+          "Orally disintegrating tablet available",
+          "Long half-life (30-40 hours) - taper very slowly"
+        ],
+        specialPopulations: "Start with lower doses in elderly. Reduce dose in hepatic impairment. Avoid in pregnancy."
+      },
+      sideEffects: {
+        common: ["Somnolence", "Dizziness", "Coordination problems", "Memory impairment", "Depression", "Fatigue"],
+        serious: ["Physical dependence and addiction", "Severe withdrawal (including seizures)", "Respiratory depression", "Cognitive impairment", "Suicidal thoughts", "Paradoxical reactions"]
+      },
+      contraindications: [
+        "Significant hepatic disease",
+        "Acute narrow-angle glaucoma",
+        "Known hypersensitivity to benzodiazepines",
+        "Pregnancy and breastfeeding"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, alcohol) - severe respiratory depression, death",
+        "CYP3A4 inhibitors - increased clonazepam levels",
+        "Phenytoin, carbamazepine - decreased clonazepam efficacy",
+        "Other anticonvulsants - additive CNS depression",
+        "Valproic acid - may trigger absence seizures"
+      ]
+    }
   },
   {
     id: "rx-032",
@@ -1250,7 +1474,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["insomnia", "sleep"]
+    tags: ["insomnia", "sleep"],
+    medicalInfo: {
+      dosage: {
+        standard: "Immediate-release: 5mg (women) or 5-10mg (men) at bedtime. Extended-release: 6.25mg (women) or 6.25-12.5mg (men). Maximum 10-12.5mg/night.",
+        administration: [
+          "Take immediately before bedtime with at least 7-8 hours of sleep time",
+          "Take on empty stomach for faster onset",
+          "Do NOT take with or after a meal",
+          "Use for short-term only (2-4 weeks)"
+        ],
+        specialPopulations: "5mg for elderly, hepatic impairment, or concurrent CNS depressants. Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Dizziness", "Diarrhea", "Drugged feeling", "Headache"],
+        serious: ["Complex sleep behaviors (sleep-driving, sleep-eating)", "Next-morning impairment", "Amnesia", "Hallucinations", "Worsening depression/suicidal thoughts", "Anaphylaxis", "Dependence"]
+      },
+      contraindications: [
+        "Known hypersensitivity to zolpidem"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, benzodiazepines, alcohol) - enhanced sedation, respiratory depression",
+        "CYP3A4 inhibitors (ketoconazole) - increased zolpidem levels",
+        "Rifampin - decreased zolpidem efficacy",
+        "Sertraline - increased zolpidem effect",
+        "Food - delays and reduces absorption"
+      ]
+    }
   },
   {
     id: "rx-033",
@@ -1267,7 +1517,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["1mg", "2mg", "3mg"],
     formOptions: ["Tablet"],
-    tags: ["insomnia", "sleep"]
+    tags: ["insomnia", "sleep"],
+    medicalInfo: {
+      dosage: {
+        standard: "Zopiclone: 7.5mg at bedtime (3.75mg for elderly). Eszopiclone: Start 1mg, may increase to 2-3mg at bedtime. Maximum 3mg.",
+        administration: [
+          "Take immediately before bedtime",
+          "Ensure 7-8 hours available for sleep",
+          "Can be taken with or without food",
+          "Use for short-term treatment (typically 2-4 weeks)"
+        ],
+        specialPopulations: "Reduce dose by half in elderly and hepatic impairment. Avoid in severe renal impairment. Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Metallic/bitter taste", "Dry mouth", "Drowsiness", "Dizziness", "Headache"],
+        serious: ["Complex sleep behaviors", "Next-day impairment", "Memory impairment", "Depression", "Dependence and withdrawal", "Respiratory depression"]
+      },
+      contraindications: [
+        "Myasthenia gravis",
+        "Severe respiratory insufficiency",
+        "Severe sleep apnea syndrome",
+        "Severe hepatic insufficiency",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, alcohol, benzodiazepines) - enhanced sedation",
+        "CYP3A4 inhibitors (clarithromycin, ketoconazole) - increased levels",
+        "CYP3A4 inducers (rifampin, carbamazepine) - decreased efficacy",
+        "Erythromycin - increased eszopiclone levels",
+        "Antidepressants - additive CNS depression"
+      ]
+    }
   },
   {
     id: "rx-034",
@@ -1283,7 +1563,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["7.5mg", "15mg", "22.5mg", "30mg"],
     formOptions: ["Capsule"],
-    tags: ["insomnia", "sleep", "benzodiazepine", "controlled"]
+    tags: ["insomnia", "sleep", "benzodiazepine", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 15-30mg at bedtime. Elderly/debilitated: 7.5mg initially. Maximum 30mg.",
+        administration: [
+          "Take at bedtime",
+          "Swallow capsules whole",
+          "Short-term use only (7-10 days)",
+          "Taper gradually if used for more than a few weeks"
+        ],
+        specialPopulations: "Start 7.5mg in elderly and debilitated. Contraindicated in pregnancy. Avoid in breastfeeding."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Dizziness", "Lethargy", "Confusion", "Euphoria", "Weakness"],
+        serious: ["Physical dependence", "Withdrawal syndrome", "Respiratory depression", "Anterograde amnesia", "Complex sleep behaviors", "Falls (especially elderly)"]
+      },
+      contraindications: [
+        "Known hypersensitivity to benzodiazepines",
+        "Pregnancy",
+        "Sleep apnea (relative)",
+        "Severe respiratory insufficiency"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, alcohol) - severe respiratory depression",
+        "Other benzodiazepines - additive sedation",
+        "CYP3A4 inhibitors - may increase temazepam levels",
+        "Probenecid - decreased temazepam clearance",
+        "Theophylline - may decrease sedative effects"
+      ]
+    }
   },
 
   // ADHD Medications (35-38)
@@ -1302,7 +1611,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "20mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["adhd", "stimulant", "controlled"]
+    tags: ["adhd", "stimulant", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "ADHD: Start 5mg twice daily before breakfast and lunch. Increase by 5-10mg weekly. Maximum 60mg/day. Extended-release: 18-72mg once daily in morning.",
+        administration: [
+          "Take 30-45 minutes before meals",
+          "Last dose should be before 6 PM to avoid insomnia",
+          "Extended-release: swallow whole, do not crush or chew",
+          "Can be taken with or without food"
+        ],
+        specialPopulations: "Not recommended in children <6 years. Use caution in elderly. Avoid in pregnancy unless benefits outweigh risks."
+      },
+      sideEffects: {
+        common: ["Decreased appetite", "Insomnia", "Nervousness", "Headache", "Stomach pain", "Weight loss"],
+        serious: ["Cardiovascular events (sudden death, MI, stroke)", "Psychiatric symptoms (psychosis, mania)", "Priapism", "Peripheral vasculopathy", "Seizures", "Growth suppression in children"]
+      },
+      contraindications: [
+        "Hypersensitivity to methylphenidate",
+        "Glaucoma",
+        "Motor tics or Tourette's syndrome",
+        "Use of MAOIs within 14 days",
+        "Severe anxiety, tension, or agitation"
+      ],
+      drugInteractions: [
+        "MAOIs - hypertensive crisis (contraindicated)",
+        "Pressor agents - increased blood pressure",
+        "Anticoagulants (warfarin) - increased levels",
+        "Antidepressants (TCAs, SSRIs) - increased antidepressant levels",
+        "Antihypertensives - may decrease effectiveness",
+        "Alcohol - impaired judgment with long-acting forms"
+      ]
+    }
   },
   {
     id: "rx-036",
@@ -1319,7 +1659,43 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "15mg", "20mg", "30mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["adhd", "stimulant", "controlled"]
+    tags: ["adhd", "stimulant", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "ADHD (ages 6+): Start 5mg once or twice daily. Increase by 5mg weekly. Maximum 40mg/day. Adults: Start 5mg 1-2 times daily, max 40mg. Extended-release: 20mg once daily.",
+        administration: [
+          "Take upon awakening",
+          "Can take with or without food",
+          "Avoid afternoon/evening doses (insomnia risk)",
+          "Extended-release: swallow whole, do not crush",
+          "May open capsules and sprinkle on applesauce"
+        ],
+        specialPopulations: "Not recommended in children <3 years. Use caution in elderly. Avoid in pregnancy."
+      },
+      sideEffects: {
+        common: ["Loss of appetite", "Insomnia", "Dry mouth", "Weight loss", "Irritability", "Increased heart rate"],
+        serious: ["Sudden cardiac death", "Stroke", "Myocardial infarction", "Psychiatric disorders (psychosis, mania, aggression)", "Seizures", "Peripheral vasculopathy", "Serotonin syndrome", "Growth suppression"]
+      },
+      contraindications: [
+        "Advanced arteriosclerosis",
+        "Symptomatic cardiovascular disease",
+        "Moderate to severe hypertension",
+        "Hyperthyroidism",
+        "Glaucoma",
+        "Agitated states",
+        "History of drug abuse",
+        "MAOI use within 14 days"
+      ],
+      drugInteractions: [
+        "MAOIs - hypertensive crisis (contraindicated)",
+        "Serotonergic drugs - serotonin syndrome",
+        "Acidifying agents (vitamin C) - decreased absorption",
+        "Alkalinizing agents (sodium bicarbonate) - increased absorption",
+        "Antihypertensives - may decrease effectiveness",
+        "TCAs - increased cardiovascular effects",
+        "Proton pump inhibitors - may affect absorption"
+      ]
+    }
   },
   {
     id: "rx-037",
@@ -1336,7 +1712,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["20mg", "30mg", "40mg", "50mg", "60mg", "70mg"],
     formOptions: ["Capsule"],
-    tags: ["adhd", "stimulant", "controlled"]
+    tags: ["adhd", "stimulant", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "ADHD (ages 6+): Start 30mg once daily in morning. Titrate by 10-20mg weekly. Maximum 70mg/day. Binge eating disorder: Start 30mg, target 50-70mg/day.",
+        administration: [
+          "Take once daily in the morning",
+          "Can take with or without food",
+          "Swallow capsule whole or open and dissolve in water",
+          "Do not divide dose"
+        ],
+        specialPopulations: "Not recommended in children <6 years. Severe renal impairment: max 50mg/day. ESRD: max 30mg/day. Avoid in pregnancy."
+      },
+      sideEffects: {
+        common: ["Decreased appetite", "Insomnia", "Dry mouth", "Diarrhea", "Nausea", "Anxiety", "Weight loss"],
+        serious: ["Sudden death in patients with cardiac abnormalities", "Serious cardiovascular reactions", "Psychiatric adverse reactions (psychosis, mania)", "Seizures", "Peripheral vasculopathy", "Serotonin syndrome", "Growth suppression"]
+      },
+      contraindications: [
+        "Hypersensitivity to amphetamine products",
+        "MAOI use within 14 days or during treatment",
+        "Not for use in severe hypertension or advanced arteriosclerosis"
+      ],
+      drugInteractions: [
+        "MAOIs - hypertensive crisis (contraindicated)",
+        "Serotonergic drugs (SSRIs, SNRIs) - serotonin syndrome",
+        "Acidifying agents - decreased blood levels",
+        "Alkalinizing agents - increased blood levels",
+        "TCAs - enhanced sympathomimetic effects",
+        "Proton pump inhibitors - may alter absorption"
+      ]
+    }
   },
   {
     id: "rx-038",
@@ -1353,7 +1758,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "18mg", "25mg", "40mg", "60mg", "80mg", "100mg"],
     formOptions: ["Capsule"],
-    tags: ["adhd", "non-stimulant"]
+    tags: ["adhd", "non-stimulant"],
+    medicalInfo: {
+      dosage: {
+        standard: "Children/adolescents ≤70kg: Start 0.5mg/kg/day, increase after 3 days to 1.2mg/kg/day. Maximum 1.4mg/kg or 100mg. Adults: Start 40mg/day, target 80-100mg/day.",
+        administration: [
+          "Take once daily in morning or divided twice daily",
+          "Can be taken with or without food",
+          "Swallow capsules whole",
+          "Full effect may take 2-4 weeks"
+        ],
+        specialPopulations: "Reduce dose by 50% in moderate hepatic impairment, 75% in severe. Reduce dose with CYP2D6 inhibitors. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Decreased appetite", "Fatigue", "Dizziness", "Dry mouth", "Constipation", "Insomnia"],
+        serious: ["Suicidal ideation", "Severe liver injury", "Cardiovascular effects (increased HR and BP)", "Priapism", "Aggressive behavior", "Psychotic/manic symptoms", "Allergic reactions"]
+      },
+      contraindications: [
+        "Narrow-angle glaucoma",
+        "Use of MAOIs within 14 days",
+        "Severe cardiovascular disorders",
+        "Pheochromocytoma"
+      ],
+      drugInteractions: [
+        "MAOIs - contraindicated due to hypertensive reactions",
+        "CYP2D6 inhibitors (paroxetine, fluoxetine, quinidine) - increased atomoxetine levels",
+        "Pressor agents (albuterol) - increased cardiovascular effects",
+        "Antihypertensives - may affect blood pressure control"
+      ]
+    }
   },
 
   // Diabetes & Metabolic (39-43)

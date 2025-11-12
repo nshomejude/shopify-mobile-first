@@ -4744,11 +4744,32 @@ export const products: Product[] = [
   // Cognitive Enhancers (121-135)
   {
     id: "noot-121",
+    name: "Modafinil",
+    description: "Wakefulness agent and cognitive enhancer for narcolepsy and off-label focus",
+    price: 58.99,
+    oldPrice: 114.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "cognitive-enhancement",
+    subcategory: "nootropics",
+    inStock: true,
+    rating: 4.8,
+    reviews: 789,
+    requiresPrescription: true,
+    strengthOptions: ["100mg", "200mg"],
+    formOptions: ["Tablet"],
+    tags: ["wakefulness", "cognitive", "narcolepsy", "productivity"],
+    variationPrices: {
+      minPrice: 58.99,
+      maxPrice: 94.99
+    }
+  },
+  {
+    id: "noot-122",
     name: "Armodafinil",
-    description: "R-enantiomer of modafinil for wakefulness promotion",
+    description: "R-enantiomer of modafinil for extended wakefulness promotion",
     price: 62.99,
     oldPrice: 118.99,
-    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
     category: "cognitive-enhancement",
     subcategory: "nootropics",
     inStock: true,
@@ -4764,7 +4785,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-122",
+    id: "noot-123",
     name: "Piracetam",
     description: "Classic nootropic for cognitive enhancement",
     price: 32.99,
@@ -4785,7 +4806,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-123",
+    id: "noot-124",
     name: "Aniracetam",
     description: "Racetam nootropic for focus and anxiety",
     price: 38.99,
@@ -4806,7 +4827,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-124",
+    id: "noot-125",
     name: "Oxiracetam",
     description: "Racetam nootropic for memory and learning",
     price: 42.99,
@@ -4826,7 +4847,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-125",
+    id: "noot-126",
     name: "Phenylpiracetam",
     description: "Potent racetam with stimulant-like properties",
     price: 54.99,
@@ -4847,7 +4868,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-126",
+    id: "noot-127",
     name: "Noopept",
     description: "Peptide-like nootropic for cognitive enhancement",
     price: 28.99,
@@ -4867,7 +4888,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-127",
+    id: "noot-128",
     name: "Phenibut",
     description: "GABAergic nootropic for anxiety and cognitive function",
     price: 34.99,
@@ -4887,7 +4908,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-128",
+    id: "noot-129",
     name: "CDP-Choline (Citicoline)",
     description: "Choline precursor for cognitive support",
     price: 26.99,
@@ -4907,7 +4928,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-129",
+    id: "noot-130",
     name: "Alpha-GPC",
     description: "High-quality choline source for cognitive function",
     price: 32.99,
@@ -4927,7 +4948,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-130",
+    id: "noot-131",
     name: "L-Theanine",
     description: "Amino acid for relaxation and focus",
     price: 18.99,
@@ -4947,7 +4968,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-131",
+    id: "noot-132",
     name: "Bacopa Monnieri",
     description: "Herbal nootropic for memory and cognitive function",
     price: 22.99,
@@ -4967,7 +4988,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-132",
+    id: "noot-133",
     name: "PRL-8-53",
     description: "Research nootropic compound for memory enhancement",
     price: 64.99,
@@ -4983,7 +5004,7 @@ export const products: Product[] = [
     tags: ["nootropic", "memory", "research"]
   },
   {
-    id: "noot-133",
+    id: "noot-134",
     name: "Selank",
     description: "Peptide nootropic for anxiety and cognitive function",
     price: 78.99,
@@ -5003,7 +5024,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "noot-134",
+    id: "noot-135",
     name: "Semax",
     description: "Peptide nootropic for cognitive enhancement",
     price: 82.99,
@@ -5023,9 +5044,9 @@ export const products: Product[] = [
     }
   },
 
-  // SARMs & Peptides (135-150)
+  // SARMs & Peptides (136-150)
   {
-    id: "sarm-135",
+    id: "sarm-136",
     name: "MK-677 (Ibutamoren)",
     description: "Growth hormone secretagogue for muscle growth and recovery",
     price: 94.99,
@@ -5046,7 +5067,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "sarm-136",
+    id: "sarm-137",
     name: "RAD-140 (Testolone)",
     description: "Selective androgen receptor modulator for muscle building",
     price: 108.99,
@@ -5096,7 +5117,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "sarm-137",
+    id: "sarm-138",
     name: "LGD-4033 (Ligandrol)",
     description: "SARM for lean muscle mass and strength gains",
     price: 98.99,
@@ -5146,7 +5167,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "sarm-138",
+    id: "sarm-139",
     name: "YK-11",
     description: "SARM and myostatin inhibitor for muscle growth",
     price: 112.99,
@@ -5161,7 +5182,7 @@ export const products: Product[] = [
     tags: ["sarm", "myostatin-inhibitor", "muscle-growth"]
   },
   {
-    id: "sarm-139",
+    id: "sarm-140",
     name: "SR9009",
     description: "Rev-erb agonist for endurance and fat loss",
     price: 88.99,
@@ -5176,7 +5197,7 @@ export const products: Product[] = [
     tags: ["metabolic", "endurance", "fat-loss"]
   },
   {
-    id: "sarm-140",
+    id: "sarm-141",
     name: "GW-501516 (Cardarine)",
     description: "PPARδ agonist for endurance and fat metabolism",
     price: 92.99,
@@ -5191,7 +5212,7 @@ export const products: Product[] = [
     tags: ["endurance", "fat-loss", "metabolic"]
   },
   {
-    id: "pep-141",
+    id: "pep-142",
     name: "BPC-157",
     description: "Peptide for tissue repair and healing",
     price: 124.99,
@@ -5240,7 +5261,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "pep-142",
+    id: "pep-143",
     name: "TB-500 (Thymosin Beta-4)",
     description: "Peptide for recovery and tissue regeneration",
     price: 138.99,
@@ -5290,7 +5311,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "pep-143",
+    id: "pep-144",
     name: "Follistatin",
     description: "Muscle regulation peptide for growth",
     price: 248.99,
@@ -5304,7 +5325,7 @@ export const products: Product[] = [
     tags: ["peptide", "muscle-growth", "myostatin-inhibitor"]
   },
   {
-    id: "supp-144",
+    id: "mel-145",
     name: "Melatonin (Prescription-Strength)",
     description: "Sleep hormone for circadian rhythm regulation",
     price: 14.99,
@@ -5320,7 +5341,7 @@ export const products: Product[] = [
     tags: ["sleep", "melatonin", "circadian"]
   },
   {
-    id: "ster-145",
+    id: "ster-147",
     name: "Oxandrolone",
     description: "Mild anabolic steroid for medical use and recovery",
     price: 128.99,
@@ -5341,7 +5362,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "ster-146",
+    id: "ster-148",
     name: "Nandrolone",
     description: "Anabolic steroid for medical applications",
     price: 118.99,
@@ -5362,7 +5383,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "pct-147",
+    id: "pct-149",
     name: "Clomiphene",
     description: "Fertility medication and PCT support",
     price: 42.99,
@@ -5383,7 +5404,7 @@ export const products: Product[] = [
     }
   },
   {
-    id: "pct-148",
+    id: "pct-150",
     name: "Tamoxifen (PCT Use)",
     description: "SERM for post-cycle therapy",
     price: 38.99,
@@ -5736,8 +5757,151 @@ export const products: Product[] = [
       maxPrice: 44.99
     }
   },
+  {
+    id: "med-169",
+    name: "Medetomidine / Dexmedetomidine",
+    description: "Veterinary sedative and analgesic (licensed veterinary use)",
+    price: 94.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "specialized-lab",
+    subcategory: "veterinary-medications",
+    inStock: true,
+    rating: 4.7,
+    reviews: 67,
+    requiresLabLicense: true,
+    strengthOptions: ["0.5mg/ml", "1mg/ml"],
+    formOptions: ["Injectable"],
+    tags: ["veterinary", "sedative", "alpha-2-agonist"],
+    variationPrices: {
+      minPrice: 94.99,
+      maxPrice: 144.99
+    }
+  },
+  {
+    id: "carp-170",
+    name: "Carprofen",
+    description: "Veterinary NSAID for pain and inflammation in animals",
+    price: 38.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "specialized-lab",
+    subcategory: "veterinary-medications",
+    inStock: true,
+    rating: 4.6,
+    reviews: 234,
+    requiresLabLicense: true,
+    strengthOptions: ["25mg", "75mg", "100mg"],
+    formOptions: ["Tablet", "Injectable"],
+    tags: ["veterinary", "nsaid", "pain-relief"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 74.99
+    }
+  },
+  {
+    id: "vetab-171",
+    name: "Veterinary Antibiotics (Enrofloxacin)",
+    description: "Veterinary fluoroquinolone antibiotic for licensed use",
+    price: 54.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "specialized-lab",
+    subcategory: "veterinary-medications",
+    inStock: true,
+    rating: 4.5,
+    reviews: 178,
+    requiresLabLicense: true,
+    strengthOptions: ["22.7mg", "68mg", "136mg"],
+    formOptions: ["Tablet", "Injectable"],
+    tags: ["veterinary", "antibiotic", "fluoroquinolone"],
+    variationPrices: {
+      minPrice: 54.99,
+      maxPrice: 94.99
+    }
+  },
+  {
+    id: "labr-172",
+    name: "Lab Reagents (HPLC Standards)",
+    description: "Analytical chemistry standards for laboratory use",
+    price: 124.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "specialized-lab",
+    subcategory: "lab-supplies",
+    inStock: true,
+    rating: 4.8,
+    reviews: 89,
+    requiresLabLicense: true,
+    strengthOptions: ["1mg", "10mg", "100mg"],
+    formOptions: ["Powder", "Solution"],
+    tags: ["lab-reagent", "hplc", "analytical", "reference-standard"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 124.99,
+      maxPrice: 499.99
+    }
+  },
+  {
+    id: "elisa-173",
+    name: "Analytical Kits (ELISA Kits)",
+    description: "Enzyme-linked immunosorbent assay kits for laboratory analysis",
+    price: 299.99,
+    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400",
+    category: "specialized-lab",
+    subcategory: "diagnostic-tests",
+    inStock: true,
+    rating: 4.7,
+    reviews: 124,
+    requiresLabLicense: true,
+    strengthOptions: ["96-well kit", "384-well kit"],
+    formOptions: ["Test Kit"],
+    tags: ["elisa", "diagnostic", "lab-testing", "immunoassay"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 299.99,
+      maxPrice: 899.99
+    }
+  },
+  {
+    id: "refs-174",
+    name: "Reference Standards (Pharmacopoeial)",
+    description: "USP/EP grade reference standards for pharmaceutical analysis",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "specialized-lab",
+    subcategory: "lab-supplies",
+    inStock: true,
+    rating: 4.9,
+    reviews: 67,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "500mg", "1g"],
+    formOptions: ["Powder", "Certified Ampule"],
+    tags: ["reference-standard", "usp", "ep", "pharmacopoeia", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 189.99,
+      maxPrice: 749.99
+    }
+  },
+  {
+    id: "veth-175",
+    name: "Veterinary Hormones (Research Grade)",
+    description: "Veterinary growth hormones for research purposes",
+    price: 224.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "specialized-lab",
+    subcategory: "veterinary-medications",
+    inStock: true,
+    rating: 4.4,
+    reviews: 34,
+    requiresLabLicense: true,
+    strengthOptions: ["5mg", "10mg"],
+    formOptions: ["Injectable", "Powder"],
+    tags: ["veterinary", "growth-hormone", "research", "lab-only"],
+    variationPrices: {
+      minPrice: 224.99,
+      maxPrice: 449.99
+    }
+  },
 
-  // VI. WELLNESS & RECOVERY (166-180)
+  // VI. WELLNESS & RECOVERY (176-180)
   {
     id: "nal-166",
     name: "Naltrexone",

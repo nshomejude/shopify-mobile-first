@@ -2265,6 +2265,262 @@ export const products: Product[] = [
       ]
     }
   },
+  {
+    id: "rx-043a",
+    name: "Phentermine HCL",
+    description: "Prescription appetite suppressant for short-term weight loss management",
+    price: 75.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "weight-loss",
+    inStock: true,
+    rating: 4.6,
+    reviews: 892,
+    requiresPrescription: true,
+    strengthOptions: ["15mg", "30mg", "37.5mg"],
+    formOptions: ["Tablet", "Capsule"],
+    tags: ["weight-loss", "appetite-suppressant", "obesity", "diet", "metabolism"],
+    variationPrices: {
+      minPrice: 65.00,
+      maxPrice: 85.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "37.5mg once daily before breakfast or 1-2 hours after breakfast. Alternative: 15-37.5mg in divided doses 30 minutes before meals. Maximum 37.5mg/day.",
+        administration: [
+          "Take in the morning before breakfast or 1-2 hours after",
+          "Avoid late-day dosing to prevent insomnia",
+          "Use short-term only (few weeks) as part of comprehensive weight loss program",
+          "Combine with reduced-calorie diet and exercise",
+          "Do not crush or chew extended-release formulations"
+        ],
+        specialPopulations: "Not recommended in elderly, children, or patients with cardiovascular disease. Contraindicated in pregnancy and breastfeeding."
+      },
+      sideEffects: {
+        common: ["Dry mouth", "Insomnia", "Dizziness", "Nervousness", "Restlessness", "Increased heart rate", "Constipation"],
+        serious: ["Primary pulmonary hypertension", "Valvular heart disease", "Severe hypertension", "Stroke", "Psychological dependence", "Psychosis"]
+      },
+      contraindications: [
+        "Cardiovascular disease (coronary artery disease, arrhythmias, CHF)",
+        "Uncontrolled hypertension",
+        "Hyperthyroidism",
+        "Glaucoma",
+        "Agitated states",
+        "History of drug abuse",
+        "MAO inhibitor use within 14 days",
+        "Pregnancy and breastfeeding"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - hypertensive crisis (contraindicated within 14 days)",
+        "Other CNS stimulants - additive effects, increased cardiovascular risks",
+        "SSRIs, SNRIs - serotonin syndrome risk",
+        "Insulin, oral hypoglycemics - may need dose adjustment",
+        "Antihypertensives - may reduce effectiveness"
+      ]
+    }
+  },
+  {
+    id: "rx-043b",
+    name: "Semaglutide (Ozempic)",
+    description: "GLP-1 receptor agonist that regulates appetite and glucose metabolism for sustained weight control",
+    price: 195.00,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "weight-loss",
+    inStock: true,
+    rating: 4.9,
+    reviews: 1243,
+    requiresPrescription: true,
+    strengthOptions: ["0.25mg", "0.5mg", "1mg", "2mg"],
+    formOptions: ["Injectable Pen"],
+    tags: ["weight-loss", "glp1", "diabetes", "obesity", "appetite-control"],
+    variationPrices: {
+      minPrice: 175.00,
+      maxPrice: 225.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Type 2 diabetes: Start 0.25mg SC once weekly for 4 weeks, then 0.5mg. May increase to 1mg after 4 weeks, then 2mg if needed. Weight management (Wegovy): Start 0.25mg, escalate to 2.4mg over 16-20 weeks.",
+        administration: [
+          "Subcutaneous injection once weekly, same day each week",
+          "Inject in abdomen, thigh, or upper arm",
+          "Rotate injection sites",
+          "Can be given any time of day, with or without food",
+          "If dose missed, give within 5 days; if >5 days, skip and resume schedule"
+        ],
+        specialPopulations: "Not recommended in severe renal impairment or pregnancy. Use caution in elderly. Not studied in children <18 for weight loss."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Diarrhea", "Abdominal pain", "Constipation", "Decreased appetite", "Fatigue"],
+        serious: ["Thyroid C-cell tumors (medullary thyroid carcinoma)", "Pancreatitis", "Hypoglycemia (with insulin/sulfonylureas)", "Acute kidney injury", "Diabetic retinopathy complications", "Gallbladder disease", "Suicidal ideation"]
+      },
+      contraindications: [
+        "Personal or family history of medullary thyroid carcinoma (MTC)",
+        "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+        "Previous serious hypersensitivity to semaglutide",
+        "Pregnancy (discontinue if pregnancy occurs)"
+      ],
+      drugInteractions: [
+        "Insulin, sulfonylureas - increased hypoglycemia risk, dose reduction may be needed",
+        "Oral medications - delayed gastric emptying may affect absorption",
+        "Warfarin - monitor INR closely",
+        "Levothyroxine - monitor thyroid function"
+      ]
+    }
+  },
+  {
+    id: "rx-043c",
+    name: "Orlistat (Xenical/Alli)",
+    description: "Fat absorption inhibitor that aids weight reduction with dietary support",
+    price: 64.00,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "weight-loss",
+    inStock: true,
+    rating: 4.3,
+    reviews: 678,
+    requiresPrescription: true,
+    strengthOptions: ["60mg", "120mg"],
+    formOptions: ["Capsule"],
+    tags: ["weight-loss", "fat-blocker", "obesity", "lipase-inhibitor", "diet"],
+    variationPrices: {
+      minPrice: 54.00,
+      maxPrice: 74.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "120mg (Xenical) three times daily with each main meal containing fat. 60mg (Alli - OTC) three times daily. If meal is missed or contains no fat, skip dose.",
+        administration: [
+          "Take during or up to 1 hour after each main meal",
+          "Omit dose if meal is missed or contains no fat",
+          "Take multivitamin at bedtime (at least 2 hours before or after orlistat)",
+          "Follow reduced-calorie, low-fat diet (about 30% calories from fat)",
+          "Distribute fat intake over three main meals"
+        ],
+        specialPopulations: "Not recommended in pregnancy or breastfeeding. Use caution with history of kidney stones. Not studied in children <12."
+      },
+      sideEffects: {
+        common: ["Oily spotting", "Flatulence with discharge", "Fecal urgency", "Fatty/oily stools", "Increased defecation", "Fecal incontinence", "Abdominal pain"],
+        serious: ["Severe liver injury (rare)", "Kidney stones (oxalate nephropathy)", "Pancreatitis", "Cholelithiasis (gallstones)", "Fat-soluble vitamin deficiency"]
+      },
+      contraindications: [
+        "Chronic malabsorption syndrome",
+        "Cholestasis",
+        "Known hypersensitivity to orlistat",
+        "Pregnancy"
+      ],
+      drugInteractions: [
+        "Cyclosporine - decreased cyclosporine levels (separate by 3 hours)",
+        "Levothyroxine - decreased thyroid hormone levels (separate by 4 hours)",
+        "Warfarin - monitor INR closely",
+        "Antiepileptic drugs - may decrease anticonvulsant levels, monitor for seizures",
+        "Fat-soluble vitamins (A, D, E, K) - decreased absorption, take multivitamin 2+ hours apart",
+        "Amiodarone - decreased amiodarone levels"
+      ]
+    }
+  },
+  {
+    id: "rx-043d",
+    name: "Topiramate",
+    description: "Anticonvulsant used off-label for appetite control and metabolic stabilization",
+    price: 58.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "weight-loss",
+    inStock: true,
+    rating: 4.1,
+    reviews: 456,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "100mg", "200mg"],
+    formOptions: ["Tablet", "Capsule"],
+    tags: ["weight-loss", "appetite-suppressant", "anticonvulsant", "off-label", "binge-eating"],
+    variationPrices: {
+      minPrice: 48.00,
+      maxPrice: 68.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Weight loss (off-label): Start 25mg once or twice daily. Gradually increase by 25-50mg/week to target dose of 100-200mg daily in divided doses. Combination with phentermine: lower doses used.",
+        administration: [
+          "Can be taken with or without food",
+          "Swallow capsules whole; do NOT open or chew (bitter taste)",
+          "Increase dose gradually to minimize side effects",
+          "Drink plenty of fluids to reduce kidney stone risk",
+          "Taper gradually when discontinuing to prevent seizures"
+        ],
+        specialPopulations: "Reduce dose by 50% in moderate-severe renal impairment. Use caution in hepatic impairment. Contraindicated in pregnancy (risk of cleft lip/palate)."
+      },
+      sideEffects: {
+        common: ["Paresthesia (tingling)", "Taste alteration", "Anorexia", "Cognitive impairment", "Dizziness", "Fatigue", "Weight loss", "Nausea"],
+        serious: ["Metabolic acidosis", "Kidney stones", "Acute myopia and secondary angle-closure glaucoma", "Oligohydrosis and hyperthermia", "Cognitive/psychiatric effects", "Suicidal thoughts", "Fetal harm (pregnancy)"]
+      },
+      contraindications: [
+        "Recent (within 6 months) alcohol use",
+        "Metabolic acidosis with metformin use",
+        "Pregnancy (Category D - risk of oral clefts)",
+        "Known hypersensitivity to topiramate"
+      ],
+      drugInteractions: [
+        "Carbonic anhydrase inhibitors (acetazolamide) - increased risk of kidney stones and metabolic acidosis",
+        "Metformin - increased risk of metabolic acidosis",
+        "CNS depressants (alcohol, benzodiazepines) - additive sedation",
+        "Oral contraceptives - may decrease effectiveness, use backup contraception",
+        "Phenytoin, carbamazepine - may decrease topiramate levels",
+        "Valproic acid - increased risk of hyperammonemia and hypothermia"
+      ]
+    }
+  },
+  {
+    id: "nat-165",
+    name: "Green Tea Extract (EGCG)",
+    description: "Natural thermogenic supplement that enhances fat oxidation and metabolism",
+    price: 34.00,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "natural-alternative",
+    subcategory: "supplements",
+    inStock: true,
+    rating: 4.4,
+    reviews: 1567,
+    requiresPrescription: false,
+    strengthOptions: ["250mg", "500mg", "750mg"],
+    formOptions: ["Capsule", "Softgel"],
+    tags: ["natural", "fat-burner", "metabolism", "antioxidant", "weight-loss", "herbal", "thermogenic"],
+    variationPrices: {
+      minPrice: 24.00,
+      maxPrice: 44.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "500mg (standardized to 50% EGCG) 1-2 times daily with meals. Optimal dose for weight loss: 250-500mg EGCG daily.",
+        administration: [
+          "Take with meals to reduce GI upset",
+          "Best taken in morning and early afternoon due to caffeine content",
+          "Avoid taking on empty stomach (can cause nausea)",
+          "Maintain adequate hydration",
+          "Consider cycling (e.g., 8 weeks on, 2 weeks off)"
+        ],
+        specialPopulations: "Use caution in pregnancy and breastfeeding (limited data). Reduce dose or avoid in liver disease. Lower doses for caffeine-sensitive individuals."
+      },
+      sideEffects: {
+        common: ["Nausea", "Upset stomach", "Caffeine-related effects (jitteriness, insomnia, increased heart rate)", "Constipation", "Headache"],
+        serious: ["Hepatotoxicity (rare, with high doses)", "Iron deficiency anemia (chronic high-dose use)", "Drug interactions via CYP450 inhibition"]
+      },
+      contraindications: [
+        "Liver disease or elevated liver enzymes",
+        "Pregnancy and breastfeeding (insufficient safety data)",
+        "Iron deficiency anemia",
+        "Caffeine hypersensitivity or severe anxiety disorders"
+      ],
+      drugInteractions: [
+        "Stimulants (caffeine, ephedrine) - additive effects",
+        "Warfarin - may increase bleeding risk",
+        "Beta-blockers (nadolol, atenolol) - reduced effectiveness",
+        "Chemotherapy drugs (bortezomib, doxorubicin) - may interfere with treatment",
+        "Iron supplements - reduced iron absorption (take 2+ hours apart)",
+        "Statins - may increase statin levels"
+      ]
+    }
+  },
 
   // Cardiovascular (44-53)
   {

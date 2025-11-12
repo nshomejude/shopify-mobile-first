@@ -1057,6 +1057,10 @@ export const products: Product[] = [
     strengthOptions: ["37.5mg", "75mg", "150mg"],
     formOptions: ["Extended-Release Capsule"],
     tags: ["depression", "anxiety", "snri"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 37.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Extended-release: Start 75mg once daily with food. May increase by 75mg increments every 4 days. Maximum 225mg per day.",
@@ -1103,6 +1107,10 @@ export const products: Product[] = [
     strengthOptions: ["75mg", "100mg", "150mg", "300mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["depression", "smoking-cessation"],
+    variationPrices: {
+      minPrice: 26.99,
+      maxPrice: 41.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Depression: Extended-release 150mg once daily, may increase to 300mg. Smoking cessation: 150mg once daily for 3 days, then 150mg twice daily.",
@@ -1149,6 +1157,10 @@ export const products: Product[] = [
     strengthOptions: ["300mg", "450mg", "600mg"],
     formOptions: ["Capsule", "Tablet", "Extended-Release"],
     tags: ["bipolar", "mood-stabilizer"],
+    variationPrices: {
+      minPrice: 19.99,
+      maxPrice: 31.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Acute mania: 1800mg per day in divided doses. Maintenance: 900-1200mg per day. Dose based on serum levels (target 0.6-1.2 mEq/L).",
@@ -1197,6 +1209,10 @@ export const products: Product[] = [
     strengthOptions: ["25mg", "50mg", "100mg", "200mg", "300mg", "400mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["antipsychotic", "bipolar"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 62.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Schizophrenia: Start 25mg twice daily, titrate by 25-50mg increments. Target 300-400mg/day in 2-3 doses. Maximum 800mg/day. Bipolar: 50-800mg/day.",
@@ -1241,6 +1257,10 @@ export const products: Product[] = [
     strengthOptions: ["2.5mg", "5mg", "7.5mg", "10mg", "15mg", "20mg"],
     formOptions: ["Tablet"],
     tags: ["antipsychotic", "bipolar"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 67.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Schizophrenia: Start 5-10mg once daily, adjust by 5mg increments. Target 10-15mg/day. Maximum 20mg/day. Bipolar: 10-15mg/day.",
@@ -1327,6 +1347,10 @@ export const products: Product[] = [
     strengthOptions: ["2mg", "5mg", "10mg", "15mg", "20mg", "30mg"],
     formOptions: ["Tablet"],
     tags: ["antipsychotic", "bipolar"],
+    variationPrices: {
+      minPrice: 44.99,
+      maxPrice: 69.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Schizophrenia: Start 10-15mg once daily. Target 10-15mg/day. Maximum 30mg/day. Bipolar: 15-30mg/day. Depression adjunct: 2-15mg/day.",
@@ -1371,6 +1395,10 @@ export const products: Product[] = [
     strengthOptions: ["0.25mg", "0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet"],
     tags: ["anxiety", "benzodiazepine", "controlled"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 34.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Anxiety: Start 0.25-0.5mg three times daily. Maximum 4mg/day. Panic disorder: Start 0.5mg three times daily, may increase. Maximum 10mg/day.",
@@ -1416,6 +1444,10 @@ export const products: Product[] = [
     strengthOptions: ["2mg", "5mg", "10mg"],
     formOptions: ["Tablet"],
     tags: ["anxiety", "benzodiazepine", "controlled"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 28.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Anxiety: 2-10mg 2-4 times daily. Muscle spasms: 2-15mg 3-4 times daily. Status epilepticus: IV 5-10mg (hospital setting).",
@@ -1463,6 +1495,10 @@ export const products: Product[] = [
     strengthOptions: ["0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet"],
     tags: ["anxiety", "benzodiazepine", "controlled"],
+    variationPrices: {
+      minPrice: 20.99,
+      maxPrice: 31.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Anxiety: 2-3mg daily in 2-3 divided doses. Maximum 10mg/day. Insomnia: 2-4mg at bedtime.",
@@ -2005,6 +2041,10 @@ export const products: Product[] = [
     strengthOptions: ["Rapid-Acting", "Short-Acting", "Intermediate", "Long-Acting"],
     formOptions: ["Injectable", "Pen"],
     tags: ["diabetes", "insulin", "injectable"],
+    variationPrices: {
+      minPrice: 64.99,
+      maxPrice: 149.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Highly individualized. Type 1 DM: 0.4-1.0 units/kg/day. Type 2 DM: Start basal insulin 10 units/day or 0.1-0.2 units/kg, titrate based on glucose.",
@@ -2050,6 +2090,10 @@ export const products: Product[] = [
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
     tags: ["diabetes", "blood-sugar"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 74.99
+    },
     medicalInfo: {
       dosage: {
         standard: "100mg once daily with or without food. Renal impairment: eGFR 30-50: 50mg daily. eGFR <30 or ESRD: 25mg daily.",
@@ -2092,6 +2136,10 @@ export const products: Product[] = [
     strengthOptions: ["0.6mg", "1.2mg", "1.8mg"],
     formOptions: ["Injectable Pen"],
     tags: ["diabetes", "weight-loss", "glp1"],
+    variationPrices: {
+      minPrice: 124.99,
+      maxPrice: 194.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Diabetes: Start 0.6mg SC once daily for 1 week, then 1.2mg. May increase to 1.8mg. Weight management: up to 3mg daily.",
@@ -2137,6 +2185,10 @@ export const products: Product[] = [
     strengthOptions: ["10mg", "20mg", "40mg", "80mg"],
     formOptions: ["Tablet"],
     tags: ["cholesterol", "heart-health"],
+    variationPrices: {
+      minPrice: 15.99,
+      maxPrice: 25.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Start 10-20mg once daily. May increase to 40-80mg for aggressive LDL reduction. Take at same time daily.",
@@ -3629,6 +3681,10 @@ export const products: Product[] = [
     strengthOptions: ["10mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
     tags: ["anti-androgen", "hrt", "trans-feminine"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 67.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Trans HRT: 10-50mg daily (with estrogen). Prostate cancer: 200-300mg daily in divided doses. Use lowest effective dose. Monitor liver function.",
@@ -3677,6 +3733,10 @@ export const products: Product[] = [
     strengthOptions: ["100mg", "200mg"],
     formOptions: ["Capsule", "Cream"],
     tags: ["progesterone", "hrt", "hormone"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Menopause HRT with estrogen: 200mg at bedtime for 12 days per month. Amenorrhea: 400mg at bedtime for 10 days. Trans HRT: 100-200mg at bedtime (optional).",
@@ -3722,6 +3782,10 @@ export const products: Product[] = [
     strengthOptions: ["3.75mg", "7.5mg", "11.25mg"],
     formOptions: ["Injectable"],
     tags: ["puberty-blocker", "gnrh-agonist", "trans-youth"],
+    variationPrices: {
+      minPrice: 248.99,
+      maxPrice: 384.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Puberty suppression: 3.75mg IM monthly or 11.25mg IM every 3 months. Prostate cancer: 7.5mg IM monthly or 22.5mg every 3 months. Endometriosis: 3.75mg monthly.",
@@ -3766,6 +3830,10 @@ export const products: Product[] = [
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
     tags: ["erectile-dysfunction", "ed", "sexual-health"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 74.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Erectile dysfunction: Start 50mg as needed, 30-60 minutes before sexual activity. Range: 25-100mg. Maximum once daily. Pulmonary hypertension: 20mg three times daily.",
@@ -3916,7 +3984,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 41,
     requiresLabLicense: true,
-    tags: ["entactogen", "empathogen", "research"]
+    tags: ["entactogen", "empathogen", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 112.99,
+      maxPrice: 174.99
+    }
   },
 
   // RC Dissociatives (87-89)
@@ -3932,7 +4006,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 37,
     requiresLabLicense: true,
-    tags: ["dissociative", "ketamine-analog", "research"]
+    tags: ["dissociative", "ketamine-analog", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 134.99,
+      maxPrice: 209.99
+    }
   },
   {
     id: "rc-088",
@@ -3946,7 +4026,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 33,
     requiresLabLicense: true,
-    tags: ["dissociative", "research"]
+    tags: ["dissociative", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 142.99,
+      maxPrice: 219.99
+    }
   },
   {
     id: "rc-089",
@@ -3960,7 +4046,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 29,
     requiresLabLicense: true,
-    tags: ["dissociative", "ketamine-analog", "research"]
+    tags: ["dissociative", "ketamine-analog", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 138.99,
+      maxPrice: 214.99
+    }
   },
 
   // RC Psychedelics (90-97)
@@ -3976,7 +4068,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 52,
     requiresLabLicense: true,
-    tags: ["psychedelic", "phenethylamine", "research"]
+    tags: ["psychedelic", "phenethylamine", "research"],
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder", "Pellet"],
+    variationPrices: {
+      minPrice: 148.99,
+      maxPrice: 229.99
+    }
   },
   {
     id: "rc-091",
@@ -3990,7 +4088,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 44,
     requiresLabLicense: true,
-    tags: ["psychedelic", "phenethylamine", "research"]
+    tags: ["psychedelic", "phenethylamine", "research"],
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder", "Pellet"],
+    variationPrices: {
+      minPrice: 142.99,
+      maxPrice: 219.99
+    }
   },
   {
     id: "rc-092",
@@ -4004,7 +4108,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 38,
     requiresLabLicense: true,
-    tags: ["psychedelic", "phenethylamine", "research"]
+    tags: ["psychedelic", "phenethylamine", "research"],
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder", "Pellet"],
+    variationPrices: {
+      minPrice: 139.99,
+      maxPrice: 214.99
+    }
   },
   {
     id: "rc-093",
@@ -4018,7 +4128,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 31,
     requiresLabLicense: true,
-    tags: ["psychedelic", "nbome", "research"]
+    tags: ["psychedelic", "nbome", "research"],
+    strengthOptions: ["500mcg", "1mg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 152.99,
+      maxPrice: 234.99
+    }
   },
   {
     id: "rc-094",
@@ -4032,7 +4148,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 27,
     requiresLabLicense: true,
-    tags: ["psychedelic", "nbome", "research"]
+    tags: ["psychedelic", "nbome", "research"],
+    strengthOptions: ["500mcg", "1mg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 148.99,
+      maxPrice: 229.99
+    }
   },
   {
     id: "rc-095",
@@ -4046,7 +4168,13 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 47,
     requiresLabLicense: true,
-    tags: ["psychedelic", "tryptamine", "research"]
+    tags: ["psychedelic", "tryptamine", "research"],
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 168.99,
+      maxPrice: 259.99
+    }
   },
   {
     id: "rc-096",
@@ -4060,7 +4188,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 56,
     requiresLabLicense: true,
-    tags: ["psychedelic", "tryptamine", "research"]
+    tags: ["psychedelic", "tryptamine", "research"],
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 156.99,
+      maxPrice: 244.99
+    }
   },
   {
     id: "rc-097",
@@ -4074,7 +4208,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 43,
     requiresLabLicense: true,
-    tags: ["psychedelic", "lysergamide", "research"]
+    tags: ["psychedelic", "lysergamide", "research"],
+    strengthOptions: ["100mcg", "200mcg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 164.99,
+      maxPrice: 254.99
+    }
   },
 
   // RC Tryptamines (98-99)
@@ -4090,7 +4230,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 39,
     requiresLabLicense: true,
-    tags: ["tryptamine", "psilocin-analog", "research"]
+    tags: ["tryptamine", "psilocin-analog", "research"],
+    strengthOptions: ["25mg", "50mg", "100mg", "250mg"],
+    formOptions: ["Powder", "Pellet"],
+    variationPrices: {
+      minPrice: 142.99,
+      maxPrice: 219.99
+    }
   },
   {
     id: "rc-099",
@@ -4104,7 +4250,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 67,
     requiresLabLicense: true,
-    tags: ["tryptamine", "precursor", "research"]
+    tags: ["tryptamine", "precursor", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Capsule"],
+    variationPrices: {
+      minPrice: 78.99,
+      maxPrice: 124.99
+    }
   },
 
   // RC Cannabinoids (100-110)
@@ -4120,7 +4272,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 34,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 118.99,
+      maxPrice: 184.99
+    }
   },
   {
     id: "rc-101",
@@ -4134,7 +4292,13 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 26,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 128.99,
+      maxPrice: 199.99
+    }
   },
   {
     id: "rc-102",
@@ -4148,7 +4312,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 29,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 122.99,
+      maxPrice: 189.99
+    }
   },
   {
     id: "rc-103",
@@ -4162,7 +4332,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 35,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 132.99,
+      maxPrice: 204.99
+    }
   },
   {
     id: "rc-104",
@@ -4176,7 +4352,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 48,
     requiresLabLicense: true,
-    tags: ["benzodiazepine-analog", "thienodiazepine", "research"]
+    tags: ["benzodiazepine-analog", "thienodiazepine", "research"],
+    strengthOptions: ["1mg", "2mg"],
+    formOptions: ["Pellet", "Powder"],
+    variationPrices: {
+      minPrice: 96.99,
+      maxPrice: 149.99
+    }
   },
   {
     id: "rc-105",
@@ -4190,7 +4372,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 41,
     requiresLabLicense: true,
-    tags: ["benzodiazepine-analog", "research"]
+    tags: ["benzodiazepine-analog", "research"],
+    strengthOptions: ["1mg", "2mg"],
+    formOptions: ["Pellet", "Powder"],
+    variationPrices: {
+      minPrice: 104.99,
+      maxPrice: 162.99
+    }
   },
   {
     id: "rc-106",
@@ -4204,7 +4392,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 36,
     requiresLabLicense: true,
-    tags: ["benzodiazepine-analog", "research"]
+    tags: ["benzodiazepine-analog", "research"],
+    strengthOptions: ["0.5mg", "1mg"],
+    formOptions: ["Pellet", "Powder"],
+    variationPrices: {
+      minPrice: 108.99,
+      maxPrice: 169.99
+    }
   },
   {
     id: "rc-107",
@@ -4218,7 +4412,13 @@ export const products: Product[] = [
     rating: 4.3,
     reviews: 18,
     requiresLabLicense: true,
-    tags: ["opioid-analog", "research", "historical"]
+    tags: ["opioid-analog", "research", "historical"],
+    strengthOptions: ["10mg", "25mg", "50mg"],
+    formOptions: ["Powder"],
+    variationPrices: {
+      minPrice: 198.99,
+      maxPrice: 299.99
+    }
   },
   {
     id: "rc-108",
@@ -4232,7 +4432,13 @@ export const products: Product[] = [
     rating: 4.2,
     reviews: 15,
     requiresLabLicense: true,
-    tags: ["opioid-analog", "research"]
+    tags: ["opioid-analog", "research"],
+    strengthOptions: ["10mg", "25mg", "50mg"],
+    formOptions: ["Powder"],
+    variationPrices: {
+      minPrice: 186.99,
+      maxPrice: 284.99
+    }
   },
   {
     id: "rc-109",
@@ -4246,7 +4452,13 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 12,
     requiresLabLicense: true,
-    tags: ["opioid-analog", "research"]
+    tags: ["opioid-analog", "research"],
+    strengthOptions: ["10mg", "25mg", "50mg"],
+    formOptions: ["Powder"],
+    variationPrices: {
+      minPrice: 192.99,
+      maxPrice: 289.99
+    }
   },
   {
     id: "rc-110",
@@ -4260,7 +4472,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 28,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 126.99,
+      maxPrice: 194.99
+    }
   },
 
   // Additional RC Stimulants (111-120)
@@ -4276,7 +4494,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 32,
     requiresLabLicense: true,
-    tags: ["cathinone", "stimulant", "research"]
+    tags: ["cathinone", "stimulant", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 88.99,
+      maxPrice: 137.99
+    }
   },
   {
     id: "rc-112",
@@ -4290,7 +4514,13 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 29,
     requiresLabLicense: true,
-    tags: ["cathinone", "stimulant", "research"]
+    tags: ["cathinone", "stimulant", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 86.99,
+      maxPrice: 134.99
+    }
   },
   {
     id: "rc-113",
@@ -4304,7 +4534,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 38,
     requiresLabLicense: true,
-    tags: ["entactogen", "empathogen", "research"]
+    tags: ["entactogen", "empathogen", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Pellet"],
+    variationPrices: {
+      minPrice: 108.99,
+      maxPrice: 169.99
+    }
   },
   {
     id: "rc-114",
@@ -4318,7 +4554,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 45,
     requiresLabLicense: true,
-    tags: ["lysergamide", "psychedelic", "research"]
+    tags: ["lysergamide", "psychedelic", "research"],
+    strengthOptions: ["100mcg", "200mcg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 158.99,
+      maxPrice: 244.99
+    }
   },
   {
     id: "rc-115",
@@ -4332,7 +4574,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 33,
     requiresLabLicense: true,
-    tags: ["psychedelic", "phenethylamine", "research"]
+    tags: ["psychedelic", "phenethylamine", "research"],
+    strengthOptions: ["1mg", "2.5mg", "5mg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 144.99,
+      maxPrice: 224.99
+    }
   },
   {
     id: "rc-116",
@@ -4346,7 +4594,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 31,
     requiresLabLicense: true,
-    tags: ["psychedelic", "phenethylamine", "research"]
+    tags: ["psychedelic", "phenethylamine", "research"],
+    strengthOptions: ["1mg", "2.5mg", "5mg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 146.99,
+      maxPrice: 226.99
+    }
   },
   {
     id: "rc-117",
@@ -4360,7 +4614,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 27,
     requiresLabLicense: true,
-    tags: ["psychedelic", "nbome", "research"]
+    tags: ["psychedelic", "nbome", "research"],
+    strengthOptions: ["500mcg", "1mg"],
+    formOptions: ["Blotter", "Powder"],
+    variationPrices: {
+      minPrice: 154.99,
+      maxPrice: 239.99
+    }
   },
   {
     id: "rc-118",
@@ -4374,7 +4634,13 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 24,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 124.99,
+      maxPrice: 192.99
+    }
   },
   {
     id: "rc-119",
@@ -4388,7 +4654,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 26,
     requiresLabLicense: true,
-    tags: ["cannabinoid", "synthetic", "research"]
+    tags: ["cannabinoid", "synthetic", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 128.99,
+      maxPrice: 199.99
+    }
   },
   {
     id: "rc-120",
@@ -4402,7 +4674,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 52,
     requiresLabLicense: true,
-    tags: ["peptides", "biochemistry", "research"]
+    tags: ["peptides", "biochemistry", "research"],
+    strengthOptions: ["5mg", "10mg", "25mg"],
+    formOptions: ["Powder", "Solution"],
+    variationPrices: {
+      minPrice: 164.99,
+      maxPrice: 254.99
+    }
   },
 
   // III. NOOTROPICS, PEPTIDES & SARMs (121-150)
@@ -4423,7 +4701,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg", "150mg", "200mg", "250mg"],
     formOptions: ["Tablet"],
-    tags: ["wakefulness", "cognitive", "narcolepsy"]
+    tags: ["wakefulness", "cognitive", "narcolepsy"],
+    variationPrices: {
+      minPrice: 62.99,
+      maxPrice: 99.99
+    }
   },
   {
     id: "noot-122",
@@ -4440,7 +4722,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["800mg", "1200mg"],
     formOptions: ["Capsule", "Powder"],
-    tags: ["nootropic", "cognitive", "memory"]
+    tags: ["nootropic", "cognitive", "memory"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    }
   },
   {
     id: "noot-123",
@@ -4457,7 +4743,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["750mg"],
     formOptions: ["Capsule", "Powder"],
-    tags: ["nootropic", "cognitive", "anxiety"]
+    tags: ["nootropic", "cognitive", "anxiety"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 58.99
+    }
   },
   {
     id: "noot-124",
@@ -4473,7 +4763,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["750mg"],
     formOptions: ["Capsule", "Powder"],
-    tags: ["nootropic", "cognitive", "memory"]
+    tags: ["nootropic", "cognitive", "memory"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 64.99
+    }
   },
   {
     id: "noot-125",
@@ -4490,7 +4784,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["100mg"],
     formOptions: ["Capsule"],
-    tags: ["nootropic", "cognitive", "energy"]
+    tags: ["nootropic", "cognitive", "energy"],
+    variationPrices: {
+      minPrice: 54.99,
+      maxPrice: 84.99
+    }
   },
   {
     id: "noot-126",
@@ -4506,7 +4804,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["10mg"],
     formOptions: ["Capsule", "Powder"],
-    tags: ["nootropic", "cognitive", "neuroprotection"]
+    tags: ["nootropic", "cognitive", "neuroprotection"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    }
   },
   {
     id: "noot-127",
@@ -4522,7 +4824,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["250mg", "500mg"],
     formOptions: ["Capsule", "Powder"],
-    tags: ["nootropic", "anxiety", "gaba"]
+    tags: ["nootropic", "anxiety", "gaba"],
+    variationPrices: {
+      minPrice: 34.99,
+      maxPrice: 52.99
+    }
   },
   {
     id: "noot-128",
@@ -4538,7 +4844,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["250mg", "500mg"],
     formOptions: ["Capsule"],
-    tags: ["nootropic", "choline", "memory"]
+    tags: ["nootropic", "choline", "memory"],
+    variationPrices: {
+      minPrice: 26.99,
+      maxPrice: 40.99
+    }
   },
   {
     id: "noot-129",
@@ -4554,7 +4864,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["300mg", "600mg"],
     formOptions: ["Capsule"],
-    tags: ["nootropic", "choline", "focus"]
+    tags: ["nootropic", "choline", "focus"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    }
   },
   {
     id: "noot-130",
@@ -4570,7 +4884,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["100mg", "200mg"],
     formOptions: ["Capsule"],
-    tags: ["nootropic", "relaxation", "focus"]
+    tags: ["nootropic", "relaxation", "focus"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 28.99
+    }
   },
   {
     id: "noot-131",
@@ -4586,7 +4904,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["300mg", "500mg"],
     formOptions: ["Capsule"],
-    tags: ["herbal", "nootropic", "memory"]
+    tags: ["herbal", "nootropic", "memory"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 34.99
+    }
   },
   {
     id: "noot-132",
@@ -4869,9 +5191,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 456,
     requiresPrescription: true,
-    strengthOptions: ["25mg", "50mg"],
+    strengthOptions: ["0.5mg", "1mg"],
     formOptions: ["Tablet"],
-    tags: ["fertility", "pct", "serm"]
+    tags: ["fertility", "pct", "serm"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 59.99
+    }
   },
   {
     id: "pct-148",
@@ -4888,7 +5214,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "20mg"],
     formOptions: ["Tablet"],
-    tags: ["pct", "serm", "hormone"]
+    tags: ["pct", "serm", "hormone"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 59.99
+    }
   },
 
   // IV. CANNABIS & NATURAL PRODUCTS (151-165)

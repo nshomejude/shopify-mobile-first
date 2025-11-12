@@ -28,6 +28,7 @@ import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
 import { useState } from "react";
 import { VariationSwatch } from "@/components/shop/VariationSwatch";
+import { getSwatchStyleForProduct } from "@/utils/swatchStyleMapper";
 
 const mockReviews = [
   {
@@ -79,6 +80,13 @@ export const ProductDetail = () => {
       </div>
     );
   }
+
+  // Get the swatch style for this product
+  const swatchStyle = product.swatchStyle || getSwatchStyleForProduct(
+    product.category,
+    product.subcategory,
+    product.tags
+  );
 
   const handleAddToCart = () => {
     addItem({
@@ -216,6 +224,7 @@ export const ProductDetail = () => {
                       value={strength}
                       isSelected={selectedStrength === strength}
                       onClick={() => setSelectedStrength(strength)}
+                      style={swatchStyle}
                     />
                   ))}
                 </div>
@@ -237,6 +246,7 @@ export const ProductDetail = () => {
                       value={form}
                       isSelected={selectedForm === form}
                       onClick={() => setSelectedForm(form)}
+                      style={swatchStyle}
                     />
                   ))}
                 </div>

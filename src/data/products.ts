@@ -12,6 +12,17 @@ export interface MedicalInfo {
   drugInteractions: string[];
 }
 
+export type SwatchStyle = 
+  | "checkbox-rectangular" 
+  | "pill-icon" 
+  | "tablet-icon" 
+  | "lab-flask" 
+  | "mushroom" 
+  | "cannabis-leaf"
+  | "syringe"
+  | "capsule"
+  | "default";
+
 export interface Product {
   id: string;
   name: string;
@@ -30,6 +41,7 @@ export interface Product {
   formOptions?: string[];
   tags?: string[];
   medicalInfo?: MedicalInfo;
+  swatchStyle?: SwatchStyle;
 }
 
 export const products: Product[] = [

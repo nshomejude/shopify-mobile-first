@@ -188,7 +188,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg", "75mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["pain-relief", "anti-inflammatory"]
+    tags: ["pain-relief", "anti-inflammatory"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 50mg 2-3 times daily or 75mg twice daily. Maximum 150mg per day.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Swallow tablets whole with water",
+          "Extended-release: take once or twice daily",
+          "Use lowest effective dose for shortest duration"
+        ],
+        specialPopulations: "Avoid in elderly due to increased CV and GI risk. Not recommended during pregnancy, especially third trimester."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dyspepsia", "Abdominal pain", "Headache", "Dizziness"],
+        serious: ["Cardiovascular events (MI, stroke)", "GI bleeding/perforation", "Hepatotoxicity", "Renal impairment", "Severe skin reactions"]
+      },
+      contraindications: [
+        "Active peptic ulcer or GI bleeding",
+        "Severe heart failure",
+        "Post-CABG surgery",
+        "Third trimester pregnancy",
+        "Hypersensitivity to NSAIDs"
+      ],
+      drugInteractions: [
+        "Anticoagulants - increased bleeding risk",
+        "ACE inhibitors/ARBs - reduced efficacy, nephrotoxicity",
+        "Diuretics - reduced effectiveness",
+        "Methotrexate - increased toxicity",
+        "Cyclosporine - increased nephrotoxicity"
+      ]
+    }
   },
   {
     id: "rx-005",
@@ -204,7 +234,37 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["81mg", "325mg", "500mg"],
     formOptions: ["Tablet", "Chewable"],
-    tags: ["pain-relief", "heart-health"]
+    tags: ["pain-relief", "heart-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Pain: 325-650mg every 4 hours. Cardioprotection: 81-325mg once daily.",
+        administration: [
+          "Take with food or milk if stomach upset occurs",
+          "For heart protection, take at same time daily",
+          "Chewable form: chew thoroughly before swallowing",
+          "Do not exceed recommended dose"
+        ],
+        specialPopulations: "Children: use only for specific conditions under medical supervision (Reye's syndrome risk). Elderly: use lower doses."
+      },
+      sideEffects: {
+        common: ["Heartburn", "Upset stomach", "Nausea"],
+        serious: ["GI bleeding", "Hemorrhagic stroke", "Severe allergic reactions", "Reye's syndrome in children", "Tinnitus with overdose"]
+      },
+      contraindications: [
+        "Active peptic ulcer disease",
+        "Hemophilia or bleeding disorders",
+        "Children with viral infections (Reye's syndrome risk)",
+        "Severe renal or hepatic impairment",
+        "Third trimester pregnancy"
+      ],
+      drugInteractions: [
+        "Warfarin, anticoagulants - increased bleeding risk",
+        "Other NSAIDs - increased GI toxicity",
+        "Methotrexate - increased toxicity",
+        "ACE inhibitors - reduced antihypertensive effect",
+        "Alcohol - increased GI bleeding risk"
+      ]
+    }
   },
   {
     id: "rx-006",
@@ -267,7 +327,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["15mg", "30mg", "60mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release", "Injectable"],
-    tags: ["pain-relief", "opioid", "controlled"]
+    tags: ["pain-relief", "opioid", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Immediate-release: 10-30mg every 4 hours. Extended-release: Start 15mg every 12 hours, titrate carefully.",
+        administration: [
+          "Take with or without food",
+          "Extended-release: swallow whole, do not crush, chew or dissolve",
+          "Individualize dosing based on pain severity and response",
+          "Taper gradually when discontinuing to avoid withdrawal"
+        ],
+        specialPopulations: "Not for children under 18 for extended-release. Reduce dose in elderly, renal/hepatic impairment. Avoid in pregnancy."
+      },
+      sideEffects: {
+        common: ["Constipation", "Nausea", "Vomiting", "Drowsiness", "Dizziness", "Itching"],
+        serious: ["Respiratory depression", "Addiction and dependence", "Hypotension", "Severe constipation/bowel obstruction", "Seizures", "Anaphylaxis"]
+      },
+      contraindications: [
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma",
+        "Known or suspected GI obstruction",
+        "Concurrent MAO inhibitor use",
+        "Hypersensitivity to morphine"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, alcohol) - severe sedation, respiratory depression",
+        "MAOIs - serotonin syndrome",
+        "Muscle relaxants - increased respiratory depression",
+        "Anticholinergics - increased constipation, urinary retention",
+        "CYP450 inducers - reduced morphine levels"
+      ]
+    }
   },
   {
     id: "rx-008",
@@ -283,7 +373,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "15mg", "20mg", "30mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["pain-relief", "opioid", "controlled"]
+    tags: ["pain-relief", "opioid", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Immediate-release: 5-15mg every 4-6 hours. Extended-release: 10mg every 12 hours, titrate as needed.",
+        administration: [
+          "Take with or without food",
+          "Extended-release tablets: swallow whole, do not crush or chew",
+          "Use lowest effective dose",
+          "Taper dose gradually when stopping after prolonged use"
+        ],
+        specialPopulations: "Start with lower doses in elderly. Reduce dose with hepatic/renal impairment. Not recommended in pregnancy or breastfeeding."
+      },
+      sideEffects: {
+        common: ["Constipation", "Nausea", "Vomiting", "Drowsiness", "Dizziness", "Dry mouth", "Sweating"],
+        serious: ["Respiratory depression", "Physical dependence and addiction", "Hypotension", "Seizures", "Adrenal insufficiency"]
+      },
+      contraindications: [
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma",
+        "Known or suspected paralytic ileus",
+        "Hypersensitivity to oxycodone"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, alcohol) - fatal respiratory depression",
+        "CYP3A4 inhibitors (ketoconazole, erythromycin) - increased oxycodone levels",
+        "CYP3A4 inducers (rifampin, carbamazepine) - reduced effectiveness",
+        "Anticholinergics - severe constipation",
+        "MAOIs - serotonin syndrome"
+      ]
+    }
   },
   {
     id: "rx-009",
@@ -299,7 +418,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "7.5mg", "10mg"],
     formOptions: ["Tablet", "Capsule"],
-    tags: ["pain-relief", "opioid", "controlled"]
+    tags: ["pain-relief", "opioid", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 5-10mg every 4-6 hours as needed. Maximum depends on formulation (often combined with acetaminophen).",
+        administration: [
+          "Take with food or milk to reduce nausea",
+          "Swallow tablets/capsules whole",
+          "Monitor total daily acetaminophen if in combination product",
+          "Reduce dose gradually when stopping"
+        ],
+        specialPopulations: "Lower doses for elderly. Reduce with renal or hepatic impairment. Avoid during pregnancy and breastfeeding."
+      },
+      sideEffects: {
+        common: ["Constipation", "Nausea", "Vomiting", "Dizziness", "Drowsiness", "Lightheadedness"],
+        serious: ["Respiratory depression", "Addiction and abuse", "Hepatotoxicity (if combined with acetaminophen)", "Severe hypotension", "Seizures"]
+      },
+      contraindications: [
+        "Significant respiratory depression",
+        "Acute or severe asthma",
+        "Known or suspected GI obstruction",
+        "Hypersensitivity to hydrocodone or acetaminophen"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, alcohol) - severe respiratory depression",
+        "CYP3A4 inhibitors - increased hydrocodone levels",
+        "CYP3A4 inducers - decreased effectiveness",
+        "Anticholinergics - increased constipation and urinary retention",
+        "MAOIs - serotonin syndrome risk"
+      ]
+    }
   },
   {
     id: "rx-010",
@@ -315,7 +463,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["12mcg/hr", "25mcg/hr", "50mcg/hr", "75mcg/hr", "100mcg/hr"],
     formOptions: ["Transdermal Patch", "Injectable"],
-    tags: ["pain-relief", "opioid", "controlled"]
+    tags: ["pain-relief", "opioid", "controlled"],
+    medicalInfo: {
+      dosage: {
+        standard: "Transdermal: Start 12-25mcg/hr patch every 72 hours. Only for opioid-tolerant patients. Injectable: highly variable, medical supervision required.",
+        administration: [
+          "Patches: Apply to flat, non-irritated skin on upper body",
+          "Rotate application sites",
+          "Do not cut patches",
+          "Dispose of used patches by folding sticky sides together",
+          "Only for patients already on opioids (opioid-tolerant)"
+        ],
+        specialPopulations: "Not for opioid-naive patients. Extreme caution in elderly. Not for acute or postoperative pain. Contraindicated in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Constipation", "Drowsiness", "Dizziness", "Application site reactions"],
+        serious: ["Life-threatening respiratory depression", "Severe addiction potential", "Hypotension", "Bradycardia", "Chest wall rigidity", "Fatal overdose"]
+      },
+      contraindications: [
+        "Opioid non-tolerant patients",
+        "Acute or intermittent pain",
+        "Postoperative pain",
+        "Severe respiratory disease",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CNS depressants - fatal respiratory depression",
+        "CYP3A4 inhibitors (ritonavir, ketoconazole) - dangerous increase in fentanyl levels",
+        "CYP3A4 inducers - reduced effectiveness",
+        "Serotonergic drugs - serotonin syndrome",
+        "Muscle relaxants - increased respiratory depression"
+      ]
+    }
   },
   {
     id: "rx-011",
@@ -331,7 +510,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["15mg", "30mg", "60mg"],
     formOptions: ["Tablet", "Liquid"],
-    tags: ["pain-relief", "opioid", "cough"]
+    tags: ["pain-relief", "opioid", "cough"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Pain: 15-60mg every 4-6 hours as needed. Cough: 10-20mg every 4-6 hours. Maximum 360mg per day.",
+        administration: [
+          "Take with food or milk to reduce nausea",
+          "Liquid: use measuring device provided",
+          "Do not exceed recommended dose",
+          "Avoid in children under 12"
+        ],
+        specialPopulations: "Contraindicated in children under 12 and all children after tonsillectomy. Not recommended in pregnancy or breastfeeding."
+      },
+      sideEffects: {
+        common: ["Constipation", "Nausea", "Vomiting", "Drowsiness", "Dizziness", "Lightheadedness"],
+        serious: ["Respiratory depression", "Dependence and addiction", "Severe hypotension", "Life-threatening respiratory depression in ultra-rapid metabolizers"]
+      },
+      contraindications: [
+        "Children under 12 years",
+        "Post-tonsillectomy/adenoidectomy in pediatric patients",
+        "Significant respiratory depression",
+        "Acute or severe asthma",
+        "Ultra-rapid CYP2D6 metabolizers"
+      ],
+      drugInteractions: [
+        "CNS depressants (alcohol, benzodiazepines) - enhanced sedation",
+        "CYP2D6 inhibitors (fluoxetine, paroxetine) - reduced analgesic effect",
+        "Anticholinergics - severe constipation",
+        "MAOIs - serotonin syndrome risk",
+        "Quinidine - reduced codeine effectiveness"
+      ]
+    }
   },
   {
     id: "rx-012",
@@ -348,7 +557,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["100mg", "200mg"],
     formOptions: ["Capsule"],
-    tags: ["pain-relief", "anti-inflammatory"]
+    tags: ["pain-relief", "anti-inflammatory"],
+    medicalInfo: {
+      dosage: {
+        standard: "Osteoarthritis: 200mg once daily or 100mg twice daily. Rheumatoid arthritis: 100-200mg twice daily. Acute pain: 400mg initially, then 200mg if needed.",
+        administration: [
+          "Take with or without food",
+          "Swallow capsules whole with water",
+          "Use lowest effective dose for shortest duration",
+          "May take with food if stomach upset occurs"
+        ],
+        specialPopulations: "Reduce dose by 50% in poor CYP2C9 metabolizers. Use caution in elderly. Avoid in pregnancy, especially third trimester."
+      },
+      sideEffects: {
+        common: ["Dyspepsia", "Diarrhea", "Abdominal pain", "Nausea", "Headache", "Upper respiratory infection"],
+        serious: ["Cardiovascular thrombotic events (MI, stroke)", "GI bleeding/perforation", "Hepatotoxicity", "Renal toxicity", "Serious skin reactions", "Hypertension"]
+      },
+      contraindications: [
+        "Sulfonamide allergy",
+        "Aspirin or NSAID-induced asthma",
+        "Post-CABG surgery",
+        "Third trimester pregnancy",
+        "Severe hepatic impairment"
+      ],
+      drugInteractions: [
+        "Warfarin, anticoagulants - increased bleeding risk",
+        "ACE inhibitors/ARBs - reduced antihypertensive effect, nephrotoxicity",
+        "Fluconazole - increased celecoxib levels",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity"
+      ]
+    }
   },
 
   // Neuropathic Pain & Anticonvulsants (13-15)
@@ -366,7 +605,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "25mg", "50mg", "75mg"],
     formOptions: ["Tablet"],
-    tags: ["pain-relief", "neuropathic", "depression"]
+    tags: ["pain-relief", "neuropathic", "depression"],
+    medicalInfo: {
+      dosage: {
+        standard: "Neuropathic pain: Start 10-25mg at bedtime, gradually increase to 75-150mg. Depression: 50-150mg daily. Maximum 300mg per day.",
+        administration: [
+          "Take at bedtime due to sedation",
+          "Swallow tablets whole with water",
+          "May take 2-4 weeks for pain relief",
+          "Taper gradually when discontinuing"
+        ],
+        specialPopulations: "Lower doses for elderly. Avoid in acute recovery phase of MI. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Dry mouth", "Drowsiness", "Constipation", "Blurred vision", "Weight gain", "Dizziness"],
+        serious: ["Cardiac arrhythmias", "Orthostatic hypotension", "Seizures", "Increased suicidal thoughts", "Urinary retention", "Angle-closure glaucoma"]
+      },
+      contraindications: [
+        "Recent myocardial infarction",
+        "Concurrent MAOI use",
+        "Known hypersensitivity",
+        "Acute recovery from MI",
+        "Uncontrolled angle-closure glaucoma"
+      ],
+      drugInteractions: [
+        "MAOIs - hypertensive crisis, serotonin syndrome",
+        "CNS depressants - enhanced sedation",
+        "Anticholinergics - additive anticholinergic effects",
+        "SSRIs - increased amitriptyline levels",
+        "Tramadol - increased seizure risk",
+        "Alcohol - enhanced CNS depression"
+      ]
+    }
   },
   {
     id: "rx-014",
@@ -383,7 +653,32 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["100mg", "300mg", "400mg", "600mg", "800mg"],
     formOptions: ["Capsule", "Tablet"],
-    tags: ["neuropathic-pain", "seizures"]
+    tags: ["neuropathic-pain", "seizures"],
+    medicalInfo: {
+      dosage: {
+        standard: "Start 300mg once daily, then 300mg twice daily on day 2, then 300mg three times daily on day 3. Titrate up to 1800-3600mg per day in 3 divided doses.",
+        administration: [
+          "Take with or without food",
+          "Swallow capsules/tablets whole with water",
+          "Take doses at evenly spaced intervals (maximum 12 hours apart)",
+          "Do not stop suddenly - taper gradually to avoid seizures"
+        ],
+        specialPopulations: "Reduce dose with renal impairment (CrCl-based). Lower doses in elderly. Limited data in pregnancy."
+      },
+      sideEffects: {
+        common: ["Dizziness", "Somnolence", "Peripheral edema", "Ataxia", "Fatigue", "Nystagmus"],
+        serious: ["Increased suicidal thoughts", "Severe allergic reactions", "Respiratory depression (with CNS depressants)", "Withdrawal seizures"]
+      },
+      contraindications: [
+        "Known hypersensitivity to gabapentin"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, benzodiazepines) - increased sedation and respiratory depression",
+        "Antacids - reduced gabapentin absorption (space 2 hours apart)",
+        "Morphine - increased gabapentin levels",
+        "Alcohol - enhanced CNS depression"
+      ]
+    }
   },
   {
     id: "rx-015",
@@ -400,7 +695,32 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "75mg", "100mg", "150mg", "200mg", "300mg"],
     formOptions: ["Capsule"],
-    tags: ["neuropathic-pain", "anxiety", "fibromyalgia"]
+    tags: ["neuropathic-pain", "anxiety", "fibromyalgia"],
+    medicalInfo: {
+      dosage: {
+        standard: "Neuropathic pain: Start 150mg per day in 2-3 divided doses. May increase to 300mg per day within 1 week. Maximum 600mg per day.",
+        administration: [
+          "Take with or without food",
+          "Swallow capsules whole",
+          "Take 2-3 times daily at regular intervals",
+          "Taper gradually when stopping to minimize withdrawal"
+        ],
+        specialPopulations: "Adjust dose based on renal function. Elderly may require lower doses. Limited data in pregnancy."
+      },
+      sideEffects: {
+        common: ["Dizziness", "Somnolence", "Peripheral edema", "Dry mouth", "Weight gain", "Blurred vision"],
+        serious: ["Angioedema", "Hypersensitivity reactions", "Increased suicidal thoughts", "Respiratory depression (with CNS depressants)", "Heart failure exacerbation"]
+      },
+      contraindications: [
+        "Known hypersensitivity to pregabalin or gabapentin"
+      ],
+      drugInteractions: [
+        "CNS depressants (opioids, benzodiazepines, alcohol) - increased sedation and respiratory depression",
+        "ACE inhibitors - increased angioedema risk",
+        "Thiazolidinediones - may potentiate weight gain and peripheral edema",
+        "Alcohol - enhanced cognitive and motor impairment"
+      ]
+    }
   },
 
   // Antidepressants & Mental Health (16-27)
@@ -419,7 +739,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["20mg", "30mg", "60mg"],
     formOptions: ["Capsule"],
-    tags: ["depression", "anxiety", "pain"]
+    tags: ["depression", "anxiety", "pain"],
+    medicalInfo: {
+      dosage: {
+        standard: "Depression/Anxiety: 40-60mg once daily or in 2 divided doses. Chronic pain: Start 30mg once daily, may increase to 60mg. Maximum 120mg per day.",
+        administration: [
+          "Swallow capsules whole, do not crush or chew",
+          "Take with or without food",
+          "For once daily dosing, take at same time each day",
+          "Taper gradually when discontinuing to avoid withdrawal"
+        ],
+        specialPopulations: "Not recommended with severe renal impairment (CrCl <30) or hepatic impairment. Use caution in elderly."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dry mouth", "Somnolence", "Fatigue", "Constipation", "Decreased appetite", "Hyperhidrosis"],
+        serious: ["Serotonin syndrome", "Hepatotoxicity", "Orthostatic hypotension", "Increased suicidal thoughts", "Severe skin reactions", "Hyponatremia", "Bleeding risk"]
+      },
+      contraindications: [
+        "Concurrent MAOI use or within 14 days",
+        "Uncontrolled narrow-angle glaucoma",
+        "Severe hepatic impairment",
+        "Concurrent use with linezolid or IV methylene blue"
+      ],
+      drugInteractions: [
+        "MAOIs - serotonin syndrome (contraindicated)",
+        "Serotonergic drugs (SSRIs, triptans, tramadol) - serotonin syndrome",
+        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
+        "CYP1A2 inhibitors (fluvoxamine, ciprofloxacin) - increased duloxetine levels",
+        "Alcohol - increased hepatotoxicity risk",
+        "Thioridazine - QT prolongation"
+      ]
+    }
   },
   {
     id: "rx-017",
@@ -485,7 +835,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Capsule", "Tablet"],
-    tags: ["depression", "anxiety", "ssri"]
+    tags: ["depression", "anxiety", "ssri"],
+    medicalInfo: {
+      dosage: {
+        standard: "Depression: Start 20mg once daily in morning. May increase after several weeks. Maximum 80mg per day. OCD: May require 60-80mg.",
+        administration: [
+          "Take once daily in the morning",
+          "Can be taken with or without food",
+          "Swallow capsules/tablets whole",
+          "May take 4-6 weeks for full effect",
+          "Taper gradually when discontinuing"
+        ],
+        specialPopulations: "Children 8+ for OCD. Lower doses for elderly or hepatic impairment. Weigh risks/benefits in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Insomnia", "Drowsiness", "Anxiety", "Sexual dysfunction", "Loss of appetite", "Tremor", "Sweating"],
+        serious: ["Serotonin syndrome", "Increased suicidal thoughts", "Mania/hypomania", "Seizures", "Abnormal bleeding", "Hyponatremia", "Serotonin syndrome"]
+      },
+      contraindications: [
+        "Concurrent MAOI use or within 14 days (5 weeks after stopping fluoxetine)",
+        "Use with pimozide or thioridazine",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "MAOIs - serotonin syndrome (contraindicated)",
+        "Pimozide, thioridazine - QT prolongation (contraindicated)",
+        "Other serotonergic drugs - serotonin syndrome",
+        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
+        "CYP2D6 substrates (TCAs, antiarrhythmics) - increased levels",
+        "Tamoxifen - reduced effectiveness"
+      ]
+    }
   },
   {
     id: "rx-019",
@@ -501,7 +881,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
-    tags: ["depression", "anxiety", "ssri"]
+    tags: ["depression", "anxiety", "ssri"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Start 20mg once daily. May increase to 40mg after 1 week. Maximum 40mg per day (20mg for >60 years or poor CYP2C19 metabolizers).",
+        administration: [
+          "Take once daily, morning or evening",
+          "Take with or without food",
+          "Swallow tablets whole with water",
+          "May take 1-4 weeks to notice improvement",
+          "Taper gradually when stopping"
+        ],
+        specialPopulations: "Maximum 20mg for patients >60 years, hepatic impairment, or poor CYP2C19 metabolizers. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dry mouth", "Somnolence", "Insomnia", "Increased sweating", "Sexual dysfunction", "Tremor"],
+        serious: ["QT prolongation and Torsades de Pointes", "Serotonin syndrome", "Increased suicidal thoughts", "Abnormal bleeding", "Hyponatremia", "Seizures"]
+      },
+      contraindications: [
+        "Concurrent MAOI use or within 14 days",
+        "Concurrent pimozide use",
+        "Known hypersensitivity",
+        "Congenital long QT syndrome"
+      ],
+      drugInteractions: [
+        "MAOIs - serotonin syndrome (contraindicated)",
+        "Pimozide - QT prolongation (contraindicated)",
+        "Other serotonergic drugs - serotonin syndrome",
+        "QT-prolonging drugs - increased QT prolongation risk",
+        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
+        "CYP2C19 inhibitors - increased citalopram levels"
+      ]
+    }
   },
   {
     id: "rx-020",
@@ -518,7 +929,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "20mg"],
     formOptions: ["Tablet"],
-    tags: ["depression", "anxiety", "ssri"]
+    tags: ["depression", "anxiety", "ssri"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Start 10mg once daily. May increase to 20mg after 1 week. Maximum 20mg per day.",
+        administration: [
+          "Take once daily, morning or evening",
+          "Take with or without food",
+          "Swallow tablets whole",
+          "Full effect may take 4-6 weeks",
+          "Taper gradually to discontinue"
+        ],
+        specialPopulations: "Maximum 10mg for elderly and hepatic impairment. Adolescents 12-17: start 10mg. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Insomnia", "Ejaculation disorder", "Fatigue", "Increased sweating", "Decreased libido", "Somnolence"],
+        serious: ["Serotonin syndrome", "Increased suicidal thoughts", "Abnormal bleeding", "Hyponatremia", "QT prolongation", "Seizures", "Mania activation"]
+      },
+      contraindications: [
+        "Concurrent MAOI use or within 14 days",
+        "Concurrent pimozide use",
+        "Known hypersensitivity to escitalopram or citalopram"
+      ],
+      drugInteractions: [
+        "MAOIs - serotonin syndrome (contraindicated)",
+        "Pimozide - QT prolongation (contraindicated)",
+        "Other serotonergic drugs - serotonin syndrome",
+        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
+        "Cimetidine - increased escitalopram levels",
+        "QT-prolonging drugs - additive QT prolongation"
+      ]
+    }
   },
   {
     id: "rx-021",
@@ -535,7 +976,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["37.5mg", "75mg", "150mg"],
     formOptions: ["Extended-Release Capsule"],
-    tags: ["depression", "anxiety", "snri"]
+    tags: ["depression", "anxiety", "snri"],
+    medicalInfo: {
+      dosage: {
+        standard: "Extended-release: Start 75mg once daily with food. May increase by 75mg increments every 4 days. Maximum 225mg per day.",
+        administration: [
+          "Take once daily with food at same time",
+          "Swallow capsules whole, do not crush or chew",
+          "For discontinuation, taper gradually over at least 4 weeks",
+          "Full effect may take several weeks"
+        ],
+        specialPopulations: "Reduce dose with renal or hepatic impairment. Use caution in elderly. Not recommended during pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Somnolence", "Dry mouth", "Sweating", "Sexual dysfunction", "Dizziness", "Insomnia", "Constipation"],
+        serious: ["Hypertension (dose-related)", "Serotonin syndrome", "Increased suicidal thoughts", "Abnormal bleeding", "Seizures", "Hyponatremia", "Mydriasis/angle-closure glaucoma"]
+      },
+      contraindications: [
+        "Concurrent MAOI use or within 14 days",
+        "Hypersensitivity to venlafaxine",
+        "Uncontrolled hypertension (relative contraindication)"
+      ],
+      drugInteractions: [
+        "MAOIs - serotonin syndrome (contraindicated)",
+        "Other serotonergic drugs - serotonin syndrome",
+        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
+        "CYP2D6 inhibitors - increased venlafaxine levels",
+        "Alcohol - enhanced CNS depression",
+        "Antihypertensives - may require dose adjustment"
+      ]
+    }
   },
   {
     id: "rx-022",
@@ -552,7 +1022,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["75mg", "100mg", "150mg", "300mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["depression", "smoking-cessation"]
+    tags: ["depression", "smoking-cessation"],
+    medicalInfo: {
+      dosage: {
+        standard: "Depression: Extended-release 150mg once daily, may increase to 300mg. Smoking cessation: 150mg once daily for 3 days, then 150mg twice daily.",
+        administration: [
+          "Take with or without food",
+          "Swallow tablets whole, do not crush or chew",
+          "Take doses at least 8 hours apart to reduce seizure risk",
+          "Avoid taking at bedtime (may cause insomnia)"
+        ],
+        specialPopulations: "Reduce dose with hepatic impairment. Not recommended with seizure disorders. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Insomnia", "Dry mouth", "Nausea", "Headache", "Dizziness", "Constipation", "Tremor", "Weight loss"],
+        serious: ["Seizures (dose-related)", "Hypertension", "Psychiatric symptoms (agitation, psychosis)", "Increased suicidal thoughts", "Severe allergic reactions", "Angle-closure glaucoma"]
+      },
+      contraindications: [
+        "Seizure disorder",
+        "Bulimia or anorexia nervosa",
+        "Abrupt discontinuation of alcohol/benzodiazepines",
+        "Concurrent MAOI use or within 14 days",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "MAOIs - hypertensive crisis",
+        "CYP2D6 substrates (TCAs, antiarrhythmics) - increased levels",
+        "Alcohol, benzodiazepines - increased seizure risk if discontinued abruptly",
+        "Other drugs that lower seizure threshold",
+        "Dopaminergic drugs (levodopa, amantadine) - increased side effects"
+      ]
+    }
   },
   {
     id: "rx-023",
@@ -568,7 +1068,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["300mg", "450mg", "600mg"],
     formOptions: ["Capsule", "Tablet", "Extended-Release"],
-    tags: ["bipolar", "mood-stabilizer"]
+    tags: ["bipolar", "mood-stabilizer"],
+    medicalInfo: {
+      dosage: {
+        standard: "Acute mania: 1800mg per day in divided doses. Maintenance: 900-1200mg per day. Dose based on serum levels (target 0.6-1.2 mEq/L).",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Maintain adequate hydration and stable salt intake",
+          "Regular blood level monitoring required",
+          "Swallow extended-release tablets whole"
+        ],
+        specialPopulations: "Reduce dose in elderly and renal impairment. Contraindicated in pregnancy (Ebstein's anomaly risk). Avoid in breastfeeding."
+      },
+      sideEffects: {
+        common: ["Hand tremor", "Increased thirst", "Polyuria", "Nausea", "Diarrhea", "Weight gain", "Cognitive dulling"],
+        serious: ["Lithium toxicity (>1.5 mEq/L)", "Renal dysfunction", "Hypothyroidism", "Cardiac arrhythmias", "Neurotoxicity", "Nephrogenic diabetes insipidus"]
+      },
+      contraindications: [
+        "Severe renal impairment",
+        "Severe cardiovascular disease",
+        "Severe dehydration or sodium depletion",
+        "Pregnancy (especially first trimester)",
+        "Breastfeeding"
+      ],
+      drugInteractions: [
+        "Diuretics (especially thiazides) - increased lithium levels and toxicity",
+        "NSAIDs - increased lithium levels",
+        "ACE inhibitors, ARBs - increased lithium levels",
+        "Serotonergic drugs - serotonin syndrome risk",
+        "Calcium channel blockers - neurotoxicity",
+        "Sodium-containing drugs - affect lithium levels"
+      ]
+    }
   },
   {
     id: "rx-024",

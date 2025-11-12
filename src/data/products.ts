@@ -2572,7 +2572,32 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["44mcg", "110mcg", "220mcg"],
     formOptions: ["Inhaler"],
-    tags: ["asthma", "copd", "inhaler"]
+    tags: ["asthma", "copd", "inhaler"],
+    medicalInfo: {
+      dosage: {
+        standard: "Asthma: Adults: 88-880mcg twice daily. Children 4-11: 88mcg twice daily. COPD: 250-500mcg twice daily. Titrate to lowest effective dose.",
+        administration: [
+          "Inhale by mouth twice daily, 12 hours apart",
+          "Rinse mouth with water after each use (do not swallow)",
+          "Shake well before each use",
+          "Prime inhaler before first use or if not used for 7+ days",
+          "Not for acute bronchospasm - use rescue inhaler"
+        ],
+        specialPopulations: "Use lowest effective dose in children to minimize growth effects. Use caution in pregnancy. Monitor growth in pediatric patients."
+      },
+      sideEffects: {
+        common: ["Oral thrush", "Hoarseness", "Cough", "Headache", "Upper respiratory infection"],
+        serious: ["Adrenal suppression", "Immunosuppression", "Decreased bone mineral density", "Glaucoma", "Cataracts", "Paradoxical bronchospasm", "Hypercorticism"]
+      },
+      contraindications: [
+        "Primary treatment of status asthmaticus or acute asthma episodes",
+        "Hypersensitivity to fluticasone"
+      ],
+      drugInteractions: [
+        "Strong CYP3A4 inhibitors (ritonavir, ketoconazole) - increased systemic corticosteroid effects",
+        "Other corticosteroids - additive effects"
+      ]
+    }
   },
   {
     id: "rx-057",
@@ -2589,7 +2614,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["90mcg", "100mcg"],
     formOptions: ["Inhaler"],
-    tags: ["asthma", "bronchodilator", "rescue-inhaler"]
+    tags: ["asthma", "bronchodilator", "rescue-inhaler"],
+    medicalInfo: {
+      dosage: {
+        standard: "Acute bronchospasm: 2 inhalations (180-200mcg) every 4-6 hours as needed. Exercise-induced: 2 inhalations 15-30 minutes before exercise. Maximum: 12 inhalations/24 hours.",
+        administration: [
+          "Shake well before each use",
+          "Exhale fully, then inhale deeply while pressing inhaler",
+          "Hold breath for 10 seconds, then exhale slowly",
+          "Wait 1 minute between puffs if taking multiple",
+          "Prime before first use or if not used for 2+ weeks"
+        ],
+        specialPopulations: "Use caution in cardiovascular disorders, diabetes, hyperthyroidism. Safe in pregnancy when needed."
+      },
+      sideEffects: {
+        common: ["Tremor", "Nervousness", "Headache", "Tachycardia", "Palpitations", "Throat irritation"],
+        serious: ["Paradoxical bronchospasm", "Severe cardiovascular effects", "Hypokalemia", "Hyperglycemia"]
+      },
+      contraindications: [
+        "Hypersensitivity to albuterol or any component"
+      ],
+      drugInteractions: [
+        "Beta-blockers - antagonize bronchodilator effect",
+        "MAOIs, tricyclic antidepressants - potentiate cardiovascular effects",
+        "Digoxin - may decrease serum digoxin levels",
+        "Loop/thiazide diuretics - increased risk of hypokalemia"
+      ]
+    }
   },
   {
     id: "rx-058",
@@ -2606,7 +2657,31 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["18mcg"],
     formOptions: ["Inhaler"],
-    tags: ["copd", "bronchodilator"]
+    tags: ["copd", "bronchodilator"],
+    medicalInfo: {
+      dosage: {
+        standard: "COPD: 2 inhalations (18mcg total) once daily at same time. Not for acute bronchospasm.",
+        administration: [
+          "Inhale once daily at same time",
+          "Do not swallow capsules - for inhalation only",
+          "Pierce capsule and inhale contents",
+          "Not a rescue medication",
+          "Allow time for maintenance effect (days to weeks)"
+        ],
+        specialPopulations: "Use caution in narrow-angle glaucoma, prostatic hyperplasia, bladder neck obstruction. Monitor renal function."
+      },
+      sideEffects: {
+        common: ["Dry mouth", "Constipation", "Upper respiratory tract infection", "Cough"],
+        serious: ["Paradoxical bronchospasm", "Immediate hypersensitivity reactions", "Angioedema", "Acute narrow-angle glaucoma", "Urinary retention"]
+      },
+      contraindications: [
+        "Hypersensitivity to tiotropium or atropine derivatives"
+      ],
+      drugInteractions: [
+        "Anticholinergic drugs - may increase anticholinergic effects",
+        "Use caution with other inhaled medications"
+      ]
+    }
   },
   {
     id: "rx-059",
@@ -2623,7 +2698,34 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Capsule"],
-    tags: ["acid-reflux", "gerd", "ppi"]
+    tags: ["acid-reflux", "gerd", "ppi"],
+    medicalInfo: {
+      dosage: {
+        standard: "GERD: 20mg once daily for 4-8 weeks. H. pylori: 20mg twice daily with antibiotics. Erosive esophagitis: 20-40mg once daily. Maximum 40mg/day.",
+        administration: [
+          "Take 30-60 minutes before first meal of the day",
+          "Swallow capsules whole, do not crush or chew",
+          "Can open capsule and sprinkle on applesauce if needed",
+          "Use for shortest duration necessary"
+        ],
+        specialPopulations: "Consider dose reduction in severe hepatic impairment. Use lowest effective dose. Not recommended long-term without reassessment."
+      },
+      sideEffects: {
+        common: ["Headache", "Abdominal pain", "Nausea", "Diarrhea", "Vomiting", "Flatulence"],
+        serious: ["Clostridium difficile infection", "Bone fractures (long-term use)", "Hypomagnesemia", "Vitamin B12 deficiency", "Acute interstitial nephritis", "Fundic gland polyps"]
+      },
+      contraindications: [
+        "Hypersensitivity to omeprazole or substituted benzimidazoles",
+        "Concurrent use with rilpivirine"
+      ],
+      drugInteractions: [
+        "Clopidogrel - decreased clopidogrel effectiveness (avoid)",
+        "Warfarin - may increase INR",
+        "Methotrexate - increased methotrexate levels",
+        "Rilpivirine - contraindicated",
+        "Drugs requiring acid for absorption (ketoconazole, iron) - decreased absorption"
+      ]
+    }
   },
   {
     id: "rx-060",
@@ -2640,7 +2742,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["20mg", "40mg"],
     formOptions: ["Tablet"],
-    tags: ["acid-reflux", "gerd", "ppi"]
+    tags: ["acid-reflux", "gerd", "ppi"],
+    medicalInfo: {
+      dosage: {
+        standard: "GERD: 40mg once daily for up to 8 weeks. Erosive esophagitis: 40mg once daily for 8 weeks. Maintenance: 40mg once daily. Zollinger-Ellison: 40mg twice daily.",
+        administration: [
+          "Take 30 minutes before a meal",
+          "Swallow tablets whole, do not crush, chew, or split",
+          "Can be taken with or without food",
+          "Best taken before breakfast"
+        ],
+        specialPopulations: "No dose adjustment for renal impairment. Use caution in severe hepatic impairment. Use shortest duration necessary."
+      },
+      sideEffects: {
+        common: ["Headache", "Diarrhea", "Nausea", "Abdominal pain", "Vomiting", "Flatulence"],
+        serious: ["C. difficile infection", "Bone fractures", "Hypomagnesemia", "Vitamin B12 deficiency", "Fundic gland polyps", "Acute interstitial nephritis", "Cutaneous/systemic lupus"]
+      },
+      contraindications: [
+        "Hypersensitivity to pantoprazole or substituted benzimidazoles",
+        "Concurrent use with rilpivirine-containing products"
+      ],
+      drugInteractions: [
+        "Warfarin - may increase INR",
+        "Methotrexate - increased methotrexate levels",
+        "Rilpivirine - decreased rilpivirine levels (contraindicated)",
+        "Drugs dependent on gastric pH (atazanavir, ketoconazole) - altered absorption"
+      ]
+    }
   },
   {
     id: "rx-061",
@@ -2656,7 +2784,30 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
-    tags: ["acid-reflux", "heartburn"]
+    tags: ["acid-reflux", "heartburn"],
+    medicalInfo: {
+      dosage: {
+        standard: "Heartburn relief/prevention: 10-20mg 15-60 minutes before meals. GERD: 20mg twice daily for 6 weeks. Ulcers: 40mg at bedtime for 4-8 weeks.",
+        administration: [
+          "Can be taken with or without food",
+          "For prevention: take 15-60 minutes before eating",
+          "Swallow tablets whole with water",
+          "Do not exceed recommended dose"
+        ],
+        specialPopulations: "Reduce dose in severe renal impairment (CrCl <10). Safe in pregnancy. Use caution in elderly."
+      },
+      sideEffects: {
+        common: ["Headache", "Dizziness", "Constipation", "Diarrhea"],
+        serious: ["QT prolongation (high doses)", "Confusion (especially in elderly/renal impairment)", "Thrombocytopenia", "Agranulocytosis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to famotidine or other H2 blockers"
+      ],
+      drugInteractions: [
+        "Drugs requiring acidic pH (ketoconazole, itraconazole) - decreased absorption",
+        "Antacids - may decrease famotidine absorption (separate by 1-2 hours)"
+      ]
+    }
   },
   {
     id: "rx-062",
@@ -2673,7 +2824,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["250mg", "500mg"],
     formOptions: ["Tablet", "Suspension"],
-    tags: ["antibiotic", "bacterial-infection"]
+    tags: ["antibiotic", "bacterial-infection"],
+    medicalInfo: {
+      dosage: {
+        standard: "Respiratory infections: 500mg on day 1, then 250mg daily for days 2-5 (Z-Pak). STIs: 1g single dose. Typical: total 1500mg over 5 days.",
+        administration: [
+          "Can be taken with or without food",
+          "Take at same time each day",
+          "Complete full course even if feeling better",
+          "Suspension: shake well before each use"
+        ],
+        specialPopulations: "Use caution in hepatic impairment. No adjustment for renal impairment. Safe in pregnancy when needed."
+      },
+      sideEffects: {
+        common: ["Diarrhea", "Nausea", "Abdominal pain", "Vomiting"],
+        serious: ["QT prolongation", "Torsades de pointes", "Hepatotoxicity", "C. difficile colitis", "Severe allergic reactions", "Infantile hypertrophic pyloric stenosis (infants)"]
+      },
+      contraindications: [
+        "History of cholestatic jaundice/hepatic dysfunction with prior azithromycin",
+        "Hypersensitivity to macrolides"
+      ],
+      drugInteractions: [
+        "QT-prolonging drugs - increased risk of arrhythmias",
+        "Warfarin - increased bleeding risk",
+        "Nelfinavir - increased azithromycin levels",
+        "Antacids - decreased azithromycin absorption (separate by 2 hours)"
+      ]
+    }
   },
   {
     id: "rx-063",
@@ -2689,7 +2866,34 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["250mg", "500mg", "875mg"],
     formOptions: ["Capsule", "Tablet", "Suspension"],
-    tags: ["antibiotic", "bacterial-infection"]
+    tags: ["antibiotic", "bacterial-infection"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 250-500mg every 8 hours or 500-875mg every 12 hours. Children: 20-40 mg/kg/day in divided doses. H. pylori: 1000mg twice daily with other agents.",
+        administration: [
+          "Can be taken with or without food",
+          "Take at evenly spaced intervals (every 8 or 12 hours)",
+          "Complete full course of therapy",
+          "Suspension: shake well, refrigerate, discard after 14 days"
+        ],
+        specialPopulations: "Adjust dose for severe renal impairment (CrCl <30). Generally safe in pregnancy. Monitor for rash in infectious mononucleosis."
+      },
+      sideEffects: {
+        common: ["Diarrhea", "Nausea", "Vomiting", "Rash"],
+        serious: ["Anaphylaxis", "C. difficile colitis", "Stevens-Johnson syndrome", "Seizures (high doses)", "Crystalluria"]
+      },
+      contraindications: [
+        "Serious hypersensitivity to penicillins",
+        "History of penicillin-associated cholestatic jaundice"
+      ],
+      drugInteractions: [
+        "Oral contraceptives - may decrease effectiveness",
+        "Warfarin - may increase INR",
+        "Allopurinol - increased risk of rash",
+        "Methotrexate - increased methotrexate toxicity",
+        "Probenecid - increased amoxicillin levels"
+      ]
+    }
   },
   {
     id: "rx-064",
@@ -2706,7 +2910,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["250mg", "500mg", "750mg"],
     formOptions: ["Tablet"],
-    tags: ["antibiotic", "bacterial-infection"]
+    tags: ["antibiotic", "bacterial-infection"],
+    medicalInfo: {
+      dosage: {
+        standard: "UTI (uncomplicated): 250mg twice daily for 3 days. Complicated infections: 500-750mg twice daily for 7-14 days. Adjust for renal impairment.",
+        administration: [
+          "Take twice daily, 12 hours apart",
+          "Can be taken with or without food, but avoid dairy",
+          "Drink plenty of fluids",
+          "Take 2 hours before or 6 hours after antacids, supplements",
+          "Avoid sun exposure"
+        ],
+        specialPopulations: "Reduce dose in renal impairment. Avoid in children/adolescents (musculoskeletal effects). Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nausea", "Diarrhea", "Dizziness", "Headache", "Insomnia"],
+        serious: ["Tendon rupture", "Peripheral neuropathy", "CNS effects (seizures, psychosis)", "QT prolongation", "Aortic dissection/aneurysm", "Hypoglycemia", "C. difficile colitis", "Myasthenia gravis exacerbation"]
+      },
+      contraindications: [
+        "Hypersensitivity to fluoroquinolones",
+        "Concurrent tizanidine use",
+        "Myasthenia gravis"
+      ],
+      drugInteractions: [
+        "Tizanidine - contraindicated",
+        "Theophylline - increased theophylline levels",
+        "Warfarin - increased INR",
+        "Antacids, iron, zinc, calcium - decreased absorption",
+        "NSAIDs - increased seizure risk",
+        "QT-prolonging drugs - additive effects"
+      ]
+    }
   },
   {
     id: "rx-065",
@@ -2722,7 +2956,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg", "75mg", "100mg", "150mg"],
     formOptions: ["Capsule", "Tablet"],
-    tags: ["antibiotic", "acne"]
+    tags: ["antibiotic", "acne"],
+    medicalInfo: {
+      dosage: {
+        standard: "Infections: 100mg twice daily on day 1, then 100mg once or twice daily. Acne: 50-100mg once or twice daily. Malaria prophylaxis: 100mg once daily.",
+        administration: [
+          "Take with full glass of water",
+          "Can take with food to reduce GI upset",
+          "Avoid lying down for 30 minutes after dose",
+          "Avoid dairy products, antacids, iron within 2 hours",
+          "Use sun protection"
+        ],
+        specialPopulations: "Avoid in children <8 years (tooth discoloration). Contraindicated in pregnancy. Reduce dose in hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Diarrhea", "Photosensitivity", "Rash"],
+        serious: ["Esophageal ulceration", "C. difficile colitis", "Intracranial hypertension", "Hepatotoxicity", "Severe skin reactions", "Tooth discoloration (children)"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Children under 8 years",
+        "Hypersensitivity to tetracyclines"
+      ],
+      drugInteractions: [
+        "Isotretinoin - increased intracranial pressure",
+        "Warfarin - increased INR",
+        "Oral contraceptives - may decrease effectiveness",
+        "Antacids, calcium, iron, magnesium - decreased absorption",
+        "Penicillins - may interfere with bactericidal action",
+        "Barbiturates, carbamazepine, phenytoin - decreased doxycycline levels"
+      ]
+    }
   },
   {
     id: "rx-066",
@@ -2739,7 +3003,30 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["500mg", "1000mg"],
     formOptions: ["Tablet"],
-    tags: ["antiviral", "herpes"]
+    tags: ["antiviral", "herpes"],
+    medicalInfo: {
+      dosage: {
+        standard: "Herpes zoster: 1000mg three times daily for 7 days. Genital herpes (initial): 1000mg twice daily for 10 days. Recurrent: 500mg twice daily for 3 days. Suppression: 500-1000mg once daily.",
+        administration: [
+          "Can be taken with or without food",
+          "Start at earliest sign of infection",
+          "Take with plenty of water",
+          "Complete full course of therapy"
+        ],
+        specialPopulations: "Reduce dose based on renal function (CrCl). Generally safe in pregnancy for herpes treatment. Use caution in elderly."
+      },
+      sideEffects: {
+        common: ["Headache", "Nausea", "Abdominal pain"],
+        serious: ["Thrombotic thrombocytopenic purpura/hemolytic uremic syndrome (TTP/HUS) in immunocompromised", "Acute renal failure", "CNS effects (confusion, hallucinations, seizures)"]
+      },
+      contraindications: [
+        "Hypersensitivity to valacyclovir or acyclovir"
+      ],
+      drugInteractions: [
+        "Nephrotoxic drugs - increased risk of renal impairment",
+        "Cimetidine, probenecid - increased valacyclovir levels"
+      ]
+    }
   },
   {
     id: "rx-067",
@@ -2755,7 +3042,32 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["200mg", "400mg", "800mg"],
     formOptions: ["Tablet", "Capsule"],
-    tags: ["antiviral", "herpes"]
+    tags: ["antiviral", "herpes"],
+    medicalInfo: {
+      dosage: {
+        standard: "Herpes zoster: 800mg 5 times daily for 7-10 days. Genital herpes (initial): 200mg 5 times daily or 400mg 3 times daily for 7-10 days. Suppression: 400mg twice daily.",
+        administration: [
+          "Can be taken with or without food",
+          "Start at earliest sign/symptom",
+          "Space doses evenly throughout day",
+          "Maintain adequate hydration",
+          "Complete full course"
+        ],
+        specialPopulations: "Adjust dose for renal impairment (CrCl-based). Generally safe in pregnancy. Use caution in dehydration or pre-existing renal disease."
+      },
+      sideEffects: {
+        common: ["Nausea", "Diarrhea", "Headache", "Malaise"],
+        serious: ["Renal failure (especially with inadequate hydration)", "TTP/HUS in immunocompromised", "Neurotoxicity (confusion, hallucinations, seizures)", "Crystalluria"]
+      },
+      contraindications: [
+        "Hypersensitivity to acyclovir or valacyclovir"
+      ],
+      drugInteractions: [
+        "Nephrotoxic drugs - increased renal toxicity risk",
+        "Probenecid - increased acyclovir levels",
+        "Mycophenolate mofetil - increased levels of both drugs"
+      ]
+    }
   },
   {
     id: "rx-068",
@@ -2772,7 +3084,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "20mg"],
     formOptions: ["Tablet"],
-    tags: ["cancer", "serm", "hormone"]
+    tags: ["cancer", "serm", "hormone"],
+    medicalInfo: {
+      dosage: {
+        standard: "Breast cancer treatment: 20mg once daily for 5-10 years. Breast cancer risk reduction: 20mg once daily for 5 years.",
+        administration: [
+          "Take once daily at same time",
+          "Can be taken with or without food",
+          "Swallow tablets whole with water",
+          "Continue as directed even if feeling well"
+        ],
+        specialPopulations: "Contraindicated in pregnancy. Use caution in women with history of thromboembolic events. Monitor for endometrial changes."
+      },
+      sideEffects: {
+        common: ["Hot flashes", "Vaginal discharge", "Irregular menses", "Nausea", "Fatigue"],
+        serious: ["Endometrial cancer", "Uterine sarcoma", "Stroke", "Pulmonary embolism", "Deep vein thrombosis", "Cataracts", "Retinopathy"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "History of or active thromboembolic disease (when used for risk reduction)",
+        "Concurrent warfarin for risk reduction",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CYP2D6 inhibitors (paroxetine, fluoxetine) - decreased tamoxifen efficacy",
+        "Warfarin - increased bleeding risk",
+        "Aromatase inhibitors - avoid concomitant use",
+        "Rifampin - decreased tamoxifen levels"
+      ]
+    }
   },
   {
     id: "rx-069",
@@ -2789,7 +3129,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2.5mg", "5mg", "7.5mg", "10mg", "15mg"],
     formOptions: ["Tablet", "Injectable"],
-    tags: ["autoimmune", "cancer"]
+    tags: ["autoimmune", "cancer"],
+    medicalInfo: {
+      dosage: {
+        standard: "Rheumatoid arthritis: 7.5-15mg once weekly. Psoriasis: 10-25mg once weekly. Cancer: varies widely. Always taken with folic acid supplementation (1mg daily except MTX day).",
+        administration: [
+          "Take once weekly on same day each week",
+          "Can be taken with or without food",
+          "Take folic acid supplement daily (except on MTX day)",
+          "Avoid alcohol",
+          "Regular blood monitoring required"
+        ],
+        specialPopulations: "Contraindicated in pregnancy and breastfeeding. Reduce dose in renal impairment. Avoid in significant hepatic disease or alcoholism."
+      },
+      sideEffects: {
+        common: ["Nausea", "Stomatitis", "Fatigue", "Elevated liver enzymes"],
+        serious: ["Bone marrow suppression", "Hepatotoxicity/cirrhosis", "Pulmonary toxicity", "Renal failure", "Severe infections", "GI perforation", "Stevens-Johnson syndrome"]
+      },
+      contraindications: [
+        "Pregnancy and breastfeeding",
+        "Alcoholism or chronic liver disease",
+        "Immunodeficiency syndromes",
+        "Blood dyscrasias",
+        "Hypersensitivity"
+      ],
+      drugInteractions: [
+        "NSAIDs - increased methotrexate toxicity",
+        "Proton pump inhibitors - may increase methotrexate levels",
+        "Trimethoprim-sulfamethoxazole - increased bone marrow suppression",
+        "Penicillins - decreased methotrexate clearance",
+        "Folic acid (high dose) - may decrease methotrexate efficacy"
+      ]
+    }
   },
   {
     id: "rx-070",
@@ -2806,7 +3177,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["200mg"],
     formOptions: ["Tablet"],
-    tags: ["autoimmune", "lupus", "arthritis"]
+    tags: ["autoimmune", "lupus", "arthritis"],
+    medicalInfo: {
+      dosage: {
+        standard: "Rheumatoid arthritis/Lupus: 200-400mg daily (≤5 mg/kg actual body weight). Malaria prophylaxis: 400mg weekly. Full effect may take 3-6 months.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Take once daily or divided into two doses",
+          "Swallow tablets whole",
+          "Regular eye exams required (every 6-12 months)"
+        ],
+        specialPopulations: "Adjust dose based on actual body weight. Use caution in renal/hepatic impairment. Monitor in G6PD deficiency. Use in pregnancy only if benefits outweigh risks."
+      },
+      sideEffects: {
+        common: ["Nausea", "Stomach cramps", "Headache", "Dizziness", "Skin rash"],
+        serious: ["Retinopathy (irreversible)", "Cardiomyopathy", "QT prolongation", "Hypoglycemia", "Blood dyscrasias", "Seizures", "Myopathy"]
+      },
+      contraindications: [
+        "Retinal or visual field changes",
+        "Known hypersensitivity to 4-aminoquinoline compounds",
+        "Long-term use in children (retinopathy risk)"
+      ],
+      drugInteractions: [
+        "QT-prolonging drugs - additive effects",
+        "Digoxin - increased digoxin levels",
+        "Insulin, antidiabetic drugs - increased hypoglycemia risk",
+        "Mefloquine - increased seizure risk",
+        "Antacids - decreased hydroxychloroquine absorption"
+      ]
+    }
   },
   {
     id: "rx-071",
@@ -2823,7 +3222,40 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["Various formulations"],
     formOptions: ["Tablet"],
-    tags: ["contraceptive", "birth-control"]
+    tags: ["contraceptive", "birth-control"],
+    medicalInfo: {
+      dosage: {
+        standard: "One tablet daily at same time. Monophasic: same hormone dose daily. Phasic: varying doses. Start on first day of period or Sunday after period starts.",
+        administration: [
+          "Take at same time every day",
+          "Follow package instructions carefully",
+          "Use backup contraception first 7 days",
+          "If missed pill: take as soon as remembered",
+          "Start new pack immediately after finishing old pack"
+        ],
+        specialPopulations: "Not recommended in women >35 who smoke. Contraindicated in history of thromboembolism. Use caution with hypertension, diabetes, migraines."
+      },
+      sideEffects: {
+        common: ["Nausea", "Breast tenderness", "Headache", "Weight changes", "Mood changes", "Breakthrough bleeding"],
+        serious: ["Venous thromboembolism", "Stroke", "Myocardial infarction", "Hepatic adenoma", "Gallbladder disease", "Hypertension"]
+      },
+      contraindications: [
+        "Thrombophlebitis or thromboembolic disorders",
+        "Cerebrovascular or coronary artery disease",
+        "Breast cancer or estrogen-dependent neoplasia",
+        "Undiagnosed abnormal uterine bleeding",
+        "Pregnancy",
+        "Hepatic tumor or disease",
+        "Women >35 who smoke ≥15 cigarettes/day"
+      ],
+      drugInteractions: [
+        "Rifampin, anticonvulsants - decreased contraceptive efficacy",
+        "St. John's wort - decreased efficacy",
+        "Some antibiotics - may decrease efficacy (use backup)",
+        "Warfarin - variable effects on INR",
+        "Lamotrigine - decreased lamotrigine levels"
+      ]
+    }
   },
   {
     id: "rx-072",
@@ -2839,7 +3271,32 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["1.5mg"],
     formOptions: ["Tablet"],
-    tags: ["emergency-contraception", "birth-control"]
+    tags: ["emergency-contraception", "birth-control"],
+    medicalInfo: {
+      dosage: {
+        standard: "One 1.5mg tablet as soon as possible within 72 hours (3 days) of unprotected intercourse. More effective if taken sooner. Can be used up to 5 days but efficacy decreases.",
+        administration: [
+          "Take as soon as possible after unprotected sex",
+          "Can be taken with or without food",
+          "Most effective within first 24 hours",
+          "Does not protect against STIs",
+          "Not for routine contraception"
+        ],
+        specialPopulations: "Less effective in women with BMI >25 or weight >165 lbs (consider ulipristal or copper IUD). Safe for most women including adolescents."
+      },
+      sideEffects: {
+        common: ["Nausea", "Abdominal pain", "Fatigue", "Headache", "Dizziness", "Breast tenderness", "Menstrual changes"],
+        serious: ["Ectopic pregnancy (rare)", "Severe allergic reactions (rare)"]
+      },
+      contraindications: [
+        "Known pregnancy (not effective, but not harmful)",
+        "Hypersensitivity to levonorgestrel"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers (rifampin, anticonvulsants, St. John's wort) - decreased efficacy",
+        "Ulipristal acetate - may reduce efficacy if taken together"
+      ]
+    }
   },
   {
     id: "rx-073",
@@ -2856,7 +3313,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg/ml", "100mg/ml", "200mg/ml"],
     formOptions: ["Injectable", "Gel", "Patch"],
-    tags: ["testosterone", "hrt", "trans-masculine"]
+    tags: ["testosterone", "hrt", "trans-masculine"],
+    medicalInfo: {
+      dosage: {
+        standard: "Injectable: 50-200mg IM every 1-2 weeks or 75-100mg weekly. Gel: 50-100mg applied daily. Patch: 2-6mg applied nightly. Individualize based on testosterone levels.",
+        administration: [
+          "Injectable: Deep IM injection into gluteal muscle",
+          "Gel: Apply to shoulders, upper arms, or abdomen (not genitals)",
+          "Wash hands after gel application",
+          "Avoid skin contact with others after gel",
+          "Monitor testosterone levels regularly"
+        ],
+        specialPopulations: "Contraindicated in pregnancy and breastfeeding. Use caution in cardiovascular disease, sleep apnea, prostate issues. Monitor for polycythemia."
+      },
+      sideEffects: {
+        common: ["Acne", "Oily skin", "Increased red blood cells", "Mood changes", "Increased libido", "Voice deepening (desired in trans HRT)"],
+        serious: ["Polycythemia", "Sleep apnea", "Cardiovascular events", "Hepatotoxicity (oral forms)", "Prostate issues", "Decreased fertility"]
+      },
+      contraindications: [
+        "Prostate cancer",
+        "Breast cancer in males",
+        "Pregnancy and breastfeeding",
+        "Serious cardiac, hepatic, or renal disease"
+      ],
+      drugInteractions: [
+        "Anticoagulants - increased bleeding risk",
+        "Insulin, oral hypoglycemics - may decrease blood glucose",
+        "Corticosteroids - increased fluid retention"
+      ]
+    }
   },
   {
     id: "rx-074",
@@ -2873,7 +3358,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet", "Patch", "Injectable", "Gel"],
-    tags: ["estrogen", "hrt", "trans-feminine", "menopause"]
+    tags: ["estrogen", "hrt", "trans-feminine", "menopause"],
+    medicalInfo: {
+      dosage: {
+        standard: "Trans HRT: Start 1-2mg oral daily or 0.025-0.1mg patch twice weekly. Titrate to 2-6mg oral or equivalent. Menopause: 0.5-1mg oral daily or 0.025-0.05mg patch twice weekly.",
+        administration: [
+          "Oral: Take at same time daily with or without food",
+          "Patch: Apply to clean, dry, hairless skin on lower abdomen or buttocks",
+          "Change patch twice weekly",
+          "Injectable: IM injection every 1-2 weeks",
+          "Gel: Apply to skin as directed"
+        ],
+        specialPopulations: "Contraindicated in pregnancy. Use lowest effective dose in menopause. Monitor for thromboembolism risk factors."
+      },
+      sideEffects: {
+        common: ["Breast tenderness", "Nausea", "Headache", "Fluid retention", "Mood changes"],
+        serious: ["Venous thromboembolism", "Stroke", "Myocardial infarction", "Breast cancer", "Endometrial cancer (without progestin)", "Gallbladder disease"]
+      },
+      contraindications: [
+        "Undiagnosed abnormal uterine bleeding",
+        "Breast cancer or estrogen-dependent neoplasia",
+        "Active or history of VTE/PE",
+        "Active or history of arterial thromboembolic disease",
+        "Liver dysfunction or disease",
+        "Pregnancy"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers (rifampin, anticonvulsants) - decreased estradiol levels",
+        "CYP3A4 inhibitors - increased estradiol levels",
+        "Thyroid hormone - may increase thyroid hormone requirements"
+      ]
+    }
   },
   {
     id: "rx-075",
@@ -2889,7 +3404,39 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
-    tags: ["anti-androgen", "hrt", "trans-feminine", "diuretic"]
+    tags: ["anti-androgen", "hrt", "trans-feminine", "diuretic"],
+    medicalInfo: {
+      dosage: {
+        standard: "Trans HRT: Start 50-100mg once or twice daily. Titrate to 100-200mg daily in 1-2 doses. Hypertension/edema: 25-200mg daily. Monitor potassium.",
+        administration: [
+          "Take with food to reduce GI upset",
+          "Can divide into 1-2 daily doses",
+          "Take consistently at same time",
+          "Monitor electrolytes and renal function regularly",
+          "Avoid high-potassium foods"
+        ],
+        specialPopulations: "Reduce dose in renal impairment. Contraindicated in severe renal dysfunction, hyperkalemia. Use caution in elderly."
+      },
+      sideEffects: {
+        common: ["Hyperkalemia", "Breast tenderness/enlargement (gynecomastia)", "Menstrual irregularities", "Fatigue", "Dizziness", "Nausea"],
+        serious: ["Severe hyperkalemia", "Hypotension", "Acute kidney injury", "Metabolic acidosis"]
+      },
+      contraindications: [
+        "Hyperkalemia",
+        "Acute renal insufficiency",
+        "Significant renal impairment",
+        "Anuria",
+        "Addison's disease",
+        "Concurrent use with eplerenone"
+      ],
+      drugInteractions: [
+        "ACE inhibitors, ARBs - increased hyperkalemia risk",
+        "Potassium supplements - hyperkalemia",
+        "NSAIDs - reduced diuretic effect, increased hyperkalemia risk",
+        "Lithium - increased lithium levels",
+        "Digoxin - may increase or decrease digoxin levels"
+      ]
+    }
   },
   {
     id: "rx-076",
@@ -2906,7 +3453,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["1mg", "5mg"],
     formOptions: ["Tablet"],
-    tags: ["hair-loss", "prostate", "anti-androgen"]
+    tags: ["hair-loss", "prostate", "anti-androgen"],
+    medicalInfo: {
+      dosage: {
+        standard: "Male pattern baldness: 1mg once daily. Benign prostatic hyperplasia: 5mg once daily. May take 3-6 months to see hair growth effects.",
+        administration: [
+          "Take once daily at same time",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Women of childbearing age should not handle crushed tablets",
+          "Continue as directed for sustained benefit"
+        ],
+        specialPopulations: "Not for use in women or children. No adjustment needed for renal impairment. Use caution in hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Decreased libido", "Erectile dysfunction", "Ejaculation disorder", "Breast tenderness"],
+        serious: ["Persistent sexual dysfunction (post-finasteride syndrome)", "Depression", "Suicidal ideation", "High-grade prostate cancer (may mask detection)", "Male breast cancer (rare)"]
+      },
+      contraindications: [
+        "Women who are or may become pregnant",
+        "Children",
+        "Hypersensitivity to finasteride"
+      },
+      drugInteractions: [
+        "Minimal drug interactions",
+        "May affect PSA levels (decreases by ~50%)"
+      ]
+    }
   },
   {
     id: "rx-077",
@@ -2923,7 +3496,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
-    tags: ["anti-androgen", "hrt", "trans-feminine"]
+    tags: ["anti-androgen", "hrt", "trans-feminine"],
+    medicalInfo: {
+      dosage: {
+        standard: "Trans HRT: 10-50mg daily (with estrogen). Prostate cancer: 200-300mg daily in divided doses. Use lowest effective dose. Monitor liver function.",
+        administration: [
+          "Take with or after meals",
+          "Can divide into 2-3 doses if higher dose",
+          "Take at same time daily",
+          "Regular liver function monitoring required",
+          "Use with caution at doses >50mg"
+        ],
+        specialPopulations: "Contraindicated in severe hepatic disease. Not for use in pregnancy. Monitor for depression, liver function, blood glucose."
+      },
+      sideEffects: {
+        common: ["Fatigue", "Decreased libido", "Erectile dysfunction", "Gynecomastia", "Weight gain"],
+        serious: ["Hepatotoxicity", "Liver failure", "Meningioma (long-term, high-dose)", "Thromboembolic events", "Depression", "Osteoporosis"]
+      },
+      contraindications: [
+        "Severe chronic liver disease",
+        "Hepatic tumors",
+        "Dubin-Johnson or Rotor syndrome",
+        "History of or existing thromboembolic disorders",
+        "Severe diabetes with vascular changes",
+        "Meningioma",
+        "Pregnancy"
+      ],
+      drugInteractions: [
+        "CYP3A4 inhibitors - increased cyproterone levels",
+        "Alcohol - increased hepatotoxicity risk",
+        "Statins - may increase statin levels"
+      ]
+    }
   },
   {
     id: "rx-078",
@@ -2940,7 +3544,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["100mg", "200mg"],
     formOptions: ["Capsule", "Cream"],
-    tags: ["progesterone", "hrt", "hormone"]
+    tags: ["progesterone", "hrt", "hormone"],
+    medicalInfo: {
+      dosage: {
+        standard: "Menopause HRT with estrogen: 200mg at bedtime for 12 days per month. Amenorrhea: 400mg at bedtime for 10 days. Trans HRT: 100-200mg at bedtime (optional).",
+        administration: [
+          "Oral: Take at bedtime on empty stomach or with light snack",
+          "Vaginal cream: Follow specific instructions for application",
+          "Swallow capsules whole",
+          "May cause drowsiness - take at bedtime"
+        ],
+        specialPopulations: "Use caution in conditions exacerbated by fluid retention. Not recommended in undiagnosed vaginal bleeding."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Dizziness", "Headache", "Breast tenderness", "Mood changes", "Bloating"],
+        serious: ["Thromboembolism", "Depression", "Cholestatic jaundice", "Allergic reactions"]
+      },
+      contraindications: [
+        "Known or suspected breast cancer",
+        "Undiagnosed abnormal genital bleeding",
+        "Active or history of VTE/PE",
+        "Active or history of arterial thromboembolic disease",
+        "Known liver dysfunction or disease",
+        "Peanut allergy (some formulations)"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers - decreased progesterone levels",
+        "CYP3A4 inhibitors - increased progesterone levels",
+        "Benzodiazepines - may enhance sedative effects"
+      ]
+    }
   },
   {
     id: "rx-079",
@@ -2956,7 +3589,34 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["3.75mg", "7.5mg", "11.25mg"],
     formOptions: ["Injectable"],
-    tags: ["puberty-blocker", "gnrh-agonist", "trans-youth"]
+    tags: ["puberty-blocker", "gnrh-agonist", "trans-youth"],
+    medicalInfo: {
+      dosage: {
+        standard: "Puberty suppression: 3.75mg IM monthly or 11.25mg IM every 3 months. Prostate cancer: 7.5mg IM monthly or 22.5mg every 3 months. Endometriosis: 3.75mg monthly.",
+        administration: [
+          "Intramuscular injection by healthcare provider",
+          "Monthly or every 3 months depending on formulation",
+          "Depot injection - slow release over time",
+          "Regular monitoring required",
+          "Initial testosterone/estrogen flare may occur in first weeks"
+        ],
+        specialPopulations: "Monitor bone density in long-term pediatric use. Use with caution in osteoporosis risk. Reversible upon discontinuation."
+      },
+      sideEffects: {
+        common: ["Hot flashes", "Injection site reactions", "Headache", "Mood changes", "Decreased bone density", "Fatigue"],
+        serious: ["Tumor flare (initial worsening of symptoms)", "Severe bone density loss", "Cardiovascular events", "Seizures", "Pituitary apoplexy", "Spinal cord compression"]
+      },
+      contraindications: [
+        "Undiagnosed abnormal vaginal bleeding",
+        "Pregnancy",
+        "Breastfeeding",
+        "Hypersensitivity to GnRH agonists"
+      },
+      drugInteractions: [
+        "Hyperprolactinemic drugs - may reduce efficacy",
+        "QT-prolonging drugs - additive QT effects"
+      ]
+    }
   },
   {
     id: "rx-080",
@@ -2973,7 +3633,40 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
-    tags: ["erectile-dysfunction", "ed", "sexual-health"]
+    tags: ["erectile-dysfunction", "ed", "sexual-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Erectile dysfunction: Start 50mg as needed, 30-60 minutes before sexual activity. Range: 25-100mg. Maximum once daily. Pulmonary hypertension: 20mg three times daily.",
+        administration: [
+          "Take 30-60 minutes before sexual activity",
+          "Can be taken with or without food (high-fat meals may delay)",
+          "Effective for 4-5 hours",
+          "Do not take more than once in 24 hours",
+          "Sexual stimulation required for effect"
+        ],
+        specialPopulations: "Start 25mg in elderly, hepatic/renal impairment, or with CYP3A4 inhibitors. Use caution in cardiovascular disease."
+      },
+      sideEffects: {
+        common: ["Headache", "Flushing", "Dyspepsia", "Nasal congestion", "Visual disturbances (blue tinge)", "Dizziness"],
+        serious: ["Priapism (erection >4 hours - medical emergency)", "Sudden vision loss (NAION)", "Sudden hearing loss", "Cardiovascular events", "Severe hypotension"]
+      },
+      contraindications: [
+        "Concurrent nitrates or nitric oxide donors (absolute contraindication)",
+        "Concurrent riociguat",
+        "Severe cardiovascular disorders",
+        "Recent stroke or MI (<6 months)",
+        "Severe hepatic impairment",
+        "Hypotension (<90/50 mmHg)",
+        "Retinitis pigmentosa"
+      },
+      drugInteractions: [
+        "Nitrates - severe hypotension (contraindicated)",
+        "Alpha-blockers - hypotension (use caution, separate timing)",
+        "CYP3A4 inhibitors (ritonavir, ketoconazole) - increased sildenafil levels",
+        "CYP3A4 inducers - decreased sildenafil levels",
+        "Other PDE5 inhibitors - do not combine"
+      ]
+    }
   },
 
   // II. RESEARCH CHEMICALS (81-120) - Lab license required

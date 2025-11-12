@@ -6885,6 +6885,862 @@ export const products: Product[] = [
     demoMode: true
   },
   {
+    id: "rx-079aa",
+    name: "Estradiol (Oral)",
+    description: "Bioidentical estrogen for transgender HRT and menopause",
+    price: 18.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.8,
+    reviews: 892,
+    requiresPrescription: true,
+    strengthOptions: ["0.5mg", "1mg", "2mg"],
+    formOptions: ["Tablet"],
+    tags: ["estrogen", "transgender-hrt", "feminizing", "hormone"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 32.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Transgender HRT: 2-6mg daily oral. Menopause: 0.5-2mg daily. Start low and titrate based on hormone levels and response.",
+        administration: [
+          "Take consistently at same time daily",
+          "Can be taken with or without food",
+          "Swallow whole with water",
+          "Monitor estradiol levels regularly"
+        ],
+        specialPopulations: "Use caution in cardiovascular disease, thrombotic disorders, liver disease. Monitor closely in smokers over 35."
+      },
+      sideEffects: {
+        common: ["Breast tenderness", "Mood changes", "Weight gain", "Headache", "Nausea"],
+        serious: ["Blood clots (DVT/PE)", "Stroke", "Heart attack", "Liver dysfunction", "Gallbladder disease"]
+      },
+      contraindications: [
+        "Active or history of blood clots",
+        "Active or history of hormone-sensitive cancer",
+        "Undiagnosed vaginal bleeding",
+        "Liver disease",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers - decreased estradiol levels",
+        "CYP3A4 inhibitors - increased estradiol levels",
+        "Thyroid medications - may increase thyroid requirements",
+        "Anticoagulants - monitor closely"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ab",
+    name: "Ethinylestradiol",
+    description: "Synthetic estrogen for contraception and HRT",
+    price: 16.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "contraceptives",
+    inStock: true,
+    rating: 4.6,
+    reviews: 1023,
+    requiresPrescription: true,
+    strengthOptions: ["20mcg", "30mcg", "35mcg"],
+    formOptions: ["Tablet"],
+    tags: ["contraceptive", "estrogen", "birth-control"],
+    variationPrices: {
+      minPrice: 16.99,
+      maxPrice: 28.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Combined with progestin for contraception. Typical: 20-35mcg daily for 21 days, then 7-day break.",
+        administration: [
+          "Take at same time every day",
+          "Follow pack instructions carefully",
+          "Use backup contraception if dose missed",
+          "Take with food if nausea occurs"
+        ],
+        specialPopulations: "Contraindicated in smokers over 35, history of blood clots, migraine with aura."
+      },
+      sideEffects: {
+        common: ["Nausea", "Breast tenderness", "Headache", "Mood changes", "Spotting"],
+        serious: ["Blood clots", "Stroke", "Heart attack", "Hypertension", "Liver tumors"]
+      },
+      contraindications: [
+        "Smoking and age >35",
+        "History of blood clots",
+        "Migraine with aura",
+        "Cardiovascular disease",
+        "Breast or endometrial cancer"
+      ],
+      drugInteractions: [
+        "Antibiotics - may reduce contraceptive efficacy",
+        "Anticonvulsants - decreased effectiveness",
+        "St. John's Wort - reduced contraceptive effect",
+        "HIV medications - variable interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ac",
+    name: "Levonorgestrel IUD",
+    description: "Long-acting reversible contraception (demo SKU)",
+    price: 450.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "contraceptives",
+    inStock: true,
+    rating: 4.9,
+    reviews: 678,
+    requiresPrescription: true,
+    strengthOptions: ["52mg (5-year)", "19.5mg (3-year)"],
+    formOptions: ["Intrauterine Device"],
+    tags: ["contraceptive", "iud", "long-acting", "reversible"],
+    variationPrices: {
+      minPrice: 450.00,
+      maxPrice: 550.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Single insertion: 52mg device effective for 5 years, 19.5mg device for 3 years. Requires professional insertion.",
+        administration: [
+          "Inserted by healthcare provider",
+          "Check strings monthly",
+          "Effective immediately if inserted during period",
+          "Removal requires professional procedure"
+        ],
+        specialPopulations: "Can be used nulliparous. Caution in active PID, anatomical uterine abnormalities."
+      },
+      sideEffects: {
+        common: ["Irregular bleeding", "Amenorrhea", "Cramping", "Ovarian cysts", "Acne"],
+        serious: ["Uterine perforation", "Expulsion", "Ectopic pregnancy", "Pelvic inflammatory disease"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Active pelvic infection",
+        "Uterine anatomical abnormalities",
+        "Known or suspected breast cancer",
+        "Acute liver disease"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers - may decrease effectiveness",
+        "Minimal systemic absorption - few interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ad",
+    name: "Progesterone (Oral Micronized)",
+    description: "Bioidentical progesterone for HRT and fertility",
+    price: 28.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "hrt",
+    inStock: true,
+    rating: 4.7,
+    reviews: 534,
+    requiresPrescription: true,
+    strengthOptions: ["100mg", "200mg"],
+    formOptions: ["Capsule"],
+    tags: ["progesterone", "hrt", "bioidentical", "menopause"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 48.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Menopause HRT: 200mg at bedtime for 12-14 days per cycle or continuously. Fertility support: 100-200mg 2-3 times daily.",
+        administration: [
+          "Take at bedtime to minimize drowsiness",
+          "Swallow whole with water",
+          "Take consistently for HRT",
+          "Food may increase absorption"
+        ],
+        specialPopulations: "Caution in depression, liver disease. Monitor for mood changes."
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Dizziness", "Headache", "Breast tenderness", "Mood changes"],
+        serious: ["Depression", "Allergic reactions", "Liver dysfunction"]
+      },
+      contraindications: [
+        "Known or suspected breast cancer",
+        "Undiagnosed vaginal bleeding",
+        "Active liver disease",
+        "Known hypersensitivity to peanuts (contains peanut oil)"
+      ],
+      drugInteractions: [
+        "CYP3A4 inducers - decreased progesterone levels",
+        "CYP3A4 inhibitors - increased levels",
+        "Minimal clinically significant interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ae",
+    name: "Testosterone Enanthate",
+    description: "Long-acting injectable testosterone for transgender HRT and hypogonadism",
+    price: 58.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.9,
+    reviews: 1045,
+    requiresPrescription: true,
+    strengthOptions: ["100mg/mL", "200mg/mL", "250mg/mL"],
+    formOptions: ["Injection (IM)"],
+    tags: ["testosterone", "transgender-hrt", "masculinizing", "injectable"],
+    variationPrices: {
+      minPrice: 58.99,
+      maxPrice: 98.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Transgender HRT: 50-100mg IM weekly or 100-200mg every 2 weeks. Hypogonadism: 50-400mg every 2-4 weeks. Titrate to testosterone levels.",
+        administration: [
+          "Deep intramuscular injection",
+          "Rotate injection sites (gluteal, thigh)",
+          "Warm vial to body temperature before injection",
+          "Monitor testosterone levels and adjust dosing"
+        ],
+        specialPopulations: "Contraindicated in pregnancy, breast/prostate cancer. Monitor hematocrit, lipids, liver function."
+      },
+      sideEffects: {
+        common: ["Acne", "Oily skin", "Increased libido", "Mood changes", "Injection site reactions"],
+        serious: ["Polycythemia", "Sleep apnea", "Prostate enlargement", "Cardiovascular events", "Liver dysfunction"]
+      },
+      contraindications: [
+        "Breast or prostate cancer",
+        "Pregnancy",
+        "Severe cardiac, hepatic, or renal disease",
+        "Hypercalcemia"
+      ],
+      drugInteractions: [
+        "Anticoagulants - increased anticoagulant effect",
+        "Insulin - may decrease insulin requirements",
+        "Corticosteroids - increased fluid retention"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079af",
+    name: "Testosterone Cypionate",
+    description: "Long-acting injectable testosterone ester for HRT",
+    price: 56.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.8,
+    reviews: 967,
+    requiresPrescription: true,
+    strengthOptions: ["100mg/mL", "200mg/mL"],
+    formOptions: ["Injection (IM)"],
+    tags: ["testosterone", "transgender-hrt", "masculinizing", "injectable"],
+    variationPrices: {
+      minPrice: 56.99,
+      maxPrice: 88.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "50-100mg IM weekly or 100-200mg every 2 weeks. Similar to enanthate. Monitor testosterone levels.",
+        administration: [
+          "Deep IM injection in gluteal or thigh muscle",
+          "Rotate injection sites",
+          "Use proper aseptic technique",
+          "Regular monitoring of testosterone levels"
+        ],
+        specialPopulations: "Same as testosterone enanthate. Monitor cardiovascular risk factors."
+      },
+      sideEffects: {
+        common: ["Acne", "Hair growth", "Voice deepening", "Mood changes", "Increased muscle mass"],
+        serious: ["Polycythemia", "Cardiovascular disease", "Sleep apnea", "Liver toxicity", "Prostate issues"]
+      },
+      contraindications: [
+        "Pregnancy and breastfeeding",
+        "Breast or prostate cancer",
+        "Severe cardiovascular disease"
+      ],
+      drugInteractions: [
+        "Warfarin - increased anticoagulation",
+        "Diabetes medications - may alter glucose control",
+        "Corticosteroids - fluid retention"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ag",
+    name: "Testosterone Undecanoate Injection",
+    description: "Ultra-long-acting testosterone injection (10-14 week dosing)",
+    price: 280.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.7,
+    reviews: 234,
+    requiresPrescription: true,
+    strengthOptions: ["1000mg/4mL vial"],
+    formOptions: ["IM Injection"],
+    tags: ["testosterone", "long-acting", "transgender-hrt", "masculinizing"],
+    variationPrices: {
+      minPrice: 280.00,
+      maxPrice: 320.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Initial: 750mg IM, repeat at 4 weeks, then 750-1000mg every 10-14 weeks. Longest-acting testosterone formulation.",
+        administration: [
+          "Deep IM injection only (gluteal)",
+          "Must be administered by healthcare provider",
+          "Observe for 30 minutes post-injection (rare anaphylaxis risk)",
+          "Long steady testosterone levels"
+        ],
+        specialPopulations: "Not for self-administration. Requires medical supervision due to rare POME and anaphylaxis risk."
+      },
+      sideEffects: {
+        common: ["Injection site pain", "Acne", "Prostate changes", "Hematocrit increase"],
+        serious: ["Pulmonary oil microembolism (POME)", "Anaphylaxis", "Cardiovascular events", "Polycythemia"]
+      },
+      contraindications: [
+        "Breast or prostate cancer",
+        "Severe cardiovascular disease",
+        "History of anaphylaxis to testosterone",
+        "Pregnancy"
+      ],
+      drugInteractions: [
+        "Same as other testosterone formulations",
+        "Monitor anticoagulation closely"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ah",
+    name: "Finasteride (HRT Dosing)",
+    description: "5-alpha reductase inhibitor for anti-androgenic effects",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.6,
+    reviews: 789,
+    requiresPrescription: true,
+    strengthOptions: ["1mg", "5mg"],
+    formOptions: ["Tablet"],
+    tags: ["anti-androgen", "transgender-hrt", "hair-loss", "dht-blocker"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 38.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Hair loss: 1mg daily. Transgender HRT: 2.5-5mg daily. BPH: 5mg daily.",
+        administration: [
+          "Take once daily with or without food",
+          "Consistent timing recommended",
+          "May take 3-6 months to see effects",
+          "Can be split if needed"
+        ],
+        specialPopulations: "Contraindicated in pregnancy. Not for use in women of childbearing potential. Caution in liver disease."
+      },
+      sideEffects: {
+        common: ["Decreased libido", "Erectile dysfunction", "Ejaculation disorders", "Breast tenderness"],
+        serious: ["Depression", "Breast cancer (rare)", "High-grade prostate cancer", "Male infertility"]
+      },
+      contraindications: [
+        "Pregnancy and women of childbearing potential",
+        "Known hypersensitivity",
+        "Pediatric use"
+      ],
+      drugInteractions: [
+        "Minimal clinically significant interactions",
+        "CYP3A4 inhibitors - may increase levels slightly"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ai",
+    name: "Clomiphene Citrate",
+    description: "Selective estrogen receptor modulator for ovulation induction",
+    price: 48.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "fertility",
+    inStock: true,
+    rating: 4.5,
+    reviews: 567,
+    requiresPrescription: true,
+    strengthOptions: ["50mg", "100mg"],
+    formOptions: ["Tablet"],
+    tags: ["fertility", "ovulation-induction", "infertility"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 78.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Start 50mg daily for 5 days, cycle day 3-5. May increase to 100mg if no ovulation. Maximum 6 cycles recommended.",
+        administration: [
+          "Take at same time daily for 5 consecutive days",
+          "Start on cycle day 3, 4, or 5",
+          "Monitor with ultrasound and hormone levels",
+          "Timed intercourse or insemination 5-10 days after last dose"
+        ],
+        specialPopulations: "Contraindicated in pregnancy, liver disease, ovarian cysts (except PCOS). Requires monitoring for multiple pregnancy risk."
+      },
+      sideEffects: {
+        common: ["Hot flashes", "Mood changes", "Breast tenderness", "Bloating", "Visual disturbances"],
+        serious: ["Ovarian hyperstimulation syndrome", "Multiple pregnancy", "Ovarian enlargement", "Visual disturbances (discontinue)"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Liver disease",
+        "Uncontrolled thyroid or adrenal dysfunction",
+        "Ovarian cysts (except PCOS)",
+        "Abnormal uterine bleeding"
+      ],
+      drugInteractions: [
+        "Minimal interactions",
+        "May interfere with hormone assays"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079aj",
+    name: "Menotropins (hMG)",
+    description: "Human menopausal gonadotropin for ovarian stimulation",
+    price: 180.00,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "fertility",
+    inStock: true,
+    rating: 4.6,
+    reviews: 189,
+    requiresPrescription: true,
+    strengthOptions: ["75 IU FSH/75 IU LH", "150 IU FSH/150 IU LH"],
+    formOptions: ["Injectable (SC/IM)"],
+    tags: ["fertility", "ivf", "ovarian-stimulation", "gonadotropin"],
+    variationPrices: {
+      minPrice: 180.00,
+      maxPrice: 320.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Highly individualized: 75-450 IU daily SC/IM for 7-12 days. Dosing based on ovarian response monitoring.",
+        administration: [
+          "SC or IM injection",
+          "Reconstitute immediately before use",
+          "Rotate injection sites",
+          "Part of controlled ovarian stimulation protocol",
+          "Requires close monitoring with ultrasound and hormone levels"
+        ],
+        specialPopulations: "Requires fertility specialist supervision. High risk of multiple pregnancy and OHSS."
+      },
+      sideEffects: {
+        common: ["Injection site reactions", "Bloating", "Mood changes", "Breast tenderness"],
+        serious: ["Ovarian hyperstimulation syndrome (OHSS)", "Multiple pregnancy", "Ovarian torsion", "Thromboembolic events"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Primary ovarian failure",
+        "Uncontrolled thyroid/adrenal dysfunction",
+        "Hormone-dependent tumors",
+        "Abnormal uterine bleeding"
+      ],
+      drugInteractions: [
+        "Part of complex fertility protocol",
+        "No significant drug-drug interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ak",
+    name: "Leuprolide Acetate (Lupron)",
+    description: "GnRH agonist for puberty blocking and endometriosis",
+    price: 420.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "puberty-blockers",
+    inStock: true,
+    rating: 4.7,
+    reviews: 345,
+    requiresPrescription: true,
+    strengthOptions: ["3.75mg depot", "7.5mg depot", "11.25mg depot", "22.5mg depot"],
+    formOptions: ["IM/SC Depot Injection"],
+    tags: ["puberty-blocker", "gnrh-agonist", "transgender", "endometriosis"],
+    variationPrices: {
+      minPrice: 420.00,
+      maxPrice: 890.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Puberty suppression: 3.75mg monthly or 11.25mg every 3 months. Endometriosis: 3.75mg monthly for up to 6 months.",
+        administration: [
+          "IM or SC injection by healthcare provider",
+          "Monthly or 3-month depot formulations",
+          "Expect flare effect in first 2-4 weeks",
+          "Monitor bone density with long-term use"
+        ],
+        specialPopulations: "Requires multidisciplinary care for transgender youth. Monitor growth, bone health. Add-back therapy may be needed."
+      },
+      sideEffects: {
+        common: ["Hot flashes", "Headache", "Mood changes", "Injection site reactions", "Initial hormone flare"],
+        serious: ["Bone density loss", "Tumor flare (first weeks)", "Depression", "Cardiovascular effects", "Pituitary apoplexy (rare)"]
+      },
+      contraindications: [
+        "Pregnancy and breastfeeding",
+        "Undiagnosed vaginal bleeding",
+        "Known hypersensitivity to GnRH agonists"
+      ],
+      drugInteractions: [
+        "Minimal interactions",
+        "May interact with drugs affecting QT interval"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079al",
+    name: "Buserelin Acetate",
+    description: "GnRH agonist nasal spray for endometriosis and IVF",
+    price: 165.00,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "puberty-blockers",
+    inStock: true,
+    rating: 4.4,
+    reviews: 123,
+    requiresPrescription: true,
+    strengthOptions: ["150mcg/spray"],
+    formOptions: ["Nasal Spray"],
+    tags: ["gnrh-agonist", "endometriosis", "ivf"],
+    variationPrices: {
+      minPrice: 165.00,
+      maxPrice: 220.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Endometriosis: 400mcg (spray in each nostril) 3 times daily. IVF downregulation: protocol-specific dosing.",
+        administration: [
+          "Intranasal spray",
+          "Blow nose gently before use",
+          "Spray into each nostril",
+          "3 times daily at regular intervals"
+        ],
+        specialPopulations: "Avoid in pregnancy. Monitor bone density with prolonged use."
+      },
+      sideEffects: {
+        common: ["Nasal irritation", "Hot flashes", "Headache", "Vaginal dryness", "Mood changes"],
+        serious: ["Bone density loss", "Depression", "Ovarian cysts"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Undiagnosed vaginal bleeding",
+        "Hormone-sensitive tumors"
+      ],
+      drugInteractions: [
+        "Minimal systemic interactions",
+        "Nasal decongestants - use 30 minutes after buserelin"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079am",
+    name: "Levothyroxine (T4)",
+    description: "Synthetic thyroid hormone for hypothyroidism",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "thyroid-endocrine",
+    inStock: true,
+    rating: 4.8,
+    reviews: 2340,
+    requiresPrescription: true,
+    strengthOptions: ["25mcg", "50mcg", "75mcg", "100mcg", "125mcg", "150mcg"],
+    formOptions: ["Tablet"],
+    tags: ["thyroid", "hypothyroidism", "levothyroxine", "t4"],
+    variationPrices: {
+      minPrice: 12.99,
+      maxPrice: 24.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Initial: 1.6mcg/kg/day (typically 50-100mcg). Titrate every 6-8 weeks based on TSH. Take on empty stomach.",
+        administration: [
+          "Take 30-60 minutes before breakfast",
+          "Consistent timing critical",
+          "Separate from iron, calcium, antacids by 4 hours",
+          "Don't switch brands without medical supervision"
+        ],
+        specialPopulations: "Start lower in elderly, cardiovascular disease. Adjust in pregnancy. Monitor TSH regularly."
+      },
+      sideEffects: {
+        common: ["Usually none at correct dose", "Hair loss (temporary)", "Weight loss"],
+        serious: ["Cardiac arrhythmias (overdose)", "Osteoporosis (chronic overdose)", "Angina", "Hyperthyroidism symptoms"]
+      },
+      contraindications: [
+        "Uncorrected adrenal insufficiency",
+        "Acute MI",
+        "Thyrotoxicosis"
+      ],
+      drugInteractions: [
+        "Iron, calcium - decreased absorption",
+        "Warfarin - increased anticoagulant effect",
+        "Diabetes medications - may need adjustment",
+        "Estrogens - may increase thyroid requirements"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079an",
+    name: "Nandrolone Decanoate",
+    description: "Anabolic steroid for muscle wasting and severe osteoporosis (medical use demo)",
+    price: 85.00,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "anabolic-hormones",
+    inStock: true,
+    rating: 4.3,
+    reviews: 78,
+    requiresPrescription: true,
+    strengthOptions: ["50mg/mL", "100mg/mL"],
+    formOptions: ["IM Injection"],
+    tags: ["anabolic", "muscle-wasting", "controlled"],
+    variationPrices: {
+      minPrice: 85.00,
+      maxPrice: 120.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Women: 50mg every 3-4 weeks. Men: 50-100mg every 2-4 weeks for severe osteoporosis or wasting. Highly restricted use.",
+        administration: [
+          "Deep IM injection",
+          "Administered by healthcare professional",
+          "Long-acting depot formulation",
+          "Strict monitoring required"
+        ],
+        specialPopulations: "Controlled substance. Use limited to severe wasting, refractory anemia, osteoporosis. Monitor for virilization in women."
+      },
+      sideEffects: {
+        common: ["Injection site pain", "Virilization in women", "Acne", "Edema"],
+        serious: ["Liver toxicity", "Cardiovascular disease", "Polycythemia", "Virilization (irreversible)", "Prostate cancer"]
+      },
+      contraindications: [
+        "Pregnancy and breastfeeding",
+        "Prostate or breast cancer (males)",
+        "Breast cancer (females)",
+        "Severe cardiovascular disease",
+        "Liver disease"
+      ],
+      drugInteractions: [
+        "Anticoagulants - increased effect",
+        "Diabetes medications - altered glucose control",
+        "Corticosteroids - increased edema risk"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ao",
+    name: "Testosterone Undecanoate (Oral)",
+    description: "Oral testosterone for hypogonadism (demo - limited availability)",
+    price: 240.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "anabolic-hormones",
+    inStock: true,
+    rating: 4.2,
+    reviews: 134,
+    requiresPrescription: true,
+    strengthOptions: ["40mg"],
+    formOptions: ["Capsule"],
+    tags: ["testosterone", "oral", "hypogonadism"],
+    variationPrices: {
+      minPrice: 240.00,
+      maxPrice: 320.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Initial: 120-160mg daily in 2-4 divided doses with food. Adjust based on testosterone levels. Take with fatty meal for absorption.",
+        administration: [
+          "Take with food (fatty meals enhance absorption)",
+          "Divide total daily dose into 2-4 administrations",
+          "Swallow whole with water",
+          "Consistent meal composition important"
+        ],
+        specialPopulations: "Absorbed via lymphatic system, bypassing first-pass liver metabolism. Still monitor liver function."
+      },
+      sideEffects: {
+        common: ["GI upset", "Headache", "Increased blood pressure", "Acne"],
+        serious: ["Liver toxicity", "Cardiovascular events", "Polycythemia", "Sleep apnea"]
+      },
+      contraindications: [
+        "Breast or prostate cancer",
+        "Severe cardiovascular disease",
+        "Severe liver or kidney disease"
+      ],
+      drugInteractions: [
+        "Anticoagulants - monitor INR",
+        "Corticosteroids - fluid retention",
+        "Diabetes medications - may alter glucose"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ap",
+    name: "Estradiol Sublingual",
+    description: "Fast-acting sublingual estradiol for transgender HRT",
+    price: 32.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "transgender-hrt",
+    inStock: true,
+    rating: 4.7,
+    reviews: 456,
+    requiresPrescription: true,
+    strengthOptions: ["0.5mg", "1mg", "2mg"],
+    formOptions: ["Sublingual Tablet"],
+    tags: ["estrogen", "transgender-hrt", "sublingual", "fast-acting"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 52.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "1-2mg sublingually 2-3 times daily. Higher estradiol peaks than oral. Adjust based on hormone levels.",
+        administration: [
+          "Place tablet under tongue",
+          "Allow to dissolve completely (10-15 minutes)",
+          "Do not swallow",
+          "Avoid eating/drinking during dissolution"
+        ],
+        specialPopulations: "Sublingual route provides higher estradiol levels and avoids first-pass metabolism."
+      },
+      sideEffects: {
+        common: ["Breast development", "Mood changes", "Weight redistribution", "Decreased libido"],
+        serious: ["Blood clots", "Cardiovascular events", "Liver dysfunction"]
+      },
+      contraindications: [
+        "Active blood clots",
+        "Hormone-sensitive cancers",
+        "Severe liver disease"
+      ],
+      drugInteractions: [
+        "Similar to oral estradiol",
+        "Bypass first-pass metabolism - fewer liver interactions"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079aq",
+    name: "Estriol Topical Cream",
+    description: "Weak estrogen cream for vaginal atrophy (demo)",
+    price: 45.00,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "hrt",
+    inStock: true,
+    rating: 4.5,
+    reviews: 267,
+    requiresPrescription: true,
+    strengthOptions: ["0.5mg/g", "1mg/g"],
+    formOptions: ["Topical Cream"],
+    tags: ["estrogen", "topical", "vaginal-atrophy", "menopause"],
+    variationPrices: {
+      minPrice: 45.00,
+      maxPrice: 65.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "0.5-1mg (0.5-1g cream) intravaginally nightly for 2-3 weeks, then 1-2 times weekly maintenance.",
+        administration: [
+          "Apply intravaginally with applicator",
+          "Best applied at bedtime",
+          "Use minimal effective dose",
+          "Local action with minimal systemic absorption"
+        ],
+        specialPopulations: "Preferred for local symptoms only. Minimal systemic absorption reduces risks."
+      },
+      sideEffects: {
+        common: ["Vaginal discharge", "Mild irritation", "Breast tenderness (rare)"],
+        serious: ["Endometrial hyperplasia (very rare)", "Systemic effects (rare with proper dosing)"]
+      },
+      contraindications: [
+        "Undiagnosed vaginal bleeding",
+        "Known or suspected breast cancer",
+        "Active liver disease"
+      ],
+      drugInteractions: [
+        "Minimal due to local application",
+        "Low systemic absorption"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-079ar",
+    name: "Conjugated Estrogen Vaginal Cream",
+    description: "Topical estrogen for vulvovaginal atrophy",
+    price: 52.00,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "hrt",
+    inStock: true,
+    rating: 4.6,
+    reviews: 389,
+    requiresPrescription: true,
+    strengthOptions: ["0.625mg/g"],
+    formOptions: ["Vaginal Cream"],
+    tags: ["estrogen", "vaginal", "menopause", "atrophy"],
+    variationPrices: {
+      minPrice: 52.00,
+      maxPrice: 72.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "0.5-2g intravaginally daily for 1-2 weeks, then reduce to 1-2 times weekly.",
+        administration: [
+          "Use vaginal applicator",
+          "Apply at bedtime",
+          "Cyclic or continuous dosing",
+          "Lowest effective dose for shortest duration"
+        ],
+        specialPopulations: "Some systemic absorption occurs. Monitor for endometrial effects with chronic use."
+      },
+      sideEffects: {
+        common: ["Vaginal discharge", "Perineal pain", "Breast pain", "Headache"],
+        serious: ["Endometrial hyperplasia", "Cardiovascular events (rare)", "Blood clots (rare)"]
+      },
+      contraindications: [
+        "Undiagnosed vaginal bleeding",
+        "Breast cancer",
+        "Active blood clots",
+        "Liver disease"
+      ],
+      drugInteractions: [
+        "Lower systemic absorption than oral",
+        "Similar interactions to oral estrogens but less pronounced"
+      ]
+    },
+    demoMode: true
+  },
+  {
     id: "rx-080",
     name: "Sildenafil",
     description: "PDE5 inhibitor for erectile dysfunction and pulmonary hypertension",

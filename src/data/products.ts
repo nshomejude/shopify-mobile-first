@@ -6846,5 +6846,295 @@ export const products: Product[] = [
       minPrice: 219.99,
       maxPrice: 699.99
     }
+  },
+
+  // ============= VI. WELLNESS, DETOX & RECOVERY SUPPORT (Items 181-195) =============
+  
+  {
+    id: "bac-181",
+    name: "Baclofen",
+    description: "Muscle relaxant and spasticity agent, off-label for addiction cravings",
+    price: 29.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "wellness-recovery",
+    subcategory: "detox-withdrawal",
+    inStock: true,
+    rating: 4.5,
+    reviews: 267,
+    requiresPrescription: true,
+    strengthOptions: ["10mg", "20mg"],
+    formOptions: ["Tablet"],
+    tags: ["muscle-relaxant", "spasticity", "addiction-support"],
+    variationPrices: {
+      minPrice: 29.99,
+      maxPrice: 44.99
+    }
+  },
+  {
+    id: "lop-182",
+    name: "Loperamide",
+    description: "Antidiarrheal medication, used in opioid withdrawal management",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "wellness-recovery",
+    subcategory: "detox-withdrawal",
+    inStock: true,
+    rating: 4.6,
+    reviews: 543,
+    requiresPrescription: false,
+    strengthOptions: ["2mg"],
+    formOptions: ["Capsule", "Tablet"],
+    tags: ["antidiarrheal", "withdrawal-support"],
+    variationPrices: {
+      minPrice: 12.99,
+      maxPrice: 18.99
+    }
+  },
+  {
+    id: "nic-183",
+    name: "Nicotine Replacement Therapy",
+    description: "Nicotine patches and gum for smoking cessation",
+    price: 34.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "wellness-recovery",
+    subcategory: "detox-withdrawal",
+    inStock: true,
+    rating: 4.7,
+    reviews: 1234,
+    requiresPrescription: false,
+    strengthOptions: ["7mg", "14mg", "21mg"],
+    formOptions: ["Patch", "Gum", "Lozenge"],
+    tags: ["smoking-cessation", "nicotine"],
+    variationPrices: {
+      minPrice: 34.99,
+      maxPrice: 54.99
+    }
+  },
+  {
+    id: "char-188",
+    name: "Activated Charcoal (Medical Grade)",
+    description: "GI decontamination and detoxification support",
+    price: 16.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "wellness-recovery",
+    subcategory: "detox-withdrawal",
+    inStock: true,
+    rating: 4.4,
+    reviews: 389,
+    requiresPrescription: false,
+    strengthOptions: ["250mg", "500mg"],
+    formOptions: ["Capsule", "Powder"],
+    tags: ["detox", "gi-support"],
+    variationPrices: {
+      minPrice: 16.99,
+      maxPrice: 24.99
+    }
+  },
+  {
+    id: "vitb-189",
+    name: "Vitamin B Complex (High-Dose)",
+    description: "High-dose B vitamins for recovery and metabolic support",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "wellness-recovery",
+    subcategory: "immune-antioxidants",
+    inStock: true,
+    rating: 4.8,
+    reviews: 892,
+    requiresPrescription: false,
+    strengthOptions: ["B-50 Complex", "B-100 Complex"],
+    formOptions: ["Capsule", "Tablet"],
+    tags: ["vitamins", "recovery", "energy"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 38.99
+    }
+  },
+  {
+    id: "vitc-190",
+    name: "Vitamin C (High-Dose)",
+    description: "High-potency vitamin C for immune and adjunctive support",
+    price: 19.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "wellness-recovery",
+    subcategory: "immune-antioxidants",
+    inStock: true,
+    rating: 4.7,
+    reviews: 1123,
+    requiresPrescription: false,
+    strengthOptions: ["1000mg", "2000mg", "5000mg"],
+    formOptions: ["Capsule", "Tablet", "Powder"],
+    tags: ["vitamin-c", "immune-support", "antioxidant"],
+    variationPrices: {
+      minPrice: 19.99,
+      maxPrice: 32.99
+    }
+  },
+  {
+    id: "lcar-193",
+    name: "L-Carnitine",
+    description: "Amino acid for metabolic and energy support",
+    price: 28.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "wellness-recovery",
+    subcategory: "immune-antioxidants",
+    inStock: true,
+    rating: 4.6,
+    reviews: 567,
+    requiresPrescription: false,
+    strengthOptions: ["500mg", "1000mg"],
+    formOptions: ["Capsule", "Liquid"],
+    tags: ["amino-acid", "energy", "metabolic-support"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    }
+  },
+  {
+    id: "glut-194",
+    name: "Glutathione",
+    description: "Master antioxidant for detoxification and cellular health",
+    price: 42.99,
+    oldPrice: 82.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "wellness-recovery",
+    subcategory: "immune-antioxidants",
+    inStock: true,
+    rating: 4.8,
+    reviews: 723,
+    requiresPrescription: false,
+    strengthOptions: ["250mg", "500mg"],
+    formOptions: ["Capsule", "IV Solution"],
+    tags: ["antioxidant", "detox", "immune-support"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 164.99
+    }
+  },
+  {
+    id: "pct-195",
+    name: "Post-Cycle Therapy Bundle",
+    description: "Complete PCT support with clomiphene and tamoxifen combination",
+    price: 124.99,
+    oldPrice: 224.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "cognitive-enhancement",
+    subcategory: "peptides-sarms",
+    inStock: true,
+    rating: 4.9,
+    reviews: 456,
+    requiresPrescription: true,
+    strengthOptions: ["Standard Bundle", "Extended Bundle"],
+    formOptions: ["Tablet Bundle"],
+    tags: ["pct", "serm", "recovery", "hormone-support"],
+    variationPrices: {
+      minPrice: 124.99,
+      maxPrice: 189.99
+    }
+  },
+
+  // ============= VII. MISC & REGULATORY / SITE CATALOG ITEMS (Items 196-200) =============
+  
+  {
+    id: "misc-196",
+    name: "Compounded Formulations",
+    description: "Custom pharmaceutical compounding services for specialized patient needs",
+    price: 79.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "specialized-lab",
+    subcategory: "lab-supplies",
+    inStock: true,
+    rating: 4.7,
+    reviews: 189,
+    requiresPrescription: true,
+    strengthOptions: ["Custom Strength"],
+    formOptions: ["Capsule", "Cream", "Solution", "Suppository"],
+    tags: ["compounding", "custom", "specialty"],
+    variationPrices: {
+      minPrice: 79.99,
+      maxPrice: 249.99
+    }
+  },
+  {
+    id: "misc-197",
+    name: "Bulk Pharmaceutical Excipients & Carriers",
+    description: "Lab-grade excipients and carriers for pharmaceutical manufacturing",
+    price: 149.99,
+    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400",
+    category: "specialized-lab",
+    subcategory: "lab-supplies",
+    inStock: true,
+    rating: 4.6,
+    reviews: 123,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["1kg", "5kg", "25kg"],
+    formOptions: ["Powder", "Liquid"],
+    tags: ["excipients", "manufacturing", "bulk", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 149.99,
+      maxPrice: 1299.99
+    }
+  },
+  {
+    id: "misc-198",
+    name: "Medical Devices (Insulin Pens, Inhalers)",
+    description: "Medical devices including insulin pens, inhalers, and delivery systems",
+    price: 54.99,
+    image: "https://images.unsplash.com/photo-1583912086096-8c60d75a53f6?w=400",
+    category: "specialized-lab",
+    subcategory: "medical-devices",
+    inStock: true,
+    rating: 4.8,
+    reviews: 834,
+    requiresPrescription: false,
+    strengthOptions: ["Standard Device"],
+    formOptions: ["Insulin Pen", "Inhaler", "Nebulizer"],
+    tags: ["medical-device", "insulin", "respiratory"],
+    variationPrices: {
+      minPrice: 54.99,
+      maxPrice: 189.99
+    }
+  },
+  {
+    id: "misc-199",
+    name: "Diagnostic Test Kits",
+    description: "Rapid diagnostic test kits including antigen tests, pregnancy tests, and more",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "specialized-lab",
+    subcategory: "diagnostic-tests",
+    inStock: true,
+    rating: 4.7,
+    reviews: 1567,
+    requiresPrescription: false,
+    strengthOptions: ["Single Test", "Multi-Pack"],
+    formOptions: ["Rapid Test", "Lab Test Kit"],
+    tags: ["diagnostic", "testing", "health-screening"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 79.99
+    }
+  },
+  {
+    id: "misc-200",
+    name: "OTC Supportive Items",
+    description: "Over-the-counter wound care, bandages, topical antiseptics, and first aid supplies",
+    price: 8.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "specialized-lab",
+    subcategory: "wound-care",
+    inStock: true,
+    rating: 4.6,
+    reviews: 2341,
+    requiresPrescription: false,
+    strengthOptions: ["Standard Size"],
+    formOptions: ["Bandages", "Antiseptic", "Gauze", "First Aid Kit"],
+    tags: ["otc", "wound-care", "first-aid"],
+    variationPrices: {
+      minPrice: 8.99,
+      maxPrice: 34.99
+    }
   }
 ];

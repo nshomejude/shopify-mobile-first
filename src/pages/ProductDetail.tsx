@@ -27,6 +27,7 @@ import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
 import { useState } from "react";
+import { VariationSwatch } from "@/components/shop/VariationSwatch";
 
 const mockReviews = [
   {
@@ -201,34 +202,42 @@ export const ProductDetail = () => {
 
             {/* Options */}
             {product.strengthOptions && product.strengthOptions.length > 0 && (
-              <div className="mb-6">
-                <label className="text-sm font-semibold mb-3 block">Select Strength</label>
-                <div className="flex flex-wrap gap-2">
+              <div className="mb-6 space-y-3">
+                <div>
+                  <label className="text-sm font-bold mb-2 block">Select Strength</label>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Choose your preferred dosage strength
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-3">
                   {product.strengthOptions.map((strength) => (
-                    <Button
+                    <VariationSwatch
                       key={strength}
-                      variant={selectedStrength === strength ? "default" : "outline"}
+                      value={strength}
+                      isSelected={selectedStrength === strength}
                       onClick={() => setSelectedStrength(strength)}
-                    >
-                      {strength}
-                    </Button>
+                    />
                   ))}
                 </div>
               </div>
             )}
 
             {product.formOptions && product.formOptions.length > 0 && (
-              <div className="mb-6">
-                <label className="text-sm font-semibold mb-3 block">Select Form</label>
-                <div className="flex flex-wrap gap-2">
+              <div className="mb-6 space-y-3">
+                <div>
+                  <label className="text-sm font-bold mb-2 block">Select Form</label>
+                  <p className="text-xs text-muted-foreground mb-3">
+                    Choose your preferred medication form
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-3">
                   {product.formOptions.map((form) => (
-                    <Button
+                    <VariationSwatch
                       key={form}
-                      variant={selectedForm === form ? "default" : "outline"}
+                      value={form}
+                      isSelected={selectedForm === form}
                       onClick={() => setSelectedForm(form)}
-                    >
-                      {form}
-                    </Button>
+                    />
                   ))}
                 </div>
               </div>

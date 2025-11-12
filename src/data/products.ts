@@ -1407,6 +1407,729 @@ export const products: Product[] = [
     },
     demoMode: true
   },
+  {
+    id: "rx-015m",
+    name: "Sufentanil Injection",
+    description: "Ultra-potent synthetic opioid for surgical anesthesia and severe pain",
+    price: 248.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.8,
+    reviews: 67,
+    requiresPrescription: true,
+    strengthOptions: ["50mcg/mL"],
+    formOptions: ["Injectable Solution"],
+    tags: ["opioid", "anesthesia", "surgical", "controlled", "schedule-ii"],
+    variationPrices: {
+      minPrice: 248.99,
+      maxPrice: 348.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Anesthesia adjunct: 1-8 mcg/kg IV. Epidural analgesia: 10-15 mcg with bupivacaine. Highly individualized dosing based on procedure and patient.",
+        administration: [
+          "IV administration by trained anesthesia personnel only",
+          "Epidural use requires specialized training",
+          "Resuscitative equipment must be immediately available",
+          "Monitor respiratory function continuously",
+          "Hospital or surgical setting only"
+        ],
+        specialPopulations: "Reduce dose in elderly, debilitated, or hepatic impairment. Contraindicated in labor and delivery. Not for pediatric use without appropriate monitoring."
+      },
+      sideEffects: {
+        common: ["Respiratory depression", "Muscle rigidity", "Bradycardia", "Hypotension", "Nausea", "Vomiting"],
+        serious: ["Severe respiratory depression/apnea", "Chest wall rigidity", "Severe bradycardia", "Cardiac arrest", "Anaphylaxis", "Addiction/abuse"]
+      },
+      contraindications: [
+        "Known hypersensitivity to sufentanil or fentanyl analogs",
+        "Out-of-hospital or non-monitored settings",
+        "Patients without IV access and monitoring"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, volatile anesthetics, other opioids) - profound respiratory depression",
+        "CYP3A4 inhibitors (ritonavir, ketoconazole) - increased sufentanil levels",
+        "CYP3A4 inducers - may decrease sufentanil effectiveness",
+        "Muscle relaxants - enhanced neuromuscular blockade",
+        "MAO inhibitors - unpredictable potentiation"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015n",
+    name: "Remifentanil",
+    description: "Ultra-short-acting opioid for anesthesia induction and maintenance",
+    price: 178.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.7,
+    reviews: 89,
+    requiresPrescription: true,
+    strengthOptions: ["1mg vial", "2mg vial", "5mg vial"],
+    formOptions: ["Injectable (for reconstitution)"],
+    tags: ["opioid", "anesthesia", "ultra-short-acting", "controlled"],
+    variationPrices: {
+      minPrice: 178.99,
+      maxPrice: 298.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Induction: 0.5-1 mcg/kg/min IV. Maintenance: 0.05-2 mcg/kg/min. ICU sedation: 0.1 mcg/kg/min initially. Highly variable based on procedure and other agents.",
+        administration: [
+          "Continuous IV infusion only",
+          "Must be administered by trained anesthesia personnel",
+          "Requires dedicated IV line or Y-connector near venous cannula",
+          "Resuscitative equipment immediately available",
+          "Hospital/surgical setting only"
+        ],
+        specialPopulations: "Reduce dose in elderly and obese patients (dose on lean body weight). Use caution in hepatic/renal impairment though metabolism is rapid and organ-independent."
+      },
+      sideEffects: {
+        common: ["Muscle rigidity", "Nausea", "Vomiting", "Hypotension", "Bradycardia", "Shivering"],
+        serious: ["Respiratory depression/apnea", "Severe bradycardia", "Asystole", "Chest wall rigidity", "Postoperative respiratory depression (rare)", "Anaphylaxis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to remifentanil or fentanyl analogs",
+        "Epidural or intrathecal administration (contains glycine)",
+        "Use without adequate monitoring and resuscitative equipment"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, volatile anesthetics, other opioids) - profound respiratory depression",
+        "Neuromuscular blocking agents - enhanced neuromuscular blockade",
+        "Hypotensive agents - additive hypotensive effects",
+        "MAO inhibitors - unpredictable effects (use caution)"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015o",
+    name: "Fenoprofen",
+    description: "NSAID for mild to moderate pain and arthritis management",
+    price: 19.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.3,
+    reviews: 234,
+    requiresPrescription: true,
+    strengthOptions: ["200mg", "300mg", "600mg"],
+    formOptions: ["Capsule", "Tablet"],
+    tags: ["nsaid", "arthritis", "pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 19.99,
+      maxPrice: 32.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Rheumatoid arthritis/Osteoarthritis: 300-600mg 3-4 times daily. Mild to moderate pain: 200mg every 4-6 hours as needed. Maximum 3200mg/day.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Swallow capsules/tablets whole with full glass of water",
+          "Use lowest effective dose",
+          "May take 2-3 weeks for full anti-inflammatory effect"
+        ],
+        specialPopulations: "Use caution in elderly due to increased risk of GI and renal adverse effects. Reduce dose in renal impairment. Not recommended in severe renal or hepatic disease."
+      },
+      sideEffects: {
+        common: ["Dyspepsia", "Nausea", "Constipation", "Abdominal pain", "Headache", "Dizziness", "Nervousness"],
+        serious: ["GI bleeding/perforation/ulceration", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe skin reactions", "Anaphylaxis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to fenoprofen or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Pregnancy (third trimester)"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI adverse effects",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Diuretics - reduced diuretic effectiveness",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "Phenobarbital - decreased fenoprofen half-life"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015p",
+    name: "Salsalate",
+    description: "Non-acetylated salicylate with anti-inflammatory and analgesic properties",
+    price: 21.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.4,
+    reviews: 178,
+    requiresPrescription: true,
+    strengthOptions: ["500mg", "750mg"],
+    formOptions: ["Tablet"],
+    tags: ["salicylate", "arthritis", "pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 21.99,
+      maxPrice: 34.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 3000mg daily in divided doses (e.g., 1000mg three times daily or 1500mg twice daily). May adjust based on response. Typical range: 2000-4000mg/day.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Swallow tablets whole or may be broken",
+          "Use lowest effective dose",
+          "Full effect may take several days"
+        ],
+        specialPopulations: "Use caution in elderly (increased GI risk). Reduce dose in renal impairment. Avoid in severe renal or hepatic disease."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dyspepsia", "Tinnitus", "Hearing loss (reversible)", "Dizziness", "Headache"],
+        serious: ["GI bleeding (less common than aspirin)", "Renal toxicity", "Hepatotoxicity", "Salicylism (tinnitus, vertigo, confusion)", "Reye's syndrome (children/teens with viral illness)"]
+      },
+      contraindications: [
+        "Known hypersensitivity to salsalate or salicylates",
+        "History of asthma or allergic reactions to aspirin/NSAIDs",
+        "Children or teenagers with viral infections (Reye's syndrome risk)",
+        "Hemophilia or bleeding disorders"
+      ],
+      drugInteractions: [
+        "Anticoagulants - increased bleeding risk (less than aspirin but still significant)",
+        "Methotrexate - increased methotrexate toxicity",
+        "Oral hypoglycemics - enhanced hypoglycemic effect",
+        "Uricosuric agents (probenecid, sulfinpyrazone) - reduced uricosuric effect",
+        "Corticosteroids - increased risk of GI ulceration",
+        "Alcohol - increased GI toxicity"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015q",
+    name: "Nefopam",
+    description: "Non-opioid centrally acting analgesic for moderate pain",
+    price: 32.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.2,
+    reviews: 145,
+    requiresPrescription: true,
+    strengthOptions: ["30mg", "20mg/mL injection"],
+    formOptions: ["Tablet", "Injection"],
+    tags: ["analgesic", "non-opioid", "pain-relief", "central-acting"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 48.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Oral: 30-90mg three times daily. Usual dose: 30mg three times daily. Injection: 20mg IM/IV every 6 hours. Maximum 120mg/day oral.",
+        administration: [
+          "Take with or after food",
+          "Swallow tablets whole with water",
+          "For injection: IM or slow IV administration",
+          "Start with lower dose and increase gradually if needed"
+        ],
+        specialPopulations: "Use caution in elderly (increased anticholinergic effects). Reduce dose in hepatic/renal impairment. Not recommended in children <12 years."
+      },
+      sideEffects: {
+        common: ["Nausea", "Nervousness", "Dry mouth", "Sweating", "Insomnia", "Tachycardia", "Urinary retention"],
+        serious: ["Seizures (especially at high doses or with predisposing factors)", "Hallucinations", "Confusion", "Convulsions", "Anaphylactic reactions"]
+      },
+      contraindications: [
+        "Known hypersensitivity to nefopam",
+        "Convulsive disorders or history of seizures",
+        "Concurrent MAO inhibitors",
+        "Myocardial infarction",
+        "Urinary retention",
+        "Narrow-angle glaucoma"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - contraindicated (severe adverse reactions)",
+        "Anticholinergic drugs - additive anticholinergic effects",
+        "Sympathomimetic agents - enhanced sympathomimetic effects",
+        "CNS depressants - may enhance sedation",
+        "Tricyclic antidepressants - increased risk of side effects"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015r",
+    name: "Nalbuphine",
+    description: "Mixed agonist-antagonist opioid for moderate to severe pain",
+    price: 44.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.4,
+    reviews: 267,
+    requiresPrescription: true,
+    strengthOptions: ["10mg/mL", "20mg/mL"],
+    formOptions: ["Injection"],
+    tags: ["opioid", "analgesic", "agonist-antagonist", "pain-relief"],
+    variationPrices: {
+      minPrice: 44.99,
+      maxPrice: 64.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 10mg SC/IM/IV every 3-6 hours as needed. Usual range: 10-20mg per dose. Maximum single dose: 20mg. Maximum daily dose: 160mg.",
+        administration: [
+          "May be given subcutaneously, intramuscularly, or intravenously",
+          "For IV administration: inject slowly",
+          "Use lowest effective dose",
+          "May precipitate withdrawal in opioid-dependent patients"
+        ],
+        specialPopulations: "Reduce dose in elderly, hepatic impairment, or renal impairment. Use caution in respiratory disease. Category B in pregnancy but use only if clearly needed."
+      },
+      sideEffects: {
+        common: ["Sedation", "Sweating", "Nausea", "Vomiting", "Dizziness", "Dry mouth", "Headache"],
+        serious: ["Respiratory depression (ceiling effect at higher doses)", "Severe allergic reactions", "CNS effects", "Withdrawal in opioid-dependent patients"]
+      },
+      contraindications: [
+        "Known hypersensitivity to nalbuphine",
+        "Patients physically dependent on opioids (may precipitate withdrawal)"
+      ],
+      drugInteractions: [
+        "Pure opioid agonists - may reduce analgesic effect, precipitate withdrawal",
+        "CNS depressants (benzodiazepines, alcohol) - additive CNS depression",
+        "Anticholinergics - increased risk of constipation, urinary retention"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015s",
+    name: "Parecoxib",
+    description: "Injectable COX-2 selective NSAID for acute postoperative pain",
+    price: 58.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.5,
+    reviews: 189,
+    requiresPrescription: true,
+    strengthOptions: ["40mg vial"],
+    formOptions: ["Injectable (for reconstitution)"],
+    tags: ["nsaid", "cox-2-inhibitor", "postoperative", "pain-relief"],
+    variationPrices: {
+      minPrice: 58.99,
+      maxPrice: 78.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 40mg IV/IM initially, then 20-40mg every 6-12 hours as needed. Maximum 80mg/day. Use for shortest duration (typically ≤3 days).",
+        administration: [
+          "Reconstitute with sterile saline before use",
+          "May be given IV (bolus over min 30 seconds) or IM",
+          "Do not mix with other medications in same syringe/IV line",
+          "Use immediately after reconstitution",
+          "Transition to oral analgesics as soon as possible"
+        ],
+        specialPopulations: "Use caution in elderly (≥65 years). Reduce dose in moderate hepatic impairment (max 40mg/day); contraindicated in severe. Not recommended with severe renal impairment."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Postoperative anemia", "Hypotension", "Hypertension", "Dizziness", "Injection site pain"],
+        serious: ["Cardiovascular thrombotic events", "GI bleeding/perforation", "Renal toxicity", "Hepatotoxicity", "Serious skin reactions", "Hypersensitivity reactions"]
+      },
+      contraindications: [
+        "Known hypersensitivity to parecoxib, valdecoxib, sulfonamides, or NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Active peptic ulcer or GI bleeding",
+        "Severe heart failure",
+        "Inflammatory bowel disease"
+      ],
+      drugInteractions: [
+        "Warfarin, anticoagulants - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Fluconazole - significantly increased parecoxib/valdecoxib levels",
+        "Lithium - increased lithium levels",
+        "Aspirin - increased risk of GI ulceration"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015t",
+    name: "Tenoxicam",
+    description: "Long-acting oxicam NSAID for arthritis and acute pain",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.4,
+    reviews: 156,
+    requiresPrescription: true,
+    strengthOptions: ["20mg"],
+    formOptions: ["Tablet"],
+    tags: ["nsaid", "arthritis", "pain-relief", "anti-inflammatory", "oxicam"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 34.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 20mg once daily. Acute conditions: May use 40mg for first 1-2 days, then 20mg daily. Take as single daily dose, preferably at same time.",
+        administration: [
+          "Take once daily with food or milk",
+          "Swallow tablets whole with water",
+          "May take at any consistent time of day",
+          "Full effect may take several days",
+          "Use lowest effective dose"
+        ],
+        specialPopulations: "Use caution in elderly (increased GI and renal risk). Reduce dose or avoid in renal/hepatic impairment. Not recommended in children."
+      },
+      sideEffects: {
+        common: ["Dyspepsia", "Nausea", "Abdominal pain", "Diarrhea", "Headache", "Dizziness", "Rash"],
+        serious: ["GI bleeding/perforation", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe skin reactions (SJS/TEN)", "Photosensitivity"]
+      },
+      contraindications: [
+        "Known hypersensitivity to tenoxicam or NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Active peptic ulcer or GI bleeding",
+        "Severe heart failure",
+        "Severe hepatic or renal impairment",
+        "Perioperative pain in CABG surgery"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI toxicity",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect, renal impairment",
+        "Diuretics - reduced diuretic effect, nephrotoxicity",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "Cyclosporine - increased nephrotoxicity"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015u",
+    name: "Naproxen + Esomeprazole",
+    description: "Combination NSAID with proton pump inhibitor for reduced GI risk",
+    price: 38.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "combination-analgesics",
+    inStock: true,
+    rating: 4.6,
+    reviews: 445,
+    requiresPrescription: true,
+    strengthOptions: ["375mg/20mg", "500mg/20mg"],
+    formOptions: ["Delayed-Release Tablet"],
+    tags: ["nsaid", "combination", "gastro-protective", "arthritis", "pain-relief"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 54.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: One tablet (375mg/20mg or 500mg/20mg) twice daily. Take at least 30 minutes before meals. Use lowest effective dose for shortest duration.",
+        administration: [
+          "Swallow tablets whole; do not split, crush, or chew",
+          "Take at least 30 minutes before meals",
+          "Take twice daily, approximately 12 hours apart",
+          "If dose missed, take as soon as remembered unless near next dose"
+        ],
+        specialPopulations: "Not recommended in severe hepatic impairment, severe renal impairment (CrCl <30), or elderly with multiple comorbidities. Use caution in patients >75 years."
+      },
+      sideEffects: {
+        common: ["Headache", "Nausea", "Diarrhea", "Dyspepsia", "Abdominal pain", "Dizziness", "Flatulence"],
+        serious: ["GI bleeding/perforation (reduced but not eliminated)", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe skin reactions", "Hypomagnesemia (long-term PPI use)"]
+      },
+      contraindications: [
+        "Known hypersensitivity to naproxen, esomeprazole, or NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Active peptic ulcer",
+        "Severe hepatic impairment",
+        "Pregnancy (third trimester)"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI risk despite PPI",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Methotrexate - increased methotrexate toxicity",
+        "Atazanavir, nelfinavir - esomeprazole reduces levels (avoid combination)",
+        "Clopidogrel - esomeprazole may reduce antiplatelet effect",
+        "Digoxin - increased digoxin levels"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015v",
+    name: "Diclofenac Sodium Topical Gel 1%",
+    description: "Topical NSAID for localized osteoarthritis pain relief",
+    price: 34.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "topical-analgesics",
+    inStock: true,
+    rating: 4.5,
+    reviews: 567,
+    requiresPrescription: true,
+    strengthOptions: ["1%", "3%"],
+    formOptions: ["Topical Gel"],
+    tags: ["nsaid", "topical", "arthritis", "pain-relief", "localized"],
+    variationPrices: {
+      minPrice: 34.99,
+      maxPrice: 48.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Lower extremity (knee, ankle, foot): 4g four times daily (maximum 16g/day per joint). Upper extremity (elbow, wrist, hand): 2g four times daily (maximum 8g/day per joint). Do not exceed 32g total daily.",
+        administration: [
+          "Apply to clean, dry skin over affected joint",
+          "Gently rub into skin until absorbed",
+          "Wash hands after application (unless treating hands)",
+          "Avoid contact with eyes and mucous membranes",
+          "Wait at least 10 minutes before dressing",
+          "Do not apply to open wounds or broken skin",
+          "Avoid showering/bathing for at least 1 hour after application"
+        ],
+        specialPopulations: "Use caution in elderly. Avoid in advanced renal disease. Monitor hepatic enzymes if used long-term. Pregnancy Category C; avoid in third trimester."
+      },
+      sideEffects: {
+        common: ["Application site reactions (dry skin, exfoliation, dermatitis)", "Pruritus", "Rash", "Headache", "GI symptoms (less than oral NSAIDs)"],
+        serious: ["Cardiovascular thrombotic events", "GI bleeding/perforation (lower risk than oral)", "Renal toxicity", "Hepatotoxicity", "Severe skin reactions", "Photosensitivity"]
+      },
+      contraindications: [
+        "Known hypersensitivity to diclofenac or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Application to open wounds or broken skin"
+      ],
+      drugInteractions: [
+        "Aspirin, oral NSAIDs - increased systemic NSAID exposure",
+        "Warfarin, anticoagulants - monitor for increased bleeding (systemic absorption occurs)",
+        "ACE inhibitors, ARBs - potential reduction in antihypertensive effect",
+        "Diuretics - potential reduction in diuretic effect",
+        "Sunscreen/cosmetics on application site - may alter absorption"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015w",
+    name: "Ibuprofen Topical Gel 5%",
+    description: "Topical NSAID for localized musculoskeletal pain and inflammation",
+    price: 28.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "topical-analgesics",
+    inStock: true,
+    rating: 4.4,
+    reviews: 434,
+    requiresPrescription: false,
+    strengthOptions: ["5%", "10%"],
+    formOptions: ["Topical Gel"],
+    tags: ["nsaid", "topical", "pain-relief", "anti-inflammatory", "otc"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 42.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Apply 4-10cm strip of gel to affected area and gently massage until absorbed. Apply 3-4 times daily. Maximum 4 applications per day. Do not use for >7 days without consulting healthcare provider.",
+        administration: [
+          "Apply thin layer to affected area",
+          "Gently massage into skin until absorbed",
+          "Wash hands after application (unless treating hands)",
+          "Avoid contact with eyes, mucous membranes, and open wounds",
+          "Wait until fully dry before covering with clothing",
+          "Do not apply heat, bandages, or occlusive dressings"
+        ],
+        specialPopulations: "Use caution in elderly. Not recommended in children <12 years without medical advice. Avoid in pregnancy, especially third trimester."
+      },
+      sideEffects: {
+        common: ["Application site reactions (irritation, rash, pruritus)", "Dry skin", "Mild burning sensation"],
+        serious: ["Severe allergic reactions (rare)", "Systemic NSAID effects (cardiovascular, GI, renal) with excessive use", "Photosensitivity", "Contact dermatitis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to ibuprofen or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Application to broken skin, eczema, or infected areas",
+        "Third trimester of pregnancy"
+      ],
+      drugInteractions: [
+        "Concomitant oral NSAIDs - increased systemic NSAID exposure",
+        "Anticoagulants - monitor for bleeding if using extensively",
+        "Topical medications on same site - may alter absorption"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015x",
+    name: "Naproxen Extended-Release",
+    description: "Once-daily sustained-release NSAID for chronic arthritis pain",
+    price: 32.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.5,
+    reviews: 512,
+    requiresPrescription: true,
+    strengthOptions: ["375mg", "500mg", "750mg"],
+    formOptions: ["Extended-Release Tablet"],
+    tags: ["nsaid", "extended-release", "arthritis", "pain-relief", "once-daily"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 48.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 750-1000mg once daily. Elderly or low body weight: Start 375mg once daily. Maximum 1500mg/day. Take with food.",
+        administration: [
+          "Swallow tablets whole; do not crush, chew, or split",
+          "Take once daily with food or milk",
+          "Take at same time each day",
+          "Use lowest effective dose",
+          "Full anti-inflammatory effect may take 2-4 weeks"
+        ],
+        specialPopulations: "Elderly: start 375mg daily. Renal impairment: use caution and consider dose reduction. Avoid in advanced renal disease. Not recommended in severe hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Dyspepsia", "Heartburn", "Nausea", "Abdominal pain", "Constipation", "Headache", "Dizziness", "Drowsiness"],
+        serious: ["GI bleeding/perforation/ulceration", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Hypertension", "Heart failure", "Severe skin reactions"]
+      },
+      contraindications: [
+        "Known hypersensitivity to naproxen or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Active peptic ulcer or recent GI bleeding",
+        "Severe heart failure",
+        "Pregnancy (third trimester)"
+      ],
+      drugInteractions: [
+        "Aspirin - reduced cardioprotective effect; increased GI risk",
+        "Other NSAIDs - increased adverse effects",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect, renal impairment",
+        "Diuretics - reduced diuretic effect",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "SSRIs - increased risk of GI bleeding"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015y",
+    name: "Acetaminophen Oral Solution",
+    description: "Liquid analgesic and antipyretic for pain and fever relief",
+    price: 12.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.7,
+    reviews: 892,
+    requiresPrescription: false,
+    strengthOptions: ["160mg/5mL", "325mg/10.15mL"],
+    formOptions: ["Oral Solution", "Oral Suspension"],
+    tags: ["analgesic", "antipyretic", "liquid", "otc", "pediatric"],
+    variationPrices: {
+      minPrice: 12.99,
+      maxPrice: 18.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 650-1000mg every 4-6 hours as needed. Maximum 4000mg/day. Children: 10-15mg/kg every 4-6 hours (max 5 doses/24 hours). Use provided measuring device.",
+        administration: [
+          "Shake well before use",
+          "Use only the measuring device provided",
+          "May take with or without food",
+          "Do not exceed maximum daily dose",
+          "Do not use with other acetaminophen-containing products"
+        ],
+        specialPopulations: "Chronic alcohol use or liver disease: limit to 2000mg/day or avoid. Pediatric dosing by weight: 10-15mg/kg/dose. Elderly: use caution with maximum doses."
+      },
+      sideEffects: {
+        common: ["Generally well-tolerated", "Nausea (uncommon)", "Rash (rare)"],
+        serious: ["Hepatotoxicity with overdose", "Severe skin reactions (SJS/TEN, rare)", "Acute generalized exanthematous pustulosis", "Anaphylaxis (rare)"]
+      },
+      contraindications: [
+        "Known hypersensitivity to acetaminophen",
+        "Severe hepatic impairment or active liver disease"
+      ],
+      drugInteractions: [
+        "Warfarin - may increase INR with chronic high-dose use",
+        "Alcohol - increased risk of hepatotoxicity",
+        "Other acetaminophen-containing products - risk of overdose",
+        "Isoniazid - increased risk of hepatotoxicity",
+        "Carbamazepine, phenytoin - may reduce acetaminophen effectiveness, increase hepatotoxicity risk"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015z",
+    name: "Ibuprofen Oral Suspension",
+    description: "Liquid NSAID for pediatric and adult pain and fever management",
+    price: 14.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.6,
+    reviews: 734,
+    requiresPrescription: false,
+    strengthOptions: ["100mg/5mL"],
+    formOptions: ["Oral Suspension"],
+    tags: ["nsaid", "liquid", "antipyretic", "pediatric", "otc"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 21.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 200-400mg (10-20mL of 100mg/5mL) every 4-6 hours. Maximum 1200mg/day (OTC) or 3200mg/day (prescription). Children ≥6 months: 5-10mg/kg every 6-8 hours. Max 40mg/kg/day.",
+        administration: [
+          "Shake well before each use",
+          "Use only the measuring device provided",
+          "Take with food or milk to reduce GI upset",
+          "Measure dose carefully based on weight (children)",
+          "Do not exceed recommended dose or duration (OTC: max 10 days for pain)"
+        ],
+        specialPopulations: "Children <6 months: consult physician. Elderly: use lowest effective dose. Renal/hepatic impairment: use caution and reduce dose."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dyspepsia", "Heartburn", "Diarrhea", "Constipation", "Headache", "Dizziness"],
+        serious: ["GI bleeding/ulceration", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe allergic reactions", "Asthma exacerbation"]
+      },
+      contraindications: [
+        "Known hypersensitivity to ibuprofen or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Third trimester of pregnancy",
+        "Active peptic ulcer disease"
+      ],
+      drugInteractions: [
+        "Aspirin - reduced cardioprotective effect of aspirin; increased GI risk",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Diuretics - reduced diuretic effect, increased renal toxicity risk",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity"
+      ]
+    },
+    demoMode: true
+  },
 
   // Antidepressants & Mental Health (16-27)
   {

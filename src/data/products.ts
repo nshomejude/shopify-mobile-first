@@ -4022,6 +4022,262 @@ export const products: Product[] = [
       ]
     }
   },
+  {
+    id: "rx-080a",
+    name: "Tadalafil (Cialis)",
+    description: "Long-acting PDE5 inhibitor for erectile dysfunction; provides up to 36-hour performance support",
+    price: 72.00,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "sexual-health",
+    inStock: true,
+    rating: 4.8,
+    reviews: 1089,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg", "20mg"],
+    formOptions: ["Tablet"],
+    tags: ["erectile-dysfunction", "ed", "sexual-health", "performance", "stamina"],
+    variationPrices: {
+      minPrice: 52.00,
+      maxPrice: 88.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "ED (as needed): 10mg before sexual activity. May increase to 20mg or decrease to 5mg. Daily: 2.5-5mg once daily. BPH: 5mg once daily.",
+        administration: [
+          "Can be taken with or without food",
+          "Take at least 30 minutes before sexual activity",
+          "Effective for up to 36 hours",
+          "Daily dosing allows spontaneous activity",
+          "Sexual stimulation required for effect"
+        ],
+        specialPopulations: "Start 5mg in elderly, hepatic/renal impairment. Maximum 10mg with moderate renal impairment. Avoid in severe impairment."
+      },
+      sideEffects: {
+        common: ["Headache", "Dyspepsia", "Back pain", "Myalgia", "Flushing", "Nasal congestion"],
+        serious: ["Priapism", "Sudden vision loss (NAION)", "Sudden hearing loss", "Cardiovascular events", "Severe hypotension"]
+      },
+      contraindications: [
+        "Concurrent nitrates or nitric oxide donors (absolute contraindication)",
+        "Concurrent riociguat",
+        "Severe cardiovascular disorders",
+        "Recent stroke or MI (<90 days)",
+        "Severe hepatic impairment",
+        "Hypotension (<90/50 mmHg)"
+      ],
+      drugInteractions: [
+        "Nitrates - severe hypotension (contraindicated)",
+        "Alpha-blockers - hypotension (use caution)",
+        "CYP3A4 inhibitors (ritonavir, ketoconazole) - increased tadalafil levels",
+        "CYP3A4 inducers (rifampin) - decreased efficacy",
+        "Antihypertensives - additive blood pressure lowering"
+      ]
+    }
+  },
+  {
+    id: "rx-080b",
+    name: "Vardenafil (Levitra)",
+    description: "Fast-acting PDE5 inhibitor for stronger erections and improved endurance",
+    price: 68.00,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "sexual-health",
+    inStock: true,
+    rating: 4.7,
+    reviews: 876,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg", "20mg"],
+    formOptions: ["Tablet", "Orally Disintegrating"],
+    tags: ["erectile-dysfunction", "ed", "sexual-health", "performance"],
+    variationPrices: {
+      minPrice: 58.00,
+      maxPrice: 82.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Start 10mg as needed, 60 minutes before sexual activity. May increase to 20mg or decrease to 5mg. Maximum once daily. Orally disintegrating: 10mg.",
+        administration: [
+          "Take about 60 minutes before sexual activity",
+          "Can be taken with or without food (avoid high-fat meals)",
+          "Effective for 4-5 hours",
+          "Do not take more than once in 24 hours",
+          "Orally disintegrating tablet: place on tongue, do not crush or chew"
+        ],
+        specialPopulations: "Start 5mg in elderly (≥65 years) or moderate hepatic impairment. Contraindicated in severe hepatic/renal impairment."
+      },
+      sideEffects: {
+        common: ["Headache", "Flushing", "Rhinitis", "Dyspepsia", "Dizziness", "Sinusitis"],
+        serious: ["Priapism", "Sudden vision loss (NAION)", "Sudden hearing loss", "QT prolongation", "Cardiovascular events", "Severe hypotension"]
+      },
+      contraindications: [
+        "Concurrent nitrates or nitric oxide donors (absolute contraindication)",
+        "Concurrent riociguat",
+        "QT prolongation or concurrent QT-prolonging drugs",
+        "Severe cardiovascular disorders",
+        "Recent stroke or MI (<6 months)",
+        "Severe hepatic or renal impairment"
+      ],
+      drugInteractions: [
+        "Nitrates - severe hypotension (contraindicated)",
+        "Alpha-blockers - hypotension (use caution, separate timing)",
+        "Class IA or III antiarrhythmics - QT prolongation",
+        "CYP3A4 inhibitors (ritonavir, ketoconazole, erythromycin) - significantly increased levels",
+        "Grapefruit juice - increased vardenafil levels"
+      ]
+    }
+  },
+  {
+    id: "rx-080c",
+    name: "Flibanserin (Addyi)",
+    description: "First FDA-approved treatment for hypoactive sexual desire disorder in premenopausal women",
+    price: 89.00,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "female-sexual-aids",
+    inStock: true,
+    rating: 4.2,
+    reviews: 423,
+    requiresPrescription: true,
+    strengthOptions: ["100mg"],
+    formOptions: ["Tablet"],
+    tags: ["female-libido", "sexual-desire", "women's-health", "HSDD"],
+    variationPrices: {
+      minPrice: 89.00,
+      maxPrice: 89.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "100mg once daily at bedtime. Discontinue after 8 weeks if no improvement.",
+        administration: [
+          "Take once daily at bedtime to reduce risk of hypotension, syncope, CNS depression",
+          "Take consistently at the same time",
+          "Effects may take 4 weeks to notice",
+          "Continue for at least 8 weeks to assess benefit",
+          "Avoid alcohol (increases risk of severe hypotension and syncope)"
+        ],
+        specialPopulations: "Not studied in postmenopausal women or men. Contraindicated in hepatic impairment. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Dizziness", "Somnolence", "Nausea", "Fatigue", "Insomnia", "Dry mouth"],
+        serious: ["Severe hypotension", "Syncope (especially with alcohol)", "CNS depression", "Accidental injury from dizziness/somnolence"]
+      },
+      contraindications: [
+        "Alcohol use (contraindicated)",
+        "Hepatic impairment",
+        "Concurrent CYP3A4 inhibitors (moderate or strong)",
+        "Pregnancy (limited data)"
+      ],
+      drugInteractions: [
+        "Alcohol - severe hypotension and syncope (contraindicated)",
+        "Strong CYP3A4 inhibitors (ketoconazole, ritonavir) - contraindicated",
+        "Moderate CYP3A4 inhibitors (fluconazole, diltiazem) - contraindicated",
+        "CYP2C19 inhibitors - may increase flibanserin levels",
+        "CNS depressants - additive sedation"
+      ]
+    }
+  },
+  {
+    id: "rx-080d",
+    name: "Dapoxetine (Priligy)",
+    description: "Prescription medicine for premature ejaculation; improves control and duration",
+    price: 62.00,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "sexual-health",
+    inStock: true,
+    rating: 4.5,
+    reviews: 634,
+    requiresPrescription: true,
+    strengthOptions: ["30mg", "60mg"],
+    formOptions: ["Tablet"],
+    tags: ["premature-ejaculation", "sexual-health", "performance", "control"],
+    variationPrices: {
+      minPrice: 52.00,
+      maxPrice: 72.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Start 30mg as needed, 1-3 hours before sexual activity. May increase to 60mg if needed and tolerated. Maximum once per 24 hours.",
+        administration: [
+          "Take 1-3 hours before anticipated sexual activity",
+          "Swallow whole with full glass of water",
+          "Can be taken with or without food",
+          "Use only when needed, not for continuous daily use",
+          "Avoid alcohol to reduce risk of syncope"
+        ],
+        specialPopulations: "Not recommended in patients <18 or >64 years. Use caution with renal impairment. Contraindicated in moderate-severe hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dizziness", "Headache", "Diarrhea", "Insomnia", "Fatigue"],
+        serious: ["Syncope", "Orthostatic hypotension", "Serotonin syndrome (with other serotonergic drugs)", "Mood changes", "Seizures (rare)"]
+      },
+      contraindications: [
+        "Heart disease (heart failure, conduction abnormalities, significant ischemic or valvular disease)",
+        "Concurrent MAO inhibitors or within 14 days",
+        "Concurrent SSRIs, SNRIs, or tricyclic antidepressants",
+        "Moderate to severe hepatic impairment",
+        "History of syncope, orthostatic hypotension, or mania/bipolar disorder"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - serotonin syndrome (contraindicated)",
+        "SSRIs/SNRIs/TCAs - serotonin syndrome (contraindicated)",
+        "Strong CYP3A4 inhibitors (ketoconazole, ritonavir) - increased dapoxetine levels",
+        "Moderate CYP3A4 inhibitors (erythromycin, clarithromycin) - use caution",
+        "PDE5 inhibitors - use caution, may increase orthostatic effects"
+      ]
+    }
+  },
+  {
+    id: "rx-080e",
+    name: "Yohimbine HCL",
+    description: "Natural alpha-2 antagonist that supports arousal and erectile response",
+    price: 38.00,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "natural-alternative",
+    subcategory: "libido-enhancers",
+    inStock: true,
+    rating: 4.3,
+    reviews: 789,
+    requiresPrescription: false,
+    strengthOptions: ["2.5mg", "5mg", "10mg"],
+    formOptions: ["Capsule", "Tablet"],
+    tags: ["yohimbine", "natural-enhancement", "libido", "herbal", "performance"],
+    variationPrices: {
+      minPrice: 28.00,
+      maxPrice: 48.00
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "5-10mg, 1-3 times daily. Start with lower dose. For ED: typically 5.4mg three times daily.",
+        administration: [
+          "Take on empty stomach for better absorption",
+          "Start with lower dose to assess tolerance",
+          "Can take 30-60 minutes before activity",
+          "Consistent daily use may be more effective than as-needed",
+          "Avoid late-day dosing due to stimulant effects"
+        ],
+        specialPopulations: "Use caution in cardiovascular disease, anxiety disorders, or renal/hepatic impairment. Not recommended in pregnancy or breastfeeding."
+      },
+      sideEffects: {
+        common: ["Anxiety", "Increased heart rate", "Elevated blood pressure", "Dizziness", "Headache", "Nausea", "Sweating"],
+        serious: ["Hypertensive crisis", "Tachycardia", "Severe anxiety or panic attacks", "Renal failure (rare)", "Seizures (rare)"]
+      },
+      contraindications: [
+        "Renal or hepatic disease",
+        "Cardiovascular disease or hypertension",
+        "Anxiety or panic disorder",
+        "Pregnancy and breastfeeding",
+        "Use with MAO inhibitors"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - hypertensive crisis risk",
+        "Antidepressants (SSRIs, tricyclics) - may increase side effects",
+        "Antihypertensives - may reduce effectiveness or cause unpredictable blood pressure",
+        "Stimulants - additive cardiovascular effects",
+        "Alpha-blockers - opposing effects"
+      ]
+    }
+  },
 
   // II. RESEARCH CHEMICALS (81-120) - Lab license required
   

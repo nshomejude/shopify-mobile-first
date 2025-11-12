@@ -18,8 +18,6 @@ const Index = () => {
       </div>
       <Hero />
       
-      {/* TEST: Polished gradient divider with animation */}
-      
       {/* Subtle Section Divider */}
       <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50" />
       

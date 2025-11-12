@@ -706,6 +706,10 @@ export const products: Product[] = [
     strengthOptions: ["100mg", "300mg", "400mg", "600mg", "800mg"],
     formOptions: ["Capsule", "Tablet"],
     tags: ["neuropathic-pain", "seizures"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 36.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Start 300mg once daily, then 300mg twice daily on day 2, then 300mg three times daily on day 3. Titrate up to 1800-3600mg per day in 3 divided doses.",
@@ -748,6 +752,10 @@ export const products: Product[] = [
     strengthOptions: ["25mg", "50mg", "75mg", "100mg", "150mg", "200mg", "300mg"],
     formOptions: ["Capsule"],
     tags: ["neuropathic-pain", "anxiety", "fibromyalgia"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Neuropathic pain: Start 150mg per day in 2-3 divided doses. May increase to 300mg per day within 1 week. Maximum 600mg per day.",
@@ -792,6 +800,10 @@ export const products: Product[] = [
     strengthOptions: ["20mg", "30mg", "60mg"],
     formOptions: ["Capsule"],
     tags: ["depression", "anxiety", "pain"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Depression/Anxiety: 40-60mg once daily or in 2 divided doses. Chronic pain: Start 30mg once daily, may increase to 60mg. Maximum 120mg per day.",
@@ -839,6 +851,10 @@ export const products: Product[] = [
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
     tags: ["depression", "anxiety", "ssri"],
+    variationPrices: {
+      minPrice: 16.99,
+      maxPrice: 26.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: Start 50mg once daily. May increase by 50mg increments weekly. Maximum 200mg daily.",
@@ -888,6 +904,10 @@ export const products: Product[] = [
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Capsule", "Tablet"],
     tags: ["depression", "anxiety", "ssri"],
+    variationPrices: {
+      minPrice: 15.99,
+      maxPrice: 25.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Depression: Start 20mg once daily in morning. May increase after several weeks. Maximum 80mg per day. OCD: May require 60-80mg.",
@@ -934,6 +954,10 @@ export const products: Product[] = [
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
     tags: ["depression", "anxiety", "ssri"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 23.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: Start 20mg once daily. May increase to 40mg after 1 week. Maximum 40mg per day (20mg for >60 years or poor CYP2C19 metabolizers).",
@@ -982,6 +1006,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "10mg", "20mg"],
     formOptions: ["Tablet"],
     tags: ["depression", "anxiety", "ssri"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 29.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: Start 10mg once daily. May increase to 20mg after 1 week. Maximum 20mg per day.",
@@ -1527,6 +1555,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "10mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["insomnia", "sleep"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 37.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Immediate-release: 5mg (women) or 5-10mg (men) at bedtime. Extended-release: 6.25mg (women) or 6.25-12.5mg (men). Maximum 10-12.5mg/night.",
@@ -1570,6 +1602,10 @@ export const products: Product[] = [
     strengthOptions: ["1mg", "2mg", "3mg"],
     formOptions: ["Tablet"],
     tags: ["insomnia", "sleep"],
+    variationPrices: {
+      minPrice: 26.99,
+      maxPrice: 39.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Zopiclone: 7.5mg at bedtime (3.75mg for elderly). Eszopiclone: Start 1mg, may increase to 2-3mg at bedtime. Maximum 3mg.",
@@ -1616,6 +1652,10 @@ export const products: Product[] = [
     strengthOptions: ["7.5mg", "15mg", "22.5mg", "30mg"],
     formOptions: ["Capsule"],
     tags: ["insomnia", "sleep", "benzodiazepine", "controlled"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 34.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 15-30mg at bedtime. Elderly/debilitated: 7.5mg initially. Maximum 30mg.",
@@ -1664,6 +1704,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "10mg", "20mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["adhd", "stimulant", "controlled"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 64.99
+    },
     medicalInfo: {
       dosage: {
         standard: "ADHD: Start 5mg twice daily before breakfast and lunch. Increase by 5-10mg weekly. Maximum 60mg/day. Extended-release: 18-72mg once daily in morning.",
@@ -1712,6 +1756,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "10mg", "15mg", "20mg", "30mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["adhd", "stimulant", "controlled"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 74.99
+    },
     medicalInfo: {
       dosage: {
         standard: "ADHD (ages 6+): Start 5mg once or twice daily. Increase by 5mg weekly. Maximum 40mg/day. Adults: Start 5mg 1-2 times daily, max 40mg. Extended-release: 20mg once daily.",
@@ -1765,6 +1813,10 @@ export const products: Product[] = [
     strengthOptions: ["20mg", "30mg", "40mg", "50mg", "60mg", "70mg"],
     formOptions: ["Capsule"],
     tags: ["adhd", "stimulant", "controlled"],
+    variationPrices: {
+      minPrice: 54.99,
+      maxPrice: 84.99
+    },
     medicalInfo: {
       dosage: {
         standard: "ADHD (ages 6+): Start 30mg once daily in morning. Titrate by 10-20mg weekly. Maximum 70mg/day. Binge eating disorder: Start 30mg, target 50-70mg/day.",
@@ -2535,6 +2587,10 @@ export const products: Product[] = [
     strengthOptions: ["25mcg", "50mcg", "75mcg", "88mcg", "100mcg", "112mcg", "125mcg", "150mcg"],
     formOptions: ["Tablet"],
     tags: ["thyroid", "hormone"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 23.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: Start 1.6 mcg/kg/day. Typical range 100-125mcg/day. Adjust by 12.5-25mcg every 4-6 weeks based on TSH. Elderly: start 25-50mcg.",
@@ -2579,6 +2635,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
     tags: ["corticosteroid", "inflammation"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 29.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Highly variable based on condition. Anti-inflammatory: 5-60mg/day. Autoimmune: up to 1mg/kg/day. Taper gradually when discontinuing long-term use.",
@@ -2625,6 +2685,10 @@ export const products: Product[] = [
     strengthOptions: ["44mcg", "110mcg", "220mcg"],
     formOptions: ["Inhaler"],
     tags: ["asthma", "copd", "inhaler"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Asthma: Adults: 88-880mcg twice daily. Children 4-11: 88mcg twice daily. COPD: 250-500mcg twice daily. Titrate to lowest effective dose.",
@@ -2667,6 +2731,10 @@ export const products: Product[] = [
     strengthOptions: ["90mcg", "100mcg"],
     formOptions: ["Inhaler"],
     tags: ["asthma", "bronchodilator", "rescue-inhaler"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 32.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Acute bronchospasm: 2 inhalations (180-200mcg) every 4-6 hours as needed. Exercise-induced: 2 inhalations 15-30 minutes before exercise. Maximum: 12 inhalations/24 hours.",
@@ -2751,6 +2819,10 @@ export const products: Product[] = [
     strengthOptions: ["10mg", "20mg", "40mg"],
     formOptions: ["Capsule"],
     tags: ["acid-reflux", "gerd", "ppi"],
+    variationPrices: {
+      minPrice: 11.99,
+      maxPrice: 19.99
+    },
     medicalInfo: {
       dosage: {
         standard: "GERD: 20mg once daily for 4-8 weeks. H. pylori: 20mg twice daily with antibiotics. Erosive esophagitis: 20-40mg once daily. Maximum 40mg/day.",
@@ -2795,6 +2867,10 @@ export const products: Product[] = [
     strengthOptions: ["20mg", "40mg"],
     formOptions: ["Tablet"],
     tags: ["acid-reflux", "gerd", "ppi"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 22.99
+    },
     medicalInfo: {
       dosage: {
         standard: "GERD: 40mg once daily for up to 8 weeks. Erosive esophagitis: 40mg once daily for 8 weeks. Maintenance: 40mg once daily. Zollinger-Ellison: 40mg twice daily.",
@@ -3506,6 +3582,10 @@ export const products: Product[] = [
     strengthOptions: ["1mg", "5mg"],
     formOptions: ["Tablet"],
     tags: ["hair-loss", "prostate", "anti-androgen"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Male pattern baldness: 1mg once daily. Benign prostatic hyperplasia: 5mg once daily. May take 3-6 months to see hair growth effects.",
@@ -3736,7 +3816,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 45,
     requiresLabLicense: true,
-    tags: ["cathinone", "stimulant", "research"]
+    tags: ["cathinone", "stimulant", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 89.99,
+      maxPrice: 139.99
+    }
   },
   {
     id: "rc-082",
@@ -3750,7 +3836,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 38,
     requiresLabLicense: true,
-    tags: ["cathinone", "stimulant", "research"]
+    tags: ["cathinone", "stimulant", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 94.99,
+      maxPrice: 144.99
+    }
   },
   {
     id: "rc-083",
@@ -3764,7 +3856,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 28,
     requiresLabLicense: true,
-    tags: ["stimulant", "pyrrolidine", "research"]
+    tags: ["stimulant", "pyrrolidine", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 124.99,
+      maxPrice: 194.99
+    }
   },
   {
     id: "rc-084",
@@ -3778,7 +3876,13 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 32,
     requiresLabLicense: true,
-    tags: ["empathogen", "mdma-analog", "research"]
+    tags: ["empathogen", "mdma-analog", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 98.99,
+      maxPrice: 154.99
+    }
   },
   {
     id: "rc-085",
@@ -3792,7 +3896,13 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 25,
     requiresLabLicense: true,
-    tags: ["empathogen", "research"]
+    tags: ["empathogen", "research"],
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    variationPrices: {
+      minPrice: 92.99,
+      maxPrice: 144.99
+    }
   },
   {
     id: "rc-086",
@@ -4719,7 +4829,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2.5mg", "10mg"],
     formOptions: ["Tablet"],
-    tags: ["anabolic-steroid", "medical", "controlled"]
+    tags: ["anabolic-steroid", "medical", "controlled"],
+    variationPrices: {
+      minPrice: 128.99,
+      maxPrice: 199.99
+    }
   },
   {
     id: "ster-146",
@@ -4736,7 +4850,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg/ml", "100mg/ml"],
     formOptions: ["Injectable"],
-    tags: ["anabolic-steroid", "medical", "controlled"]
+    tags: ["anabolic-steroid", "medical", "controlled"],
+    variationPrices: {
+      minPrice: 118.99,
+      maxPrice: 184.99
+    }
   },
   {
     id: "pct-147",
@@ -4789,7 +4907,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["250mg", "500mg", "1000mg", "1500mg"],
     formOptions: ["Oil Tincture"],
-    tags: ["cbd", "cannabinoid", "wellness"]
+    tags: ["cbd", "cannabinoid", "wellness"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 74.99
+    }
   },
   {
     id: "thc-152",
@@ -4805,7 +4927,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "25mg"],
     formOptions: ["Capsule", "Oil", "Edible"],
-    tags: ["thc", "medical-cannabis", "cannabinoid"]
+    tags: ["thc", "medical-cannabis", "cannabinoid"],
+    variationPrices: {
+      minPrice: 78.99,
+      maxPrice: 124.99
+    }
   },
   {
     id: "d8-153",
@@ -4821,7 +4947,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["10mg", "25mg", "50mg"],
     formOptions: ["Gummy", "Tincture", "Vape"],
-    tags: ["delta-8", "cannabinoid", "hemp-derived"]
+    tags: ["delta-8", "cannabinoid", "hemp-derived"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 64.99
+    }
   },
   {
     id: "hhc-154",
@@ -4837,7 +4967,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["10mg", "25mg"],
     formOptions: ["Gummy", "Vape"],
-    tags: ["hhc", "cannabinoid", "hemp-derived"]
+    tags: ["hhc", "cannabinoid", "hemp-derived"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 58.99
+    }
   },
   {
     id: "thcv-155",
@@ -4853,7 +4987,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["5mg", "10mg"],
     formOptions: ["Capsule", "Tincture"],
-    tags: ["thcv", "cannabinoid", "appetite-suppressant"]
+    tags: ["thcv", "cannabinoid", "appetite-suppressant"],
+    variationPrices: {
+      minPrice: 52.99,
+      maxPrice: 79.99
+    }
   },
   {
     id: "cbn-156",
@@ -4869,7 +5007,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["10mg", "25mg"],
     formOptions: ["Gummy", "Tincture"],
-    tags: ["cbn", "cannabinoid", "sleep"]
+    tags: ["cbn", "cannabinoid", "sleep"],
+    variationPrices: {
+      minPrice: 44.99,
+      maxPrice: 67.99
+    }
   },
   {
     id: "psi-157",
@@ -4899,7 +5041,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["500mg", "1000mg"],
     formOptions: ["Capsule", "Powder"],
-    tags: ["mushroom", "nootropic", "neuroprotection"]
+    tags: ["mushroom", "nootropic", "neuroprotection"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    }
   },
   {
     id: "kava-159",
@@ -4915,7 +5061,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["250mg", "500mg"],
     formOptions: ["Capsule", "Tincture"],
-    tags: ["herbal", "anxiety", "relaxation"]
+    tags: ["herbal", "anxiety", "relaxation"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    }
   },
   {
     id: "ash-160",
@@ -4931,7 +5081,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["300mg", "500mg"],
     formOptions: ["Capsule"],
-    tags: ["adaptogen", "stress", "anxiety"]
+    tags: ["adaptogen", "stress", "anxiety"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 37.99
+    }
   },
   {
     id: "val-161",
@@ -4947,7 +5101,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["400mg", "600mg"],
     formOptions: ["Capsule", "Tea"],
-    tags: ["herbal", "sleep", "anxiety"]
+    tags: ["herbal", "sleep", "anxiety"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 28.99
+    }
   },
   {
     id: "mel-162",
@@ -4963,7 +5121,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["1mg", "3mg", "5mg", "10mg"],
     formOptions: ["Tablet", "Gummy"],
-    tags: ["melatonin", "sleep", "supplement"]
+    tags: ["melatonin", "sleep", "supplement"],
+    variationPrices: {
+      minPrice: 9.99,
+      maxPrice: 16.99
+    }
   },
 
   // V. VETERINARY & LAB SUPPLIES (163-175)
@@ -4979,7 +5141,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 89,
     requiresLabLicense: true,
-    tags: ["veterinary", "sedative", "analgesic"]
+    tags: ["veterinary", "sedative", "analgesic"],
+    strengthOptions: ["100mg/ml", "200mg/ml"],
+    formOptions: ["Injectable"],
+    variationPrices: {
+      minPrice: 64.99,
+      maxPrice: 99.99
+    }
   },
   {
     id: "ket-164",
@@ -4993,7 +5161,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
     requiresLabLicense: true,
-    tags: ["veterinary", "anesthetic", "dissociative"]
+    tags: ["veterinary", "anesthetic", "dissociative"],
+    strengthOptions: ["50mg/ml", "100mg/ml"],
+    formOptions: ["Injectable"],
+    variationPrices: {
+      minPrice: 89.99,
+      maxPrice: 139.99
+    }
   },
   {
     id: "iver-165",

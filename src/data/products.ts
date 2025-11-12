@@ -784,6 +784,629 @@ export const products: Product[] = [
       ]
     }
   },
+  {
+    id: "rx-015a",
+    name: "Hydromorphone",
+    description: "Potent opioid analgesic for moderate to severe pain",
+    price: 38.99,
+    oldPrice: 74.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.6,
+    reviews: 412,
+    requiresPrescription: true,
+    strengthOptions: ["2mg", "4mg", "8mg", "16mg"],
+    formOptions: ["Tablet", "Extended-Release", "Injection"],
+    tags: ["opioid", "pain-relief", "controlled", "analgesia"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 68.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Immediate-release: 2-4mg every 4-6 hours as needed. Extended-release: 8-64mg once daily. Adjust based on pain severity and tolerance.",
+        administration: [
+          "Take with or without food",
+          "Swallow extended-release tablets whole",
+          "Do not crush, chew, or dissolve",
+          "Use lowest effective dose for shortest duration"
+        ],
+        specialPopulations: "Start low in opioid-naïve patients, elderly, and hepatic/renal impairment. Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Constipation", "Nausea", "Vomiting", "Dizziness", "Drowsiness", "Dry mouth"],
+        serious: ["Respiratory depression", "Addiction/abuse/misuse", "Severe hypotension", "Adrenal insufficiency", "QT prolongation"]
+      },
+      contraindications: [
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma",
+        "Known hypersensitivity to hydromorphone",
+        "Paralytic ileus",
+        "Concurrent MAO inhibitor use"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, alcohol) - profound sedation, respiratory depression",
+        "CYP3A4 inhibitors - increased hydromorphone levels",
+        "Mixed agonist/antagonist opioids - reduced analgesic effect",
+        "Muscle relaxants - enhanced respiratory depression",
+        "Diuretics - reduced diuretic efficacy"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015b",
+    name: "Ketorolac",
+    description: "Potent NSAID for short-term management of moderate to severe pain",
+    price: 24.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.5,
+    reviews: 567,
+    requiresPrescription: true,
+    strengthOptions: ["10mg", "15mg/mL injection", "30mg/mL injection"],
+    formOptions: ["Tablet", "Injection"],
+    tags: ["nsaid", "pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 44.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Oral: 10mg every 4-6 hours. Maximum 40mg/day. IM/IV: 15-30mg every 6 hours. Maximum 5 days total therapy.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Use for shortest duration possible (max 5 days)",
+          "Injection: IM or slow IV bolus over at least 15 seconds",
+          "Not for chronic pain management"
+        ],
+        specialPopulations: "Reduce dose in elderly (≥65 years) and patients <50kg. Contraindicated in advanced renal impairment."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dyspepsia", "GI pain", "Diarrhea", "Headache", "Dizziness"],
+        serious: ["GI bleeding/perforation", "Renal failure", "Hepatotoxicity", "Cardiovascular thrombotic events", "Severe allergic reactions"]
+      },
+      contraindications: [
+        "Active peptic ulcer disease or GI bleeding",
+        "Advanced renal impairment or risk of renal failure",
+        "Cerebrovascular bleeding or hemorrhagic diathesis",
+        "Concurrent aspirin or other NSAIDs",
+        "Labor and delivery",
+        "Breastfeeding"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI adverse effects",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect, renal impairment",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "Probenecid - increased ketorolac levels (contraindicated)"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015c",
+    name: "Meloxicam",
+    description: "Long-acting NSAID for osteoarthritis and rheumatoid arthritis pain",
+    price: 14.99,
+    oldPrice: 28.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.6,
+    reviews: 734,
+    requiresPrescription: true,
+    strengthOptions: ["7.5mg", "15mg"],
+    formOptions: ["Tablet"],
+    tags: ["nsaid", "arthritis", "pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 14.99,
+      maxPrice: 22.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Osteoarthritis: 7.5mg once daily, may increase to 15mg. Rheumatoid arthritis: 15mg once daily. Juvenile arthritis (≥2 years): 0.125mg/kg once daily (max 7.5mg).",
+        administration: [
+          "Take once daily with or without food",
+          "Take at same time each day",
+          "Use lowest effective dose",
+          "May take several days to see full benefit"
+        ],
+        specialPopulations: "Start 7.5mg in elderly, renal/hepatic impairment, or dialysis. Not recommended in severe renal impairment."
+      },
+      sideEffects: {
+        common: ["Diarrhea", "Nausea", "Dyspepsia", "Upper respiratory infection", "Headache", "Dizziness"],
+        serious: ["GI bleeding/ulceration", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe skin reactions", "Hypertension"]
+      },
+      contraindications: [
+        "Known hypersensitivity to meloxicam or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Severe hepatic impairment"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI adverse effects",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Diuretics - reduced diuretic effectiveness",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015d",
+    name: "Tapentadol",
+    description: "Dual-action opioid analgesic for moderate to severe pain",
+    price: 48.99,
+    oldPrice: 92.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.7,
+    reviews: 389,
+    requiresPrescription: true,
+    strengthOptions: ["50mg", "75mg", "100mg", "150mg ER", "200mg ER", "250mg ER"],
+    formOptions: ["Tablet", "Extended-Release"],
+    tags: ["opioid", "pain-relief", "controlled", "dual-action"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 78.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Immediate-release: 50-100mg every 4-6 hours as needed. Maximum 600mg/day (700mg on day 1). Extended-release: 50mg twice daily, titrate by 50mg twice daily every 3 days. Maximum 500mg/day.",
+        administration: [
+          "Take with or without food",
+          "Swallow ER tablets whole; do not crush, chew, or dissolve",
+          "Use lowest effective dose",
+          "Titrate gradually to avoid adverse effects"
+        ],
+        specialPopulations: "Severe hepatic impairment: immediate-release 50mg every 8+ hours (max 3 doses/day); ER not recommended. Moderate renal impairment: max 50mg every 8 hours initially."
+      },
+      sideEffects: {
+        common: ["Nausea", "Dizziness", "Vomiting", "Somnolence", "Constipation", "Headache"],
+        serious: ["Respiratory depression", "Addiction/abuse/misuse", "Serotonin syndrome", "Seizures", "Adrenal insufficiency", "Severe hypotension"]
+      },
+      contraindications: [
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma",
+        "Known hypersensitivity to tapentadol",
+        "Paralytic ileus",
+        "Concurrent or recent (within 14 days) MAO inhibitor use"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - serotonin syndrome (contraindicated)",
+        "Serotonergic drugs (SSRIs, SNRIs, triptans) - serotonin syndrome",
+        "CNS depressants (benzodiazepines, alcohol) - profound sedation, respiratory depression",
+        "Mixed agonist/antagonist opioids - reduced analgesic effect",
+        "Muscle relaxants - enhanced respiratory depression"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015e",
+    name: "Indomethacin",
+    description: "Potent NSAID for gout, arthritis, and acute pain management",
+    price: 16.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.4,
+    reviews: 456,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "75mg SR"],
+    formOptions: ["Capsule", "Sustained-Release"],
+    tags: ["nsaid", "gout", "arthritis", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 16.99,
+      maxPrice: 29.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Acute gout: 50mg three times daily until pain tolerable, then taper. Arthritis: 25-50mg 2-3 times daily. Sustained-release: 75mg once or twice daily. Maximum 200mg/day.",
+        administration: [
+          "Take with food, milk, or antacid to reduce GI upset",
+          "Swallow SR capsules whole",
+          "Use lowest effective dose for shortest duration",
+          "Avoid alcohol"
+        ],
+        specialPopulations: "Avoid in elderly when possible due to high adverse effect risk. Reduce dose in renal/hepatic impairment. Not recommended in pregnancy (especially third trimester)."
+      },
+      sideEffects: {
+        common: ["Headache", "Dizziness", "Dyspepsia", "Nausea", "Abdominal pain", "Diarrhea"],
+        serious: ["GI bleeding/perforation", "Cardiovascular thrombotic events", "Severe hepatotoxicity", "Renal failure", "CNS effects (depression, psychosis)", "Aplastic anemia"]
+      },
+      contraindications: [
+        "Known hypersensitivity to indomethacin or aspirin/NSAIDs",
+        "History of proctitis or recent rectal bleeding (for suppositories)",
+        "Perioperative pain in CABG surgery",
+        "Pregnancy (third trimester)",
+        "Neonates with untreated infection, bleeding, renal impairment"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI toxicity",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Diuretics - reduced diuretic effect, nephrotoxicity",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "Diflunisal - fatal GI hemorrhage reported"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015f",
+    name: "Piroxicam",
+    description: "Long-acting NSAID for chronic arthritis and pain management",
+    price: 18.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.3,
+    reviews: 298,
+    requiresPrescription: true,
+    strengthOptions: ["10mg", "20mg"],
+    formOptions: ["Capsule"],
+    tags: ["nsaid", "arthritis", "pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 26.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 20mg once daily or 10mg twice daily. Some patients may be maintained on 10mg once daily. Maximum 20mg/day.",
+        administration: [
+          "Take once daily with food or milk",
+          "Can be taken at any time of day",
+          "May take 7-12 days to reach steady state",
+          "Use lowest effective dose"
+        ],
+        specialPopulations: "Use caution in elderly (increased risk of serious GI/renal adverse effects). Reduce dose or avoid in renal/hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Dyspepsia", "Nausea", "Diarrhea", "Abdominal pain", "Constipation", "Headache", "Dizziness"],
+        serious: ["GI bleeding/perforation/ulceration", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe skin reactions (including SJS/TEN)", "Anemia"]
+      },
+      contraindications: [
+        "Known hypersensitivity to piroxicam or aspirin/NSAIDs",
+        "History of asthma, urticaria after aspirin/NSAID use",
+        "Perioperative pain in CABG surgery",
+        "Advanced renal disease",
+        "Pregnancy (especially third trimester)"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI adverse effects",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect, renal impairment",
+        "Diuretics - reduced effectiveness, nephrotoxicity",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "Cyclosporine - increased nephrotoxicity"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015g",
+    name: "Ketoprofen",
+    description: "NSAID with analgesic and anti-inflammatory properties",
+    price: 17.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.4,
+    reviews: 312,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "75mg", "100mg", "150mg", "200mg ER"],
+    formOptions: ["Capsule", "Extended-Release"],
+    tags: ["nsaid", "pain-relief", "anti-inflammatory", "arthritis"],
+    variationPrices: {
+      minPrice: 17.99,
+      maxPrice: 32.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Immediate-release: 50mg four times daily or 75mg three times daily. Maximum 300mg/day. Extended-release: 200mg once daily. OTC (lower dose): 12.5mg every 4-6 hours.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Swallow ER capsules whole",
+          "Use lowest effective dose for shortest duration",
+          "Full anti-inflammatory effect may take 2-4 weeks"
+        ],
+        specialPopulations: "Elderly/small patients: start 25mg 3-4 times daily. Mild renal/hepatic impairment: reduce dose by 50%. Severe impairment: maximum 100mg/day."
+      },
+      sideEffects: {
+        common: ["Dyspepsia", "Nausea", "Abdominal pain", "Diarrhea", "Constipation", "Headache", "Dizziness"],
+        serious: ["GI bleeding/perforation", "Cardiovascular thrombotic events", "Renal toxicity", "Hepatotoxicity", "Severe hypersensitivity reactions", "Photosensitivity"]
+      },
+      contraindications: [
+        "Known hypersensitivity to ketoprofen or aspirin/NSAIDs",
+        "History of asthma, urticaria, or allergic reactions to aspirin/NSAIDs",
+        "Perioperative pain in CABG surgery",
+        "Advanced renal disease",
+        "Active peptic ulcer or recent GI bleeding"
+      ],
+      drugInteractions: [
+        "Aspirin, NSAIDs - increased GI adverse effects",
+        "Anticoagulants, antiplatelets - increased bleeding risk",
+        "ACE inhibitors, ARBs - reduced antihypertensive effect",
+        "Diuretics - reduced effectiveness, increased nephrotoxicity",
+        "Lithium - increased lithium levels",
+        "Methotrexate - increased methotrexate toxicity",
+        "Probenecid - increased ketoprofen levels"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015h",
+    name: "Oxymorphone",
+    description: "Potent opioid analgesic for moderate to severe pain",
+    price: 54.99,
+    oldPrice: 104.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.5,
+    reviews: 234,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "7.5mg", "10mg", "15mg", "20mg", "30mg", "40mg ER"],
+    formOptions: ["Tablet", "Extended-Release"],
+    tags: ["opioid", "pain-relief", "controlled", "schedule-ii"],
+    variationPrices: {
+      minPrice: 54.99,
+      maxPrice: 94.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Immediate-release: Opioid-naïve: 5-10mg every 4-6 hours. Extended-release: Start 5mg every 12 hours, titrate every 3-7 days. Use lowest effective dose.",
+        administration: [
+          "Take on empty stomach (at least 1 hour before or 2 hours after food)",
+          "Swallow ER tablets whole; do not crush, chew, or dissolve",
+          "Do not consume alcohol",
+          "Use only for patients already tolerant to opioids (ER formulation)"
+        ],
+        specialPopulations: "Elderly, hepatic impairment: reduce dose. Severe renal impairment: reduce and increase dosing interval. Contraindicated in moderate-severe hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Constipation", "Somnolence", "Dizziness", "Pruritus", "Headache"],
+        serious: ["Respiratory depression", "Addiction/abuse/misuse", "Severe hypotension", "Adrenal insufficiency", "QT prolongation", "Paralytic ileus"]
+      },
+      contraindications: [
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma in unmonitored setting",
+        "Known hypersensitivity to oxymorphone",
+        "Paralytic ileus",
+        "Moderate to severe hepatic impairment",
+        "Concurrent alcohol use"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, alcohol) - profound sedation, respiratory depression",
+        "CYP3A4 inhibitors - may increase oxymorphone effects",
+        "Anticholinergics - risk of urinary retention, paralytic ileus",
+        "Mixed agonist/antagonist opioids - reduced analgesic effect, withdrawal",
+        "Muscle relaxants - enhanced neuromuscular blocking, respiratory depression"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015i",
+    name: "Lidocaine Patch 5%",
+    description: "Topical local anesthetic for localized neuropathic pain relief",
+    price: 42.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "topical-analgesics",
+    inStock: true,
+    rating: 4.7,
+    reviews: 678,
+    requiresPrescription: true,
+    strengthOptions: ["5% (700mg per patch)"],
+    formOptions: ["Transdermal Patch"],
+    tags: ["topical", "neuropathic-pain", "localized-pain", "patch"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 64.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Apply up to 3 patches once daily to intact skin for up to 12 hours within a 24-hour period. Patches may be cut to appropriate size.",
+        administration: [
+          "Apply to clean, dry, intact skin over most painful area",
+          "Remove patch after 12 hours; wait at least 12 hours before applying new patch",
+          "Maximum 3 patches at one time",
+          "Do not apply to broken or irritated skin",
+          "Wash hands after application",
+          "Patches may be cut to fit affected area"
+        ],
+        specialPopulations: "Use with caution in severe hepatic impairment, elderly, or debilitated patients. Limited systemic absorption reduces risk."
+      },
+      sideEffects: {
+        common: ["Application site reactions (erythema, rash, irritation)", "Pruritus", "Dermatitis", "Skin discoloration"],
+        serious: ["Systemic toxicity (rare with intact skin)", "Methemoglobinemia (rare)", "Severe allergic reactions"]
+      },
+      contraindications: [
+        "Known hypersensitivity to lidocaine or amide-type local anesthetics",
+        "Known hypersensitivity to any patch component",
+        "Application to broken or inflamed skin"
+      ],
+      drugInteractions: [
+        "Class I antiarrhythmic drugs (mexiletine, tocainide) - additive cardiac effects",
+        "Other local anesthetics - additive systemic toxicity",
+        "CYP1A2 and CYP3A4 inhibitors - may increase lidocaine levels (minimal concern with topical use)"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015j",
+    name: "Capsaicin 8% Patch",
+    description: "High-concentration topical analgesic for neuropathic pain",
+    price: 128.99,
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+    category: "prescription-drugs",
+    subcategory: "topical-analgesics",
+    inStock: true,
+    rating: 4.4,
+    reviews: 189,
+    requiresPrescription: true,
+    strengthOptions: ["8% (179mg capsaicin per patch)"],
+    formOptions: ["Transdermal Patch"],
+    tags: ["topical", "neuropathic-pain", "capsaicin", "patch"],
+    variationPrices: {
+      minPrice: 128.99,
+      maxPrice: 128.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Apply to most painful area(s) for 60 minutes (feet) or 30 minutes (other areas). May repeat treatment every 3 months as needed. Healthcare provider application recommended.",
+        administration: [
+          "Topical anesthetic (lidocaine) should be applied 60 minutes before patch",
+          "Clean and dry treatment area",
+          "Apply patch(es) to intact, dry skin",
+          "Healthcare professional should wear gloves",
+          "After removal, apply cleansing gel and wipe thoroughly",
+          "Do not touch eyes or mucous membranes"
+        ],
+        specialPopulations: "Use with caution in patients with cardiovascular disease (application-site pain/reactions may cause transient hypertension). Safety in children not established."
+      },
+      sideEffects: {
+        common: ["Application site pain/burning", "Erythema", "Papules", "Pruritus", "Edema", "Dryness"],
+        serious: ["Severe hypertension (rare)", "First-degree burns (with improper use)", "Respiratory distress (if capsaicin becomes aerosolized)"]
+      },
+      contraindications: [
+        "Known hypersensitivity to capsaicin or any patch component"
+      ],
+      drugInteractions: [
+        "Minimal systemic absorption; no significant drug interactions expected",
+        "ACE inhibitors - theoretical increase in cough (minimal concern)"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015k",
+    name: "Paracetamol/Codeine 300/30mg",
+    description: "Combination analgesic for moderate to moderately severe pain",
+    price: 22.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "combination-analgesics",
+    inStock: true,
+    rating: 4.6,
+    reviews: 823,
+    requiresPrescription: true,
+    strengthOptions: ["300mg/15mg", "300mg/30mg", "500mg/30mg"],
+    formOptions: ["Tablet", "Capsule"],
+    tags: ["combination", "pain-relief", "opioid", "controlled"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 34.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 1-2 tablets every 4-6 hours as needed. Maximum 8 tablets (or 4000mg acetaminophen) per day. Use lowest effective dose.",
+        administration: [
+          "Take with or without food",
+          "Do not exceed maximum acetaminophen dose (4000mg/day)",
+          "Swallow tablets whole with water",
+          "Use for shortest duration necessary"
+        ],
+        specialPopulations: "Elderly: start with lower dose. Hepatic/renal impairment: reduce dose and frequency. Avoid in severe hepatic impairment. Codeine is less effective in ~10% of Caucasians (poor CYP2D6 metabolizers)."
+      },
+      sideEffects: {
+        common: ["Constipation", "Nausea", "Dizziness", "Drowsiness", "Lightheadedness", "Shortness of breath"],
+        serious: ["Respiratory depression", "Addiction/abuse", "Hepatotoxicity (from acetaminophen)", "Severe hypotension", "Anaphylaxis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to codeine, acetaminophen, or opioids",
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma",
+        "Paralytic ileus",
+        "Children <12 years (codeine)",
+        "Post-operative pain in children <18 after tonsillectomy/adenoidectomy"
+      ],
+      drugInteractions: [
+        "CNS depressants (benzodiazepines, alcohol) - enhanced sedation, respiratory depression",
+        "Other acetaminophen products - risk of overdose and hepatotoxicity",
+        "CYP2D6 inhibitors (fluoxetine, paroxetine, quinidine) - reduced codeine effectiveness",
+        "Anticholinergics - increased risk of constipation, urinary retention",
+        "MAO inhibitors - increased CNS/respiratory depression"
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-015l",
+    name: "Tramadol/Paracetamol 37.5/325mg",
+    description: "Dual-action combination analgesic for acute moderate pain",
+    price: 26.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "combination-analgesics",
+    inStock: true,
+    rating: 4.5,
+    reviews: 567,
+    requiresPrescription: true,
+    strengthOptions: ["37.5mg/325mg"],
+    formOptions: ["Tablet"],
+    tags: ["combination", "pain-relief", "tramadol", "controlled"],
+    variationPrices: {
+      minPrice: 26.99,
+      maxPrice: 38.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: 2 tablets every 4-6 hours as needed. Maximum 8 tablets (300mg tramadol/2600mg acetaminophen) per day. Maximum 5 days for acute pain.",
+        administration: [
+          "Take with or without food",
+          "Do not exceed 8 tablets per day",
+          "Swallow tablets whole",
+          "Use lowest effective dose for shortest duration"
+        ],
+        specialPopulations: "Elderly (≥65): maximum 2 tablets every 6 hours, not to exceed 4 tablets per day. Renal impairment (CrCl <30): not recommended. Hepatic impairment: not recommended."
+      },
+      sideEffects: {
+        common: ["Constipation", "Somnolence", "Nausea", "Dizziness", "Vomiting", "Pruritus", "Headache"],
+        serious: ["Serotonin syndrome", "Seizures", "Respiratory depression", "Addiction/abuse", "Hepatotoxicity (acetaminophen)", "Anaphylaxis"]
+      },
+      contraindications: [
+        "Known hypersensitivity to tramadol, acetaminophen, or opioids",
+        "Concurrent or recent (within 14 days) MAO inhibitor use",
+        "Severe hepatic impairment",
+        "Severe renal impairment (CrCl <30)",
+        "Children <12 years",
+        "Significant respiratory depression",
+        "Acute or severe bronchial asthma"
+      ],
+      drugInteractions: [
+        "MAO inhibitors - serotonin syndrome, increased risk of seizures (contraindicated)",
+        "Serotonergic drugs (SSRIs, SNRIs, triptans) - serotonin syndrome",
+        "CNS depressants (benzodiazepines, alcohol) - enhanced sedation, respiratory depression",
+        "Other acetaminophen products - hepatotoxicity risk",
+        "Carbamazepine - reduced tramadol effectiveness, increased seizure risk",
+        "CYP2D6 inhibitors (fluoxetine, paroxetine) - altered tramadol metabolism",
+        "Warfarin - increased INR"
+      ]
+    },
+    demoMode: true
+  },
 
   // Antidepressants & Mental Health (16-27)
   {

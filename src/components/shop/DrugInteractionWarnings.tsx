@@ -14,36 +14,60 @@ export const DrugInteractionWarnings = ({ productIds }: DrugInteractionWarningsP
     return null;
   }
 
-  const getSeverityIcon = (severity: "high" | "medium" | "low") => {
+  const getSeverityIcon = (severity: "critical" | "major" | "moderate" | "minor" | "unknown") => {
     switch (severity) {
-      case "high":
-        return <AlertTriangle className="h-4 w-4" />;
-      case "medium":
-        return <AlertCircle className="h-4 w-4" />;
-      case "low":
-        return <Info className="h-4 w-4" />;
+      case "critical":
+        return <AlertTriangle className="h-4 w-4 text-destructive" />;
+      case "major":
+        return <AlertTriangle className="h-4 w-4 text-orange-500" />;
+      case "moderate":
+        return <AlertCircle className="h-4 w-4 text-yellow-500" />;
+      case "minor":
+        return <Info className="h-4 w-4 text-blue-500" />;
+      case "unknown":
+        return <Info className="h-4 w-4 text-muted-foreground" />;
     }
   };
 
-  const getSeverityVariant = (severity: "high" | "medium" | "low") => {
+  const getSeverityVariant = (severity: "critical" | "major" | "moderate" | "minor" | "unknown") => {
     switch (severity) {
-      case "high":
+      case "critical":
         return "destructive";
-      case "medium":
-        return "default";
-      case "low":
+      case "major":
+      case "moderate":
+      case "minor":
+      case "unknown":
         return "default";
     }
   };
 
-  const getSeverityLabel = (severity: "high" | "medium" | "low") => {
+  const getSeverityColor = (severity: "critical" | "major" | "moderate" | "minor" | "unknown") => {
     switch (severity) {
-      case "high":
-        return "Critical Warning";
-      case "medium":
-        return "Caution Required";
-      case "low":
-        return "Notice";
+      case "critical":
+        return "border-destructive/50";
+      case "major":
+        return "border-orange-500/50 bg-orange-500/5";
+      case "moderate":
+        return "border-yellow-500/50 bg-yellow-500/5";
+      case "minor":
+        return "border-blue-500/50 bg-blue-500/5";
+      case "unknown":
+        return "";
+    }
+  };
+
+  const getSeverityLabel = (severity: "critical" | "major" | "moderate" | "minor" | "unknown") => {
+    switch (severity) {
+      case "critical":
+        return "CRITICAL";
+      case "major":
+        return "MAJOR";
+      case "moderate":
+        return "MODERATE";
+      case "minor":
+        return "MINOR";
+      case "unknown":
+        return "UNKNOWN";
     }
   };
 
@@ -58,29 +82,30 @@ export const DrugInteractionWarnings = ({ productIds }: DrugInteractionWarningsP
       
       <ScrollArea className="max-h-[200px]">
         <div className="space-y-2 pr-3">
-          {interactions.map((interaction, index) => (
-            <Alert 
-              key={index} 
-              variant={getSeverityVariant(interaction.severity)}
-              className="text-left"
-            >
-              <div className="flex gap-2">
-                {getSeverityIcon(interaction.severity)}
-                <div className="flex-1 space-y-1">
-                  <AlertTitle className="text-xs font-semibold">
-                    {getSeverityLabel(interaction.severity)}
-                  </AlertTitle>
-                  <AlertDescription className="text-xs">
-                    <span className="font-medium">
-                      {interaction.drug1} + {interaction.drug2}
-                    </span>
-                    <br />
-                    {interaction.interaction}
-                  </AlertDescription>
+          {interactions
+            .sort((a, b) => {
+              const severityOrder = { critical: 0, major: 1, moderate: 2, minor: 3, unknown: 4 };
+              return severityOrder[a.severity] - severityOrder[b.severity];
+            })
+            .map((interaction, index) => (
+              <Alert 
+                key={index} 
+                variant={getSeverityVariant(interaction.severity)}
+                className={`text-left border-2 ${getSeverityColor(interaction.severity)}`}
+              >
+                <div className="flex gap-2">
+                  {getSeverityIcon(interaction.severity)}
+                  <div className="flex-1 space-y-1">
+                    <AlertTitle className="text-xs font-semibold">
+                      {getSeverityLabel(interaction.severity)} - {interaction.drug1} + {interaction.drug2}
+                    </AlertTitle>
+                    <AlertDescription className="text-xs">
+                      {interaction.interaction}
+                    </AlertDescription>
+                  </div>
                 </div>
-              </div>
-            </Alert>
-          ))}
+              </Alert>
+            ))}
         </div>
       </ScrollArea>
 

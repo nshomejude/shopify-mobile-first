@@ -26,9 +26,11 @@ import {
 import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
 import { toast } from "@/hooks/use-toast";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { VariationSwatch } from "@/components/shop/VariationSwatch";
 import { getSwatchStyleForProduct } from "@/utils/swatchStyleMapper";
+import { useDrugInteractions } from "@/hooks/useDrugInteractions";
+import { DrugInteractionWarnings } from "@/components/shop/DrugInteractionWarnings";
 
 const mockReviews = [
   {
@@ -60,12 +62,20 @@ const mockReviews = [
 export const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { addItem } = useCart();
+  const { addItem, items } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [selectedStrength, setSelectedStrength] = useState("");
   const [selectedForm, setSelectedForm] = useState("");
 
   const product = products.find((p) => p.id === id);
+
+  // Get cart product IDs for interaction checking
+  const cartProductIds = useMemo(() => items.map(item => item.productId), [items]);
+  
+  // Check if adding this product would cause interactions
+  const potentialInteractions = useDrugInteractions(
+    product ? [...cartProductIds, product.id] : cartProductIds
+  );
 
   if (!product) {
     return (
@@ -168,6 +178,25 @@ export const ProductDetail = () => {
                   </Link>
                 </AlertDescription>
               </Alert>
+            )}
+
+            {/* Drug Interaction Warning */}
+            {product.medicalInfo && cartProductIds.length > 0 && potentialInteractions.length > 0 && (
+              <Card className="border-2 border-orange-500/50 bg-orange-500/5">
+                <CardContent className="p-4">
+                  <DrugInteractionWarnings 
+                    productIds={[...cartProductIds, product.id]}
+                  />
+                  <div className="mt-3 pt-3 border-t">
+                    <Link to="/drug-interaction-checker">
+                      <Button variant="outline" size="sm" className="w-full">
+                        <Shield className="h-4 w-4 mr-2" />
+                        Check All Interactions
+                      </Button>
+                    </Link>
+                  </div>
+                </CardContent>
+              </Card>
             )}
           </div>
 

@@ -15,6 +15,7 @@ import { PrescriptionUpload } from "./pages/PrescriptionUpload";
 import { LabVerification } from "./pages/LabVerification";
 import { SafetyCompliance } from "./pages/SafetyCompliance";
 import { DrugInformation } from "./pages/DrugInformation";
+import { DrugInteractionChecker } from "./pages/DrugInteractionChecker";
 import { ProductDetail } from "./pages/ProductDetail";
 
 import Contact from "./pages/Contact";
@@ -43,6 +44,7 @@ const App = () => (
             <Route path="/lab-verification" element={<LabVerification />} />
             <Route path="/safety-compliance" element={<SafetyCompliance />} />
             <Route path="/drug-information" element={<DrugInformation />} />
+            <Route path="/drug-interaction-checker" element={<DrugInteractionChecker />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />

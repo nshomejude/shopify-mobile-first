@@ -3005,6 +3005,10 @@ export const products: Product[] = [
     strengthOptions: ["250mg", "500mg"],
     formOptions: ["Tablet", "Suspension"],
     tags: ["antibiotic", "bacterial-infection"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 38.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Respiratory infections: 500mg on day 1, then 250mg daily for days 2-5 (Z-Pak). STIs: 1g single dose. Typical: total 1500mg over 5 days.",
@@ -3047,6 +3051,10 @@ export const products: Product[] = [
     strengthOptions: ["250mg", "500mg", "875mg"],
     formOptions: ["Capsule", "Tablet", "Suspension"],
     tags: ["antibiotic", "bacterial-infection"],
+    variationPrices: {
+      minPrice: 12.99,
+      maxPrice: 21.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 250-500mg every 8 hours or 500-875mg every 12 hours. Children: 20-40 mg/kg/day in divided doses. H. pylori: 1000mg twice daily with other agents.",
@@ -3091,6 +3099,10 @@ export const products: Product[] = [
     strengthOptions: ["250mg", "500mg", "750mg"],
     formOptions: ["Tablet"],
     tags: ["antibiotic", "bacterial-infection"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    },
     medicalInfo: {
       dosage: {
         standard: "UTI (uncomplicated): 250mg twice daily for 3 days. Complicated infections: 500-750mg twice daily for 7-14 days. Adjust for renal impairment.",
@@ -3137,6 +3149,10 @@ export const products: Product[] = [
     strengthOptions: ["50mg", "75mg", "100mg", "150mg"],
     formOptions: ["Capsule", "Tablet"],
     tags: ["antibiotic", "acne"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 30.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Infections: 100mg twice daily on day 1, then 100mg once or twice daily. Acne: 50-100mg once or twice daily. Malaria prophylaxis: 100mg once daily.",
@@ -3184,6 +3200,10 @@ export const products: Product[] = [
     strengthOptions: ["500mg", "1000mg"],
     formOptions: ["Tablet"],
     tags: ["antiviral", "herpes"],
+    variationPrices: {
+      minPrice: 34.99,
+      maxPrice: 52.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Herpes zoster: 1000mg three times daily for 7 days. Genital herpes (initial): 1000mg twice daily for 10 days. Recurrent: 500mg twice daily for 3 days. Suppression: 500-1000mg once daily.",
@@ -3223,6 +3243,10 @@ export const products: Product[] = [
     strengthOptions: ["200mg", "400mg", "800mg"],
     formOptions: ["Tablet", "Capsule"],
     tags: ["antiviral", "herpes"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 36.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Herpes zoster: 800mg 5 times daily for 7-10 days. Genital herpes (initial): 200mg 5 times daily or 400mg 3 times daily for 7-10 days. Suppression: 400mg twice daily.",
@@ -3265,6 +3289,10 @@ export const products: Product[] = [
     strengthOptions: ["10mg", "20mg"],
     formOptions: ["Tablet"],
     tags: ["cancer", "serm", "hormone"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 72.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Breast cancer treatment: 20mg once daily for 5-10 years. Breast cancer risk reduction: 20mg once daily for 5 years.",
@@ -3310,6 +3338,10 @@ export const products: Product[] = [
     strengthOptions: ["2.5mg", "5mg", "7.5mg", "10mg", "15mg"],
     formOptions: ["Tablet", "Injectable"],
     tags: ["autoimmune", "cancer"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 62.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Rheumatoid arthritis: 7.5-15mg once weekly. Psoriasis: 10-25mg once weekly. Cancer: varies widely. Always taken with folic acid supplementation (1mg daily except MTX day).",
@@ -3358,6 +3390,10 @@ export const products: Product[] = [
     strengthOptions: ["200mg"],
     formOptions: ["Tablet"],
     tags: ["autoimmune", "lupus", "arthritis"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 49.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Rheumatoid arthritis/Lupus: 200-400mg daily (≤5 mg/kg actual body weight). Malaria prophylaxis: 400mg weekly. Full effect may take 3-6 months.",
@@ -3403,6 +3439,10 @@ export const products: Product[] = [
     strengthOptions: ["Various formulations"],
     formOptions: ["Tablet"],
     tags: ["contraceptive", "birth-control"],
+    variationPrices: {
+      minPrice: 24.99,
+      maxPrice: 37.99
+    },
     medicalInfo: {
       dosage: {
         standard: "One tablet daily at same time. Monophasic: same hormone dose daily. Phasic: varying doses. Start on first day of period or Sunday after period starts.",
@@ -3452,6 +3492,10 @@ export const products: Product[] = [
     strengthOptions: ["1.5mg"],
     formOptions: ["Tablet"],
     tags: ["emergency-contraception", "birth-control"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 28.99
+    },
     medicalInfo: {
       dosage: {
         standard: "One 1.5mg tablet as soon as possible within 72 hours (3 days) of unprotected intercourse. More effective if taken sooner. Can be used up to 5 days but efficacy decreases.",
@@ -3494,6 +3538,10 @@ export const products: Product[] = [
     strengthOptions: ["50mg/ml", "100mg/ml", "200mg/ml"],
     formOptions: ["Injectable", "Gel", "Patch"],
     tags: ["testosterone", "hrt", "trans-masculine"],
+    variationPrices: {
+      minPrice: 54.99,
+      maxPrice: 84.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Injectable: 50-200mg IM every 1-2 weeks or 75-100mg weekly. Gel: 50-100mg applied daily. Patch: 2-6mg applied nightly. Individualize based on testosterone levels.",
@@ -3539,6 +3587,10 @@ export const products: Product[] = [
     strengthOptions: ["0.5mg", "1mg", "2mg"],
     formOptions: ["Tablet", "Patch", "Injectable", "Gel"],
     tags: ["estrogen", "hrt", "trans-feminine", "menopause"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 62.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Trans HRT: Start 1-2mg oral daily or 0.025-0.1mg patch twice weekly. Titrate to 2-6mg oral or equivalent. Menopause: 0.5-1mg oral daily or 0.025-0.05mg patch twice weekly.",
@@ -3585,6 +3637,10 @@ export const products: Product[] = [
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
     tags: ["anti-androgen", "hrt", "trans-feminine", "diuretic"],
+    variationPrices: {
+      minPrice: 16.99,
+      maxPrice: 26.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Trans HRT: Start 50-100mg once or twice daily. Titrate to 100-200mg daily in 1-2 doses. Hypertension/edema: 25-200mg daily. Monitor potassium.",
@@ -5355,7 +5411,13 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 134,
     requiresLabLicense: true,
-    tags: ["psychedelic", "psilocybin", "research"]
+    strengthOptions: ["10mg", "25mg", "50mg"],
+    formOptions: ["Powder", "Capsule"],
+    tags: ["psychedelic", "psilocybin", "research"],
+    variationPrices: {
+      minPrice: 248.99,
+      maxPrice: 374.99
+    }
   },
   {
     id: "mush-158",
@@ -5513,7 +5575,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["3mg", "6mg", "12mg"],
     formOptions: ["Tablet"],
-    tags: ["antiparasitic"]
+    tags: ["antiparasitic"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 44.99
+    }
   },
 
   // VI. WELLNESS & RECOVERY (166-180)
@@ -5532,7 +5598,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["50mg"],
     formOptions: ["Tablet"],
-    tags: ["addiction", "opioid-antagonist"]
+    tags: ["addiction", "opioid-antagonist"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 72.99
+    }
   },
   {
     id: "meth-167",
@@ -5548,7 +5618,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg"],
     formOptions: ["Tablet", "Liquid"],
-    tags: ["addiction", "opioid", "maintenance"]
+    tags: ["addiction", "opioid", "maintenance"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 58.99
+    }
   },
   {
     id: "bup-168",
@@ -5565,7 +5639,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2mg", "8mg"],
     formOptions: ["Sublingual Film", "Tablet"],
-    tags: ["addiction", "opioid", "maintenance"]
+    tags: ["addiction", "opioid", "maintenance"],
+    variationPrices: {
+      minPrice: 52.99,
+      maxPrice: 79.99
+    }
   },
   {
     id: "nalox-169",
@@ -5581,7 +5659,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["4mg"],
     formOptions: ["Nasal Spray"],
-    tags: ["overdose-reversal", "narcan", "lifesaving"]
+    tags: ["overdose-reversal", "narcan", "lifesaving"],
+    variationPrices: {
+      minPrice: 42.99,
+      maxPrice: 64.99
+    }
   },
   {
     id: "dis-170",
@@ -5597,7 +5679,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["250mg", "500mg"],
     formOptions: ["Tablet"],
-    tags: ["alcohol-dependence", "addiction"]
+    tags: ["alcohol-dependence", "addiction"],
+    variationPrices: {
+      minPrice: 34.99,
+      maxPrice: 52.99
+    }
   },
   {
     id: "nac-171",
@@ -5613,7 +5699,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["600mg", "1000mg"],
     formOptions: ["Capsule"],
-    tags: ["antioxidant", "liver-support", "detox"]
+    tags: ["antioxidant", "liver-support", "detox"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 34.99
+    }
   },
   {
     id: "milk-172",
@@ -5629,7 +5719,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["150mg", "300mg"],
     formOptions: ["Capsule"],
-    tags: ["herbal", "liver-support", "detox"]
+    tags: ["herbal", "liver-support", "detox"],
+    variationPrices: {
+      minPrice: 18.99,
+      maxPrice: 28.99
+    }
   },
   {
     id: "var-173",
@@ -5646,7 +5740,11 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.5mg", "1mg"],
     formOptions: ["Tablet"],
-    tags: ["smoking-cessation", "addiction"]
+    tags: ["smoking-cessation", "addiction"],
+    variationPrices: {
+      minPrice: 64.99,
+      maxPrice: 97.99
+    }
   },
   {
     id: "omega-174",
@@ -5663,7 +5761,11 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["1000mg", "2000mg"],
     formOptions: ["Capsule"],
-    tags: ["omega-3", "heart-health", "anti-inflammatory"]
+    tags: ["omega-3", "heart-health", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 38.99,
+      maxPrice: 58.99
+    }
   },
   {
     id: "coq-175",
@@ -5679,6 +5781,10 @@ export const products: Product[] = [
     requiresPrescription: false,
     strengthOptions: ["100mg", "200mg", "400mg"],
     formOptions: ["Capsule"],
-    tags: ["coq10", "antioxidant", "heart-health"]
+    tags: ["coq10", "antioxidant", "heart-health"],
+    variationPrices: {
+      minPrice: 32.99,
+      maxPrice: 52.99
+    }
   }
 ];

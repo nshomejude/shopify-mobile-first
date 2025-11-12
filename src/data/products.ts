@@ -5941,5 +5941,910 @@ export const products: Product[] = [
       minPrice: 32.99,
       maxPrice: 52.99
     }
+  },
+
+  // ============= II. RESEARCH CHEMICALS & RC CLASSES (176-215) =============
+  // AUTHORIZED LABORATORIES ONLY - LAB LICENSE REQUIRED
+  
+  // Stimulant RCs - Cathinone Class
+  {
+    id: "rc-176",
+    name: "3-MMC (3-Methylmethcathinone)",
+    description: "Research cathinone stimulant compound for authorized lab studies",
+    price: 149.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "stimulant-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 67,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["cathinone", "stimulant-rc", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 149.99,
+      maxPrice: 499.99
+    }
+  },
+  {
+    id: "rc-177",
+    name: "4-MMC (Mephedrone)",
+    description: "Substituted cathinone research compound for laboratory analysis",
+    price: 179.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "stimulant-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 89,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["mephedrone", "cathinone", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 179.99,
+      maxPrice: 599.99
+    }
+  },
+  {
+    id: "rc-178",
+    name: "α-PVP (Alpha-Pyrrolidinopentiophenone)",
+    description: "Synthetic stimulant research compound for authorized facilities",
+    price: 199.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "stimulant-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 52,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["pvp", "stimulant", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 199.99,
+      maxPrice: 549.99
+    }
+  },
+  {
+    id: "rc-179",
+    name: "4-CMC",
+    description: "Cathinone research chemical for laboratory studies",
+    price: 139.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "stimulant-rc",
+    inStock: true,
+    rating: 4.3,
+    reviews: 43,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["cathinone", "stimulant-rc", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 139.99,
+      maxPrice: 429.99
+    }
+  },
+  {
+    id: "rc-180",
+    name: "3-CMC",
+    description: "Chlorinated cathinone analog for research purposes",
+    price: 139.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "stimulant-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 38,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["cathinone", "stimulant-rc", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 139.99,
+      maxPrice: 429.99
+    }
+  },
+
+  // Empathogen RCs
+  {
+    id: "rc-181",
+    name: "Methylone (bk-MDMA)",
+    description: "Empathogen research compound, MDMA analog for lab studies",
+    price: 169.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "empathogens-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 76,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["empathogen", "mdma-analog", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 169.99,
+      maxPrice: 549.99
+    }
+  },
+  {
+    id: "rc-182",
+    name: "Ethylone",
+    description: "Entactogen research compound for authorized laboratory research",
+    price: 159.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "empathogens-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 54,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["empathogen", "entactogen", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 159.99,
+      maxPrice: 479.99
+    }
+  },
+  {
+    id: "rc-183",
+    name: "5-MAPB",
+    description: "Benzofuran entactogen research compound for lab analysis",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "empathogens-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 61,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["benzofuran", "entactogen", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 189.99,
+      maxPrice: 599.99
+    }
+  },
+  {
+    id: "rc-184",
+    name: "6-APB",
+    description: "Benzofuran empathogen compound for research studies",
+    price: 179.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "empathogens-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 72,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["benzofuran", "empathogen", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 179.99,
+      maxPrice: 569.99
+    }
+  },
+
+  // Dissociative RCs
+  {
+    id: "rc-185",
+    name: "2-FDCK (2-Fluorodeschloroketamine)",
+    description: "Fluorinated ketamine analog for dissociative research",
+    price: 199.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "dissociatives-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 84,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["dissociative", "ketamine-analog", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 199.99,
+      maxPrice: 649.99
+    }
+  },
+  {
+    id: "rc-186",
+    name: "MXE (Methoxetamine)",
+    description: "Arylcyclohexylamine dissociative research compound",
+    price: 219.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "dissociatives-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 67,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["dissociative", "arylcyclohexylamine", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 219.99,
+      maxPrice: 669.99
+    }
+  },
+  {
+    id: "rc-187",
+    name: "DCK (Deschloroketamine)",
+    description: "Ketamine analog for authorized dissociative research",
+    price: 209.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "dissociatives-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 71,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder"],
+    tags: ["dissociative", "ketamine-analog", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 209.99,
+      maxPrice: 679.99
+    }
+  },
+
+  // Psychedelic RCs - Phenethylamine Family
+  {
+    id: "rc-188",
+    name: "2C-B (2,5-Dimethoxy-4-bromophenethylamine)",
+    description: "Phenethylamine psychedelic research compound",
+    price: 249.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.7,
+    reviews: 103,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder"],
+    tags: ["psychedelic", "phenethylamine", "2c-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 249.99,
+      maxPrice: 799.99
+    }
+  },
+  {
+    id: "rc-189",
+    name: "2C-I",
+    description: "2C-series phenethylamine for psychedelic research",
+    price: 239.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 87,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder"],
+    tags: ["psychedelic", "phenethylamine", "2c-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 239.99,
+      maxPrice: 769.99
+    }
+  },
+  {
+    id: "rc-190",
+    name: "2C-E",
+    description: "Ethyl-substituted 2C phenethylamine research compound",
+    price: 239.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 79,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder"],
+    tags: ["psychedelic", "phenethylamine", "2c-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 239.99,
+      maxPrice: 769.99
+    }
+  },
+  {
+    id: "rc-191",
+    name: "DOC (2,5-Dimethoxy-4-chloroamphetamine)",
+    description: "Substituted amphetamine psychedelic research compound",
+    price: 259.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 64,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["1mg", "5mg", "10mg", "25mg"],
+    formOptions: ["Powder"],
+    tags: ["psychedelic", "doc-series", "phenethylamine", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 259.99,
+      maxPrice: 849.99
+    }
+  },
+  {
+    id: "rc-192",
+    name: "DOB (2,5-Dimethoxy-4-bromoamphetamine)",
+    description: "Brominated amphetamine psychedelic for lab research",
+    price: 259.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 58,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["1mg", "5mg", "10mg", "25mg"],
+    formOptions: ["Powder"],
+    tags: ["psychedelic", "doc-series", "phenethylamine", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 259.99,
+      maxPrice: 849.99
+    }
+  },
+
+  // NBOMe Series
+  {
+    id: "rc-193",
+    name: "25I-NBOMe",
+    description: "N-benzyl phenethylamine research compound",
+    price: 229.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 92,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mcg", "250mcg", "500mcg", "1mg"],
+    formOptions: ["Powder", "Blotter"],
+    tags: ["nbome", "psychedelic", "phenethylamine", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 229.99,
+      maxPrice: 729.99
+    }
+  },
+  {
+    id: "rc-194",
+    name: "25C-NBOMe",
+    description: "NBOMe-series phenethylamine for research studies",
+    price: 229.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.3,
+    reviews: 74,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mcg", "250mcg", "500mcg", "1mg"],
+    formOptions: ["Powder", "Blotter"],
+    tags: ["nbome", "psychedelic", "phenethylamine", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 229.99,
+      maxPrice: 729.99
+    }
+  },
+
+  // Tryptamine RCs
+  {
+    id: "rc-195",
+    name: "5-MeO-DMT",
+    description: "Methoxy-tryptamine psychedelic research compound",
+    price: 289.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.8,
+    reviews: 118,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["10mg", "25mg", "50mg", "100mg"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["tryptamine", "psychedelic", "5-meo", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 289.99,
+      maxPrice: 949.99
+    }
+  },
+  {
+    id: "rc-196",
+    name: "DMT (N,N-Dimethyltryptamine)",
+    description: "Classic tryptamine compound for authorized research",
+    price: 269.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.7,
+    reviews: 142,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder", "Crystal"],
+    tags: ["tryptamine", "psychedelic", "dmt", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 269.99,
+      maxPrice: 899.99
+    }
+  },
+  {
+    id: "rc-197",
+    name: "4-ACO-DMT",
+    description: "Synthetic tryptamine, psilocin prodrug for lab research",
+    price: 249.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 96,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["25mg", "50mg", "100mg", "250mg"],
+    formOptions: ["Powder"],
+    tags: ["tryptamine", "psychedelic", "4-aco", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 249.99,
+      maxPrice: 799.99
+    }
+  },
+  {
+    id: "rc-198",
+    name: "5-HTP (Research Grade)",
+    description: "Tryptamine precursor compound for laboratory studies",
+    price: 119.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 134,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["1g", "5g", "10g", "25g"],
+    formOptions: ["Powder"],
+    tags: ["tryptamine-precursor", "5-htp", "research-grade", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 119.99,
+      maxPrice: 499.99
+    }
+  },
+
+  // Lysergamide RCs
+  {
+    id: "rc-199",
+    name: "1P-LSD",
+    description: "Lysergamide research analog for authorized laboratory use",
+    price: 299.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.7,
+    reviews: 127,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mcg", "250mcg", "500mcg"],
+    formOptions: ["Blotter", "Powder"],
+    tags: ["lysergamide", "lsd-analog", "psychedelic", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 299.99,
+      maxPrice: 999.99
+    }
+  },
+  {
+    id: "rc-200",
+    name: "AL-LAD",
+    description: "Allyl-lysergamide research compound for lab studies",
+    price: 319.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 89,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mcg", "250mcg", "500mcg"],
+    formOptions: ["Blotter", "Powder"],
+    tags: ["lysergamide", "lsd-analog", "psychedelic", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 319.99,
+      maxPrice: 1049.99
+    }
+  },
+
+  // Synthetic Cannabinoid RCs
+  {
+    id: "rc-201",
+    name: "JWH-018",
+    description: "Classic synthetic cannabinoid research compound",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 112,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-cannabinoid", "jwh-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 189.99,
+      maxPrice: 619.99
+    }
+  },
+  {
+    id: "rc-202",
+    name: "AB-FUBINACA",
+    description: "Synthetic cannabinoid for cannabinoid receptor research",
+    price: 219.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.3,
+    reviews: 78,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-cannabinoid", "fubinaca", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 219.99,
+      maxPrice: 699.99
+    }
+  },
+  {
+    id: "rc-203",
+    name: "AM-2201",
+    description: "Aminoalkylindole synthetic cannabinoid research compound",
+    price: 199.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 94,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-cannabinoid", "am-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 199.99,
+      maxPrice: 639.99
+    }
+  },
+  {
+    id: "rc-204",
+    name: "5F-ADB",
+    description: "Indazole-based synthetic cannabinoid for lab analysis",
+    price: 229.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.3,
+    reviews: 67,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-cannabinoid", "5f-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 229.99,
+      maxPrice: 729.99
+    }
+  },
+  {
+    id: "rc-205",
+    name: "5-Cl-ADB",
+    description: "Chlorinated indazole cannabinoid research compound",
+    price: 239.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.2,
+    reviews: 54,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-cannabinoid", "indazole", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 239.99,
+      maxPrice: 769.99
+    }
+  },
+  {
+    id: "rc-206",
+    name: "FUB-AMB",
+    description: "Fluorobenzyl synthetic cannabinoid for research",
+    price: 229.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.3,
+    reviews: 61,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg", "500mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-cannabinoid", "fub-series", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 229.99,
+      maxPrice: 729.99
+    }
+  },
+  {
+    id: "rc-207",
+    name: "THC-O Acetate (Research Grade)",
+    description: "Synthetic THC analog for cannabinoid research studies",
+    price: 249.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "cannabinoid-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 108,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mg", "250mg", "500mg", "1g"],
+    formOptions: ["Oil", "Powder"],
+    tags: ["synthetic-cannabinoid", "thc-analog", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 249.99,
+      maxPrice: 849.99
+    }
+  },
+
+  // Benzodiazepine Analogs (RC)
+  {
+    id: "rc-208",
+    name: "Etizolam",
+    description: "Thienodiazepine research compound for lab studies",
+    price: 149.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "benzodiazepine-rc",
+    inStock: true,
+    rating: 4.6,
+    reviews: 157,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["0.5mg", "1mg", "2mg"],
+    formOptions: ["Tablet", "Powder"],
+    tags: ["thienodiazepine", "benzo-analog", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 149.99,
+      maxPrice: 449.99
+    }
+  },
+  {
+    id: "rc-209",
+    name: "Flualprazolam",
+    description: "Fluorinated benzodiazepine analog for research",
+    price: 179.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "benzodiazepine-rc",
+    inStock: true,
+    rating: 4.4,
+    reviews: 93,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["0.25mg", "0.5mg", "1mg"],
+    formOptions: ["Tablet", "Powder"],
+    tags: ["benzodiazepine-analog", "fluorinated", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 179.99,
+      maxPrice: 549.99
+    }
+  },
+  {
+    id: "rc-210",
+    name: "Clonazolam",
+    description: "Potent benzodiazepine analog research compound",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "benzodiazepine-rc",
+    inStock: true,
+    rating: 4.5,
+    reviews: 86,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["0.125mg", "0.25mg", "0.5mg"],
+    formOptions: ["Tablet", "Powder"],
+    tags: ["benzodiazepine-analog", "high-potency", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 189.99,
+      maxPrice: 579.99
+    }
+  },
+
+  // Synthetic Opioid RCs
+  {
+    id: "rc-211",
+    name: "U-47700",
+    description: "Synthetic opioid research compound (historical RC)",
+    price: 259.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "synthetic-opioid-rc",
+    inStock: false,
+    rating: 4.2,
+    reviews: 47,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-opioid", "u-series", "lab-only", "restricted"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 259.99,
+      maxPrice: 849.99
+    }
+  },
+  {
+    id: "rc-212",
+    name: "AH-7921",
+    description: "Synthetic opioid research compound for lab analysis",
+    price: 269.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "synthetic-opioid-rc",
+    inStock: false,
+    rating: 4.1,
+    reviews: 38,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-opioid", "ah-series", "lab-only", "restricted"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 269.99,
+      maxPrice: 879.99
+    }
+  },
+  {
+    id: "rc-213",
+    name: "MT-45",
+    description: "Synthetic opioid research compound (research interest)",
+    price: 279.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "synthetic-opioid-rc",
+    inStock: false,
+    rating: 4.0,
+    reviews: 31,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["50mg", "100mg", "250mg"],
+    formOptions: ["Powder"],
+    tags: ["synthetic-opioid", "mt-series", "lab-only", "restricted"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 279.99,
+      maxPrice: 919.99
+    }
+  },
+
+  // Research Peptides
+  {
+    id: "rc-214",
+    name: "Research Peptides (Lab-Grade)",
+    description: "Generic lab-grade peptides for authorized research studies",
+    price: 299.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "research-peptides",
+    inStock: true,
+    rating: 4.7,
+    reviews: 214,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["1mg", "5mg", "10mg", "25mg"],
+    formOptions: ["Lyophilized Powder", "Solution"],
+    tags: ["peptides", "research-grade", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 299.99,
+      maxPrice: 1299.99
+    }
+  },
+  {
+    id: "rc-215",
+    name: "NBOMe Family (Mixed Analogs)",
+    description: "Various NBOMe phenethylamine research analogs",
+    price: 219.99,
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
+    category: "research-chemicals",
+    subcategory: "psychedelics-rc",
+    inStock: true,
+    rating: 4.3,
+    reviews: 68,
+    requiresPrescription: false,
+    requiresLabLicense: true,
+    strengthOptions: ["100mcg", "250mcg", "500mcg"],
+    formOptions: ["Blotter", "Powder"],
+    tags: ["nbome", "phenethylamine", "psychedelic", "lab-only"],
+    swatchStyle: "lab-flask",
+    variationPrices: {
+      minPrice: 219.99,
+      maxPrice: 699.99
+    }
   }
 ];

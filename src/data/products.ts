@@ -42,6 +42,10 @@ export interface Product {
   tags?: string[];
   medicalInfo?: MedicalInfo;
   swatchStyle?: SwatchStyle;
+  variationPrices?: {
+    minPrice: number;
+    maxPrice: number;
+  };
 }
 
 export const products: Product[] = [
@@ -63,6 +67,10 @@ export const products: Product[] = [
     strengthOptions: ["325mg", "500mg", "650mg"],
     formOptions: ["Tablet", "Capsule", "Liquid"],
     tags: ["pain-relief", "fever"],
+    variationPrices: {
+      minPrice: 4.99,
+      maxPrice: 9.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 325-650mg every 4-6 hours as needed. Maximum 4000mg per day.",
@@ -106,6 +114,10 @@ export const products: Product[] = [
     strengthOptions: ["200mg", "400mg", "600mg", "800mg"],
     formOptions: ["Tablet", "Capsule"],
     tags: ["pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 6.99,
+      maxPrice: 12.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 200-400mg every 4-6 hours. Maximum 1200mg daily (OTC) or 3200mg daily (prescription).",
@@ -153,6 +165,10 @@ export const products: Product[] = [
     strengthOptions: ["220mg", "375mg", "500mg"],
     formOptions: ["Tablet"],
     tags: ["pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 8.99,
+      maxPrice: 14.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 220-550mg twice daily. Maximum 1500mg per day.",
@@ -201,6 +217,10 @@ export const products: Product[] = [
     strengthOptions: ["50mg", "75mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["pain-relief", "anti-inflammatory"],
+    variationPrices: {
+      minPrice: 11.99,
+      maxPrice: 19.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 50mg 2-3 times daily or 75mg twice daily. Maximum 150mg per day.",
@@ -247,6 +267,10 @@ export const products: Product[] = [
     strengthOptions: ["81mg", "325mg", "500mg"],
     formOptions: ["Tablet", "Chewable"],
     tags: ["pain-relief", "heart-health"],
+    variationPrices: {
+      minPrice: 5.99,
+      maxPrice: 10.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Pain: 325-650mg every 4 hours. Cardioprotection: 81-325mg once daily.",
@@ -293,6 +317,10 @@ export const products: Product[] = [
     strengthOptions: ["50mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["pain-relief", "opioid", "controlled"],
+    variationPrices: {
+      minPrice: 28.99,
+      maxPrice: 42.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 50-100mg every 4-6 hours as needed. Maximum 400mg per day. Start with lowest dose.",
@@ -340,6 +368,10 @@ export const products: Product[] = [
     strengthOptions: ["15mg", "30mg", "60mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release", "Injectable"],
     tags: ["pain-relief", "opioid", "controlled"],
+    variationPrices: {
+      minPrice: 45.99,
+      maxPrice: 74.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: Immediate-release: 10-30mg every 4 hours. Extended-release: Start 15mg every 12 hours, titrate carefully.",
@@ -386,6 +418,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "10mg", "15mg", "20mg", "30mg"],
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["pain-relief", "opioid", "controlled"],
+    variationPrices: {
+      minPrice: 52.99,
+      maxPrice: 84.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: Immediate-release: 5-15mg every 4-6 hours. Extended-release: 10mg every 12 hours, titrate as needed.",
@@ -431,6 +467,10 @@ export const products: Product[] = [
     strengthOptions: ["5mg", "7.5mg", "10mg"],
     formOptions: ["Tablet", "Capsule"],
     tags: ["pain-relief", "opioid", "controlled"],
+    variationPrices: {
+      minPrice: 48.99,
+      maxPrice: 74.99
+    },
     medicalInfo: {
       dosage: {
         standard: "Adults: 5-10mg every 4-6 hours as needed. Maximum depends on formulation (often combined with acetaminophen).",
@@ -4466,7 +4506,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 234,
     requiresLabLicense: false,
-    tags: ["peptide", "nootropic", "anxiety"]
+    tags: ["peptide", "nootropic", "anxiety"],
+    strengthOptions: ["300mcg", "600mcg"],
+    formOptions: ["Nasal Spray", "Solution"],
+    variationPrices: {
+      minPrice: 78.99,
+      maxPrice: 124.99
+    }
   },
   {
     id: "noot-134",
@@ -4480,7 +4526,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 267,
     requiresLabLicense: false,
-    tags: ["peptide", "nootropic", "cognitive"]
+    tags: ["peptide", "nootropic", "cognitive"],
+    strengthOptions: ["600mcg", "1200mcg"],
+    formOptions: ["Nasal Spray", "Solution"],
+    variationPrices: {
+      minPrice: 82.99,
+      maxPrice: 129.99
+    }
   },
 
   // SARMs & Peptides (135-150)
@@ -4497,7 +4549,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 623,
     requiresLabLicense: false,
-    tags: ["gh-secretagogue", "muscle-growth", "recovery"]
+    tags: ["gh-secretagogue", "muscle-growth", "recovery"],
+    strengthOptions: ["10mg", "25mg"],
+    formOptions: ["Capsule", "Powder"],
+    variationPrices: {
+      minPrice: 94.99,
+      maxPrice: 149.99
+    }
   },
   {
     id: "sarm-136",
@@ -4512,7 +4570,13 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 789,
     requiresLabLicense: false,
-    tags: ["sarm", "muscle-building", "strength"]
+    tags: ["sarm", "muscle-building", "strength"],
+    strengthOptions: ["5mg", "10mg", "20mg"],
+    formOptions: ["Capsule", "Powder"],
+    variationPrices: {
+      minPrice: 108.99,
+      maxPrice: 169.99
+    }
   },
   {
     id: "sarm-137",
@@ -4527,7 +4591,13 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 734,
     requiresLabLicense: false,
-    tags: ["sarm", "muscle-mass", "strength"]
+    tags: ["sarm", "muscle-mass", "strength"],
+    strengthOptions: ["5mg", "10mg"],
+    formOptions: ["Capsule", "Powder"],
+    variationPrices: {
+      minPrice: 98.99,
+      maxPrice: 154.99
+    }
   },
   {
     id: "sarm-138",

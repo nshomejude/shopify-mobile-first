@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Star, ShoppingCart } from "lucide-react";
-import { useCart } from "@/contexts/CartContext";
-import { toast } from "@/hooks/use-toast";
+import { Star, Settings } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { formatPriceRange } from "@/lib/utils";
 
 interface ProductCardProps {
   id: string;
@@ -14,6 +13,8 @@ interface ProductCardProps {
   rating: number;
   reviews: number;
   inStock: boolean;
+  maxPrice?: number;
+  hasVariations?: boolean;
 }
 
 export const ProductCard = ({ 
@@ -24,24 +25,16 @@ export const ProductCard = ({
   oldPrice, 
   rating, 
   reviews,
-  inStock 
+  inStock,
+  maxPrice,
+  hasVariations = true
 }: ProductCardProps) => {
-  const { addItem } = useCart();
   const navigate = useNavigate();
 
-  const handleAddToCart = () => {
-    addItem({
-      id: parseInt(id.split("-")[1]) || 1,
-      productId: id,
-      name,
-      price,
-      image,
-    });
-    toast({
-      title: "Added to cart",
-      description: `${name} has been added to your cart.`,
-    });
+  const handleSelectOptions = () => {
+    navigate(`/product/${id}`);
   };
+
   return (
     <Card className="group overflow-hidden bg-card hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
       <div 
@@ -87,9 +80,9 @@ export const ProductCard = ({
           <span className="text-xs text-muted-foreground ml-1">({reviews})</span>
         </div>
         
-        <div className="flex items-center gap-2 mb-3">
+        <div className="flex flex-col gap-1 mb-3">
           <span className="text-lg md:text-xl font-bold text-primary">
-            ${price.toFixed(2)}
+            {formatPriceRange(price, maxPrice)}
           </span>
           {oldPrice && (
             <span className="text-sm text-muted-foreground line-through">
@@ -102,10 +95,10 @@ export const ProductCard = ({
           className="w-full touch-manipulation active:scale-95 transition-transform" 
           size="sm"
           disabled={!inStock}
-          onClick={handleAddToCart}
+          onClick={handleSelectOptions}
         >
-          <ShoppingCart className="w-4 h-4 mr-2" />
-          Add to Cart
+          <Settings className="w-4 h-4 mr-2" />
+          Select Options
         </Button>
       </div>
     </Card>

@@ -41,11 +41,13 @@ export const FeaturedProducts = () => {
                 id={product.id}
                 image={product.image}
                 name={product.name}
-                price={product.price}
+                price={product.variationPrices?.minPrice || product.price}
                 oldPrice={product.oldPrice}
                 rating={product.rating}
                 reviews={product.reviews}
                 inStock={product.inStock}
+                maxPrice={product.variationPrices?.maxPrice}
+                hasVariations={!!(product.strengthOptions || product.formOptions)}
               />
             </div>
           ))}

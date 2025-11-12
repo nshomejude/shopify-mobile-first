@@ -7,15 +7,13 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { Star, ShoppingCart, Heart, Eye, Search } from "lucide-react";
+import { Star, Settings, Heart, Eye, Search } from "lucide-react";
 import { products, Product } from "@/data/products";
-import { useCart } from "@/contexts/CartContext";
-import { toast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
 import { useProductFilters } from "@/hooks/useProductFilters";
+import { formatPriceRange } from "@/lib/utils";
 
 const ShopLarge = () => {
-  const { addItem } = useCart();
   const navigate = useNavigate();
   
   const {
@@ -28,20 +26,6 @@ const ShopLarge = () => {
     resultCount,
     totalCount
   } = useProductFilters(products);
-
-  const handleAddToCart = (product: Product) => {
-    addItem({
-      id: parseInt(product.id.split("-")[1]),
-      productId: product.id,
-      name: product.name,
-      price: product.price,
-      image: product.image,
-    });
-    toast({
-      title: "Added to cart",
-      description: `${product.name} has been added to your cart.`,
-    });
-  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -163,7 +147,7 @@ const ShopLarge = () => {
                 
                 <div className="flex items-baseline gap-2 mb-4">
                   <span className="text-2xl font-bold text-primary">
-                    ${product.price.toFixed(2)}
+                    {formatPriceRange(product.variationPrices?.minPrice || product.price, product.variationPrices?.maxPrice)}
                   </span>
                   {product.oldPrice && (
                     <span className="text-base text-muted-foreground line-through">
@@ -175,10 +159,10 @@ const ShopLarge = () => {
                 <Button 
                   className="w-full h-12 text-base touch-manipulation active:scale-95 transition-transform" 
                   disabled={!product.inStock}
-                  onClick={() => handleAddToCart(product)}
+                  onClick={() => navigate(`/product/${product.id}`)}
                 >
-                  <ShoppingCart className="w-5 h-5 mr-2" />
-                  {product.inStock ? "Add to Cart" : "Out of Stock"}
+                  <Settings className="w-5 h-5 mr-2" />
+                  {product.inStock ? "Select Options" : "Out of Stock"}
                 </Button>
               </div>
             </Card>

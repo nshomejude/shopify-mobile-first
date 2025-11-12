@@ -7,15 +7,13 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { Star, ShoppingCart, Info, Package, Search } from "lucide-react";
+import { Star, Settings, Info, Package, Search } from "lucide-react";
 import { products, Product } from "@/data/products";
-import { useCart } from "@/contexts/CartContext";
-import { toast } from "@/hooks/use-toast";
 import { useNavigate } from "react-router-dom";
 import { useProductFilters } from "@/hooks/useProductFilters";
+import { formatPriceRange } from "@/lib/utils";
 
 const ShopList = () => {
-  const { addItem } = useCart();
   const navigate = useNavigate();
   
   const {
@@ -28,20 +26,6 @@ const ShopList = () => {
     resultCount,
     totalCount
   } = useProductFilters(products);
-
-  const handleAddToCart = (product: Product) => {
-    addItem({
-      id: parseInt(product.id.split("-")[1]),
-      productId: product.id,
-      name: product.name,
-      price: product.price,
-      image: product.image,
-    });
-    toast({
-      title: "Added to cart",
-      description: `${product.name} has been added to your cart.`,
-    });
-  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -140,7 +124,7 @@ const ShopList = () => {
                         </div>
                         <div className="text-right">
                           <div className="text-2xl font-bold text-primary mb-1">
-                            ${product.price.toFixed(2)}
+                            {formatPriceRange(product.variationPrices?.minPrice || product.price, product.variationPrices?.maxPrice)}
                           </div>
                           {product.oldPrice && (
                             <div className="text-sm text-muted-foreground line-through">
@@ -198,10 +182,10 @@ const ShopList = () => {
                         <Button 
                           className="w-full sm:w-auto touch-manipulation active:scale-95 transition-transform"
                           disabled={!product.inStock}
-                          onClick={() => handleAddToCart(product)}
+                          onClick={() => navigate(`/product/${product.id}`)}
                         >
-                          <ShoppingCart className="w-4 h-4 mr-2" />
-                          Add to Cart
+                          <Settings className="w-4 h-4 mr-2" />
+                          Select Options
                         </Button>
                       </div>
                     </div>

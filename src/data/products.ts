@@ -5064,6 +5064,35 @@ export const products: Product[] = [
     variationPrices: {
       minPrice: 108.99,
       maxPrice: 169.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Research dosages typically range from 10-30mg daily for 8-12 weeks. Start with 10mg/day to assess tolerance.",
+        administration: [
+          "Take once daily in the morning with food",
+          "Cycle 8-12 weeks followed by 4-8 week break",
+          "Post-cycle therapy (PCT) recommended after cycle",
+          "Do not exceed recommended dosages"
+        ],
+        specialPopulations: "Not approved for human consumption. For research purposes only. Not recommended for individuals under 21."
+      },
+      sideEffects: {
+        common: ["Testosterone suppression", "Headaches", "Nausea", "Fatigue", "Mood changes"],
+        serious: ["Severe testosterone suppression", "Liver toxicity (elevated liver enzymes)", "Cardiovascular strain", "Aggressive behavior", "Drug-induced liver injury documented in case reports"]
+      },
+      contraindications: [
+        "Not approved for human use",
+        "Individuals with liver disease",
+        "Cardiovascular disease",
+        "Hormone-sensitive conditions",
+        "Pregnancy and breastfeeding"
+      ],
+      drugInteractions: [
+        "Hepatotoxic substances - increased liver damage risk",
+        "Testosterone replacement therapy - additive suppressive effects",
+        "Aromatase inhibitors - may interact with hormonal pathways",
+        "CYP450 enzyme substrates - potential interactions"
+      ]
     }
   },
   {
@@ -5085,6 +5114,35 @@ export const products: Product[] = [
     variationPrices: {
       minPrice: 98.99,
       maxPrice: 154.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Research protocols typically use 5-10mg daily for 8-12 weeks. Clinical trials used 1mg daily. Start with lower dose.",
+        administration: [
+          "Take once daily with or without food",
+          "Typical cycle length: 8-12 weeks",
+          "Post-cycle therapy recommended",
+          "Allow 4-8 week washout between cycles"
+        ],
+        specialPopulations: "Not approved for human consumption. Research use only. Not for individuals under 21, pregnant/breastfeeding women."
+      },
+      sideEffects: {
+        common: ["Testosterone suppression (dose-dependent)", "Headache", "Nausea", "Fatigue", "Decreased libido"],
+        serious: ["Hepatotoxicity", "Severe hormonal suppression", "Drug-induced liver injury (documented cases)", "Cholestatic liver injury", "Potential impact on lipid profile"]
+      },
+      contraindications: [
+        "Not FDA-approved for human use",
+        "Liver disease or impairment",
+        "Cardiovascular conditions",
+        "Hormone-dependent cancers",
+        "Pregnancy and lactation"
+      ],
+      drugInteractions: [
+        "Hepatotoxic medications - increased liver injury risk",
+        "Hormone therapies - unpredictable interactions",
+        "Anticoagulants - potential bleeding risk alterations",
+        "Other SARMs or anabolic agents - additive suppressive effects"
+      ]
     }
   },
   {
@@ -5145,7 +5203,41 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 678,
     requiresLabLicense: false,
-    tags: ["peptide", "healing", "recovery"]
+    tags: ["peptide", "healing", "recovery"],
+    strengthOptions: ["250mcg", "500mcg"],
+    formOptions: ["Injectable", "Oral Capsule"],
+    variationPrices: {
+      minPrice: 124.99,
+      maxPrice: 194.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Research protocols: 200-500mcg daily, divided into 2 doses. Injectable: subcutaneous or intramuscular. Oral: 500-1000mcg daily.",
+        administration: [
+          "Injectable: Administer subcutaneously in affected area or abdomen",
+          "Oral: Take on empty stomach for better absorption",
+          "Typical cycle: 4-6 weeks for acute injuries, longer for chronic conditions",
+          "Reconstitute lyophilized powder with bacteriostatic water"
+        ],
+        specialPopulations: "Not approved for human use. Research only. Pregnant/breastfeeding women should avoid. Not for individuals under 18."
+      },
+      sideEffects: {
+        common: ["Injection site reactions (if injectable)", "Nausea", "Dizziness", "Headache"],
+        serious: ["Potential tumor growth promotion (theoretical)", "Allergic reactions", "Angiogenesis effects (beneficial and theoretical risks)", "Unknown long-term effects in humans"]
+      },
+      contraindications: [
+        "Not FDA-approved for human consumption",
+        "Active cancer or history of cancer",
+        "Pregnancy and breastfeeding",
+        "Unknown hypersensitivity"
+      ],
+      drugInteractions: [
+        "Growth factors - potential additive angiogenic effects",
+        "NSAIDs - BPC-157 may counteract GI damage from NSAIDs (beneficial)",
+        "Anticoagulants - monitor for changes in clotting",
+        "Other peptides - synergistic effects possible"
+      ]
+    }
   },
   {
     id: "pep-142",
@@ -5160,7 +5252,42 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 534,
     requiresLabLicense: false,
-    tags: ["peptide", "recovery", "regeneration"]
+    tags: ["peptide", "recovery", "regeneration"],
+    strengthOptions: ["2mg", "5mg"],
+    formOptions: ["Injectable"],
+    variationPrices: {
+      minPrice: 138.99,
+      maxPrice: 214.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Research protocols: Loading phase: 5-10mg twice weekly for 4-6 weeks. Maintenance: 2-5mg once weekly. Administered subcutaneously.",
+        administration: [
+          "Subcutaneous injection in abdomen or deltoid",
+          "Reconstitute with bacteriostatic water",
+          "Inject slowly to minimize discomfort",
+          "Rotate injection sites",
+          "Can be combined with BPC-157 for synergistic effects"
+        ],
+        specialPopulations: "Not approved for human use - research only. Avoid in pregnancy/breastfeeding. Not for individuals under 18 or with active cancers."
+      },
+      sideEffects: {
+        common: ["Injection site reactions", "Mild fatigue initially", "Slight headache", "Flushing"],
+        serious: ["Potential influence on angiogenesis", "Allergic reactions", "Unknown long-term cardiovascular effects", "Possible tumor growth promotion (theoretical concern)"]
+      },
+      contraindications: [
+        "Not FDA-approved for human consumption",
+        "Active cancer or cancer history",
+        "Pregnancy and lactation",
+        "Severe cardiovascular disease (caution)"
+      ],
+      drugInteractions: [
+        "Angiogenic agents - additive effects on blood vessel formation",
+        "Corticosteroids - may reduce peptide efficacy",
+        "Other healing peptides (BPC-157) - synergistic beneficial effects",
+        "Anticoagulants - theoretical interaction, monitor closely"
+      ]
+    }
   },
   {
     id: "pep-143",
@@ -5297,6 +5424,34 @@ export const products: Product[] = [
     variationPrices: {
       minPrice: 48.99,
       maxPrice: 74.99
+    },
+    medicalInfo: {
+      dosage: {
+        standard: "Start with 10-20mg daily, increase gradually. Typical range: 20-40mg per day for general wellness, up to 300-600mg for specific conditions.",
+        administration: [
+          "Place drops under tongue, hold for 60-90 seconds before swallowing",
+          "Take with food for better absorption",
+          "Start low and increase slowly over weeks",
+          "Can take once or divide into 2-3 doses daily"
+        ],
+        specialPopulations: "Use caution in pregnancy/breastfeeding. Lower doses for elderly. Consult healthcare provider if taking other medications."
+      },
+      sideEffects: {
+        common: ["Dry mouth", "Drowsiness", "Reduced appetite", "Diarrhea", "Fatigue"],
+        serious: ["Liver enzyme elevations (high doses)", "Drug interactions via CYP450 enzymes", "Changes in alertness", "Potential fertility effects (animal studies)"]
+      },
+      contraindications: [
+        "Hypersensitivity to cannabinoids",
+        "Severe liver disease (use caution)",
+        "Pregnancy (insufficient safety data)"
+      ],
+      drugInteractions: [
+        "CYP450 substrates (many drugs) - CBD inhibits CYP3A4, CYP2C19, CYP2D6",
+        "Blood thinners (warfarin) - increased bleeding risk",
+        "Benzodiazepines - increased sedation",
+        "Antiepileptics (clobazam) - increased levels and side effects",
+        "Grapefruit warning drugs - similar metabolism pathway"
+      ]
     }
   },
   {

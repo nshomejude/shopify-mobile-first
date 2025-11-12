@@ -1805,7 +1805,34 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["100mg", "200mg"],
     formOptions: ["Tablet"],
-    tags: ["wakefulness", "cognitive", "narcolepsy"]
+    tags: ["wakefulness", "cognitive", "narcolepsy"],
+    medicalInfo: {
+      dosage: {
+        standard: "Narcolepsy/OSA: 200mg once daily in morning. Shift work sleep disorder: 200mg 1 hour before work shift. Maximum 400mg/day.",
+        administration: [
+          "Take in morning for narcolepsy/OSA",
+          "Take 1 hour before shift for shift work disorder",
+          "Can be taken with or without food",
+          "Food may delay absorption by ~1 hour"
+        ],
+        specialPopulations: "Consider lower dose in elderly. Reduce dose 50% in severe hepatic impairment. Use caution in pregnancy."
+      },
+      sideEffects: {
+        common: ["Headache", "Nausea", "Nervousness", "Anxiety", "Insomnia", "Dizziness"],
+        serious: ["Serious rash (Stevens-Johnson syndrome)", "Psychiatric symptoms (depression, mania, hallucinations)", "Cardiovascular effects", "Angioedema", "Multi-organ hypersensitivity"]
+      },
+      contraindications: [
+        "Known hypersensitivity to modafinil or armodafinil",
+        "History of left ventricular hypertrophy (relative)"
+      ],
+      drugInteractions: [
+        "CYP3A4 substrates (cyclosporine) - decreased levels",
+        "CYP2C19 substrates (phenytoin, diazepam) - increased levels",
+        "Hormonal contraceptives - decreased effectiveness",
+        "Warfarin - monitor INR",
+        "MAOIs - use caution"
+      ]
+    }
   },
   {
     id: "rx-040",
@@ -1873,7 +1900,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["Rapid-Acting", "Short-Acting", "Intermediate", "Long-Acting"],
     formOptions: ["Injectable", "Pen"],
-    tags: ["diabetes", "insulin", "injectable"]
+    tags: ["diabetes", "insulin", "injectable"],
+    medicalInfo: {
+      dosage: {
+        standard: "Highly individualized. Type 1 DM: 0.4-1.0 units/kg/day. Type 2 DM: Start basal insulin 10 units/day or 0.1-0.2 units/kg, titrate based on glucose.",
+        administration: [
+          "Subcutaneous injection (abdomen, thigh, upper arm, buttocks)",
+          "Rotate injection sites to prevent lipodystrophy",
+          "Rapid: with meals. Long-acting: once daily, same time",
+          "Never share pens or needles",
+          "Store unopened in refrigerator; in-use at room temp"
+        ],
+        specialPopulations: "Adjust for renal function, illness, activity. Pregnancy: insulin is preferred. Elderly: higher hypoglycemia risk."
+      },
+      sideEffects: {
+        common: ["Hypoglycemia", "Weight gain", "Injection site reactions", "Lipodystrophy"],
+        serious: ["Severe hypoglycemia (seizures, coma, death)", "Hypokalemia", "Severe allergic reactions"]
+      },
+      contraindications: [
+        "During episodes of hypoglycemia",
+        "Hypersensitivity to insulin or excipients"
+      ],
+      drugInteractions: [
+        "Antidiabetic agents - increased hypoglycemia risk",
+        "Beta-blockers - mask hypoglycemia symptoms",
+        "ACE inhibitors - increased insulin sensitivity",
+        "Corticosteroids, thiazides - decrease effectiveness",
+        "Alcohol - unpredictable glucose effects"
+      ]
+    }
   },
   {
     id: "rx-042",
@@ -1890,7 +1945,32 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet"],
-    tags: ["diabetes", "blood-sugar"]
+    tags: ["diabetes", "blood-sugar"],
+    medicalInfo: {
+      dosage: {
+        standard: "100mg once daily with or without food. Renal impairment: eGFR 30-50: 50mg daily. eGFR <30 or ESRD: 25mg daily.",
+        administration: [
+          "Take once daily at any time",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Dose adjustment needed for renal impairment"
+        ],
+        specialPopulations: "Adjust dose based on renal function. Use caution in elderly. Limited data in pregnancy."
+      },
+      sideEffects: {
+        common: ["Nasopharyngitis", "Upper respiratory infection", "Headache"],
+        serious: ["Pancreatitis", "Severe joint pain", "Heart failure", "Hypersensitivity reactions (angioedema, anaphylaxis)", "Hypoglycemia (with insulin/sulfonylureas)"]
+      },
+      contraindications: [
+        "History of serious hypersensitivity to sitagliptin",
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis"
+      ],
+      drugInteractions: [
+        "Insulin, sulfonylureas - increased hypoglycemia risk",
+        "Digoxin - slight increase in digoxin levels"
+      ]
+    }
   },
   {
     id: "rx-043",
@@ -1907,7 +1987,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["0.6mg", "1.2mg", "1.8mg"],
     formOptions: ["Injectable Pen"],
-    tags: ["diabetes", "weight-loss", "glp1"]
+    tags: ["diabetes", "weight-loss", "glp1"],
+    medicalInfo: {
+      dosage: {
+        standard: "Diabetes: Start 0.6mg SC once daily for 1 week, then 1.2mg. May increase to 1.8mg. Weight management: up to 3mg daily.",
+        administration: [
+          "Subcutaneous injection once daily, any time",
+          "Inject in abdomen, thigh, or upper arm",
+          "Rotate injection sites",
+          "Can be given with or without food"
+        ],
+        specialPopulations: "Not recommended in severe renal impairment. Not recommended in pregnancy. Use caution in elderly."
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Diarrhea", "Decreased appetite", "Constipation"],
+        serious: ["Thyroid C-cell tumors (medullary thyroid carcinoma)", "Pancreatitis", "Hypoglycemia (with sulfonylureas/insulin)", "Renal impairment", "Gallbladder disease", "Suicidal thoughts"]
+      },
+      contraindications: [
+        "Personal or family history of medullary thyroid carcinoma",
+        "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+        "Serious hypersensitivity to liraglutide"
+      ],
+      drugInteractions: [
+        "Insulin, sulfonylureas - increased hypoglycemia",
+        "Oral medications - may delay gastric emptying",
+        "Warfarin - may require INR monitoring"
+      ]
+    }
   },
 
   // Cardiovascular (44-53)
@@ -1926,7 +2032,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "20mg", "40mg", "80mg"],
     formOptions: ["Tablet"],
-    tags: ["cholesterol", "heart-health"]
+    tags: ["cholesterol", "heart-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Start 10-20mg once daily. May increase to 40-80mg for aggressive LDL reduction. Take at same time daily.",
+        administration: [
+          "Take once daily at any time, with or without food",
+          "Swallow tablets whole",
+          "Consistent timing recommended",
+          "Full effect seen in 2-4 weeks"
+        ],
+        specialPopulations: "Use lower doses in renal impairment. Avoid in active liver disease. Contraindicated in pregnancy and breastfeeding."
+      },
+      sideEffects: {
+        common: ["Muscle pain", "Diarrhea", "Nausea", "Headache", "Joint pain"],
+        serious: ["Rhabdomyolysis", "Myopathy", "Hepatotoxicity", "New-onset diabetes", "Cognitive impairment"]
+      },
+      contraindications: [
+        "Active liver disease",
+        "Pregnancy and breastfeeding",
+        "Known hypersensitivity"
+      ],
+      drugInteractions: [
+        "CYP3A4 inhibitors (clarithromycin, itraconazole) - increased statin levels, myopathy risk",
+        "Gemfibrozil - increased myopathy risk",
+        "Digoxin - increased digoxin levels",
+        "Oral contraceptives - increased hormone levels",
+        "Grapefruit juice - increased atorvastatin levels"
+      ]
+    }
   },
   {
     id: "rx-045",
@@ -1943,7 +2077,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "20mg", "40mg", "80mg"],
     formOptions: ["Tablet"],
-    tags: ["cholesterol", "heart-health"]
+    tags: ["cholesterol", "heart-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Start 10-20mg once daily in evening. Range: 5-40mg. Maximum 80mg (reserved for specific patients). Take with evening meal.",
+        administration: [
+          "Take once daily in the evening",
+          "Can take with or without food",
+          "80mg dose: use only in patients on 80mg chronically",
+          "Avoid grapefruit juice"
+        ],
+        specialPopulations: "Lower starting dose in elderly. Contraindicated in pregnancy. Chinese patients: limit to 20mg with niacin."
+      },
+      sideEffects: {
+        common: ["Headache", "Muscle pain", "Abdominal pain", "Constipation"],
+        serious: ["Rhabdomyolysis (especially at 80mg dose)", "Myopathy", "Hepatotoxicity", "Interstitial lung disease"]
+      },
+      contraindications: [
+        "Active liver disease",
+        "Pregnancy and breastfeeding",
+        "Concurrent use with strong CYP3A4 inhibitors"
+      ],
+      drugInteractions: [
+        "Strong CYP3A4 inhibitors (itraconazole, clarithromycin) - contraindicated",
+        "Gemfibrozil - increased myopathy risk",
+        "Amiodarone - limit simvastatin to 20mg",
+        "Diltiazem, verapamil - limit to 10mg",
+        "Grapefruit juice - avoid large amounts"
+      ]
+    }
   },
   {
     id: "rx-046",
@@ -1960,7 +2122,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
-    tags: ["cholesterol", "heart-health"]
+    tags: ["cholesterol", "heart-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Start 5-10mg once daily. May increase to 20-40mg. Maximum 40mg for severe hypercholesterolemia. Take at any time of day.",
+        administration: [
+          "Take once daily at any time",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Allow 2-4 weeks for full effect"
+        ],
+        specialPopulations: "Start 5mg in Asian patients. Reduce dose in severe renal impairment. Contraindicated in pregnancy."
+      },
+      sideEffects: {
+        common: ["Headache", "Myalgia", "Abdominal pain", "Nausea", "Asthenia"],
+        serious: ["Rhabdomyolysis", "Myopathy", "Hepatotoxicity", "Proteinuria", "Hematuria"]
+      },
+      contraindications: [
+        "Active liver disease",
+        "Pregnancy and breastfeeding",
+        "Hypersensitivity to rosuvastatin"
+      ],
+      drugInteractions: [
+        "Cyclosporine - contraindicated",
+        "Gemfibrozil - limit rosuvastatin to 10mg",
+        "Atazanavir/ritonavir - limit to 10mg",
+        "Warfarin - monitor INR",
+        "Antacids - take 2 hours apart"
+      ]
+    }
   },
   {
     id: "rx-047",
@@ -1977,7 +2167,32 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2.5mg", "5mg", "10mg"],
     formOptions: ["Tablet"],
-    tags: ["blood-pressure", "heart-health"]
+    tags: ["blood-pressure", "heart-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Hypertension: Start 5mg once daily. May increase to 10mg. Angina: 5-10mg once daily. Elderly/hepatic impairment: start 2.5mg.",
+        administration: [
+          "Take once daily at same time each day",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Full effect in 6-8 weeks"
+        ],
+        specialPopulations: "Start 2.5mg in elderly, small/frail, or hepatic impairment. Use caution in severe aortic stenosis."
+      },
+      sideEffects: {
+        common: ["Peripheral edema", "Dizziness", "Flushing", "Palpitations", "Fatigue"],
+        serious: ["Hypotension", "Worsening angina", "Myocardial infarction (rare)", "Severe allergic reactions"]
+      },
+      contraindications: [
+        "Known hypersensitivity to amlodipine or dihydropyridines"
+      ],
+      drugInteractions: [
+        "CYP3A4 inhibitors (clarithromycin, ketoconazole) - increased amlodipine levels",
+        "CYP3A4 inducers (rifampin) - decreased amlodipine levels",
+        "Simvastatin - limit simvastatin to 20mg",
+        "Grapefruit juice - may increase levels"
+      ]
+    }
   },
   {
     id: "rx-048",
@@ -1994,7 +2209,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
-    tags: ["blood-pressure", "heart-health"]
+    tags: ["blood-pressure", "heart-health"],
+    medicalInfo: {
+      dosage: {
+        standard: "Hypertension: Start 10mg once daily. Usual range 20-40mg. Maximum 80mg. Heart failure: Start 5mg once daily, titrate up.",
+        administration: [
+          "Take once daily at same time",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Monitor blood pressure and renal function"
+        ],
+        specialPopulations: "Reduce dose in renal impairment (CrCl <30). Contraindicated in pregnancy. Use caution in elderly."
+      },
+      sideEffects: {
+        common: ["Dizziness", "Headache", "Fatigue", "Cough (dry, persistent)", "Hypotension"],
+        serious: ["Angioedema", "Hyperkalemia", "Renal impairment", "Hypotension", "Hepatic failure", "Fetal toxicity"]
+      },
+      contraindications: [
+        "History of angioedema with ACE inhibitors",
+        "Concurrent use with aliskiren in diabetes",
+        "Pregnancy (2nd and 3rd trimesters)",
+        "Bilateral renal artery stenosis"
+      ],
+      drugInteractions: [
+        "NSAIDs - reduced antihypertensive effect, renal impairment",
+        "Potassium supplements, K-sparing diuretics - hyperkalemia",
+        "Lithium - increased lithium levels",
+        "Aliskiren (in diabetes) - contraindicated",
+        "Neprilysin inhibitors (sacubitril) - increased angioedema risk"
+      ]
+    }
   },
   {
     id: "rx-049",
@@ -2010,7 +2254,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mg", "50mg", "100mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["blood-pressure", "heart-rhythm"]
+    tags: ["blood-pressure", "heart-rhythm"],
+    medicalInfo: {
+      dosage: {
+        standard: "Hypertension: Start 50mg twice daily or 100mg ER once daily. Titrate weekly. Maximum 400mg/day. Angina: 50-200mg twice daily.",
+        administration: [
+          "Immediate-release: 2-3 times daily with meals",
+          "Extended-release: once daily, swallow whole",
+          "Take at same time each day",
+          "Do NOT stop abruptly - taper gradually"
+        ],
+        specialPopulations: "Use caution in hepatic impairment. Reduce dose in elderly. Not recommended in pregnancy unless necessary."
+      },
+      sideEffects: {
+        common: ["Fatigue", "Dizziness", "Depression", "Bradycardia", "Cold extremities"],
+        serious: ["Heart block", "Severe bradycardia", "Heart failure exacerbation", "Bronchospasm", "Mask hypoglycemia symptoms"]
+      },
+      contraindications: [
+        "Severe bradycardia or heart block",
+        "Cardiogenic shock",
+        "Decompensated heart failure",
+        "Sick sinus syndrome",
+        "Severe peripheral arterial disease"
+      ],
+      drugInteractions: [
+        "CYP2D6 inhibitors (fluoxetine, paroxetine) - increased metoprolol levels",
+        "Verapamil, diltiazem - bradycardia, heart block",
+        "Clonidine - severe rebound hypertension if stopped",
+        "NSAIDs - reduced antihypertensive effect",
+        "Insulin, oral hypoglycemics - mask hypoglycemia"
+      ]
+    }
   },
   {
     id: "rx-050",
@@ -2026,7 +2300,37 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["10mg", "20mg", "40mg", "60mg", "80mg"],
     formOptions: ["Tablet", "Extended-Release"],
-    tags: ["blood-pressure", "anxiety", "migraine"]
+    tags: ["blood-pressure", "anxiety", "migraine"],
+    medicalInfo: {
+      dosage: {
+        standard: "Hypertension: Start 40mg twice daily, increase to 120-240mg/day. Anxiety: 10-40mg 3-4 times daily. Migraine: 80-240mg/day in divided doses.",
+        administration: [
+          "Immediate-release: 2-4 times daily",
+          "Extended-release: once daily at bedtime",
+          "Take with food",
+          "NEVER stop abruptly - taper over 1-2 weeks"
+        ],
+        specialPopulations: "Reduce dose in hepatic impairment and elderly. Use caution in renal impairment. Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Fatigue", "Bradycardia", "Cold extremities", "Dizziness", "Insomnia", "Nausea"],
+        serious: ["Severe bradycardia", "Heart block", "Bronchospasm (especially in asthma)", "Heart failure", "Hypoglycemia (masked symptoms)", "Depression"]
+      },
+      contraindications: [
+        "Asthma or severe COPD",
+        "Severe bradycardia or heart block",
+        "Cardiogenic shock",
+        "Uncompensated heart failure",
+        "Sick sinus syndrome"
+      ],
+      drugInteractions: [
+        "CYP2D6 inhibitors - increased propranolol levels",
+        "Calcium channel blockers - severe hypotension, bradycardia",
+        "Insulin, oral hypoglycemics - mask hypoglycemia",
+        "Clonidine - rebound hypertension if stopped",
+        "NSAIDs - reduced antihypertensive effect"
+      ]
+    }
   },
   {
     id: "rx-051",
@@ -2043,7 +2347,33 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["75mg"],
     formOptions: ["Tablet"],
-    tags: ["antiplatelet", "blood-clots"]
+    tags: ["antiplatelet", "blood-clots"],
+    medicalInfo: {
+      dosage: {
+        standard: "75mg once daily with or without food. ACS: loading dose 300-600mg, then 75mg daily.",
+        administration: [
+          "Take once daily at same time",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Continue as directed, even if feeling well"
+        ],
+        specialPopulations: "No dose adjustment for renal or mild-moderate hepatic impairment. Use caution in elderly. Not recommended in pregnancy."
+      },
+      sideEffects: {
+        common: ["Bleeding", "Bruising", "Nosebleeds", "Rash", "Diarrhea", "Abdominal pain"],
+        serious: ["Thrombotic thrombocytopenic purpura (TTP)", "Severe bleeding", "Intracranial hemorrhage", "Neutropenia"]
+      },
+      contraindications: [
+        "Active pathological bleeding (peptic ulcer, intracranial hemorrhage)",
+        "Hypersensitivity to clopidogrel"
+      ],
+      drugInteractions: [
+        "Proton pump inhibitors (omeprazole, esomeprazole) - reduced clopidogrel effectiveness",
+        "NSAIDs, aspirin - increased bleeding risk",
+        "Anticoagulants (warfarin) - increased bleeding risk",
+        "CYP2C19 inhibitors - reduced efficacy"
+      ]
+    }
   },
   {
     id: "rx-052",
@@ -2059,7 +2389,38 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["1mg", "2mg", "2.5mg", "3mg", "4mg", "5mg", "6mg", "7.5mg", "10mg"],
     formOptions: ["Tablet"],
-    tags: ["anticoagulant", "blood-clots"]
+    tags: ["anticoagulant", "blood-clots"],
+    medicalInfo: {
+      dosage: {
+        standard: "Individualized based on INR monitoring. Initial: 2-5mg once daily. Target INR typically 2-3. Adjust based on weekly INR initially, then monthly.",
+        administration: [
+          "Take once daily at same time (usually evening)",
+          "Can be taken with or without food",
+          "Regular INR monitoring required",
+          "Maintain consistent vitamin K intake"
+        ],
+        specialPopulations: "Lower doses in elderly. Contraindicated in pregnancy. Use caution in renal/hepatic impairment."
+      },
+      sideEffects: {
+        common: ["Bleeding", "Bruising", "Nosebleeds"],
+        serious: ["Major hemorrhage", "Intracranial bleeding", "Skin necrosis", "Purple toe syndrome", "Fetal warfarin syndrome (in pregnancy)"]
+      },
+      contraindications: [
+        "Pregnancy",
+        "Active bleeding",
+        "Severe liver disease",
+        "Recent or planned surgery",
+        "Uncontrolled hypertension"
+      ],
+      drugInteractions: [
+        "NSAIDs, aspirin - increased bleeding risk",
+        "Antibiotics (many) - alter INR",
+        "Amiodarone - increases warfarin effect",
+        "Vitamin K - antagonizes warfarin",
+        "Cranberry juice - may increase INR",
+        "St. John's wort - decreases warfarin effect"
+      ]
+    }
   },
   {
     id: "rx-053",
@@ -2076,7 +2437,34 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["2.5mg", "5mg"],
     formOptions: ["Tablet"],
-    tags: ["anticoagulant", "blood-clots"]
+    tags: ["anticoagulant", "blood-clots"],
+    medicalInfo: {
+      dosage: {
+        standard: "Atrial fibrillation: 5mg twice daily. Reduce to 2.5mg twice daily if 2+ of: age ≥80, weight ≤60kg, SCr ≥1.5. DVT/PE: 10mg twice daily for 7 days, then 5mg twice daily.",
+        administration: [
+          "Take twice daily at same times",
+          "Can be taken with or without food",
+          "If dose missed, take immediately then continue normal schedule",
+          "Do NOT double dose"
+        ],
+        specialPopulations: "Reduce dose based on age, weight, renal function. Not recommended in CrCl <15. Avoid in pregnancy."
+      },
+      sideEffects: {
+        common: ["Bleeding", "Bruising", "Nausea", "Anemia"],
+        serious: ["Major bleeding", "Intracranial hemorrhage", "Gastrointestinal bleeding", "Spinal/epidural hematoma"]
+      },
+      contraindications: [
+        "Active pathological bleeding",
+        "Severe hypersensitivity",
+        "Prosthetic heart valves (not studied)"
+      ],
+      drugInteractions: [
+        "Strong dual inhibitors of CYP3A4 and P-gp (ketoconazole, ritonavir) - avoid or reduce dose",
+        "Strong dual inducers (rifampin, carbamazepine) - avoid",
+        "Antiplatelet agents, NSAIDs - increased bleeding risk",
+        "Other anticoagulants - contraindicated"
+      ]
+    }
   },
 
   // Hormonal & Endocrine (54-80)
@@ -2094,7 +2482,35 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["25mcg", "50mcg", "75mcg", "88mcg", "100mcg", "112mcg", "125mcg", "150mcg"],
     formOptions: ["Tablet"],
-    tags: ["thyroid", "hormone"]
+    tags: ["thyroid", "hormone"],
+    medicalInfo: {
+      dosage: {
+        standard: "Adults: Start 1.6 mcg/kg/day. Typical range 100-125mcg/day. Adjust by 12.5-25mcg every 4-6 weeks based on TSH. Elderly: start 25-50mcg.",
+        administration: [
+          "Take on empty stomach, 30-60 minutes before breakfast",
+          "Take consistently at same time daily",
+          "Swallow tablet with water",
+          "Separate from calcium, iron, antacids by 4 hours"
+        ],
+        specialPopulations: "Lower starting dose in elderly and cardiovascular disease. Pregnancy: may need increased dose. Monitor TSH regularly."
+      },
+      sideEffects: {
+        common: ["Weight loss", "Increased appetite", "Nervousness", "Tremor", "Palpitations", "Insomnia"],
+        serious: ["Cardiac arrhythmias", "Angina", "Myocardial infarction (if excessive dose)", "Osteoporosis (chronic overdose)", "Adrenal crisis (if untreated adrenal insufficiency)"]
+      },
+      contraindications: [
+        "Untreated adrenal insufficiency",
+        "Acute myocardial infarction",
+        "Untreated thyrotoxicosis"
+      ],
+      drugInteractions: [
+        "Calcium, iron supplements - decreased absorption (separate by 4 hours)",
+        "PPIs, H2 blockers - may decrease absorption",
+        "Warfarin - may increase warfarin effect",
+        "Diabetes medications - may need adjustment",
+        "Estrogens - may increase levothyroxine requirements"
+      ]
+    }
   },
   {
     id: "rx-055",
@@ -2110,7 +2526,36 @@ export const products: Product[] = [
     requiresPrescription: true,
     strengthOptions: ["5mg", "10mg", "20mg", "40mg"],
     formOptions: ["Tablet"],
-    tags: ["corticosteroid", "inflammation"]
+    tags: ["corticosteroid", "inflammation"],
+    medicalInfo: {
+      dosage: {
+        standard: "Highly variable based on condition. Anti-inflammatory: 5-60mg/day. Autoimmune: up to 1mg/kg/day. Taper gradually when discontinuing long-term use.",
+        administration: [
+          "Take with food or milk to reduce GI upset",
+          "Take morning dose to mimic natural cortisol rhythm",
+          "Do NOT stop abruptly after long-term use",
+          "Taper dose gradually under medical supervision"
+        ],
+        specialPopulations: "Use lowest effective dose. Monitor growth in children. Use caution in elderly (increased adverse effect risk)."
+      },
+      sideEffects: {
+        common: ["Increased appetite", "Weight gain", "Insomnia", "Mood changes", "Elevated blood sugar", "Fluid retention"],
+        serious: ["Adrenal suppression", "Immunosuppression/infections", "Osteoporosis", "Avascular necrosis", "Peptic ulcers", "Hyperglycemia/diabetes", "Cataracts", "Growth suppression in children"]
+      },
+      contraindications: [
+        "Systemic fungal infections",
+        "Known hypersensitivity",
+        "Live vaccines (relative contraindication)"
+      ],
+      drugInteractions: [
+        "NSAIDs - increased GI bleeding risk",
+        "Warfarin - variable effects on INR",
+        "Diabetes medications - may decrease effectiveness",
+        "CYP3A4 inducers (rifampin) - decreased prednisolone levels",
+        "Live vaccines - contraindicated",
+        "Diuretics - increased potassium loss"
+      ]
+    }
   },
   {
     id: "rx-056",

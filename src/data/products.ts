@@ -19256,6 +19256,137 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 159.99,
       maxPrice: 479.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(1,3-Benzodioxol-5-yl)-2-(ethylamino)propan-1-one",
+        molecularFormula: "C₁₂H₁₅NO₃",
+        molecularWeight: "221.25 g/mol",
+        casNumber: "802855-66-9",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO (10 mg/mL)", "Ethanol (5 mg/mL)", "Water (<1 mg/mL)"]
+      },
+      researchApplications: {
+        overview: "Ethylone (bk-MDEA) is a synthetic cathinone and empathogen research chemical structurally related to MDMA and methylone. Used in neuropharmacology research investigating monoamine transporter interactions, entactogenic mechanisms, and comparative empathogen pharmacology.",
+        primaryUses: [
+          "Monoamine transporter binding studies",
+          "Serotonin and dopamine release mechanisms",
+          "Empathogenic effect profiling",
+          "Structure-activity relationship research",
+          "Comparative cathinone pharmacology"
+        ],
+        studyAreas: [
+          "Neuropharmacology",
+          "Psychopharmacology",
+          "Medicinal Chemistry",
+          "Behavioral Neuroscience",
+          "Forensic Toxicology"
+        ],
+        mechanism: "Acts as a releasing agent and reuptake inhibitor at serotonin, dopamine, and norepinephrine transporters (SERT, DAT, NET). Exhibits preferential serotonergic activity similar to MDMA but with modified potency and selectivity profiles due to N-ethyl substitution."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264: Wash hands thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/eye protection/face protection",
+          "P301+P312: IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes"
+        ],
+        storageConditions: "Store at -20°C in amber glass vial under inert atmosphere. Protect from light, heat, and moisture. Stable for 2 years when properly stored.",
+        shelfLife: "24 months (unopened, proper storage)",
+        disposalGuidelines: "Dispose as chemical waste according to local, state, and federal regulations. Do not release into environment. Incinerate in approved facility.",
+        ppe: [
+          "Nitrile gloves (minimum 0.11mm thickness)",
+          "Safety goggles with side shields",
+          "Lab coat",
+          "NIOSH-approved dust mask or respirator",
+          "Work in fume hood when handling powder"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "In vitro assays: 0.1-100 μM",
+          "Binding studies: 0.01-10 μM",
+          "Cell culture: 1-50 μM",
+          "Stock solutions: 10 mM in DMSO"
+        ],
+        preparationNotes: [
+          "Prepare stock solutions in anhydrous DMSO for maximum stability",
+          "Vortex thoroughly to ensure complete dissolution",
+          "Aliquot stocks to minimize freeze-thaw cycles",
+          "Use freshly prepared solutions for time-sensitive experiments",
+          "Filter sterilize (0.22 μm) for cell culture applications",
+          "Document preparation date and lot number on all aliquots"
+        ],
+        stabilityData: "Stock solutions in DMSO are stable for 6 months at -20°C. Aqueous solutions should be prepared fresh and used within 24 hours.",
+        incompatibilities: [
+          "Strong oxidizing agents",
+          "Strong acids and bases",
+          "Reactive metal salts",
+          "Avoid prolonged exposure to UV light"
+        ]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Controlled substance in many jurisdictions",
+          "Requires valid laboratory credentials and DEA registration where applicable",
+          "Subject to analog act provisions in some countries",
+          "End-user declaration required",
+          "Institutional review and approval necessary"
+        ],
+        certifications: ["ISO 9001:2015 Quality Management", "ISO 17025 Testing Calibration"],
+        complianceNotes: [
+          "Researchers must verify legal status in their jurisdiction",
+          "Maintain chain of custody documentation",
+          "Report any adverse findings to institutional safety committee",
+          "Comply with institutional and federal controlled substance regulations"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470",
+          "Eshleman AJ, et al. Substituted methcathinones differ in transporter and receptor interactions. Biochem Pharmacol. 2013;85(12):1803-1815",
+          "Iversen L, et al. The pharmacology of ethcathinone. J Psychopharmacol. 2014;28(3):245-249",
+          "Cozzi NV, et al. Pharmacological examination of synthetic stimulants. Eur J Pharmacol. 2013;699(1-3):180-187"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "N-deethyl ethylone",
+          "3,4-Dihydroxyphenyl derivatives",
+          "Methylenedioxyphenyl compounds",
+          "Various glucuronide conjugates"
+        ],
+        pharmacokinetics: "Rapid absorption and distribution. Undergoes extensive hepatic metabolism via CYP-mediated pathways and Phase II conjugation. Half-life in biological systems typically 2-4 hours.",
+        similarCompounds: [
+          "Methylone (bk-MDMA)",
+          "Butylone (bk-MBDB)",
+          "MDMA",
+          "Pentylone",
+          "N-Ethylpentylone"
+        ],
+        studyProtocols: [
+          "In vitro transporter binding assays (SERT/DAT/NET)",
+          "Monoamine release assays in synaptosomes",
+          "Receptor binding screens",
+          "In vivo microdialysis studies",
+          "Behavioral pharmacology assessments"
+        ]
+      }
     }
   },
   {
@@ -19278,6 +19409,152 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 189.99,
       maxPrice: 599.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(Benzofuran-5-yl)-N-methylpropan-2-amine",
+        molecularFormula: "C₁₂H₁₅NO",
+        molecularWeight: "189.25 g/mol",
+        casNumber: "1354631-77-0",
+        appearance: "White to light tan crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO (25 mg/mL)", "Ethanol (10 mg/mL)", "Water (<1 mg/mL)", "Chloroform"]
+      },
+      researchApplications: {
+        overview: "5-MAPB (1-(benzofuran-5-yl)-N-methylpropan-2-amine) is a synthetic benzofuran entactogen developed for neuropharmacology research. Structurally related to MDMA and 6-APB, it serves as a research tool for investigating monoamine transporter mechanisms, empathogenic properties, and benzofuran pharmacology.",
+        primaryUses: [
+          "Serotonin transporter (SERT) interaction studies",
+          "Monoamine release mechanism research",
+          "Entactogenic compound profiling",
+          "Benzofuran structure-activity relationship analysis",
+          "Comparative empathogen pharmacology",
+          "Receptor binding characterization"
+        ],
+        studyAreas: [
+          "Neuropharmacology",
+          "Psychopharmacology",
+          "Medicinal Chemistry",
+          "Neurochemistry",
+          "Behavioral Pharmacology",
+          "Forensic Chemistry"
+        ],
+        mechanism: "Functions as a triple monoamine releasing agent and reuptake inhibitor at SERT, DAT, and NET. Exhibits preferential serotonergic activity with high selectivity for serotonin release. The benzofuran scaffold provides enhanced selectivity compared to methylenedioxyphenyl compounds."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H361: Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P202: Do not handle until all safety precautions have been read and understood",
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264: Wash hands thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/eye protection/face protection",
+          "P308+P313: IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store at -20°C in amber glass container under nitrogen or argon atmosphere. Protect from light, air, and moisture. Stable for 3 years when properly stored.",
+        shelfLife: "36 months (unopened, proper storage)",
+        disposalGuidelines: "Dispose as hazardous chemical waste according to local, state, federal, and international regulations. Incinerate in approved facility with afterburner and scrubber.",
+        ppe: [
+          "Nitrile gloves (minimum 0.11mm thickness)",
+          "Chemical safety goggles",
+          "Lab coat (cotton or flame-resistant)",
+          "NIOSH-approved respirator with organic vapor cartridge",
+          "Conduct all operations in certified fume hood"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "In vitro transporter assays: 0.1-100 μM",
+          "Receptor binding studies: 0.01-10 μM",
+          "Cell-based assays: 1-50 μM",
+          "Stock solutions: 10-20 mM in DMSO"
+        ],
+        preparationNotes: [
+          "Prepare stock solutions in anhydrous DMSO under inert atmosphere",
+          "Warm slightly (37°C) and vortex for complete dissolution if needed",
+          "Prepare aliquots to avoid repeated freeze-thaw cycles",
+          "Store aliquots at -80°C for extended stability",
+          "Use amber vials to protect from light degradation",
+          "Allow solutions to reach room temperature before opening to prevent condensation",
+          "Verify concentration spectrophotometrically before critical experiments"
+        ],
+        stabilityData: "DMSO stock solutions stable for 12 months at -20°C, 24 months at -80°C. Aqueous solutions should be prepared immediately before use. Exhibits slight degradation upon prolonged UV exposure.",
+        incompatibilities: [
+          "Strong oxidizing agents (permanganates, peroxides)",
+          "Strong acids (mineral acids)",
+          "Strong bases (sodium hydroxide)",
+          "Reactive halogens",
+          "Transition metal catalysts"
+        ]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Controlled substance in multiple jurisdictions",
+          "Requires valid laboratory license and institutional approval",
+          "May fall under analog act provisions",
+          "Subject to import/export restrictions",
+          "End-user certification and declaration required",
+          "Institutional ethics committee approval necessary",
+          "DEA registration may be required in USA"
+        ],
+        certifications: [
+          "ISO 9001:2015 Quality Management Systems",
+          "ISO/IEC 17025 Testing and Calibration Laboratories",
+          "GMP compliant synthesis facilities"
+        ],
+        complianceNotes: [
+          "Verify legal status in your jurisdiction before ordering",
+          "Maintain detailed usage logs and chain of custody records",
+          "Report synthesis, receipt, use, and disposal to appropriate authorities",
+          "Comply with all institutional biosafety and chemical safety protocols",
+          "Obtain necessary permits and licenses before commencing research"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Rickli A, et al. Receptor interaction profiles of novel psychoactive benzofurans. Eur Neuropsychopharmacol. 2015;25(3):365-377",
+          "Iversen L, et al. Pharmacological profiles of benzofuran derivatives. Neuropsychopharmacology. 2013;38:2150-2151",
+          "Dawson P, et al. New psychoactive substances: a chemical perspective. Drug Test Anal. 2014;6(7-8):587-597",
+          "Simmler LD, et al. Pharmacological characterization of designer benzofurans. Br J Pharmacol. 2014;171(13):3412-3422"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "5-APB (via N-demethylation)",
+          "Hydroxylated benzofuran derivatives",
+          "N-oxide metabolites",
+          "Glucuronide conjugates",
+          "Sulfate conjugates"
+        ],
+        pharmacokinetics: "Rapid absorption following administration. Extensive first-pass metabolism via CYP2D6 and CYP3A4. Undergoes N-demethylation to 5-APB. Half-life estimated at 4-6 hours in biological systems.",
+        similarCompounds: [
+          "6-APB (positional isomer)",
+          "5-APB (demethylated analog)",
+          "6-MAPB (positional isomer)",
+          "MDMA",
+          "5-EAPB"
+        ],
+        studyProtocols: [
+          "Triple monoamine transporter assays (SERT/DAT/NET)",
+          "Competitive radioligand binding studies",
+          "Monoamine release assays in rat synaptosomes",
+          "In vivo microdialysis in rodent models",
+          "Locomotor activity assessments",
+          "Drug discrimination studies",
+          "Metabolic stability in liver microsomes"
+        ]
+      }
     }
   },
   {
@@ -19300,6 +19577,169 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 179.99,
       maxPrice: 569.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(Benzofuran-6-yl)propan-2-amine",
+        molecularFormula: "C₁₁H₁₃NO",
+        molecularWeight: "175.23 g/mol",
+        casNumber: "286834-80-2",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO (20 mg/mL)", "Ethanol (15 mg/mL)", "Methanol (10 mg/mL)", "Water (<0.5 mg/mL)"]
+      },
+      researchApplications: {
+        overview: "6-APB (6-(2-aminopropyl)benzofuran, also known as Benzofury) is a synthetic benzofuran empathogen originally developed by David Nichols. It serves as an important research tool for studying monoamine transporter interactions, entactogenic mechanisms, and benzofuran-based pharmacophores. Widely used in comparative empathogen research and structure-activity relationship studies.",
+        primaryUses: [
+          "Monoamine transporter interaction studies (SERT/DAT/NET)",
+          "Serotonin release mechanism research",
+          "Empathogenic compound pharmacology",
+          "Benzofuran scaffold SAR studies",
+          "Comparative pharmacology with MDMA and related compounds",
+          "5-HT2 receptor interaction studies"
+        ],
+        studyAreas: [
+          "Neuropharmacology",
+          "Psychopharmacology",
+          "Medicinal Chemistry",
+          "Neurochemistry",
+          "Behavioral Neuroscience",
+          "Forensic Toxicology",
+          "Drug Discovery"
+        ],
+        mechanism: "Acts as a triple monoamine releasing agent and reuptake inhibitor at SERT, DAT, and NET. Exhibits high selectivity for serotonin release with moderate dopamine and norepinephrine activity. Also acts as a partial agonist at 5-HT2A and 5-HT2C receptors. The benzofuran ring system provides metabolic stability and modified pharmacokinetic properties compared to methylenedioxyphenyl compounds."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H361: Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P202: Do not handle until all safety precautions have been read",
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264: Wash skin thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/protective clothing/eye protection/face protection",
+          "P281: Use personal protective equipment as required",
+          "P308+P313: IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store at -20°C in amber glass container with PTFE-lined cap under inert atmosphere (nitrogen or argon). Protect from light, moisture, and air. Hygroscopic - minimize exposure to atmosphere. Stable for 3+ years when properly stored.",
+        shelfLife: "36+ months (unopened, proper storage conditions)",
+        disposalGuidelines: "Dispose as hazardous chemical waste in accordance with local, state, federal, and international regulations. Incinerate in EPA-approved facility equipped with afterburner and scrubber. Document disposal with chain of custody records.",
+        ppe: [
+          "Nitrile gloves (minimum 0.11mm, double-gloving recommended)",
+          "Chemical splash goggles or face shield",
+          "Lab coat (flame-resistant preferred)",
+          "Closed-toe shoes",
+          "NIOSH-approved respirator with organic vapor/P100 cartridges",
+          "Work exclusively in certified chemical fume hood with adequate airflow"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "Transporter assays (in vitro): 0.01-100 μM",
+          "Receptor binding studies: 0.001-10 μM",
+          "Cell culture experiments: 0.1-50 μM",
+          "Neurotransmitter release assays: 0.1-30 μM",
+          "Stock solutions: 10-25 mM in DMSO"
+        ],
+        preparationNotes: [
+          "Prepare master stock solutions in anhydrous DMSO under inert atmosphere",
+          "Warm to 37°C with gentle vortexing for complete dissolution",
+          "Create working aliquots immediately after preparation to minimize freeze-thaw cycles",
+          "Store aliquots at -80°C in cryovials for maximum long-term stability",
+          "Use amber or foil-wrapped containers to prevent photodegradation",
+          "Equilibrate to room temperature in desiccator before opening to prevent condensation",
+          "Filter sterilize (0.22 μm) for cell culture applications",
+          "Verify concentration by UV-Vis spectroscopy (λmax ~280 nm)",
+          "Document preparation date, concentration, lot number, and preparer initials"
+        ],
+        stabilityData: "Highly stable as dry powder at -20°C (>3 years). DMSO stock solutions stable for 12 months at -20°C, 24+ months at -80°C. Aqueous solutions exhibit reduced stability; prepare fresh for each experiment or use within 24 hours if refrigerated. Minimal degradation observed with up to 3 freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents (permanganates, perchlorates, peroxides)",
+          "Strong acids (sulfuric, nitric, hydrochloric)",
+          "Strong bases (sodium/potassium hydroxide)",
+          "Reactive halogens (chlorine, bromine)",
+          "Heavy metal salts",
+          "Transition metal catalysts (palladium, platinum)"
+        ]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Controlled substance in many jurisdictions (UK, USA, Australia, EU)",
+          "Requires valid laboratory license and institutional approval",
+          "Subject to analog act/designer drug provisions in multiple countries",
+          "Import/export requires appropriate permits and declarations",
+          "End-user certification mandatory",
+          "Institutional review board (IRB) or ethics committee approval required",
+          "DEA Schedule I in USA - requires DEA registration for research use",
+          "Home Office license required in UK"
+        ],
+        certifications: [
+          "ISO 9001:2015 Quality Management Systems",
+          "ISO/IEC 17025 Testing and Calibration Laboratories",
+          "GMP-compliant manufacturing facilities",
+          "ISO 14001 Environmental Management"
+        ],
+        complianceNotes: [
+          "Researchers MUST verify current legal status in their jurisdiction before procurement",
+          "Maintain comprehensive documentation: Material Safety Data, Chain of Custody, Usage Logs",
+          "Report all procurement, usage, and disposal to institutional compliance office",
+          "Comply with DEA regulations for Schedule I substances (USA)",
+          "Follow institutional controlled substance protocols",
+          "Obtain all necessary federal, state, and local permits",
+          "Ensure secure storage in DEA-approved safes or cages",
+          "Conduct annual inventory audits"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Nichols DE, et al. Benzofuran analogs of hallucinogens. J Med Chem. 1991;34(1):276-281",
+          "Rickli A, et al. Receptor interaction profiles of novel N-2-methoxybenzyl (NBOMe) derivatives of 2,5-dimethoxy-substituted phenethylamines (2C drugs). Neuropharmacology. 2015;99:546-553",
+          "Iversen L, et al. The pharmacology and toxicology of benzofuran compounds. Advisory Council on the Misuse of Drugs. 2013",
+          "Dawson P, et al. Drugs of abuse: benzofurans and benzodifurans. Drug Test Anal. 2014;6(7-8):614-632",
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "4-Hydroxy-6-APB",
+          "5-Hydroxy-6-APB",
+          "6-APB-glucuronide",
+          "N-acetyl-6-APB",
+          "Dihydroxylated benzofuran derivatives",
+          "O-methylated metabolites"
+        ],
+        pharmacokinetics: "Exhibits slower onset and longer duration compared to MDMA. Rapid absorption following administration with Tmax of 1-2 hours. Extensive hepatic metabolism primarily via CYP2D6, CYP3A4, and CYP2C19. Undergoes hydroxylation, O-methylation, and conjugation. Elimination half-life estimated at 8-12 hours. Extended duration attributed to active metabolites and benzofuran scaffold metabolic resistance.",
+        similarCompounds: [
+          "5-APB (positional isomer)",
+          "6-MAPB (N-methylated analog)",
+          "5-MAPB (positional isomer, N-methylated)",
+          "MDMA (3,4-methylenedioxymethamphetamine)",
+          "MDA (3,4-methylenedioxyamphetamine)",
+          "Benzofury analogs"
+        ],
+        studyProtocols: [
+          "Competitive radioligand displacement at monoamine transporters",
+          "[³H]Serotonin and [³H]dopamine release assays in rat synaptosomes",
+          "Calcium mobilization assays at 5-HT2A/2C receptors",
+          "In vivo microdialysis measuring extracellular monoamines",
+          "Locomotor activity and behavioral assessments in rodents",
+          "Drug discrimination studies (MDMA-trained animals)",
+          "Metabolic stability assays in liver microsomes/hepatocytes",
+          "CYP inhibition/induction studies",
+          "Comparative pharmacology with structural analogs"
+        ]
+      }
     }
   },
 

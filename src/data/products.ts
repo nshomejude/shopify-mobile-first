@@ -1407,7 +1407,147 @@ SAMHSA National Helpline (substance abuse information and treatment referral): 1
   {
     id: "rx-007",
     name: "Morphine",
-    description: "Potent opioid analgesic for severe pain management",
+    description: `**WHAT IS MORPHINE**
+
+Morphine is a potent opioid analgesic medication derived from the opium poppy plant, belonging to the class of drugs known as narcotic analgesics. It represents the gold standard for treating moderate to severe pain and has been used in medicine for over two centuries. Morphine works by binding to specific opioid receptors in the brain and spinal cord, altering the perception and emotional response to pain. This powerful medication is available in various formulations including immediate-release tablets, extended-release tablets, oral solutions, and injectable forms, allowing healthcare providers to tailor treatment to individual patient needs. The medication is classified as a Schedule II controlled substance due to its high potential for abuse and physical dependence.
+
+**IMPORTANT SAFETY INFORMATION**
+
+WARNING: ADDICTION, ABUSE, AND MISUSE; RISK EVALUATION AND MITIGATION STRATEGY (REMS); LIFE-THREATENING RESPIRATORY DEPRESSION; ACCIDENTAL INGESTION; NEONATAL OPIOID WITHDRAWAL SYNDROME; and RISKS FROM CONCOMITANT USE WITH BENZODIAZEPINES OR OTHER CNS DEPRESSANTS.
+
+Morphine exposes patients and other users to the risks of opioid addiction, abuse, and misuse, which can lead to overdose and death. Assess each patient's risk prior to prescribing morphine, and monitor all patients regularly for the development of these behaviors and conditions. Serious, life-threatening, or fatal respiratory depression may occur with use of morphine. Monitor for respiratory depression, especially during initiation of morphine or following a dose increase. Instruct patients to swallow extended-release morphine tablets whole; crushing, chewing, or dissolving extended-release morphine can cause rapid release and absorption of a potentially fatal dose of morphine.
+
+Accidental ingestion of even one dose of morphine, especially by children, can result in a fatal overdose of morphine. Prolonged use of morphine during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening if not recognized and treated, and requires management according to protocols developed by neonatology experts. If opioid use is required for a prolonged period in a pregnant woman, advise the patient of the risk of neonatal opioid withdrawal syndrome and ensure that appropriate treatment will be available.
+
+Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of morphine and benzodiazepines or other CNS depressants for use in patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation.
+
+**USES OF MORPHINE**
+
+Morphine is FDA-approved for the management of pain severe enough to require daily, around-the-clock, long-term opioid treatment and for which alternative treatment options (e.g., non-opioid analgesics or immediate-release opioids) are inadequate. The medication is particularly valuable in managing acute severe pain following major surgery, trauma, or medical procedures. It plays a crucial role in cancer pain management, where it helps maintain quality of life for patients with advanced malignancies. Morphine is also used in palliative and end-of-life care to manage severe pain and dyspnea (shortness of breath), providing comfort to terminally ill patients.
+
+Extended-release formulations are specifically designed for patients requiring continuous opioid analgesia over an extended period. The medication is not indicated for as-needed (PRN) pain relief, for acute pain, or for pain that is expected to resolve in a few days. Morphine should only be prescribed by healthcare professionals who are knowledgeable in the use of potent opioids for the management of chronic pain.
+
+Off-label uses include the management of acute pulmonary edema associated with congestive heart failure, where morphine can reduce anxiety and preload. It may also be used to manage dyspnea in patients with advanced chronic obstructive pulmonary disease (COPD) or other end-stage pulmonary diseases, though this use requires careful monitoring due to respiratory depression risks.
+
+**HOW TO USE MORPHINE**
+
+Morphine should be taken exactly as prescribed by your healthcare provider. Do not increase your dose, take it more frequently, or use it for longer than directed by your doctor. For immediate-release formulations, the typical starting dose for opioid-naive patients is 15-30 mg every 4 hours as needed for pain. The dose may be adjusted based on pain relief and tolerability. Extended-release morphine should be started at 15 mg every 12 hours in opioid-naive patients, with careful titration upward based on individual response.
+
+Take morphine with or without food, though taking it with food may help reduce nausea in some patients. Swallow tablets whole with plenty of water. Extended-release tablets must never be broken, crushed, chewed, or dissolved, as this can release the entire dose at once and cause dangerous or fatal morphine levels. If you are taking the liquid form, carefully measure the dose using a special measuring device or spoon provided by your pharmacist. Do not use a household spoon as you may not get the correct dose.
+
+If you have been taking morphine regularly for several weeks or longer, do not stop taking it suddenly without talking to your healthcare provider. Your doctor may decrease your dose gradually to prevent withdrawal symptoms such as restlessness, watering eyes, runny nose, yawning, sweating, chills, muscle pain, widened pupils, irritability, anxiety, back or joint pain, weakness, stomach cramps, difficulty falling asleep or staying asleep, nausea, loss of appetite, vomiting, diarrhea, fast heartbeat, and fast breathing.
+
+**DOSING INFORMATION**
+
+Initial Dosing: For immediate-release morphine in opioid-naive adults: 10-30 mg every 4 hours as needed. For extended-release formulations: 15 mg every 12 hours, with dose titration every 1-2 days as needed for adequate analgesia. The goal is to titrate to a dose that provides adequate analgesia with tolerable side effects.
+
+Conversion from Other Opioids: When converting from other opioids to morphine, it is safer to underestimate a patient's 24-hour morphine requirements and provide rescue medication than to overestimate the requirements. Use equianalgesic conversion tables as a guide, but understand that these are approximate. Start with a conservative conversion dose (usually 50-75% of the calculated dose) and titrate based on response.
+
+Hepatic Impairment: Morphine should be started at a lower dose in patients with hepatic impairment, as morphine exposure may be increased. Consider starting at one-third to one-half the usual dose and titrate slowly while monitoring for respiratory depression and sedation.
+
+Renal Impairment: In patients with renal impairment, morphine and its active metabolites may accumulate. Start with reduced doses and titrate slowly. Patients on dialysis may require dose adjustments, and supplemental doses may be needed post-dialysis.
+
+Geriatric Patients: Elderly patients (age 65 years and older) may be more sensitive to the effects of morphine. Start with lower doses and titrate slowly. Monitor closely for signs of respiratory depression, sedation, and confusion.
+
+Pediatric Considerations: The safety and effectiveness of extended-release morphine in pediatric patients below the age of 18 have not been established. Immediate-release morphine may be used in children for severe pain, with dosing typically calculated at 0.1-0.2 mg/kg every 4 hours.
+
+**WARNINGS AND PRECAUTIONS**
+
+Life-threatening respiratory depression is the chief risk of morphine therapy. This risk is highest during initiation of therapy and following dose increases. Monitor patients closely, especially those at increased risk (elderly, debilitated, those with chronic pulmonary disease). Morphine should be avoided in patients with significant respiratory depression, acute or severe bronchial asthma in an unmonitored setting, and in patients with known or suspected gastrointestinal obstruction.
+
+The prolonged use of morphine can result in physical dependence and tolerance. Abrupt discontinuation or rapid dose reduction may result in withdrawal symptoms including restlessness, lacrimation, rhinorrhea, yawning, perspiration, chills, myalgia, mydriasis, irritability, anxiety, insomnia, backache, joint pain, weakness, abdominal cramps, anorexia, nausea, vomiting, diarrhea, increased blood pressure, increased respiratory rate, and increased heart rate. To avoid withdrawal, taper the dose gradually when discontinuing therapy.
+
+Morphine has a high potential for abuse and addiction, even at recommended doses. Assess each patient's risk for opioid abuse or addiction prior to prescribing, and monitor all patients regularly for development of these behaviors. Risk factors include personal or family history of substance abuse, mental illness, or young age. However, the potential for these risks should not prevent prescribing morphine for proper pain management.
+
+Use morphine with extreme caution in patients with chronic obstructive pulmonary disease or cor pulmonale, in patients having a substantially decreased respiratory reserve, hypoxia, hypercapnia, or pre-existing respiratory depression. In such patients, even usual therapeutic doses may decrease respiratory drive to the point of apnea. Consider alternative non-opioid analgesics, and use morphine only under careful medical supervision at the lowest effective dose.
+
+Morphine may cause severe hypotension, including orthostatic hypotension and syncope, in ambulatory patients. There is increased risk in patients whose ability to maintain blood pressure has been compromised by depleted blood volume or concurrent administration of certain CNS depressant drugs. Monitor patients for signs of hypotension after initiating or titrating the dose.
+
+The use of morphine may obscure the diagnosis or clinical course in patients with acute abdominal conditions. Morphine may cause spasm of the sphincter of Oddi and should be used with caution in patients with biliary tract disease, including acute pancreatitis.
+
+**SIDE EFFECTS**
+
+Common side effects of morphine include constipation (one of the most common and persistent side effects), nausea and vomiting (especially during initial therapy), drowsiness and sedation, dizziness and lightheadedness, dry mouth, sweating, itching or pruritus, urinary retention, and miosis (pinpoint pupils). Constipation is often chronic and may require prophylactic treatment with stool softeners and laxatives throughout morphine therapy.
+
+Serious side effects requiring immediate medical attention include severe respiratory depression characterized by slow or shallow breathing, severe hypotension with symptoms of dizziness or fainting, signs of adrenal insufficiency (nausea, vomiting, loss of appetite, fatigue, weakness, dizziness, low blood pressure), symptoms of low sex hormone levels (androgen deficiency), severe allergic reactions including anaphylaxis with symptoms of rash, hives, itching, difficulty breathing, swelling of face, lips, tongue, or throat.
+
+Additional serious adverse effects include seizures (particularly in patients with a history of seizure disorder or those at risk), serotonin syndrome (when combined with serotonergic drugs), characterized by agitation, hallucinations, rapid heart rate, fever, muscle stiffness, trouble coordinating movements, nausea, vomiting, or diarrhea. Signs of overdose include extreme drowsiness, loss of consciousness, slow heart rate, muscle weakness or limpness, cold and clammy skin, narrowed or widened pupils, slow or stopped breathing.
+
+Chronic use can lead to opioid-induced hyperalgesia, a paradoxical condition where patients become more sensitive to pain. This differs from tolerance and requires different management strategies. Long-term opioid therapy can also suppress the immune system, potentially increasing susceptibility to infections.
+
+**DRUG INTERACTIONS**
+
+Benzodiazepines and Other CNS Depressants: Concomitant use of morphine with benzodiazepines, other opioids, alcohol, sedative/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, and other CNS depressants can result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing for patients with inadequate alternative treatment options, use minimum effective dosages and durations, and monitor closely for respiratory depression and sedation.
+
+Serotonergic Drugs: Concomitant use of morphine with serotonergic drugs (SSRIs, SNRIs, TCAs, triptans, 5-HT3 receptor antagonists, mirtazapine, trazodone, tramadol, MAO inhibitors, linezolid) may result in serotonin syndrome, a potentially life-threatening condition. Symptoms include mental status changes, autonomic instability, neuromuscular aberrations, and gastrointestinal symptoms. Discontinue morphine if serotonin syndrome is suspected.
+
+Monoamine Oxidase Inhibitors (MAOIs): Morphine is not recommended for use in patients who have received MAOIs within 14 days due to the risk of severe and unpredictable potentiation of MAOIs. Monitor patients closely and consider dose reduction if concomitant use is necessary.
+
+Mixed Agonist/Antagonist and Partial Agonist Opioid Analgesics: Avoid the use of mixed agonist/antagonist (e.g., pentazocine, nalbuphine, butorphanol) or partial agonist (e.g., buprenorphine) analgesics in patients receiving morphine, as they may reduce the analgesic effect or precipitate withdrawal symptoms.
+
+Muscle Relaxants: Morphine may enhance the neuromuscular blocking action of skeletal muscle relaxants and increase the degree of respiratory depression. Monitor patients for signs of respiratory depression that may be greater than otherwise expected.
+
+Diuretics: Opioids can reduce the efficacy of diuretics by inducing the release of antidiuretic hormone. Monitor patients for signs of diminished diuresis and/or effects on blood pressure.
+
+Anticholinergic Drugs: Concurrent use with anticholinergic drugs may increase the risk of urinary retention and severe constipation, which may lead to paralytic ileus.
+
+CYP450 Interactions: While morphine is not a major substrate for CYP450 enzymes, drugs that affect glucuronidation may alter morphine clearance. Rifampin and other CYP3A4 inducers may increase morphine clearance and reduce its effect.
+
+**PREGNANCY AND BREASTFEEDING**
+
+Pregnancy: Morphine crosses the placental barrier and may produce respiratory depression and psycho-physiologic effects in neonates. Prolonged use of opioid analgesics during pregnancy for medical or nonmedical purposes can result in neonatal opioid withdrawal syndrome, which can be life-threatening if not recognized and treated. If morphine is used for a prolonged period during pregnancy, advise the patient of the risk and ensure that appropriate treatment will be available.
+
+There are clinical considerations for both mother and fetus when morphine is used during labor and delivery. Opioids cross the placenta and may produce respiratory depression in neonates. An opioid antagonist such as naloxone should be available for reversal of opioid-induced respiratory depression in the neonate. Morphine is not recommended for use in pregnant women during or immediately prior to labor when shorter-acting analgesics are more appropriate.
+
+Morphine should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. There are no adequate and well-controlled studies in pregnant women. Animal reproduction studies have shown adverse effects on fetal development.
+
+Breastfeeding: Morphine is present in breast milk. Because of the potential for serious adverse reactions, including excess sedation and respiratory depression in a breastfed infant, advise patients that breastfeeding is not recommended during treatment with morphine. Monitor infants exposed to morphine through breast milk for excess sedation and respiratory depression. Withdrawal symptoms can occur in breastfed infants when maternal administration of morphine is stopped or when breastfeeding is stopped.
+
+The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for morphine and any potential adverse effects on the breastfed infant from morphine or from the underlying maternal condition.
+
+**OVERDOSE**
+
+Morphine overdose is a medical emergency that can be fatal. Signs and symptoms of overdose include respiratory depression (decreased respiratory rate and/or tidal volume, Cheyne-Stokes respiration, cyanosis), extreme somnolence progressing to stupor or coma, skeletal muscle flaccidity, cold and clammy skin, constricted pupils (though mydriasis rather than miosis may be seen in cases of severe hypoxia), bradycardia, hypotension, and in severe cases, apnea, circulatory collapse, cardiac arrest, and death.
+
+If morphine overdose is suspected, immediately call emergency services (911 in the US). While waiting for emergency help, keep the person awake if possible and position them on their side to prevent choking if vomiting occurs. Do not give the person anything to eat or drink. If the person stops breathing, perform CPR if you are trained to do so.
+
+Treatment of morphine overdose focuses primarily on the reestablishment of adequate respiratory exchange through provision of a patent airway and institution of assisted or controlled ventilation. Employ other supportive measures (including oxygen and vasopressors) as indicated. Cardiac arrest or arrhythmias may require cardiac massage or defibrillation.
+
+The opioid antagonist naloxone hydrochloride is a specific antidote against respiratory depression from opioid overdose. Administer naloxone as soon as possible, following the manufacturer's current prescribing information. Since the duration of action of morphine may exceed that of naloxone, keep the patient under continued surveillance. Administer repeated doses of naloxone as needed. Multiple doses may be necessary due to morphine's long duration of action, particularly with extended-release formulations.
+
+In an individual physically dependent on opioids, administration of the recommended usual dosage of naloxone will precipitate an acute withdrawal syndrome. The severity of the withdrawal symptoms experienced will depend on the degree of physical dependence and the dose of naloxone administered.
+
+**STORAGE AND HANDLING**
+
+Store morphine at room temperature, between 20°C to 25°C (68°F to 77°F), away from light and moisture. Keep the medication in its original container, tightly closed when not in use. Do not store in the bathroom or near sinks due to moisture. Protect from light and humidity. Extended-release formulations should not be exposed to temperatures above 30°C (86°F).
+
+Keep morphine and all opioid medications out of the reach of children and pets. Accidental ingestion by a child can result in fatal overdose. Store in a secure location, preferably in a locked cabinet or safe. Be aware that morphine has street value and potential for diversion. Never share your morphine with others, even if they appear to have similar symptoms. The medication has been prescribed specifically for your condition.
+
+Proper disposal of unused morphine is critical to prevent accidental ingestion or intentional misuse. The FDA recommends disposing of unused morphine by mixing it with an undesirable substance such as dirt, cat litter, or used coffee grounds, sealing it in a plastic bag, and placing it in household trash. Remove all personal information from the prescription label before disposal. Alternatively, take advantage of DEA-authorized take-back programs in your community, or use an FDA-approved drug disposal system if available.
+
+Do not flush morphine down the toilet unless the label or accompanying patient information specifically instructs you to do so. Some formulations are on the FDA flush list due to the severe risk of overdose if accidentally ingested, but follow current FDA guidance.
+
+**PATIENT COUNSELING INFORMATION**
+
+Advise patients and caregivers to read the FDA-approved patient labeling (Medication Guide). Inform patients that morphine is a controlled substance and that it carries risks of abuse and addiction. Emphasize the importance of taking morphine exactly as prescribed and not sharing it with others.
+
+Instruct patients to swallow extended-release morphine tablets whole and never to cut, break, chew, crush, or dissolve the tablets. Doing so can release all of the drug at once, increasing the risk of morphine overdose. Inform patients that accidental ingestion, especially by children, can result in respiratory depression or death.
+
+Advise patients of the potential for severe constipation and recommend prophylactic use of laxatives. Inform patients that nausea and vomiting are common initially but usually improve with continued use. If persistent, antiemetic medication may help.
+
+Warn patients about the risk of respiratory depression, particularly when initiating therapy or increasing doses. Instruct patients to seek immediate medical attention if they experience difficulty breathing or extreme drowsiness. Advise patients not to drive, operate heavy machinery, or perform any hazardous tasks until they know how morphine affects them. Morphine may cause drowsiness, dizziness, or impaired thinking.
+
+Inform patients about the signs of low blood pressure (dizziness, lightheadedness, fainting) and to change positions slowly to minimize orthostatic hypotension. Advise patients to stay well-hydrated and avoid alcohol and other CNS depressants while taking morphine.
+
+Educate patients about the risks of combining morphine with benzodiazepines, alcohol, or other CNS depressants. Emphasize that such combinations can lead to extreme sleepiness, slowed or stopped breathing, and death. Instruct patients to inform all healthcare providers about morphine use before any procedure or starting any new medication.
+
+Advise female patients of reproductive potential that prolonged use of morphine during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening if not recognized and treated. Inform patients that chronic use may reduce fertility in both males and females.
+
+Instruct patients not to discontinue morphine abruptly if they have been taking it regularly, as withdrawal symptoms may occur. Advise them to work with their healthcare provider to taper the dose gradually when it is time to stop the medication.
+
+Provide information about naloxone for emergency treatment of opioid overdose, and consider co-prescribing naloxone for patients at increased risk of overdose. Instruct patients and caregivers in the recognition of overdose symptoms and the use of naloxone if prescribed.
+
+DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme demonstration purposes only. No actual medications are sold or dispensed. All medical information should be verified with qualified healthcare professionals before making treatment decisions.`,
     price: 45.99,
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
     category: "prescription-drugs",
@@ -1457,7 +1597,165 @@ SAMHSA National Helpline (substance abuse information and treatment referral): 1
   {
     id: "rx-008",
     name: "Oxycodone",
-    description: "Opioid analgesic for moderate to severe pain",
+    description: `**WHAT IS OXYCODONE**
+
+Oxycodone is a semi-synthetic opioid analgesic medication derived from thebaine, an alkaloid found in the opium poppy. It belongs to the class of medications known as narcotic analgesics and is used to treat moderate to severe pain when other pain treatments have not been effective or cannot be tolerated. Oxycodone works by changing how the brain and nervous system respond to pain, binding to opioid receptors in the central nervous system to reduce the perception of pain and the emotional response to painful stimuli. This medication is available in immediate-release formulations for acute pain management and extended-release formulations designed to provide around-the-clock pain relief for patients requiring continuous opioid treatment. As a Schedule II controlled substance, oxycodone has a high potential for abuse and physical dependence, requiring careful prescribing, monitoring, and patient education.
+
+**IMPORTANT SAFETY INFORMATION**
+
+WARNING: ADDICTION, ABUSE, AND MISUSE; LIFE-THREATENING RESPIRATORY DEPRESSION; ACCIDENTAL INGESTION; NEONATAL OPIOID WITHDRAWAL SYNDROME; INTERACTION WITH ALCOHOL; and RISKS FROM CONCOMITANT USE WITH BENZODIAZEPINES OR OTHER CNS DEPRESSANTS.
+
+Oxycodone exposes patients and other users to the risks of opioid addiction, abuse, and misuse, which can lead to overdose and death. Assess each patient's risk prior to prescribing oxycodone, and monitor all patients regularly for the development of these behaviors or conditions. Serious, life-threatening, or fatal respiratory depression may occur with use of oxycodone, particularly during initiation or following a dose increase. Monitor for respiratory depression, especially during initial therapy and dose escalations.
+
+Instruct patients to swallow extended-release oxycodone tablets whole. Crushing, dissolving, or chewing extended-release oxycodone tablets can cause rapid release and absorption of a potentially fatal dose of oxycodone. Accidental ingestion of even one dose of oxycodone, especially by children, can result in a fatal overdose. Prolonged use of oxycodone during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening if not recognized and treated according to protocols developed by neonatology experts.
+
+Instruct patients not to consume alcoholic beverages or use prescription or non-prescription products that contain alcohol while taking oxycodone. The co-ingestion of alcohol with extended-release oxycodone may result in increased plasma levels and a potentially fatal overdose of oxycodone. Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing for patients with inadequate alternative treatment options, limit dosages and durations to the minimum required, and follow patients for signs and symptoms of respiratory depression and sedation.
+
+**USES OF OXYCODONE**
+
+Oxycodone is FDA-approved for the management of pain severe enough to require daily, around-the-clock, long-term opioid treatment and for which alternative treatment options (non-opioid analgesics or immediate-release opioids) are inadequate or not tolerated. The medication is indicated for both acute and chronic pain conditions, though extended-release formulations are specifically designed for chronic pain requiring continuous opioid therapy.
+
+Common uses include management of postoperative pain following major surgical procedures, cancer-related pain in patients with active malignancies, chronic non-cancer pain when other treatments have failed, musculoskeletal pain from severe injuries or degenerative conditions, and pain associated with terminal illnesses where quality of life is the primary concern. Immediate-release oxycodone is appropriate for acute pain expected to last a short duration, while extended-release formulations are reserved for patients who have already established opioid tolerance and require around-the-clock pain management.
+
+Oxycodone is not indicated for as-needed (PRN) pain relief, for the management of acute or postoperative pain unless the patient is already receiving chronic opioid therapy before surgery or if the postoperative pain is expected to be moderate to severe and persist for an extended period, or for pain that is mild or not expected to persist for an extended period. The drug should not be used for minor pain, intermittent pain, or pain that can be managed with non-opioid analgesics. Oxycodone should only be prescribed by healthcare professionals knowledgeable in the use of potent opioids for chronic pain management.
+
+Off-label uses may include the management of severe, refractory cough, though this is rare and requires specialized oversight. Some practitioners use oxycodone for dyspnea in end-of-life care, though morphine is more commonly employed for this indication.
+
+**HOW TO USE OXYCODONE**
+
+Take oxycodone exactly as prescribed by your healthcare provider. Follow all directions on your prescription label and read all medication guides. Your doctor may occasionally change your dose. Never use oxycodone in larger amounts or for longer than prescribed. Tell your doctor if you feel an increased urge to take more of this medicine. Never share opioid medicine with another person, especially someone with a history of drug abuse or addiction. Misuse can cause addiction, overdose, or death, particularly in children or others using the medicine without a prescription.
+
+For immediate-release oxycodone, the typical starting dose for opioid-naive adults is 5-15 mg every 4-6 hours as needed for pain. Your doctor will adjust your dose based on your pain level and how you respond to the medication. For extended-release oxycodone, the starting dose is typically 10 mg every 12 hours for patients not currently taking opioids. If you are being switched from another opioid medication, your doctor will calculate an appropriate starting dose based on your current medication and dose.
+
+Take oxycodone with or without food. If you experience nausea, taking it with food may help. Swallow the tablet or capsule whole to avoid exposure to a potentially fatal dose. Do not crush, break, chew, dissolve, or inject extended-release formulations. If you cannot swallow a capsule whole, open it and sprinkle the contents on applesauce (only if specifically instructed by your doctor that your formulation allows this). Swallow the mixture right away without chewing.
+
+Measure liquid oxycodone with the dosing syringe provided or use a medicine dose-measuring device (not a kitchen spoon). If you are taking oxycodone on a regular schedule and miss a dose, take it as soon as you remember. Skip the missed dose if it is almost time for your next scheduled dose. Do not take extra medicine to make up the missed dose. Never take two doses at one time.
+
+Do not stop using oxycodone suddenly after long-term use, or you could have unpleasant withdrawal symptoms. Ask your doctor how to safely stop using this medicine. Symptoms of withdrawal may include restlessness, teary eyes, runny nose, yawning, sweating, chills, muscle pain, dilated pupils, irritability, anxiety, trouble sleeping, loss of appetite, nausea, vomiting, diarrhea, increased blood pressure, increased breathing rate, and increased heart rate.
+
+**DOSING INFORMATION**
+
+Initial Dosing for Opioid-Naive Patients: Immediate-release oxycodone should be initiated at 5-15 mg every 4-6 hours as needed. Extended-release oxycodone should be started at 10 mg every 12 hours. Use the lowest effective dose for the shortest duration consistent with treatment goals. Individualize dosing based on the severity of pain, patient response, prior analgesic experience, and risk factors for addiction, abuse, and misuse.
+
+Titration and Maintenance: Dose adjustments should be made in increments that are appropriate for the severity of pain and the patient's prior opioid exposure. For immediate-release oxycodone, upward dose adjustments can be made more frequently (e.g., every 1-2 days) as needed. For extended-release oxycodone, dose adjustments should generally be made in increments of 25-50% of the current dose every 1-2 days, as needed to achieve adequate analgesia. Assess the patient's pain and response to treatment frequently, especially during dose initiation and titration.
+
+Conversion Between Different Oxycodone Formulations: When converting from immediate-release to extended-release oxycodone, calculate the total daily dose of immediate-release oxycodone and give half of that total dose as extended-release oxycodone every 12 hours. Monitor patients closely for adverse events and adequate pain control during the conversion period.
+
+Conversion from Other Opioids: Use published relative potency information as a guide when converting from other opioid analgesics to oxycodone. Substantial inter-patient variability exists in relative potency, so it is safer to underestimate a patient's daily oxycodone requirement and provide rescue medication than to overestimate. Consider starting at 50-75% of the calculated dose. Monitor closely for signs of opioid withdrawal and adequacy of analgesia, and adjust dose accordingly.
+
+Renal Impairment: The plasma concentrations of oxycodone are increased in patients with renal impairment. Start patients with mild impairment (creatinine clearance 50-80 mL/min) on half the usual starting dose and titrate carefully. In moderate to severe renal impairment (creatinine clearance < 50 mL/min), start at even lower doses (approximately one-third to one-quarter of the usual dose) and titrate slowly while monitoring closely for adverse events.
+
+Hepatic Impairment: Oxycodone plasma concentrations are increased in patients with hepatic impairment. Start patients with mild hepatic impairment at one-third to one-half the usual starting dose and titrate slowly. In moderate to severe hepatic impairment, use even more conservative initial dosing and slower titration. Consider using alternative analgesics in patients with severe hepatic impairment.
+
+Geriatric Patients: Elderly patients (generally ≥65 years) may be more sensitive to the effects of oxycodone. Respiratory depression is the chief risk for elderly patients, and this risk is increased in patients with conditions accompanied by hypoxia or hypercapnia. Start with lower doses (approximately one-third to one-half the usual adult dose) and titrate slowly while monitoring closely for adverse events.
+
+Discontinuation: When a patient no longer requires therapy with oxycodone, taper the dose gradually every 2-4 days to prevent signs and symptoms of withdrawal. Do not abruptly discontinue oxycodone in physically dependent patients. Gradually taper the dose by 25-50% every 2-4 days down to 30 mg daily (for extended-release) before discontinuation.
+
+**WARNINGS AND PRECAUTIONS**
+
+Life-threatening respiratory depression has occurred in patients treated with oxycodone, particularly during initiation and dosage increases. This risk is greatest in opioid-non-tolerant patients, elderly or debilitated patients, and patients with conditions accompanied by hypoxia, hypercapnia, or decreased respiratory reserve (e.g., COPD, cor pulmonale, severe obesity, sleep apnea syndrome, myxedema, kyphoscoliosis, CNS depression). Monitor such patients closely, particularly during initiation and titration of oxycodone. Consider using alternative non-opioid analgesics in these patients.
+
+Oxycodone has a high potential for abuse similar to other opioid agonists, legal or illicit. Addiction can occur at recommended doses and if the drug is misused or abused. Assess each patient's risk for opioid abuse or addiction prior to prescribing oxycodone, and monitor all patients regularly for development of these behaviors. However, concerns about abuse, addiction, and misuse should not prevent the prescribing of oxycodone for proper pain management.
+
+Oxycodone should not be abruptly discontinued in physically dependent patients. Use of oxycodone for an extended period during pregnancy can result in neonatal opioid withdrawal syndrome, which can be life-threatening and requires management according to protocols developed by neonatology experts. If oxycodone is required for prolonged use in a pregnant woman, advise the patient of the risk of neonatal withdrawal and ensure appropriate treatment will be available.
+
+The use of oxycodone with cytochrome P450 3A4 inhibitors or discontinuation of cytochrome P450 3A4 inducers may result in a fatal overdose of oxycodone. Avoid the use of oxycodone in patients taking CYP3A4 inhibitors or consider dose reductions and monitor closely. If a CYP3A4 inducer is discontinued, consider oxycodone dose reduction and monitor closely.
+
+Oxycodone may cause severe hypotension, including orthostatic hypotension and syncope, in ambulatory patients. There is increased risk in patients with compromised ability to maintain blood pressure due to blood volume depletion or concurrent administration of certain CNS depressants. Monitor these patients for signs of hypotension after initiating or titrating the dose. In patients with circulatory shock, oxycodone may cause vasodilation that can further reduce cardiac output and blood pressure. Avoid use of oxycodone in patients with circulatory shock.
+
+Avoid the use of oxycodone in patients with impaired consciousness or coma as these patients are susceptible to intracranial effects of CO2 retention. Opioids may obscure the clinical course of a patient with a head injury and should be used with caution in patients with brain tumors, increased intracranial pressure, or other intracranial lesions. Monitor patients with these conditions closely.
+
+Oxycodone may cause spasm of the sphincter of Oddi. Monitor patients with biliary tract disease, including acute pancreatitis, for worsening symptoms. Opioids may aggravate convulsions in patients with convulsive disorders and may induce or aggravate seizures in some clinical settings. Monitor patients with a history of seizure disorders for worsened seizure control during oxycodone therapy.
+
+**SIDE EFFECTS**
+
+The most common adverse reactions (≥5% incidence) in clinical trials included constipation, nausea, somnolence, dizziness, pruritus (itching), vomiting, headache, dry mouth, asthenia (weakness), and sweating. Constipation is particularly common and often persistent, requiring prophylactic use of stool softeners and laxatives throughout treatment. Many patients develop tolerance to nausea and vomiting within a few days, but constipation typically persists.
+
+Serious adverse reactions include respiratory depression, which may be life-threatening or fatal. This is characterized by a reduced urge to breathe, decreased respiratory rate, or ineffective breathing. Other serious reactions include circulatory depression with severe hypotension, peripheral vasodilation, orthostatic hypotension, and syncope (fainting). Profound sedation progressing to somnolence or coma may occur, especially when combined with other CNS depressants.
+
+Additional serious adverse effects include adrenal insufficiency (rare but serious), with symptoms including nausea, vomiting, loss of appetite, fatigue, weakness, dizziness, and low blood pressure. Androgen deficiency may occur with chronic use, leading to decreased libido, impotence, erectile dysfunction, amenorrhea, or infertility. These hormonal effects are important to discuss with patients on long-term therapy.
+
+Severe allergic reactions, though rare, can occur and include anaphylaxis with symptoms of rash, hives, itching, difficulty breathing or swallowing, swelling of the face, lips, tongue, or throat, and rapid heartbeat. Seizures have been reported with oxycodone use, particularly in patients with a predisposition to convulsive disorders or those taking medications that lower seizure threshold.
+
+QT interval prolongation has been observed with oxycodone, especially at higher doses. This may lead to torsades de pointes, a potentially life-threatening arrhythmia. Use caution in patients at risk for QT prolongation or those taking other medications that prolong the QT interval. Serotonin syndrome, a potentially life-threatening condition, can occur with concurrent use of serotonergic drugs.
+
+Cognitive impairment and psychomotor performance may be significantly affected, with symptoms including confusion, difficulty concentrating, impaired judgment, hallucinations, unusual thoughts or behavior, and mental status changes. These effects can be particularly pronounced in elderly patients. Urinary retention and decreased urinary output may occur, especially in patients with preexisting bladder outflow obstruction or those taking anticholinergic medications concurrently.
+
+**DRUG INTERACTIONS**
+
+Central Nervous System Depressants: Concomitant use of oxycodone with benzodiazepines, other opioids, alcohol, barbiturates, sedative/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, or other CNS depressants may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing for use in patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Monitor patients for respiratory depression and sedation. If concomitant use is warranted, consider dose reduction of one or both drugs.
+
+CYP3A4 Inhibitors: The concomitant use of oxycodone with CYP3A4 inhibitors (such as macrolide antibiotics like erythromycin, azole-antifungal agents like ketoconazole, protease inhibitors like ritonavir) may result in increased plasma concentrations of oxycodone and could increase or prolong adverse drug effects, potentially resulting in fatal respiratory depression. Monitor patients receiving oxycodone and any CYP3A4 inhibitor for signs of respiratory depression and sedation. Consider dose reduction of oxycodone when used concomitantly with CYP3A4 inhibitors.
+
+CYP3A4 Inducers: The concomitant use of oxycodone with CYP3A4 inducers (such as rifampin, carbamazepine, phenytoin) may result in decreased plasma concentrations of oxycodone, potentially reducing efficacy or onset of action, and may result in a decrease in oxycodone plasma concentrations, which could decrease efficacy. Monitor for signs of opioid withdrawal. After stopping a CYP3A4 inducer, monitor for signs of opioid toxicity and consider reducing the oxycodone dosage.
+
+Serotonergic Drugs: Concomitant use of oxycodone with serotonergic drugs (SSRIs, SNRIs, TCAs, triptans, 5-HT3 receptor antagonists, drugs that affect serotonin neurotransmitter systems such as mirtazapine, trazodone, tramadol, MAOIs, linezolid, methylene blue) may result in serotonin syndrome, a potentially life-threatening condition. Symptoms include mental status changes, autonomic instability, neuromuscular aberrations, and/or gastrointestinal symptoms. Discontinue oxycodone if serotonin syndrome is suspected.
+
+Monoamine Oxidase Inhibitors (MAOIs): Oxycodone is not recommended for use in patients who have received MAOIs within 14 days due to the risk of severe and unpredictable potentiation by MAOIs. Monitor patients taking oxycodone and MAOIs for signs of respiratory depression, sedation, and serotonin syndrome.
+
+Mixed Agonist/Antagonist and Partial Agonist Opioid Analgesics: Avoid the use of mixed agonist/antagonist (pentazocine, nalbuphine, butorphanol) or partial agonist (buprenorphine) analgesics in patients who have received or are receiving oxycodone. These may reduce the analgesic effect of oxycodone or precipitate withdrawal symptoms.
+
+Muscle Relaxants: Oxycodone may enhance the neuromuscular blocking action of skeletal muscle relaxants and produce an increased degree of respiratory depression. Monitor patients for signs of respiratory depression greater than otherwise expected.
+
+Diuretics: Opioids can reduce the efficacy of diuretics by inducing the release of antidiuretic hormone. Monitor patients for signs of diminished diuresis and/or effects on blood pressure and increase the dosage of diuretic as needed.
+
+Anticholinergic Drugs: The concomitant use of anticholinergic drugs may increase risk of urinary retention and/or severe constipation, which may lead to paralytic ileus. Monitor patients for signs of urinary retention or reduced gastric motility.
+
+Alcohol: Instruct patients not to consume alcoholic beverages or use prescription or non-prescription products containing alcohol while on oxycodone therapy. The co-ingestion of alcohol with oxycodone may result in increased plasma levels and a potentially fatal overdose of oxycodone.
+
+**PREGNANCY AND BREASTFEEDING**
+
+Pregnancy: There are no adequate and well-controlled studies of oxycodone use in pregnant women. Prolonged use of opioid analgesics during pregnancy can cause neonatal opioid withdrawal syndrome, which can be life-threatening if not recognized and treated according to protocols developed by neonatology experts. If oxycodone is used for a prolonged period in a pregnant woman, advise the patient of the risk of neonatal opioid withdrawal syndrome and ensure that appropriate treatment will be available.
+
+Oxycodone should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Animal reproduction studies have shown that oxycodone has embryo-fetal toxicity, including external, visceral, and skeletal malformations and variations. Use during labor and delivery may produce respiratory depression in neonates. An opioid antagonist such as naloxone should be readily available for reversal of opioid-induced respiratory depression in the neonate.
+
+Neonatal opioid withdrawal syndrome presents as irritability, hyperactivity and abnormal sleep pattern, high-pitched cry, tremor, vomiting, diarrhea, and failure to gain weight. The onset, duration, and severity depend on the specific opioid used, duration of use, timing and amount of last maternal use, and rate of elimination by the newborn. Observe newborns for symptoms and manage accordingly.
+
+Breastfeeding: Oxycodone is present in breast milk. There have been rare reports of excessive sedation and respiratory depression in infants exposed to oxycodone through breast milk. Because of the potential for serious adverse reactions, including excess sedation, respiratory depression, and death in a breastfed infant, advise patients that breastfeeding is not recommended during treatment with oxycodone.
+
+Clinical considerations for breastfeeding mothers include monitoring infants exposed to oxycodone through breast milk for excess sedation and respiratory depression. Withdrawal symptoms can occur in breastfed infants when maternal administration of an opioid analgesic is stopped or when breastfeeding is stopped. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for oxycodone and any potential adverse effects on the breastfed infant from oxycodone or from the underlying maternal condition.
+
+**OVERDOSE**
+
+Oxycodone overdose is characterized by respiratory depression, somnolence progressing to stupor or coma, skeletal muscle flaccidity, cold and clammy skin, constricted pupils (although mydriasis may occur due to severe hypoxia), bradycardia, hypotension, apnea, circulatory collapse, cardiac arrest, and death. Marked mydriasis rather than miosis may be seen in terminal stages due to severe hypoxia.
+
+If oxycodone overdose is suspected, seek emergency medical attention immediately or call the Poison Help line at 1-800-222-1222. In case of overdose, priorities are the reestablishment of a patent and protected airway and institution of assisted or controlled ventilation if needed. Employ other supportive measures (including oxygen and vasopressors) in the management of circulatory shock and pulmonary edema as indicated. Cardiac arrest or arrhythmias will require advanced life support techniques.
+
+The pure opioid antagonist naloxone is a specific antidote to respiratory depression resulting from opioid overdose. Administer naloxone (see naloxone prescribing information), preferably by intravenous route, simultaneously with efforts at respiratory resuscitation. Since the duration of action of oxycodone may exceed that of the antagonist, the patient should be kept under continued surveillance. Repeated administration of naloxone may be necessary.
+
+If the response to naloxone is suboptimal or not sustained, administer additional naloxone as directed by the product's prescribing information. In an individual physically dependent on opioids, administration of the recommended usual dosage of the antagonist will precipitate an acute withdrawal syndrome. The severity of the withdrawal syndrome will depend on the degree of physical dependence and the dose of the antagonist administered. Use caution when administering naloxone in patients with known or suspected opioid physical dependence.
+
+For extended-release oxycodone formulations, expect extended and severe toxicity even after an observed response to naloxone. Prolonged monitoring and repeated naloxone dosing according to labeling may be necessary. Consider contacting a poison control center for additional overdose management recommendations.
+
+**STORAGE AND HANDLING**
+
+Store oxycodone at controlled room temperature, between 20°C to 25°C (68°F to 77°F). Brief excursions permitted between 15°C to 30°C (59°F to 86°F). Protect from light and moisture. Keep tablets and capsules in the original container, tightly closed when not in use. Do not store in the bathroom or near moisture. Keep liquid formulations tightly closed and discard after 90 days or as directed on the label.
+
+Keep oxycodone in a secure location, preferably locked, out of sight and reach of children and pets. Accidental ingestion by a child can result in fatal oxycodone overdose. Be aware that oxycodone is a commonly diverted controlled substance. Never share your prescription with others, even if they appear to have similar symptoms or conditions. Sharing prescription opioids is illegal and can result in serious harm or death to the other person.
+
+Dispose of unused oxycodone properly to prevent accidental ingestion or intentional misuse. The preferred method is to take advantage of a drug take-back program in your community. Contact your local DEA office or visit the DEA's website to find an authorized collector location near you. Many pharmacies, hospitals, and law enforcement agencies participate in take-back programs.
+
+If no take-back program is available, remove oxycodone from the original container and mix with an undesirable substance such as dirt, cat litter, or used coffee grounds. Place the mixture in a sealed plastic bag and dispose of it in household trash. Remove all personal information from the prescription label before throwing away the empty container. The FDA recommends flushing certain opioids down the toilet when a take-back program is not readily available because of their potential for abuse and overdose, but check current FDA guidelines for specific product recommendations.
+
+**PATIENT COUNSELING INFORMATION**
+
+Advise the patient to read the FDA-approved patient labeling (Medication Guide). Inform patients that oxycodone is a Schedule II controlled substance and can be abused in a manner similar to other opioid agonists, legal or illicit. Instruct patients to store oxycodone securely and to dispose of unused medication properly.
+
+Inform patients that use of oxycodone, even when taken as recommended, can result in addiction, abuse, and misuse, which can lead to overdose or death. Instruct patients not to share oxycodone with others and to protect it from theft or misuse. Inform patients of the risk of life-threatening respiratory depression and instruct them to swallow extended-release oxycodone tablets whole. Crushing, chewing, or dissolving extended-release tablets can cause rapid release and absorption of a potentially fatal dose.
+
+Advise patients to store oxycodone securely and to dispose of unused oxycodone by flushing down the toilet (if on FDA flush list) or through a drug take-back program. Instruct patients to inform family members, including children, about the dangers of accidentally ingesting oxycodone.
+
+Inform female patients of reproductive potential that prolonged use of oxycodone during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening. Advise female patients to notify their healthcare provider if they become pregnant or are planning to become pregnant. Advise patients that oxycodone may impair the ability to perform potentially hazardous activities such as driving a car or operating heavy machinery. Advise patients not to perform such tasks until they know how they will react to the medication.
+
+Inform patients that oxycodone may cause orthostatic hypotension and syncope. Instruct patients how to recognize symptoms of low blood pressure and how to reduce the risk of serious consequences should hypotension occur (e.g., sit or lie down, carefully rise from a sitting or lying position). Inform patients that anaphylaxis has been reported with oxycodone. Advise patients how to recognize such reactions and when to seek medical attention.
+
+Instruct patients to inform their healthcare providers if they are taking, or plan to take, serotonergic medications. Advise patients of the symptoms of serotonin syndrome and to seek medical attention immediately if symptoms develop. Advise patients not to take oxycodone while using any drugs that inhibit monoamine oxidase. Patients should not start MAOIs while taking oxycodone.
+
+Inform patients that chronic use of opioids may cause reduced fertility. It is not known whether these effects on fertility are reversible. Instruct patients not to consume alcohol or take prescription or non-prescription products containing alcohol while taking extended-release oxycodone, as this may result in increased plasma concentrations and potentially fatal overdose. Instruct patients to take steps to store oxycodone securely and to properly dispose of unused medication.
+
+Advise patients that oxycodone could cause a rare but potentially life-threatening condition resulting from concomitant administration of serotonergic drugs. Warn patients of the symptoms of serotonin syndrome and to seek medical attention right away if symptoms develop. Instruct patients to inform their physicians if they are taking, or plan to take serotonergic medications.
+
+DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme demonstration purposes only. No actual medications are sold or dispensed. All medical information should be verified with qualified healthcare professionals before making treatment decisions.`,
     price: 52.99,
     image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
     category: "prescription-drugs",
@@ -1648,7 +1946,173 @@ SAMHSA National Helpline (substance abuse information and treatment referral): 1
   {
     id: "rx-012",
     name: "Celecoxib",
-    description: "COX-2 inhibitor for pain and inflammation with reduced GI side effects",
+    description: `**WHAT IS CELECOXIB**
+
+Celecoxib is a nonsteroidal anti-inflammatory drug (NSAID) that belongs to a class known as COX-2 selective inhibitors. Unlike traditional NSAIDs that block both COX-1 and COX-2 enzymes, celecoxib specifically targets the COX-2 enzyme, which is primarily responsible for inflammation and pain. This selective mechanism was designed to provide effective pain relief and anti-inflammatory effects while theoretically reducing the risk of gastrointestinal side effects associated with non-selective NSAIDs. Celecoxib is used to treat various painful and inflammatory conditions, including osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, and acute pain. It is also used for the management of primary dysmenorrhea (menstrual cramps). The medication works by reducing hormones that cause inflammation and pain in the body, specifically by inhibiting prostaglandin synthesis through selective COX-2 inhibition. Celecoxib is available in capsule form and is taken orally, typically once or twice daily depending on the condition being treated and the prescribed dose.
+
+**IMPORTANT SAFETY INFORMATION**
+
+WARNING: CARDIOVASCULAR AND GASTROINTESTINAL RISKS
+
+Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. Celecoxib is contraindicated in the setting of coronary artery bypass graft (CABG) surgery.
+
+NSAIDs cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events.
+
+Celecoxib may cause an increased risk of serious cardiovascular thrombotic events, including heart attack and stroke, which can be fatal. All NSAIDs may have a similar risk. This risk may increase with duration of use and in patients with cardiovascular disease or risk factors for cardiovascular disease. Patients treated with celecoxib should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous cardiovascular symptoms. Patients should seek immediate emergency help if they experience symptoms such as chest pain, shortness of breath, weakness in one part or side of the body, or slurred speech.
+
+Celecoxib should not be used for the treatment of peri-operative pain in the setting of coronary artery bypass graft (CABG) surgery. NSAIDs, including celecoxib, can cause serious gastrointestinal adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs.
+
+**USES OF CELECOXIB**
+
+Celecoxib is FDA-approved for multiple indications related to pain and inflammation. The primary approved uses include osteoarthritis, which is the most common form of arthritis characterized by breakdown of joint cartilage and underlying bone. In osteoarthritis, celecoxib helps reduce joint pain, stiffness, and swelling. The medication is also approved for rheumatoid arthritis, a chronic inflammatory disorder affecting joints, where it helps manage pain and inflammation while potentially slowing joint damage progression.
+
+Additional approved indications include ankylosing spondylitis, a form of arthritis that primarily affects the spine, causing inflammation of the spinal joints that can lead to severe, chronic pain and discomfort. Celecoxib provides relief from the pain and stiffness associated with this condition. The medication is also indicated for the management of acute pain in adults, including postoperative pain, dental pain, and other acute painful conditions requiring short-term treatment.
+
+Celecoxib is approved for the treatment of primary dysmenorrhea (painful menstrual periods), where it effectively reduces menstrual cramping and associated discomfort. In some cases, celecoxib may be prescribed for juvenile rheumatoid arthritis in children aged 2 years and older, though this is less common. The medication has also been studied and approved in some regions for familial adenomatous polyposis (FAP) as an adjunct to usual care, including endoscopic surveillance and surgery, to reduce the number of adenomatous colorectal polyps.
+
+Off-label uses may include management of chronic low back pain, gout flares, and other inflammatory conditions, though these uses should only be undertaken with appropriate medical supervision and consideration of the cardiovascular and gastrointestinal risks. The medication is generally prescribed when other pain management strategies have been inadequate or when the selective COX-2 inhibition profile offers specific advantages for the patient's situation.
+
+**HOW TO USE CELECOXIB**
+
+Take celecoxib exactly as prescribed by your doctor. Follow all directions on your prescription label and read all medication guides or instruction sheets. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals. Your doctor may adjust your dose to ensure you receive the lowest effective amount. Do not take celecoxib in larger amounts or for longer than recommended.
+
+Celecoxib can be taken with or without food. If you experience stomach upset, taking it with food, milk, or an antacid may help reduce discomfort. Swallow the capsule whole with a full glass of water. If you have difficulty swallowing capsules, you may open the capsule and sprinkle the contents onto a spoonful of applesauce. Swallow the mixture immediately without chewing. Rinse your mouth with water to ensure you have swallowed all of the medicine. Do not save the mixture for later use.
+
+For osteoarthritis, the typical adult dose is 200 mg daily taken as a single dose or divided into 100 mg twice daily. For rheumatoid arthritis, the usual dose is 100 to 200 mg twice daily. For acute pain or primary dysmenorrhea, the initial dose is typically 400 mg, followed by an additional 200 mg dose if needed on the first day. On subsequent days, the recommended dose is 200 mg twice daily as needed. For ankylosing spondylitis, the recommended dose is 200 mg daily as a single dose or 100 mg twice daily, with potential increase to 400 mg daily if needed.
+
+If you miss a dose, take it as soon as you remember. If it is near the time of the next dose, skip the missed dose. Take your next dose at the regular time. Do not double the dose to catch up. Take celecoxib at the same time(s) each day to help you remember and to maintain steady levels of the medication in your body.
+
+Do not stop taking celecoxib suddenly without consulting your doctor, especially if you are taking it for a chronic condition like arthritis. Your doctor may want to gradually decrease your dose. Store celecoxib at room temperature away from moisture and heat. Keep the bottle tightly closed when not in use.
+
+**DOSING INFORMATION**
+
+Osteoarthritis: The recommended dose is 200 mg daily administered as a single dose or as 100 mg twice daily. If no effect is seen after 6 weeks at 200 mg daily, a trial of 400 mg daily (200 mg twice daily) may be worthwhile. If no effect is evident after 6 weeks at 400 mg daily, consideration should be given to alternative treatment. Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals.
+
+Rheumatoid Arthritis: The recommended dose is 100 to 200 mg twice daily. Use the lowest effective dose. Some patients may benefit from starting at 200 mg twice daily, though this higher dose should be reassessed after initial response is established. Maximum recommended daily dose is 400 mg (200 mg twice daily).
+
+Ankylosing Spondylitis: The recommended dose of celecoxib is 200 mg daily administered as a single dose or as 100 mg twice daily. If no effect is observed after 6 weeks, a trial of 400 mg daily may be worthwhile. If no effect is seen after 6 weeks on 400 mg daily, response is unlikely and consideration should be given to alternative treatment.
+
+Acute Pain and Primary Dysmenorrhea: For management of acute pain and treatment of primary dysmenorrhea, the recommended initial dose is 400 mg, followed by an additional 200 mg dose if needed on the first day. On subsequent days, the recommended dose is 200 mg twice daily as needed. Take the initial dose as early as possible at the onset of pain or menstrual symptoms for best results.
+
+Juvenile Rheumatoid Arthritis (JRA): For patients aged 2 years and older weighing 10 to 25 kg, the recommended dose is 50 mg twice daily. For patients over 25 kg, the recommended dose is 100 mg twice daily. For patients who have difficulty swallowing capsules, the contents may be sprinkled on applesauce.
+
+Special Populations - Hepatic Impairment: Celecoxib should be initiated at half the recommended dose in patients with moderate hepatic impairment (Child-Pugh Class B). The use of celecoxib in patients with severe hepatic impairment is not recommended as celecoxib has not been studied in this population and elimination is reduced in hepatic impairment.
+
+Poor CYP2C9 Metabolizers: Patients who are known or suspected to be CYP2C9 poor metabolizers based on genotype or previous history should be administered celecoxib starting with half the lowest recommended dose. For patients with JRA who are known or suspected CYP2C9 poor metabolizers, celecoxib should be started at one-quarter of the recommended dose. Consider using alternative management in CYP2C9 poor metabolizers.
+
+Geriatric Use: At steady state, elderly subjects (over 65 years old) had a 40% higher C(max) and a 50% higher area under the curve (AUC) compared to young subjects. Start treatment at the lowest recommended dose. No dosage adjustment based solely on age is generally necessary, but monitor elderly patients more carefully for adverse effects.
+
+Renal Impairment: Celecoxib is not recommended in patients with severe renal impairment. Caution should be used when initiating treatment with celecoxib in patients with considerable dehydration. It is advisable to rehydrate patients first and then start celecoxib therapy. Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia during treatment with celecoxib.
+
+**WARNINGS AND PRECAUTIONS**
+
+Cardiovascular Thrombotic Events: NSAIDs, including celecoxib, cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. The risk may occur early in treatment and may increase with duration of use. To minimize the potential risk for an adverse CV event, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms.
+
+Patients with known CV disease or risk factors for CV disease may be at greater risk. There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and celecoxib does increase the risk of serious GI events. Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10-14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. Therefore, celecoxib is contraindicated in the setting of CABG surgery.
+
+Gastrointestinal Bleeding, Ulceration, and Perforation: NSAIDs, including celecoxib, cause serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic.
+
+Risk factors for GI bleeding include longer duration of NSAID therapy, older age, poor general health status, advanced liver disease, bleeding disorders, and concomitant use of aspirin, anticoagulants, or corticosteroids. To minimize the potential risk for an adverse GI event, use the lowest effective dose for the shortest possible duration. Remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy. If a serious GI adverse event is suspected, promptly initiate evaluation and treatment.
+
+Hepatotoxicity: Borderline elevations of liver enzymes may occur in up to 15% of patients taking NSAIDs, including celecoxib. These abnormalities may progress, may remain essentially unchanged, or may be transient with continued therapy. Severe hepatic reactions, including jaundice, fulminant hepatitis, liver necrosis, and hepatic failure (some fatal) have been reported. Discontinue celecoxib immediately if clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur.
+
+Hypertension: NSAIDs, including celecoxib, can lead to new onset or worsening of pre-existing hypertension, either of which may contribute to the increased incidence of CV events. Use NSAIDs, including celecoxib, with caution in patients with hypertension. Monitor blood pressure closely during initiation of treatment and throughout the course of therapy.
+
+Heart Failure and Edema: Fluid retention and edema have been observed in some patients taking NSAIDs, including celecoxib. Use celecoxib with caution in patients with fluid retention, hypertension, or heart failure. The Coxib and traditional NSAID Trialists' Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients compared to placebo-treated patients.
+
+Renal Toxicity: Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. Patients at greatest risk include those with impaired renal function, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors or ARBs, and the elderly. Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia.
+
+Anaphylactic Reactions: Celecoxib has been associated with anaphylactic reactions in patients with and without known hypersensitivity to celecoxib and in patients with aspirin-sensitive asthma. Celecoxib is a sulfonamide and both NSAIDs and sulfonamides may cause allergic-type reactions including anaphylactic symptoms and life-threatening or less severe asthmatic episodes in certain susceptible people. Celecoxib is contraindicated in patients with known hypersensitivity to celecoxib, any components of the drug product, sulfonamides, aspirin, or other NSAIDs, and in patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs.
+
+Serious Skin Reactions: NSAIDs, including celecoxib, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Discontinue celecoxib at the first appearance of skin rash, mucosal lesions, or any other sign of hypersensitivity.
+
+**SIDE EFFECTS**
+
+The most common adverse reactions (occurring in ≥2% of patients) in clinical trials included abdominal pain, diarrhea, dyspepsia (indigestion), flatulence (gas), peripheral edema (swelling), accidental injury, dizziness, pharyngitis (sore throat), rhinitis (runny nose), sinusitis, upper respiratory tract infection, and rash. Most of these side effects are mild to moderate in severity and often improve with continued use or dose adjustment.
+
+Gastrointestinal effects are among the most frequently reported, including nausea, heartburn, stomach discomfort, constipation, and gastritis. While celecoxib was designed to have fewer GI side effects than non-selective NSAIDs, serious GI events including bleeding, ulceration, and perforation can still occur and may be fatal. Patients should be alert for signs and symptoms of GI ulceration and bleeding, such as black, tarry stools, blood in vomit, or severe abdominal pain.
+
+Cardiovascular side effects may include hypertension (high blood pressure), edema and fluid retention (particularly in ankles and feet), and rarely, serious cardiovascular thrombotic events such as heart attack or stroke. Patients should monitor their blood pressure regularly and report any signs of edema, chest pain, shortness of breath, sudden weakness, slurred speech, or vision problems immediately to their healthcare provider.
+
+Renal (kidney) effects can include decreased kidney function, acute renal failure (particularly in at-risk patients), increased blood pressure, and fluid retention. Symptoms may include decreased urination, swelling of legs or ankles, fatigue, and confusion. Regular monitoring of kidney function is recommended for at-risk patients.
+
+Hepatic (liver) effects may include elevated liver enzymes (which may be asymptomatic and detected only on blood tests), hepatitis, jaundice (yellowing of skin or eyes), and rarely, severe liver damage including liver failure. Patients should be alert for symptoms such as dark urine, pale stools, persistent nausea, loss of appetite, stomach pain, or yellowing of the skin or eyes.
+
+Serious adverse reactions requiring immediate medical attention include signs of heart attack (chest pain, shortness of breath, pain spreading to jaw or shoulder, unusual sweating), signs of stroke (sudden numbness or weakness, especially on one side of the body, sudden severe headache, slurred speech, problems with vision or balance), signs of gastrointestinal bleeding (bloody or tarry stools, coughing up blood, vomit that looks like coffee grounds), liver problems (nausea, upper stomach pain, itching, tired feeling, flu-like symptoms, loss of appetite, dark urine, clay-colored stools, jaundice), kidney problems (little or no urinating, painful or difficult urination, swelling in feet or ankles, feeling tired or short of breath), low red blood cells (anemia) with symptoms of pale skin, feeling light-headed or short of breath, rapid heart rate, trouble concentrating, or severe skin reactions (fever, sore throat, swelling in face or tongue, burning in eyes, skin pain, followed by red or purple skin rash that spreads and causes blistering and peeling).
+
+Allergic reactions, while rare, can be serious and include anaphylaxis with symptoms of hives, difficulty breathing, swelling of face, lips, tongue, or throat. Patients with sulfa allergy may be at increased risk. Other allergic manifestations may include asthma attacks in aspirin-sensitive patients, rash, itching, and facial swelling.
+
+**DRUG INTERACTIONS**
+
+Drugs that Interfere with Hemostasis: Celecoxib and anticoagulants such as warfarin have a synergistic effect on bleeding. Monitor patients taking celecoxib concomitantly with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin, clopidogrel), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding. Concomitant use of celecoxib and analgesic doses of aspirin is not generally recommended due to increased risk of GI bleeding.
+
+Aspirin: Controlled clinical studies showed that concomitant administration of celecoxib and aspirin (up to 325 mg daily) resulted in a significantly increased risk of GI ulceration. Concomitant administration of low-dose aspirin with celecoxib may result in an increased rate of GI complications compared to use of celecoxib alone. Celecoxib is not a substitute for aspirin for cardiovascular prophylaxis.
+
+ACE Inhibitors, Angiotensin Receptor Blockers (ARBs), and Beta-Blockers: NSAIDs may diminish the antihypertensive effect of ACE inhibitors, ARBs, or beta-blockers (including propranolol). Monitor blood pressure to ensure that the desired blood pressure is obtained. In patients who are elderly, volume-depleted, or with compromised renal function, co-administration of NSAIDs with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure, which is usually reversible.
+
+Diuretics: Clinical studies and post-marketing observations have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazide diuretics. This response has been attributed to inhibition of renal prostaglandin synthesis. During concomitant therapy, monitor patients closely for signs of renal failure and to ensure diuretic efficacy.
+
+Lithium: NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance. Patients on lithium treatment should be closely monitored when celecoxib is introduced or withdrawn. The mean increase in lithium plasma levels in subjects receiving celecoxib and lithium concomitantly was approximately 17%.
+
+Methotrexate: Concomitant use of NSAIDs and methotrexate may increase the risk of methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction). Monitor patients for methotrexate toxicity when celecoxib is administered concomitantly with methotrexate. Celecoxib has no effect on methotrexate pharmacokinetics.
+
+Cyclosporine: Concurrent use of celecoxib and cyclosporine may increase cyclosporine's nephrotoxicity. Monitor patients for signs of worsening renal function when celecoxib is administered with cyclosporine.
+
+CYP2D6 Substrates: In vitro studies indicate that celecoxib is an inhibitor of CYP2D6. Significant interactions may occur when celecoxib is administered with drugs that are metabolized by CYP2D6 (e.g., atomoxetine, desipramine, fluoxetine, metoprolol, nebivolol). Use caution when celecoxib is co-administered with CYP2D6 substrates, especially those with a narrow therapeutic index.
+
+CYP2C9 Inhibitors and Inducers: Celecoxib metabolism is predominantly mediated by CYP2C9. Co-administration of celecoxib with drugs that are known to inhibit CYP2C9 (e.g., fluconazole) may result in increased celecoxib concentrations. Consider reducing the celecoxib dose by 50% when co-administered with fluconazole. Drugs that induce CYP2C9 activity (such as rifampin) may lead to compromised efficacy of celecoxib, while drugs that inhibit CYP2C9 activity may lead to increased celecoxib exposure.
+
+Corticosteroids: Concomitant use of corticosteroids with celecoxib may increase the risk of GI ulceration or bleeding. Monitor patients for signs of GI bleeding when celecoxib is administered concomitantly with corticosteroids.
+
+**PREGNANCY AND BREASTFEEDING**
+
+Pregnancy: Use of NSAIDs during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including celecoxib, in pregnant women starting at 30 weeks of gestation (third trimester). There are no adequate and well-controlled studies of celecoxib in pregnant women during the first and second trimesters.
+
+Based on animal data, prostaglandins have been shown to have an important role in endometrial vascular permeability, blastocyst implantation, and decidualization. In animal studies, administration of prostaglandin synthesis inhibitors led to increased pre- and post-implantation loss. If treatment with celecoxib is needed, limit use to the lowest effective dose and shortest duration possible. Consider ultrasound monitoring of amniotic fluid if NSAID treatment extends beyond 48 hours. If oligohydramnios occurs, discontinue celecoxib and follow up according to clinical practice.
+
+Use of NSAIDs around 20 weeks gestation or later in pregnancy may cause fetal renal dysfunction leading to oligohydramnios and, in some cases, neonatal renal impairment. Risk of renal dysfunction increases with gestational age, and some cases have persisted after birth despite discontinuation of NSAID. Limited ultrasound or biochemical marker data suggest that NSAID-related oligohydramnios is reversible after discontinuation.
+
+Premature closure of the fetal ductus arteriosus may occur with NSAID use during the third trimester. Because of the known effects of NSAIDs on the cardiovascular system (closure of ductus arteriosus), use during late pregnancy should be avoided.
+
+Labor and Delivery: There are no studies on the effects of celecoxib during labor or delivery. In animal studies, NSAIDs inhibit prostaglandin synthesis, causing delayed parturition and increased incidence of stillbirth. NSAIDs may inhibit labor and delivery and are generally avoided during this period.
+
+Breastfeeding: Limited data from published literature report the presence of celecoxib in human milk. There are no data on the effects of celecoxib on milk production. A single published case report detected celecoxib in breast milk at low levels (approximately 40 ng/mL following a maternal dose of 200 mg). The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for celecoxib and any potential adverse effects on the breastfed infant from celecoxib or from the underlying maternal condition.
+
+Infertility: Based on the mechanism of action, use of prostaglandin-mediated NSAIDs, including celecoxib, may delay or prevent rupture of ovarian follicles, which has been associated with reversible infertility in some women. Small studies in women treated with NSAIDs have also shown a reversible delay in ovulation. Consider withdrawal of celecoxib in women who have difficulties conceiving or who are undergoing investigation of infertility.
+
+**OVERDOSE**
+
+Symptoms of celecoxib overdose may include lethargy, drowsiness, nausea, vomiting, epigastric pain, gastrointestinal bleeding, hypertension, acute renal failure, respiratory depression, and coma (though rare). If celecoxib overdose is suspected, seek emergency medical attention or call the Poison Help line at 1-800-222-1222.
+
+In cases of acute overdose, gastric decontamination should be considered if the ingestion is recent. Activated charcoal may be administered if the patient presents within 1-2 hours of ingestion. Due to the high protein binding of celecoxib, dialysis is unlikely to be useful in overdose situations.
+
+Treatment of overdose is primarily supportive and symptomatic. There is no specific antidote for celecoxib overdose. Maintain adequate hydration and monitor renal function. Cardiac monitoring may be indicated in patients with known cardiovascular disease or those presenting with cardiac symptoms. Monitor for signs of GI bleeding or ulceration.
+
+Following an overdose, patients should be managed with supportive care and observed for at least four to six hours. Provide symptomatic and supportive care for any acute conditions. Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding. Administer oxygen and provide respiratory support as needed.
+
+**STORAGE AND HANDLING**
+
+Store celecoxib capsules at controlled room temperature 25°C (77°F), with excursions permitted between 15°C to 30°C (59°F to 86°F). Keep celecoxib in the original container to protect from light and moisture. Store in a dry place away from heat and direct light. Do not store in the bathroom or near the kitchen sink where it could be exposed to moisture.
+
+Keep the container tightly closed when not in use. Keep celecoxib and all medications out of the reach of children and pets. Store in a secure location to prevent accidental ingestion or misuse. Do not use celecoxib beyond the expiration date printed on the container.
+
+Properly dispose of expired or unused celecoxib. Do not flush medications down the toilet or pour them into drains unless instructed to do so. The preferred disposal method is through a medication take-back program. Contact your local pharmacy or waste disposal company for information about take-back programs in your community. If no take-back program is available, mix the capsules with an undesirable substance such as dirt, cat litter, or used coffee grounds, place the mixture in a sealed plastic bag, and dispose of it in household trash. Remove all personal information from the prescription label before discarding the empty container.
+
+**PATIENT COUNSELING INFORMATION**
+
+Advise patients to read the FDA-approved patient labeling (Medication Guide) that accompanies each prescription dispensed. Inform patients of the potential for cardiovascular thrombotic events, including heart attack and stroke, and the symptoms to look for. Advise patients to seek immediate emergency help if they experience symptoms such as chest pain, shortness of breath, weakness in one part or side of the body, or slurred speech.
+
+Inform patients of the potential for gastrointestinal bleeding, ulceration, and perforation. Advise patients to report symptoms of ulceration and bleeding, including epigastric pain, dyspepsia, melena (black stools), and hematemesis (vomiting blood or coffee-ground-like material) to their healthcare provider. Alert patients to the signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, diarrhea, jaundice, right upper quadrant tenderness, and flu-like symptoms). Advise patients to stop therapy and seek immediate medical attention if they develop these symptoms.
+
+Inform patients of the occurrence of fluid retention and edema with NSAIDs. Advise patients to report symptoms of edema, weight gain, or shortness of breath to their healthcare provider. Alert patients that NSAIDs may be present in over-the-counter medications for treatment of colds, fever, or insomnia. Advise patients to seek medical advice before concomitant use of aspirin or other NSAIDs.
+
+Inform female patients that celecoxib may be associated with a reversible delay in ovulation. Advise pregnant women to avoid use of celecoxib and other NSAIDs starting at 30 weeks gestation because of the risk of premature closure of the fetal ductus arteriosus. Advise patients not to use celecoxib during pregnancy unless specifically directed to do so by their healthcare provider.
+
+Alert patients that celecoxib contains a sulfonamide functional group and that those with known sulfonamide allergy should not use this medication. Advise patients with a known allergy to celecoxib or any of its components, sulfonamides, aspirin, or other NSAIDs to avoid celecoxib. Inform patients that serious skin reactions have been reported in association with celecoxib and to discontinue use at the first sign of rash.
+
+Advise patients to use caution if they are taking celecoxib with warfarin or other anticoagulants because of an increased risk of bleeding. Instruct patients not to take more celecoxib than prescribed and to take it at the same time each day. Advise patients that if they miss a dose, they should take it as soon as they remember, but if it is almost time for the next dose, they should skip the missed dose.
+
+DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme demonstration purposes only. No actual medications are sold or dispensed. All medical information should be verified with qualified healthcare professionals before making treatment decisions.`,
     price: 34.99,
     oldPrice: 59.99,
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
@@ -1697,7 +2161,191 @@ SAMHSA National Helpline (substance abuse information and treatment referral): 1
   {
     id: "rx-013",
     name: "Amitriptyline",
-    description: "Tricyclic antidepressant for neuropathic pain and migraine prevention",
+    description: `**WHAT IS AMITRIPTYLINE**
+
+Amitriptyline is a tricyclic antidepressant (TCA) medication that has been in use for over five decades. While originally developed and approved for the treatment of depression, amitriptyline has found extensive use in modern medicine for various off-label applications, particularly in the management of chronic pain conditions and migraine prophylaxis. The medication works by inhibiting the reuptake of serotonin and norepinephrine in the central nervous system, thereby increasing the availability of these neurotransmitters in the synaptic cleft. This mechanism helps restore chemical balance in the brain and can improve mood, sleep, appetite, and energy levels. In pain management, amitriptyline modulates pain pathways in the brain and spinal cord, making it particularly effective for neuropathic pain conditions. The drug also has significant anticholinergic, antihistaminic, and alpha-adrenergic blocking properties, which contribute to both its therapeutic effects and side effect profile. Amitriptyline is available in tablet form for oral administration and is typically taken once daily, usually at bedtime due to its sedating effects. As one of the older antidepressants, amitriptyline has an extensive safety and efficacy database, making it a well-understood medication despite newer alternatives being available.
+
+**IMPORTANT SAFETY INFORMATION**
+
+WARNING: SUICIDAL THOUGHTS AND BEHAVIORS
+
+Antidepressants increased the risk of suicidal thoughts and behavior in children, adolescents, and young adults in short-term studies. These studies showed an increased risk of suicidal thinking and behavior in patients taking antidepressants compared to placebo in those aged 24 years and younger. Short-term studies did not show an increase in the risk of suicidality with antidepressants compared to placebo in adults beyond age 24; there was a reduction with antidepressants compared to placebo in adults aged 65 and older.
+
+Monitor all patients started on amitriptyline for clinical worsening and emergence of suicidal thoughts and behaviors, especially during the initial few months of drug therapy and during periods of dosage adjustments. Advise families and caregivers of the need for close observation and communication with the prescriber. Amitriptyline is not approved for use in pediatric patients.
+
+Consider changing the therapeutic regimen, including possibly discontinuing the medication, in patients whose depression is persistently worse or who are experiencing emergent suicidal thoughts or behaviors. This warning applies to all antidepressants and requires careful patient monitoring, especially in the early treatment phase.
+
+Amitriptyline should be used with caution in patients with a history of seizures, urinary retention, angle-closure glaucoma, or increased intraocular pressure. TCAs have been associated with clinical worsening of psychosis when used to treat depression in patients with schizophrenia or other psychotic disorders. Close supervision is required when amitriptyline is given to hyperthyroid patients or those receiving thyroid medication, as cardiac arrhythmias may develop.
+
+**USES OF AMITRIPTYLINE**
+
+Amitriptyline is FDA-approved for the treatment of major depressive disorder (MDD). However, in modern clinical practice, it is more commonly prescribed off-label for various other conditions due to the availability of newer antidepressants with more favorable side effect profiles for depression treatment. The primary use of amitriptyline today is in the management of chronic neuropathic pain conditions.
+
+Neuropathic pain is one of the most common indications for amitriptyline. This includes diabetic neuropathy (nerve pain caused by diabetes), postherpetic neuralgia (nerve pain following shingles), fibromyalgia (widespread musculoskeletal pain), and other chronic pain syndromes. The analgesic effect of amitriptyline is independent of its antidepressant action and occurs at lower doses than those typically used for depression. Pain relief usually begins within 1-2 weeks at doses of 10-75 mg daily, compared to 4-6 weeks for antidepressant effects at doses of 150-300 mg daily.
+
+Migraine prophylaxis is another well-established use of amitriptyline. Studies have shown that amitriptyline can reduce the frequency, duration, and intensity of migraine headaches when taken daily as a preventive measure. It is particularly useful in patients who have frequent migraines (more than 2-3 per month) or migraines that significantly impact quality of life. The typical dose for migraine prevention ranges from 10-75 mg daily, taken at bedtime.
+
+Tension-type headaches and chronic daily headaches may also respond to amitriptyline therapy. The medication can help break the cycle of chronic headache by modulating pain pathways and improving sleep quality. Insomnia, particularly when associated with depression or chronic pain, is another indication where amitriptyline's sedating properties can be beneficial. Low doses (10-25 mg) taken at bedtime can improve sleep initiation and maintenance.
+
+Additional off-label uses include treatment of irritable bowel syndrome (IBS), particularly in patients with diarrhea-predominant or mixed-type IBS, where it can reduce abdominal pain and improve bowel function. Interstitial cystitis/bladder pain syndrome may respond to amitriptyline through its effects on pain modulation and bladder muscle relaxation. Some practitioners use amitriptyline for anxiety disorders, panic disorder, and post-traumatic stress disorder (PTSD), though other medications are typically preferred as first-line treatments for these conditions.
+
+Amitriptyline has also been used in eating disorders, particularly bulimia nervosa, and in the management of certain chronic cough conditions that have a neuropathic component. The medication's multiple mechanisms of action make it versatile for various conditions involving dysregulated neurotransmitter function, pain amplification, or sleep disturbance.
+
+**HOW TO USE AMITRIPTYLINE**
+
+Take amitriptyline exactly as prescribed by your doctor. Do not take more or less of it or take it more often than prescribed by your doctor. Your doctor will probably start you on a low dose of amitriptyline and gradually increase your dose as needed and tolerated. This approach helps minimize side effects while achieving therapeutic benefit.
+
+Amitriptyline is usually taken once daily at bedtime due to its sedating effects. However, your doctor may divide your dose and have you take it 2-3 times throughout the day. Follow your doctor's instructions precisely regarding dosing schedule. Take amitriptyline with or without food, though taking it with food may help reduce stomach upset in some patients.
+
+Swallow the tablets whole with a full glass of water. Do not crush, chew, or break the tablets unless instructed otherwise by your doctor. If you miss a dose and take amitriptyline only at bedtime, do not take the missed dose in the morning as it may cause unwanted side effects such as drowsiness. Instead, skip the missed dose and resume your usual dosing schedule the next evening. Never take a double dose to make up for a missed one.
+
+It may take 2-4 weeks or longer before you feel the full benefit of amitriptyline, especially when used for pain or depression. Continue taking amitriptyline even if you feel well. Do not stop taking amitriptyline without talking to your doctor, especially if you have been taking it for several weeks or longer. Stopping suddenly may cause withdrawal symptoms including nausea, headache, feeling generally unwell, sleep disturbances, and irritability. Your doctor will decrease your dose gradually to minimize these effects.
+
+While taking amitriptyline, avoid alcohol as it can intensify the sedating effects and may increase the risk of side effects. Be cautious about driving, operating machinery, or performing other tasks requiring alertness until you know how amitriptyline affects you. The medication often causes drowsiness and dizziness, especially during the first few weeks of treatment.
+
+**DOSING INFORMATION**
+
+Depression: For outpatients with major depressive disorder, the initial dose is typically 75 mg per day in divided doses or as a single dose at bedtime. This may be increased gradually to 150 mg per day as needed. Doses above 150 mg per day are not recommended for outpatients. For hospitalized patients who are under close supervision, the initial dose may be 100 mg per day, with gradual increases to 200-300 mg per day if necessary. Once a satisfactory response is achieved, the dose should be reduced to the lowest amount that will maintain relief of symptoms.
+
+Chronic Pain/Neuropathic Pain: Treatment typically begins with 10-25 mg at bedtime and is increased by 10-25 mg every 3-7 days as tolerated until pain relief is achieved or side effects become limiting. The effective dose range for pain management is usually 50-75 mg daily, though some patients may require up to 150 mg daily. Lower doses are often effective for pain than for depression, and pain relief may occur within 1-2 weeks compared to 4-6 weeks for antidepressant effects.
+
+Migraine Prophylaxis: Start with 10-25 mg at bedtime and increase gradually every 3-7 days based on response and tolerability. The usual effective dose range is 25-75 mg daily. Maximum benefit may not be seen for 4-6 weeks. If no improvement is seen after 6-8 weeks at an adequate dose, consider alternative treatments.
+
+Fibromyalgia: Initial dose is 10 mg at bedtime, increased gradually to 25-50 mg daily. Higher doses may be used but often provide little additional benefit and increase side effects. Some patients respond to doses as low as 10-20 mg.
+
+Insomnia: For sleep disturbance, particularly when associated with depression or chronic pain, typical doses range from 10-50 mg taken 30-60 minutes before bedtime. The sedating effects usually develop quickly, within the first few days of treatment.
+
+Elderly Patients: Geriatric patients are more sensitive to the effects of amitriptyline, particularly anticholinergic effects such as confusion, urinary retention, and orthostatic hypotension. Start with 10-25 mg daily and increase slowly. For depression in elderly patients, doses of 50-100 mg daily are usually sufficient. Monitor elderly patients closely for side effects.
+
+Adolescents: Amitriptyline is generally not recommended for use in pediatric patients for depression due to increased risk of suicidal thoughts. When used for other indications in adolescents, start with low doses (10-25 mg daily) and titrate slowly under close supervision. Carefully monitor for behavioral changes, particularly suicidal thoughts or self-harm.
+
+Renal Impairment: No specific dosage adjustment is recommended for patients with renal impairment, but use caution and monitor closely for side effects as amitriptyline and its metabolites may accumulate.
+
+Hepatic Impairment: Use with caution in patients with hepatic impairment. Lower doses and slower titration may be necessary. Avoid use in patients with severe hepatic impairment.
+
+Switching to or from MAOIs: When switching from a monoamine oxidase inhibitor (MAOI) to amitriptyline, or vice versa, allow at least 14 days between discontinuing one medication and starting the other. Concomitant use or use within 14 days can result in serious, potentially fatal reactions including hyperthermia, rigidity, myoclonus, autonomic instability, and mental status changes.
+
+Discontinuation: When discontinuing amitriptyline after prolonged use, taper the dose gradually over several weeks to months to minimize withdrawal symptoms. A typical taper might reduce the dose by 25-50% every 1-2 weeks, though slower tapers may be necessary for patients on higher doses or those who have taken the medication for extended periods.
+
+**WARNINGS AND PRECAUTIONS**
+
+Cardiovascular Effects: Amitriptyline can cause various cardiovascular effects including orthostatic hypotension, hypertension, tachycardia, palpitations, myocardial infarction, arrhythmias, heart block, and stroke. These effects are particularly concerning in elderly patients and those with pre-existing cardiovascular disease. TCAs have been reported to produce arrhythmias, sinus tachycardia, and prolongation of conduction time. Monitor patients with cardiovascular disorders carefully. Obtain an ECG in patients at risk before starting treatment.
+
+Orthostatic hypotension (drop in blood pressure upon standing) is common with amitriptyline. This can lead to falls, particularly in elderly patients. Instruct patients to rise slowly from sitting or lying positions. If orthostatic hypotension occurs, reduction in dosage or discontinuation may be necessary. Myocardial infarction and stroke have been reported with drugs in this class, particularly in patients with pre-existing cardiovascular disease.
+
+Seizures: Amitriptyline may lower the seizure threshold. Use with caution in patients with a history of seizures or conditions that lower seizure threshold (e.g., brain damage, alcoholism, concurrent use of medications known to lower seizure threshold). Inform patients about the risk and advise them to notify their healthcare provider if seizures occur.
+
+Anticholinergic Effects: Amitriptyline has strong anticholinergic properties, which can cause dry mouth, blurred vision, constipation, urinary retention, confusion, and worsening of narrow-angle glaucoma. These effects are dose-dependent and more pronounced in elderly patients. Use with caution in patients with urinary retention, benign prostatic hyperplasia, narrow-angle glaucoma, or increased intraocular pressure. Concurrent use with other anticholinergic drugs intensifies these effects.
+
+Angle-Closure Glaucoma: The pupil dilation that may occur following use of amitriptyline can trigger an angle closure attack in patients with anatomically narrow angles who do not have a patent iridectomy. Avoid amitriptyline in patients with untreated angle-closure glaucoma.
+
+Bone Marrow Depression: Rare cases of bone marrow depression manifesting as agranulocytosis, leukopenia, thrombocytopenia, and eosinophilia have been reported with TCAs. Monitor patients who develop signs of infection, fever, or sore throat for blood dyscrasias. If blood dyscrasias occur, discontinue amitriptyline.
+
+Hyperthyroidism and Thyroid Medication: Use amitriptyline with caution in hyperthyroid patients or those taking thyroid medication due to the possibility of cardiovascular toxicity, including arrhythmias. Monitor cardiac function closely in these patients.
+
+Psychiatric Disorders: In patients with bipolar disorder, amitriptyline may precipitate manic or hypomanic episodes. Use with caution in patients with a history of mania. TCAs may activate psychotic symptoms in patients with schizophrenia or schizoaffective disorder. In depressed patients with psychotic features, antipsychotic medication should be used in combination with amitriptyline.
+
+Serotonin Syndrome: The development of a potentially life-threatening serotonin syndrome has been reported with SNRIs and SSRIs, including when used in combination with amitriptyline. Serotonin syndrome can also occur with TCAs alone, particularly at higher doses. Symptoms include mental status changes (agitation, hallucinations, coma), autonomic instability (tachycardia, labile blood pressure, hyperthermia), neuromuscular aberrations (hyperreflexia, incoordination), and/or gastrointestinal symptoms (nausea, vomiting, diarrhea). Discontinue amitriptyline and initiate supportive treatment if serotonin syndrome occurs.
+
+Withdrawal Symptoms: Abrupt cessation of treatment after prolonged therapy may produce nausea, headache, and malaise. These symptoms do not indicate addiction. Gradual dose reduction is recommended when discontinuing therapy. Withdrawal symptoms have also been reported with TCAs including irritability, motor restlessness, sleep disturbances, and vivid dreams.
+
+Electroconvulsive Therapy (ECT): When amitriptyline is used concomitantly with ECT, the risks may be increased. Limit use to patients for whom it is essential, and use close monitoring for adverse effects.
+
+**SIDE EFFECTS**
+
+Common side effects of amitriptyline include drowsiness and sedation (very common, especially during initial treatment), dry mouth (one of the most common side effects, often persistent), constipation (may require treatment with stool softeners or laxatives), blurred vision or difficulty focusing, dizziness and lightheadedness (particularly orthostatic hypotension), weight gain (which can be significant with long-term use), increased appetite and carbohydrate cravings, urinary retention or hesitancy (more common in elderly men with prostate enlargement), sweating, and fatigue or weakness.
+
+Cardiovascular side effects include tachycardia (rapid heart rate), palpitations, orthostatic hypotension (drop in blood pressure when standing), hypertension (in some patients), ECG changes (including QT prolongation, widening of QRS complex), and arrhythmias. Serious cardiac effects are more likely in patients with pre-existing heart disease or in overdose situations.
+
+Neurological and psychiatric effects may include confusion, disorientation, delusions, and hallucinations (particularly in elderly patients), anxiety, restlessness, and agitation, insomnia or disturbed sleep (despite overall sedation), nightmares or vivid dreams, numbness and tingling in extremities, peripheral neuropathy (with prolonged use), tremor (particularly of hands), ataxia or incoordination, extrapyramidal symptoms (rare), and seizures (particularly in susceptible individuals or with high doses).
+
+Anticholinergic side effects are prominent and include severe dry mouth, dental cavities (due to decreased saliva), difficulty swallowing, constipation (which may be severe), paralytic ileus (rare but serious), urinary retention, difficulty urinating, dilated pupils and blurred vision, worsening of glaucoma, and cognitive impairment or memory problems (especially in elderly).
+
+Endocrine and metabolic effects include weight gain (often significant, averaging 5-20 pounds), increased or decreased libido, impotence and sexual dysfunction, gynecomastia (breast enlargement in males), galactorrhea (inappropriate lactation), changes in blood sugar levels, syndrome of inappropriate antidiuretic hormone secretion (SIADH), and alterations in thyroid function tests.
+
+Serious adverse effects requiring immediate medical attention include signs of serotonin syndrome (agitation, hallucinations, fever, sweating, shivering, fast heart rate, muscle stiffness, twitching, loss of coordination, nausea, vomiting, diarrhea), severe allergic reactions (rash, hives, itching, difficulty breathing, swelling of face, lips, tongue, or throat), symptoms of QT prolongation and cardiac arrhythmias (fainting, irregular heartbeat, chest pain), seizures or convulsions, severe confusion or delirium, unusual bleeding or bruising (may indicate blood dyscrasias), jaundice (yellowing of skin or eyes), indicating hepatotoxicity, severe constipation or abdominal pain (possible paralytic ileus), difficulty urinating or inability to urinate (urinary retention), and severe dizziness or fainting (orthostatic hypotension).
+
+Withdrawal symptoms if stopped abruptly include nausea and vomiting, headache, general malaise (feeling unwell), irritability and mood changes, sleep disturbances and vivid dreams, dizziness, and flu-like symptoms.
+
+**DRUG INTERACTIONS**
+
+Monoamine Oxidase Inhibitors (MAOIs): Concurrent use of amitriptyline with MAOIs or within 14 days of discontinuing MAOI therapy is contraindicated due to the risk of serious, potentially fatal reactions including hyperpyrexia, hypertension, excitation, delirium, tremor, convulsions, and serotonin syndrome. Allow at least 14 days between stopping an MAOI and starting amitriptyline, and vice versa. This includes linezolid and intravenous methylene blue, which are reversible MAOIs.
+
+CNS Depressants: Amitriptyline may enhance the sedative effects of alcohol, benzodiazepines, barbiturates, opioid analgesics, and other central nervous system depressants. This can lead to excessive sedation, impaired psychomotor performance, respiratory depression, and increased risk of falls. Caution patients to avoid alcohol and to use other CNS depressants only as directed by their physician. Dose adjustments of either amitriptyline or the CNS depressant may be necessary.
+
+Anticholinergic Drugs: Concurrent use with other medications having anticholinergic properties (antihistamines, antiparkinsonian drugs, atropine, some antipsychotics) may result in additive anticholinergic effects including paralytic ileus, hyperpyrexia, urinary retention, confusion, and visual disturbances. Use combination with caution and monitor closely. Elderly patients are particularly susceptible to these effects.
+
+Selective Serotonin Reuptake Inhibitors (SSRIs) and SNRIs: These drugs can inhibit the metabolism of tricyclic antidepressants, increasing amitriptyline plasma levels and potentially causing toxicity. Additionally, combining these medications increases the risk of serotonin syndrome. If combination therapy is necessary, use lower doses of amitriptyline, monitor closely for signs of serotonin syndrome, and consider monitoring amitriptyline blood levels.
+
+CYP2D6 Inhibitors: Amitriptyline is metabolized by the cytochrome P450 2D6 (CYP2D6) enzyme. Drugs that inhibit this enzyme (fluoxetine, paroxetine, bupropion, quinidine, cimetidine) can increase amitriptyline levels, potentially causing toxicity. Monitor for increased side effects and consider dose reduction of amitriptyline. Genetic variations in CYP2D6 can also affect amitriptyline metabolism; poor metabolizers may require lower doses.
+
+Tramadol: Concomitant use of amitriptyline and tramadol increases the risk of seizures and serotonin syndrome. Both drugs lower seizure threshold. Use this combination with caution and only when necessary. Monitor closely for signs of seizures and serotonin syndrome.
+
+Sympathomimetic Drugs: Amitriptyline may potentiate the cardiovascular effects of direct-acting sympathomimetics (epinephrine, norepinephrine). This can result in hypertension, cardiac arrhythmias, and tachycardia. Use with caution in patients receiving epinephrine with local anesthetics.
+
+Thyroid Medications: Concurrent use of thyroid supplements may increase the risk of cardiac arrhythmias. Close supervision and careful dose adjustment are necessary when amitriptyline is given to patients receiving thyroid medication.
+
+Cimetidine: Cimetidine can inhibit the hepatic metabolism of amitriptyline, resulting in increased plasma levels. Monitor for increased amitriptyline effects and toxicity. Consider using an alternative H2 blocker that doesn't inhibit CYP450 enzymes.
+
+Warfarin: Amitriptyline may increase the anticoagulant effect of warfarin. Monitor INR closely when initiating or discontinuing amitriptyline in patients taking warfarin. Dose adjustments of warfarin may be necessary.
+
+Antihypertensive Medications: Amitriptyline may block the antihypertensive effect of guanethidine, clonidine, or similar agents. Monitor blood pressure and adjust antihypertensive medication as needed. Alternative antidepressants may be considered in patients with difficult-to-control hypertension.
+
+QT-Prolonging Drugs: Concurrent use with other medications that prolong the QT interval (certain antiarrhythmics, antipsychotics, antibiotics) may increase the risk of dangerous cardiac arrhythmias including torsades de pointes. Use combination with caution and consider ECG monitoring. Avoid combination in patients with known QT prolongation or risk factors for torsades de pointes.
+
+St. John's Wort: This herbal supplement can induce CYP450 enzymes, potentially decreasing amitriptyline levels and reducing efficacy. Additionally, combination increases the risk of serotonin syndrome. Advise patients to avoid St. John's Wort while taking amitriptyline.
+
+**PREGNANCY AND BREASTFEEDING**
+
+Pregnancy: There are no adequate and well-controlled studies of amitriptyline in pregnant women. Amitriptyline should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Animal reproduction studies have shown adverse effects, and there have been reports of various birth defects in human pregnancies exposed to amitriptyline, though a causal relationship has not been definitively established.
+
+Limited human data suggest that first-trimester exposure to tricyclic antidepressants may be associated with a small increased risk of cardiovascular malformations, though the absolute risk remains low. Studies have not consistently shown an increased risk of major congenital malformations overall. However, neonates exposed to TCAs late in the third trimester have developed withdrawal symptoms including jitteriness, irritability, and seizures shortly after birth.
+
+Consider the risk of untreated depression during pregnancy, which can lead to negative maternal and fetal outcomes. If amitriptyline is used during pregnancy, consider tapering the medication in the third trimester to reduce the risk of withdrawal symptoms in the newborn, though this must be balanced against the risk of maternal relapse. Monitor neonates for signs of withdrawal, serotonin syndrome, or other adverse effects if maternal use continues until delivery.
+
+Breastfeeding: Amitriptyline and its active metabolite nortriptyline are present in breast milk in small amounts. The estimated infant dose is typically less than 1-2% of the maternal weight-adjusted dose. Most studies have not found adverse effects in breastfed infants, though drowsiness has been reported rarely. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for amitriptyline and any potential adverse effects on the breastfed infant.
+
+If amitriptyline is used during breastfeeding, monitor the infant for drowsiness, poor feeding, and adequate weight gain. Some experts consider nortriptyline or sertraline to be preferred antidepressants for breastfeeding mothers due to lower infant exposure, though amitriptyline can be used when specifically indicated (e.g., for pain management) with appropriate monitoring.
+
+**OVERDOSE**
+
+Amitriptyline overdose can be life-threatening and requires immediate emergency medical attention. Deaths may occur from overdose with this class of drugs. Multiple drug ingestion (including alcohol) is common in deliberate tricyclic antidepressant overdose. Signs and symptoms of overdose may include cardiac effects (cardiac arrhythmias, severe hypotension, conduction disorders, heart failure, QRS widening, QT prolongation), CNS depression (drowsiness, stupor, coma, confusion, disturbed concentration), CNS stimulation (seizures, hyperactive reflexes, muscle rigidity, choreoathetoid movements), anticholinergic effects (dilated pupils, dry mucous membranes, hyperthermia, decreased gut motility, urinary retention), and respiratory depression.
+
+If overdose is suspected, seek emergency medical attention immediately or call the Poison Help line at 1-800-222-1222. Cardiac monitoring should begin immediately and continue for several days after the patient appears recovered, as late-occurring arrhythmias are common. An ECG should be obtained as soon as possible, as QRS widening >100 msec predicts seizures and arrhythmias.
+
+Treatment is symptomatic and supportive. If ingestion is recent (within 1-2 hours), consider activated charcoal administration. Do not induce vomiting as rapid deterioration in mental status may lead to aspiration. Gastric lavage may be considered in cases of significant recent ingestion in patients who present early, but should be performed with airway protection.
+
+Maintain an open airway, ensure adequate oxygenation and ventilation. Monitor cardiac rhythm and vital signs continuously. Intravenous access should be established. Sodium bicarbonate may be administered for QRS widening >100 msec or ventricular arrhythmias. Target serum pH of 7.45-7.55 may help prevent arrhythmias. Treat seizures with benzodiazepines. Manage hypotension with IV fluids and vasopressors if necessary. Avoid using disopyramide, procainamide, or quinidine, as these agents may worsen cardiac conduction abnormalities.
+
+Dialysis is of no value due to high tissue and protein binding of amitriptyline. Due to the cardiotoxic effects of amitriptyline, special attention should be paid to maintaining cardiac output. Arrhythmias may respond to alkalinization of the blood with sodium bicarbonate or hyperventilation. Type 1A and 1C antiarrhythmics should generally be avoided.
+
+**STORAGE AND HANDLING**
+
+Store amitriptyline tablets at controlled room temperature, 20°C to 25°C (68°F to 77°F). Brief excursions permitted between 15°C to 30°C (59°F to 86°F). Protect from light and moisture. Keep tablets in the original container, tightly closed when not in use. Do not store in the bathroom or near sinks or other sources of moisture.
+
+Keep amitriptyline and all medications out of the reach of children and pets. Accidental ingestion by children can be fatal. Store in a secure location. Do not remove tablets from the packaging until ready to take. If you use a pill organizer, store it securely and keep it out of reach of children.
+
+Dispose of unused or expired amitriptyline properly. Do not flush down the toilet unless instructed to do so. The preferred disposal method is through a medication take-back program. Contact your local pharmacy or law enforcement agency for information about take-back programs in your community. Many pharmacies and DEA-authorized collectors participate in these programs.
+
+If no take-back program is available, mix the tablets with an undesirable substance such as dirt, cat litter, or used coffee grounds. Place the mixture in a sealed plastic bag or container and dispose of it in household trash. Remove all personal information from the prescription label before discarding the empty container.
+
+**PATIENT COUNSELING INFORMATION**
+
+Advise patients and caregivers to read the Medication Guide provided with each prescription. Inform patients, their families, and caregivers about the benefits and risks of treatment with amitriptyline and counsel them in its appropriate use. Instruct patients to take amitriptyline exactly as prescribed and not to adjust the dose without consulting their healthcare provider.
+
+Warn patients that amitriptyline may impair mental and/or physical abilities required for performance of hazardous tasks such as operating machinery or driving a motor vehicle. Caution patients to avoid such activities until they are certain amitriptyline does not adversely affect their ability to engage in such activities. Advise patients to avoid alcohol while taking amitriptyline as it may enhance sedative effects.
+
+Inform patients that they may experience drowsiness and dizziness, especially when starting treatment or increasing the dose. Advise them to rise slowly from sitting or lying positions to minimize orthostatic hypotension and reduce the risk of falls. Inform elderly patients and caregivers about increased risk of falls.
+
+Advise patients to notify their healthcare provider if they become pregnant or intend to become pregnant during therapy. Instruct female patients to notify their healthcare provider if they are breastfeeding. Counsel patients that it may take 2-4 weeks or longer to experience the full benefits of amitriptyline. Emphasize the importance of continuing the medication even when feeling better and not stopping abruptly without medical supervision.
+
+Warn patients about the risk of serotonin syndrome, particularly when amitriptyline is used concomitantly with other serotonergic agents. Educate patients about the symptoms of serotonin syndrome and instruct them to seek medical attention immediately if symptoms occur. Inform patients about common side effects such as dry mouth, constipation, and urinary hesitancy. Provide strategies for managing these effects (sugar-free gum or candy for dry mouth, increased fluid and fiber intake for constipation).
+
+Instruct patients to inform their healthcare provider about all medications they are taking, including over-the-counter drugs, vitamins, and herbal supplements. Inform patients about the risk of angle-closure glaucoma and to seek immediate attention if they experience eye pain, changes in vision, or swelling around the eyes.
+
+Advise patients and caregivers to observe for signs of activation of mania/hypomania and to report such symptoms to the healthcare provider. Counsel patients about the importance of proper storage and to keep amitriptyline out of reach of children and pets.
+
+DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme demonstration purposes only. No actual medications are sold or dispensed. All medical information should be verified with qualified healthcare professionals before making treatment decisions.`,
     price: 14.99,
     image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
     category: "prescription-drugs",
@@ -1744,7 +2392,181 @@ SAMHSA National Helpline (substance abuse information and treatment referral): 1
   {
     id: "rx-014",
     name: "Gabapentin",
-    description: "Anticonvulsant for neuropathic pain and seizure management",
+    description: `**WHAT IS GABAPENTIN**
+
+Gabapentin is an anticonvulsant and analgesic medication that was originally developed to treat epilepsy but has since found widespread use in the management of neuropathic pain conditions. The drug is a structural analogue of the neurotransmitter gamma-aminobutyric acid (GABA), though interestingly, it does not bind to GABA receptors, does not convert into GABA or a GABA agonist, and does not inhibit GABA uptake or degradation. Instead, gabapentin's mechanism of action involves binding to the alpha-2-delta subunit of voltage-gated calcium channels in the central nervous system, thereby reducing the release of excitatory neurotransmitters such as glutamate, norepinephrine, and substance P. This action helps to dampen abnormal electrical activity in the brain that can lead to seizures and modulates pain signal transmission in neuropathic pain conditions. Gabapentin is available in various formulations including capsules, tablets, and oral solution, making it accessible for patients with different needs and preferences. Unlike many other seizure medications and pain medications, gabapentin is not a controlled substance in most jurisdictions (though some states in the US have added it to their controlled substance schedules due to misuse concerns). The medication has a relatively favorable safety profile with minimal drug-drug interactions because it is not metabolized by the liver and does not bind to plasma proteins.
+
+**IMPORTANT SAFETY INFORMATION**
+
+WARNING: SERIOUS BREATHING PROBLEMS; SUICIDAL THOUGHTS AND BEHAVIORS
+
+Gabapentin may cause serious or life-threatening breathing problems, especially when used with other medicines that can slow breathing such as opioids. Patients taking gabapentin with opioid pain medicines, medicines for anxiety or sleeping problems, muscle relaxants, or other medicines that can affect breathing should seek immediate medical attention if they experience difficulty breathing, shallow or slow breathing, confusion, or unusual dizziness or lightheadedness. The risk of respiratory depression is particularly high when initiating gabapentin in patients already taking opioids, when increasing gabapentin doses, or when initiating opioid treatment in patients already taking gabapentin.
+
+Antiepileptic drugs (AEDs), including gabapentin, increase the risk of suicidal thoughts or behavior in patients taking these drugs for any indication. Patients treated with any AED for any indication should be monitored for the emergence or worsening of depression, suicidal thoughts or behavior, and/or any unusual changes in mood or behavior. The increased risk of suicidal thoughts or behavior was observed as early as one week after starting drug treatment and persisted for the duration of treatment assessed. Anyone considering prescribing gabapentin or any other AED must balance this risk with the risk of untreated illness.
+
+Inform patients, their families, and caregivers of the potential for increased risk of suicidal thoughts and behavior and advise them to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers. Patients should not stop taking gabapentin without first talking to their healthcare provider as stopping suddenly can cause serious problems.
+
+Gabapentin may cause dizziness, somnolence, and other symptoms and signs of central nervous system (CNS) depression. Patients should not drive, operate complex machinery, or engage in other potentially hazardous activities until they have gained sufficient experience with gabapentin to gauge whether it adversely affects their ability to perform such tasks. Patients should be advised to avoid consuming alcohol or taking other drugs that can increase sedation while taking gabapentin.
+
+**USES OF GABAPENTIN**
+
+Gabapentin has three FDA-approved indications. The first and original indication is for adjunctive therapy in the treatment of partial seizures with and without secondary generalization in adults and pediatric patients 3 years and older with epilepsy. In this role, gabapentin is typically added to other anticonvulsant medications to help achieve better seizure control, particularly in patients with refractory partial seizures that do not respond adequately to monotherapy.
+
+The second FDA-approved indication is for the management of postherpetic neuralgia (PHN) in adults. Postherpetic neuralgia is a painful condition that can occur after a shingles (herpes zoster) infection, where patients experience persistent nerve pain in the area where the shingles rash occurred. This pain can be debilitating and significantly impact quality of life. Gabapentin helps reduce this neuropathic pain by modulating the abnormal nerve signals that cause the painful sensations.
+
+The third indication is for the treatment of moderate to severe primary restless legs syndrome (RLS), though this is only approved for the extended-release formulation (gabapentin enacarbil, marketed under a different brand name). Standard immediate-release gabapentin is used off-label for this condition.
+
+Off-label uses of gabapentin are extensive and clinically important. The medication is widely prescribed for various neuropathic pain conditions including diabetic peripheral neuropathy (nerve pain caused by diabetes affecting the extremities), which is one of the most common uses despite not having FDA approval for this specific indication. Other neuropathic pain conditions that may respond to gabapentin include painful diabetic neuropathy, peripheral neuropathy from other causes, trigeminal neuralgia (facial nerve pain), and complex regional pain syndrome (CRPS).
+
+Additional off-label uses include fibromyalgia, where gabapentin can help reduce widespread chronic pain, anxiety disorders (particularly generalized anxiety disorder and social anxiety disorder), hot flashes associated with menopause or cancer treatment, migraine prophylaxis (prevention of migraine headaches), chronic cough of neuropathic origin, alcohol withdrawal syndrome, and various other chronic pain conditions. Some practitioners use gabapentin for insomnia, though this is controversial and typically reserved for cases where sleep disturbance is related to pain or anxiety that the medication can address.
+
+Gabapentin is also sometimes used to manage psychiatric conditions including bipolar disorder (as a mood stabilizer or adjunctive treatment) and certain symptoms associated with autism spectrum disorders, though evidence for these uses is less robust than for its approved indications. The medication's versatility, favorable side effect profile compared to many alternatives, and lack of significant drug interactions have contributed to its widespread off-label use.
+
+**HOW TO USE GABAPENTIN**
+
+Take gabapentin exactly as prescribed by your healthcare provider. Do not take more or less of it or take it more often than prescribed. Follow the dosing schedule carefully. Gabapentin is typically started at a low dose and gradually increased over several days to weeks to minimize side effects and allow your body to adjust to the medication. Your doctor will determine the appropriate dose based on your condition, response to treatment, kidney function, age, and other medications you may be taking.
+
+Gabapentin is usually taken 2-3 times daily, with or without food. For optimal effectiveness, take gabapentin at evenly spaced intervals throughout the day and night. The maximum time between doses should not exceed 12 hours. Swallow capsules and tablets whole with plenty of water. Do not crush, chew, or break the tablets unless your doctor tells you to. If your doctor has prescribed gabapentin for seizures and you break the tablet, take the other half at your next scheduled dose. Do not keep split tablets for more than a few days.
+
+If you are taking the oral solution (liquid form), shake the bottle well before each use to mix the medication evenly. Use the measuring device that comes with the medication to carefully measure the prescribed dose. Do not use a household spoon as you may not get the correct dose. If you are taking gabapentin three times a day for seizures, do not allow more than 12 hours to pass between any two doses.
+
+If you take antacids containing aluminum or magnesium (such as Maalox, Mylanta, Gaviscon, or others), wait at least 2 hours before taking gabapentin. Antacids can reduce the absorption of gabapentin, making it less effective. If you miss a dose, take it as soon as you remember. However, if it is almost time for your next dose, skip the missed dose and continue with your regular dosing schedule. Do not take two doses at the same time to make up for a missed dose. If you miss several doses, contact your doctor for instructions.
+
+Continue taking gabapentin even if you feel well, especially if you are taking it for seizures. Do not stop taking gabapentin suddenly without talking to your doctor, even if you experience side effects. Stopping gabapentin abruptly can cause withdrawal symptoms and, in patients taking it for epilepsy, may cause seizures to occur more frequently. Your doctor will gradually decrease your dose over at least a week when it is time to stop the medication.
+
+**DOSING INFORMATION**
+
+Postherpetic Neuralgia (PHN): Initiate gabapentin therapy with 300 mg once daily on Day 1, 300 mg twice daily on Day 2, and 300 mg three times daily on Day 3. The dose can then be titrated up as needed for pain relief to a maximum dose of 1800 mg per day (600 mg three times daily). In clinical studies, efficacy was demonstrated over a range of 1800-3600 mg per day; however, in these studies, additional benefit from doses above 1800 mg per day was not demonstrated. Some patients may require up to 3600 mg per day (1200 mg three times daily) for adequate pain relief.
+
+Epilepsy (Partial Seizures): For patients 12 years and older, the starting dose is 300 mg three times daily. The dose may be increased based on response and tolerability. The effective dose range is 900-1800 mg per day given in three divided doses. Dosages up to 2400-3600 mg per day have been well tolerated in clinical studies. Maximum time interval between doses in the three times daily schedule should not exceed 12 hours.
+
+For pediatric patients ages 3-11 years with epilepsy, dosing is based on weight. The starting dose range is 10-15 mg/kg per day, given in three divided doses. The dose should be titrated upward over approximately 3 days to reach the effective dose. Effective doses in clinical studies ranged from 25-35 mg/kg per day for children 3-4 years old and 25-35 mg/kg per day for children 5-11 years old. Doses up to 50 mg/kg per day have been well tolerated.
+
+Neuropathic Pain (Off-label): For diabetic neuropathy and other neuropathic pain conditions, typical starting dose is 300 mg once daily or 300 mg three times daily on Day 1, with gradual titration upward. Many patients respond to 1800-3600 mg per day divided into three doses. Some patients may benefit from doses up to 3600 mg per day, though doses above 1800 mg per day should be used only if additional benefit is expected based on clinical response.
+
+Restless Legs Syndrome (Off-label for immediate-release gabapentin): 300-600 mg taken 1-2 hours before bedtime. Some patients may require divided dosing throughout the day. The extended-release formulation (gabapentin enacarbil) has specific dosing recommendations as indicated in its labeling.
+
+Renal Impairment: Dosage adjustment is necessary for patients with reduced renal function as gabapentin is eliminated solely by renal excretion. For patients with CrCl 30-59 mL/min: Total daily dose range of 400-1400 mg, divided into 2 doses. For CrCl 15-29 mL/min: Total daily dose range of 200-700 mg, given once daily. For CrCl <15 mL/min: Total daily dose range of 100-300 mg, given once daily. For patients on hemodialysis: Maintenance dose based on CrCl, plus post-hemodialysis supplemental dose of 125-350 mg following each 4-hour dialysis session.
+
+Geriatric Patients: Elderly patients may be at increased risk for adverse effects due to age-related decreases in renal function. Dose selection should be based on renal function. Initiate treatment at the low end of the dosing range and titrate slowly. Monitor renal function in elderly patients and adjust dosage accordingly.
+
+Discontinuation of Therapy: When discontinuing gabapentin, gradually taper the dose over a minimum of 1 week. A rapid taper is associated with risk of withdrawal symptoms and, in epilepsy patients, increased seizure frequency. For patients taking high doses or who have been on gabapentin for extended periods, consider tapering over several weeks to months.
+
+**WARNINGS AND PRECAUTIONS**
+
+Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), also known as multiorgan hypersensitivity, has been reported in patients taking antiepileptic drugs including gabapentin. DRESS typically presents with fever, rash, and/or lymphadenopathy in association with other organ system involvement such as hepatitis, nephritis, hematological abnormalities, myocarditis, or myositis, sometimes resembling an acute viral infection. Eosinophilia is often present. This disorder is variable in its expression and other organ systems not noted here may be involved. If DRESS is suspected, discontinue gabapentin and start alternative treatment.
+
+Anaphylaxis and Angioedema: Gabapentin can cause anaphylaxis and angioedema after the first dose or at any time during treatment. Signs and symptoms include difficulty breathing, swelling of the throat or tongue, and hypotension requiring emergency treatment. Instruct patients to discontinue gabapentin and seek immediate medical care if they experience signs or symptoms of anaphylaxis or angioedema.
+
+Respiratory Depression: Serious breathing problems can occur in patients using gabapentin, particularly those with compromised respiratory function, respiratory or neurological disease, renal impairment, concomitant use of CNS depressants (including opioids), and in elderly patients. Monitor patients carefully for respiratory depression, especially when initiating gabapentin or increasing doses, and particularly in patients receiving concomitant opioids.
+
+Neuropsychiatric Adverse Reactions: Gabapentin use is associated with several neuropsychiatric adverse reactions including emotional lability, hostility, thought disorder, and hyperkinesias in pediatric patients 3-12 years old. In adults, adverse reactions include dizziness, somnolence, and ataxia. These effects may impair the ability to drive or operate machinery. Advise patients not to drive or operate complex machinery until they have gained sufficient experience with gabapentin to assess whether it affects their ability to perform such tasks.
+
+Tumorigenic Potential: In animal studies, gabapentin produced an increased incidence of pancreatic acinar cell tumors in rats. The clinical significance of this finding is unknown. Although no evidence of carcinogenicity has been demonstrated in humans, the potential cannot be ruled out with certainty due to limited long-term human experience.
+
+Sudden and Unexplained Death in Epilepsy (SUDEP): There is an increased risk of SUDEP in patients with epilepsy taking antiepileptic drugs, including gabapentin. While the risk is low, patients and families should be informed of this possibility.
+
+Withdrawal Precipitated Seizure, Status Epilepticus: Abrupt withdrawal of antiepileptic drugs in epileptic patients may precipitate status epilepticus. When in the judgment of the clinician the need for dosage reduction, discontinuation, or substitution of alternative antiepileptic medication arises, this should be done gradually over a minimum of 1 week.
+
+Laboratory Tests: False positive readings were reported with the Ames N-Multistix SG dipstick test for urinary protein when gabapentin was added to other antiepileptic drugs. The more specific sulfosalicylic acid precipitation procedure is recommended to determine the presence of urinary protein.
+
+**SIDE EFFECTS**
+
+The most common adverse reactions (≥5% incidence and more frequent than placebo) include dizziness, somnolence (drowsiness), ataxia (loss of coordination), fatigue, nystagmus (involuntary eye movement), tremor, diplopia (double vision), peripheral edema (swelling of extremities), amnesia, abnormal thinking, weight gain, amblyopia (blurred vision), and viral infection. These side effects are generally dose-related and often improve with dose adjustment or as the body adapts to the medication.
+
+Dizziness and somnolence are among the most frequently reported side effects, occurring in up to 20-30% of patients. These effects are typically most pronounced when initiating therapy or increasing doses and often diminish with continued use. Patients should be cautioned about driving or operating machinery until they know how gabapentin affects them. Ataxia and coordination difficulties affect approximately 13% of patients and can increase fall risk, particularly in elderly individuals.
+
+Peripheral edema (swelling of ankles, legs, or hands) occurs in about 8% of patients taking gabapentin. This is usually mild to moderate but can be bothersome. Weight gain is reported by approximately 3% of patients in clinical trials, though the average weight gain is typically modest (2-3 kg). Some patients may experience more significant weight changes.
+
+Visual disturbances including blurred vision, double vision (diplopia), and abnormal vision occur in about 4-6% of patients. These effects are generally reversible upon dose reduction or discontinuation but should be monitored, especially in patients with pre-existing visual problems.
+
+Cognitive effects such as amnesia, confusion, difficulty concentrating, and abnormal thinking are reported by some patients, particularly at higher doses. These effects can impact work performance and daily activities. Emotional changes including mood swings, depression, anxiety, and emotional lability may occur. In some cases, gabapentin may paradoxically cause or worsen anxiety or agitation.
+
+Serious adverse effects requiring immediate medical attention include signs of allergic reactions (anaphylaxis): difficulty breathing, tightness in chest or throat, swelling of face, lips, tongue, or throat, hives or rash; signs of DRESS/multiorgan hypersensitivity: fever, swollen glands, severe muscle or joint pain, unusual weakness, yellowing of skin or eyes, unusual bruising or bleeding, severe skin rash; respiratory depression: slow, shallow, or difficult breathing, confusion, extreme drowsiness, inability to wake up; seizures (new onset or worsening in epilepsy patients); severe skin reactions: blistering, peeling skin, severe rash with or without fever; signs of rhabdomyolysis: severe muscle pain, muscle weakness, dark colored urine, fever; and signs of liver problems: dark urine, pale stools, yellowing of skin or eyes, unusual fatigue, loss of appetite, stomach pain.
+
+Withdrawal symptoms upon abrupt discontinuation may include anxiety, insomnia, nausea, sweating, pain, and in epilepsy patients, increased seizure frequency or status epilepticus. Taper gabapentin gradually to minimize these effects. Suicidal thoughts or behavior: monitor for worsening depression, suicidal thoughts, unusual changes in mood or behavior. This can occur as early as one week after starting treatment.
+
+**DRUG INTERACTIONS**
+
+Opioids: Concomitant use of gabapentin with opioid analgesics may result in increased sedation and respiratory depression. If co-administration is necessary, initiate gabapentin at a low dose and titrate slowly. Monitor patients closely for signs of respiratory depression and sedation. Patients should be warned about the increased risk and instructed to seek immediate medical attention if they experience breathing difficulties or excessive sedation.
+
+CNS Depressants: Gabapentin may potentiate the CNS depressant effects of alcohol, benzodiazepines, barbiturates, sedatives, hypnotics, anxiolytics, and other drugs that cause sedation. Use with caution and monitor for increased sedation and somnolence. Consider dose reduction of one or both agents if excessive sedation occurs. Patients should be advised to avoid alcohol and use caution with other CNS depressants.
+
+Antacids: Antacids containing aluminum and magnesium reduce the bioavailability of gabapentin by approximately 20%. Gabapentin should be administered at least 2 hours following antacid administration to minimize this interaction. Examples of affected antacids include Maalox, Mylanta, Gaviscon, and similar products.
+
+Morphine: When gabapentin is administered with morphine, patients may experience increases in gabapentin concentrations. Monitor for signs of gabapentin toxicity including increased sedation, dizziness, and ataxia. Consider gabapentin dose reduction if toxicity occurs. This interaction also increases respiratory depression risk.
+
+Hydrocodone: Co-administration of gabapentin with hydrocodone decreases hydrocodone exposure. The clinical significance of this interaction is unknown, but patients should be monitored for reduced efficacy of hydrocodone and increased pain. Dose adjustment of hydrocodone may be necessary.
+
+Naproxen: Gabapentin bioavailability is increased (approximately 12-15%) when co-administered with naproxen. This modest increase is generally not clinically significant, but patients should be monitored for gabapentin-related side effects.
+
+Sevelamer: Sevelamer (a phosphate binder used in renal disease) may reduce gabapentin bioavailability. Consider taking gabapentin at least 2 hours before sevelamer administration. Monitor for reduced gabapentin efficacy if drugs must be co-administered.
+
+Cimetidine: Cimetidine may decrease the renal clearance of gabapentin, potentially increasing gabapentin concentrations. The clinical significance of this interaction is uncertain, but patients should be monitored for gabapentin adverse effects if cimetidine is co-administered.
+
+Phenytoin: While gabapentin does not affect phenytoin pharmacokinetics at gabapentin doses up to 400 mg three times daily, some data suggest reduced gabapentin concentrations when co-administered with phenytoin. Clinical significance appears minimal, but monitor for reduced gabapentin efficacy.
+
+Caffeine: Gabapentin may reduce caffeine concentrations, though the clinical significance of this interaction is minimal. No dose adjustment is typically necessary.
+
+Laboratory Interactions: False positive results have been reported with certain dipstick urinary protein tests when gabapentin is present. More specific protein precipitation procedures (sulfosalicylic acid) are recommended if urinary protein testing is needed.
+
+**PREGNANCY AND BREASTFEEDING**
+
+Pregnancy: There are no adequate and well-controlled studies of gabapentin in pregnant women. Data from pregnancy registries and epidemiologic studies suggest a possible increased risk of major congenital malformations with gabapentin use during pregnancy, though results are inconsistent and confounded by underlying maternal conditions and concomitant medication use. Some data suggest a possible increased risk of oral clefts and cardiac malformations.
+
+Animal reproduction studies have shown adverse effects, including increased incidence of skeletal abnormalities and hydroureter/hydronephrosis in offspring. However, animal studies do not always predict human response. Gabapentin should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.
+
+Pregnant women taking gabapentin should be encouraged to enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry to provide information about the safety of antiepileptic drugs during pregnancy. The registry can be contacted at 1-888-233-2334 or online. To reduce the risk of neural tube defects and other complications, women of childbearing potential taking gabapentin should take folic acid supplementation (at least 0.4 mg daily, preferably 4-5 mg daily for women taking anticonvulsants).
+
+Labor and Delivery: The effect of gabapentin on labor and delivery is unknown. Use gabapentin during labor and delivery only if clearly needed. Consider the possibility of neonatal withdrawal symptoms if maternal gabapentin use continues until delivery.
+
+Breastfeeding: Gabapentin is excreted in human breast milk. Limited published data report gabapentin concentrations in breast milk ranging from 0.7 to 9.5 mg/L (infant dose approximately 0.2-1.3 mg/kg/day, or 1.3-3.8% of maternal weight-adjusted dose). Most studies have not reported adverse effects in breastfed infants. However, because the potential for serious adverse reactions exists, consider the developmental and health benefits of breastfeeding along with the mother's clinical need for gabapentin and any potential adverse effects on the breastfed infant.
+
+If a mother is taking gabapentin while breastfeeding, monitor the infant for drowsiness, adequate weight gain, and developmental milestones. Premature infants, neonates, and infants with renal impairment may be at higher risk for adverse effects due to reduced gabapentin clearance. The decision to continue or discontinue breastfeeding or gabapentin should take into account the risk of exposure to the infant, the benefits of breastfeeding to the infant, and the benefits of treatment to the mother.
+
+**OVERDOSE**
+
+Gabapentin overdose has been reported with doses up to 49 grams. While some patients have recovered without sequelae, fatal outcomes have been reported in cases of mixed drug overdose including gabapentin. Symptoms of gabapentin overdose may include double vision, slurred speech, drowsiness, lethargy, diarrhea, loss of consciousness, dizziness, ataxia, blurred vision, and tremor. In cases of very large overdoses or in patients with reduced renal function, more severe symptoms including respiratory depression, coma, and renal failure have been reported.
+
+If gabapentin overdose is suspected, immediately call emergency services (911 in the US) or the Poison Help line at 1-800-222-1222. While waiting for emergency help, keep the person awake if possible and monitor their breathing. If the person stops breathing or cannot be awakened, call 911 immediately and begin CPR if trained.
+
+Treatment of gabapentin overdose is symptomatic and supportive. There is no specific antidote for gabapentin overdose. Activated charcoal may be considered if administered within 1-2 hours of ingestion, though the benefit decreases significantly after this time. Do not induce vomiting. Maintain adequate hydration and monitor renal function, as gabapentin is eliminated unchanged by renal excretion.
+
+Gabapentin can be removed by hemodialysis. In cases of significant overdose, particularly in patients with renal impairment, hemodialysis should be considered. A 4-hour hemodialysis session can remove approximately 33% of gabapentin from the body. Hemodialysis may be particularly beneficial in patients with renal impairment where gabapentin clearance is already compromised.
+
+Monitor vital signs, including respiratory rate and depth, heart rate, blood pressure, and level of consciousness. Provide respiratory support if needed. Monitor for signs of rhabdomyolysis (muscle breakdown), which has been reported in overdose cases, by checking creatine kinase levels and monitoring urine for myoglobinuria. Maintain electrolyte balance and adequate urine output.
+
+Recovery from gabapentin overdose is typically complete if appropriate supportive care is provided. Prognosis is generally good in cases of gabapentin-only overdose, but may be complicated by co-ingestion of other substances, particularly CNS depressants.
+
+**STORAGE AND HANDLING**
+
+Store gabapentin at controlled room temperature, 20°C to 25°C (68°F to 77°F). Brief excursions permitted between 15°C to 30°C (59°F to 86°F). Protect from light and moisture. Keep capsules and tablets in the original container, tightly closed when not in use. Do not remove desiccant packet from the bottle. Store in a dry place away from heat and direct light.
+
+For the oral solution, store at controlled room temperature. Do not refrigerate or freeze the oral solution. Keep the bottle tightly closed when not in use. Discard any unused oral solution 60 days after first opening the bottle.
+
+Keep gabapentin and all medications out of the reach of children and pets. Store in a secure location, preferably in a locked cabinet. While gabapentin is not federally controlled, some states have added it to their controlled substance schedules, and it has potential for misuse. Never share your gabapentin prescription with others, even if they have similar symptoms.
+
+Properly dispose of expired or unused gabapentin. Do not flush medications down the toilet unless specifically instructed. The preferred disposal method is through a drug take-back program. Contact your local pharmacy, law enforcement agency, or waste management service for information about take-back programs in your community. Many pharmacies and DEA-authorized collectors accept medications for safe disposal.
+
+If no take-back program is available, remove gabapentin capsules or tablets from the original container and mix with an undesirable substance such as dirt, cat litter, or used coffee grounds. Place the mixture in a sealed plastic bag or container and dispose of it in household trash. Remove all personal information from the prescription label before discarding the empty container.
+
+**PATIENT COUNSELING INFORMATION**
+
+Advise patients to read the FDA-approved Medication Guide provided with each prescription. Inform patients and caregivers about the risk of serious breathing problems, especially when gabapentin is used with opioid pain medicines, medicines for anxiety or sleeping problems, or other medicines that can affect breathing. Instruct patients to seek immediate medical attention if they experience difficulty breathing, unusual dizziness or lightheadedness, or are hard to awaken.
+
+Inform patients, families, and caregivers about the increased risk of suicidal thoughts and behavior and advise them to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, thoughts about self-harm, or suicidal thoughts. Instruct them to report behaviors of concern immediately to their healthcare provider. Advise patients not to stop taking gabapentin without first talking to their healthcare provider.
+
+Advise patients that gabapentin may cause dizziness, drowsiness, and loss of coordination, which may impair their ability to drive or operate machinery. Instruct patients not to drive, operate complex machinery, or engage in other hazardous activities until they have gained sufficient experience with gabapentin to assess whether it affects their ability to perform such tasks. Advise patients to avoid consuming alcohol while taking gabapentin as it may increase the risk of sedation and dizziness.
+
+Inform patients to take gabapentin only as prescribed and not to adjust the dose without consulting their healthcare provider. Instruct patients taking gabapentin three times daily not to allow more than 12 hours between any two doses. Advise patients that if they miss a dose, they should take it as soon as remembered unless it is almost time for the next dose. They should not take two doses at the same time.
+
+Instruct patients to wait at least 2 hours after taking antacids before taking gabapentin to ensure proper absorption. Inform patients to notify their healthcare provider if they become pregnant or intend to become pregnant during therapy, as gabapentin may harm the fetus. Advise pregnant women to enroll in the NAAED Pregnancy Registry if they are taking gabapentin.
+
+Counsel patients about the signs and symptoms of serious adverse reactions including allergic reactions (DRESS/multiorgan hypersensitivity), anaphylaxis, and angioedema. Instruct them to seek immediate medical attention if they develop fever, rash, swollen glands, unusual bruising or bleeding, or swelling of the face, lips, tongue, or throat. Inform patients about the importance of not stopping gabapentin abruptly, especially if taking it for seizures, as this can cause increased seizure frequency.
+
+Advise patients to stay well-hydrated while taking gabapentin and to report any signs of decreased urination or swelling. Instruct patients to inform all healthcare providers that they are taking gabapentin before any surgical or dental procedures. Encourage patients to carry identification indicating they are taking an antiepileptic medication if gabapentin is being used for seizure control.
+
+DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme demonstration purposes only. No actual medications are sold or dispensed. All medical information should be verified with qualified healthcare professionals before making treatment decisions.`,
     price: 18.99,
     oldPrice: 34.99,
     image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",

@@ -1,16 +1,5 @@
-export interface MedicalInfo {
-  dosage: {
-    standard: string;
-    administration: string[];
-    specialPopulations?: string;
-  };
-  sideEffects: {
-    common: string[];
-    serious: string[];
-  };
-  contraindications: string[];
-  drugInteractions: string[];
-}
+import { MedicalInfo } from '@/types/medicalInfo';
+import { ResearchChemicalInfo } from '@/types/researchChemicalInfo';
 
 export type SwatchStyle = 
   | "checkbox-rectangular" 
@@ -42,6 +31,7 @@ export interface Product {
   formOptions?: string[];
   tags?: string[];
   medicalInfo?: MedicalInfo;
+  researchChemicalInfo?: ResearchChemicalInfo;
   swatchStyle?: SwatchStyle;
   variationPrices?: {
     minPrice: number;

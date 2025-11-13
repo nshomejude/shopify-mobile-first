@@ -13,22 +13,71 @@ export interface DetailedDrugInteraction {
 }
 
 export interface MedicalInfo {
-  uses: string[];
-  dosage: {
-    standard: string;
-    maximum: string;
-    administration: string[];
+  // Uses - What is this drug used for?
+  uses: {
+    overview: string; // Brief overview paragraph
+    conditions: string[]; // List of conditions treated with descriptions
   };
+  
+  // Side Effects
   sideEffects: {
-    common: string[];
-    serious: string[];
-    rare: string[];
+    common: string[]; // Common side effects
+    serious: string[]; // Serious side effects requiring medical attention
+    rare?: string[]; // Rare side effects
+    notes?: string; // Additional notes about side effects
   };
-  contraindications: string[];
-  drugInteractions: (string | DetailedDrugInteraction)[];
-  warnings: string[];
-  pregnancyCategory?: string;
-  storage?: string;
+  
+  // Warnings - Critical safety information
+  warnings: {
+    blackBoxWarnings?: string[]; // FDA black box warnings
+    generalWarnings: string[]; // General safety warnings
+    specificPopulations?: string[]; // Warnings for elderly, children, etc.
+  };
+  
+  // Before Taking - What to tell your doctor
+  beforeTaking: {
+    contraindications: string[]; // Absolute contraindications
+    precautions: string[]; // Conditions to discuss with doctor
+    allergies?: string[]; // Allergy warnings
+    pregnancy?: string; // Pregnancy category and information
+    breastfeeding?: string; // Breastfeeding information
+  };
+  
+  // Dosage Information
+  dosage: {
+    overview: string; // General dosing overview
+    adults?: string; // Adult dosing
+    children?: string; // Pediatric dosing
+    elderly?: string; // Geriatric dosing
+    specialPopulations?: string; // Renal/hepatic impairment
+    administration: string[]; // How to take
+    missedDose?: string; // What to do if miss a dose
+    overdose?: string; // Overdose information
+    storage?: string; // Storage instructions
+    strengths?: string[]; // Available strengths
+  };
+  
+  // Drug Interactions
+  drugInteractions: {
+    overview?: string; // General interaction overview
+    interactions: (string | DetailedDrugInteraction)[]; // Specific interactions
+    avoidWith?: string[]; // Foods/substances to avoid
+  };
+  
+  // FAQ Section
+  faq?: Array<{
+    question: string;
+    answer: string;
+  }>;
+  
+  // Additional Information
+  ingredients?: {
+    active: string;
+    inactive?: string[];
+  };
+  
+  // Legacy support
+  contraindications?: string[]; // Deprecated - use beforeTaking.contraindications
 }
 
 export const formatInteraction = (interaction: string | DetailedDrugInteraction): DetailedDrugInteraction => {

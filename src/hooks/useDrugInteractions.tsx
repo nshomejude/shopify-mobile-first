@@ -27,11 +27,15 @@ export const useDrugInteractions = (productIds: string[]) => {
         if (!product1.medicalInfo || !product2.medicalInfo) continue;
 
         // Check if product1's interactions mention product2
-        const interactions1 = product1.medicalInfo.drugInteractions;
-        const interactions2 = product2.medicalInfo.drugInteractions;
+        const interactions1 = product1.medicalInfo.drugInteractions?.interactions || product1.medicalInfo.drugInteractions || [];
+        const interactions2 = product2.medicalInfo.drugInteractions?.interactions || product2.medicalInfo.drugInteractions || [];
+
+        // Normalize interactions to array format
+        const normalizedInteractions1 = Array.isArray(interactions1) ? interactions1 : [];
+        const normalizedInteractions2 = Array.isArray(interactions2) ? interactions2 : [];
 
         // Check for direct name matches or common drug class interactions
-        interactions1.forEach(interactionRaw => {
+        normalizedInteractions1.forEach(interactionRaw => {
           const interaction = formatInteraction(interactionRaw);
           const interactionText = typeof interactionRaw === 'string' ? interactionRaw : interaction.drug;
           const interactionLower = interactionText.toLowerCase();
@@ -52,7 +56,7 @@ export const useDrugInteractions = (productIds: string[]) => {
         });
 
         // Check reverse direction
-        interactions2.forEach(interactionRaw => {
+        normalizedInteractions2.forEach(interactionRaw => {
           const interaction = formatInteraction(interactionRaw);
           const interactionText = typeof interactionRaw === 'string' ? interactionRaw : interaction.drug;
           const interactionLower = interactionText.toLowerCase();

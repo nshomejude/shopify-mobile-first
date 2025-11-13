@@ -578,7 +578,7 @@ export const ProductDetail = () => {
                   <div>
                     <h4 className="font-semibold mb-2">Standard Adult Dosage</h4>
                     <p className="text-muted-foreground">
-                      {product.medicalInfo?.dosage.standard || "The typical starting dose is determined based on the condition being treated, patient age, weight, and other medications being taken. Your healthcare provider will prescribe the appropriate dosage for your specific situation."}
+                      {product.medicalInfo?.dosage?.overview || product.medicalInfo?.dosage?.adults || "The typical starting dose is determined based on the condition being treated, patient age, weight, and other medications being taken. Your healthcare provider will prescribe the appropriate dosage for your specific situation."}
                     </p>
                   </div>
 
@@ -711,19 +711,23 @@ export const ProductDetail = () => {
                     <p className="text-muted-foreground mb-3">
                       This medication may interact with the following:
                     </p>
-                    {product.medicalInfo?.drugInteractions && product.medicalInfo.drugInteractions.length > 0 ? (
-                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                        {product.medicalInfo.drugInteractions.map((interaction, index) => (
-                          <li key={index}>{interaction}</li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
-                        <li>Other prescription medications</li>
-                        <li>Over-the-counter drugs and supplements</li>
-                        <li>Herbal products</li>
-                      </ul>
-                    )}
+                    {(() => {
+                      const interactions = product.medicalInfo?.drugInteractions?.interactions || product.medicalInfo?.drugInteractions || [];
+                      const normalizedInteractions = Array.isArray(interactions) ? interactions : [];
+                      return normalizedInteractions.length > 0 ? (
+                        <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                          {normalizedInteractions.map((interaction, index) => (
+                            <li key={index}>{typeof interaction === 'string' ? interaction : interaction.mechanism}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <ul className="space-y-2 text-muted-foreground ml-6 list-disc">
+                          <li>Other prescription medications</li>
+                          <li>Over-the-counter drugs and supplements</li>
+                          <li>Herbal products</li>
+                        </ul>
+                      );
+                    })()}
                     <p className="text-sm text-muted-foreground mt-3">
                       Always inform your healthcare provider about all medications you are taking.
                     </p>

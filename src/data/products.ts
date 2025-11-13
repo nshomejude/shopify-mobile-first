@@ -47188,6 +47188,1294 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       ]
     },
     demoMode: true
+  },
+  {
+    id: "rx-835",
+    name: "Aimovig (Erenumab)",
+    slug: "aimovig-erenumab",
+    category: "prescription-drugs",
+    subcategory: "neurology",
+    description: "Aimovig (erenumab) is a first-in-class monoclonal antibody medication specifically designed for migraine prevention. It works by blocking the calcitonin gene-related peptide (CGRP) receptor, a key player in migraine pathophysiology. Approved by the FDA in 2018, Aimovig represents a breakthrough in migraine treatment as it's the first preventive medication specifically developed to target the biological pathway of migraines. Unlike older preventive medications that were originally developed for other conditions, Aimovig was purpose-built for migraine prevention. It's administered as a monthly self-injection and has shown significant efficacy in reducing monthly migraine days. Aimovig is indicated for the preventive treatment of migraine in adults, particularly those who have failed multiple other preventive therapies or cannot tolerate them. Clinical trials demonstrated that Aimovig reduces monthly migraine days by 3-4 days on average, with some patients experiencing even greater reductions. The medication is generally well-tolerated with a favorable safety profile compared to older preventive medications. Common side effects include injection site reactions and constipation. Aimovig is available in two doses: 70mg and 140mg, administered monthly via autoinjector. The higher dose may provide additional benefit for some patients. Treatment is typically continued for at least 3 months to assess efficacy. Aimovig offers hope for chronic migraine sufferers who have exhausted other treatment options, providing a targeted, disease-specific approach to migraine prevention.",
+    image: "/placeholder.svg",
+    price: 899.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - may require prior authorization and specialty pharmacy.",
+    medicalInfo: {
+      uses: {
+        overview: "Aimovig is a CGRP receptor antagonist used specifically for migraine prevention in adults.",
+        approvedUses: [
+          "Preventive treatment of migraine in adults",
+          "Reduction of monthly migraine days in episodic migraine (≤14 migraine days/month)",
+          "Reduction of monthly migraine days in chronic migraine (≥15 headache days/month, ≥8 migraine days)",
+          "Alternative for patients who have failed or cannot tolerate other preventive therapies"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Injection site reactions (pain, redness, itching) - 6%",
+          "Constipation - 1-3%",
+          "Muscle cramps or spasms - 2%"
+        ],
+        serious: [
+          "Severe constipation with complications (rare)",
+          "Hypertension (high blood pressure) - monitor BP",
+          "Hypersensitivity reactions (rare but reported)",
+          "Serious cardiovascular events (very rare - causal relationship uncertain)"
+        ],
+        notes: "Generally well-tolerated with fewer side effects than traditional migraine preventives (beta-blockers, antidepressants, anticonvulsants). Most side effects are mild and transient."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Monitor blood pressure - may cause hypertension",
+          "Constipation can be severe in some patients - stay hydrated, increase fiber",
+          "Not for acute treatment of migraine - use triptans or NSAIDs for active migraines",
+          "May take 1-3 months to see full effect - continue treatment during trial period",
+          "Hypersensitivity reactions reported (rash, angioedema) - discontinue if occurs"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Serious hypersensitivity to erenumab or excipients"
+        ],
+        precautions: [
+          "Cardiovascular disease (limited data - use with caution)",
+          "History of severe constipation or bowel obstruction",
+          "Hypertension - monitor blood pressure regularly",
+          "Latex allergy (autoinjector needle cap contains latex)"
+        ],
+        pregnancy: "Category Unknown. Limited human data. Animal studies showed no fetal harm. Monoclonal antibodies cross placenta increasingly in 2nd/3rd trimester. Use if benefit outweighs risk. Consider pregnancy registry enrollment.",
+        breastfeeding: "Unknown if excreted in breast milk. Likely present in low amounts. Monoclonal antibodies typically have low oral bioavailability in infants. Weigh benefits of breastfeeding vs. maternal need for treatment."
+      },
+      dosage: {
+        overview: "Administered as monthly subcutaneous injection. Available in 70mg or 140mg single-dose autoinjector or prefilled syringe.",
+        adults: "Initial: 70mg subcutaneously once monthly. May increase to 140mg once monthly if needed for additional benefit. Administer at same time each month (± few days acceptable).",
+        children: "Not approved for pediatric use. Safety and efficacy not established in patients <18 years.",
+        administration: [
+          "Subcutaneous injection - abdomen, thigh, or upper arm",
+          "Allow to reach room temperature (15-30 min) before injection - do not microwave or heat",
+          "Inspect for particles or discoloration - solution should be clear to opalescent, colorless to pale yellow",
+          "Rotate injection sites with each dose",
+          "Can be self-administered after proper training",
+          "Store refrigerated 2-8°C (36-46°F) - do not freeze",
+          "Can be kept at room temperature up to 25°C (77°F) for up to 7 days",
+          "Protect from direct sunlight"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "No significant drug-drug interactions identified",
+          "Does not affect CYP450 enzymes",
+          "Can be used with acute migraine treatments (triptans, NSAIDs, gepants)",
+          "Can be combined with other preventive medications if needed",
+          "Not affected by food or other medications"
+        ],
+        substancesToAvoid: [
+          "No specific substances to avoid",
+          "Alcohol may trigger migraines independent of Aimovig"
+        ],
+        overview: "Aimovig has minimal drug interactions due to its monoclonal antibody mechanism - it's not metabolized by liver enzymes."
+      },
+      faq: [
+        {
+          question: "How long until Aimovig works?",
+          answer: "Some patients notice improvement within the first month, but full effect typically takes 2-3 months. Clinical trials showed continued improvement through 6 months. Give it at least 3 months before deciding if it's working. Track your migraine days to assess response."
+        },
+        {
+          question: "Can I use Aimovig with triptan medications?",
+          answer: "YES. Aimovig is for prevention only, not acute treatment. You should continue using your acute migraine medications (triptans like Imitrex, NSAIDs, etc.) when migraines occur. Aimovig doesn't interact with acute treatments."
+        },
+        {
+          question: "What if I miss a dose?",
+          answer: "Administer as soon as you remember, then resume your monthly schedule from that dose. If you're close to the next scheduled dose, just take the next one and continue monthly from there. Don't double up doses."
+        },
+        {
+          question: "Does insurance cover Aimovig?",
+          answer: "Many insurance plans cover it, but most require prior authorization and documentation of failure of 2-3 other preventive medications. Copays can be high ($0-$700/month). Amgen offers copay assistance program that can reduce cost to $5/month for eligible patients. Check with specialty pharmacy."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-836",
+    name: "Emgality (Galcanezumab)",
+    slug: "emgality-galcanezumab",
+    category: "prescription-drugs",
+    subcategory: "neurology",
+    description: "Emgality (galcanezumab) is a humanized monoclonal antibody that blocks calcitonin gene-related peptide (CGRP), a neuropeptide involved in migraine attacks. Approved by the FDA in 2018, Emgality is indicated for both migraine prevention and treatment of episodic cluster headaches in adults. It represents a targeted, migraine-specific preventive therapy unlike older medications repurposed from other conditions. Emgality works by binding to CGRP ligand itself (rather than the receptor like Aimovig), preventing CGRP from activating its receptor and triggering the cascade of events that lead to migraine pain and associated symptoms. Clinical trials demonstrated significant reduction in monthly migraine days - approximately 4-5 days reduction on average in patients with episodic migraine, and similar reductions in chronic migraine sufferers. Emgality is particularly notable for being the first and only FDA-approved preventive treatment for episodic cluster headache, a devastating condition often called 'suicide headache' due to the extreme pain. The medication is self-administered via monthly subcutaneous injections using a prefilled pen or syringe. Loading dose strategy differs from other CGRP antibodies: initial dose is 240mg (two 120mg injections), followed by monthly 120mg doses. Most patients begin seeing benefit within the first month, with continued improvement over 3-6 months. Side effects are generally mild - most commonly injection site reactions. Emgality offers new hope for both migraine and cluster headache sufferers.",
+    image: "/placeholder.svg",
+    price: 899.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization.",
+    medicalInfo: {
+      uses: {
+        overview: "Emgality is a CGRP ligand-blocking antibody for migraine prevention and episodic cluster headache treatment.",
+        approvedUses: [
+          "Preventive treatment of migraine in adults",
+          "Treatment of episodic cluster headache in adults (first FDA-approved preventive for this indication)",
+          "Reduction in monthly migraine days in both episodic and chronic migraine",
+          "Alternative for patients who failed other preventive therapies"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Injection site reactions (pain, erythema, pruritus) - 18-27%",
+          "Injection site pain - 12%",
+          "Nasopharyngitis (common cold) - 5%",
+          "Upper respiratory tract infection - 4%"
+        ],
+        serious: [
+          "Hypersensitivity reactions including rash, urticaria, dyspnea (rare)",
+          "Serious cardiovascular events (very rare - causality uncertain)",
+          "Severe constipation (rare compared to erenumab)"
+        ],
+        notes: "Well-tolerated overall. Injection site reactions most common but usually mild and transient. Lower rate of constipation compared to Aimovig."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Hypersensitivity reactions possible - discontinue if serious reaction occurs",
+          "Not for acute treatment of migraine or cluster headache",
+          "May take 1-3 months for full preventive effect",
+          "Monitor for cardiovascular effects if risk factors present"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Serious hypersensitivity to galcanezumab or any excipients"
+        ],
+        precautions: [
+          "Cardiovascular disease (use with caution - limited data)",
+          "Latex allergy (needle cover contains latex)",
+          "Patients with hypersensitivity to other monoclonal antibodies"
+        ],
+        pregnancy: "No adequate human data. Animal studies at high doses showed no fetal harm. Monoclonal antibodies cross placenta, especially in 2nd/3rd trimester. Use only if benefit justifies potential risk. Pregnancy registry available.",
+        breastfeeding: "Unknown if excreted in breast milk. Likely present in small amounts but limited oral bioavailability. Benefits of breastfeeding should be considered along with mother's need for treatment."
+      },
+      dosage: {
+        overview: "Monthly subcutaneous injection with loading dose strategy. Differs between migraine prevention and cluster headache.",
+        adults: "**Migraine prevention:** Loading dose: 240mg (two 120mg injections) at Month 0, then 120mg monthly. **Episodic cluster headache:** 300mg (three 100mg injections) at start of cluster period, then 300mg monthly until end of cluster period.",
+        children: "Not approved for pediatric use (<18 years).",
+        administration: [
+          "Subcutaneous injection - abdomen, thigh, back of upper arm, or buttocks",
+          "Allow to warm to room temperature 30 minutes before injection",
+          "Inspect solution - should be clear to opalescent, colorless to slightly yellow",
+          "Rotate injection sites",
+          "Loading dose: Give two injections at different sites for migraine (or three for cluster headache)",
+          "Can self-administer after training",
+          "Store refrigerated 2-8°C (36-46°F) in original carton",
+          "May store at room temperature up to 25°C (77°F) for up to 7 days",
+          "Protect from light - keep in carton until use"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "No clinically significant drug interactions identified",
+          "Does not affect or is affected by CYP450 enzymes",
+          "Safe to use with acute migraine treatments (triptans, NSAIDs, gepants)",
+          "Can be combined with other preventive medications if needed",
+          "No food interactions"
+        ],
+        substancesToAvoid: [
+          "No specific substances to avoid",
+          "Alcohol may independently trigger migraines"
+        ],
+        overview: "Monoclonal antibody with minimal interaction potential - not metabolized by liver enzymes."
+      },
+      faq: [
+        {
+          question: "What's the difference between Emgality and Aimovig?",
+          answer: "Both block CGRP pathway but differently: Emgality blocks CGRP molecule itself (ligand blocker), while Aimovig blocks CGRP receptor. In practice, efficacy is similar (both reduce migraine days ~4/month). Emgality uses loading dose (240mg first month vs 70-140mg for Aimovig) and may work slightly faster. Emgality has lower constipation rate. Emgality also approved for cluster headache. Choice often depends on insurance coverage, side effect profile, and individual response."
+        },
+        {
+          question: "How quickly does Emgality work?",
+          answer: "Many patients see improvement in the first month, especially with the loading dose strategy (240mg initial dose). However, maximum benefit typically seen at 3 months. Clinical trials showed continued improvement through 6 months. Track migraine frequency to assess response - give it at least 2-3 months."
+        },
+        {
+          question: "Can I use Emgality for cluster headache attacks?",
+          answer: "Emgality is for PREVENTING cluster headaches during your cluster period, not treating active attacks. For acute cluster attacks, use oxygen or triptans (sumatriptan injection). Start Emgality at the beginning of your cluster period (300mg loading dose) and continue monthly until period ends."
+        },
+        {
+          question: "What if I forget a dose?",
+          answer: "Take as soon as you remember, then continue with monthly doses from that new date. If very close to next scheduled dose, just take the next one and continue monthly. Don't take two doses at once."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-837",
+    name: "Nurtec ODT (Rimegepant)",
+    slug: "nurtec-odt-rimegepant",
+    category: "prescription-drugs",
+    subcategory: "neurology",
+    description: "Nurtec ODT (rimegepant) is a groundbreaking medication approved for both acute treatment and preventive treatment of migraine in adults - the first and only medication with this dual indication. It belongs to a class called gepants, which are small-molecule CGRP receptor antagonists. Unlike the injectable CGRP monoclonal antibodies (Aimovig, Emgality, Ajovy), Nurtec is an orally disintegrating tablet that dissolves on the tongue without water. For acute treatment, Nurtec works rapidly to abort migraine attacks, providing pain relief and resolution of bothersome symptoms within 2 hours for many patients. For prevention, taking Nurtec every other day significantly reduces monthly migraine days. This dual-purpose capability is unique and offers convenience for patients who need both acute and preventive therapy. Nurtec's ODT formulation is particularly advantageous for migraine sufferers experiencing nausea and vomiting, as it dissolves instantly and doesn't require swallowing pills or drinking water. The medication has a favorable side effect profile with nausea being most common (2-4%). Unlike triptans, Nurtec doesn't cause vasoconstriction, making it safer for patients with cardiovascular disease. It also doesn't carry the medication overuse headache risk of frequent triptan use. Clinical trials showed 21% pain freedom at 2 hours for acute treatment, and reduction of 4-5 monthly migraine days for prevention. Nurtec represents a new era in migraine management with its dual-action capability and patient-friendly formulation.",
+    image: "/placeholder.svg",
+    price: 999.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - may require prior authorization.",
+    medicalInfo: {
+      uses: {
+        overview: "Nurtec ODT is a CGRP receptor antagonist approved for both acute treatment and preventive treatment of migraine - unique dual indication.",
+        approvedUses: [
+          "Acute treatment of migraine with or without aura in adults",
+          "Preventive treatment of episodic migraine in adults",
+          "Dual-use: Can use same medication for both prevention (every other day) and acute treatment (additional doses for breakthrough)",
+          "Alternative for patients who cannot tolerate triptans or have cardiovascular contraindications to triptans"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Nausea - 2-4%",
+          "Abdominal pain or indigestion - 2%",
+          "Hypersensitivity reactions (mild) - <2%"
+        ],
+        serious: [
+          "Serious hypersensitivity reactions including dyspnea and rash (rare, <1%)",
+          "Allergic reactions (very rare)"
+        ],
+        notes: "Excellent tolerability profile overall. Significantly fewer side effects than triptans. No vasoconstriction. Lower nausea rate than many migraine medications."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Avoid second dose within 48 hours for acute treatment",
+          "Hypersensitivity reactions possible - discontinue if occurs",
+          "Not studied in patients with severe hepatic or severe renal impairment - avoid use",
+          "CYP3A4 interactions - dose adjustments needed with certain medications",
+          "Do not use for preventive therapy if taking other gepants acutely"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Hypersensitivity to rimegepant or any component",
+          "Severe hepatic impairment (Child-Pugh C) - avoid use",
+          "Severe renal impairment (eGFR <15 mL/min/1.73m²) - avoid use"
+        ],
+        precautions: [
+          "Moderate hepatic impairment - use with caution",
+          "Moderate renal impairment - use with caution",
+          "Strong or moderate CYP3A4 inhibitors/inducers - may need dose adjustment or avoidance",
+          "Cardiovascular disease (generally safer than triptans - no vasoconstriction)"
+        ],
+        pregnancy: "Limited human data. Animal studies at high doses showed no fetal harm. Use if benefit outweighs potential risk. Consider pregnancy registry.",
+        breastfeeding: "Unknown if excreted in breast milk. Small amount likely present. Consider infant exposure, benefits of breastfeeding, and maternal need for treatment."
+      },
+      dosage: {
+        overview: "Orally disintegrating tablet (ODT) 75mg. Dosing differs for acute vs. preventive use.",
+        adults: "**Acute treatment:** 75mg ODT as needed (maximum 1 dose per day). **Preventive treatment:** 75mg ODT every other day. **Dual use:** If using for prevention (every other day), can take additional dose for breakthrough migraine on non-prevention days, but not within 48 hours of last dose.",
+        children: "Not approved in pediatric patients. Safety/efficacy not established.",
+        administration: [
+          "Place tablet on or under tongue - dissolves without liquid",
+          "Can take with or without food",
+          "No water needed",
+          "Tablet dissolves rapidly (usually <1 minute)",
+          "Peel open blister pack with dry hands",
+          "Do not push tablet through foil",
+          "Take immediately after opening blister",
+          "Store at room temperature 20-25°C (68-77°F)",
+          "Keep in original package until use (protect from moisture)"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "**Strong CYP3A4 inhibitors (itraconazole, ketoconazole, clarithromycin) - AVOID combination**",
+          "**Moderate CYP3A4 inhibitors (erythromycin, fluconazole, verapamil, diltiazem, grapefruit juice) - Use another day (avoid within 48 hours)**",
+          "**Strong CYP3A4 inducers (rifampin, phenobarbital, phenytoin, St. John's wort) - AVOID - reduces Nurtec effectiveness**",
+          "**P-gp inhibitors (quinidine, cyclosporine) - May increase rimegepant levels**",
+          "Triptans - can use together or sequentially if needed (no interaction)",
+          "Other gepants (Ubrelvy, Qulipta) - avoid concurrent use",
+          "CGRP antibodies (Aimovig, Emgality, Ajovy) - can use together if using Nurtec acutely; coordinate if using Nurtec preventively"
+        ],
+        substancesToAvoid: [
+          "Grapefruit juice - moderate CYP3A4 inhibitor",
+          "St. John's wort - strong CYP3A4 inducer",
+          "Alcohol may independently trigger migraines"
+        ],
+        overview: "Significant CYP3A4 interactions require attention. Avoid strong inhibitors/inducers. Coordinate with pharmacist if taking multiple medications."
+      },
+      faq: [
+        {
+          question: "Can I take Nurtec every day for prevention?",
+          answer: "No - for prevention, take Nurtec every OTHER day (not daily). Taking it daily hasn't been studied and isn't recommended. The every-other-day regimen (75mg every 48 hours) has been proven effective and safe for prevention. For acute migraines on 'off' days, you can take an additional dose."
+        },
+        {
+          question: "Is Nurtec better than triptans for acute treatment?",
+          answer: "Different profile: Triptans work faster for some (30-60 min) vs Nurtec (60-120 min), but Nurtec doesn't cause rebound headaches with frequent use, doesn't constrict blood vessels (safer for cardiovascular patients), and has fewer side effects. Nurtec also prevents migraine recurrence better. Many patients who can't take triptans (cardiovascular disease, hemiplegic migraine) can safely use Nurtec. Try both to see which works better for you."
+        },
+        {
+          question: "What's the difference between Nurtec and Ubrelvy?",
+          answer: "Both are gepants (CGRP receptor antagonists), but Nurtec is approved for BOTH acute treatment AND prevention, while Ubrelvy is only for acute treatment. Nurtec is ODT (dissolves on tongue) vs Ubrelvy tablets. Efficacy for acute treatment is similar. If you need both acute and preventive therapy, Nurtec offers the convenience of one medication for both."
+        },
+        {
+          question: "Does insurance cover Nurtec?",
+          answer: "Many plans cover it but most require prior authorization and documentation that you failed other treatments. Copays can be high ($50-800/month). Manufacturer offers copay savings card that can reduce cost to $0 for up to 8 doses/month for eligible commercially insured patients. Check GoodRx for cash prices too."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-838",
+    name: "Ubrelvy (Ubrogepant)",
+    slug: "ubrelvy-ubrogepant",
+    category: "prescription-drugs",
+    subcategory: "neurology",
+    description: "Ubrelvy (ubrogepant) is an oral CGRP receptor antagonist (gepant) specifically approved for the acute treatment of migraine with or without aura in adults. Approved by the FDA in 2019, Ubrelvy was the first oral CGRP antagonist on the market, representing a new class of acute migraine medications. Unlike triptans which work by constricting blood vessels, Ubrelvy blocks the CGRP receptor, preventing the inflammatory cascade that causes migraine pain without causing vasoconstriction. This mechanism makes Ubrelvy safer for patients with cardiovascular disease, uncontrolled hypertension, or previous stroke - populations who cannot safely use triptans. Clinical trials demonstrated that Ubrelvy provides pain freedom within 2 hours for approximately 20% of patients, and pain relief for about 60%. Many patients report that Ubrelvy is more effective at preventing migraine recurrence (headache coming back within 24 hours) compared to triptans. The medication is generally well-tolerated with nausea, somnolence, and dry mouth being the most common side effects. Importantly, Ubrelvy doesn't carry the risk of medication overuse headache that limits triptan use to <10 days per month. However, healthcare providers still recommend limiting acute migraine medication use to prevent chronification. Ubrelvy comes in 50mg and 100mg tablets and can be taken with or without food. Many patients keep Ubrelvy as their go-to acute treatment, especially if they've had triptan failures or side effects.",
+    image: "/placeholder.svg",
+    price: 899.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - may require prior authorization.",
+    medicalInfo: {
+      uses: {
+        overview: "Ubrelvy is an oral CGRP receptor antagonist for acute treatment of migraine attacks.",
+        approvedUses: [
+          "Acute treatment of migraine with or without aura in adults",
+          "Alternative to triptans for patients with cardiovascular contraindications",
+          "Acute treatment for patients who don't respond to or tolerate triptans",
+          "Migraine with aura (safe even in hemiplegic or basilar migraine unlike triptans)"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Nausea - 4-11% (dose-dependent)",
+          "Somnolence/drowsiness - 3-5%",
+          "Dry mouth - 2-3%",
+          "Fatigue - 1-2%"
+        ],
+        serious: [
+          "Hypersensitivity reactions (rare)",
+          "Serious allergic reactions (very rare)"
+        ],
+        notes: "Well-tolerated overall. Lower side effect rate than many triptans. No vasoconstriction or cardiovascular effects. No risk of serotonin syndrome."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Not for migraine prevention - acute treatment only",
+          "Safety of treating >8 migraines/month not established",
+          "Avoid in severe hepatic or renal impairment",
+          "CYP3A4 drug interactions require dose adjustments",
+          "Do not take more than 200mg in 24-hour period"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Severe hepatic impairment (Child-Pugh C) - avoid use",
+          "Severe renal impairment (eGFR <15) - avoid use",
+          "Concomitant use with strong CYP3A4 inhibitors",
+          "Known hypersensitivity to ubrogepant"
+        ],
+        precautions: [
+          "Mild to moderate hepatic impairment - may need dose adjustment",
+          "Mild to moderate renal impairment - use caution",
+          "Concurrent medications that affect CYP3A4",
+          "Elderly patients - use caution (limited data)"
+        ],
+        pregnancy: "No adequate human data. Animal studies showed no harm at therapeutic doses. Use only if benefit outweighs potential risk.",
+        breastfeeding: "Unknown if excreted in breast milk. Present in animal milk. Consider risks/benefits of breastfeeding vs maternal need for treatment. May pump and discard for 24 hours after dose if concerned."
+      },
+      dosage: {
+        overview: "Oral tablet, 50mg or 100mg. Taken at onset of migraine. Can repeat if needed.",
+        adults: "50mg or 100mg at onset of migraine. May take second dose if needed ≥2 hours after initial dose. Maximum 200mg/24 hours. **With moderate CYP3A4 inhibitors:** Initial 50mg, max 50mg/24 hrs. **With weak CYP3A4 inhibitors or P-gp inhibitors:** No adjustment needed.",
+        children: "Not approved for pediatric use. Safety/efficacy not established in patients <18 years.",
+        administration: [
+          "Take at first sign of migraine - works best when taken early",
+          "Can take with or without food",
+          "Swallow whole with water",
+          "If migraine persists or returns, may take second dose after ≥2 hours",
+          "Do not exceed 200mg in 24 hours",
+          "Can use on consecutive days if needed (no 48-hour wait like Nurtec)",
+          "Store at room temperature 20-25°C (68-77°F)"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "**Strong CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin) - AVOID combination**",
+          "**Moderate CYP3A4 inhibitors (verapamil, diltiazem, fluconazole, erythromycin, grapefruit juice) - Reduce dose to 50mg, max 50mg/24hrs**",
+          "**Weak CYP3A4 inhibitors (atorvastatin, fluvoxamine) - No dose adjustment needed**",
+          "**Strong CYP3A4 inducers (rifampin, phenobarbital, carbamazepine, St. John's wort) - May reduce effectiveness, avoid if possible**",
+          "**P-gp inhibitors (cyclosporine, quinidine) - Use caution**",
+          "Triptans - can use together if needed (no interaction)",
+          "NSAIDs/acetaminophen - can use together",
+          "Other gepants (Nurtec, Qulipta) - avoid taking simultaneously"
+        ],
+        substancesToAvoid: [
+          "Grapefruit juice - moderate CYP3A4 inhibitor (limit intake)",
+          "St. John's wort - strong CYP3A4 inducer (avoid)",
+          "Alcohol may worsen nausea and independently trigger migraines"
+        ],
+        overview: "Significant CYP3A4 interactions. Check all medications with pharmacist. Avoid strong inhibitors/inducers."
+      },
+      faq: [
+        {
+          question: "How is Ubrelvy different from triptans?",
+          answer: "MECHANISM: Ubrelvy blocks CGRP receptor (no vasoconstriction) vs triptans constrict blood vessels. SAFETY: Ubrelvy safe in cardiovascular disease, hemiplegic migraine, stroke history (triptans contraindicated). TOLERABILITY: Ubrelvy has fewer side effects (no chest tightness, tingling, dizziness common with triptans). RECURRENCE: Ubrelvy may prevent recurrence better. OVERUSE: No proven medication overuse headache risk with Ubrelvy (triptans limited to <10 days/month). SPEED: Triptans may work slightly faster (30-60 min vs 60-120 min)."
+        },
+        {
+          question: "Can I take Ubrelvy every day?",
+          answer: "Ubrelvy is for ACUTE treatment only, not prevention. While there's no arbitrary limit like triptans (<10 days/month), treating >8 migraines/month hasn't been studied. If you need acute medication that often, talk to your doctor about adding preventive therapy (like Aimovig, Emgality, or Nurtec for prevention)."
+        },
+        {
+          question: "What if Ubrelvy doesn't work for my migraine?",
+          answer: "Take at first sign of migraine - works best early. If ineffective after 2 hours, can take second dose (up to 200mg total/24hrs). If still ineffective, you can take a triptan or other rescue medication (no interaction). Try higher dose next time (100mg if you took 50mg). If consistently ineffective after 2-3 migraines, discuss alternatives with doctor."
+        },
+        {
+          question: "Can I take Ubrelvy and Nurtec together?",
+          answer: "Not recommended to take both simultaneously as they're both CGRP antagonists (gepants) and would be redundant. However, some patients use Nurtec for prevention (every other day) and Ubrelvy for acute treatment when breakthrough migraines occur. Discuss with your neurologist to coordinate therapy."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-839",
+    name: "Tremfya (Guselkumab)",
+    slug: "tremfya-guselkumab",
+    category: "prescription-drugs",
+    subcategory: "dermatology",
+    description: "Tremfya (guselkumab) is a fully human monoclonal antibody that selectively blocks interleukin-23 (IL-23), a key cytokine involved in the inflammatory cascade of psoriasis and psoriatic arthritis. Approved by the FDA in 2017 for plaque psoriasis and 2020 for psoriatic arthritis, Tremfya represents a newer generation of biologics with more selective targeting compared to older IL-17 or TNF inhibitors. IL-23 plays a central role in driving chronic inflammation in psoriasis by promoting the differentiation and survival of Th17 cells. By blocking IL-23, Tremfya interrupts this inflammatory pathway at an earlier point. Clinical trials demonstrated remarkable efficacy: 70-85% of patients achieve 90% skin clearance (PASI 90) at one year, with many achieving complete clearance. Tremfya also shows excellent durability - patients maintain clearance with infrequent dosing (every 8 weeks after initial doses). The medication has a favorable safety profile compared to some other biologics, with lower infection rates than TNF inhibitors and no reported cases of inflammatory bowel disease (a concern with some IL-17 inhibitors). Tremfya is administered as a subcutaneous injection: 100mg at weeks 0 and 4, then every 8 weeks. The convenient dosing schedule (six times per year maintenance) improves adherence compared to medications requiring more frequent injections. Most patients tolerate it well with injection site reactions being the most common side effect.",
+    image: "/placeholder.svg",
+    price: 7499.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization and specialty pharmacy.",
+    medicalInfo: {
+      uses: {
+        overview: "Tremfya is an IL-23 blocker approved for moderate-to-severe plaque psoriasis and active psoriatic arthritis.",
+        approvedUses: [
+          "Moderate-to-severe plaque psoriasis in adults who are candidates for systemic therapy or phototherapy",
+          "Active psoriatic arthritis in adults (alone or with methotrexate)",
+          "Patients who have failed or cannot tolerate other systemic therapies",
+          "Long-term maintenance therapy for psoriasis/psoriatic arthritis"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Upper respiratory infections - 14%",
+          "Headache - 5%",
+          "Injection site reactions - 5%",
+          "Arthralgia (joint pain) - 4%",
+          "Diarrhea - 3%",
+          "Gastroenteritis - 2%",
+          "Tinea infections (fungal) - 2%"
+        ],
+        serious: [
+          "Serious infections (pneumonia, cellulitis, osteomyelitis) - rare",
+          "Tuberculosis reactivation - screen before treatment",
+          "Hypersensitivity reactions (rare)",
+          "Elevated liver enzymes - monitor",
+          "Malignancies - standard biologic risk"
+        ],
+        notes: "Generally well-tolerated. Lower infection rate than TNF inhibitors. No reported cases of inflammatory bowel disease exacerbation (unlike IL-17 inhibitors). Lower injection site reaction rate than some other biologics."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "SERIOUS INFECTIONS: Increased risk of serious infections leading to hospitalization or death, including tuberculosis (TB), bacterial sepsis, invasive fungal infections, and infections due to opportunistic pathogens. Test for latent TB before and during treatment. If serious infection develops, discontinue Tremfya until infection resolves."
+        ],
+        generalWarnings: [
+          "Screen for tuberculosis before initiating - treat latent TB before starting Tremfya",
+          "Increased infection risk - monitor for signs/symptoms",
+          "Do not give live vaccines during treatment",
+          "Hypersensitivity reactions possible",
+          "May increase malignancy risk (long-term data limited)",
+          "Monitor for new or worsening inflammatory bowel disease (theoretical risk)"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Serious hypersensitivity to guselkumab or excipients",
+          "Active, untreated tuberculosis"
+        ],
+        precautions: [
+          "Chronic or recurrent infections",
+          "History of tuberculosis or latent TB (must treat before starting)",
+          "Recent serious infection",
+          "Immunocompromised state",
+          "History of malignancy",
+          "Planned surgery - may need to hold temporarily",
+          "Recent live vaccine - wait before starting"
+        ],
+        pregnancy: "Limited human data. IgG antibodies cross placenta. Animal studies showed no fetal harm. Use only if benefit outweighs risk. Consider pregnancy registry enrollment. Infant exposed in utero may have altered immune response - coordinate live vaccine timing with pediatrician.",
+        breastfeeding: "Unknown if excreted in breast milk. IgG antibodies are present in human milk but likely degraded in infant GI tract. Consider maternal benefit vs potential infant risk."
+      },
+      dosage: {
+        overview: "Subcutaneous injection 100mg. Induction dosing followed by maintenance every 8 weeks.",
+        adults: "**Plaque psoriasis & psoriatic arthritis:** 100mg subcutaneously at Week 0, Week 4, then every 8 weeks thereafter. Convenient maintenance schedule - only 6 injections per year after induction.",
+        children: "Not approved for pediatric use. Safety/efficacy not established in patients <18 years.",
+        administration: [
+          "Subcutaneous injection - thigh, abdomen (avoid 2 inches around navel), or upper arm (if caregiver administers)",
+          "Rotate injection sites - do not inject into areas where skin is tender, bruised, red, scaly, or hard",
+          "Allow to reach room temperature 30 minutes before injection",
+          "Do not shake",
+          "Inspect visually - solution should be clear to slightly opalescent, colorless to light yellow",
+          "Can self-administer after proper training",
+          "Store refrigerated 2-8°C (36-46°F) in original carton",
+          "Protect from light - keep in carton until use",
+          "Do not freeze or shake"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - AVOID during treatment and for several weeks after last dose",
+          "CYP450 substrates - IL-23 blockade may normalize CYP450 enzyme levels in psoriasis patients; monitor drugs with narrow therapeutic index (warfarin, cyclosporine)",
+          "Other biologics (TNF inhibitors, IL-17 inhibitors, other IL-23 inhibitors) - avoid combination (increased infection risk, no added benefit)",
+          "Immunosuppressants (methotrexate, azathioprine) - can use with caution if needed, but increased infection risk",
+          "NSAIDs, analgesics - no interaction, safe to use"
+        ],
+        substancesToAvoid: [
+          "Live vaccines (MMR, varicella, yellow fever, nasal flu vaccine)",
+          "Other biologics for psoriasis/psoriatic arthritis"
+        ],
+        overview: "Minimal drug interactions. Main concern is avoiding live vaccines and combination with other immunosuppressants."
+      },
+      faq: [
+        {
+          question: "How long until Tremfya works?",
+          answer: "Many patients see improvement by Week 4 (after second dose). Significant clearance typically by Week 16 (about 70% achieve PASI 90). Maximum effect often by Week 24-48 with continued improvement. Some patients achieve complete clearance (PASI 100). Clinical trials showed durability - most patients maintain clearance with every-8-week dosing."
+        },
+        {
+          question: "What's the difference between Tremfya and Skyrizi?",
+          answer: "Both are IL-23 inhibitors with similar efficacy (both excellent - 70-85% PASI 90). DOSING: Tremfya every 8 weeks vs Skyrizi every 12 weeks after loading (Skyrizi less frequent). APPROVALS: Both approved for psoriasis and psoriatic arthritis. Skyrizi also approved for Crohn's disease. TRIAL DATA: Head-to-head trials show similar outcomes. Choice often based on insurance coverage, dosing preference, and individual response."
+        },
+        {
+          question: "Can I get vaccines while on Tremfya?",
+          answer: "INACTIVATED vaccines (flu shot, pneumonia, COVID, Tdap, hepatitis): YES - safe and recommended. Get flu shot annually. UPDATE vaccines BEFORE starting if possible. LIVE vaccines (MMR, varicella, yellow fever, nasal flu): NO - avoid during treatment. Coordinate with your doctor if travel vaccines needed."
+        },
+        {
+          question: "Does insurance cover Tremfya?",
+          answer: "Most insurance covers it but requires prior authorization, step therapy (failing cheaper options like methotrexate), and documentation of moderate-to-severe psoriasis. Specialty pharmacy required. Copays can be very high ($0-$3000+/injection). Janssen CarePath offers copay assistance - eligible patients may pay $5 per injection. Also patient assistance programs for uninsured. Work with specialty pharmacy and dermatologist office."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-840",
+    name: "Skyrizi (Risankizumab)",
+    slug: "skyrizi-risankizumab",
+    category: "prescription-drugs",
+    subcategory: "dermatology",
+    description: "Skyrizi (risankizumab) is a humanized monoclonal antibody that selectively inhibits interleukin-23 (IL-23) by binding to its p19 subunit. Approved by the FDA in 2019 for plaque psoriasis, 2022 for psoriatic arthritis, and 2022 for Crohn's disease, Skyrizi has become one of the most prescribed biologics for psoriasis due to its remarkable efficacy and convenient dosing. Clinical trials demonstrated industry-leading skin clearance rates: approximately 75% of patients achieve 90% skin clearance (PASI 90), and about 50-55% achieve complete clearance (PASI 100) at one year. Skyrizi showed superior efficacy compared to Humira (TNF inhibitor) and Stelara (IL-12/23 inhibitor) in head-to-head trials. The medication offers convenient dosing after the loading phase: 150mg at weeks 0 and 4, then every 12 weeks (four times per year). This is the least frequent dosing of any psoriasis biologic, which significantly improves adherence and patient satisfaction. Skyrizi has demonstrated excellent long-term durability with sustained clearance over 3+ years in clinical trials. The safety profile is favorable with low rates of serious infections and no signals for inflammatory bowel disease exacerbation. In fact, Skyrizi is also approved for moderate-to-severe Crohn's disease, demonstrating benefit in IBD unlike IL-17 inhibitors which can worsen it. Common side effects include upper respiratory infections and injection site reactions, both generally mild.",
+    image: "/placeholder.svg",
+    price: 7999.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization and specialty pharmacy.",
+    medicalInfo: {
+      uses: {
+        overview: "Skyrizi is an IL-23 inhibitor approved for plaque psoriasis, psoriatic arthritis, and Crohn's disease.",
+        approvedUses: [
+          "Moderate-to-severe plaque psoriasis in adults and children ≥6 years who are candidates for systemic therapy or phototherapy",
+          "Active psoriatic arthritis in adults",
+          "Moderate-to-severe Crohn's disease in adults",
+          "Long-term maintenance therapy with convenient quarterly dosing (psoriasis/PsA)"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Upper respiratory infections - 13%",
+          "Headache - 4%",
+          "Fatigue - 3%",
+          "Injection site reactions - 3%",
+          "Tinea infections (fungal skin infections) - 2%"
+        ],
+        serious: [
+          "Serious infections (pneumonia, cellulitis, herpes zoster) - <1%",
+          "Tuberculosis reactivation - screen before treatment",
+          "Hypersensitivity reactions (rare)",
+          "Elevated liver enzymes",
+          "Malignancies (standard biologic risk)"
+        ],
+        notes: "Excellent tolerability profile. Lower infection rates than TNF inhibitors. No reported IBD exacerbations (in fact, approved FOR Crohn's disease). Very low injection site reaction rate."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Serious infections possible - monitor for signs/symptoms",
+          "Tuberculosis screening required before treatment - treat latent TB first",
+          "Do not administer live vaccines during treatment",
+          "Hypersensitivity reactions possible (rare)",
+          "Increased malignancy risk possible (long-term data evolving)",
+          "Monitor liver enzymes periodically"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Serious hypersensitivity to risankizumab or excipients",
+          "Active, untreated tuberculosis"
+        ],
+        precautions: [
+          "Chronic or recurrent infections",
+          "History or latent tuberculosis (treat before starting)",
+          "Recent serious infection",
+          "Immunocompromised patients",
+          "History of malignancy",
+          "Planned surgical procedure",
+          "Recent live vaccination"
+        ],
+        pregnancy: "Limited human data. Monoclonal antibodies cross placenta. Use only if benefit justifies potential risk. Pregnancy registry available. Infant exposed in utero may have altered immune response - coordinate vaccine timing with pediatrician.",
+        breastfeeding: "Unknown if excreted in breast milk. IgG antibodies present in human milk but likely minimal infant exposure due to degradation. Weigh maternal benefits vs potential infant risk."
+      },
+      dosage: {
+        overview: "Subcutaneous injection 150mg (two 75mg injections or one 150mg/mL syringe). Dosing varies by indication.",
+        adults: "**Plaque psoriasis:** 150mg (two 75mg injections) at Week 0, Week 4, then every 12 weeks. **Psoriatic arthritis:** Same as psoriasis. **Crohn's disease:** IV induction (600mg infusion) at weeks 0, 4, 8, then 360mg subcutaneous every 8 weeks or 180mg SC every 4 weeks.",
+        children: "**Plaque psoriasis ages 6-17:** Weight-based dosing. ≥25kg to <50kg: 75mg at weeks 0, 4, then every 12 weeks. ≥50kg: 150mg (adult dose) at weeks 0, 4, then every 12 weeks.",
+        administration: [
+          "Subcutaneous injection - abdomen, thigh, or upper arm",
+          "For 150mg dose: Give as TWO separate 75mg injections at different sites OR one 150mg/mL prefilled syringe",
+          "Rotate injection sites each dose",
+          "Avoid areas with active psoriasis, tender, bruised, or scarred skin",
+          "Allow to reach room temperature 15-30 minutes before injection",
+          "Inspect solution - should be clear to slightly opalescent, colorless to slightly yellow",
+          "Can self-administer after training",
+          "Store refrigerated 2-8°C (36-46°F) in original carton",
+          "Protect from light",
+          "Do not freeze or shake"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - AVOID during treatment",
+          "CYP450 substrates - IL-23 inhibition may restore normal enzyme levels; monitor narrow therapeutic drugs (warfarin)",
+          "Other biologics (TNF, IL-17, IL-23 inhibitors) - avoid combination",
+          "Methotrexate or other immunosuppressants - can combine if needed but monitor for infections",
+          "NSAIDs - safe to use concurrently"
+        ],
+        substancesToAvoid: [
+          "Live vaccines (MMR, varicella, yellow fever, live nasal flu)",
+          "Combination with other biologics"
+        ],
+        overview: "Minimal drug interactions. Primary concerns: live vaccines and combining biologics."
+      },
+      faq: [
+        {
+          question: "How fast does Skyrizi work?",
+          answer: "Initial improvement often visible by Week 4 (after 2nd dose). Significant clearance by Week 12-16 (75% achieve PASI 90). Many patients continue improving through Week 52. About 50-55% achieve complete clearance (PASI 100). Durability is excellent - most maintain clearance with every-12-week dosing for years."
+        },
+        {
+          question: "Is Skyrizi better than other biologics?",
+          answer: "Skyrizi shows SUPERIOR efficacy vs Humira (TNF inhibitor) and Stelara (IL-12/23) in head-to-head trials. COMPARABLE to other IL-23 inhibitors (Tremfya, Taltz) with excellent clearance rates. ADVANTAGES: Least frequent dosing (every 12 weeks = 4x/year), high complete clearance rate (50-55% PASI 100), approved for Crohn's too. CHOICE depends on insurance, cost, dosing preference, and individual response."
+        },
+        {
+          question: "Can I use Skyrizi if I have Crohn's disease?",
+          answer: "YES! Skyrizi is actually APPROVED for moderate-to-severe Crohn's disease. Unlike IL-17 inhibitors (which can worsen IBD), IL-23 inhibitors like Skyrizi improve Crohn's. If you have both psoriasis and Crohn's, Skyrizi treats BOTH conditions - ideal combination. Dosing differs for Crohn's (IV induction followed by subcutaneous maintenance)."
+        },
+        {
+          question: "What if I miss a dose?",
+          answer: "Administer as soon as you remember, then resume every-12-week schedule from that new date. If very close to next scheduled dose, skip missed dose and continue regular schedule. Don't double up. Contact your specialty pharmacy or doctor if unsure."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-841",
+    name: "Taltz (Ixekizumab)",
+    slug: "taltz-ixekizumab",
+    category: "prescription-drugs",
+    subcategory: "dermatology",
+    description: "Taltz (ixekizumab) is a humanized monoclonal antibody that selectively binds to interleukin-17A (IL-17A), a key cytokine driving the inflammatory process in plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondyloarthritis. Approved by the FDA in 2016, Taltz was the second IL-17A inhibitor on the market (after Cosentyx) and has established itself as a highly effective biologic for these conditions. IL-17A is a pro-inflammatory cytokine that plays a central role in the pathogenesis of psoriasis and related inflammatory arthritis conditions. By neutralizing IL-17A, Taltz interrupts the inflammatory cascade. Clinical trials demonstrated impressive efficacy: approximately 70-90% of patients achieve 75% skin clearance (PASI 75) by Week 12, with many achieving 90% or complete clearance. Taltz works rapidly - many patients see visible improvement within 2-4 weeks, faster than TNF inhibitors or IL-23 inhibitors. The medication is also highly effective for psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondyloarthritis, making it versatile for patients with multiple manifestations of inflammatory disease. Taltz is administered via subcutaneous injection using an autoinjector: 160mg loading dose (two 80mg injections) at Week 0, then 80mg every 2-4 weeks depending on indication. Common side effects include injection site reactions, upper respiratory infections, and candida (yeast) infections. Important consideration: IL-17 inhibitors can trigger or worsen inflammatory bowel disease in susceptible individuals.",
+    image: "/placeholder.svg",
+    price: 6999.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization and specialty pharmacy.",
+    medicalInfo: {
+      uses: {
+        overview: "Taltz is an IL-17A inhibitor approved for plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, and non-radiographic axial spondyloarthritis.",
+        approvedUses: [
+          "Moderate-to-severe plaque psoriasis in adults who are candidates for systemic therapy or phototherapy",
+          "Active psoriatic arthritis in adults (alone or with methotrexate)",
+          "Active ankylosing spondylitis in adults",
+          "Active non-radiographic axial spondyloarthritis with objective signs of inflammation",
+          "Plaque psoriasis in children ≥6 years"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Injection site reactions - 17%",
+          "Upper respiratory infections - 17%",
+          "Nausea - 3%",
+          "Tinea (fungal) infections - 2-4%",
+          "Oral candidiasis (thrush) - 3%"
+        ],
+        serious: [
+          "Serious infections (pneumonia, cellulitis, urinary tract infections) - 1-2%",
+          "Tuberculosis reactivation - screen before treatment",
+          "Inflammatory bowel disease (new onset or exacerbation) - IMPORTANT CONCERN",
+          "Hypersensitivity reactions including anaphylaxis (rare)",
+          "Candida infections can be serious in immunocompromised",
+          "Neutropenia (low white blood cells)"
+        ],
+        notes: "Generally well-tolerated. Higher rate of candida infections compared to IL-23 inhibitors. CAUTION in patients with IBD or history - can trigger/worsen Crohn's disease or ulcerative colitis."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Serious infections - monitor closely, discontinue if serious infection develops",
+          "Tuberculosis screening REQUIRED before treatment - treat latent TB first",
+          "INFLAMMATORY BOWEL DISEASE: Can trigger new-onset or worsen existing Crohn's/UC - monitor for diarrhea, abdominal pain, rectal bleeding. Discontinue if IBD suspected/confirmed.",
+          "Candida infections (oral, esophageal, vulvovaginal) - treat appropriately, consider discontinuing if recurrent/severe",
+          "Hypersensitivity reactions possible - discontinue if serious reaction occurs",
+          "Do not administer live vaccines during treatment",
+          "Monitor neutrophil counts if indicated"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Serious hypersensitivity to ixekizumab or excipients",
+          "Active tuberculosis"
+        ],
+        precautions: [
+          "**INFLAMMATORY BOWEL DISEASE: Use with CAUTION - can trigger new-onset or worsen existing Crohn's/UC. Avoid if possible in IBD patients.**",
+          "Chronic or recurrent infections",
+          "History of tuberculosis or latent TB",
+          "History of recurrent candida infections",
+          "Immunocompromised state",
+          "Recent serious infection",
+          "Planned surgical procedures",
+          "Recent live vaccination"
+        ],
+        pregnancy: "Limited human data. Monoclonal antibodies cross placenta. Use only if benefit outweighs risk. Pregnancy registry available. Infants exposed in utero should not receive live vaccines until cleared by pediatrician.",
+        breastfeeding: "Unknown if excreted in breast milk. Human IgG is present in milk. Consider maternal benefit vs potential infant risk. Likely low infant exposure due to antibody degradation in GI tract."
+      },
+      dosage: {
+        overview: "Subcutaneous injection 80mg. Loading dose followed by maintenance dosing - frequency varies by indication.",
+        adults: "**Plaque psoriasis:** 160mg (two 80mg injections) at Week 0, then 80mg every 2 weeks (can extend to every 4 weeks after adequate response). **Psoriatic arthritis:** 160mg at Week 0, then 80mg every 4 weeks. Can add 80mg every 2 weeks if inadequate response and active psoriasis. **Ankylosing spondylitis & Non-radiographic axSpA:** 160mg at Week 0, then 80mg every 4 weeks.",
+        children: "**Plaque psoriasis ages 6-17:** Weight-based. 25 to <50kg: 80mg at Week 0, then 40mg every 4 weeks. ≥50kg: Adult dose (160mg Week 0, then 80mg every 4 weeks).",
+        administration: [
+          "Subcutaneous injection - thigh, abdomen (avoid 2 inches around navel), or upper outer arm (if caregiver)",
+          "Rotate injection sites - avoid tender, bruised, red, scaly, or hard skin",
+          "Allow to reach room temperature 30 minutes before injection (do not warm by other means)",
+          "Do not shake",
+          "Inspect - solution should be clear, colorless to slightly yellow",
+          "Can self-administer with autoinjector after training",
+          "Store refrigerated 2-8°C (36-46°F) in original carton",
+          "Protect from light - keep in carton",
+          "Do not freeze"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - AVOID during treatment and weeks after last dose",
+          "CYP450 substrates - IL-17 inhibition may normalize enzyme expression; monitor narrow therapeutic drugs (warfarin, cyclosporine)",
+          "Other biologics (TNF inhibitors, IL-23 or IL-17 inhibitors) - AVOID combination (no added benefit, increased infection risk)",
+          "Immunosuppressants (methotrexate, azathioprine) - can combine if needed but monitor infections closely",
+          "NSAIDs, DMARDs - safe to use concurrently"
+        ],
+        substancesToAvoid: [
+          "Live vaccines (MMR, varicella, yellow fever, live intranasal flu)",
+          "Combination with other biologics for psoriasis/arthritis"
+        ],
+        overview: "Main concerns: live vaccines and IBD risk. Otherwise minimal drug interactions."
+      },
+      faq: [
+        {
+          question: "How quickly does Taltz work?",
+          answer: "FAST onset compared to other biologics. Many patients see visible improvement within 2-4 weeks. By Week 12: 70-90% achieve PASI 75, 50-70% achieve PASI 90, 30-40% achieve PASI 100 (complete clearance). Continues improving through Week 24. IL-17 inhibitors generally work faster than IL-23 inhibitors or TNF inhibitors."
+        },
+        {
+          question: "Can I use Taltz if I have Crohn's disease or ulcerative colitis?",
+          answer: "CAUTION - IL-17 inhibitors (Taltz, Cosentyx) can trigger NEW inflammatory bowel disease or WORSEN existing Crohn's/UC. This is a known class effect. If you have IBD or family history, discuss alternatives with your doctor (consider IL-23 inhibitors like Skyrizi, Tremfya instead - they actually IMPROVE IBD). If you develop new abdominal pain, diarrhea, blood in stool while on Taltz, contact doctor immediately."
+        },
+        {
+          question: "Why do I keep getting yeast infections on Taltz?",
+          answer: "IL-17 plays a role in fungal immunity, so blocking it increases candida risk. Common sites: oral thrush, vaginal yeast infections, skin folds. PREVENTION: Good oral hygiene, keep skin dry, treat promptly. Most mild cases respond to topical antifungals. If recurrent/severe, may need oral antifungal or consider switching to IL-23 inhibitor (lower candida risk)."
+        },
+        {
+          question: "Taltz vs Cosentyx - what's the difference?",
+          answer: "Both IL-17 inhibitors with similar efficacy and side effects. MECHANISM: Taltz blocks IL-17A only; Cosentyx blocks IL-17A and IL-17F (slightly broader). DOSING: Taltz loading 160mg then 80mg every 2-4 weeks vs Cosentyx 300mg every 4 weeks after loading. APPROVALS: Both psoriasis, PsA, AS; Cosentyx also for juvenile arthritis. TRIALS: Head-to-head shows similar outcomes. Choice based on insurance, dosing preference, individual response."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-842",
+    name: "Repatha (Evolocumab)",
+    slug: "repatha-evolocumab",
+    category: "prescription-drugs",
+    subcategory: "cardiology",
+    description: "Repatha (evolocumab) is a fully human monoclonal antibody PCSK9 inhibitor that dramatically lowers LDL cholesterol by a novel mechanism. Approved by the FDA in 2015, Repatha represents a breakthrough in cholesterol management for patients who cannot achieve target LDL levels with statins alone or cannot tolerate statins. PCSK9 (proprotein convertase subtilisin/kexin type 9) is a protein that degrades LDL receptors in the liver. By inhibiting PCSK9, Repatha increases the number of LDL receptors available to remove LDL cholesterol from the blood, resulting in profound LDL reductions of 55-75% on average. This mechanism complements statins perfectly. Repatha is indicated for adults with established cardiovascular disease to reduce risk of MI, stroke, and coronary revascularization; for adults with primary hyperlipidemia (including heterozygous familial hypercholesterolemia) requiring additional LDL lowering; and for patients with homozygous familial hypercholesterolemia. The landmark FOURIER trial demonstrated that Repatha reduces cardiovascular events (heart attack, stroke) by 15-20% when added to statin therapy in high-risk patients. Repatha is administered via subcutaneous injection: either 140mg every 2 weeks or 420mg once monthly using a prefilled autoinjector. Side effects are minimal - primarily injection site reactions and nasopharyngitis. Unlike statins, Repatha doesn't cause muscle pain or liver problems. Cost remains a barrier but increasing insurance coverage for appropriate indications.",
+    image: "/placeholder.svg",
+    price: 799.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization.",
+    medicalInfo: {
+      uses: {
+        overview: "Repatha is a PCSK9 inhibitor for lowering LDL cholesterol and reducing cardiovascular events in high-risk patients.",
+        approvedUses: [
+          "Established cardiovascular disease - reduce risk of MI, stroke, and coronary revascularization in adults with CVD",
+          "Primary hyperlipidemia (including heterozygous familial hypercholesterolemia) - adjunct to diet and maximally tolerated statin therapy in adults requiring additional LDL lowering",
+          "Homozygous familial hypercholesterolemia - adjunct to other LDL-lowering therapies in adults and pediatric patients ≥10 years",
+          "Statin intolerance - alternative for patients unable to tolerate statins"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Nasopharyngitis (common cold) - 11%",
+          "Upper respiratory tract infection - 9%",
+          "Influenza - 6%",
+          "Back pain - 5%",
+          "Injection site reactions - 4%",
+          "Muscle pain/myalgia - 4% (much lower than statins)"
+        ],
+        serious: [
+          "Allergic reactions including angioedema, hypersensitivity vasculitis (rare)",
+          "Neurocognitive events (memory impairment, confusion) - rare, unclear causality",
+          "No liver toxicity or significant muscle problems unlike statins"
+        ],
+        notes: "Excellent tolerability. Significantly fewer side effects than statins. No liver enzyme elevation. Minimal muscle pain. Well-tolerated long-term."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Hypersensitivity reactions possible - discontinue if serious reaction occurs",
+          "Neurocognitive effects reported (unclear causality) - monitor for memory problems, confusion",
+          "Very low LDL levels achieved (<25 mg/dL in some patients) - long-term safety of extremely low LDL being studied",
+          "Immunogenicity - antibody development possible but rarely affects efficacy"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "History of serious hypersensitivity to evolocumab or excipients"
+        ],
+        precautions: [
+          "Latex allergy - needle guard contains latex derivative",
+          "Planned surgery - generally can continue",
+          "Elderly patients - dose adjustment not needed",
+          "Renal/hepatic impairment - no dose adjustment needed"
+        ],
+        pregnancy: "Limited human data. Animal studies showed no harm. LDL cholesterol and cholesterol derivatives important for fetal development. Discontinue Repatha when pregnancy recognized unless maternal benefit clearly outweighs potential risk. Use effective contraception.",
+        breastfeeding: "Unknown if excreted in human milk. Human IgG is present in milk. Consider maternal cardiovascular health need vs potential infant exposure."
+      },
+      dosage: {
+        overview: "Subcutaneous injection. Two dosing regimens with equivalent efficacy - choose based on patient preference.",
+        adults: "**Established CVD or Primary hyperlipidemia:** 140mg every 2 weeks OR 420mg once monthly (both equivalent efficacy). **Homozygous familial hypercholesterolemia:** 420mg once monthly (higher dose may be needed).",
+        children: "**Homozygous FH ages ≥10 years:** 420mg subcutaneously once monthly.",
+        administration: [
+          "Subcutaneous injection - thigh, abdomen (avoid 2-inch area around navel), or upper arm",
+          "For 420mg monthly dose: Give as THREE consecutive 140mg injections at different sites within 30 minutes",
+          "Can use autoinjector (Pushtronex system for 420mg) or prefilled syringe (140mg)",
+          "Rotate injection sites",
+          "Allow to reach room temperature 30 minutes before injection (in carton)",
+          "Do not warm by other means",
+          "Can self-administer after training",
+          "Store refrigerated 2-8°C (36-46°F) in original carton",
+          "Protect from light",
+          "Can keep at room temperature up to 25°C (77°F) for up to 30 days"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Statins - SAFE and EFFECTIVE combination (additive LDL reduction)",
+          "Ezetimibe - can combine (additive effect)",
+          "Other lipid-lowering drugs - no significant interactions",
+          "No CYP450 interactions",
+          "No food interactions",
+          "No effect on other medications"
+        ],
+        substancesToAvoid: [
+          "No specific substances to avoid",
+          "Generally can be combined with all cardiac medications"
+        ],
+        overview: "Virtually no drug interactions. Monoclonal antibody not metabolized by liver enzymes. Safe with all cardiac medications."
+      },
+      faq: [
+        {
+          question: "How much will Repatha lower my cholesterol?",
+          answer: "DRAMATIC reduction: 55-75% LDL reduction on average (can achieve 60-80% in some patients). If your LDL is 190 mg/dL, expect to reach 50-85 mg/dL. Combined with statin: Even greater reduction. Works within 2 weeks, maximum effect by 4 weeks. Sustained reduction with continued therapy. Also reduces Lp(a) by ~25% (important cardiovascular risk marker)."
+        },
+        {
+          question: "Should I take Repatha if I'm already on a statin?",
+          answer: "YES - if you're high cardiovascular risk AND either: (1) Your LDL is still above goal despite maximally tolerated statin, OR (2) You have established heart disease, familial hypercholesterolemia, or very high risk. Repatha ADDS to statin effect - combination reduces CV events more than statin alone. FOURIER trial showed 15-20% reduction in heart attacks/strokes when Repatha added to statin."
+        },
+        {
+          question: "Can I use Repatha instead of statins?",
+          answer: "Generally, statins remain first-line unless: (1) Statin-intolerant (severe muscle pain, liver problems), (2) Familial hypercholesterolemia needing aggressive lowering, (3) High risk and unable to tolerate statins. Repatha works well without statins but combination is most effective. Guidelines recommend trying multiple statins at various doses before switching to PCSK9 inhibitor alone. Insurance usually requires statin trial first."
+        },
+        {
+          question: "Does insurance cover Repatha?",
+          answer: "Coverage improving but still requires prior authorization. Typically need: (1) Established cardiovascular disease OR familial hypercholesterolemia, (2) Maximally tolerated statin therapy (or documented statin intolerance), (3) LDL >70 mg/dL despite statin. Copays can be high ($0-$700/month). Amgen offers copay card reducing cost to $0-$25/month for eligible commercially insured patients. Patient assistance program for uninsured/underinsured. Work with specialty pharmacy."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-843",
+    name: "Praluent (Alirocumab)",
+    slug: "praluent-alirocumab",
+    category: "prescription-drugs",
+    subcategory: "cardiology",
+    description: "Praluent (alirocumab) is a fully human monoclonal antibody PCSK9 inhibitor that powerfully reduces LDL cholesterol through the same mechanism as Repatha. Approved by the FDA in 2015, Praluent provides an additional option for patients requiring intensive LDL lowering beyond what statins can achieve. Like Repatha, Praluent works by inhibiting PCSK9, thereby increasing hepatic LDL receptors and enhancing LDL clearance from the bloodstream. Clinical trials demonstrate 50-60% reductions in LDL cholesterol levels with doses of 75-150mg every 2 weeks. The landmark ODYSSEY OUTCOMES trial proved that Praluent reduces major adverse cardiovascular events (death, MI, stroke, unstable angina) by 15% in patients with recent acute coronary syndrome when added to intensive statin therapy. This cardiovascular benefit is most pronounced in patients starting with higher LDL levels (>100 mg/dL). Praluent offers flexible dosing: starting at 75mg every 2 weeks with option to increase to 150mg if additional LDL lowering needed. It's indicated for adults with established cardiovascular disease, primary hyperlipidemia (including heterozygous familial hypercholesterolemia), and homozygous familial hypercholesterolemia. The medication is administered via subcutaneous injection using a prefilled pen. Side effects are minimal and similar to Repatha - primarily injection site reactions, nasopharyngitis, and flu-like symptoms. Praluent doesn't cause the muscle pain or liver enzyme elevations associated with statins, making it valuable for statin-intolerant patients.",
+    image: "/placeholder.svg",
+    price: 799.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization.",
+    medicalInfo: {
+      uses: {
+        overview: "Praluent is a PCSK9 inhibitor for profound LDL cholesterol reduction and cardiovascular risk reduction in high-risk patients.",
+        approvedUses: [
+          "Established cardiovascular disease - reduce risk of MI, stroke, and unstable angina requiring hospitalization in adults with CVD",
+          "Primary hyperlipidemia (including heterozygous familial hypercholesterolemia) - adjunct to diet and maximally tolerated statin therapy requiring additional LDL lowering",
+          "Homozygous familial hypercholesterolemia - adjunct to other LDL-lowering therapies in adults and pediatric patients ≥8 years",
+          "Statin-intolerant patients requiring LDL reduction"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Nasopharyngitis - 11%",
+          "Injection site reactions (erythema, pain, bruising) - 7%",
+          "Influenza - 6%",
+          "Upper respiratory tract infection - 5%",
+          "Myalgia (muscle pain) - 5% (much less than statins)",
+          "Diarrhea - 4%"
+        ],
+        serious: [
+          "Hypersensitivity reactions including angioedema, nummular eczema (rare)",
+          "Neurocognitive events (memory impairment, confusion) - rare, causality uncertain",
+          "Local injection site reactions (rare severe cases)",
+          "No hepatotoxicity or severe myopathy like statins"
+        ],
+        notes: "Well-tolerated overall. Side effect profile much better than statins. No liver enzyme elevations. Minimal muscle-related adverse events."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Hypersensitivity reactions possible - discontinue if serious",
+          "Neurocognitive effects reported (memory loss, confusion) - monitor, causality unclear",
+          "Very low LDL levels achievable (<25 mg/dL) - long-term safety of extremely low LDL under study",
+          "Immunogenicity - development of anti-drug antibodies possible but rarely clinically significant"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "History of serious hypersensitivity reaction to alirocumab or any excipients"
+        ],
+        precautions: [
+          "Latex sensitivity - needle guard contains latex derivative",
+          "Elderly - no dose adjustment needed",
+          "Renal impairment - no dose adjustment needed",
+          "Hepatic impairment - no dose adjustment needed",
+          "Active acute illness - generally can continue"
+        ],
+        pregnancy: "Limited human data. Animal reproduction studies did not show fetal harm. However, LDL cholesterol and cholesterol derivatives play important role in fetal development. Discontinue when pregnancy recognized unless benefit outweighs risk. Use contraception during treatment.",
+        breastfeeding: "Unknown if excreted in human milk. Human IgG present in milk. Consider importance of treatment to mother vs potential infant exposure."
+      },
+      dosage: {
+        overview: "Subcutaneous injection every 2 weeks. Adjustable dosing based on LDL response.",
+        adults: "**Initial:** 75mg subcutaneously every 2 weeks. **If additional LDL lowering needed:** Increase to 150mg every 2 weeks after 4-8 weeks. **Alternative for patients needing >75mg:** Can use 300mg every 4 weeks (bioequivalent to 150mg every 2 weeks).",
+        children: "**Homozygous FH ages ≥8 years:** 75mg every 2 weeks, may increase to 150mg every 2 weeks if needed.",
+        administration: [
+          "Subcutaneous injection - thigh, abdomen (except 2 inches around navel), or upper arm",
+          "Use prefilled pen or syringe",
+          "Rotate injection sites each dose",
+          "Allow to warm to room temperature 30-40 minutes before injection (leave in carton)",
+          "Do not warm by other methods",
+          "Inject within 1 hour after warming to room temperature",
+          "Can self-administer after proper training",
+          "Store refrigerated 2-8°C (36-46°F) in original carton",
+          "Protect from light - keep in carton until use",
+          "Do not freeze or shake"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Statins - SAFE and RECOMMENDED combination (additive LDL reduction)",
+          "Ezetimibe - can combine safely (additive effects)",
+          "Fibrates - can be used together",
+          "Other lipid-lowering agents - no significant interactions",
+          "No CYP450 interactions",
+          "No drug-food interactions",
+          "Does not affect other cardiovascular medications"
+        ],
+        substancesToAvoid: [
+          "No specific substances require avoidance",
+          "Compatible with all standard cardiac medications"
+        ],
+        overview: "Minimal drug interactions. Monoclonal antibody mechanism bypasses hepatic metabolism. Safe with all cardiac drugs including statins."
+      },
+      faq: [
+        {
+          question: "How much will Praluent lower my LDL?",
+          answer: "ROBUST reduction: 50-60% LDL reduction on average with appropriate dosing. If baseline LDL is 160 mg/dL: expect to reach 64-80 mg/dL. Combined with statin: Even greater reduction possible. Starts working within 1-2 weeks, peaks by 4-8 weeks. Sustained effect with ongoing therapy. Also modestly reduces Lp(a) and triglycerides, increases HDL slightly."
+        },
+        {
+          question: "Praluent vs Repatha - which is better?",
+          answer: "VERY SIMILAR: Both PCSK9 inhibitors with equivalent mechanisms and efficacy (50-60% LDL reduction). DOSING: Praluent offers adjustable dosing (75mg or 150mg every 2 weeks) vs Repatha fixed doses (140mg every 2 weeks or 420mg monthly). TRIALS: Both proved cardiovascular benefit in outcomes trials (ODYSSEY OUTCOMES vs FOURIER). CHOICE: Often determined by insurance coverage, cost, patient/provider preference. Both excellent options - neither definitively superior."
+        },
+        {
+          question: "Can I stop my statin if I start Praluent?",
+          answer: "Generally NO - combination therapy recommended unless statin-intolerant. Statins remain first-line, cornerstone therapy. Praluent works BEST when added to maximally tolerated statin (synergistic effect). EXCEPTIONS: (1) Documented statin intolerance despite trying multiple statins, (2) Familial hypercholesterolemia with Praluent monotherapy, (3) Rare cases where statin contraindicated. Discuss with cardiologist before stopping statin."
+        },
+        {
+          question: "Does insurance cover Praluent?",
+          answer: "Improving coverage but prior authorization required. Typical criteria: (1) Established CVD OR familial hypercholesterolemia OR diabetes with additional risk factors, (2) LDL >70 mg/dL (or >100 mg/dL for some plans) despite maximally tolerated statin OR documented statin intolerance, (3) Tried and failed/intolerant to other therapies. Copays $0-$600+/month. Manufacturer copay assistance card available - can reduce cost to $25 or less for eligible patients. Patient assistance for uninsured."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-844",
+    name: "Tepezza (Teprotumumab)",
+    slug: "tepezza-teprotumumab",
+    category: "prescription-drugs",
+    subcategory: "endocrinology",
+    description: "Tepezza (teprotumumab) is a groundbreaking medication - the first and only FDA-approved treatment for thyroid eye disease (TED), also known as Graves' ophthalmopathy or Graves' orbitopathy. Approved in 2020, Tepezza represents a major breakthrough for a condition that previously had limited treatment options beyond steroids, radiation, or surgery. Thyroid eye disease is an autoimmune inflammatory disorder affecting the tissues around the eyes, causing proptosis (bulging eyes), double vision, pain, redness, and in severe cases, vision loss. Tepezza is a fully human monoclonal antibody that inhibits the insulin-like growth factor-I receptor (IGF-1R), which plays a key role in the autoimmune inflammatory process of TED. Clinical trials demonstrated remarkable efficacy: approximately 83% of patients showed reduction in proptosis (eye bulging) by ≥2mm, compared to only 10% with placebo - a dramatic difference. Many patients also experience improvement in double vision, eye pain, and quality of life. Tepezza is administered as an intravenous infusion: initial dose followed by 7 additional infusions given every 3 weeks (8 total infusions over about 24 weeks). Treatment is generally given during the active inflammatory phase of TED. Common side effects include muscle spasms, nausea, alopecia (hair loss), diarrhea, fatigue, and hearing impairment. Importantly, Tepezza can cause fetal harm and hearing problems.",
+    image: "/placeholder.svg",
+    price: 14999.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization and infusion center administration.",
+    medicalInfo: {
+      uses: {
+        overview: "Tepezza is an IGF-1R inhibitor - the first and only FDA-approved treatment specifically for thyroid eye disease (TED).",
+        approvedUses: [
+          "Thyroid eye disease (TED) / Graves' ophthalmopathy in adults",
+          "Reduction of proptosis (eye bulging)",
+          "Improvement in diplopia (double vision)",
+          "Reduction in inflammatory signs and symptoms of TED",
+          "Both active and chronic phases of TED (though most effective in active inflammatory phase)"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Muscle spasms - 25%",
+          "Nausea - 23%",
+          "Alopecia (hair loss, usually temporary) - 18%",
+          "Diarrhea - 17%",
+          "Fatigue - 16%",
+          "Hyperglycemia (high blood sugar) - 13%",
+          "Hearing impairment - 10%",
+          "Dysgeusia (taste changes) - 10%",
+          "Headache - 9%",
+          "Dry skin - 9%"
+        ],
+        serious: [
+          "**Hearing impairment (potentially irreversible) - monitor closely**",
+          "Hyperglycemia - may precipitate diabetes or worsen existing diabetes",
+          "Infusion reactions",
+          "Inflammatory bowel disease (new onset or exacerbation)",
+          "**Fetal harm - contraindicated in pregnancy**"
+        ],
+        notes: "Many side effects are manageable and often resolve after treatment completion. Hair loss typically temporary with regrowth after treatment. Hearing changes require immediate attention."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "**HEARING IMPAIRMENT: Can cause hearing loss, which may be irreversible in some cases. Monitor hearing before, during, and after treatment. Report any hearing changes immediately.**",
+          "**FETAL HARM: Can cause fetal harm. Contraindicated in pregnancy. Verify pregnancy status before treatment. Use effective contraception during and for 6 months after last dose.**",
+          "Hyperglycemia - monitor blood glucose in diabetics and prediabetics",
+          "Inflammatory bowel disease - monitor for new or worsening symptoms (diarrhea, abdominal pain, blood in stool)",
+          "Infusion reactions possible - monitor during and after infusion",
+          "Should be euthyroid (normal thyroid function) before starting - coordinate with endocrinologist"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Pregnancy - can cause fetal harm",
+          "Hypersensitivity to teprotumumab or excipients"
+        ],
+        precautions: [
+          "**Verify negative pregnancy test before each infusion in women of reproductive potential**",
+          "**Baseline and periodic hearing assessment required**",
+          "Diabetes or prediabetes - monitor blood glucose closely",
+          "History or risk of inflammatory bowel disease",
+          "Active thyroid dysfunction - should achieve euthyroid state before starting",
+          "Elderly patients - limited data"
+        ],
+        pregnancy: "**CONTRAINDICATED.** Can cause fetal harm based on mechanism (IGF-1R important for fetal development). Verify negative pregnancy test before each infusion. Use effective contraception during treatment and for 6 months after last dose. If pregnancy occurs, discontinue immediately and inform patient of potential risk.",
+        breastfeeding: "No data on presence in human milk. IgG antibodies are excreted in milk. Unknown effects on infant or milk production. Discontinue breastfeeding during treatment and for 6 months after last infusion, or do not use Tepezza."
+      },
+      dosage: {
+        overview: "Intravenous infusion given every 3 weeks for a total of 8 infusions (approximately 24 weeks of treatment).",
+        adults: "**Initial dose (first infusion):** 10 mg/kg IV over 90 minutes. **Subsequent doses (infusions 2-8):** 20 mg/kg IV over 60-90 minutes, given every 3 weeks. Total treatment: 8 infusions.",
+        children: "Not approved for pediatric use. Safety and efficacy not established in patients <18 years.",
+        administration: [
+          "Intravenous infusion only - must be administered in healthcare setting",
+          "Premedication with antihistamine and antipyretic may reduce infusion reactions",
+          "Monitor during infusion and for 1-2 hours after",
+          "First infusion: 90 minutes at 10 mg/kg",
+          "Subsequent infusions: 60-90 minutes at 20 mg/kg every 3 weeks",
+          "If infusion reaction occurs: slow or interrupt infusion, administer supportive care",
+          "Complete all 8 infusions unless serious adverse event occurs",
+          "Hearing assessment: before treatment, during treatment, and after completion",
+          "Pregnancy test: before each infusion in women of reproductive potential"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "No formal drug interaction studies conducted",
+          "Thyroid medications (levothyroxine, methimazole) - continue as prescribed, coordinate with endocrinologist",
+          "Diabetes medications - may need adjustment due to hyperglycemia effect",
+          "Corticosteroids - can use if needed for TED symptoms",
+          "No known CYP450 interactions (monoclonal antibody)",
+          "Selenium supplementation - may continue if already taking for TED"
+        ],
+        substancesToAvoid: [
+          "No specific substances require avoidance",
+          "Coordinate all medications with treating physician"
+        ],
+        overview: "Limited interaction data. Mainly monitor glucose if diabetic and coordinate thyroid management."
+      },
+      faq: [
+        {
+          question: "How well does Tepezza work for thyroid eye disease?",
+          answer: "DRAMATIC results: 83% of patients achieve ≥2mm reduction in proptosis (eye bulging) vs 10% placebo. Average reduction ~3mm. DOUBLE VISION: 67% improve vs 29% placebo. EYE SYMPTOMS: Significant improvements in pain, redness, swelling, quality of life. Works best in ACTIVE inflammatory phase (within 9-12 months of symptom onset). Results visible as early as 6 weeks, continue improving through treatment. Effects sustained at 1 year follow-up in most patients."
+        },
+        {
+          question: "Will my hair grow back after Tepezza?",
+          answer: "YES - for most patients. Hair loss (alopecia) affects ~18% of patients during treatment and is usually TEMPORARY. Hair typically begins regrowing within 3-6 months after completing treatment. Complete regrowth can take 6-12 months. In clinical trials, hair loss was not permanent. If concerned, discuss with your doctor - some may recommend biotin supplements or gentle hair care practices."
+        },
+        {
+          question: "What about the hearing problems?",
+          answer: "IMPORTANT concern: ~10% experience hearing changes (decreased hearing, tinnitus, ear pressure). Most cases MILD and REVERSIBLE after stopping treatment, but some cases of PERMANENT hearing loss reported. MONITORING CRITICAL: Hearing test before starting, during treatment, and after completion. REPORT IMMEDIATELY any hearing changes, ringing, or ear fullness. May need to discontinue if significant hearing loss occurs. Risk-benefit discussion important before starting."
+        },
+        {
+          question: "Does insurance cover Tepezza?",
+          answer: "Usually YES but requires extensive prior authorization. Criteria typically: (1) Documented active thyroid eye disease with clinical activity score, (2) Significant proptosis and/or diplopia, (3) Euthyroid thyroid state, (4) Failed or inappropriate for steroids. Very expensive ($14,000-$20,000 per infusion × 8 = $120,000-$160,000 total course). Most commercial insurance covers after PA approval. Manufacturer (Horizon) offers copay assistance program and patient assistance. Work closely with ophthalmologist's office and specialty pharmacy."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-845",
+    name: "Orladeyo (Berotralstat)",
+    slug: "orladeyo-berotralstat",
+    category: "prescription-drugs",
+    subcategory: "immunology",
+    description: "Orladeyo (berotralstat) is the first and only oral medication approved for the prevention of hereditary angioedema (HAE) attacks in adults and pediatric patients 12 years and older. Approved by the FDA in 2020, Orladeyo represents a significant advancement in HAE management, offering a convenient once-daily oral option compared to injectable prophylaxis. Hereditary angioedema is a rare genetic disorder characterized by recurrent episodes of severe swelling (angioedema) affecting the skin, gastrointestinal tract, and potentially life-threatening swelling of the upper airway. HAE is caused by deficiency or dysfunction of C1-esterase inhibitor, leading to excessive production of bradykinin, which causes swelling. Orladeyo works as a plasma kallikrein inhibitor - it blocks the enzyme kallikrein, thereby reducing bradykinin production and preventing HAE attacks. Clinical trials demonstrated that Orladeyo reduces HAE attack rate by approximately 44% at the 150mg dose compared to placebo. Patients also experienced fewer severe attacks and improved quality of life. The medication is taken once daily as a capsule with food. Orladeyo is generally well-tolerated with gastrointestinal side effects (abdominal pain, vomiting, diarrhea) being most common, particularly early in treatment. Unlike injectable C1-INH products that require frequent IV infusions, Orladeyo offers the convenience of oral daily prophylaxis, improving adherence and patient satisfaction.",
+    image: "/placeholder.svg",
+    price: 19999.99,
+    inStock: true,
+    featured: false,
+    requiresPrescription: true,
+    prescriptionInfo: "Prescription required. Specialty medication - requires prior authorization and specialty pharmacy.",
+    medicalInfo: {
+      uses: {
+        overview: "Orladeyo is an oral plasma kallikrein inhibitor for prevention of hereditary angioedema (HAE) attacks.",
+        approvedUses: [
+          "Prevention (prophylaxis) of hereditary angioedema (HAE) attacks in adults and pediatric patients ≥12 years",
+          "Reduction in frequency and severity of HAE attacks",
+          "Long-term prophylaxis for patients with type I or type II HAE",
+          "Alternative to injectable prophylaxis options"
+        ]
+      },
+      sideEffects: {
+        common: [
+          "Abdominal pain - 23%",
+          "Vomiting - 17%",
+          "Diarrhea - 16%",
+          "Back pain - 12%",
+          "Gastroesophageal reflux disease (GERD) - 11%"
+        ],
+        serious: [
+          "Hypersensitivity reactions (rare)",
+          "QT prolongation (theoretical, not observed in trials)",
+          "Elevated liver enzymes (monitor)",
+          "Gastrointestinal effects can be severe in some patients"
+        ],
+        notes: "GI side effects most common, especially first few weeks. Often improve with continued treatment. Taking with food may help. Generally well-tolerated compared to injectable options."
+      },
+      warnings: {
+        blackBoxWarnings: [],
+        generalWarnings: [
+          "Not for treatment of acute HAE attacks - keep rescue medication available (icatibant, C1-INH)",
+          "Gastrointestinal adverse reactions common - may improve over time",
+          "Monitor liver function tests periodically",
+          "Drug interactions via P-gp and CYP3A4/CYP2D6 - dose adjustments needed",
+          "QT prolongation potential - use caution with other QT-prolonging drugs"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "No absolute contraindications",
+          "Use caution with known hypersensitivity"
+        ],
+        precautions: [
+          "**Moderate or severe hepatic impairment - reduce dose**",
+          "**Concomitant P-gp or CYP3A4 inhibitors - reduce Orladeyo dose**",
+          "**Concomitant P-gp or CYP3A4 inducers - may reduce efficacy**",
+          "Renal impairment - no dose adjustment needed",
+          "Cardiac disease with QT concerns - use caution",
+          "Gastrointestinal disorders - GI effects may be more pronounced"
+        ],
+        pregnancy: "Limited human data. Animal studies showed no fetal harm. Use only if benefit outweighs potential risk. HAE attacks can be life-threatening during pregnancy - weigh risks/benefits carefully with specialist.",
+        breastfeeding: "Unknown if excreted in human milk. No data on effects on infant or milk production. Consider maternal need for treatment vs potential infant exposure."
+      },
+      dosage: {
+        overview: "Oral capsule 150mg taken once daily with food. Dose reductions needed for hepatic impairment or drug interactions.",
+        adults: "**Standard dose:** 150mg orally once daily with food. **With moderate/severe hepatic impairment OR concomitant P-gp/strong CYP3A4 inhibitors:** Reduce to 110mg once daily.",
+        children: "**Ages ≥12 years:** Same as adult dosing (150mg once daily with food, adjust for interactions/hepatic impairment).",
+        administration: [
+          "Take once daily at approximately the same time each day",
+          "**MUST take with food** - enhances absorption and may reduce GI side effects",
+          "Swallow capsule whole - do not open, crush, or chew",
+          "If miss a dose: Take as soon as remember on same day; if >12 hours late, skip and resume next day",
+          "Do not double dose",
+          "Continue to carry acute attack treatments (icatibant, C1-INH)",
+          "Store at room temperature 20-25°C (68-77°F)",
+          "Protect from moisture - keep in original bottle with desiccant"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "**P-glycoprotein (P-gp) inhibitors (cyclosporine, carvedilol, verapamil) - Reduce Orladeyo to 110mg daily**",
+          "**Strong CYP3A4 inhibitors (ketoconazole, itraconazole, clarithromycin) - Reduce Orladeyo to 110mg daily**",
+          "**Moderate CYP3A4 inhibitors (erythromycin, fluconazole, diltiazem, grapefruit juice) - Monitor closely, may need dose reduction**",
+          "**P-gp or CYP3A4 inducers (rifampin, carbamazepine, St. John's wort, phenytoin) - May reduce Orladeyo efficacy, avoid if possible**",
+          "P-gp substrates (digoxin, dabigatran) - Orladeyo may increase their levels, monitor",
+          "CYP2D6 or CYP3A4 substrates - Orladeyo may increase their levels",
+          "QT-prolonging drugs - use caution, additive QT effects possible"
+        ],
+        substancesToAvoid: [
+          "Grapefruit juice - moderate CYP3A4 inhibitor (may increase Orladeyo levels)",
+          "St. John's wort - strong CYP3A4 inducer (may reduce efficacy)",
+          "High-fat meals don't need avoidance but take consistently with food"
+        ],
+        overview: "Significant drug interactions via P-gp and CYP450 enzymes. Check all medications with pharmacist. Dose adjustments often needed."
+      },
+      faq: [
+        {
+          question: "How well does Orladeyo prevent HAE attacks?",
+          answer: "GOOD reduction: 44% reduction in attack rate at 150mg dose vs placebo in clinical trials (baseline ~3 attacks/month reduced to ~1.7/month). Some patients achieve >50% reduction. Also reduces SEVERE attacks significantly. Quality of life improves. Individual response varies - some patients achieve excellent control, others moderate. May take 4-12 weeks to see full effect. Not 100% prevention - breakthrough attacks still occur (keep rescue meds)."
+        },
+        {
+          question: "What if I still get HAE attacks while on Orladeyo?",
+          answer: "Expected - Orladeyo is PROPHYLAXIS to REDUCE attack frequency, NOT eliminate them completely. For breakthrough attacks: Use acute treatment (icatibant injection like Firazyr, or C1-INH IV like Berinert, Ruconest). ALWAYS keep rescue medication available. If attacks still very frequent on Orladeyo, discuss with HAE specialist - may need dose optimization (ensure taking with food, check interactions) or add/switch to different prophylaxis (injectable C1-INH, lanadelumab)."
+        },
+        {
+          question: "Can I switch from injectable prophylaxis to Orladeyo?",
+          answer: "YES - many patients successfully transition. TRANSITION PLAN: Overlap for 1-2 weeks recommended (continue injectable while starting Orladeyo), then discontinue injectable. Monitor attack frequency closely for first 3 months. ADVANTAGES of switch: Oral convenience vs injections, once-daily dosing, no infusion time. CONSIDERATIONS: Injectable C1-INH replacement may have higher efficacy for some patients. Discuss with HAE specialist."
+        },
+        {
+          question: "Does insurance cover Orladeyo?",
+          answer: "Usually YES for documented HAE but requires prior authorization. Criteria: (1) Confirmed HAE diagnosis (genetic testing, low C4, C1-INH deficiency/dysfunction), (2) History of recurrent attacks, (3) Failed or suboptimal response to other prophylaxis OR patient preference for oral. Extremely expensive (~$500,000/year). BioCryst offers comprehensive patient support including copay assistance (eligible patients may pay $0-$10/month), free product bridge program, and patient assistance for uninsured. Work with specialty pharmacy and HAE treatment center."
+        }
+      ]
+    },
+    demoMode: true
   }
 ] as any as Product[];
 

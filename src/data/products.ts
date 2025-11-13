@@ -5131,34 +5131,136 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 29.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Adults: Start 10mg once daily. May increase to 20mg after 1 week. Maximum 20mg per day.",
-        administration: [
-          "Take once daily, morning or evening",
-          "Take with or without food",
-          "Swallow tablets whole",
-          "Full effect may take 4-6 weeks",
-          "Taper gradually to discontinue"
-        ],
-        specialPopulations: "Maximum 10mg for elderly and hepatic impairment. Adolescents 12-17: start 10mg. Use caution in pregnancy."
+      uses: {
+        overview: "Escitalopram is a selective serotonin reuptake inhibitor (SSRI) antidepressant that increases serotonin levels in the brain. It's the S-enantiomer of citalopram and is considered more potent with fewer side effects.",
+        conditions: [
+          "**Major Depressive Disorder (MDD)** - First-line treatment for depression",
+          "**Generalized Anxiety Disorder (GAD)** - FDA-approved for chronic anxiety",
+          "**Social Anxiety Disorder** - Off-label use for social phobia",
+          "**Panic Disorder** - Off-label for panic attacks",
+          "**Obsessive-Compulsive Disorder (OCD)** - Off-label treatment"
+        ]
       },
       sideEffects: {
-        common: ["Nausea", "Insomnia", "Ejaculation disorder", "Fatigue", "Increased sweating", "Decreased libido", "Somnolence"],
-        serious: ["Serotonin syndrome", "Increased suicidal thoughts", "Abnormal bleeding", "Hyponatremia", "QT prolongation", "Seizures", "Mania activation"]
+        common: ["Nausea", "Insomnia or drowsiness", "Ejaculation disorder", "Fatigue", "Increased sweating", "Decreased libido", "Dry mouth"],
+        serious: [
+          "Serotonin syndrome (with other serotonergic drugs)",
+          "Increased suicidal thoughts (especially in young adults <25)",
+          "Abnormal bleeding (with NSAIDs or anticoagulants)",
+          "Hyponatremia (low sodium)",
+          "QT prolongation (dose-dependent)",
+          "Seizures",
+          "Activation of mania/hypomania",
+          "Discontinuation syndrome"
+        ],
+        notes: "Sexual side effects occur in 20-30% of patients. Full therapeutic effect may take 4-6 weeks."
       },
-      contraindications: [
-        "Concurrent MAOI use or within 14 days",
-        "Concurrent pimozide use",
-        "Known hypersensitivity to escitalopram or citalopram"
+      warnings: {
+        blackBoxWarnings: [
+          "SUICIDALITY: Increased risk of suicidal thinking and behavior in children, adolescents, and young adults (ages 18-24) during initial treatment. Monitor closely for worsening depression or emergence of suicidal thoughts, especially during first few months and dose changes."
+        ],
+        generalWarnings: [
+          "May increase risk of bleeding, especially when combined with NSAIDs or anticoagulants",
+          "Can cause QT prolongation; avoid in patients with QT prolongation or taking QT-prolonging drugs",
+          "Risk of serotonin syndrome when combined with other serotonergic drugs",
+          "May activate mania in patients with bipolar disorder",
+          "Discontinuation symptoms common; taper gradually over at least 1-2 weeks",
+          "May impair judgment, thinking, or motor skills"
+        ],
+        specificPopulations: [
+          "**Pregnancy** - Use only if benefits outweigh risks; may cause neonatal complications",
+          "**Breastfeeding** - Present in breast milk; discuss risks/benefits with doctor",
+          "**Elderly** - Maximum dose 10mg/day; increased risk of hyponatremia",
+          "**Hepatic Impairment** - Maximum dose 10mg/day"
+        ]
+      },
+      beforeTaking: [
+        "Currently taking or stopped MAOIs within 14 days",
+        "Currently taking pimozide",
+        "Known allergy to escitalopram or citalopram",
+        "History of QT prolongation or cardiac arrhythmias",
+        "History of seizures",
+        "Bipolar disorder or mania",
+        "Bleeding disorders or taking anticoagulants",
+        "Liver or kidney disease",
+        "Glaucoma"
       ],
+      dosage: {
+        standard: "**Depression/GAD:** Initial: 10mg once daily. May increase to 20mg after minimum 1 week if needed. **Maximum:** 20mg/day.\n\n**Elderly/Hepatic Impairment:** 10mg/day maximum.\n\n**Adolescents 12-17 years:** Start 10mg once daily.",
+        administration: [
+          "Take once daily, morning or evening, at same time each day",
+          "Can be taken with or without food",
+          "Swallow tablets whole with water",
+          "Full therapeutic effect may take 4-6 weeks",
+          "Do not stop abruptly; taper gradually over 1-2 weeks minimum",
+          "If you miss a dose, take it as soon as you remember unless almost time for next dose"
+        ],
+        specialPopulations: "**Elderly & Hepatic Impairment:** Maximum 10mg/day. **Adolescents:** Start 10mg; increase cautiously. **Renal Impairment:** No adjustment needed for mild-moderate; use caution in severe impairment."
+      },
       drugInteractions: [
-        "MAOIs - serotonin syndrome (contraindicated)",
-        "Pimozide - QT prolongation (contraindicated)",
-        "Other serotonergic drugs - serotonin syndrome",
-        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
-        "Cimetidine - increased escitalopram levels",
-        "QT-prolonging drugs - additive QT prolongation"
-      ]
+        {
+          drug: "MAO Inhibitors (Phenelzine, Tranylcypromine)",
+          effect: "Life-threatening serotonin syndrome",
+          severity: "critical",
+          management: "CONTRAINDICATED. Allow 14 days after stopping MAOI before starting escitalopram, and 14 days after stopping escitalopram before starting MAOI"
+        },
+        {
+          drug: "Pimozide",
+          effect: "Increased risk of QT prolongation and fatal arrhythmias",
+          severity: "critical",
+          management: "CONTRAINDICATED"
+        },
+        {
+          drug: "Other Serotonergic Drugs (SSRIs, SNRIs, Triptans, Tramadol, St. John's Wort)",
+          effect: "Serotonin syndrome risk",
+          severity: "major",
+          management: "Avoid combination if possible; monitor closely for symptoms"
+        },
+        {
+          drug: "NSAIDs, Aspirin, Anticoagulants (Warfarin)",
+          effect: "Increased bleeding risk",
+          severity: "major",
+          management: "Monitor for signs of bleeding; consider gastroprotection"
+        },
+        {
+          drug: "QT-Prolonging Drugs",
+          effect: "Additive QT prolongation",
+          severity: "major",
+          management: "Avoid combination or monitor ECG"
+        },
+        {
+          drug: "Cimetidine",
+          effect: "Increased escitalopram levels",
+          severity: "moderate",
+          management: "May need dose adjustment"
+        }
+      ],
+      faq: [
+        {
+          question: "How long does escitalopram take to work?",
+          answer: "Most people begin to feel some improvement in 1-2 weeks, but full therapeutic effects typically take 4-6 weeks. Continue taking as prescribed even if you don't feel immediate results. Contact your doctor if no improvement after 6-8 weeks."
+        },
+        {
+          question: "What is the difference between escitalopram and citalopram?",
+          answer: "Escitalopram is the S-enantiomer (active component) of citalopram. It's essentially a more refined version, typically requiring lower doses (10-20mg vs 20-40mg for citalopram) with potentially fewer side effects and drug interactions."
+        },
+        {
+          question: "Can I drink alcohol while taking escitalopram?",
+          answer: "It's best to avoid alcohol while taking escitalopram. Alcohol can worsen depression and anxiety, reduce the medication's effectiveness, and increase the risk of side effects like drowsiness and dizziness."
+        },
+        {
+          question: "Will escitalopram cause weight gain?",
+          answer: "Weight changes are possible but vary by individual. Some people experience modest weight gain (2-5 lbs), while others lose weight or have no change. If weight gain concerns you, discuss with your doctor about diet, exercise, or alternative medications."
+        },
+        {
+          question: "What happens if I stop taking escitalopram suddenly?",
+          answer: "Abrupt discontinuation can cause withdrawal symptoms including dizziness, nausea, headache, irritability, insomnia, and 'brain zaps.' Always taper gradually under doctor's supervision, typically reducing dose over 1-2 weeks minimum, sometimes longer."
+        }
+      ],
+      ingredients: {
+        active: "Escitalopram oxalate (equivalent to escitalopram base)",
+        inactive: ["Talc", "Croscarmellose sodium", "Microcrystalline cellulose", "Colloidal silicon dioxide", "Magnesium stearate", "Hypromellose", "Titanium dioxide", "Polyethylene glycol"]
+      }
     }
   },
   {
@@ -5182,33 +5284,134 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 37.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Extended-release: Start 75mg once daily with food. May increase by 75mg increments every 4 days. Maximum 225mg per day.",
-        administration: [
-          "Take once daily with food at same time",
-          "Swallow capsules whole, do not crush or chew",
-          "For discontinuation, taper gradually over at least 4 weeks",
-          "Full effect may take several weeks"
-        ],
-        specialPopulations: "Reduce dose with renal or hepatic impairment. Use caution in elderly. Not recommended during pregnancy."
+      uses: {
+        overview: "Venlafaxine is a serotonin-norepinephrine reuptake inhibitor (SNRI) that increases both serotonin and norepinephrine in the brain. At lower doses it primarily affects serotonin; at higher doses it also significantly affects norepinephrine.",
+        conditions: [
+          "**Major Depressive Disorder** - FDA-approved for depression treatment",
+          "**Generalized Anxiety Disorder** - Effective for chronic worry and anxiety",
+          "**Social Anxiety Disorder** - FDA-approved for social phobia",
+          "**Panic Disorder** - FDA-approved for panic attacks",
+          "**Chronic Pain** - Off-label for neuropathic pain and fibromyalgia",
+          "**Hot Flashes** - Off-label for menopausal symptoms"
+        ]
       },
       sideEffects: {
-        common: ["Nausea", "Somnolence", "Dry mouth", "Sweating", "Sexual dysfunction", "Dizziness", "Insomnia", "Constipation"],
-        serious: ["Hypertension (dose-related)", "Serotonin syndrome", "Increased suicidal thoughts", "Abnormal bleeding", "Seizures", "Hyponatremia", "Mydriasis/angle-closure glaucoma"]
+        common: ["Nausea (very common initially)", "Somnolence or insomnia", "Dry mouth", "Sweating", "Sexual dysfunction", "Dizziness", "Constipation", "Loss of appetite"],
+        serious: [
+          "Hypertension (dose-related; monitor blood pressure)",
+          "Serotonin syndrome",
+          "Increased suicidal thoughts in young adults",
+          "Abnormal bleeding",
+          "Seizures",
+          "Hyponatremia",
+          "Mydriasis leading to angle-closure glaucoma",
+          "Discontinuation syndrome (especially if stopped abruptly)",
+          "Activation of mania"
+        ],
+        notes: "Blood pressure increases are common, especially at doses >150mg/day. Nausea typically improves after first week."
       },
-      contraindications: [
-        "Concurrent MAOI use or within 14 days",
-        "Hypersensitivity to venlafaxine",
-        "Uncontrolled hypertension (relative contraindication)"
+      warnings: {
+        blackBoxWarnings: [
+          "SUICIDALITY: Antidepressants increased risk of suicidal thinking and behavior in children, adolescents, and young adults in short-term studies. Monitor closely for worsening depression, suicidality, or unusual changes in behavior, especially during initial months of therapy or dose changes."
+        ],
+        generalWarnings: [
+          "Monitor blood pressure regularly; hypertension common at higher doses",
+          "Abrupt discontinuation causes withdrawal syndrome; taper over at least 4 weeks",
+          "Risk of serotonin syndrome, especially with other serotonergic drugs",
+          "May precipitate mania in bipolar patients",
+          "May cause mydriasis; use caution in angle-closure glaucoma",
+          "Increases bleeding risk when combined with NSAIDs or anticoagulants"
+        ],
+        specificPopulations: [
+          "**Pregnancy** - Use only if benefits outweigh risks; may cause neonatal complications",
+          "**Breastfeeding** - Present in breast milk; discuss with doctor",
+          "**Elderly** - Increased risk of hyponatremia",
+          "**Renal/Hepatic Impairment** - Dose reduction required"
+        ]
+      },
+      beforeTaking: [
+        "Currently taking or stopped MAOIs within 14 days",
+        "Uncontrolled high blood pressure",
+        "Known allergy to venlafaxine",
+        "History of seizures",
+        "Bipolar disorder or mania",
+        "Bleeding disorders",
+        "Angle-closure glaucoma",
+        "Heart disease or recent heart attack",
+        "Liver or kidney disease"
       ],
+      dosage: {
+        standard: "**Extended-Release (ER):** Depression: Start 75mg once daily with food. May increase by 75mg every 4 days if needed. Usual dose: 150-225mg/day. **Maximum:** 225mg/day.\n\n**Anxiety Disorders:** Start 37.5-75mg daily, increase as needed up to 225mg/day.",
+        administration: [
+          "Take once daily with food at same time each day",
+          "Swallow capsules whole; do NOT crush, chew, or dissolve",
+          "Taking with food reduces nausea",
+          "Full effect may take 4-6 weeks",
+          "For discontinuation, taper gradually over AT LEAST 4 weeks",
+          "Do not stop abruptly due to severe withdrawal symptoms"
+        ],
+        specialPopulations: "**Renal Impairment (GFR <30):** Reduce dose by 50%. **Hepatic Impairment:** Reduce dose by 50% for moderate impairment. **Dialysis:** Give dose after dialysis. **Elderly:** No specific adjustment but monitor closely."
+      },
       drugInteractions: [
-        "MAOIs - serotonin syndrome (contraindicated)",
-        "Other serotonergic drugs - serotonin syndrome",
-        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
-        "CYP2D6 inhibitors - increased venlafaxine levels",
-        "Alcohol - enhanced CNS depression",
-        "Antihypertensives - may require dose adjustment"
-      ]
+        {
+          drug: "MAO Inhibitors",
+          effect: "Life-threatening serotonin syndrome",
+          severity: "critical",
+          management: "CONTRAINDICATED. Wait 14 days after stopping MAOI before starting venlafaxine, and 7 days after stopping venlafaxine before starting MAOI"
+        },
+        {
+          drug: "Serotonergic Drugs (SSRIs, Triptans, Tramadol, Tryptophan, St. John's Wort)",
+          effect: "Increased serotonin syndrome risk",
+          severity: "major",
+          management: "Use combination with caution; monitor for symptoms of serotonin syndrome"
+        },
+        {
+          drug: "NSAIDs, Aspirin, Anticoagulants",
+          effect: "Increased bleeding risk",
+          severity: "major",
+          management: "Monitor for bleeding; consider gastroprotection"
+        },
+        {
+          drug: "CYP2D6 Inhibitors (Quinidine, Fluoxetine, Paroxetine)",
+          effect: "Increased venlafaxine levels",
+          severity: "moderate",
+          management: "Use caution; may need dose adjustment"
+        },
+        {
+          drug: "Alcohol",
+          effect: "Enhanced CNS depression, worsened depression",
+          severity: "moderate",
+          management: "Avoid alcohol consumption"
+        },
+        {
+          drug: "Antihypertensive Medications",
+          effect: "May reduce antihypertensive effect due to BP increase from venlafaxine",
+          severity: "moderate",
+          management: "Monitor BP; may need antihypertensive dose adjustment"
+        }
+      ],
+      faq: [
+        {
+          question: "Why does venlafaxine cause high blood pressure?",
+          answer: "Venlafaxine increases norepinephrine levels, which can raise blood pressure, especially at doses above 150mg/day. Your doctor should monitor your BP regularly. If it becomes problematic, dose reduction or adding blood pressure medication may be needed."
+        },
+        {
+          question: "What are venlafaxine withdrawal symptoms?",
+          answer: "Venlafaxine has one of the worst withdrawal syndromes among antidepressants due to its short half-life. Symptoms include dizziness, nausea, headache, irritability, insomnia, fatigue, and 'brain zaps' (brief electric shock sensations). Always taper very gradually over weeks to months."
+        },
+        {
+          question: "How is venlafaxine different from SSRIs?",
+          answer: "Venlafaxine is an SNRI that affects both serotonin and norepinephrine, while SSRIs mainly affect serotonin. This dual action may provide better results for some people, particularly for treatment-resistant depression and chronic pain conditions."
+        },
+        {
+          question: "Can venlafaxine help with hot flashes?",
+          answer: "Yes, venlafaxine is commonly used off-label for hot flashes related to menopause or cancer treatment. Lower doses (37.5-75mg) are typically effective for this purpose."
+        }
+      ],
+      ingredients: {
+        active: "Venlafaxine hydrochloride",
+        inactive: ["Cellulose", "Ethylcellulose", "Gelatin", "Hypromellose", "Iron oxide", "Titanium dioxide", "Talc", "Triacetin"]
+      }
     }
   },
   {
@@ -5232,34 +5435,127 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 41.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Depression: Extended-release 150mg once daily, may increase to 300mg. Smoking cessation: 150mg once daily for 3 days, then 150mg twice daily.",
-        administration: [
-          "Take with or without food",
-          "Swallow tablets whole, do not crush or chew",
-          "Take doses at least 8 hours apart to reduce seizure risk",
-          "Avoid taking at bedtime (may cause insomnia)"
-        ],
-        specialPopulations: "Reduce dose with hepatic impairment. Not recommended with seizure disorders. Use caution in pregnancy."
+      uses: {
+        overview: "Bupropion is an atypical antidepressant and smoking cessation aid that works by inhibiting reuptake of dopamine and norepinephrine. Unlike SSRIs, it doesn't affect serotonin and has unique benefits for energy, motivation, and smoking cessation.",
+        conditions: [
+          "**Major Depressive Disorder** - FDA-approved for depression",
+          "**Seasonal Affective Disorder (SAD)** - Prevents winter depression",
+          "**Smoking Cessation** - FDA-approved as Zyban for quitting smoking",
+          "**ADHD** - Off-label use for attention deficit",
+          "**Weight Loss** - Off-label; may cause weight loss unlike other antidepressants"
+        ]
       },
       sideEffects: {
-        common: ["Insomnia", "Dry mouth", "Nausea", "Headache", "Dizziness", "Constipation", "Tremor", "Weight loss"],
-        serious: ["Seizures (dose-related)", "Hypertension", "Psychiatric symptoms (agitation, psychosis)", "Increased suicidal thoughts", "Severe allergic reactions", "Angle-closure glaucoma"]
+        common: ["Insomnia (very common)", "Dry mouth", "Nausea", "Headache", "Dizziness", "Constipation", "Tremor", "Agitation", "Weight loss", "Increased sweating"],
+        serious: [
+          "SEIZURES (dose-dependent; risk increases above 450mg/day)",
+          "Hypertension (can be significant)",
+          "Psychiatric symptoms (agitation, anxiety, psychosis, paranoia)",
+          "Increased suicidal thoughts",
+          "Severe allergic reactions (Stevens-Johnson syndrome)",
+          "Angle-closure glaucoma",
+          "Activation of mania"
+        ],
+        notes: "Seizure risk is 0.4% at doses ≤450mg/day. Insomnia is very common; avoid evening doses."
       },
-      contraindications: [
-        "Seizure disorder",
-        "Bulimia or anorexia nervosa",
-        "Abrupt discontinuation of alcohol/benzodiazepines",
-        "Concurrent MAOI use or within 14 days",
-        "Known hypersensitivity"
+      warnings: {
+        blackBoxWarnings: [
+          "SUICIDALITY: Increased risk of suicidal thinking and behavior in children, adolescents, and young adults. Monitor closely for worsening depression or emergence of suicidal thoughts.",
+          "NEUROPSYCHIATRIC REACTIONS IN SMOKING CESSATION: Serious neuropsychiatric events including changes in behavior, hostility, agitation, depressed mood, and suicidal thoughts have been reported. Discontinue if these occur."
+        ],
+        generalWarnings: [
+          "CONTRAINDICATED in seizure disorders or conditions that increase seizure risk",
+          "CONTRAINDICATED in patients with eating disorders (bulimia, anorexia)",
+          "Do NOT exceed 450mg/day total dose; higher doses significantly increase seizure risk",
+          "Space doses at least 8 hours apart (immediate-release) or 24 hours (extended-release)",
+          "May cause or worsen hypertension; monitor blood pressure",
+          "Avoid abrupt discontinuation of alcohol or sedatives (increases seizure risk)"
+        ],
+        specificPopulations: [
+          "**Pregnancy** - Use only if benefits outweigh risks; limited data available",
+          "**Breastfeeding** - Present in breast milk; discuss with doctor",
+          "**Hepatic Impairment** - Significant dose reduction required; use extreme caution",
+          "**Elderly** - Use lower doses; increased sensitivity to effects"
+        ]
+      },
+      beforeTaking: [
+        "History of seizures or seizure disorder",
+        "Current or past eating disorder (bulimia, anorexia nervosa)",
+        "Currently taking MAOIs or stopped within 14 days",
+        "Abrupt discontinuation of alcohol, benzodiazepines, or barbiturates",
+        "Head trauma or brain tumor",
+        "Bipolar disorder",
+        "Liver disease (especially cirrhosis)",
+        "Kidney disease",
+        "Angle-closure glaucoma",
+        "Currently taking other bupropion-containing products"
       ],
+      dosage: {
+        standard: "**Depression (Extended-Release):** Start 150mg once daily in morning. After ≥3 days, may increase to 150mg twice daily or 300mg once daily. **Maximum:** 450mg/day (divided doses).\n\n**Smoking Cessation:** Start 150mg once daily for 3 days, then 150mg twice daily (at least 8 hours apart) for 7-12 weeks.",
+        administration: [
+          "Take with or without food",
+          "Swallow tablets whole - do NOT crush, chew, or divide",
+          "Take doses at least 8 hours apart to reduce seizure risk",
+          "Avoid taking near bedtime (causes insomnia)",
+          "For smoking cessation: Start 1 week before quit date",
+          "Do not exceed maximum daily dose of 450mg"
+        ],
+        specialPopulations: "**Hepatic Impairment:** Severe: 75mg once daily or 100mg every other day; Moderate: consider dose reduction. **Renal Impairment:** Consider dose reduction in severe impairment. **Elderly:** Start with lower doses."
+      },
       drugInteractions: [
-        "MAOIs - hypertensive crisis",
-        "CYP2D6 substrates (TCAs, antiarrhythmics) - increased levels",
-        "Alcohol, benzodiazepines - increased seizure risk if discontinued abruptly",
-        "Other drugs that lower seizure threshold",
-        "Dopaminergic drugs (levodopa, amantadine) - increased side effects"
-      ]
+        {
+          drug: "MAO Inhibitors",
+          effect: "Hypertensive crisis risk",
+          severity: "critical",
+          management: "CONTRAINDICATED. Wait 14 days after stopping MAOI before starting bupropion"
+        },
+        {
+          drug: "Drugs that Lower Seizure Threshold",
+          effect: "Increased seizure risk",
+          severity: "major",
+          management: "Use extreme caution; consider alternative antidepressant"
+        },
+        {
+          drug: "CYP2D6 Substrates (TCAs, Antiarrhythmics, Antipsychotics)",
+          effect: "Increased levels of these drugs (bupropion inhibits CYP2D6)",
+          severity: "major",
+          management: "May need dose reduction of CYP2D6 substrate; monitor closely"
+        },
+        {
+          drug: "Alcohol",
+          effect: "Increased seizure risk; abrupt alcohol withdrawal particularly dangerous",
+          severity: "major",
+          management: "Avoid alcohol; do not stop alcohol abruptly while on bupropion"
+        },
+        {
+          drug: "Dopaminergic Drugs (Levodopa, Amantadine)",
+          effect: "Increased CNS side effects (restlessness, agitation, tremor)",
+          severity: "moderate",
+          management: "Start with low doses and increase gradually"
+        }
+      ],
+      faq: [
+        {
+          question: "Why does bupropion cause seizures?",
+          answer: "Bupropion lowers the seizure threshold in a dose-dependent manner. Risk is about 0.4% at doses ≤450mg/day but increases significantly at higher doses. Risk factors include eating disorders, head trauma, alcohol/drug withdrawal, and certain medications. Never exceed 450mg/day."
+        },
+        {
+          question: "Will bupropion help me quit smoking?",
+          answer: "Yes, bupropion (as Zyban) is FDA-approved for smoking cessation. It reduces nicotine cravings and withdrawal symptoms. Success rates are significantly higher than placebo. Start 1 week before your quit date and continue for 7-12 weeks."
+        },
+        {
+          question: "Why is bupropion different from other antidepressants?",
+          answer: "Unlike SSRIs/SNRIs, bupropion affects dopamine and norepinephrine but not serotonin. This means: no sexual side effects, may increase energy/motivation, doesn't typically cause weight gain, and is activating rather than sedating. However, it has seizure risk and can't be used in everyone."
+        },
+        {
+          question: "Can bupropion cause weight loss?",
+          answer: "Yes, bupropion is one of the few antidepressants associated with weight loss rather than weight gain. Average loss is 5-10 pounds. It's sometimes prescribed off-label for weight management, and there's an FDA-approved combination product (Contrave) for obesity."
+        }
+      ],
+      ingredients: {
+        active: "Bupropion hydrochloride",
+        inactive: ["Hypromellose", "Microcrystalline cellulose", "Polyethylene glycol", "Povidone", "Cysteine hydrochloride", "Magnesium stearate", "Film coating (varies by manufacturer)"]
+      }
     }
   },
   {
@@ -5620,34 +5916,126 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 31.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Anxiety: 2-3mg daily in 2-3 divided doses. Maximum 10mg/day. Insomnia: 2-4mg at bedtime.",
-        administration: [
-          "Take with or without food",
-          "Can be taken 2-3 times daily",
-          "Intermediate half-life (10-20 hours)",
-          "Taper slowly over weeks when discontinuing"
-        ],
-        specialPopulations: "Start 1-2mg/day in elderly. Reduce dose in hepatic impairment. Contraindicated in pregnancy."
+      uses: {
+        overview: "Lorazepam is an intermediate-acting benzodiazepine used for short-term relief of anxiety symptoms. It enhances the effect of GABA, a neurotransmitter that reduces brain activity, producing calming effects.",
+        conditions: [
+          "**Anxiety Disorders** - Short-term relief of severe anxiety",
+          "**Insomnia** - Short-term treatment of sleep disturbances",
+          "**Seizures** - Status epilepticus (IV formulation)",
+          "**Alcohol Withdrawal** - Manages withdrawal symptoms",
+          "**Pre-Operative Sedation** - Reduces anxiety before procedures"
+        ]
       },
       sideEffects: {
-        common: ["Sedation", "Dizziness", "Weakness", "Unsteadiness", "Memory problems", "Confusion (especially elderly)"],
-        serious: ["Physical dependence", "Withdrawal syndrome", "Respiratory depression", "Increased fall risk", "Cognitive decline", "Paradoxical reactions"]
+        common: ["Sedation", "Dizziness", "Weakness", "Unsteadiness", "Memory impairment", "Confusion (especially in elderly)", "Fatigue"],
+        serious: [
+          "Physical dependence and addiction",
+          "Severe withdrawal syndrome",
+          "Respiratory depression (especially with opioids)",
+          "Increased fall risk and fractures in elderly",
+          "Paradoxical reactions (aggression, agitation)",
+          "Cognitive decline with long-term use",
+          "Anterograde amnesia"
+        ],
+        notes: "Risk of dependence increases with prolonged use (>2-4 weeks). Elderly at higher risk for falls and cognitive impairment."
       },
-      contraindications: [
+      warnings: {
+        blackBoxWarnings: [
+          "RISKS FROM CONCOMITANT USE WITH OPIOIDS: Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing for patients with inadequate alternative treatment options. Limit dosages and durations to minimum required. Follow patients for signs of respiratory depression and sedation.",
+          "ABUSE, MISUSE, AND ADDICTION: Benzodiazepines expose users to risks of abuse, misuse, and addiction. Assess each patient's risk before prescribing and monitor regularly.",
+          "DEPENDENCE AND WITHDRAWAL: Physical dependence can occur even at recommended doses. Abrupt discontinuation or rapid dose reduction can cause seizures and life-threatening withdrawal. Taper gradually."
+        ],
+        generalWarnings: [
+          "For short-term use only (typically 2-4 weeks maximum)",
+          "High potential for physical and psychological dependence",
+          "Withdrawal can be life-threatening; always taper gradually",
+          "Significantly impairs cognitive function and coordination",
+          "Increases fall risk, especially in elderly",
+          "May cause severe drowsiness; avoid driving and operating machinery"
+        ],
+        specificPopulations: [
+          "**Pregnancy** - CONTRAINDICATED; risk of birth defects and neonatal withdrawal",
+          "**Breastfeeding** - Not recommended; passes into breast milk",
+          "**Elderly** - Start with 1-2mg/day; increased fall and confusion risk",
+          "**Hepatic Impairment** - Reduce dose; increased sensitivity"
+        ]
+      },
+      beforeTaking: [
         "Acute narrow-angle glaucoma",
-        "Sleep apnea",
-        "Severe respiratory insufficiency",
-        "Known hypersensitivity",
-        "Pregnancy and breastfeeding"
+        "Sleep apnea or severe respiratory insufficiency",
+        "Myasthenia gravis",
+        "Severe hepatic impairment",
+        "Known hypersensitivity to benzodiazepines",
+        "Pregnancy or breastfeeding",
+        "History of substance abuse",
+        "Currently taking opioids"
       ],
+      dosage: {
+        standard: "**Anxiety:** 2-3mg/day in divided doses (typically 1mg 2-3 times daily). **Maximum:** 10mg/day.\n\n**Insomnia:** 2-4mg at bedtime.\n\n**Elderly:** Start 1-2mg/day in divided doses.",
+        administration: [
+          "Take with or without food",
+          "Can be taken 2-3 times daily for anxiety",
+          "For insomnia, take 30-60 minutes before bedtime",
+          "Use lowest effective dose for shortest duration",
+          "Do not stop abruptly; taper gradually over weeks to months",
+          "Avoid alcohol completely while taking lorazepam"
+        ],
+        specialPopulations: "**Elderly:** Start 1-2mg/day; titrate slowly. **Hepatic Impairment:** Reduce dose by 50%; use with caution. **Renal Impairment:** No specific adjustment but use caution. **Debilitated Patients:** Use lower doses."
+      },
       drugInteractions: [
-        "CNS depressants (opioids, alcohol, barbiturates) - enhanced sedation, respiratory depression",
-        "Probenecid - decreased lorazepam clearance",
-        "Valproate - increased lorazepam levels",
-        "Other benzodiazepines - additive effects",
-        "Scopolamine - increased sedation and hallucinations"
-      ]
+        {
+          drug: "Opioids (Morphine, Oxycodone, Hydrocodone)",
+          effect: "Profound sedation, respiratory depression, coma, death",
+          severity: "critical",
+          management: "AVOID combination if possible. If unavoidable, use lowest doses and monitor constantly for respiratory depression"
+        },
+        {
+          drug: "Alcohol",
+          effect: "Severe CNS depression, respiratory depression, death",
+          severity: "critical",
+          management: "AVOID alcohol completely while taking lorazepam"
+        },
+        {
+          drug: "Other CNS Depressants (Barbiturates, Sleep Aids, Sedating Antihistamines)",
+          effect: "Enhanced sedation and respiratory depression",
+          severity: "major",
+          management: "Avoid combination or use extreme caution with reduced doses"
+        },
+        {
+          drug: "Probenecid",
+          effect: "Decreased lorazepam clearance, prolonged effects",
+          severity: "moderate",
+          management: "May need lorazepam dose reduction"
+        },
+        {
+          drug: "Valproate",
+          effect: "Increased lorazepam levels",
+          severity: "moderate",
+          management: "Monitor for increased sedation; may need dose adjustment"
+        }
+      ],
+      faq: [
+        {
+          question: "How addictive is lorazepam?",
+          answer: "Lorazepam has HIGH addiction potential. Physical dependence can develop in as little as 2-4 weeks of regular use. Psychological dependence is also common. Use only for short-term relief and under close medical supervision. Never increase dose or duration without consulting your doctor."
+        },
+        {
+          question: "What happens if I stop lorazepam suddenly?",
+          answer: "Abrupt discontinuation can cause life-threatening withdrawal including seizures, severe anxiety, tremors, sweating, insomnia, and potentially fatal complications. ALWAYS taper gradually under medical supervision, typically over weeks to months depending on dose and duration of use."
+        },
+        {
+          question: "Can I take lorazepam every day?",
+          answer: "Lorazepam is intended for short-term use only (2-4 weeks maximum). Daily use leads to tolerance (needing higher doses), physical dependence, and cognitive impairment. Long-term benzodiazepine use is associated with increased dementia risk, falls, and other serious complications."
+        },
+        {
+          question: "Why can't I take lorazepam with opioids?",
+          answer: "The combination of benzodiazepines and opioids is extremely dangerous and has caused thousands of overdose deaths. Both suppress breathing, and together they can cause fatal respiratory depression. The FDA requires a black box warning about this combination."
+        }
+      ],
+      ingredients: {
+        active: "Lorazepam",
+        inactive: ["Lactose monohydrate", "Microcrystalline cellulose", "Polacrilin potassium", "Magnesium stearate", "Coloring agents (may vary)"]
+      }
     }
   },
   {
@@ -12118,6 +12506,112 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 139.99,
       maxPrice: 214.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(4-Ethyl-2,5-dimethoxyphenyl)ethan-1-amine",
+        molecularFormula: "C₁₂H₁₉NO₂",
+        molecularWeight: 209.28,
+        casNumber: "71020-59-4",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Soluble",
+          dmso: "Freely soluble",
+          other: "Soluble in methanol, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "2C-E (4-Ethyl-2,5-dimethoxyphenethylamine) is a psychedelic phenethylamine first synthesized by Alexander Shulgin. The ethyl substitution at the 4-position makes it valuable for studying structure-activity relationships in the 2C series, particularly how alkyl chain length affects receptor binding and psychedelic potency.",
+        primaryUses: [
+          "5-HT2A receptor agonist research",
+          "Alkyl substitution effects on phenethylamine activity",
+          "Psychedelic pharmacology investigations",
+          "Comparative 2C-series research"
+        ],
+        studyAreas: [
+          "Serotonin receptor binding and activation",
+          "Psychedelic-induced neural plasticity",
+          "Sensory perception and cognition research",
+          "Substituent size effects on pharmacological properties",
+          "Structure-activity relationship analysis"
+        ],
+        mechanismOfAction: "2C-E acts primarily as a partial agonist at serotonin 5-HT2A receptors, with activity also at 5-HT2C receptors. The ethyl group at the 4-position contributes to its receptor binding profile and duration of action. 2C-E is noted for particularly strong visual effects compared to other 2C compounds."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon). Protect from light, heat, air, and moisture. Store in locked controlled substance storage area.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Must be disposed as Schedule I controlled substance waste per DEA regulations and all applicable local, state, federal requirements. Contact licensed controlled substance disposal contractor. Complete disposal documentation required. Incineration at DEA-approved facility mandatory.",
+        requiredPPE: [
+          "Safety goggles or face shield (ANSI Z87.1 approved)",
+          "Chemical-resistant gloves (nitrile, ≥0.11mm thickness)",
+          "Laboratory coat or chemical-resistant apron",
+          "Closed-toe, chemical-resistant footwear",
+          "Conduct all operations in certified fume hood",
+          "Respiratory protection (NIOSH N95 or P100) for powder handling"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.01-100 μM for cellular assays; 0.001-10 μM for receptor binding studies",
+          stockSolution: "10-100 mM in DMSO",
+          workingSolution: "Dilute to experimental concentration in appropriate buffer immediately before use"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO under inert atmosphere",
+          "Protect from light at all stages of handling and storage",
+          "Use amber or foil-wrapped vials for all solutions",
+          "Aliquot into small volumes to minimize freeze-thaw cycles",
+          "Equilibrate to room temperature before opening sealed containers",
+          "Vortex thoroughly; brief sonication may assist dissolution",
+          "Maintain DMSO concentration ≤0.1-0.5% in biological assays"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under nitrogen or argon in amber containers. DMSO stock solutions stable 6-12 months at -20°C protected from light. Aqueous solutions less stable; prepare fresh daily. Protect from light to prevent degradation. Avoid repeated freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents (permanganates, peroxides)",
+          "Strong reducing agents",
+          "Strong acids and bases",
+          "Prolonged exposure to light (especially UV)",
+          "Atmospheric oxygen and moisture"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA (DEA). Class A in UK. Controlled worldwide. Verify legal status in your jurisdiction before procurement.",
+        restrictions: "Available EXCLUSIVELY to licensed research institutions with valid Schedule I DEA registration or equivalent. Requires detailed research protocol, institutional DEA certificate, and end-user certification. Stringent security and record-keeping requirements per 21 CFR 1301-1304. NOT for human or animal consumption.",
+        certifications: ["DEA Schedule I licensed supplier", "ISO 17025:2017 accredited", "GMP/GLP compliant", "ISO 9001:2015 certified"],
+        complianceNotes: "All transactions require valid Schedule I DEA registration. Complete records per 21 CFR 1304 mandatory. Facility security must meet 21 CFR 1301 requirements. Biennial inventory required. Annual controlled substance summary due to DEA. Retain records minimum 2 years."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Shulgin A, Shulgin A. (1991). PiHKAL: A Chemical Love Story. Transform Press.",
+          "Rickli A, et al. (2015). Receptor interaction profiles of novel psychoactive tryptamines compared with classic hallucinogens. Eur Neuropsychopharmacol. 25(8):1327-37.",
+          "Braden MR, et al. (2006). Molecular interaction of serotonin 5-HT2A receptor residues with hallucinogenic phenylalkylamines. Mol Pharmacol. 70(6):1956-64.",
+          "Dean BV, et al. (2013). 2C or not 2C: phenethylamine designer drug review. J Med Toxicol. 9(2):172-8."
+        ]
+      }
     }
   },
   {
@@ -12138,6 +12632,121 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 152.99,
       maxPrice: 234.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(4-Iodo-2,5-dimethoxyphenyl)-N-(2-methoxybenzyl)ethan-1-amine",
+        molecularFormula: "C₁₈H₂₂INO₃",
+        molecularWeight: 427.28,
+        casNumber: "919797-19-6",
+        appearance: "White to off-white powder or crystalline solid",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Practically insoluble",
+          ethanol: "Slightly soluble",
+          dmso: "Soluble",
+          other: "Soluble in organic solvents"
+        }
+      },
+      researchApplications: {
+        overview: "25I-NBOMe (2C-I-NBOMe) is a substituted phenethylamine psychedelic research compound from the NBOMe family. It features an N-benzyl methoxy modification that dramatically increases 5-HT2A receptor affinity compared to its parent compound 2C-I, making it valuable for studying receptor selectivity and the effects of N-benzyl substitutions on psychedelic pharmacology.",
+        primaryUses: [
+          "High-affinity 5-HT2A receptor agonist research",
+          "N-benzyl substitution effects on receptor binding",
+          "Psychedelic pharmacology with extreme receptor selectivity",
+          "Comparative NBOMe family research"
+        ],
+        studyAreas: [
+          "Serotonin 5-HT2A receptor structure and function",
+          "Ultra-potent psychedelic mechanisms",
+          "Receptor selectivity and binding kinetics",
+          "Toxicological research (vasoconstriction mechanisms)",
+          "Analytical detection method development"
+        ],
+        mechanismOfAction: "25I-NBOMe acts as a highly selective and potent full agonist at serotonin 5-HT2A receptors, with affinity in the sub-nanomolar range. The N-2-methoxybenzyl group dramatically enhances binding compared to 2C-I. NBOMe compounds show much higher 5-HT2A selectivity than classical psychedelics, with minimal activity at other receptors."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H300 - Fatal if swallowed",
+          "H310 - Fatal in contact with skin",
+          "H330 - Fatal if inhaled",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P202 - Do not handle until all safety precautions have been read and understood",
+          "P260 - Do not breathe dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P284 - Wear respiratory protection",
+          "P301+P310 - IF SWALLOWED: Immediately call a POISON CENTER or doctor",
+          "P302+P350 - IF ON SKIN: Gently wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon) in locked controlled substance storage. EXTREME CAUTION: Highly potent compound. Protect from light, heat, air, and moisture. Handle only in designated high-security area with proper ventilation.",
+        shelfLife: "1-2 years when stored properly under recommended conditions; iodinated compounds may degrade faster",
+        disposalGuidelines: "EXTREME HAZARD: Must be disposed as Schedule I controlled substance waste with additional precautions due to extreme toxicity potential. Contact specialized hazardous/controlled substance disposal contractor. Complete comprehensive disposal documentation. Incineration at approved facility with emissions controls mandatory. Personnel must use full PPE during disposal.",
+        requiredPPE: [
+          "CRITICAL: Full face shield and safety goggles",
+          "Double nitrile or neoprene gloves (≥0.11mm thickness each pair)",
+          "Full-coverage laboratory coat or Tyvek suit",
+          "Closed-toe, chemical-resistant footwear with shoe covers",
+          "Conduct ALL operations in certified fume hood with airflow verification",
+          "MANDATORY respiratory protection (NIOSH P100 full-face respirator minimum)",
+          "Consider additional protective measures due to extreme potency"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.0001-10 μM for cellular assays (EXTREME POTENCY); 0.00001-1 μM for receptor binding; use lowest possible concentrations",
+          stockSolution: "1-10 mM in DMSO (prepare with extreme care)",
+          workingSolution: "Dilute extensively in appropriate buffer immediately before use; handle with extreme caution"
+        },
+        preparationNotes: [
+          "WARNING: EXTREMELY POTENT COMPOUND - Handle with maximum precautions",
+          "Prepare stocks in certified fume hood with full PPE including respirator",
+          "Use high-purity anhydrous DMSO under inert atmosphere",
+          "CRITICAL: Protect from ALL light exposure (highly photosensitive iodinated compound)",
+          "Aliquot into smallest practical volumes to minimize handling",
+          "Label all containers with hazard warnings and concentration clearly marked",
+          "Equilibrate to room temperature in dark before opening sealed containers",
+          "Vortex gently; avoid aerosolization",
+          "Maintain DMSO concentration ≤0.1% in biological assays",
+          "Document all preparation steps; maintain detailed chain-of-custody records"
+        ],
+        stabilityData: "Stable as solid for 1-2 years at -20°C under argon in amber containers stored in dark. DMSO stocks stable 3-6 months at -20°C in amber vials wrapped in foil; degrade faster than non-iodinated analogs. Aqueous solutions HIGHLY UNSTABLE; prepare immediately before use and use within 1 hour. Photodegradation rapid—minimize all light exposure. Single freeze-thaw only; do not refreeze.",
+        incompatibilities: [
+          "CRITICAL: Light (UV, sunlight, AND indoor lighting)",
+          "Strong oxidizing agents (violent reactions possible)",
+          "Strong reducing agents",
+          "Strong acids and bases",
+          "Any exposure to atmospheric oxygen and moisture",
+          "Heat and elevated temperatures"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA (DEA). Illegal in most countries worldwide. Class A in UK. Verify legal status before ordering—international laws extremely strict.",
+        restrictions: "Available ONLY to maximum security research institutions with valid Schedule I DEA registration, specialized NBOMe research protocols, institutional biosafety committee approval, and enhanced security clearances. Requires comprehensive risk assessment, detailed safety protocols, and specialized disposal plans. NOT for human or animal use under ANY circumstances. Personnel must complete specialized training for handling ultra-potent psychoactive compounds.",
+        certifications: ["DEA Schedule I licensed supplier with NBOMe authorization", "ISO 17025:2017 accredited", "Specialized high-potency compound handling certification", "GMP/GLP compliant", "ISO 9001:2015 certified"],
+        complianceNotes: "All transactions require ENHANCED Schedule I documentation. Ultra-detailed records per 21 CFR 1304 mandatory with additional tracking for extreme-potency compounds. Facility security must EXCEED 21 CFR 1301 minimum requirements. Monthly inventory recommended. Annual controlled substance summary with NBOMe-specific reporting to DEA. Retain all records minimum 5 years for ultra-potent compounds. Immediate reporting required for any discrepancies."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Hansen M, et al. (2014). Synthesis and structure-activity relationships of N-benzyl phenethylamines as 5-HT2A/2C agonists. ACS Chem Neurosci. 5(3):243-9.",
+          "Halberstadt AL, Geyer MA. (2014). Effects of the hallucinogen 2,5-dimethoxy-4-iodophenethylamine (2C-I) and superpotent N-benzyl derivatives on the head twitch response. Neuropharmacology. 77:200-7.",
+          "Lawn W, et al. (2014). The NBOMe hallucinogenic drug series: Patterns of use, characteristics of users, and self-reported effects. J Psychopharmacol. 28(8):780-8.",
+          "Suzuki J, et al. (2015). Toxicities associated with NBOMe ingestion—a novel class of potent hallucinogens: a review of the literature. Psychosomatics. 56(2):129-39."
+        ]
+      }
     }
   },
   {

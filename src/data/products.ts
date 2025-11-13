@@ -43608,6 +43608,600 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     tags: ["mineral-spectrum", "complete", "trace"],
     swatchStyle: "capsule",
     variationPrices: { minPrice: 41.99, maxPrice: 59.99 }
+  },
+
+  // ============== NEW COMMONLY PRESCRIBED MEDICATIONS ==============
+  
+  {
+    id: "rx-801",
+    name: "Abilify (Aripiprazole)",
+    description: "Atypical antipsychotic for schizophrenia, bipolar disorder, and depression augmentation",
+    price: 89.99,
+    oldPrice: 175.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.6,
+    reviews: 892,
+    requiresPrescription: true,
+    strengthOptions: ["2mg", "5mg", "10mg", "15mg", "20mg", "30mg"],
+    formOptions: ["Tablet", "Orally Disintegrating Tablet", "Oral Solution", "Injectable"],
+    tags: ["antipsychotic", "bipolar", "schizophrenia", "depression"],
+    variationPrices: { minPrice: 89.99, maxPrice: 245.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Aripiprazole is an atypical antipsychotic that acts as a partial agonist at dopamine D2 and serotonin 5-HT1A receptors and as an antagonist at serotonin 5-HT2A receptors. This unique mechanism helps balance brain chemistry.",
+        conditions: [
+          "**Schizophrenia** - Treatment in adults and adolescents ≥13 years",
+          "**Bipolar I Disorder** - Acute treatment of manic and mixed episodes, maintenance therapy, and adjunct to lithium or valproate",
+          "**Major Depressive Disorder** - Adjunctive treatment to antidepressants",
+          "**Irritability Associated with Autistic Disorder** - In pediatric patients 6-17 years",
+          "**Tourette's Disorder** - In pediatric patients 6-18 years"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Constipation", "Headache", "Dizziness", "Akathisia (restlessness)", "Anxiety", "Insomnia", "Weight gain (less than other atypicals)"],
+        serious: ["Neuroleptic malignant syndrome", "Tardive dyskinesia", "Metabolic changes (hyperglycemia, diabetes, dyslipidemia)", "Orthostatic hypotension", "Seizures", "Suicidal thoughts"],
+        notes: "Aripiprazole has lower risk of weight gain and metabolic effects compared to other atypical antipsychotics but can cause significant akathisia."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased mortality in elderly patients with dementia-related psychosis",
+          "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+        ],
+        generalWarnings: [
+          "May cause tardive dyskinesia (potentially irreversible involuntary movements)",
+          "Risk of neuroleptic malignant syndrome",
+          "May worsen metabolic disorders including diabetes",
+          "Can cause pathological gambling, hypersexuality, and other impulse control disorders"
+        ]
+      },
+      beforeTaking: {
+        contraindications: ["Hypersensitivity to aripiprazole"],
+        precautions: [
+          "Cardiovascular disease",
+          "Cerebrovascular disease",
+          "Conditions predisposing to hypotension",
+          "History of seizures",
+          "Diabetes or risk factors for diabetes",
+          "Dysphagia (swallowing difficulty)",
+          "Parkinson's disease"
+        ],
+        pregnancy: "Category C. Use only if benefit outweighs risk. Neonates exposed during third trimester at risk for extrapyramidal and/or withdrawal symptoms.",
+        breastfeeding: "Passes into breast milk. Weigh benefits and risks."
+      },
+      dosage: {
+        overview: "Dosing varies significantly by indication. Start low and titrate slowly to minimize side effects.",
+        adults: "Schizophrenia: 10-15mg once daily; Bipolar: 15-30mg once daily; Depression augmentation: 2-15mg once daily",
+        children: "Age and indication dependent: 2-30mg once daily based on approved indication",
+        administration: [
+          "Can be taken with or without food",
+          "Take at same time each day",
+          "Orally disintegrating tablets: Place on tongue, allow to dissolve, swallow with or without liquid",
+          "Do not split, crush, or chew orally disintegrating tablets before placing in mouth"
+        ],
+        overdose: "Contact poison control or emergency services. May cause sedation, vomiting, agitation. No specific antidote."
+      },
+      drugInteractions: {
+        interactions: [
+          "CYP3A4 inhibitors (ketoconazole, clarithromycin) - increase aripiprazole levels, reduce dose by 50%",
+          "CYP2D6 inhibitors (fluoxetine, paroxetine) - increase aripiprazole levels, reduce dose by 50%",
+          "CYP3A4 inducers (carbamazepine, rifampin) - decrease aripiprazole levels, may need to double dose",
+          "Antihypertensives - enhanced hypotensive effects",
+          "CNS depressants - increased sedation",
+          "Metoclopramide - may increase extrapyramidal symptoms"
+        ]
+      }
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-802",
+    name: "Ambien (Zolpidem)",
+    description: "Non-benzodiazepine sedative-hypnotic for short-term insomnia treatment",
+    price: 29.99,
+    oldPrice: 59.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "sleep-aids",
+    inStock: true,
+    rating: 4.4,
+    reviews: 1567,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg"],
+    formOptions: ["Immediate Release Tablet", "Extended Release Tablet", "Sublingual Tablet", "Oral Spray"],
+    tags: ["sleep", "insomnia", "sedative", "z-drug"],
+    variationPrices: { minPrice: 29.99, maxPrice: 79.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Zolpidem is a non-benzodiazepine hypnotic that binds selectively to GABA-A receptors, promoting sleep with less next-day drowsiness than traditional benzodiazepines. Intended for short-term use only.",
+        conditions: [
+          "**Insomnia** - Short-term treatment of difficulty falling asleep",
+          "**Middle-of-night awakening** - Specific low-dose sublingual formulations for return-to-sleep"
+        ]
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Dizziness", "Diarrhea", "Headache", "Drugged feeling"],
+        serious: [
+          "Complex sleep behaviors (sleep-walking, sleep-driving, sleep-eating)",
+          "Severe allergic reactions",
+          "Abnormal thinking and behavioral changes",
+          "Memory impairment",
+          "Falls and injuries",
+          "CNS depression"
+        ],
+        notes: "Complex sleep behaviors have occurred with zolpidem, including driving while not fully awake. Discontinue immediately if occurs."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Complex sleep behaviors including sleep-walking, sleep-driving, and engaging in other activities while not fully awake. Serious injuries and death have occurred."
+        ],
+        generalWarnings: [
+          "Risk of next-morning impaired driving and activities",
+          "May cause depression worsening and suicidal thoughts",
+          "Potential for abuse and dependence with prolonged use",
+          "Respiratory depression in patients with compromised respiratory function"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Previous complex sleep behavior with zolpidem",
+          "Severe hepatic impairment"
+        ],
+        precautions: [
+          "Depression or history of depression",
+          "History of drug or alcohol abuse",
+          "Respiratory disease (COPD, sleep apnea)",
+          "Myasthenia gravis",
+          "Hepatic impairment"
+        ],
+        pregnancy: "Avoid in pregnancy. May cause respiratory depression and sedation in newborn.",
+        breastfeeding: "Passes into breast milk. Not recommended during breastfeeding."
+      },
+      dosage: {
+        overview: "Use lowest effective dose. Women metabolize zolpidem more slowly and require lower doses.",
+        adults: "Women: 5mg immediate-release at bedtime; Men: 5-10mg at bedtime. Extended-release: Women 6.25mg, Men 6.25-12.5mg",
+        elderly: "Start with 5mg immediate-release or 6.25mg extended-release",
+        administration: [
+          "Take immediately before bedtime with at least 7-8 hours of sleep time remaining",
+          "Take on empty stomach - food delays onset",
+          "Do not take with or right after a meal",
+          "Swallow extended-release tablets whole; do not divide, crush, or chew",
+          "Do not take if alcohol has been consumed"
+        ],
+        overdose: "Symptoms range from somnolence to coma. Supportive care and monitoring. Flumazenil may be useful."
+      },
+      drugInteractions: {
+        interactions: [
+          "CNS depressants (alcohol, opioids, benzodiazepines) - additive CNS depression, avoid combination",
+          "CYP3A4 inhibitors (ketoconazole) - increased zolpidem levels",
+          "CYP3A4 inducers (rifampin) - decreased zolpidem effects",
+          "Sertraline - increased zolpidem levels",
+          "Chlorpromazine - impaired alertness and psychomotor performance"
+        ],
+        avoidWith: ["Alcohol", "Grapefruit juice"]
+      },
+      faq: [
+        {
+          question: "How long does Ambien stay in your system?",
+          answer: "Ambien has a half-life of about 2.5 hours. It's typically eliminated from your system within 11-16 hours, though effects last 6-8 hours. Extended-release versions last longer."
+        },
+        {
+          question: "Can I take Ambien every night?",
+          answer: "Ambien is approved for short-term use only (typically 7-10 days). Long-term use can lead to tolerance, dependence, and rebound insomnia. Consult your doctor if insomnia persists beyond 2 weeks."
+        },
+        {
+          question: "Why do I do strange things on Ambien?",
+          answer: "Ambien can cause complex sleep behaviors where you engage in activities while not fully awake. This is a serious side effect - if it occurs, stop taking Ambien immediately and contact your doctor."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-803",
+    name: "Lyrica (Pregabalin)",
+    description: "Anticonvulsant for neuropathic pain, fibromyalgia, and seizures",
+    price: 69.99,
+    oldPrice: 139.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "pain-management",
+    inStock: true,
+    rating: 4.5,
+    reviews: 1893,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "75mg", "100mg", "150mg", "200mg", "225mg", "300mg"],
+    formOptions: ["Capsule", "Oral Solution"],
+    tags: ["neuropathic-pain", "fibromyalgia", "anticonvulsant", "controlled-substance"],
+    variationPrices: { minPrice: 69.99, maxPrice: 189.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Pregabalin binds to voltage-gated calcium channels in the CNS, reducing neurotransmitter release. It's effective for various neuropathic pain conditions and is a Schedule V controlled substance.",
+        conditions: [
+          "**Diabetic Peripheral Neuropathy** - Pain from nerve damage in diabetes",
+          "**Postherpetic Neuralgia** - Pain following shingles",
+          "**Fibromyalgia** - Widespread musculoskeletal pain",
+          "**Spinal Cord Injury Neuropathic Pain**",
+          "**Partial Onset Seizures** - Adjunctive therapy in adults"
+        ]
+      },
+      sideEffects: {
+        common: ["Dizziness", "Somnolence", "Dry mouth", "Edema (swelling)", "Blurred vision", "Weight gain", "Difficulty concentrating"],
+        serious: ["Angioedema (face/tongue swelling)", "Hypersensitivity reactions", "Increased suicidal thoughts", "Respiratory depression (with CNS depressants)", "Heart failure worsening"],
+        notes: "Weight gain averages 2-6 kg and edema occurs in 6-16% of patients. Elderly are more susceptible to side effects."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased risk of suicidal thoughts and behavior - monitor for depression worsening"
+        ],
+        generalWarnings: [
+          "May cause angioedema - discontinue immediately if face, mouth, or neck swelling occurs",
+          "Can cause respiratory depression when combined with opioids or CNS depressants",
+          "May cause visual disturbances",
+          "Potential for abuse and dependence",
+          "Abrupt discontinuation may cause insomnia, nausea, headache, diarrhea, or seizures"
+        ]
+      },
+      beforeTaking: {
+        contraindications: ["Hypersensitivity to pregabalin"],
+        precautions: [
+          "History of substance abuse",
+          "Heart failure or cardiovascular disease",
+          "Diabetes (increased risk of edema)",
+          "Kidney disease (dose adjustment required)",
+          "History of depression or suicidal thoughts",
+          "Elderly patients (increased fall risk)"
+        ],
+        pregnancy: "Category C. May cause fetal harm. Use only if benefit outweighs risk. Associated with increased risk of male-mediated teratogenicity in animal studies.",
+        breastfeeding: "Unknown if excreted in breast milk. Weigh benefits against potential risks."
+      },
+      dosage: {
+        overview: "Pregabalin is eliminated primarily by renal excretion. Dose must be adjusted for kidney impairment. Maximum dose: 600mg/day.",
+        adults: "Neuropathic pain: Start 150mg/day divided into 2-3 doses, may increase to 300mg/day within 1 week, max 600mg/day. Fibromyalgia: 300-450mg/day divided into 2 doses",
+        administration: [
+          "Can be taken with or without food",
+          "Swallow capsules whole with water",
+          "Take at same times each day for consistent levels",
+          "Do not discontinue abruptly - taper gradually over at least 1 week"
+        ],
+        missedDose: "Take as soon as remembered unless close to next dose. Do not double dose.",
+        overdose: "Symptoms may include extreme drowsiness, confusion, agitation, restlessness. Contact emergency services. No specific antidote; supportive care and possibly hemodialysis."
+      },
+      drugInteractions: {
+        interactions: [
+          "Opioids - increased risk of respiratory depression and sedation",
+          "Benzodiazepines - additive CNS depression",
+          "Alcohol - increased CNS depression",
+          "ACE inhibitors - increased risk of angioedema",
+          "Thiazolidinediones (rosiglitazone) - additive weight gain and edema",
+          "Lorazepam - increased cognitive and motor impairment"
+        ],
+        avoidWith: ["Alcohol"]
+      },
+      faq: [
+        {
+          question: "How long does Lyrica take to work?",
+          answer: "Some pain relief may occur within the first week, but full effects typically take 2-4 weeks. Dosage adjustments may be needed to achieve optimal results."
+        },
+        {
+          question: "Will Lyrica cause weight gain?",
+          answer: "Yes, weight gain is common with Lyrica, affecting about 15% of patients. Average weight gain is 2-6 kg. Regular exercise and dietary modifications may help manage weight."
+        },
+        {
+          question: "Can I stop Lyrica suddenly?",
+          answer: "No. Stopping Lyrica abruptly can cause withdrawal symptoms including insomnia, nausea, headaches, and anxiety. Always taper gradually under medical supervision."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-804",
+    name: "Seroquel (Quetiapine)",
+    description: "Atypical antipsychotic for schizophrenia, bipolar disorder, and depression augmentation",
+    price: 79.99,
+    oldPrice: 159.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.3,
+    reviews: 1234,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "100mg", "200mg", "300mg", "400mg"],
+    formOptions: ["Immediate Release Tablet", "Extended Release Tablet"],
+    tags: ["antipsychotic", "bipolar", "schizophrenia", "sleep"],
+    variationPrices: { minPrice: 79.99, maxPrice: 219.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Quetiapine is an atypical antipsychotic that antagonizes multiple neurotransmitter receptors including serotonin 5-HT2 and dopamine D2. Often prescribed off-label for insomnia due to sedating effects.",
+        conditions: [
+          "**Schizophrenia** - Treatment in adults and adolescents ≥13 years",
+          "**Bipolar Disorder** - Acute manic episodes, depressive episodes, and maintenance therapy",
+          "**Major Depressive Disorder** - Adjunctive treatment with antidepressants (extended-release only)"
+        ]
+      },
+      sideEffects: {
+        common: ["Somnolence (very common)", "Dizziness", "Dry mouth", "Constipation", "Weight gain", "Increased appetite", "Fatigue", "Blurred vision"],
+        serious: ["Metabolic syndrome", "Hyperglycemia and diabetes", "Orthostatic hypotension", "Cataracts", "Neuroleptic malignant syndrome", "Tardive dyskinesia", "Prolonged QT interval"],
+        notes: "Quetiapine causes significant weight gain and metabolic effects. Regular monitoring of weight, glucose, and lipids required."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased mortality in elderly patients with dementia-related psychosis",
+          "Suicidal thoughts and behaviors in children, adolescents, and young adults taking antidepressants"
+        ],
+        generalWarnings: [
+          "Significant risk of metabolic changes including weight gain, hyperglycemia, dyslipidemia",
+          "May cause cataracts - baseline and periodic eye exams recommended",
+          "Risk of orthostatic hypotension, especially during initial titration",
+          "Increases seizure risk",
+          "May cause hypothyroidism"
+        ]
+      },
+      beforeTaking: {
+        contraindications: ["Hypersensitivity to quetiapine"],
+        precautions: [
+          "Cardiovascular disease",
+          "History of seizures",
+          "Diabetes or risk factors for diabetes",
+          "Hepatic impairment",
+          "Hypothyroidism",
+          "History of falls",
+          "History of cataracts or glaucoma",
+          "Conditions predisposing to hypotension"
+        ],
+        pregnancy: "Use only if benefit outweighs risk. Neonates exposed during third trimester at risk for extrapyramidal and withdrawal symptoms.",
+        breastfeeding: "Excreted in breast milk. Not recommended."
+      },
+      dosage: {
+        overview: "Requires gradual dose titration to minimize orthostatic hypotension. Immediate and extended-release formulations are NOT interchangeable.",
+        adults: "Schizophrenia: Target dose 150-750mg/day in 2 divided doses (IR) or once daily (XR). Bipolar mania: 400-800mg/day. Bipolar depression: 300mg/day at bedtime",
+        elderly: "Start with lower doses (25-50mg/day) and titrate slowly",
+        administration: [
+          "Immediate-release: Can take with or without food",
+          "Extended-release: Take once daily in evening without food or with light meal (<300 calories)",
+          "Swallow XR tablets whole; do not split, crush, or chew",
+          "IR and XR are not interchangeable - different dosing schedules"
+        ],
+        overdose: "Symptoms include drowsiness, tachycardia, hypotension. Supportive care. Monitor ECG. No specific antidote."
+      },
+      drugInteractions: {
+        interactions: [
+          "CYP3A4 inhibitors (ketoconazole, erythromycin) - increased quetiapine levels, reduce dose",
+          "CYP3A4 inducers (phenytoin, carbamazepine) - decreased quetiapine levels, increase dose",
+          "Antihypertensives - additive hypotension",
+          "CNS depressants - increased sedation",
+          "Medications prolonging QT interval - increased risk of arrhythmias",
+          "Dopamine agonists - antagonism of effects"
+        ],
+        avoidWith: ["Alcohol", "Grapefruit juice"]
+      }
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-805",
+    name: "Viagra (Sildenafil)",
+    description: "PDE5 inhibitor for erectile dysfunction and pulmonary arterial hypertension",
+    price: 39.99,
+    oldPrice: 79.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "mens-health",
+    inStock: true,
+    rating: 4.8,
+    reviews: 3456,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "100mg"],
+    formOptions: ["Tablet"],
+    tags: ["erectile-dysfunction", "ed", "pde5-inhibitor", "mens-health"],
+    variationPrices: { minPrice: 39.99, maxPrice: 89.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Sildenafil inhibits phosphodiesterase type 5 (PDE5), increasing cGMP levels and promoting smooth muscle relaxation and blood flow. First approved ED treatment and revolutionized treatment of erectile dysfunction.",
+        conditions: [
+          "**Erectile Dysfunction** - Inability to achieve or maintain erection sufficient for sexual intercourse",
+          "**Pulmonary Arterial Hypertension** - Only at different dosing (Revatio brand, 20mg three times daily)"
+        ]
+      },
+      sideEffects: {
+        common: ["Headache", "Flushing", "Indigestion", "Nasal congestion", "Visual disturbances (blue tinge)", "Dizziness", "Back pain"],
+        serious: [
+          "Priapism (erection lasting >4 hours) - medical emergency",
+          "Sudden vision loss (NAION)",
+          "Sudden hearing loss",
+          "Severe hypotension",
+          "Heart attack, stroke (rare)",
+          "Allergic reactions"
+        ],
+        notes: "Most side effects are mild and transient. Seek immediate medical attention for priapism or sudden vision/hearing loss."
+      },
+      warnings: {
+        generalWarnings: [
+          "NEVER use with nitrates or NO donors - can cause life-threatening hypotension",
+          "Cardiovascular risks - not recommended if sexual activity inadvisable",
+          "May cause sudden vision loss from NAION",
+          "May cause sudden hearing decrease or loss",
+          "Priapism risk - more common with certain conditions or medications",
+          "Do not use with other PDE5 inhibitors or PAH treatments"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Concurrent use of nitrates in any form",
+          "Concurrent use of riociguat",
+          "Severe hepatic impairment",
+          "Severe hypotension (<90/50 mmHg)",
+          "Recent stroke or MI (within 6 months)",
+          "History of NAION"
+        ],
+        precautions: [
+          "Cardiovascular disease",
+          "Anatomical deformation of penis (Peyronie's disease)",
+          "Conditions predisposing to priapism (sickle cell, leukemia, multiple myeloma)",
+          "Bleeding disorders",
+          "Active peptic ulcer disease",
+          "Retinitis pigmentosa"
+        ],
+        pregnancy: "Not indicated for use in women.",
+        breastfeeding: "Not indicated for use in women."
+      },
+      dosage: {
+        overview: "For ED: Take approximately 1 hour before sexual activity. Maximum once daily. For PAH: Different dosing regimen (20mg TID) - different indication.",
+        adults: "ED: Starting dose 50mg approximately 1 hour before sexual activity. May adjust to 25mg or 100mg based on efficacy and tolerability. Maximum 100mg/dose, once daily",
+        elderly: "Consider starting at 25mg due to increased drug levels",
+        administration: [
+          "Take approximately 30-60 minutes before sexual activity",
+          "Can take with or without food (high-fat meals delay absorption)",
+          "Sexual stimulation required for efficacy",
+          "Do not take more than once per day",
+          "Do not use with grapefruit juice"
+        ],
+        specialPopulations: "Hepatic or severe renal impairment: Start 25mg"
+      },
+      drugInteractions: {
+        interactions: [
+          "Nitrates (nitroglycerin, isosorbide) - CONTRAINDICATED, severe hypotension",
+          "Alpha-blockers - symptomatic hypotension, separate dosing, start with 25mg sildenafil",
+          "CYP3A4 inhibitors (ritonavir, erythromycin, ketoconazole) - increased sildenafil levels, reduce dose",
+          "Antihypertensives - additive blood pressure lowering",
+          "Riociguat - CONTRAINDICATED",
+          "Other PDE5 inhibitors - do not combine"
+        ],
+        avoidWith: ["Nitrates", "Grapefruit juice", "Excessive alcohol"]
+      },
+      faq: [
+        {
+          question: "How long does Viagra last?",
+          answer: "Viagra typically works for 4-5 hours after taking it. Peak effects occur around 1 hour after ingestion. This doesn't mean an erection lasts 4 hours - it means the ability to achieve erections with stimulation lasts that long."
+        },
+        {
+          question: "Does Viagra work the first time?",
+          answer: "About 70% of men respond on first use. If it doesn't work the first time, don't give up - it may take 8 or more attempts to find the right dose and timing. Sexual stimulation is required."
+        },
+        {
+          question: "Can I take Viagra with alcohol?",
+          answer: "Moderate alcohol is okay, but excessive alcohol can reduce Viagra's effectiveness and increase side effects like dizziness and hypotension. Limit alcohol consumption."
+        },
+        {
+          question: "What if I have an erection lasting more than 4 hours?",
+          answer: "Seek immediate medical attention. Priapism (prolonged erection) is a medical emergency that can cause permanent damage if not treated promptly."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-806",
+    name: "Xanax (Alprazolam)",
+    description: "Benzodiazepine for anxiety and panic disorders",
+    price: 34.99,
+    oldPrice: 69.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.6,
+    reviews: 2134,
+    requiresPrescription: true,
+    strengthOptions: ["0.25mg", "0.5mg", "1mg", "2mg"],
+    formOptions: ["Immediate Release Tablet", "Extended Release Tablet", "Orally Disintegrating Tablet"],
+    tags: ["benzodiazepine", "anxiety", "panic-disorder", "controlled-substance"],
+    variationPrices: { minPrice: 34.99, maxPrice: 89.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Alprazolam is a short-acting benzodiazepine that enhances GABA activity in the brain, producing anxiolytic, sedative, and muscle relaxant effects. Schedule IV controlled substance with high abuse potential.",
+        conditions: [
+          "**Generalized Anxiety Disorder (GAD)** - Short-term relief of anxiety symptoms",
+          "**Panic Disorder** - With or without agoraphobia"
+        ]
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Fatigue", "Dizziness", "Lightheadedness", "Memory impairment", "Difficulty concentrating", "Dry mouth", "Constipation"],
+        serious: [
+          "Respiratory depression (especially with opioids)",
+          "Severe allergic reactions",
+          "Seizures (on withdrawal)",
+          "Suicidal thoughts",
+          "Paradoxical reactions (aggression, agitation)",
+          "Cognitive impairment"
+        ],
+        notes: "Risk of physical and psychological dependence increases with dose and duration. Withdrawal can be dangerous."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Concomitant use with opioids may result in profound sedation, respiratory depression, coma, and death",
+          "Abuse, misuse, and addiction can lead to overdose or death",
+          "Physical dependence and withdrawal reactions - can be life-threatening"
+        ],
+        generalWarnings: [
+          "Abrupt discontinuation may cause seizures",
+          "Increased risk of falls and fractures, especially in elderly",
+          "May impair mental and physical abilities needed for driving",
+          "Risk of fetal harm - avoid in pregnancy",
+          "Paradoxical reactions including rage and aggression"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Hypersensitivity to benzodiazepines",
+          "Acute narrow-angle glaucoma",
+          "Concurrent use with ketoconazole or itraconazole"
+        ],
+        precautions: [
+          "History of substance abuse or addiction",
+          "Severe respiratory disease",
+          "Hepatic impairment",
+          "Renal impairment",
+          "Elderly or debilitated patients",
+          "Depression or suicidal ideation"
+        ],
+        pregnancy: "Contraindicated. May cause fetal harm including congenital malformations and neonatal withdrawal.",
+        breastfeeding: "Not recommended. Alprazolam passes into breast milk."
+      },
+      dosage: {
+        overview: "Use lowest effective dose for shortest duration. Requires gradual tapering when discontinuing to avoid withdrawal seizures.",
+        adults: "Anxiety: 0.25-0.5mg three times daily, max 4mg/day. Panic disorder: Start 0.5mg three times daily, increase by ≤1mg/day every 3-4 days, usual range 1-10mg/day",
+        elderly: "Start 0.25mg 2-3 times daily, increase gradually as needed and tolerated",
+        administration: [
+          "Can take with or without food",
+          "Immediate-release: Usually 3-4 times daily",
+          "Extended-release: Once daily, swallow whole",
+          "Orally disintegrating: Place on tongue, allow to dissolve",
+          "NEVER stop abruptly - must taper gradually"
+        ],
+        overdose: "Symptoms include somnolence, confusion, impaired coordination, diminished reflexes, coma. Respiratory depression possible, especially with other CNS depressants. Flumazenil may be used as antidote but can precipitate seizures."
+      },
+      drugInteractions: {
+        interactions: [
+          "Opioids - SEVERE: Respiratory depression, sedation, coma, death. Avoid combination.",
+          "Other CNS depressants (alcohol, sedatives) - additive sedation and respiratory depression",
+          "CYP3A4 inhibitors (ketoconazole, itraconazole, nefazodone) - contraindicated or reduce dose 50%",
+          "CYP3A4 inducers (carbamazepine, rifampin) - decreased alprazolam effects",
+          "Fluoxetine, fluvoxamine - increased alprazolam levels",
+          "Oral contraceptives - decreased clearance of alprazolam"
+        ],
+        avoidWith: ["Alcohol", "Opioids", "Grapefruit juice"]
+      },
+      faq: [
+        {
+          question: "How long does Xanax stay in your system?",
+          answer: "Xanax has a half-life of about 11 hours (range 6-27 hours). It typically takes 2-4 days for the drug to be eliminated from your body, though it can be detected in urine tests for up to a week."
+        },
+        {
+          question: "Is Xanax addictive?",
+          answer: "Yes. Xanax has high potential for physical and psychological dependence. Tolerance develops quickly, leading to dose escalation. Never increase dose or frequency without medical supervision."
+        },
+        {
+          question: "Can I stop taking Xanax suddenly?",
+          answer: "NEVER stop Xanax suddenly. Abrupt discontinuation can cause life-threatening seizures, severe anxiety, tremors, and other dangerous withdrawal symptoms. Always taper slowly under medical supervision."
+        }
+      ]
+    },
+    demoMode: true
   }
 ] as any as Product[];
 

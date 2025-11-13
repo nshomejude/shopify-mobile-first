@@ -7,6 +7,7 @@ import { CartProvider } from "@/contexts/CartContext";
 import { CartSidebar } from "@/components/shop/CartSidebar";
 import Index from "./pages/Index";
 import HomePage2 from "./pages/HomePage2";
+import HomePage3 from "./pages/HomePage3";
 import ShopHorizontal from "./pages/ShopHorizontal";
 import ShopLarge from "./pages/ShopLarge";
 import ShopList from "./pages/ShopList";
@@ -40,6 +41,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/home-2" element={<HomePage2 />} />
+            <Route path="/home-3" element={<HomePage3 />} />
             <Route path="/shop-horizontal" element={<ShopHorizontal />} />
             <Route path="/shop-large" element={<ShopLarge />} />
             <Route path="/shop-list" element={<ShopList />} />

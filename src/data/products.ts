@@ -46457,6 +46457,737 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       ]
     },
     demoMode: true
+  },
+  {
+    id: "rx-829",
+    name: "Prednisone",
+    description: "Corticosteroid for inflammation, autoimmune conditions, and immune suppression",
+    price: 14.99,
+    oldPrice: 29.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "corticosteroids",
+    inStock: true,
+    rating: 4.5,
+    reviews: 4321,
+    requiresPrescription: true,
+    strengthOptions: ["1mg", "2.5mg", "5mg", "10mg", "20mg", "50mg"],
+    formOptions: ["Tablet", "Oral Solution", "Delayed Release Tablet"],
+    tags: ["corticosteroid", "anti-inflammatory", "immunosuppressant", "steroid"],
+    variationPrices: { minPrice: 14.99, maxPrice: 39.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Prednisone is a synthetic corticosteroid that mimics cortisol, a natural hormone. It has potent anti-inflammatory and immunosuppressive effects. Prednisone is a prodrug converted to active prednisolone in the liver. Used for dozens of conditions but comes with significant side effects, especially with long-term use.",
+        conditions: [
+          "**Asthma and COPD Exacerbations** - Short-term for acute flares",
+          "**Allergic Reactions** - Severe allergic reactions, angioedema",
+          "**Autoimmune Diseases** - Rheumatoid arthritis, lupus, inflammatory bowel disease, multiple sclerosis, myasthenia gravis",
+          "**Organ Transplant** - Prevent rejection (with other immunosuppressants)",
+          "**Dermatologic Conditions** - Severe eczema, psoriasis, pemphigus",
+          "**Hematologic Disorders** - Immune thrombocytopenia, hemolytic anemia, leukemia, lymphoma",
+          "**Nephrotic Syndrome** - Minimal change disease",
+          "**Adrenal Insufficiency** - Replacement therapy",
+          "**Bell's Palsy** - May improve recovery",
+          "**Giant Cell Arteritis/Polymyalgia Rheumatica**",
+          "**Acute Gout** - When NSAIDs/colchicine contraindicated"
+        ]
+      },
+      sideEffects: {
+        common: ["Increased appetite and weight gain", "Insomnia", "Mood changes (euphoria, irritability, anxiety)", "Elevated blood sugar", "Fluid retention and swelling", "Increased blood pressure", "Acne", "Easy bruising", "Delayed wound healing"],
+        serious: [
+          "**Adrenal suppression** - Long-term use suppresses natural cortisol production",
+          "**Osteoporosis and fractures** - Bone loss with prolonged use",
+          "**Immunosuppression** - Increased infection risk including opportunistic infections",
+          "**Avascular necrosis** - Bone death, especially hip/shoulder",
+          "**Cataracts and glaucoma** - Eye complications",
+          "**Psychiatric effects** - Psychosis, severe depression, mania",
+          "**GI bleeding and ulcers** - Especially with NSAIDs",
+          "**Hyperglycemia and diabetes** - Can unmask or worsen diabetes",
+          "**Myopathy** - Muscle weakness",
+          "**Growth suppression in children**",
+          "**Cardiovascular effects** - HTN, fluid retention, increased CV risk"
+        ],
+        notes: "Side effects are dose and duration dependent. Short courses (<2 weeks) generally well-tolerated. Chronic use (>3 months) carries significant risks requiring monitoring and prevention strategies. NEVER stop abruptly after >2 weeks use - must taper."
+      },
+      warnings: {
+        generalWarnings: [
+          "**NEVER stop suddenly after prolonged use** - Can cause life-threatening adrenal crisis. Must taper gradually.",
+          "Increases infection risk - avoid live vaccines, monitor for infections",
+          "Long-term use causes bone loss - calcium, vitamin D, bisphosphonates may be needed",
+          "Worsens diabetes control - monitor blood glucose",
+          "Can cause psychiatric symptoms including psychosis",
+          "Increases GI bleed risk, especially with NSAIDs",
+          "May mask signs of infection",
+          "Growth suppression in children - use lowest effective dose",
+          "Requires monitoring: BP, glucose, bone density, eye exams with long-term use"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Systemic fungal infections",
+          "Administration of live vaccines (while on immunosuppressive doses)",
+          "Hypersensitivity to prednisone"
+        ],
+        precautions: [
+          "Active or latent tuberculosis",
+          "Systemic infections",
+          "Diabetes mellitus",
+          "Hypertension",
+          "Heart failure",
+          "Recent MI",
+          "Osteoporosis",
+          "Peptic ulcer disease or GI bleeding history",
+          "Psychiatric disorders",
+          "Cataracts or glaucoma",
+          "Hypothyroidism",
+          "Cirrhosis",
+          "Myasthenia gravis",
+          "Herpes simplex eye infection"
+        ],
+        pregnancy: "Category C/D depending on source. Crosses placenta. Associated with cleft palate (first trimester), intrauterine growth restriction. Use only if benefit outweighs risk. Lowest effective dose. Monitor infant for adrenal insufficiency.",
+        breastfeeding: "Excreted in breast milk. Doses >20mg/day may affect infant. Wait 4 hours after dose before breastfeeding to minimize infant exposure, or consider pumping and discarding. Monitor infant for growth and development."
+      },
+      dosage: {
+        overview: "Highly variable by condition, severity, and patient response. May range from 5mg to 100mg+ daily. Take in morning to mimic natural cortisol rhythm. ALWAYS TAPER after >2 weeks use.",
+        adults: "Varies widely by indication: Asthma/COPD exacerbation: 40-60mg daily for 5-7 days. Rheumatoid arthritis: 5-10mg daily. Lupus flare: 0.5-1 mg/kg/day initially. Allergic reaction: 40-60mg daily for 3-7 days. Adrenal insufficiency: 5-7.5mg daily (replacement). ALWAYS take in morning with food.",
+        children: "Anti-inflammatory/immunosuppressive: 0.05-2 mg/kg/day in divided doses. Asthma exacerbation: 1-2 mg/kg/day (max 60mg) for 3-10 days",
+        administration: [
+          "Take in morning (6-8am) to mimic natural cortisol rhythm and minimize insomnia",
+          "Take with food to reduce GI upset",
+          "Delayed-release: Take at bedtime (designed for RA morning stiffness)",
+          "Swallow tablets whole; do not crush delayed-release",
+          "Take exactly as prescribed",
+          "**CRITICAL: Never stop abruptly after >2 weeks** - follow taper schedule",
+          "Keep 'sick day rules' for stress dosing during illness/surgery if on chronic therapy"
+        ],
+        specialPopulations: "Elderly: Increased risk of side effects. Hepatic impairment: Dose adjustment may not be needed (prednisone is prodrug, but severe impairment affects conversion). Renal impairment: No adjustment needed."
+      },
+      drugInteractions: {
+        interactions: [
+          "NSAIDs (ibuprofen, naproxen) - significantly increased GI bleeding risk",
+          "Anticoagulants (warfarin) - variable effects, monitor INR closely",
+          "Antidiabetic medications - prednisone increases blood glucose, may need dose increase",
+          "CYP3A4 inducers (rifampin, phenytoin, carbamazepine) - decrease prednisone effectiveness",
+          "CYP3A4 inhibitors (ketoconazole, ritonavir) - increase prednisone effects",
+          "Vaccines (live) - contraindicated on immunosuppressive doses; inactivated vaccines may be less effective",
+          "Diuretics (furosemide, thiazides) - increased potassium loss",
+          "Digoxin - increased toxicity risk due to hypokalemia",
+          "Fluoroquinolones (ciprofloxacin, levofloxacin) - increased tendon rupture risk",
+          "Estrogens/oral contraceptives - may increase corticosteroid effects",
+          "Anticholinesterases (neostigmine) - decreased efficacy in myasthenia gravis"
+        ],
+        avoidWith: ["Grapefruit juice - may increase prednisone levels", "Alcohol - increases GI bleeding risk"]
+      },
+      faq: [
+        {
+          question: "Why do I need to taper prednisone?",
+          answer: "Taking prednisone >2 weeks suppresses your body's natural cortisol production by shutting down the hypothalamic-pituitary-adrenal (HPA) axis. Stopping suddenly can cause adrenal crisis (life-threatening cortisol deficiency) with symptoms of severe fatigue, weakness, nausea, vomiting, low blood pressure, shock. Tapering allows your adrenal glands to gradually resume cortisol production. NEVER stop abruptly."
+        },
+        {
+          question: "Will I gain weight on prednisone?",
+          answer: "Yes, weight gain is very common. Prednisone increases appetite dramatically, causes fluid retention, and redistributes fat (moon face, buffalo hump, truncal obesity). Average weight gain is 5-7% of body weight, but varies. Strategies: Control portions, avoid high-sodium foods, exercise regularly, limit calories. Weight usually decreases after stopping but may not return to baseline."
+        },
+        {
+          question: "Can prednisone cause mood changes?",
+          answer: "Yes, psychiatric side effects are common (5-18%). Range from mild (euphoria, irritability, anxiety, insomnia) to severe (mania, psychosis, severe depression). Risk increases with higher doses (>40mg) and pre-existing psychiatric conditions. Usually reversible with dose reduction or discontinuation. Report mood changes immediately - may need dose adjustment or psychiatric medication."
+        },
+        {
+          question: "What should I do about bone loss?",
+          answer: "Prednisone causes bone loss starting within days of use. For anyone taking ≥7.5mg daily for >3 months: (1) Calcium 1200mg + Vitamin D 800-1000 IU daily, (2) Weight-bearing exercise, (3) Fall prevention, (4) Bone density scan (DEXA) at baseline and periodically, (5) Consider bisphosphonate (alendronate/risedronate) especially if high risk. Quit smoking, limit alcohol."
+        },
+        {
+          question: "Why do I need to take it in the morning?",
+          answer: "Natural cortisol levels peak around 8am and decline throughout the day. Taking prednisone in morning (6-8am) mimics this natural rhythm, reducing HPA axis suppression and minimizing insomnia (major side effect if taken later in day). Exception: Delayed-release formulations taken at bedtime specifically for morning stiffness in rheumatoid arthritis."
+        },
+        {
+          question: "Will prednisone raise my blood sugar?",
+          answer: "Yes. Prednisone increases glucose production, decreases insulin sensitivity, causing hyperglycemia even in non-diabetics. Can unmask previously undiagnosed diabetes or worsen existing diabetes. Diabetics may need increased insulin/medication doses. Monitor blood glucose closely, especially if on higher doses or prolonged therapy. Usually improves after stopping."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-830",
+    name: "Naloxone (Narcan)",
+    description: "Opioid antagonist for emergency treatment of opioid overdose",
+    price: 44.99,
+    oldPrice: 89.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "emergency-medications",
+    inStock: true,
+    rating: 5.0,
+    reviews: 1876,
+    requiresPrescription: false,
+    strengthOptions: ["2mg", "4mg"],
+    formOptions: ["Nasal Spray", "Auto-Injector", "Injectable"],
+    tags: ["opioid-overdose", "naloxone", "narcan", "life-saving", "harm-reduction"],
+    variationPrices: { minPrice: 44.99, maxPrice: 89.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Naloxone is a pure opioid antagonist that rapidly reverses opioid overdose by competitively blocking opioid receptors. Life-saving medication that can reverse respiratory depression from heroin, fentanyl, oxycodone, morphine, and other opioids. Available without prescription in most states. Everyone taking opioids or living with someone who does should have naloxone available.",
+        conditions: [
+          "**Opioid Overdose Emergency** - Known or suspected overdose of heroin, fentanyl, prescription opioids",
+          "**Opioid-Induced Respiratory Depression** - Post-operative or accidental over-sedation",
+          "**Prevention/Harm Reduction** - Co-prescribing with opioid therapy for at-risk patients"
+        ]
+      },
+      sideEffects: {
+        common: ["Acute opioid withdrawal symptoms (in opioid-dependent individuals): nausea, vomiting, sweating, increased heart rate, elevated blood pressure, tremors, agitation, body aches, runny nose"],
+        serious: [
+          "Severe acute withdrawal in opioid-dependent individuals",
+          "Pulmonary edema",
+          "Cardiac arrhythmias",
+          "Seizures (rare)",
+          "Hypertension, hypotension",
+          "Ventricular fibrillation"
+        ],
+        notes: "Naloxone itself is very safe - the 'side effects' are actually withdrawal symptoms in opioid-dependent people. Saving a life is worth temporary discomfort. Duration of action (30-90 min) is shorter than many opioids - repeat dosing or medical care often needed."
+      },
+      warnings: {
+        generalWarnings: [
+          "**Duration of action (30-90 minutes) shorter than most opioids** - Overdose can recur when naloxone wears off, especially with long-acting opioids like fentanyl or methadone. Repeat dosing may be needed.",
+          "**ALWAYS call 911** - Naloxone is first aid, not cure. Medical evaluation essential.",
+          "May precipitate acute withdrawal in opioid-dependent individuals - uncomfortable but not life-threatening vs overdose",
+          "Not effective for non-opioid overdoses (benzodiazepines, alcohol, cocaine, meth) but won't cause harm",
+          "Multiple doses often needed for fentanyl due to high potency"
+        ]
+      },
+      beforeTaking: {
+        contraindications: ["Known hypersensitivity to naloxone (extremely rare and overdose treatment takes precedence)"],
+        precautions: [
+          "Opioid dependence - will precipitate withdrawal",
+          "Cardiovascular disease",
+          "Neonates of opioid-dependent mothers"
+        ],
+        pregnancy: "Category C. Use in pregnancy for overdose - mother's life takes precedence. May cause fetal distress or precipitate withdrawal in fetus of opioid-dependent mother.",
+        breastfeeding: "Poorly excreted in breast milk. Safe for emergency use."
+      },
+      dosage: {
+        overview: "Administer immediately if overdose suspected. Repeat every 2-3 minutes if no response. Maximum effect in 2-5 minutes. Duration 30-90 minutes.",
+        adults: "Nasal spray (Narcan): 1 spray (2mg or 4mg) in one nostril. Repeat in other nostril after 2-3 minutes if no response. Auto-injector (Evzio): Follows automated voice instructions. IM/SC injection: 0.4-2mg, repeat every 2-3 minutes if needed. IV: 0.4mg, repeat every 2-3 minutes. High-potency opioids (fentanyl): May require 4-10mg total.",
+        children: "Same as adults for nasal spray. Injectable: 0.01 mg/kg, repeat as needed",
+        administration: [
+          "**CALL 911 IMMEDIATELY** - before or immediately after giving naloxone",
+          "**Check for response** - shake, shout person's name, sternal rub",
+          "**Nasal spray**: Remove from package, tilt head back, insert nozzle in nostril, press plunger firmly",
+          "**Rescue breathing**: Give 1 rescue breath every 5 seconds if person not breathing",
+          "**Recovery position**: Once breathing, place on side",
+          "**Stay with person**: Overdose can recur when naloxone wears off (30-90 min)",
+          "**Repeat dose**: If no response in 2-3 minutes, give second dose in other nostril",
+          "**Never inject nasal spray** - intranasal use only"
+        ],
+        storage: "Room temperature. Do not freeze. Protect from light. Check expiration date regularly."
+      },
+      drugInteractions: {
+        interactions: [
+          "Opioids - naloxone reverses effects of ALL opioids (heroin, fentanyl, oxycodone, morphine, methadone, buprenorphine)"
+        ]
+      },
+      faq: [
+        {
+          question: "How do I know if someone is overdosing?",
+          answer: "Signs: Unresponsive or unconscious, slow/no breathing or gurgling sounds ('death rattle'), blue/gray lips or fingernails, tiny pinpoint pupils, limp body, pale/clammy skin. If unsure, give naloxone anyway - it won't harm if not opioid overdose. Call 911 first or immediately after."
+        },
+        {
+          question: "Can I get in trouble for calling 911 for an overdose?",
+          answer: "Most states have 'Good Samaritan' laws protecting people who call 911 or administer naloxone during overdose from arrest or prosecution for drug possession. Check your state's laws. Saving a life is the priority."
+        },
+        {
+          question: "Will naloxone work on fentanyl?",
+          answer: "Yes, but fentanyl's high potency often requires multiple naloxone doses (2-4 or more). Fentanyl is 50-100x more potent than morphine. Give first dose, call 911, give rescue breaths, repeat naloxone every 2-3 minutes if no response. Stay with person - fentanyl outlasts naloxone."
+        },
+        {
+          question: "What if the person gets angry when they wake up?",
+          answer: "Naloxone causes instant withdrawal in opioid-dependent people - they'll feel sick, irritable, possibly aggressive. Stay calm, explain you saved their life, encourage them to wait for paramedics. Step back if they become violent but don't leave - overdose can recur."
+        },
+        {
+          question: "Do I still need to call 911 if naloxone worked?",
+          answer: "ABSOLUTELY YES. Naloxone wears off in 30-90 minutes but many opioids last longer - overdose can recur. Also need medical evaluation for complications (aspiration, rhabdomyolysis, cardiac issues) and connection to treatment resources. Person may leave before ambulance arrives - try to convince them to stay."
+        },
+        {
+          question: "How do I get naloxone?",
+          answer: "Available without prescription at most pharmacies (naloxone nasal spray/Narcan). Many states have standing orders allowing pharmacists to dispense without individual prescription. Free naloxone distribution at harm reduction programs, health departments. If taking opioids or know someone who does, GET NALOXONE. It saves lives."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-831",
+    name: "Naltrexone",
+    description: "Opioid antagonist for opioid and alcohol dependence treatment",
+    price: 49.99,
+    oldPrice: 99.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "addiction-treatment",
+    inStock: true,
+    rating: 4.6,
+    reviews: 987,
+    requiresPrescription: true,
+    strengthOptions: ["50mg"],
+    formOptions: ["Tablet", "Extended Release Injectable (Vivitrol)"],
+    tags: ["opioid-dependence", "alcohol-dependence", "addiction-treatment", "medication-assisted-treatment"],
+    variationPrices: { minPrice: 49.99, maxPrice: 1299.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Naltrexone is a pure opioid antagonist that blocks opioid receptors, preventing euphoric effects of opioids and reducing alcohol cravings. Unlike methadone or buprenorphine, naltrexone is non-addictive and non-sedating. Patient must be opioid-free 7-14 days before starting to avoid precipitated withdrawal.",
+        conditions: [
+          "**Opioid Dependence** - Prevent relapse after detoxification in motivated, abstinent patients",
+          "**Alcohol Dependence** - Reduce drinking and maintain abstinence",
+          "**Off-label: Impulse Control Disorders** - Pathological gambling, kleptomania, trichotillomania"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea (most common, usually transient)", "Headache", "Dizziness", "Fatigue", "Insomnia", "Anxiety", "Injection site reactions (Vivitrol)"],
+        serious: [
+          "**Hepatotoxicity** - Dose-dependent liver damage at high doses (much higher than therapeutic)",
+          "Precipitated opioid withdrawal (if opioids not fully cleared before starting)",
+          "Depression and suicidal ideation",
+          "Injection site reactions (Vivitrol) - occasionally severe",
+          "Overdose sensitivity - patients may overcome blockade with high opioid doses, risking severe overdose"
+        ],
+        notes: "If patient relapses to opioid use during naltrexone treatment, usual doses won't have effect due to blockade. Attempting to overcome blockade with high doses is extremely dangerous and can be fatal."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Hepatotoxicity - Can cause hepatocellular injury. Baseline and periodic liver function tests recommended. Discontinue if clinically significant liver dysfunction develops."
+        ],
+        generalWarnings: [
+          "**Must be opioid-free 7-14 days** (7 days for short-acting, 10-14 days for long-acting opioids) before starting - naloxone challenge test recommended",
+          "Patients may overcome blockade with high opioid doses - risk of severe/fatal overdose",
+          "After discontinuation, patients are more sensitive to opioids - previous dose may cause overdose",
+          "May worsen depression - monitor for suicidal ideation",
+          "Blocks therapeutic effects of opioid pain medications"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Current opioid dependence or use - will precipitate severe withdrawal",
+          "Current acute opioid withdrawal",
+          "Failed naloxone challenge test",
+          "Acute hepatitis or liver failure"
+        ],
+        precautions: [
+          "History of liver disease",
+          "Renal impairment",
+          "Depression or suicidal ideation",
+          "Planned surgery or procedure requiring opioid analgesia"
+        ],
+        pregnancy: "Category C. Limited data. Use only if benefit outweighs risk. Not first-line for opioid dependence in pregnancy (methadone or buprenorphine preferred).",
+        breastfeeding: "Unknown if excreted in milk. Consider benefits and risks."
+      },
+      dosage: {
+        overview: "Must complete opioid detoxification before starting. Naloxone challenge recommended before first dose. Oral vs injectable depends on adherence concerns and patient preference.",
+        adults: "Oral (Revia): Start 25mg once. If no withdrawal in 1 hour, give additional 25mg. Then 50mg once daily or 100mg Monday/Wednesday, 150mg Friday (flexible dosing for adherence). Alcohol: 50mg once daily. Injectable (Vivitrol): 380mg IM once monthly. Opioid dependence: Must be opioid-free 7-14 days. Alcohol dependence: Can start during drinking.",
+        administration: [
+          "**CRITICAL: Must be opioid-free before starting** - verify with urine drug screen and/or naloxone challenge",
+          "Oral: Can take with or without food. Take with food if nausea occurs.",
+          "Injectable (Vivitrol): Deep IM injection in gluteal muscle by healthcare provider every 4 weeks",
+          "Do not attempt to self-inject Vivitrol",
+          "Carry medical alert card stating naltrexone treatment",
+          "Part of comprehensive treatment program including counseling"
+        ],
+        storage: "Oral: Room temperature. Injectable: Refrigerate, do not freeze."
+      },
+      drugInteractions: {
+        interactions: [
+          "Opioids - naltrexone blocks effects. Do not use together. In emergency requiring opioid analgesia, may need higher doses under close monitoring or regional anesthesia.",
+          "Disulfiram - combined use for alcohol dependence may increase hepatotoxicity risk",
+          "Thioridazine - increased somnolence and lethargy reported"
+        ]
+      },
+      faq: [
+        {
+          question: "What's the difference between naltrexone and methadone/buprenorphine?",
+          answer: "Methadone and buprenorphine are opioid agonists - they activate opioid receptors, preventing withdrawal while reducing cravings. Naltrexone is an antagonist - blocks receptors completely. Advantage: Non-addictive, no abuse potential. Disadvantage: Requires complete detox first (7-14 days opioid-free), high dropout rates. Methadone/buprenorphine can start during active use."
+        },
+        {
+          question: "What happens if I use opioids while on naltrexone?",
+          answer: "You won't feel the effects due to receptor blockade. Dangerous risk: Trying to overcome blockade with high opioid doses can cause life-threatening overdose. After stopping naltrexone, sensitivity to opioids is increased - previous doses may be fatal. Always carry medical alert card."
+        },
+        {
+          question: "How does naltrexone help with alcohol?",
+          answer: "Naltrexone blocks endogenous opioid release that contributes to alcohol's rewarding effects. Reduces cravings, decreases reinforcement from drinking, helps maintain abstinence or reduce heavy drinking days. Not a cure - works best with counseling. Can start during active drinking (unlike for opioids)."
+        },
+        {
+          question: "Can I have surgery on naltrexone?",
+          answer: "Naltrexone blocks pain relief from opioid medications. Inform all healthcare providers you're on naltrexone. For elective surgery, may need to stop 72 hours (oral) or 30 days (Vivitrol) before procedure. Alternative pain management (regional anesthesia, non-opioid analgesics) may be needed. Emergency surgery requires special pain management protocols."
+        },
+        {
+          question: "Vivitrol vs oral naltrexone?",
+          answer: "Vivitrol (once-monthly injection): Better adherence (can't forget daily), no home medication, good for supervised treatment, but expensive ($1000-1500/month), painful injection, can't stop quickly if needed. Oral: Cheaper, flexible dosing, can stop immediately, but requires daily adherence. Efficacy similar if adherence good. Choice depends on individual needs, insurance, adherence concerns."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-832",
+    name: "Methadone",
+    description: "Long-acting opioid agonist for opioid dependence treatment and chronic pain",
+    price: 19.99,
+    oldPrice: 39.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "addiction-treatment",
+    inStock: true,
+    rating: 4.7,
+    reviews: 1543,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg", "40mg"],
+    formOptions: ["Tablet", "Oral Solution", "Injectable"],
+    tags: ["opioid-dependence", "medication-assisted-treatment", "chronic-pain", "long-acting-opioid"],
+    variationPrices: { minPrice: 19.99, maxPrice: 59.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Methadone is a synthetic long-acting opioid agonist with unique properties: suppresses opioid withdrawal, reduces cravings, blocks euphoria from other opioids. Gold-standard for opioid use disorder treatment with decades of evidence. Also used for chronic pain. For addiction treatment, dispensed through specialized Opioid Treatment Programs (OTPs/methadone clinics) under strict federal regulations.",
+        conditions: [
+          "**Opioid Dependence** - Medication-assisted treatment, dispensed through licensed methadone clinics only",
+          "**Chronic Pain** - Severe pain requiring around-the-clock opioid treatment (can be prescribed from regular pharmacies for pain)",
+          "**Detoxification** - Short-term use to manage opioid withdrawal"
+        ]
+      },
+      sideEffects: {
+        common: ["Sedation/drowsiness (especially initially)", "Constipation (very common, may be severe)", "Sweating", "Weight gain", "Decreased libido", "Difficulty urinating", "Swelling", "Dental problems"],
+        serious: [
+          "**Respiratory depression** - Can be fatal, especially when combined with benzodiazepines, alcohol, other sedatives",
+          "**QT interval prolongation** - Risk of fatal arrhythmia (torsades de pointes), especially at high doses",
+          "**Overdose** - Very long half-life (24-36 hours) means accumulation risk during dose titration",
+          "Hormonal effects (low testosterone, menstrual irregularities)",
+          "Physical dependence and withdrawal if discontinued"
+        ],
+        notes: "Methadone accumulates due to long half-life. Full steady-state takes 5-7 days. Deaths most common during first 2 weeks of treatment when titrating dose. Constipation is severe and requires aggressive management (stool softeners, laxatives, increased fluids)."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Life-threatening respiratory depression - highest risk during initiation, dose increases, or when combined with benzodiazepines or CNS depressants",
+          "QT interval prolongation and serious arrhythmia (torsades de pointes) reported",
+          "Accidental ingestion, especially by children, can be fatal",
+          "For opioid dependence treatment: Must be dispensed through certified Opioid Treatment Programs only"
+        ],
+        generalWarnings: [
+          "Very long half-life causes accumulation - deaths peak during first 2 weeks of treatment",
+          "Combining with benzodiazepines dramatically increases overdose risk",
+          "QT prolongation risk - baseline and annual ECGs recommended, especially if >100mg/day",
+          "Physical dependence develops - never stop abruptly",
+          "Impairs driving and operating machinery",
+          "May cause severe withdrawal in neonates if used during pregnancy"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Respiratory depression or acute/severe asthma without monitoring",
+          "Known QT prolongation",
+          "Hypersensitivity to methadone"
+        ],
+        precautions: [
+          "Cardiac disease or risk factors for QT prolongation",
+          "Concurrent benzodiazepine or sedative use",
+          "Respiratory disease (COPD, sleep apnea)",
+          "Hepatic or renal impairment",
+          "History of arrhythmias",
+          "Elderly patients",
+          "Electrolyte abnormalities (hypokalemia, hypomagnesemia)"
+        ],
+        pregnancy: "Methadone maintenance is standard of care for opioid dependence during pregnancy (safer than continued illicit use or withdrawal). Prevents maternal withdrawal which can cause fetal distress/death. Neonatal opioid withdrawal syndrome (NOWS) expected but manageable. Do not discontinue abruptly in pregnancy.",
+        breastfeeding: "Present in breast milk in small amounts. Benefits of methadone maintenance and breastfeeding generally outweigh risks. Breastfeeding may reduce severity of neonatal withdrawal. Avoid if mother uses illicit drugs or high-dose benzodiazepines."
+      },
+      dosage: {
+        overview: "For addiction: Slow titration essential. Start low (20-30mg), increase gradually by 5-10mg every 5-7 days. Typical maintenance 80-120mg/day. For pain: Different dosing, more frequent intervals needed.",
+        adults: "Opioid dependence (OTP only): Initial 20-30mg single dose. Additional 5-10mg after 2-4 hours if withdrawal symptoms. Increase by 5-10mg every 5-7 days based on withdrawal symptoms and cravings. Typical maintenance 80-120mg once daily. Some need up to 180mg+. Chronic pain: 2.5-10mg every 8-12 hours initially, adjust carefully. Dosing intervals differ from addiction treatment.",
+        administration: [
+          "**For addiction**: Daily observed dosing at certified methadone clinic (take-homes earned with stable compliance)",
+          "Oral solution: Mix with water or juice, drink immediately",
+          "Take same time daily",
+          "Never share medication",
+          "Store securely away from children - one dose can be fatal to a child",
+          "Do not combine with benzodiazepines, alcohol, or other sedatives"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "**Benzodiazepines - SEVERE risk of respiratory depression and death. Avoid combination. If both needed, use lowest doses under close monitoring.**",
+          "Alcohol and other CNS depressants - increased sedation and respiratory depression",
+          "CYP3A4, 2B6, 2D6 inducers (rifampin, phenytoin, carbamazepine) - decrease methadone levels, may precipitate withdrawal",
+          "CYP3A4, 2B6 inhibitors (fluconazole, fluoxetine, fluvoxamine) - increase methadone levels, risk of overdose",
+          "SSRIs, particularly fluvoxamine and fluoxetine - increase methadone levels significantly",
+          "Medications prolonging QT interval - additive risk of arrhythmias",
+          "Antiretrovirals (efavirenz, nevirapine) - decrease methadone levels, may cause withdrawal",
+          "Naltrexone or naloxone - precipitates severe withdrawal"
+        ]
+      },
+      faq: [
+        {
+          question: "How does methadone help with opioid addiction?",
+          answer: "Methadone is a full opioid agonist that: (1) Prevents withdrawal symptoms, (2) Reduces/eliminates cravings, (3) Blocks euphoria from other opioids (due to tolerance at adequate doses), (4) Stabilizes brain chemistry. At proper doses (80-120mg+), patients function normally without sedation or euphoria. Allows focus on recovery, employment, relationships. Most effective medication for opioid use disorder."
+        },
+        {
+          question: "Will I be on methadone forever?",
+          answer: "Duration varies. Many stay on methadone long-term (years) or indefinitely - this is appropriate and evidence-based, like insulin for diabetes. Methadone maintenance dramatically reduces overdose deaths, improves quality of life. Some successfully taper after several years of stability. Premature tapering increases relapse and overdose risk. It's not 'trading one addiction for another' - it's medical treatment."
+        },
+        {
+          question: "Why do I have to go to the clinic every day?",
+          answer: "Federal regulations require observed daily dosing initially to ensure safety and diversion prevention. After demonstrating stability (negative drug screens, program compliance, usually 90 days), you can earn take-home doses (1-13 per week for stable patients, up to 27 for exceptional circumstances). This structure provides safety, accountability, and support."
+        },
+        {
+          question: "Can I take methadone with Xanax or other benzos?",
+          answer: "EXTREMELY DANGEROUS combination. Benzodiazepines with methadone dramatically increase overdose risk - majority of methadone-related deaths involve benzos. If you take both, providers should: use lowest possible doses, increase monitoring, consider alternatives. Never obtain benzos from street. Many clinics require tapering benzos."
+        },
+        {
+          question: "What about pregnancy?",
+          answer: "Methadone maintenance is STANDARD OF CARE for opioid dependence during pregnancy. Much safer than continued illicit use or withdrawal (which can cause miscarriage, fetal death). Methadone doesn't cause birth defects. Babies will experience neonatal withdrawal (NOWS) requiring treatment, but this is manageable. Never stop methadone abruptly in pregnancy. Breastfeeding is encouraged."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-833",
+    name: "Buprenorphine (Suboxone)",
+    description: "Partial opioid agonist for opioid dependence treatment",
+    price: 89.99,
+    oldPrice: 179.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "addiction-treatment",
+    inStock: true,
+    rating: 4.8,
+    reviews: 2109,
+    requiresPrescription: true,
+    strengthOptions: ["2mg/0.5mg", "4mg/1mg", "8mg/2mg", "12mg/3mg"],
+    formOptions: ["Sublingual Film", "Sublingual Tablet", "Implant", "Extended Release Injection"],
+    tags: ["opioid-dependence", "medication-assisted-treatment", "suboxone", "partial-agonist"],
+    variationPrices: { minPrice: 89.99, maxPrice: 1599.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Buprenorphine is a partial opioid agonist (activates receptors less than full agonists like heroin/methadone) typically combined with naloxone to prevent injection misuse (Suboxone). Has ceiling effect on respiratory depression making it safer than methadone. Can be prescribed in office-based settings by certified providers. Highly effective for opioid use disorder treatment.",
+        conditions: [
+          "**Opioid Dependence** - Medication-assisted treatment (MAT), office-based treatment",
+          "**Chronic Pain** - Pure buprenorphine products (Butrans patch, Belbuca film) without naloxone"
+        ]
+      },
+      sideEffects: {
+        common: ["Headache", "Nausea", "Vomiting", "Constipation", "Sweating", "Insomnia", "Oral numbness/irritation (sublingual)", "Dizziness"],
+        serious: [
+          "**Respiratory depression** - Lower risk than full agonists due to ceiling effect, but still possible especially with benzodiazepines/sedatives",
+          "**Precipitated withdrawal** - If taken too soon after full agonist opioid use",
+          "**Hepatotoxicity** - Mostly in patients with underlying liver disease",
+          "QT prolongation (high doses)",
+          "Physical dependence and withdrawal if discontinued",
+          "Adrenal insufficiency (rare)",
+          "Neonatal opioid withdrawal syndrome"
+        ],
+        notes: "Ceiling effect on respiratory depression makes buprenorphine safer than methadone or full agonist opioids. However, combining with benzodiazepines can override this safety."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Concomitant use with benzodiazepines or CNS depressants can result in profound sedation, respiratory depression, coma, and death",
+          "Buprenorphine can be abused similar to other opioids",
+          "Sublingual films/tablets must not be injected - can cause serious withdrawal symptoms (naloxone component)"
+        ],
+        generalWarnings: [
+          "Can precipitate withdrawal if taken too soon after full agonist opioid (must wait until moderate withdrawal present)",
+          "Hepatotoxicity - monitor liver function, especially with hepatitis or liver disease",
+          "Risk of respiratory depression, especially with benzodiazepines, alcohol, or CNS depressants",
+          "Physical dependence develops - discontinuation causes withdrawal",
+          "May impair mental/physical abilities - caution with driving",
+          "Risk of diversion/misuse"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Hypersensitivity to buprenorphine or naloxone"
+        ],
+        precautions: [
+          "Hepatic impairment",
+          "Respiratory disease",
+          "Head injury or increased intracranial pressure",
+          "Biliary tract dysfunction",
+          "Adrenal insufficiency",
+          "Prostatic hypertrophy or urethral stricture",
+          "Concurrent benzodiazepine or sedative use",
+          "Elderly patients"
+        ],
+        pregnancy: "Buprenorphine maintenance is acceptable for opioid dependence during pregnancy (methadone preferred but buprenorphine reasonable alternative). Untreated opioid use disorder much more dangerous. Neonatal opioid withdrawal syndrome expected but severity less than methadone. Don't stop abruptly.",
+        breastfeeding: "Low levels in breast milk. Benefits of continued treatment and breastfeeding generally outweigh risks. May reduce severity of neonatal withdrawal. American Academy of Pediatrics considers compatible with breastfeeding."
+      },
+      dosage: {
+        overview: "Induction must occur during opioid withdrawal (COWS ≥8-12). Starting too soon precipitates severe withdrawal. Typical maintenance 12-16mg/day (some need 24mg). Always combine with counseling.",
+        adults: "Induction Day 1: Wait for moderate withdrawal. Give 2-4mg, reassess after 60-90 min. Additional 2-4mg if tolerated, up to 8mg day 1. Day 2: 16mg typical. Maintenance: 12-16mg once daily (range 4-24mg). Film/tablet placed under tongue until dissolved (5-10 min). Don't swallow. Higher doses often more effective (16-24mg reduces relapse vs 8mg).",
+        administration: [
+          "**CRITICAL: Must be in withdrawal before first dose** - usually 12-24 hours after short-acting opioids (heroin, oxycodone), 24-48 hours after methadone. Use COWS scale.",
+          "Sublingual film/tablet: Place under tongue (or inside cheek), let dissolve 5-10 minutes. Don't swallow, eat, drink, or talk.",
+          "Multiple films/tablets: Place all simultaneously for better absorption",
+          "Take once daily at same time",
+          "Store securely - keep away from children",
+          "Never inject - will precipitate severe withdrawal"
+        ],
+        storage: "Room temperature in original packaging. Keep in secure location."
+      },
+      drugInteractions: {
+        interactions: [
+          "**Benzodiazepines and sedatives - SIGNIFICANT respiratory depression risk. Avoid combination or use extreme caution with close monitoring.**",
+          "CYP3A4 inhibitors (ketoconazole, ritonavir, macrolides) - increase buprenorphine levels",
+          "CYP3A4 inducers (rifampin, carbamazepine, phenytoin) - decrease buprenorphine levels, may precipitate withdrawal",
+          "Other CNS depressants (alcohol, opioids, muscle relaxants) - additive sedation",
+          "Naltrexone - will displace buprenorphine, precipitate withdrawal",
+          "MAOIs - may increase effects"
+        ]
+      },
+      faq: [
+        {
+          question: "What's the difference between Suboxone and methadone?",
+          answer: "Both treat opioid dependence but differ: Suboxone (buprenorphine/naloxone): Partial agonist, safer (ceiling effect on respiratory depression), office-based prescribing, take-home from day 1, less sedating, easier to taper. Methadone: Full agonist, requires daily clinic visits initially, more effective for severe dependence/fentanyl. Both are highly effective - choice depends on individual needs, severity, access."
+        },
+        {
+          question: "Why do I need to wait until withdrawal to start?",
+          answer: "Buprenorphine is a partial agonist with high receptor binding affinity. If you take it while full agonist opioids occupy receptors, buprenorphine displaces them but provides less activation, causing precipitated withdrawal (sudden, severe withdrawal). Must wait until natural withdrawal begins (COWS score 8-12): sweating, dilated pupils, goosebumps, cramps. Timing: 12-24 hours after short-acting opioids, 24-48+ hours after methadone, possibly longer for fentanyl."
+        },
+        {
+          question: "Can I just stop taking Suboxone?",
+          answer: "Don't stop abruptly - causes opioid withdrawal and high relapse risk. When ready (stable for 1-2+ years), taper very slowly over weeks to months. Slower tapers more successful. Many stay on maintenance long-term - this is appropriate, reduces overdose risk dramatically. Discuss tapering timeline with provider. Relapse rates high after discontinuation."
+        },
+        {
+          question: "Will Suboxone show up on a drug test?",
+          answer: "Standard urine drug screens (5-panel, 10-panel) DON'T detect buprenorphine - different chemical structure. Requires specific buprenorphine test. If concerned about employment drug testing, standard pre-employment screens won't detect it. Medical Review Officers should approve buprenorphine if you have valid prescription."
+        },
+        {
+          question: "Why is the naloxone in Suboxone if I take it sublingually?",
+          answer: "Naloxone has very poor sublingual absorption (~2% bioavailability) - doesn't contribute to therapeutic effect. It's there to deter injection abuse: If Suboxone is injected, naloxone precipitates withdrawal in opioid-dependent individuals (naloxone has higher IV bioavailability). Pure buprenorphine products exist but Suboxone formulation reduces diversion/misuse risk."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-834",
+    name: "Diazepam (Valium)",
+    description: "Long-acting benzodiazepine for anxiety, muscle spasms, seizures, alcohol withdrawal",
+    price: 19.99,
+    oldPrice: 39.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.6,
+    reviews: 2765,
+    requiresPrescription: true,
+    strengthOptions: ["2mg", "5mg", "10mg"],
+    formOptions: ["Tablet", "Oral Solution", "Injectable", "Rectal Gel"],
+    tags: ["benzodiazepine", "anxiety", "muscle-relaxant", "seizure", "controlled-substance"],
+    variationPrices: { minPrice: 19.99, maxPrice: 59.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Diazepam is a long-acting benzodiazepine (half-life 20-80 hours including active metabolites) that enhances GABA activity. Versatile medication used for anxiety, muscle spasms, seizures, alcohol withdrawal, procedural sedation. Longer duration than alprazolam (Xanax) makes it smoother with less rebound but accumulates with repeated dosing. Schedule IV controlled substance with abuse and dependence potential.",
+        conditions: [
+          "**Anxiety Disorders** - Short-term relief of anxiety symptoms",
+          "**Muscle Spasms** - From injury, inflammation, spasticity",
+          "**Seizures** - Adjunctive therapy or acute seizure management (status epilepticus)",
+          "**Alcohol Withdrawal** - Prevent/treat withdrawal seizures and delirium tremens",
+          "**Procedural Sedation** - Pre-procedure anxiolysis",
+          "**Muscle Spasticity** - Cerebral palsy, spinal cord injury, multiple sclerosis"
+        ]
+      },
+      sideEffects: {
+        common: ["Drowsiness", "Fatigue", "Muscle weakness", "Ataxia (unsteady gait)", "Dizziness", "Confusion", "Memory impairment", "Dry mouth"],
+        serious: [
+          "**Respiratory depression** - Especially with opioids or alcohol",
+          "Physical and psychological dependence",
+          "Severe withdrawal (seizures, delirium tremens) if stopped abruptly",
+          "Paradoxical reactions (aggression, agitation, rage) - more common in elderly and children",
+          "Falls and fractures, especially elderly",
+          "Cognitive impairment",
+          "Depression and suicidal ideation"
+        ],
+        notes: "Long half-life causes accumulation with repeated dosing, especially in elderly. Elderly are more sensitive to CNS effects. Physical dependence can develop in weeks; withdrawal can be life-threatening."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Concomitant use of benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, and death",
+          "Abuse, misuse, and addiction - can lead to overdose or death, especially combined with opioids",
+          "Physical dependence and withdrawal reactions - Abrupt discontinuation or rapid taper may precipitate acute withdrawal reactions, which can be life-threatening"
+        ],
+        generalWarnings: [
+          "Never stop abruptly after chronic use - taper gradually to avoid seizures and severe withdrawal",
+          "Increased risk of falls and fractures in elderly",
+          "Impairs driving and cognitive function",
+          "Paradoxical reactions possible (anxiety, agitation, rage)",
+          "Risk of fetal harm in pregnancy",
+          "Increased risk of dementia with chronic use in elderly"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Acute narrow-angle glaucoma",
+          "Severe respiratory insufficiency",
+          "Severe hepatic insufficiency",
+          "Sleep apnea syndrome",
+          "Myasthenia gravis",
+          "Hypersensitivity to benzodiazepines"
+        ],
+        precautions: [
+          "History of substance abuse or addiction",
+          "Depression or suicidal ideation",
+          "Respiratory disease (COPD, sleep apnea)",
+          "Hepatic or renal impairment",
+          "Elderly or debilitated patients (increased sensitivity)",
+          "Concurrent use with opioids or CNS depressants"
+        ],
+        pregnancy: "Contraindicated. Increases risk of congenital malformations (cleft lip/palate) especially first trimester. Chronic use causes neonatal dependence and withdrawal ('floppy baby syndrome'). Use only if no alternatives.",
+        breastfeeding: "Excreted in breast milk. Can cause sedation, poor feeding, weight loss in infant. Not recommended. If used, monitor infant closely."
+      },
+      dosage: {
+        overview: "Dosing varies by indication. Long half-life allows once or twice daily dosing for chronic use. Accumulation occurs - elderly need lower doses.",
+        adults: "Anxiety: 2-10mg 2-4 times daily. Elderly: 2-2.5mg 1-2 times daily initially. Muscle spasm: 2-10mg 3-4 times daily. Alcohol withdrawal: Initial 10mg 3-4 times in first 24 hours, reduce to 5mg 3-4 times daily, then taper. Status epilepticus: IV 5-10mg, may repeat.",
+        children: "≥6 months: 1-2.5mg 3-4 times daily initially",
+        administration: [
+          "Take with or without food",
+          "Can take with food if stomach upset",
+          "Long half-life allows less frequent dosing than short-acting benzos",
+          "Do not drink alcohol",
+          "Do not drive until you know how it affects you",
+          "NEVER stop abruptly - must taper gradually under medical supervision",
+          "Rectal gel: For seizure clusters at home"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "**Opioids - SEVERE: Life-threatening respiratory depression. Avoid combination. If unavoidable, use lowest doses with close monitoring.**",
+          "Alcohol - additive CNS depression, increased respiratory depression risk",
+          "Other CNS depressants (barbiturates, sedatives, muscle relaxants) - additive effects",
+          "CYP3A4 and 2C19 inhibitors (fluoxetine, fluvoxamine, omeprazole, cimetidine) - increase diazepam levels",
+          "CYP3A4 inducers (rifampin, carbamazepine, St. John's wort) - decrease diazepam effects",
+          "Digoxin - may increase digoxin levels"
+        ],
+        avoidWith: ["Alcohol", "Opioids", "Grapefruit juice"]
+      },
+      faq: [
+        {
+          question: "What's the difference between Valium and Xanax?",
+          answer: "Both are benzodiazepines but differ in onset and duration. Xanax (alprazolam): Fast-acting (30 min), short duration (4-6 hours), more euphoriant, higher abuse potential, more withdrawal issues. Valium (diazepam): Slower onset (30-60 min), very long duration (20-80 hours including metabolites), smoother effect, accumulates with repeated dosing, easier to taper. Xanax better for acute panic. Valium better for sustained anxiety, muscle spasms, alcohol withdrawal."
+        },
+        {
+          question: "Is Valium addictive?",
+          answer: "Yes. Physical and psychological dependence can develop within weeks of regular use. Tolerance develops requiring higher doses. Abrupt discontinuation after chronic use causes potentially life-threatening withdrawal including seizures and delirium. Not everyone becomes addicted, but risk increases with dose, duration, history of substance abuse. Use lowest effective dose for shortest duration."
+        },
+        {
+          question: "Can I stop taking Valium suddenly?",
+          answer: "NEVER stop abruptly after regular use (>2-4 weeks). Benzodiazepine withdrawal can be life-threatening, causing seizures, severe anxiety, tremors, hallucinations, delirium tremens. Must taper slowly under medical supervision, often over weeks to months depending on dose and duration. Valium's long half-life makes it easier to taper than short-acting benzos."
+        },
+        {
+          question: "Why do I feel groggy the next morning?",
+          answer: "Valium has a very long half-life (20-80 hours including active metabolites), meaning it accumulates in your body with repeated dosing. You may feel sedated or 'hungover' the next day, especially initially or at higher doses. This accumulation is more pronounced in elderly. If persistent, discuss dose adjustment or timing with your doctor."
+        },
+        {
+          question: "Can I drink alcohol on Valium?",
+          answer: "NO. Combining Valium with alcohol is extremely dangerous - both are CNS depressants that work synergistically. Can cause profound sedation, respiratory depression, loss of consciousness, coma, death. Even small amounts of alcohol can be hazardous. Avoid alcohol completely while taking benzodiazepines."
+        }
+      ]
+    },
+    demoMode: true
   }
 ] as any as Product[];
 

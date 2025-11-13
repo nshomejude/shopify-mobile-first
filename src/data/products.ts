@@ -44202,6 +44202,1181 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       ]
     },
     demoMode: true
+  },
+  {
+    id: "rx-807",
+    name: "Ozempic (Semaglutide)",
+    description: "GLP-1 receptor agonist for type 2 diabetes with cardiovascular benefits",
+    price: 189.99,
+    oldPrice: 299.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "diabetes",
+    inStock: true,
+    rating: 4.8,
+    reviews: 2876,
+    requiresPrescription: true,
+    strengthOptions: ["0.25mg", "0.5mg", "1mg", "2mg"],
+    formOptions: ["Injectable Pen"],
+    tags: ["diabetes", "glp1", "weight-loss", "cardiovascular"],
+    variationPrices: { minPrice: 189.99, maxPrice: 299.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Semaglutide is a glucagon-like peptide-1 (GLP-1) receptor agonist that improves glycemic control by stimulating insulin secretion, suppressing glucagon, and slowing gastric emptying. Also reduces cardiovascular risk and causes significant weight loss.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - Improve glycemic control as adjunct to diet and exercise",
+          "**Cardiovascular Risk Reduction** - Reduce risk of major adverse cardiovascular events (CV death, non-fatal MI, non-fatal stroke) in adults with type 2 diabetes and established cardiovascular disease"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea (very common, usually improves)", "Vomiting", "Diarrhea", "Abdominal pain", "Constipation", "Decreased appetite", "Injection site reactions"],
+        serious: [
+          "Pancreatitis",
+          "Diabetic retinopathy complications",
+          "Acute kidney injury",
+          "Hypoglycemia (when combined with insulin or sulfonylureas)",
+          "Gallbladder disease",
+          "Thyroid C-cell tumors (animal studies)"
+        ],
+        notes: "GI side effects are most common initially and typically improve with continued use. Nausea affects 15-20% of patients."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Risk of thyroid C-cell tumors - contraindicated in patients with personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)"
+        ],
+        generalWarnings: [
+          "Risk of acute pancreatitis - discontinue if suspected",
+          "May worsen diabetic retinopathy",
+          "Acute kidney injury reported, especially with dehydration from GI effects",
+          "Increased heart rate - monitor in patients with cardiac disease",
+          "Risk of hypoglycemia when combined with insulin or sulfonylureas"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Personal or family history of medullary thyroid carcinoma",
+          "Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)",
+          "Hypersensitivity to semaglutide"
+        ],
+        precautions: [
+          "History of pancreatitis",
+          "Diabetic retinopathy",
+          "Renal impairment",
+          "Gastroparesis or severe GI disease",
+          "History of gallbladder disease"
+        ],
+        pregnancy: "Limited data. Use only if benefit outweighs risk. Discontinue at least 2 months before planned pregnancy.",
+        breastfeeding: "Unknown if excreted in breast milk. Weigh benefits and risks."
+      },
+      dosage: {
+        overview: "Requires gradual dose escalation to minimize GI side effects. Administer once weekly on the same day each week.",
+        adults: "Start 0.25mg SC once weekly for 4 weeks, then increase to 0.5mg once weekly. May increase to 1mg after at least 4 weeks, then to 2mg if needed for additional glycemic control",
+        administration: [
+          "Inject subcutaneously in abdomen, thigh, or upper arm once weekly",
+          "Can be given any time of day, with or without meals",
+          "Use on same day each week; can change day if needed (minimum 2 days between doses)",
+          "If dose missed and next dose is >2 days away, take missed dose; if <2 days, skip",
+          "Rotate injection sites"
+        ],
+        storage: "Refrigerate unopened pens. After first use, may store at room temperature or refrigerated for up to 56 days. Protect from light."
+      },
+      drugInteractions: {
+        interactions: [
+          "Insulin and insulin secretagogues (sulfonylureas) - increased hypoglycemia risk, may need dose reduction",
+          "Oral medications - may delay absorption due to slowed gastric emptying",
+          "Levothyroxine - monitor TSH levels"
+        ]
+      },
+      faq: [
+        {
+          question: "What's the difference between Ozempic and Wegovy?",
+          answer: "Both contain semaglutide but at different doses and approved for different uses. Ozempic (up to 2mg) is approved for type 2 diabetes. Wegovy (up to 2.4mg) is approved specifically for chronic weight management. Same medication, different indication and dose."
+        },
+        {
+          question: "How much weight do people lose on Ozempic?",
+          answer: "In clinical trials for diabetes, patients lost an average of 8-14 pounds (4-6 kg) depending on dose. Individual results vary. It's FDA-approved for diabetes, not weight loss (Wegovy is the weight loss indication)."
+        },
+        {
+          question: "When does nausea go away?",
+          answer: "Nausea is most common when starting and after dose increases. It typically improves within a few weeks as your body adjusts. Eating smaller meals and avoiding fatty foods can help."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-808",
+    name: "Mounjaro (Tirzepatide)",
+    description: "Dual GIP/GLP-1 receptor agonist for type 2 diabetes with superior weight loss",
+    price: 219.99,
+    oldPrice: 349.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "diabetes",
+    inStock: true,
+    rating: 4.9,
+    reviews: 1987,
+    requiresPrescription: true,
+    strengthOptions: ["2.5mg", "5mg", "7.5mg", "10mg", "12.5mg", "15mg"],
+    formOptions: ["Injectable Pen"],
+    tags: ["diabetes", "glp1", "gip", "weight-loss", "dual-agonist"],
+    variationPrices: { minPrice: 219.99, maxPrice: 349.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Tirzepatide is the first dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 receptor agonist. This dual mechanism provides superior glycemic control and weight loss compared to GLP-1 agonists alone.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - Improve glycemic control as adjunct to diet and exercise",
+          "**Chronic Weight Management** - Under brand name Zepbound (separate indication)"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea", "Diarrhea", "Decreased appetite", "Vomiting", "Constipation", "Dyspepsia", "Abdominal pain", "Injection site reactions"],
+        serious: [
+          "Pancreatitis",
+          "Hypoglycemia (with insulin or sulfonylureas)",
+          "Acute kidney injury",
+          "Severe gastrointestinal disease",
+          "Gallbladder disease",
+          "Diabetic retinopathy complications",
+          "Thyroid C-cell tumors (animal studies)"
+        ],
+        notes: "GI side effects typically diminish over time. Weight loss averages 15-20% of body weight, superior to other diabetes medications."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Risk of thyroid C-cell tumors based on animal studies. Contraindicated in patients with personal or family history of medullary thyroid carcinoma or MEN 2"
+        ],
+        generalWarnings: [
+          "Risk of acute pancreatitis",
+          "Acute gallbladder disease",
+          "Acute kidney injury",
+          "Severe gastrointestinal disease including gastroparesis",
+          "Risk of hypoglycemia when used with insulin or sulfonylureas",
+          "May increase heart rate"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Personal or family history of medullary thyroid carcinoma",
+          "Multiple Endocrine Neoplasia syndrome type 2",
+          "History of serious hypersensitivity to tirzepatide"
+        ],
+        precautions: [
+          "History of pancreatitis",
+          "Renal impairment",
+          "Gastroparesis or severe GI disease",
+          "Diabetic retinopathy",
+          "History of gallbladder disease"
+        ],
+        pregnancy: "Limited data. Discontinue at least 2 months before planned pregnancy.",
+        breastfeeding: "Unknown if present in breast milk. Consider benefits and risks."
+      },
+      dosage: {
+        overview: "Start low and titrate gradually every 4 weeks to minimize GI side effects. Once weekly subcutaneous injection.",
+        adults: "Start 2.5mg SC once weekly for 4 weeks (initiation dose), then increase to 5mg once weekly. May increase by 2.5mg increments after at least 4 weeks to max 15mg weekly based on glycemic response and tolerability",
+        administration: [
+          "Inject subcutaneously in abdomen, thigh, or upper arm once weekly",
+          "Administer on same day each week, any time of day",
+          "Can take with or without food",
+          "If dose missed <4 days, take as soon as possible; if ≥4 days, skip and resume schedule",
+          "Rotate injection sites to reduce injection site reactions"
+        ],
+        storage: "Refrigerate. Protect from light. May store at room temperature up to 30°C for up to 21 days."
+      },
+      drugInteractions: {
+        interactions: [
+          "Insulin and sulfonylureas - increased hypoglycemia risk, consider dose reduction",
+          "Oral medications - may affect absorption due to delayed gastric emptying",
+          "Hormonal contraceptives - use non-oral or add barrier method for 4 weeks after initiation and each dose escalation"
+        ]
+      },
+      faq: [
+        {
+          question: "Is Mounjaro better than Ozempic?",
+          answer: "Clinical trials show Mounjaro (tirzepatide) produces greater A1C reduction (up to 2.4% vs 2%) and more weight loss (15-20% vs 10-15%) compared to Ozempic (semaglutide). However, individual response varies. Discuss with your doctor."
+        },
+        {
+          question: "How much weight can I lose on Mounjaro?",
+          answer: "In clinical trials, patients lost an average of 15-22% of body weight depending on the dose (12-15mg showed greatest effects). Individual results vary based on diet, exercise, and other factors."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-809",
+    name: "Zepbound (Tirzepatide)",
+    description: "Dual GIP/GLP-1 agonist specifically approved for chronic weight management",
+    price: 229.99,
+    oldPrice: 369.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "weight-management",
+    inStock: true,
+    rating: 4.9,
+    reviews: 1456,
+    requiresPrescription: true,
+    strengthOptions: ["2.5mg", "5mg", "7.5mg", "10mg", "12.5mg", "15mg"],
+    formOptions: ["Injectable Pen"],
+    tags: ["weight-loss", "obesity", "glp1", "gip", "chronic-weight-management"],
+    variationPrices: { minPrice: 229.99, maxPrice: 369.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Zepbound (tirzepatide) is indicated for chronic weight management in adults with obesity (BMI ≥30) or overweight (BMI ≥27) with at least one weight-related comorbidity, as adjunct to reduced-calorie diet and increased physical activity.",
+        conditions: [
+          "**Obesity** - BMI ≥30 kg/m²",
+          "**Overweight with Comorbidities** - BMI ≥27 kg/m² with at least one weight-related condition (hypertension, dyslipidemia, type 2 diabetes, obstructive sleep apnea, cardiovascular disease)"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea (29-33%)", "Diarrhea", "Vomiting", "Constipation", "Abdominal pain", "Dyspepsia", "Decreased appetite", "Fatigue", "Injection site reactions"],
+        serious: [
+          "Pancreatitis",
+          "Gallbladder disease (cholelithiasis, cholecystitis)",
+          "Acute kidney injury",
+          "Severe gastrointestinal disease",
+          "Hypoglycemia (in patients with type 2 diabetes on other glucose-lowering medications)",
+          "Heart rate increase",
+          "Suicidal behavior and ideation",
+          "Thyroid C-cell tumors (animal data)"
+        ],
+        notes: "Most GI side effects are transient and improve with continued use. Average weight loss of 15-22.5% demonstrated in clinical trials."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Risk of thyroid C-cell tumors - contraindicated in patients with personal or family history of MTC or MEN 2"
+        ],
+        generalWarnings: [
+          "Risk of acute pancreatitis - permanent discontinuation if suspected",
+          "Acute gallbladder disease - evaluate if symptoms occur",
+          "Risk of acute kidney injury - monitor renal function in patients with renal impairment or severe GI events",
+          "May increase heart rate - monitor in patients at risk",
+          "Suicidal behavior and ideation - monitor for depression or suicidal thoughts",
+          "Not studied in combination with other weight loss products"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Personal or family history of medullary thyroid carcinoma",
+          "Multiple Endocrine Neoplasia syndrome type 2",
+          "Serious hypersensitivity to tirzepatide"
+        ],
+        precautions: [
+          "History of pancreatitis",
+          "History of gallbladder disease",
+          "Renal impairment",
+          "Severe gastrointestinal disease",
+          "History of diabetic retinopathy (if diabetic)",
+          "History of suicidal attempts or active suicidal ideation",
+          "Concurrent diabetes medications (risk of hypoglycemia)"
+        ],
+        pregnancy: "Discontinue at least 2 months before planned pregnancy. Weight loss offers no benefit during pregnancy and may cause fetal harm.",
+        breastfeeding: "Unknown if present in breast milk. Consider developmental and health benefits of breastfeeding along with mother's clinical need."
+      },
+      dosage: {
+        overview: "Gradual dose escalation every 4 weeks minimizes GI side effects. Maximum dose 15mg weekly for weight management.",
+        adults: "Start 2.5mg SC once weekly for 4 weeks, increase to 5mg once weekly for at least 4 weeks. May increase in 2.5mg increments after at least 4 weeks to maintenance doses of 10mg or 15mg weekly based on response and tolerability. Maximum 15mg weekly.",
+        administration: [
+          "Inject subcutaneously in abdomen, thigh, or upper arm once weekly",
+          "Same day each week, any time, with or without meals",
+          "If dose missed <4 days, take as soon as possible; if ≥4 days until next dose, skip",
+          "Rotate injection sites",
+          "Do not split, share, or reuse pens"
+        ],
+        storage: "Refrigerate unopened pens 2-8°C. May store at room temperature ≤30°C for up to 21 days. Protect from light."
+      },
+      drugInteractions: {
+        interactions: [
+          "Insulin and insulin secretagogues - increased hypoglycemia risk in diabetic patients",
+          "Oral medications - delayed absorption possible due to gastric emptying delay",
+          "Oral hormonal contraceptives - may reduce efficacy, use alternative or additional contraceptive for 4 weeks after initiation and each dose increase"
+        ]
+      },
+      faq: [
+        {
+          question: "What's the difference between Zepbound and Mounjaro?",
+          answer: "Both contain the same medication (tirzepatide) and same doses. Mounjaro is FDA-approved for type 2 diabetes. Zepbound is FDA-approved specifically for chronic weight management. Same drug, different approved uses."
+        },
+        {
+          question: "How long does it take to see results?",
+          answer: "Most patients notice appetite suppression within the first week. Significant weight loss typically begins after reaching higher maintenance doses (10-15mg), usually after 2-3 months. Maximal weight loss achieved around 9-12 months."
+        },
+        {
+          question: "Do I need to stay on it forever?",
+          answer: "Zepbound is intended for chronic weight management. Clinical trials show that discontinuation typically results in weight regain. Long-term use requires ongoing discussion with your healthcare provider about benefits and risks."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-810",
+    name: "Jardiance (Empagliflozin)",
+    description: "SGLT2 inhibitor for type 2 diabetes with cardiovascular and renal benefits",
+    price: 149.99,
+    oldPrice: 249.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "diabetes",
+    inStock: true,
+    rating: 4.7,
+    reviews: 2345,
+    requiresPrescription: true,
+    strengthOptions: ["10mg", "25mg"],
+    formOptions: ["Tablet"],
+    tags: ["diabetes", "sglt2-inhibitor", "cardiovascular", "heart-failure", "kidney-protection"],
+    variationPrices: { minPrice: 149.99, maxPrice: 249.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Empagliflozin is an SGLT2 inhibitor that lowers blood glucose by blocking glucose reabsorption in the kidneys, causing glucose excretion in urine. Also provides significant cardiovascular and kidney protection benefits independent of glucose lowering.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - Improve glycemic control with diet and exercise",
+          "**Cardiovascular Death Risk Reduction** - In adults with type 2 diabetes and established cardiovascular disease",
+          "**Heart Failure** - Reduce risk of CV death and HF hospitalization in adults with heart failure",
+          "**Chronic Kidney Disease** - Reduce risk of sustained eGFR decline, end-stage kidney disease, CV death, and hospitalization for HF in adults with CKD at risk of progression"
+        ]
+      },
+      sideEffects: {
+        common: ["Urinary tract infections", "Genital yeast infections (more common in women)", "Increased urination", "Thirst", "Hypotension", "Elevated cholesterol (LDL)"],
+        serious: [
+          "Ketoacidosis (even with normal blood sugar)",
+          "Acute kidney injury",
+          "Serious urinary tract infections (urosepsis, pyelonephritis)",
+          "Hypoglycemia (when combined with insulin or sulfonylureas)",
+          "Necrotizing fasciitis of the perineum (Fournier's gangrene) - rare but serious",
+          "Hypersensitivity reactions",
+          "Lower limb amputation (increased risk)",
+          "Bone fractures"
+        ],
+        notes: "Genital infections occur in 3-4% of patients. Maintaining good hygiene can reduce risk."
+      },
+      warnings: {
+        generalWarnings: [
+          "Risk of ketoacidosis - can occur even with normal glucose levels. Stop before surgery.",
+          "Acute kidney injury - monitor renal function",
+          "Serious UTIs including urosepsis and pyelonephritis",
+          "Increased risk of lower limb amputation - monitor feet",
+          "Fournier's gangrene (necrotizing fasciitis) - seek immediate care for perineal pain/tenderness",
+          "Hypoglycemia risk when combined with insulin or sulfonylureas",
+          "Hypotension risk in elderly, renal impairment, or on diuretics"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Dialysis or severe renal impairment (eGFR <30 mL/min/1.73 m²) for type 2 diabetes indication",
+          "Hypersensitivity to empagliflozin",
+          "Type 1 diabetes (not approved)"
+        ],
+        precautions: [
+          "Renal impairment (monitor kidney function)",
+          "History of diabetic ketoacidosis",
+          "History of pancreatitis",
+          "Volume depletion risk (elderly, on diuretics, low BP)",
+          "Chronic genital/urinary infections",
+          "History of amputation or peripheral vascular disease",
+          "Low-carb/ketogenic diet"
+        ],
+        pregnancy: "Not recommended during second and third trimesters. May cause fetal harm. Discontinue when pregnancy detected.",
+        breastfeeding: "Unknown if excreted in breast milk. Not recommended during breastfeeding."
+      },
+      dosage: {
+        overview: "Take once daily in the morning. Dose not adjusted based on renal function for heart failure and CKD indications.",
+        adults: "Type 2 diabetes: 10mg once daily, may increase to 25mg if needed and eGFR adequate. Heart failure or CKD: 10mg once daily",
+        administration: [
+          "Take once daily in the morning",
+          "Can take with or without food",
+          "Swallow tablet whole",
+          "Stay well-hydrated"
+        ],
+        missedDose: "Take as soon as remembered on the same day. Do not double dose next day."
+      },
+      drugInteractions: {
+        interactions: [
+          "Insulin and insulin secretagogues (sulfonylureas) - increased hypoglycemia risk, may need dose reduction",
+          "Diuretics - increased risk of volume depletion and hypotension",
+          "Lithium - monitor lithium levels, may increase elimination",
+          "Digoxin - monitor levels initially"
+        ]
+      },
+      faq: [
+        {
+          question: "Why am I getting yeast infections?",
+          answer: "SGLT2 inhibitors cause glucose in urine, which can promote yeast growth. Women are more affected. Good genital hygiene and staying dry can help. If frequent, discuss with your doctor - antifungal treatment available."
+        },
+        {
+          question: "Does Jardiance help with weight loss?",
+          answer: "Yes, patients typically lose 2-3 kg (4-7 pounds) due to calorie loss from glucose in urine. However, it's not approved specifically for weight loss."
+        },
+        {
+          question: "Can I take Jardiance if I have kidney disease?",
+          answer: "Yes! Unlike older guidance, Jardiance is now approved for chronic kidney disease even with reduced kidney function. It actually protects the kidneys from further damage. Your doctor will determine if it's appropriate based on your specific situation."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-811",
+    name: "Farxiga (Dapagliflozin)",
+    description: "SGLT2 inhibitor for diabetes, heart failure, and chronic kidney disease",
+    price: 139.99,
+    oldPrice: 239.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "diabetes",
+    inStock: true,
+    rating: 4.6,
+    reviews: 2012,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg"],
+    formOptions: ["Tablet"],
+    tags: ["diabetes", "sglt2-inhibitor", "heart-failure", "kidney-protection"],
+    variationPrices: { minPrice: 139.99, maxPrice: 239.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Dapagliflozin is an SGLT2 inhibitor with multiple approved indications. It works by blocking glucose reabsorption in kidneys, but also provides cardiovascular and renal protective effects through mechanisms beyond glucose lowering.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - Improve glycemic control",
+          "**Heart Failure with Reduced Ejection Fraction** - Reduce CV death and HF hospitalization",
+          "**Heart Failure with Preserved Ejection Fraction** - Reduce CV death and HF hospitalization",
+          "**Chronic Kidney Disease** - Reduce risk of sustained eGFR decline, end-stage kidney disease, CV death, and HF hospitalization"
+        ]
+      },
+      sideEffects: {
+        common: ["Genital yeast infections", "Urinary tract infections", "Increased urination", "Back pain", "Dyslipidemia (increased LDL)"],
+        serious: [
+          "Ketoacidosis (including euglycemic DKA)",
+          "Acute kidney injury",
+          "Serious urinary tract infections",
+          "Fournier's gangrene (rare)",
+          "Hypoglycemia (with insulin/sulfonylureas)",
+          "Volume depletion/hypotension"
+        ]
+      },
+      warnings: {
+        generalWarnings: [
+          "Ketoacidosis risk - can occur with normal glucose. Discontinue before surgery.",
+          "Increased genital infections",
+          "Acute kidney injury - monitor renal function",
+          "Volume depletion in elderly or those on diuretics",
+          "Fournier's gangrene - rare but life-threatening",
+          "Lower limb amputation increased risk"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Dialysis",
+          "Hypersensitivity to dapagliflozin"
+        ],
+        precautions: [
+          "Renal impairment",
+          "Volume depletion",
+          "History of genital infections",
+          "Elderly patients",
+          "Hypotension risk"
+        ],
+        pregnancy: "Not recommended in second and third trimesters. May cause fetal harm.",
+        breastfeeding: "Not recommended. Unknown if excreted in milk."
+      },
+      dosage: {
+        overview: "Once daily dosing. Same dose for diabetes, HF, and CKD indications.",
+        adults: "Type 2 diabetes: Start 5mg daily, may increase to 10mg. Heart failure or CKD: 10mg once daily",
+        administration: [
+          "Take once daily in morning",
+          "With or without food",
+          "Stay well-hydrated"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Insulin/sulfonylureas - increased hypoglycemia risk",
+          "Diuretics - increased dehydration risk"
+        ]
+      }
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-812",
+    name: "Januvia (Sitagliptin)",
+    description: "DPP-4 inhibitor for type 2 diabetes with low hypoglycemia risk",
+    price: 129.99,
+    oldPrice: 219.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "diabetes",
+    inStock: true,
+    rating: 4.5,
+    reviews: 1876,
+    requiresPrescription: true,
+    strengthOptions: ["25mg", "50mg", "100mg"],
+    formOptions: ["Tablet"],
+    tags: ["diabetes", "dpp4-inhibitor", "oral-diabetes-medication"],
+    variationPrices: { minPrice: 129.99, maxPrice: 219.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Sitagliptin is a DPP-4 inhibitor that increases insulin release and decreases glucagon levels in a glucose-dependent manner. Low risk of hypoglycemia when used alone. Well-tolerated with minimal side effects.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - Improve glycemic control as monotherapy or combination therapy with metformin, sulfonylurea, TZD, or insulin"
+        ]
+      },
+      sideEffects: {
+        common: ["Upper respiratory tract infection", "Nasopharyngitis", "Headache", "Hypoglycemia (when combined with sulfonylurea or insulin)"],
+        serious: [
+          "Pancreatitis (acute and chronic)",
+          "Heart failure",
+          "Severe joint pain (arthralgia)",
+          "Bullous pemphigoid (rare autoimmune skin condition)",
+          "Hypersensitivity reactions (anaphylaxis, angioedema, rash)",
+          "Acute kidney injury"
+        ],
+        notes: "Generally well-tolerated. Side effect profile similar to placebo when used as monotherapy."
+      },
+      warnings: {
+        generalWarnings: [
+          "Acute pancreatitis - discontinue if suspected",
+          "Heart failure risk - monitor for signs/symptoms",
+          "Severe and disabling arthralgia - may occur years after starting",
+          "Bullous pemphigoid - discontinue if confirmed",
+          "Hypoglycemia when combined with insulin or sulfonylureas",
+          "Renal impairment requires dose adjustment"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "History of serious hypersensitivity to sitagliptin (anaphylaxis, angioedema)",
+          "Type 1 diabetes",
+          "Diabetic ketoacidosis"
+        ],
+        precautions: [
+          "History of pancreatitis",
+          "Renal impairment (dose adjustment needed)",
+          "Heart failure",
+          "History of angioedema with other DPP-4 inhibitors"
+        ],
+        pregnancy: "Limited data. Use only if clearly needed.",
+        breastfeeding: "Unknown if excreted in milk. Weigh benefits and risks."
+      },
+      dosage: {
+        overview: "Once daily dosing. Dose adjustment required for renal impairment.",
+        adults: "100mg once daily. Renal impairment: eGFR 30-45: 50mg daily; eGFR <30 or dialysis: 25mg daily",
+        administration: [
+          "Take once daily with or without food",
+          "Can be taken any time of day",
+          "Swallow tablets whole"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Digoxin - slight increase in digoxin levels, monitor",
+          "Insulin and sulfonylureas - increased hypoglycemia risk"
+        ]
+      },
+      faq: [
+        {
+          question: "Does Januvia cause weight gain?",
+          answer: "No, Januvia is weight neutral. Unlike sulfonylureas or insulin, it doesn't typically cause weight gain, making it a good option for overweight patients with diabetes."
+        },
+        {
+          question: "Can Januvia cause low blood sugar?",
+          answer: "Januvia alone rarely causes hypoglycemia because it works in a glucose-dependent manner. However, when combined with insulin or sulfonylureas, hypoglycemia risk increases and dose adjustments may be needed."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-813",
+    name: "Humira (Adalimumab)",
+    description: "TNF-alpha blocker for autoimmune conditions including rheumatoid arthritis, Crohn's disease, psoriasis",
+    price: 1299.99,
+    oldPrice: 1899.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "specialty-biologics",
+    inStock: true,
+    rating: 4.7,
+    reviews: 3456,
+    requiresPrescription: true,
+    strengthOptions: ["40mg/0.8mL", "20mg/0.4mL", "10mg/0.2mL"],
+    formOptions: ["Prefilled Syringe", "Pen Injector"],
+    tags: ["biologic", "tnf-blocker", "autoimmune", "rheumatoid-arthritis", "crohns", "psoriasis"],
+    variationPrices: { minPrice: 1299.99, maxPrice: 1899.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Adalimumab is a fully human monoclonal antibody that binds to TNF-alpha, blocking its inflammatory effects. One of the most prescribed biologics worldwide with multiple approved indications across various autoimmune conditions.",
+        conditions: [
+          "**Rheumatoid Arthritis** - Moderate to severe active RA in adults",
+          "**Psoriatic Arthritis** - Active PsA in adults",
+          "**Ankylosing Spondylitis** - Active AS in adults",
+          "**Crohn's Disease** - Moderate to severe CD in adults and children ≥6 years",
+          "**Ulcerative Colitis** - Moderate to severe UC in adults",
+          "**Plaque Psoriasis** - Moderate to severe chronic plaque psoriasis in adults",
+          "**Hidradenitis Suppurativa** - Moderate to severe HS in adults and adolescents ≥12 years",
+          "**Uveitis** - Non-infectious intermediate, posterior, and panuveitis in adults and children ≥2 years"
+        ]
+      },
+      sideEffects: {
+        common: ["Injection site reactions", "Upper respiratory infections", "Headache", "Rash", "Nausea", "Elevated liver enzymes"],
+        serious: [
+          "Serious infections (TB, fungal, bacterial, viral)",
+          "Malignancies including lymphoma",
+          "Heart failure worsening",
+          "Demyelinating disease",
+          "Lupus-like syndrome",
+          "Hepatitis B reactivation",
+          "Cytopenias (low blood counts)",
+          "Severe allergic reactions"
+        ],
+        notes: "Most common side effect is injection site reactions (redness, itching, pain). Serious infections are the primary safety concern."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Serious infections leading to hospitalization or death, including tuberculosis, bacterial sepsis, invasive fungal infections, and infections due to opportunistic pathogens. Test for latent TB before starting and monitor for TB throughout treatment.",
+          "Lymphoma and other malignancies, some fatal, have been reported in children and adolescents treated with TNF blockers including Humira"
+        ],
+        generalWarnings: [
+          "Test for latent TB before initiating - treat if positive",
+          "Do not start during active infection",
+          "Monitor for signs of infection during and after treatment",
+          "Increased risk of lymphoma and other cancers",
+          "May cause or worsen heart failure",
+          "Can cause demyelinating disease",
+          "Hepatitis B virus reactivation - test before starting",
+          "May cause lupus-like syndrome",
+          "Can cause blood disorders"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Active tuberculosis or other severe infections",
+          "Moderate to severe heart failure (NYHA Class III/IV)"
+        ],
+        precautions: [
+          "Chronic or recurrent infections",
+          "History of latent or active TB",
+          "Lived in TB or fungal infection endemic areas",
+          "Heart failure",
+          "Demyelinating disorders",
+          "Malignancy history",
+          "Hepatitis B infection",
+          "Scheduled for surgery",
+          "Elderly patients (infection risk)"
+        ],
+        pregnancy: "Use only if clearly needed. Monoclonal antibodies cross placenta especially in third trimester. Avoid live vaccines in exposed infants for 6 months after birth.",
+        breastfeeding: "Present in breast milk at low levels. Weigh benefits and risks."
+      },
+      dosage: {
+        overview: "Subcutaneous injection typically every 2 weeks. Dose and frequency vary by indication. Some indications may use loading dose.",
+        adults: "RA, PsA, AS: 40mg SC every 2 weeks. Crohn's: Initial 160mg, then 80mg 2 weeks later, then 40mg every 2 weeks starting week 4. Psoriasis: Initial 80mg, then 40mg every other week starting 1 week after initial dose",
+        administration: [
+          "Subcutaneous injection in thigh or abdomen",
+          "Rotate injection sites",
+          "Allow to reach room temperature before injecting (15-30 minutes)",
+          "Do not shake",
+          "Inspect for particles or discoloration before use",
+          "May self-inject after proper training"
+        ],
+        storage: "Refrigerate 2-8°C. Do not freeze. Protect from light. May store at room temperature up to 25°C for up to 14 days."
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - do not administer concurrently",
+          "Anakinra - increased infection risk, not recommended",
+          "Abatacept - increased infection risk, not recommended",
+          "Other biologics - generally avoid combination"
+        ]
+      },
+      faq: [
+        {
+          question: "How long before Humira starts working?",
+          answer: "Response time varies by condition. Some patients notice improvement in 2-4 weeks, but full effect may take 3-6 months. For inflammatory bowel disease, improvement may take 8-12 weeks. Continue treatment as prescribed even if immediate results aren't apparent."
+        },
+        {
+          question: "Do I need to stay on Humira forever?",
+          answer: "Duration depends on your condition and response. Many patients require long-term treatment to maintain disease control. Stopping may lead to disease flare. Always discuss treatment duration and discontinuation with your rheumatologist or gastroenterologist."
+        },
+        {
+          question: "Can I drink alcohol on Humira?",
+          answer: "Moderate alcohol consumption is generally acceptable, but both Humira and alcohol can affect the liver. If you're also taking methotrexate (common with Humira for RA), limit alcohol due to increased liver risk. Discuss with your doctor."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-814",
+    name: "Keytruda (Pembrolizumab)",
+    description: "PD-1 immune checkpoint inhibitor for various cancers",
+    price: 3499.99,
+    oldPrice: 4999.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "specialty-oncology",
+    inStock: true,
+    rating: 4.8,
+    reviews: 987,
+    requiresPrescription: true,
+    strengthOptions: ["100mg/4mL"],
+    formOptions: ["IV Infusion"],
+    tags: ["immunotherapy", "cancer", "pd1-inhibitor", "oncology"],
+    variationPrices: { minPrice: 3499.99, maxPrice: 4999.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Pembrolizumab is a humanized monoclonal antibody that blocks PD-1, allowing the immune system to attack cancer cells. First PD-1 inhibitor approved and now has over 20 FDA-approved cancer indications.",
+        conditions: [
+          "**Melanoma** - Advanced or metastatic",
+          "**Non-Small Cell Lung Cancer** - First-line metastatic NSCLC with high PD-L1 expression",
+          "**Head and Neck Squamous Cell Carcinoma**",
+          "**Classical Hodgkin Lymphoma**",
+          "**Primary Mediastinal Large B-Cell Lymphoma**",
+          "**Urothelial Carcinoma**",
+          "**Microsatellite Instability-High (MSI-H) or Mismatch Repair Deficient (dMMR) Cancers**",
+          "**Gastric Cancer**",
+          "**Cervical Cancer**",
+          "**Hepatocellular Carcinoma**",
+          "**Merkel Cell Carcinoma**",
+          "**Renal Cell Carcinoma**",
+          "**Endometrial Carcinoma**",
+          "**Tumor Mutational Burden-High (TMB-H) Cancers**",
+          "**Triple-Negative Breast Cancer**"
+        ]
+      },
+      sideEffects: {
+        common: ["Fatigue", "Musculoskeletal pain", "Decreased appetite", "Pruritus (itching)", "Diarrhea", "Nausea", "Rash", "Fever", "Cough", "Dyspnea", "Constipation"],
+        serious: [
+          "Immune-mediated pneumonitis (lung inflammation)",
+          "Immune-mediated colitis",
+          "Immune-mediated hepatitis",
+          "Immune-mediated endocrinopathies (thyroid, pituitary, adrenal disorders, diabetes)",
+          "Immune-mediated nephritis and renal dysfunction",
+          "Immune-mediated dermatologic reactions (Stevens-Johnson syndrome, toxic epidermal necrolysis)",
+          "Severe infusion reactions",
+          "Myocarditis (heart inflammation)",
+          "Neurologic toxicities (Guillain-Barré, myasthenia gravis, encephalitis)"
+        ],
+        notes: "Immune-related adverse reactions can occur during treatment or after discontinuation and may be severe or fatal. Require immediate intervention with corticosteroids and treatment interruption or discontinuation."
+      },
+      warnings: {
+        generalWarnings: [
+          "Can cause severe immune-mediated adverse reactions affecting any organ system",
+          "May cause fatal immune-mediated pneumonitis - monitor for signs/symptoms",
+          "May cause severe or fatal immune-mediated hepatitis",
+          "Can cause immune-mediated colitis or diarrhea",
+          "May cause endocrine disorders including thyroid dysfunction, adrenal insufficiency, hypophysitis, type 1 diabetes",
+          "Risk of severe infusion reactions",
+          "Immune-mediated adverse reactions require immunosuppression with corticosteroids",
+          "Can cause rejection in solid organ transplant recipients",
+          "May cause complications in allogeneic HSCT recipients"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [],
+        precautions: [
+          "History of severe immune-mediated reactions to other immunotherapy",
+          "Active autoimmune disease",
+          "Solid organ transplant recipient",
+          "Allogeneic HSCT recipient",
+          "Interstitial lung disease",
+          "Active or history of tuberculosis"
+        ],
+        pregnancy: "Can cause fetal harm. Females of reproductive potential should use effective contraception during and for 4 months after last dose.",
+        breastfeeding: "Not recommended during treatment and for 4 months after last dose."
+      },
+      dosage: {
+        overview: "IV infusion every 3 or 6 weeks depending on indication and dosing regimen. Dose modifications based on toxicity.",
+        adults: "200mg every 3 weeks OR 400mg every 6 weeks. Continue until disease progression, unacceptable toxicity, or up to 24 months in some indications.",
+        administration: [
+          "Administer as IV infusion over 30 minutes",
+          "Do not administer as IV push or bolus",
+          "Dilute in normal saline or 5% dextrose",
+          "Monitor for infusion reactions during and after infusion"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Systemic corticosteroids or immunosuppressants before starting may interfere with activity - avoid unless needed for immune-mediated reactions"
+        ]
+      },
+      faq: [
+        {
+          question: "How long do I need to take Keytruda?",
+          answer: "Treatment duration depends on cancer type and response. Many patients continue until disease progression or unacceptable toxicity. Some indications have defined durations (e.g., up to 24 months for certain cancers). Your oncologist will determine the appropriate duration."
+        },
+        {
+          question: "What are immune-related side effects?",
+          answer: "Because Keytruda activates your immune system to fight cancer, it can sometimes cause your immune system to attack healthy organs. This can affect lungs, colon, liver, kidneys, hormone glands, or other organs. Report any new symptoms immediately as these require prompt treatment."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-815",
+    name: "Opdivo (Nivolumab)",
+    description: "PD-1 immune checkpoint inhibitor for cancer immunotherapy",
+    price: 3299.99,
+    oldPrice: 4799.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "specialty-oncology",
+    inStock: true,
+    rating: 4.7,
+    reviews: 834,
+    requiresPrescription: true,
+    strengthOptions: ["40mg/4mL", "100mg/10mL", "240mg/24mL"],
+    formOptions: ["IV Infusion"],
+    tags: ["immunotherapy", "cancer", "pd1-inhibitor", "oncology"],
+    variationPrices: { minPrice: 3299.99, maxPrice: 4799.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Nivolumab is a PD-1 blocking antibody that enhances T-cell immune responses against tumors. Often used alone or in combination with ipilimumab for various cancers.",
+        conditions: [
+          "**Melanoma** - Unresectable or metastatic",
+          "**Non-Small Cell Lung Cancer** - Metastatic NSCLC",
+          "**Renal Cell Carcinoma** - Advanced RCC",
+          "**Classical Hodgkin Lymphoma**",
+          "**Head and Neck Squamous Cell Carcinoma**",
+          "**Urothelial Carcinoma**",
+          "**Colorectal Cancer** - MSI-H or dMMR metastatic",
+          "**Hepatocellular Carcinoma**",
+          "**Esophageal Squamous Cell Carcinoma**",
+          "**Gastric Cancer, Gastroesophageal Junction Cancer, Esophageal Adenocarcinoma**",
+          "**Malignant Pleural Mesothelioma**"
+        ]
+      },
+      sideEffects: {
+        common: ["Fatigue", "Rash", "Musculoskeletal pain", "Diarrhea", "Nausea", "Pruritus", "Decreased appetite", "Cough", "Dyspnea"],
+        serious: [
+          "Immune-mediated pneumonitis",
+          "Immune-mediated colitis",
+          "Immune-mediated hepatitis",
+          "Immune-mediated endocrinopathies",
+          "Immune-mediated nephritis",
+          "Immune-mediated skin reactions",
+          "Infusion-related reactions",
+          "Immune-mediated encephalitis"
+        ],
+        notes: "Similar immune-related adverse event profile to other PD-1 inhibitors. Higher rates of immune-mediated toxicities when combined with ipilimumab."
+      },
+      warnings: {
+        generalWarnings: [
+          "Can cause severe and fatal immune-mediated adverse reactions",
+          "Monitor for pneumonitis, colitis, hepatitis, endocrinopathies, nephritis, and dermatologic reactions",
+          "May cause organ transplant rejection",
+          "Higher toxicity risk with combination therapy"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [],
+        precautions: [
+          "Autoimmune disease",
+          "Solid organ transplant",
+          "Allogeneic HSCT",
+          "Interstitial lung disease"
+        ],
+        pregnancy: "Can cause fetal harm. Use contraception during and for 5 months after treatment.",
+        breastfeeding: "Discontinue breastfeeding during and for 5 months after treatment."
+      },
+      dosage: {
+        overview: "Dosing varies by indication - 240mg every 2 weeks, 480mg every 4 weeks, or weight-based dosing for some indications.",
+        adults: "Monotherapy: 240mg every 2 weeks or 480mg every 4 weeks. Combination therapy dosing varies by regimen.",
+        administration: [
+          "IV infusion over 30 or 60 minutes depending on formulation",
+          "Monitor during and after infusion",
+          "Continue until disease progression or unacceptable toxicity"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Systemic corticosteroids or immunosuppressants may interfere - avoid before starting unless medically necessary"
+        ]
+      }
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-816",
+    name: "Stelara (Ustekinumab)",
+    description: "IL-12/IL-23 inhibitor for psoriasis, psoriatic arthritis, Crohn's disease, and ulcerative colitis",
+    price: 1899.99,
+    oldPrice: 2699.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "specialty-biologics",
+    inStock: true,
+    rating: 4.8,
+    reviews: 2134,
+    requiresPrescription: true,
+    strengthOptions: ["45mg/0.5mL", "90mg/mL", "130mg/26mL"],
+    formOptions: ["Prefilled Syringe", "IV Infusion"],
+    tags: ["biologic", "il12-il23-inhibitor", "psoriasis", "crohns", "ulcerative-colitis"],
+    variationPrices: { minPrice: 1899.99, maxPrice: 2699.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Ustekinumab is a human monoclonal antibody that binds to the p40 subunit shared by IL-12 and IL-23, blocking their inflammatory effects. Effective for both skin and gastrointestinal autoimmune conditions.",
+        conditions: [
+          "**Plaque Psoriasis** - Moderate to severe in adults and children ≥6 years",
+          "**Psoriatic Arthritis** - Active PsA in adults",
+          "**Crohn's Disease** - Moderately to severely active in adults",
+          "**Ulcerative Colitis** - Moderately to severely active in adults"
+        ]
+      },
+      sideEffects: {
+        common: ["Nasopharyngitis", "Upper respiratory tract infection", "Headache", "Fatigue", "Injection site reactions", "Diarrhea", "Back pain"],
+        serious: [
+          "Serious infections (including TB)",
+          "Malignancies",
+          "Hypersensitivity reactions (anaphylaxis, angioedema)",
+          "Reversible posterior leukoencephalopathy syndrome (RPLS)",
+          "Non-melanoma skin cancer"
+        ],
+        notes: "Generally well-tolerated with lower infection rates compared to TNF inhibitors. Dosing frequency (every 12 weeks for maintenance in psoriasis) is advantageous."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased risk of infections including TB. Test for latent TB before initiating and monitor for active TB during treatment."
+        ],
+        generalWarnings: [
+          "Do not administer during active infection",
+          "Evaluate for TB before treatment",
+          "Increased risk of malignancy",
+          "May cause RPLS",
+          "Hypersensitivity reactions possible"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Clinically significant hypersensitivity to ustekinumab"
+        ],
+        precautions: [
+          "Active or latent TB",
+          "Chronic or recurrent infection",
+          "History of malignancy",
+          "Receiving or recently received immunosuppressive therapy",
+          "Scheduled to receive live vaccine"
+        ],
+        pregnancy: "Monoclonal antibodies cross placenta. Use only if clearly needed.",
+        breastfeeding: "Unknown if present in milk. Consider benefits and risks."
+      },
+      dosage: {
+        overview: "SC injection for psoriasis/PsA. IV induction then SC maintenance for IBD. Dosing based on weight for psoriasis.",
+        adults: "Psoriasis ≤100kg: 45mg at weeks 0, 4, then every 12 weeks. >100kg: 90mg same schedule. Crohn's/UC: Weight-based IV induction, then 90mg SC every 8 weeks",
+        administration: [
+          "Subcutaneous injection in thigh, abdomen, or upper arm",
+          "Rotate injection sites",
+          "For IBD: Initial IV infusion based on weight, followed by SC maintenance",
+          "Allow to reach room temperature before injection"
+        ],
+        storage: "Refrigerate. Do not freeze or shake. Protect from light."
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - do not administer concurrently",
+          "CYP450 substrates - may alter levels upon initiation or discontinuation, monitor"
+        ]
+      },
+      faq: [
+        {
+          question: "How long does Stelara take to work?",
+          answer: "For psoriasis, improvement typically begins by week 4 with continued improvement through week 28. For IBD, clinical response may occur as early as week 3, with remission rates increasing through week 44. Full effect may take 3-6 months."
+        },
+        {
+          question: "Why is dosing every 12 weeks for psoriasis?",
+          answer: "Stelara has a long half-life allowing for less frequent dosing compared to other biologics (every 12 weeks vs every 2-4 weeks). This convenience can improve adherence and quality of life."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-817",
+    name: "Dupixent (Dupilumab)",
+    description: "IL-4/IL-13 inhibitor for atopic dermatitis, asthma, chronic rhinosinusitis, eosinophilic esophagitis",
+    price: 1699.99,
+    oldPrice: 2399.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "specialty-biologics",
+    inStock: true,
+    rating: 4.9,
+    reviews: 2876,
+    requiresPrescription: true,
+    strengthOptions: ["200mg/1.14mL", "300mg/2mL"],
+    formOptions: ["Prefilled Syringe", "Prefilled Pen"],
+    tags: ["biologic", "il4-il13-inhibitor", "atopic-dermatitis", "asthma", "eczema"],
+    variationPrices: { minPrice: 1699.99, maxPrice: 2399.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Dupilumab is a human monoclonal antibody that inhibits IL-4 and IL-13 signaling, key drivers of type 2 inflammation. First biologic approved for moderate-to-severe atopic dermatitis and now has multiple indications.",
+        conditions: [
+          "**Atopic Dermatitis** - Moderate-to-severe in adults and children ≥6 months",
+          "**Asthma** - Moderate-to-severe with type 2 inflammation in adults and children ≥6 years",
+          "**Chronic Rhinosinusitis with Nasal Polyposis** - Inadequately controlled in adults",
+          "**Eosinophilic Esophagitis** - Adults and children ≥12 years weighing ≥40 kg",
+          "**Prurigo Nodularis** - Adults with inadequately controlled disease"
+        ]
+      },
+      sideEffects: {
+        common: ["Injection site reactions", "Conjunctivitis and eye symptoms", "Nasopharyngitis", "Oral herpes", "Headache", "Fatigue"],
+        serious: [
+          "Hypersensitivity reactions including anaphylaxis",
+          "Conjunctivitis and keratitis",
+          "Eosinophilia",
+          "Arthralgia",
+          "Parasitic (helminth) infections"
+        ],
+        notes: "Conjunctivitis occurs in ~10% of patients with atopic dermatitis. Usually mild-moderate but can be bothersome. Eye exams recommended if symptoms occur."
+      },
+      warnings: {
+        generalWarnings: [
+          "Not for treatment of acute bronchospasm or status asthmaticus",
+          "May cause conjunctivitis and keratitis",
+          "Hypersensitivity reactions including anaphylaxis - discontinue if occurs",
+          "May increase risk of parasitic infections - treat pre-existing infections before initiating",
+          "Do not discontinue systemic corticosteroids abruptly when initiating - taper gradually",
+          "Eosinophilic conditions possible (vasculitis, pneumonia)"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Hypersensitivity to dupilumab"
+        ],
+        precautions: [
+          "Helminth (parasitic worm) infection",
+          "Asthma patients - do not use to treat acute symptoms",
+          "History of eye disorders",
+          "Risk of eosinophilic conditions"
+        ],
+        pregnancy: "Monoclonal antibodies cross placenta. Limited data. Use if benefit outweighs risk.",
+        breastfeeding: "Unknown if present in milk. Consider benefits and risks."
+      },
+      dosage: {
+        overview: "Subcutaneous injection every 2 weeks. Loading dose typically given for most indications. Dosing varies by indication and patient age/weight.",
+        adults: "Atopic dermatitis: 600mg loading dose, then 300mg every 2 weeks. Asthma: 400mg or 600mg loading (based on severity), then 200mg or 300mg every 2 weeks",
+        children: "Dosing based on age, weight, and indication - ranges from 200-600mg loading and 100-300mg maintenance",
+        administration: [
+          "Subcutaneous injection in thigh or abdomen (adults may use upper arm)",
+          "Rotate injection sites",
+          "Allow to reach room temperature for 45 minutes before injection",
+          "Do not inject into tender, damaged, or scarred skin",
+          "May self-inject after proper training"
+        ],
+        storage: "Refrigerate 2-8°C in original carton. Do not freeze or shake. Protect from light. May store at room temperature up to 25°C for up to 14 days."
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - insufficient data, consider timing",
+          "Systemic immunosuppressants - may be able to reduce or discontinue when starting Dupixent"
+        ]
+      },
+      faq: [
+        {
+          question: "How quickly does Dupixent work for eczema?",
+          answer: "Many patients see improvement in itching within 2-4 weeks. Visible skin improvement typically occurs by week 4-8, with continued improvement over 16 weeks. Maximum benefit may take 4-6 months."
+        },
+        {
+          question: "What should I do about eye problems?",
+          answer: "Conjunctivitis (pink eye symptoms) is common. Most cases are mild. Use preservative-free artificial tears. If symptoms are severe, persistent, or vision changes occur, see an eye doctor. Your dermatologist may prescribe eye drops or reduce the dose."
+        },
+        {
+          question: "Can I stop using topical steroids?",
+          answer: "Dupixent works best in combination with topical therapy initially. Many patients can reduce or eliminate topical steroids over time as skin improves. Work with your doctor to taper gradually - don't stop suddenly."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-818",
+    name: "Cosentyx (Secukinumab)",
+    description: "IL-17A inhibitor for plaque psoriasis, psoriatic arthritis, and ankylosing spondylitis",
+    price: 1799.99,
+    oldPrice: 2499.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "specialty-biologics",
+    inStock: true,
+    rating: 4.8,
+    reviews: 1765,
+    requiresPrescription: true,
+    strengthOptions: ["150mg/mL", "75mg/0.5mL"],
+    formOptions: ["Prefilled Syringe", "Sensoready Pen"],
+    tags: ["biologic", "il17-inhibitor", "psoriasis", "psoriatic-arthritis", "ankylosing-spondylitis"],
+    variationPrices: { minPrice: 1799.99, maxPrice: 2499.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Secukinumab is a human monoclonal antibody that selectively binds to and neutralizes IL-17A, a key cytokine involved in psoriatic inflammation. First IL-17A inhibitor approved by FDA.",
+        conditions: [
+          "**Plaque Psoriasis** - Moderate to severe in adults and children ≥6 years",
+          "**Psoriatic Arthritis** - Active PsA in adults",
+          "**Ankylosing Spondylitis** - Active AS in adults",
+          "**Non-radiographic Axial Spondyloarthritis** - Active nr-axSpA in adults with objective signs of inflammation",
+          "**Enthesitis-related Arthritis** - Active disease in patients ≥4 years"
+        ]
+      },
+      sideEffects: {
+        common: ["Nasopharyngitis", "Diarrhea", "Upper respiratory tract infection", "Headache", "Nausea"],
+        serious: [
+          "Serious infections including TB",
+          "Inflammatory bowel disease (new onset or exacerbation)",
+          "Hypersensitivity reactions",
+          "Neutropenia"
+        ],
+        notes: "Generally well-tolerated. Candida infections (oral thrush, esophageal, vulvovaginal) occur in 1-2% of patients but usually mild."
+      },
+      warnings: {
+        generalWarnings: [
+          "Increased risk of infections - do not initiate during active infection",
+          "Evaluate for TB before treatment",
+          "May cause or exacerbate Crohn's disease - monitor for symptoms",
+          "Hypersensitivity reactions possible",
+          "May cause neutropenia - monitor if signs of infection"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Hypersensitivity to secukinumab"
+        ],
+        precautions: [
+          "Chronic or recurrent infection",
+          "Active or latent TB",
+          "Crohn's disease or history of IBD",
+          "Receiving or recently received immunosuppressants"
+        ],
+        pregnancy: "Monoclonal antibodies cross placenta. Limited data. Use if benefit outweighs risk.",
+        breastfeeding: "Unknown if present in milk. Consider benefits and risks."
+      },
+      dosage: {
+        overview: "Loading doses at weeks 0, 1, 2, 3, 4, then monthly or every 4 weeks maintenance depending on indication.",
+        adults: "Plaque psoriasis: 300mg at weeks 0, 1, 2, 3, 4, then every 4 weeks. PsA: 150mg or 300mg with same schedule. AS: 150mg with loading, then monthly",
+        administration: [
+          "Subcutaneous injection in thigh, abdomen, or upper arm",
+          "Rotate injection sites",
+          "Each 300mg dose requires two 150mg injections",
+          "Allow to reach room temperature for 15-30 minutes before injection",
+          "May self-inject after training"
+        ],
+        storage: "Refrigerate 2-8°C. Do not freeze or shake. Protect from light."
+      },
+      drugInteractions: {
+        interactions: [
+          "Live vaccines - avoid concurrent use",
+          "CYP450 substrates - monitor as IL-17A inhibition may restore normal formation, altering drug levels"
+        ]
+      },
+      faq: [
+        {
+          question: "When will I see results for psoriasis?",
+          answer: "Many patients see improvement by week 4, with 75% skin clearance (PASI 75) in about 80% of patients by week 12. Some patients achieve 90% or even 100% clearance. Maximum benefit continues through 1 year."
+        },
+        {
+          question: "Can Cosentyx cause Crohn's disease?",
+          answer: "IL-17 inhibitors like Cosentyx can trigger new onset or worsen existing inflammatory bowel disease in rare cases. Tell your doctor if you develop persistent diarrhea, abdominal pain, or blood in stool."
+        }
+      ]
+    },
+    demoMode: true
   }
 ] as any as Product[];
 

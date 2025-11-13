@@ -33,6 +33,7 @@ import { useDrugInteractions } from "@/hooks/useDrugInteractions";
 import { DrugInteractionWarnings } from "@/components/shop/DrugInteractionWarnings";
 import { DemoModeBanner } from "@/components/DemoModeBanner";
 import { VerificationBadge } from "@/components/landing/VerificationBadge";
+import { cn } from "@/lib/utils";
 
 const mockReviews = [
   {
@@ -243,24 +244,58 @@ export const ProductDetail = () => {
             <Separator className="my-6" />
 
             {/* Quantity */}
-            <div className="mb-6">
-              <label className="text-sm font-semibold mb-3 block">Quantity</label>
-              <div className="flex items-center gap-3">
-                <Button
-                  variant="outline"
-                  size="icon"
-                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                >
-                  -
-                </Button>
-                <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  onClick={() => setQuantity(quantity + 1)}
-                >
-                  +
-                </Button>
+            <div className="mb-6 space-y-3">
+              <div>
+                <label className="text-sm font-bold mb-2 block">Select Quantity</label>
+                <p className="text-xs text-muted-foreground mb-3">
+                  Larger quantities may include bulk discounts
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                {[
+                  { qty: 1, discount: null },
+                  { qty: 5, discount: "5% off" },
+                  { qty: 10, discount: "10% off" },
+                  { qty: 30, discount: "15% off" },
+                  { qty: 60, discount: "20% off" }
+                ].map(({ qty, discount }) => (
+                  <button
+                    key={qty}
+                    onClick={() => setQuantity(qty)}
+                    className={cn(
+                      "relative px-4 py-3 rounded-xl border-2 min-w-[90px] transition-all duration-300",
+                      "hover:scale-105 active:scale-95",
+                      "flex flex-col items-center gap-1",
+                      quantity === qty
+                        ? "border-primary bg-primary/10 text-primary shadow-md ring-2 ring-primary/20"
+                        : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent"
+                    )}
+                  >
+                    <Package className={cn(
+                      "w-5 h-5 transition-colors",
+                      quantity === qty ? "text-primary" : "text-muted-foreground"
+                    )} />
+                    <span className={cn(
+                      "font-semibold text-base",
+                      quantity === qty && "font-bold"
+                    )}>
+                      {qty}
+                    </span>
+                    {discount && (
+                      <Badge 
+                        variant="secondary" 
+                        className={cn(
+                          "absolute -top-2 -right-2 text-[10px] px-1.5 py-0.5 font-bold",
+                          quantity === qty 
+                            ? "bg-primary text-primary-foreground" 
+                            : "bg-green-500 text-white"
+                        )}
+                      >
+                        {discount}
+                      </Badge>
+                    )}
+                  </button>
+                ))}
               </div>
             </div>
 

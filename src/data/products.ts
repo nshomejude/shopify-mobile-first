@@ -45377,6 +45377,1086 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       ]
     },
     demoMode: true
+  },
+  {
+    id: "rx-819",
+    name: "Wellbutrin (Bupropion)",
+    description: "Atypical antidepressant and smoking cessation aid",
+    price: 34.99,
+    oldPrice: 69.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.6,
+    reviews: 2543,
+    requiresPrescription: true,
+    strengthOptions: ["75mg", "100mg", "150mg", "200mg", "300mg", "450mg"],
+    formOptions: ["Immediate Release", "Sustained Release (SR)", "Extended Release (XL)"],
+    tags: ["antidepressant", "smoking-cessation", "ndri", "depression"],
+    variationPrices: { minPrice: 34.99, maxPrice: 89.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Bupropion is an atypical antidepressant and norepinephrine-dopamine reuptake inhibitor (NDRI). Unlike SSRIs, it doesn't cause sexual side effects or weight gain and may actually increase energy and libido. Also marketed as Zyban for smoking cessation.",
+        conditions: [
+          "**Major Depressive Disorder** - Treatment of depression",
+          "**Seasonal Affective Disorder (SAD)** - Prevention of seasonal depression (Wellbutrin XL only)",
+          "**Smoking Cessation** - Aid to quit smoking (as Zyban)",
+          "**Off-label: ADHD** - Alternative to stimulants",
+          "**Off-label: Sexual dysfunction** - Caused by SSRIs"
+        ]
+      },
+      sideEffects: {
+        common: ["Dry mouth", "Insomnia", "Headache", "Nausea", "Dizziness", "Constipation", "Increased sweating", "Tremor", "Agitation", "Anxiety"],
+        serious: [
+          "Seizures (dose-dependent risk)",
+          "Suicidal thoughts and behaviors",
+          "Neuropsychiatric symptoms (especially with smoking cessation)",
+          "Angle-closure glaucoma",
+          "Severe hypertension",
+          "Manic episodes in bipolar disorder",
+          "Severe allergic reactions including Stevens-Johnson syndrome"
+        ],
+        notes: "Unlike SSRIs, bupropion typically doesn't cause weight gain, sexual dysfunction, or sedation. May increase energy and motivation. Seizure risk increases above 450mg/day."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased risk of suicidal thinking and behavior in children, adolescents, and young adults taking antidepressants for major depressive disorder and other psychiatric disorders",
+          "Serious neuropsychiatric reactions with smoking cessation use including changes in mood, hostility, agitation, depressed mood, suicidal thoughts and behavior"
+        ],
+        generalWarnings: [
+          "Seizure risk increases with dose >450mg/day, history of seizures, eating disorders, abrupt alcohol/benzodiazepine withdrawal",
+          "May precipitate manic episodes in bipolar disorder",
+          "Psychosis, delusions, hallucinations, paranoia reported",
+          "Angle-closure glaucoma - discontinue if eye pain/changes",
+          "Hypertension - can increase blood pressure, monitor",
+          "Activation syndrome (agitation, insomnia) especially early in treatment"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Seizure disorder or history of seizures",
+          "Current or prior diagnosis of bulimia or anorexia nervosa",
+          "Abrupt discontinuation of alcohol, benzodiazepines, barbiturates, or antiepileptic drugs",
+          "Use of MAOIs within 14 days",
+          "Known hypersensitivity to bupropion"
+        ],
+        precautions: [
+          "Bipolar disorder or family history",
+          "History of head trauma",
+          "CNS tumor",
+          "Severe hepatic cirrhosis",
+          "Hypertension or cardiovascular disease",
+          "Renal impairment",
+          "Elderly patients",
+          "Diabetes (may affect blood glucose)"
+        ],
+        pregnancy: "Category C. Use only if benefit outweighs risk. Consider non-drug approaches first.",
+        breastfeeding: "Present in breast milk. Consider risks and benefits."
+      },
+      dosage: {
+        overview: "Start low and increase gradually. Maximum 450mg/day to minimize seizure risk. Different formulations are NOT interchangeable.",
+        adults: "Depression: IR: Start 100mg twice daily, may increase to 100mg three times daily (max 450mg/day). SR: Start 150mg once daily, may increase to 150mg twice daily (max 400mg/day). XL: Start 150mg once daily, may increase to 300mg, max 450mg once daily. SAD prevention: XL 150-300mg once daily starting autumn. Smoking cessation: SR 150mg daily for 3 days, then 150mg twice daily for 7-12 weeks",
+        administration: [
+          "IR: Take 3-4 times daily, at least 6 hours apart",
+          "SR: Take twice daily, at least 8 hours apart",  
+          "XL: Take once daily in morning",
+          "Can take with or without food",
+          "Swallow SR and XL tablets whole; do not crush, chew, or divide",
+          "Take earlier in day to minimize insomnia",
+          "For smoking cessation: Start 1 week before target quit date"
+        ],
+        missedDose: "Skip if almost time for next dose. Never double dose due to seizure risk."
+      },
+      drugInteractions: {
+        interactions: [
+          "MAOIs - contraindicated, wait 14 days",
+          "Other bupropion products - do not use together (e.g., Wellbutrin + Zyban)",
+          "Drugs lowering seizure threshold - increased seizure risk",
+          "CYP2D6 substrates (SSRIs, antipsychotics, beta-blockers, TCAs) - bupropion inhibits CYP2D6, may increase levels",
+          "Dopaminergic drugs (levodopa, amantadine) - increased neuropsychiatric effects",
+          "Digoxin - may reduce digoxin levels",
+          "Ritonavir, lopinavir - may increase bupropion levels",
+          "Carbamazepine, phenytoin - may decrease bupropion levels"
+        ],
+        avoidWith: ["Alcohol - increases seizure risk and neuropsychiatric effects", "MAOIs"]
+      },
+      faq: [
+        {
+          question: "Why is Wellbutrin prescribed instead of SSRIs?",
+          answer: "Wellbutrin is often chosen when SSRIs cause problematic side effects like sexual dysfunction, weight gain, or excessive sedation. It may increase energy and doesn't typically affect libido or weight. However, it can cause more anxiety/agitation in susceptible individuals."
+        },
+        {
+          question: "Can Wellbutrin help me quit smoking?",
+          answer: "Yes, when marketed as Zyban, bupropion is FDA-approved for smoking cessation. It reduces cravings and withdrawal symptoms. Success rates are higher when combined with behavioral support. Start 1 week before your quit date."
+        },
+        {
+          question: "What about the seizure risk?",
+          answer: "Seizure risk is dose-dependent: 0.1% at 300mg/day, 0.4% at 400mg/day. Risk is higher with doses >450mg/day, eating disorders, head trauma, or alcohol withdrawal. Never exceed 450mg/day or 200mg single dose for IR formulation."
+        },
+        {
+          question: "Will Wellbutrin help with ADHD?",
+          answer: "While not FDA-approved for ADHD, bupropion is sometimes prescribed off-label for ADHD in adults, especially when stimulants aren't suitable. It's less effective than stimulants but may help with focus and motivation."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-820",
+    name: "Lexapro (Escitalopram)",
+    description: "SSRI antidepressant for depression and anxiety disorders",
+    price: 24.99,
+    oldPrice: 49.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.7,
+    reviews: 3210,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg", "20mg"],
+    formOptions: ["Tablet", "Oral Solution"],
+    tags: ["ssri", "antidepressant", "anxiety", "depression"],
+    variationPrices: { minPrice: 24.99, maxPrice: 49.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Escitalopram is the S-enantiomer of citalopram (Celexa) and one of the most selective SSRIs available. Known for good tolerability, efficacy, and relatively fewer drug interactions than other SSRIs.",
+        conditions: [
+          "**Major Depressive Disorder** - Treatment in adults and adolescents ≥12 years",
+          "**Generalized Anxiety Disorder** - Treatment in adults",
+          "**Off-label: Panic Disorder** - Effective for panic attacks",
+          "**Off-label: Social Anxiety Disorder** - Reduces social phobia symptoms",
+          "**Off-label: OCD** - Moderate efficacy for obsessive-compulsive symptoms"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea", "Insomnia or somnolence", "Fatigue", "Increased sweating", "Dry mouth", "Dizziness", "Sexual dysfunction (decreased libido, delayed orgasm, erectile dysfunction)", "Constipation", "Diarrhea"],
+        serious: [
+          "Serotonin syndrome (especially with other serotonergic drugs)",
+          "Suicidal thoughts and behaviors",
+          "Abnormal bleeding (especially with NSAIDs or anticoagulants)",
+          "Hyponatremia (low sodium)",
+          "Seizures",
+          "Angle-closure glaucoma",
+          "QT prolongation (dose-dependent)",
+          "Mania/hypomania activation",
+          "Discontinuation syndrome"
+        ],
+        notes: "Sexual side effects affect 25-73% of patients. Nausea usually improves after first 1-2 weeks. Generally better tolerated than older SSRIs."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased risk of suicidal thinking and behavior in children, adolescents, and young adults. Monitor closely especially during initial months and after dose changes."
+        ],
+        generalWarnings: [
+          "Serotonin syndrome risk - life-threatening, especially with other serotonergic drugs",
+          "QT prolongation - avoid in congenital long QT syndrome",
+          "Abnormal bleeding risk increased with NSAIDs, aspirin, warfarin",
+          "Hyponatremia, especially in elderly",
+          "May precipitate manic episode in bipolar disorder",
+          "Angle-closure glaucoma risk",
+          "Discontinuation symptoms if stopped abruptly"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Use of MAOIs within 14 days (or within 14 days after stopping escitalopram)",
+          "Use with pimozide (increases QT interval)",
+          "Hypersensitivity to escitalopram or citalopram"
+        ],
+        precautions: [
+          "Bipolar disorder (screen before starting)",
+          "Seizure disorder",
+          "Hepatic impairment",
+          "Severe renal impairment",
+          "Bleeding disorders or use of anticoagulants",
+          "Conditions predisposing to QT prolongation",
+          "Hyponatremia risk (elderly, diuretics)",
+          "Angle-closure glaucoma risk"
+        ],
+        pregnancy: "Use only if benefit outweighs risk. Third-trimester use associated with neonatal complications. Untreated depression also poses risks.",
+        breastfeeding: "Present in breast milk in low amounts. Monitor infant for side effects."
+      },
+      dosage: {
+        overview: "Once daily dosing, morning or evening. Can take 4-6 weeks for full effect. Start low in elderly or hepatic impairment.",
+        adults: "Depression and GAD: Start 10mg once daily, may increase to 20mg after minimum 1 week. Max 20mg/day. Some patients respond to 5mg.",
+        adolescents: "Depression (≥12 years): Start 10mg once daily, may increase to 20mg after 3 weeks if needed",
+        elderly: "Start 5-10mg once daily. Max 10mg/day.",
+        administration: [
+          "Take once daily, morning or evening",
+          "Can take with or without food",
+          "Take at same time each day",
+          "Full effect may take 4-6 weeks",
+          "Do not stop abruptly - taper gradually to avoid withdrawal"
+        ],
+        missedDose: "Take as soon as remembered unless almost time for next dose. Do not double dose."
+      },
+      drugInteractions: {
+        interactions: [
+          "MAOIs - contraindicated, serotonin syndrome risk. Wait 14 days between medications.",
+          "Pimozide - contraindicated, increases QT interval",
+          "Other serotonergic drugs (SSRIs, SNRIs, triptans, TCAs, fentanyl, lithium, tramadol, tryptophan, St. John's Wort) - serotonin syndrome risk",
+          "NSAIDs, aspirin, warfarin - increased bleeding risk",
+          "Drugs prolonging QT interval - additive effects",
+          "CYP2C19 inhibitors/inducers - may affect escitalopram levels",
+          "Alcohol - may increase CNS depression"
+        ],
+        avoidWith: ["MAOIs", "Pimozide", "Excessive alcohol"]
+      },
+      faq: [
+        {
+          question: "How long before Lexapro starts working?",
+          answer: "Some improvement in sleep, energy, or appetite may occur in 1-2 weeks. Mood improvement typically takes 4-6 weeks, sometimes up to 8-12 weeks for full effect. Don't give up if you don't feel better immediately."
+        },
+        {
+          question: "Will Lexapro cause weight gain?",
+          answer: "Lexapro causes less weight gain than many other antidepressants. Some patients gain weight (averaging 5-10 pounds), some lose weight, many stay stable. Weight changes typically occur with long-term use (>6 months)."
+        },
+        {
+          question: "What about sexual side effects?",
+          answer: "Sexual dysfunction affects 25-73% of people on SSRIs, including decreased libido, delayed orgasm, and erectile dysfunction. Effects may improve over time. Discuss with your doctor - dose adjustment, switching medications, or adding medications to counteract this may help."
+        },
+        {
+          question: "Can I stop Lexapro suddenly?",
+          answer: "No. Stopping abruptly can cause discontinuation syndrome: dizziness, nausea, headache, irritability, flu-like symptoms, 'brain zaps.' Always taper gradually under medical supervision, typically over 2-4 weeks or longer."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-821",
+    name: "Trintellix (Vortioxetine)",
+    description: "Multimodal antidepressant for major depressive disorder",
+    price: 89.99,
+    oldPrice: 169.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.5,
+    reviews: 987,
+    requiresPrescription: true,
+    strengthOptions: ["5mg", "10mg", "20mg"],
+    formOptions: ["Tablet"],
+    tags: ["antidepressant", "serotonin-modulator", "depression", "cognitive-function"],
+    variationPrices: { minPrice: 89.99, maxPrice: 169.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Vortioxetine has a unique multimodal mechanism: serotonin reuptake inhibition, 5-HT receptor modulation. May improve cognitive function in depression better than other antidepressants. Lower rates of sexual dysfunction than SSRIs.",
+        conditions: [
+          "**Major Depressive Disorder** - Treatment in adults",
+          "**Cognitive Symptoms of Depression** - May specifically help with concentration, executive function, processing speed"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea (most common, usually transient)", "Constipation", "Vomiting", "Sexual dysfunction (less common than SSRIs)", "Dizziness", "Dry mouth", "Diarrhea", "Flatulence"],
+        serious: [
+          "Suicidal thoughts and behaviors",
+          "Serotonin syndrome",
+          "Abnormal bleeding",
+          "Hyponatremia",
+          "Mania/hypomania activation",
+          "Angle-closure glaucoma",
+          "Discontinuation syndrome"
+        ],
+        notes: "Nausea is most common side effect (30% of patients) but usually resolves within 1-2 weeks. Taking with food can help. Sexual dysfunction occurs less often than with SSRIs."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased risk of suicidal thinking and behavior in children, adolescents, and young adults with major depressive disorder and other psychiatric disorders"
+        ],
+        generalWarnings: [
+          "Serotonin syndrome risk with other serotonergic drugs",
+          "May precipitate manic/hypomanic episodes",
+          "Abnormal bleeding risk",
+          "Hyponatremia risk, especially elderly",
+          "Discontinuation symptoms if stopped abruptly"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Use of MAOIs within 14 days",
+          "Hypersensitivity to vortioxetine"
+        ],
+        precautions: [
+          "Bipolar disorder",
+          "History of mania/hypomania",
+          "Bleeding disorders",
+          "Seizure disorder",
+          "Angle-closure glaucoma"
+        ],
+        pregnancy: "Limited data. Use only if benefit outweighs risk.",
+        breastfeeding: "Unknown if excreted in milk. Consider benefits and risks."
+      },
+      dosage: {
+        overview: "Once daily dosing. Lower doses (5-10mg) may cause less nausea. Full effect takes 4-8 weeks.",
+        adults: "Start 10mg once daily. May increase to 20mg as tolerated. Consider reducing to 5mg if 10mg not tolerated. CYP2D6 poor metabolizers: Max 10mg/day",
+        administration: [
+          "Take once daily with or without food",
+          "Taking with food may reduce nausea",
+          "Same time each day",
+          "Full effect 4-8 weeks",
+          "Taper gradually when discontinuing (reduce by 5-10mg/week)"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "MAOIs - contraindicated, wait 14 days",
+          "Strong CYP2D6 inhibitors (bupropion, fluoxetine, paroxetine, quinidine) - reduce vortioxetine to 10mg",
+          "CYP inducers (rifampin, carbamazepine, phenytoin) - may need to increase vortioxetine dose",
+          "Other serotonergic drugs - serotonin syndrome risk",
+          "NSAIDs, aspirin, anticoagulants - increased bleeding risk"
+        ]
+      },
+      faq: [
+        {
+          question: "Is Trintellix better than other antidepressants?",
+          answer: "Trintellix may have advantages for cognitive symptoms of depression and lower sexual side effects. However, individual response varies. Some find the nausea intolerable. It's more expensive than generic SSRIs. Effectiveness is similar overall to other modern antidepressants."
+        },
+        {
+          question: "Will the nausea go away?",
+          answer: "Yes, for most people nausea improves significantly within 1-2 weeks. Taking with food, starting at 5mg, or increasing slowly can help. If severe or persistent, talk to your doctor about dose adjustment."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-822",
+    name: "Rexulti (Brexpiprazole)",
+    description: "Atypical antipsychotic for schizophrenia and depression augmentation",
+    price: 129.99,
+    oldPrice: 249.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.4,
+    reviews: 654,
+    requiresPrescription: true,
+    strengthOptions: ["0.25mg", "0.5mg", "1mg", "2mg", "3mg", "4mg"],
+    formOptions: ["Tablet"],
+    tags: ["antipsychotic", "depression-augmentation", "schizophrenia"],
+    variationPrices: { minPrice: 129.99, maxPrice: 249.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Brexpiprazole is a partial agonist at dopamine D2 and serotonin 5-HT1A receptors and an antagonist at serotonin 5-HT2A receptors. Lower risk of weight gain and metabolic effects compared to many atypical antipsychotics.",
+        conditions: [
+          "**Schizophrenia** - Treatment in adults",
+          "**Major Depressive Disorder** - Adjunctive treatment to antidepressants in adults"
+        ]
+      },
+      sideEffects: {
+        common: ["Akathisia (restlessness)", "Weight gain (moderate, less than other atypicals)", "Headache", "Somnolence", "Tremor", "Dizziness", "Anxiety", "Constipation", "Fatigue"],
+        serious: [
+          "Increased mortality in elderly with dementia-related psychosis",
+          "Cerebrovascular adverse reactions in elderly with dementia",
+          "Neuroleptic malignant syndrome",
+          "Tardive dyskinesia",
+          "Metabolic changes (weight gain, diabetes, dyslipidemia)",
+          "Orthostatic hypotension",
+          "Falls",
+          "Seizures",
+          "Cognitive and motor impairment",
+          "Suicidal thoughts"
+        ]
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased mortality in elderly patients with dementia-related psychosis",
+          "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+        ],
+        generalWarnings: [
+          "May cause tardive dyskinesia",
+          "Risk of metabolic syndrome",
+          "Orthostatic hypotension risk",
+          "May impair judgment, thinking, or motor skills",
+          "May cause pathological gambling and impulse control disorders"
+        ]
+      },
+      beforeTaking: {
+        contraindications: ["Hypersensitivity to brexpiprazole"],
+        precautions: [
+          "Cardiovascular disease",
+          "Cerebrovascular disease",
+          "Diabetes or risk factors",
+          "Parkinson's disease",
+          "Seizure history",
+          "Conditions predisposing to hypotension"
+        ],
+        pregnancy: "May cause fetal harm. Use only if benefit outweighs risk. Neonatal extrapyramidal and withdrawal symptoms possible.",
+        breastfeeding: "Present in breast milk. Weigh benefits and risks."
+      },
+      dosage: {
+        overview: "Slow titration required. Starting dose too high increases akathisia risk.",
+        adults: "Schizophrenia: Start 1mg daily for 4 days, increase to 2mg daily for 3 days, then target 2-4mg daily. Depression: Start 0.5-1mg daily, increase weekly by 1mg to target 2mg (max 3mg). CYP2D6 poor metabolizers or strong CYP2D6/3A4 inhibitors: Reduce dose by half",
+        administration: [
+          "Take once daily with or without food",
+          "Titrate slowly to minimize akathisia",
+          "CYP2D6 poor metabolizers need dose adjustment"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Strong CYP2D6 inhibitors (paroxetine, fluoxetine, quinidine) - reduce brexpiprazole dose by half",
+          "Strong CYP3A4 inhibitors (itraconazole, clarithromycin) - reduce brexpiprazole dose by half",
+          "Strong CYP3A4 inducers (rifampin) - may need to double brexpiprazole dose",
+          "CNS depressants - increased sedation",
+          "Antihypertensives - additive hypotension"
+        ]
+      }
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-823",
+    name: "Vraylar (Cariprazine)",
+    description: "Atypical antipsychotic for schizophrenia, bipolar disorder, and depression",
+    price: 139.99,
+    oldPrice: 269.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "prescription-drugs",
+    subcategory: "psychiatric",
+    inStock: true,
+    rating: 4.5,
+    reviews: 543,
+    requiresPrescription: true,
+    strengthOptions: ["1.5mg", "3mg", "4.5mg", "6mg"],
+    formOptions: ["Capsule"],
+    tags: ["antipsychotic", "bipolar", "schizophrenia", "depression"],
+    variationPrices: { minPrice: 139.99, maxPrice: 269.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Cariprazine is a dopamine D3-preferring D3/D2 receptor partial agonist with very long half-life. Unique in preferentially targeting D3 receptors which may relate to efficacy in negative symptoms of schizophrenia.",
+        conditions: [
+          "**Schizophrenia** - Treatment in adults",
+          "**Bipolar I Disorder** - Acute manic or mixed episodes, and depressive episodes in adults",
+          "**Major Depressive Disorder** - Adjunctive treatment to antidepressants (approved 2022)"
+        ]
+      },
+      sideEffects: {
+        common: ["Extrapyramidal symptoms", "Akathisia (very common)", "Weight gain (moderate)", "Nausea", "Insomnia", "Constipation", "Vomiting", "Somnolence"],
+        serious: [
+          "Increased mortality in elderly with dementia",
+          "Cerebrovascular reactions",
+          "Neuroleptic malignant syndrome",
+          "Tardive dyskinesia",
+          "Metabolic changes",
+          "Orthostatic hypotension",
+          "Leukopenia, neutropenia",
+          "Suicidal thoughts"
+        ],
+        notes: "Akathisia is very common, especially at higher doses. Very long half-life (1-3 weeks for active moieties) means effects continue for weeks after stopping."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Increased mortality in elderly patients with dementia-related psychosis",
+          "Suicidal thoughts and behaviors in children, adolescents, and young adults"
+        ],
+        generalWarnings: [
+          "May cause tardive dyskinesia",
+          "Metabolic syndrome risk",
+          "Very long half-life - effects persist weeks after discontinuation",
+          "High rates of akathisia at doses >3mg"
+        ]
+      },
+      beforeTaking: {
+        contraindications: ["Hypersensitivity to cariprazine"],
+        precautions: [
+          "Cardiovascular disease",
+          "Diabetes risk",
+          "Seizure disorder",
+          "Severe hepatic or renal impairment"
+        ],
+        pregnancy: "May cause fetal harm. Use only if benefit outweighs risk.",
+        breastfeeding: "Unknown if present in milk. Not recommended."
+      },
+      dosage: {
+        overview: "Very long half-life means steady-state not reached for weeks. Titrate slowly.",
+        adults: "Schizophrenia: Start 1.5mg daily, increase to 3mg on day 2, adjust by 1.5-3mg based on response, usual range 1.5-6mg. Bipolar mania: Start 1.5mg, increase by 1.5-3mg on day 2, usual 3-6mg. Bipolar depression: 1.5mg or 3mg daily. MDD adjunct: Start 1.5mg, may increase to 3mg",
+        administration: [
+          "Take once daily with or without food",
+          "Very long half-life - effects persist weeks after stopping",
+          "Not recommended in severe hepatic/renal impairment"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "Strong CYP3A4 inhibitors (itraconazole, ketoconazole) - reduce cariprazine dose by half",
+          "Strong CYP3A4 inducers (rifampin, carbamazepine) - may reduce efficacy, consider increasing dose"
+        ]
+      },
+      faq: [
+        {
+          question: "Why does Vraylar take so long to work and stop working?",
+          answer: "Vraylar has a very long half-life (1-3 weeks including active metabolites). This means it takes 3-4 weeks to reach steady state, and effects persist for weeks after stopping. This is unique among antipsychotics and affects both efficacy and side effect duration."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-824",
+    name: "Penicillin V Potassium",
+    description: "Beta-lactam antibiotic for bacterial infections",
+    price: 14.99,
+    oldPrice: 29.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "antibiotics",
+    inStock: true,
+    rating: 4.8,
+    reviews: 4532,
+    requiresPrescription: true,
+    strengthOptions: ["250mg", "500mg"],
+    formOptions: ["Tablet", "Oral Solution"],
+    tags: ["antibiotic", "penicillin", "strep-throat", "bacterial-infection"],
+    variationPrices: { minPrice: 14.99, maxPrice: 29.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Penicillin V is a narrow-spectrum beta-lactam antibiotic effective against gram-positive bacteria. The 'V' designation indicates it's the oral form. First antibiotic discovered (1928) and still valuable for specific infections, though resistance is increasing.",
+        conditions: [
+          "**Streptococcal Infections** - Including strep throat (pharyngitis), scarlet fever",
+          "**Dental Infections** - Prophylaxis and treatment of oral infections",
+          "**Mild to Moderate Respiratory Infections** - Caused by susceptible organisms",
+          "**Skin Infections** - Mild staphylococcal and streptococcal skin infections",
+          "**Rheumatic Fever Prophylaxis** - Prevention of recurrent rheumatic fever",
+          "**Prevention of Bacterial Endocarditis** - In certain high-risk dental/oral procedures"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Diarrhea", "Stomach upset", "Black hairy tongue (rare but benign)", "Oral thrush (yeast overgrowth)"],
+        serious: [
+          "Severe allergic reactions (anaphylaxis) - can be life-threatening",
+          "Stevens-Johnson syndrome/toxic epidermal necrolysis",
+          "Clostridioides difficile (C. diff) colitis",
+          "Serum sickness",
+          "Hemolytic anemia",
+          "Severe skin reactions"
+        ],
+        notes: "Penicillin allergy is one of most commonly reported drug allergies (~10% claim allergy), but true allergy rate is only 1-3%. Many who think they're allergic are not, but testing needed before use."
+      },
+      warnings: {
+        generalWarnings: [
+          "Serious and fatal hypersensitivity reactions possible - ask about penicillin allergy history",
+          "Cross-reactivity with other beta-lactams (cephalosporins, carbapenems)",
+          "Can cause C. difficile-associated diarrhea",
+          "Not effective for viral infections or most modern resistant bacteria",
+          "Complete full course even if feeling better"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "History of serious penicillin allergy (anaphylaxis, Stevens-Johnson syndrome)",
+          "History of penicillin-associated cholestatic jaundice/hepatic dysfunction"
+        ],
+        precautions: [
+          "History of allergies (asthma, hay fever, urticaria)",
+          "Cephalosporin allergy (5-10% cross-reactivity)",
+          "Renal impairment (dose adjustment may be needed)",
+          "History of GI disease, especially colitis",
+          "Mononucleosis (may cause rash)"
+        ],
+        pregnancy: "Category B. Generally considered safe in pregnancy. Widely used for strep infections in pregnant women.",
+        breastfeeding: "Passes into breast milk in small amounts. Generally considered compatible with breastfeeding but may cause infant diarrhea or thrush."
+      },
+      dosage: {
+        overview: "Dosing varies by infection type and severity. Take on empty stomach for best absorption. Complete full course.",
+        adults: "Strep throat: 500mg 2-3 times daily for 10 days. Mild infections: 250-500mg every 6-8 hours. Rheumatic fever prophylaxis: 250mg twice daily continuously. Endocarditis prophylaxis: 2g single dose 30-60 minutes before procedure",
+        children: "Weight-based dosing. Strep throat: 250mg 2-3 times daily for 10 days for <27kg; 500mg 2-3 times daily for ≥27kg",
+        administration: [
+          "Take on empty stomach (1 hour before or 2 hours after meals) for maximum absorption",
+          "Can take with food if stomach upset occurs, but absorption reduced",
+          "Complete full course even if symptoms improve",
+          "Space doses evenly throughout the day",
+          "Shake liquid suspension well before each use",
+          "Refrigerate liquid suspension after mixing"
+        ],
+        missedDose: "Take as soon as remembered. If almost time for next dose, skip missed dose. Never double dose."
+      },
+      drugInteractions: {
+        interactions: [
+          "Probenecid - increases penicillin levels (sometimes used intentionally)",
+          "Methotrexate - penicillins may reduce methotrexate excretion, increasing toxicity",
+          "Oral contraceptives - may reduce effectiveness (use backup contraception)",
+          "Tetracyclines - may interfere with bactericidal action of penicillin",
+          "Warfarin - may enhance anticoagulant effect, monitor INR"
+        ],
+        avoidWith: ["Alcohol is okay (unlike metronidazole)"]
+      },
+      faq: [
+        {
+          question: "I'm allergic to penicillin, what can I take instead?",
+          answer: "Alternatives include macrolides (azithromycin, clarithromycin), clindamycin, or fluoroquinolones depending on infection. However, many people who think they're allergic aren't - only 1-3% of those reporting penicillin allergy have true allergy. Allergy testing can determine if you can safely use penicillins."
+        },
+        {
+          question: "Why is penicillin still used when there are newer antibiotics?",
+          answer: "Penicillin remains first-line for strep throat and several other infections because it's highly effective, inexpensive, narrow-spectrum (preserves normal bacteria), and resistance hasn't developed for group A strep. Using narrow-spectrum antibiotics when appropriate helps reduce antibiotic resistance."
+        },
+        {
+          question: "Can I stop taking it when I feel better?",
+          answer: "No! Complete the full prescribed course even if you feel better in 2-3 days. Stopping early can allow bacteria to survive and potentially develop resistance, and infection may return."
+        },
+        {
+          question: "Does penicillin interfere with birth control?",
+          answer: "Penicillin may slightly reduce effectiveness of oral contraceptives by altering gut bacteria that help process hormones. Use backup contraception (condoms) during treatment and for 7 days after completing antibiotics."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-825",
+    name: "Doxycycline",
+    description: "Tetracycline antibiotic for bacterial infections, acne, malaria prevention",
+    price: 19.99,
+    oldPrice: 39.99,
+    image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
+    category: "prescription-drugs",
+    subcategory: "antibiotics",
+    inStock: true,
+    rating: 4.6,
+    reviews: 3876,
+    requiresPrescription: true,
+    strengthOptions: ["50mg", "75mg", "100mg", "150mg"],
+    formOptions: ["Capsule", "Tablet", "Delayed Release Tablet", "Oral Suspension"],
+    tags: ["antibiotic", "tetracycline", "acne", "malaria-prevention", "lyme-disease"],
+    variationPrices: { minPrice: 19.99, maxPrice: 49.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Doxycycline is a broad-spectrum tetracycline antibiotic that inhibits bacterial protein synthesis. Highly versatile with excellent tissue penetration. Used for infections, acne, malaria prevention, and rosacea.",
+        conditions: [
+          "**Respiratory Tract Infections** - Pneumonia, bronchitis",
+          "**Acne Vulgaris** - Inflammatory acne, often long-term low-dose",
+          "**Rosacea** - Anti-inflammatory effects (Oracea formulation)",
+          "**Sexually Transmitted Infections** - Chlamydia, gonorrhea (with ceftriaxone), syphilis (if penicillin-allergic)",
+          "**Lyme Disease** - Early localized or disseminated",
+          "**Rocky Mountain Spotted Fever** - Tick-borne illness",
+          "**Malaria Prevention** - Prophylaxis for travelers",
+          "**Anthrax** - Treatment and post-exposure prophylaxis",
+          "**Periodontitis** - Subantimicrobial dose (Periostat)",
+          "**Cholera, plague, tularemia, brucellosis**"
+        ]
+      },
+      sideEffects: {
+        common: ["Nausea", "Vomiting", "Diarrhea", "Photosensitivity (sunburn easily)", "Esophageal irritation", "Vaginal yeast infection", "Headache", "Loss of appetite"],
+        serious: [
+          "Clostridioides difficile colitis",
+          "Severe skin reactions (Stevens-Johnson syndrome)",
+          "Intracranial hypertension (pseudotumor cerebri)",
+          "Hepatotoxicity",
+          "Severe photosensitivity reactions",
+          "Esophageal ulceration",
+          "Tooth discoloration and enamel hypoplasia (if used in children)",
+          "Hemolytic anemia",
+          "Drug-induced lupus"
+        ],
+        notes: "Photosensitivity is common - use sunscreen! Esophageal irritation can be minimized by taking with full glass of water and staying upright for 30 minutes."
+      },
+      warnings: {
+        generalWarnings: [
+          "Causes photosensitivity - use sunscreen, avoid tanning beds",
+          "Can cause permanent tooth discoloration in children <8 years and fetuses",
+          "Esophageal ulcers - take with water, stay upright 30 minutes",
+          "May decrease effectiveness of oral contraceptives - use backup",
+          "Intracranial hypertension possible - report persistent headache/vision changes",
+          "Can cause C. difficile colitis"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Pregnancy (second and third trimester)",
+          "Children <8 years (except for anthrax, Rocky Mountain spotted fever)",
+          "Hypersensitivity to tetracyclines"
+        ],
+        precautions: [
+          "Hepatic impairment",
+          "Myasthenia gravis (may worsen)",
+          "History of intracranial hypertension",
+          "Photosensitivity history",
+          "Esophageal disorders"
+        ],
+        pregnancy: "Contraindicated in second and third trimesters. Can cause permanent tooth discoloration and enamel hypoplasia in developing fetus. May inhibit fetal bone growth.",
+        breastfeeding: "Excreted in breast milk. Generally avoided due to potential effects on teeth and bones, though amounts are small. Short-term use may be acceptable - discuss with doctor."
+      },
+      dosage: {
+        overview: "Dosing varies widely by indication. Can be once or twice daily. Take with food to reduce nausea, but avoid dairy/antacids which reduce absorption.",
+        adults: "Most infections: 100mg every 12 hours OR 200mg once daily on day 1, then 100-200mg daily. Acne: 50-100mg once or twice daily. Malaria prophylaxis: 100mg daily starting 1-2 days before travel, continue through travel, and 4 weeks after. Lyme disease: 100mg twice daily for 10-21 days",
+        administration: [
+          "Take with full glass of water",
+          "May take with food to reduce nausea (but NOT dairy)",
+          "Avoid dairy products, calcium, iron, magnesium, aluminum (antacids) within 2-3 hours - they reduce absorption",
+          "Stay upright (don't lie down) for at least 30 minutes after taking",
+          "Take at same time(s) each day",
+          "Delayed-release (Doryx, Acticlate) may be taken with or without food, including dairy"
+        ],
+        storage: "Room temperature. Protect from light and moisture."
+      },
+      drugInteractions: {
+        interactions: [
+          "Antacids, calcium, iron, magnesium, zinc - significantly reduce doxycycline absorption, separate by 2-3 hours",
+          "Oral contraceptives - may reduce effectiveness, use backup contraception",
+          "Warfarin - may enhance anticoagulant effect, monitor INR",
+          "Isotretinoin (Accutane) - increased risk of intracranial hypertension, avoid combination",
+          "Barbiturates, carbamazepine, phenytoin - decrease doxycycline levels",
+          "Methoxyflurane anesthesia - nephrotoxicity risk (contraindicated)",
+          "Penicillins - may interfere with bactericidal action"
+        ],
+        avoidWith: ["Dairy products (within 2-3 hours)", "Isotretinoin", "Alcohol moderately increases side effects"]
+      },
+      faq: [
+        {
+          question: "Can I take doxycycline with food?",
+          answer: "Yes, you can and should take it with food to reduce nausea. HOWEVER, avoid dairy products, calcium supplements, iron supplements, and antacids within 2-3 hours as these block absorption. Delayed-release formulations (Doryx) can be taken with dairy."
+        },
+        {
+          question: "Why am I so sensitive to the sun?",
+          answer: "Doxycycline causes photosensitivity - your skin becomes much more prone to sunburn. Use broad-spectrum SPF 30+ sunscreen, wear protective clothing, avoid peak sun hours (10am-4pm), and avoid tanning beds. This resolves after stopping medication."
+        },
+        {
+          question: "How long do I take doxycycline for acne?",
+          answer: "Acne treatment typically requires 3-6 months. Improvement usually begins after 6-8 weeks. Long-term use (months to years) at lower doses is common and generally safe. Your dermatologist will determine duration."
+        },
+        {
+          question: "Do I need to use backup birth control?",
+          answer: "Yes. Antibiotics including doxycycline may reduce effectiveness of hormonal contraceptives. Use backup contraception (condoms) during treatment and for 7 days after completion."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-826",
+    name: "Paxlovid (Nirmatrelvir/Ritonavir)",
+    description: "COVID-19 antiviral combination therapy for high-risk patients",
+    price: 549.99,
+    oldPrice: 849.99,
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    category: "prescription-drugs",
+    subcategory: "antivirals",
+    inStock: true,
+    rating: 4.7,
+    reviews: 2341,
+    requiresPrescription: true,
+    strengthOptions: ["300mg nirmatrelvir + 100mg ritonavir"],
+    formOptions: ["Tablet Combination Pack"],
+    tags: ["covid-19", "antiviral", "coronavirus", "emergency-use"],
+    variationPrices: { minPrice: 549.99, maxPrice: 849.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Paxlovid is a co-packaged combination of nirmatrelvir (SARS-CoV-2 main protease inhibitor) and ritonavir (CYP3A inhibitor that boosts nirmatrelvir levels). Authorized for emergency use to treat mild-to-moderate COVID-19 in high-risk patients within 5 days of symptom onset.",
+        conditions: [
+          "**COVID-19 Treatment** - Mild to moderate disease in adults and children ≥12 years weighing ≥40 kg who are at high risk for progression to severe COVID-19"
+        ]
+      },
+      sideEffects: {
+        common: ["Dysgeusia (altered taste, often metallic/bitter)", "Diarrhea", "Hypertension", "Myalgia (muscle aches)", "Nausea", "Headache"],
+        serious: [
+          "Drug-drug interactions (many serious interactions due to ritonavir)",
+          "Hepatotoxicity",
+          "Hypersensitivity reactions",
+          "HIV drug resistance (if undiagnosed/untreated HIV)",
+          "COVID-19 rebound after treatment (10-15% of cases)"
+        ],
+        notes: "Dysgeusia (bad/metallic taste) is very common but resolves after treatment. COVID rebound can occur 2-8 days after finishing treatment - not necessarily treatment failure."
+      },
+      warnings: {
+        generalWarnings: [
+          "Numerous drug interactions - ritonavir is potent CYP3A inhibitor",
+          "Some medications are contraindicated and must be stopped before Paxlovid",
+          "Risk of HIV drug resistance if used in patients with uncontrolled/undiagnosed HIV",
+          "Must start within 5 days of symptom onset for efficacy",
+          "Hepatotoxicity possible - monitor liver function",
+          "COVID rebound can occur - not necessarily resistance",
+          "Not authorized for pre-exposure or post-exposure prophylaxis"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Severe hepatic impairment",
+          "Severe renal impairment (eGFR <30)",
+          "Co-administration with numerous drugs (see interactions - many contraindicated)"
+        ],
+        precautions: [
+          "Moderate hepatic impairment",
+          "Moderate renal impairment (dose reduction needed)",
+          "Risk of drug interactions",
+          "HIV infection (potential for resistance)"
+        ],
+        pregnancy: "Limited data. Consider benefit vs risk. COVID-19 poses significant risk in pregnancy.",
+        breastfeeding: "Unknown if present in milk. Ritonavir is present. Weigh benefits and risks considering severity of maternal disease."
+      },
+      dosage: {
+        overview: "Must start within 5 days of symptom onset. Course duration is 5 days. Dose adjustment for moderate renal impairment.",
+        adults: "300mg nirmatrelvir (two 150mg tablets) + 100mg ritonavir (one tablet), taken together twice daily for 5 days. Moderate renal impairment (eGFR 30-60): 150mg nirmatrelvir + 100mg ritonavir twice daily for 5 days",
+        administration: [
+          "Take nirmatrelvir and ritonavir tablets together twice daily for 5 days",
+          "Can take with or without food",
+          "Start within 5 days of symptom onset",
+          "Complete full 5-day course even if feeling better",
+          "If dose missed within 8 hours, take as soon as possible; if >8 hours, skip and resume normal schedule"
+        ]
+      },
+      drugInteractions: {
+        interactions: [
+          "**CONTRAINDICATED (do not use together):** alfuzosin, ranolazine, dronedarone, flecainide, propafenone, quinidine, lurasidone, pimozide, clozapine, colchicine (in renal/hepatic impairment), ergot derivatives, lovastatin, simvastatin, sildenafil (for PAH), triazolam, oral midazolam, rifampin, St. John's wort, carbamazepine, phenobarbital, phenytoin",
+          "**Dose adjustments needed:** atorvastatin, rosuvastatin, dabigatran, rivaroxaban, immunosuppressants (tacrolimus, cyclosporine), many others",
+          "**Important:** Ritonavir is potent CYP3A inhibitor - check ALL medications before prescribing"
+        ],
+        avoidWith: ["Many medications - comprehensive review required before use"]
+      },
+      faq: [
+        {
+          question: "Why does everything taste terrible?",
+          answer: "Dysgeusia (altered taste, often metallic or bitter) is very common with Paxlovid, affecting about 6% of patients. This resolves after completing the 5-day course. Some find sucking on hard candy or chewing gum helps."
+        },
+        {
+          question: "What is COVID rebound?",
+          answer: "About 10-15% of people experience return of symptoms or positive COVID test 2-8 days after finishing Paxlovid. This is not necessarily treatment failure or viral resistance. Symptoms are usually mild. Isolate if rebound occurs. No evidence supports retreatment."
+        },
+        {
+          question: "Can I take Paxlovid with my other medications?",
+          answer: "Many medications interact with ritonavir component. Some are contraindicated and must be stopped. Others need dose adjustment. Your doctor MUST review ALL your medications before prescribing Paxlovid. Never start Paxlovid without medical review of interactions."
+        },
+        {
+          question: "When do I need to start Paxlovid?",
+          answer: "Within 5 days of symptom onset for it to be effective. Earlier is better. It's most effective when started within 1-3 days of symptoms. After 5 days, efficacy is uncertain."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-827",
+    name: "Tylenol (Acetaminophen)",
+    description: "Pain reliever and fever reducer - most widely used analgesic",
+    price: 12.99,
+    oldPrice: 19.99,
+    image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
+    category: "over-the-counter",
+    subcategory: "pain-relief",
+    inStock: true,
+    rating: 4.9,
+    reviews: 8932,
+    requiresPrescription: false,
+    strengthOptions: ["325mg", "500mg", "650mg"],
+    formOptions: ["Tablet", "Caplet", "Gelcap", "Liquid", "Dissolving Tablet", "Suppository"],
+    tags: ["pain-relief", "fever-reducer", "acetaminophen", "otc", "safe-in-pregnancy"],
+    variationPrices: { minPrice: 12.99, maxPrice: 19.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Acetaminophen (paracetamol outside US) is one of the most commonly used medications worldwide. Exact mechanism unclear but thought to inhibit COX enzymes in CNS. Unlike NSAIDs, has no anti-inflammatory effects and doesn't affect platelets or stomach. First-line for pain and fever, especially when NSAIDs contraindicated.",
+        conditions: [
+          "**Pain Relief** - Headache, muscle aches, backache, toothache, menstrual cramps, minor arthritis pain",
+          "**Fever Reduction** - Effective for fever from colds, flu, or other causes",
+          "**Post-vaccination Symptoms** - Pain and fever after immunizations",
+          "**Safe in Pregnancy** - First-line analgesic/antipyretic in pregnancy"
+        ]
+      },
+      sideEffects: {
+        common: ["Generally very well-tolerated with minimal side effects at therapeutic doses"],
+        serious: [
+          "**Hepatotoxicity (liver damage)** - Risk increases with doses >4000mg/day, alcohol use, or liver disease",
+          "**Acute liver failure** - Leading cause of acute liver failure in US",
+          "**Severe skin reactions** - Stevens-Johnson syndrome, toxic epidermal necrolysis (rare)",
+          "**Acute kidney injury** - With chronic high-dose use",
+          "**Hypersensitivity reactions** - Rare"
+        ],
+        notes: "Acetaminophen is very safe at recommended doses but dangerous in overdose. Liver damage can occur with chronic use above 4000mg/day or acute overdose. Many prescription and OTC products contain acetaminophen - always check to avoid accidental overdose."
+      },
+      warnings: {
+        generalWarnings: [
+          "**MAXIMUM 4000mg per 24 hours** - Exceeding can cause severe liver damage",
+          "Many medications contain acetaminophen - check all products to avoid overdose",
+          "Chronic heavy alcohol use (3+ drinks daily) increases liver damage risk - limit to 2000mg/day",
+          "Overdose is medical emergency even if feeling fine initially - seek immediate care",
+          "Severe skin reactions possible - stop if rash develops"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Severe hepatic impairment",
+          "Known hypersensitivity to acetaminophen"
+        ],
+        precautions: [
+          "Liver disease or hepatic impairment - use lower doses",
+          "Chronic alcohol use (≥3 drinks daily) - limit to 2000mg/day",
+          "Taking other acetaminophen-containing products",
+          "Malnutrition or dehydration",
+          "Renal impairment"
+        ],
+        pregnancy: "Category B. Considered safe during pregnancy and most widely used analgesic in pregnancy. Short-term use at recommended doses not associated with adverse outcomes. Avoid chronic high-dose use.",
+        breastfeeding: "Compatible with breastfeeding. Small amounts in milk but considered safe for infant."
+      },
+      dosage: {
+        overview: "**NEVER EXCEED 4000mg in 24 hours** for adults. With liver disease or alcohol use, limit to 2000mg/day. Check all products for hidden acetaminophen.",
+        adults: "325-1000mg every 4-6 hours as needed. Maximum 4000mg per 24 hours. Extended release: 1300mg every 8 hours. Many take 500-1000mg every 6 hours for consistent relief.",
+        children: "Weight-based dosing: 10-15 mg/kg every 4-6 hours as needed, not to exceed 5 doses in 24 hours. Use appropriate pediatric formulation and measuring device.",
+        elderly: "Same as adults but start with lower doses. Maximum 4000mg/day.",
+        administration: [
+          "Can take with or without food",
+          "Take with full glass of water",
+          "Do not exceed 4000mg in 24 hours from ALL sources",
+          "Check all other medications for acetaminophen content",
+          "Extended release: Swallow whole, do not crush or chew",
+          "Use proper measuring device for liquid formulations"
+        ],
+        overdose: "**EMERGENCY - Call Poison Control (1-800-222-1222) or go to ER immediately even if feeling fine.** N-acetylcysteine is antidote but most effective within 8-10 hours. Liver damage may not be apparent for 24-48 hours."
+      },
+      drugInteractions: {
+        interactions: [
+          "Warfarin - large doses (>2000mg/day) of acetaminophen may increase INR, monitor closely",
+          "Alcohol - chronic heavy use increases hepatotoxicity risk",
+          "Isoniazid - may increase risk of hepatotoxicity",
+          "Carbamazepine, phenytoin, rifampin - may increase hepatotoxicity risk via increased toxic metabolite",
+          "Other acetaminophen-containing products - risk of overdose"
+        ],
+        avoidWith: ["Excessive alcohol (>3 drinks daily)", "Multiple acetaminophen-containing products simultaneously"]
+      },
+      faq: [
+        {
+          question: "Can I take Tylenol with ibuprofen?",
+          answer: "Yes! Acetaminophen and ibuprofen work differently and can be safely combined. Some people alternate them every 3 hours for better pain/fever control (e.g., acetaminophen at 12pm, 6pm, 12am; ibuprofen at 3pm, 9pm, 3am). Always follow dosing guidelines for each."
+        },
+        {
+          question: "Why is Tylenol dangerous in overdose if it's so safe normally?",
+          answer: "At normal doses, acetaminophen is safely metabolized. In overdose (>4000mg/day or acute >7500mg), a toxic metabolite (NAPQI) accumulates and depletes glutathione, causing liver cell death. This can lead to acute liver failure. The antidote (N-acetylcysteine) replenishes glutathione but works best if given early."
+        },
+        {
+          question: "What products contain hidden acetaminophen?",
+          answer: "Many! Common examples: Vicodin, Percocet, Nyquil, Dayquil, Theraflu, Excedrin, Midol, Sudafed PE, and hundreds more cold/flu/pain combination products. ALWAYS check the active ingredients list. Look for 'acetaminophen,' 'APAP,' or 'paracetamol.'"
+        },
+        {
+          question: "Is Tylenol safe during pregnancy?",
+          answer: "Yes, acetaminophen is considered the safest pain reliever and fever reducer during pregnancy. Short-term use at recommended doses is not associated with adverse pregnancy outcomes. NSAIDs (ibuprofen, naproxen) should be avoided, especially in third trimester. Always use lowest effective dose."
+        },
+        {
+          question: "How much Tylenol is safe with alcohol?",
+          answer: "If you drink 3+ alcoholic beverages daily, limit acetaminophen to 2000mg/day (not 4000mg). Acute alcohol intoxication actually provides some protection, but chronic heavy drinking depletes glutathione making liver more vulnerable. Never take acetaminophen to treat hangover after heavy drinking."
+        }
+      ]
+    },
+    demoMode: true
+  },
+  {
+    id: "rx-828",
+    name: "Metformin",
+    description: "First-line oral medication for type 2 diabetes",
+    price: 9.99,
+    oldPrice: 19.99,
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+    category: "prescription-drugs",
+    subcategory: "diabetes",
+    inStock: true,
+    rating: 4.8,
+    reviews: 5678,
+    requiresPrescription: true,
+    strengthOptions: ["500mg", "850mg", "1000mg"],
+    formOptions: ["Immediate Release Tablet", "Extended Release Tablet", "Oral Solution"],
+    tags: ["diabetes", "first-line-diabetes", "biguanide", "insulin-sensitizer"],
+    variationPrices: { minPrice: 9.99, maxPrice: 29.99 },
+    medicalInfo: {
+      uses: {
+        overview: "Metformin is a biguanide that reduces hepatic glucose production, decreases intestinal glucose absorption, and improves insulin sensitivity. First-line medication for type 2 diabetes for over 60 years. Doesn't cause hypoglycemia when used alone, doesn't cause weight gain, inexpensive, and cardiovascular benefits.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - First-line treatment in adults and children ≥10 years",
+          "**Prediabetes** - Off-label for diabetes prevention in high-risk patients",
+          "**Polycystic Ovary Syndrome (PCOS)** - Off-label for insulin resistance, irregular periods, fertility",
+          "**Weight Management** - Off-label, may cause modest weight loss (2-3 kg)",
+          "**Gestational Diabetes** - Off-label alternative to insulin in some cases"
+        ]
+      },
+      sideEffects: {
+        common: ["Diarrhea (30%)", "Nausea", "Vomiting", "Abdominal discomfort", "Gas", "Metallic taste", "Decreased appetite"],
+        serious: [
+          "**Lactic acidosis** - Rare but life-threatening (symptoms: muscle pain, difficulty breathing, unusual fatigue, dizziness, severe nausea/vomiting, slow/irregular heartbeat, feeling cold)",
+          "Vitamin B12 deficiency - with long-term use (7-30% of patients)",
+          "Hypoglycemia - when combined with insulin or sulfonylureas",
+          "Acute kidney injury"
+        ],
+        notes: "GI side effects are very common initially but usually improve within 2-4 weeks. Taking with food and starting with low dose helps. Extended-release formulation (ER) has fewer GI side effects. B12 deficiency develops gradually - consider annual monitoring."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "Lactic acidosis - rare but serious metabolic complication that can be fatal. Risk increased with renal impairment, acute illness, dehydration, excessive alcohol intake, hepatic impairment, or contrast dye procedures."
+        ],
+        generalWarnings: [
+          "Discontinue before iodinated contrast imaging - resume 48 hours later if renal function stable",
+          "Withhold in acute illness (sepsis, dehydration, acute MI, shock)",
+          "Vitamin B12 deficiency risk - monitor B12 periodically, especially with neuropathy symptoms",
+          "Does not cause hypoglycemia alone, but increases risk when combined with insulin/sulfonylureas",
+          "Discontinue before surgery (except minor with minimal risk)"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Severe renal impairment (eGFR <30 mL/min/1.73 m²)",
+          "Acute or chronic metabolic acidosis including diabetic ketoacidosis",
+          "History of lactic acidosis",
+          "Hypersensitivity to metformin"
+        ],
+        precautions: [
+          "Moderate renal impairment (eGFR 30-45: carefully consider benefits/risks; eGFR 45-60: monitor closely)",
+          "Hepatic impairment (increased lactic acidosis risk)",
+          "Elderly (≥65 years) - assess renal function before starting and periodically",
+          "Excessive alcohol use",
+          "Heart failure requiring pharmacological treatment",
+          "Planned contrast dye procedures",
+          "Surgery planned"
+        ],
+        pregnancy: "Category B. Insulin traditionally preferred for gestational diabetes, but metformin increasingly used as alternative. Discuss risks/benefits with healthcare provider. Does not appear to cause major birth defects.",
+        breastfeeding: "Present in breast milk in small amounts. Generally considered compatible with breastfeeding. Benefits usually outweigh risks. Monitor infant."
+      },
+      dosage: {
+        overview: "Start low, increase gradually every 1-2 weeks to minimize GI side effects. Take with meals. Maximum 2550mg/day (IR) or 2000mg/day (ER).",
+        adults: "Type 2 diabetes: IR: Start 500mg twice daily or 850mg once daily with meals. Increase by 500mg weekly or 850mg every 2 weeks. Usual dose 1000mg twice daily or 850mg 2-3 times daily. Max 2550mg/day divided in 3 doses. ER: Start 500-1000mg once daily with evening meal. Increase by 500mg weekly. Max 2000mg once daily (or 1000mg twice daily for some formulations). Prediabetes (off-label): 850mg once daily or 500mg twice daily",
+        children: "≥10 years: IR: Start 500mg twice daily, increase by 500mg weekly, usual dose 1000mg twice daily, max 2000mg/day",
+        administration: [
+          "Take with meals to reduce GI side effects",
+          "IR: Usually 2-3 times daily with meals",
+          "ER: Once daily with evening meal; swallow whole, do not crush or chew",
+          "Start with low dose and titrate gradually to minimize diarrhea/nausea",
+          "Stay well-hydrated"
+        ],
+        storage: "Room temperature, protect from moisture and light"
+      },
+      drugInteractions: {
+        interactions: [
+          "Carbonic anhydrase inhibitors (topiramate, zonisamide, acetazolamide) - increased lactic acidosis risk",
+          "Alcohol - increases lactic acidosis risk, avoid excessive intake",
+          "Cationic drugs (amiloride, digoxin, morphine, procainamide, quinidine, quinine, ranitidine, triamterene, trimethoprim, vancomycin) - may increase metformin levels",
+          "Insulin and insulin secretagogues (sulfonylureas) - increased hypoglycemia risk, may need dose reduction",
+          "Iodinated contrast media - hold metformin before procedure, resume after 48 hours if renal function stable",
+          "Drugs affecting renal function - may increase metformin accumulation"
+        ],
+        avoidWith: ["Excessive alcohol"]
+      },
+      faq: [
+        {
+          question: "Will metformin help me lose weight?",
+          answer: "Metformin may cause modest weight loss (average 2-3 kg or 4-6 pounds) in some people with diabetes or PCOS, primarily by reducing appetite and improving insulin sensitivity. It's not FDA-approved for weight loss and effects are modest. Not a substitute for diet and exercise."
+        },
+        {
+          question: "Why do I have so much diarrhea?",
+          answer: "Diarrhea affects about 30% of people starting metformin and is the most common reason people stop taking it. It usually improves within 2-4 weeks. Tips: Start with low dose and increase slowly; take with food; try extended-release formulation; stay hydrated. If persistent, talk to your doctor about dose adjustment or alternative medications."
+        },
+        {
+          question: "Do I need to stop metformin before a CT scan?",
+          answer: "Yes, if the scan uses iodinated contrast dye (most CT scans with contrast). Stop metformin before the procedure. Check renal function 48 hours after the procedure. If renal function is stable, you can resume metformin. The contrast dye can temporarily worsen kidney function, increasing lactic acidosis risk if metformin continues."
+        },
+        {
+          question: "Can metformin cause low blood sugar?",
+          answer: "No, metformin alone does NOT cause hypoglycemia because it doesn't increase insulin secretion - it just makes your body more sensitive to the insulin you produce. However, when combined with insulin or sulfonylureas (glipizide, glyburide), hypoglycemia risk increases and those medications may need dose reduction."
+        },
+        {
+          question: "Should I take vitamin B12?",
+          answer: "Long-term metformin use (especially >4 years) can reduce vitamin B12 absorption, leading to deficiency in 7-30% of patients. Symptoms include fatigue, weakness, numbness/tingling in hands and feet. Annual B12 monitoring is reasonable, especially if you have neuropathy symptoms. If deficient, supplementation is recommended."
+        }
+      ]
+    },
+    demoMode: true
   }
 ] as any as Product[];
 

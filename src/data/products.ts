@@ -16278,6 +16278,67 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 128.99,
       maxPrice: 199.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "Methyl (2S)-2-{[1-(5-fluoropentyl)-1H-indazole-3-carbonyl]amino}-3,3-dimethylbutanoate",
+        molecularFormula: "C20H28FN3O3",
+        molecularWeight: "377.5 g/mol",
+        casNumber: "1445583-51-6",
+        appearance: "White to off-white crystalline powder",
+        solubility: "Soluble in DMSO, ethanol, acetonitrile; sparingly soluble in water",
+        stability: "Stable under proper storage conditions. Avoid prolonged exposure to light, heat, and air."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Cannabinoid receptor binding studies (CB1 and CB2)",
+          "Structure-activity relationship (SAR) investigations of synthetic cannabinoids",
+          "Forensic reference standard for analytical method development",
+          "Neuropharmacology research on endocannabinoid system modulation",
+          "Metabolite identification and pharmacokinetic profiling"
+        ],
+        therapeuticPotential: "5-F-ADB is a potent full agonist at CB1 receptors with research applications in understanding cannabinoid receptor pharmacology. Studies investigate its binding affinity, functional activity, and metabolic pathways to inform drug design and toxicology. The 5-fluoropentyl chain modification affects lipophilicity and receptor interactions compared to other synthetic cannabinoids.",
+        researchLimitations: "This compound is a controlled substance in many jurisdictions due to its high potency and association with adverse events in uncontrolled settings. Research is restricted to qualified laboratories with appropriate DEA/controlled substance licenses. Full agonist profile at CB1 receptors distinguishes it from partial agonists and may contribute to increased adverse effect potential."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Toxic if swallowed, inhaled, or absorbed through skin. May cause serious health effects including respiratory depression, cardiovascular complications, and neurological effects.",
+        requiredPPE: [
+          "Nitrile gloves (double-gloving recommended for powder handling)",
+          "Full face shield or chemical safety goggles",
+          "Lab coat or protective clothing",
+          "Work in certified fume hood or ventilated enclosure",
+          "Respiratory protection (N95 or equivalent) when weighing powders"
+        ],
+        storageConditions: "Store at -20°C in amber glass vials under inert atmosphere (nitrogen or argon). Desiccate to protect from moisture. Keep away from light, heat, and incompatible materials. Controlled substance storage requirements apply.",
+        disposalGuidelines: "Dispose through licensed hazardous waste contractor following DEA regulations for controlled substances. Do NOT pour down drain or discard in regular trash. Maintain disposal records per regulatory requirements.",
+        emergencyProcedures: "In case of exposure: Remove contaminated clothing immediately. Rinse skin/eyes with copious water for 15+ minutes. If inhaled, move to fresh air and seek medical attention. If swallowed, do NOT induce vomiting - seek immediate medical care. Have SDS readily available for emergency responders."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Use microbalance in controlled environment for accurate weighing",
+          "Prepare stock solutions in appropriate solvents (DMSO, ethanol) at known concentrations",
+          "Validate analytical methods using multiple detection techniques",
+          "Implement chain of custody procedures for accountability",
+          "Maintain detailed laboratory notebooks with all handling records"
+        ],
+        qualityControl: "Each batch includes Certificate of Analysis with purity >98% by HPLC, NMR confirmation, and mass spectrometry validation. Reference standards traceable to authenticated sources. Regular re-analysis recommended for long-term storage.",
+        handlingPrecautions: "EXTREME POTENCY WARNING: This compound is a full CB1 agonist with very high receptor affinity. Use only in milligram quantities. Implement buddy system for handling. Never work alone with this material. Cross-contamination can occur - dedicate equipment and work areas. Clean all surfaces thoroughly after use."
+      },
+      regulatoryInformation: {
+        legalStatus: "Schedule I controlled substance in the United States (DEA). Illegal for human consumption. Research use requires DEA registration and appropriate controlled substance license. Check local and international regulations before ordering.",
+        restrictedJurisdictions: "Controlled in USA, EU member states, UK, Canada, Australia, New Zealand, and many other countries. Import/export requires permits and licenses.",
+        complianceRequirements: "Laboratories must maintain DEA registration, implement security measures, maintain acquisition/disposal records, conduct biennial inventories, and report theft/loss within 1 business day. Personnel require background checks.",
+        researchLicensing: "Schedule I research registration required from DEA. Approved research protocol from institutional review board (IRB) or equivalent. Maintain detailed records of all acquisitions, uses, and disposals."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes HPLC chromatogram showing >98% purity, retention time, and impurity profile. Batch-specific documentation.",
+        msds: "Safety Data Sheet available with GHS-compliant hazard classifications, handling precautions, and emergency response information.",
+        nmr: "1H-NMR and 13C-NMR spectra confirm molecular structure with peak assignments and coupling constants.",
+        hplc: "HPLC method details include mobile phase composition, column specifications, flow rate, and detection wavelength. Chromatogram shows main peak and potential impurities.",
+        mass: "High-resolution ESI-MS showing [M+H]+ at m/z 378.2, with MS/MS fragmentation pattern confirming indazole-3-carboxamide core structure.",
+        synthesisRoute: "Synthetic route information available under confidentiality agreement for qualified research institutions."
+      },
+      researchNotes: "5-F-ADB is one of the most potent synthetic cannabinoid full agonists, with CB1 receptor affinity in the low nanomolar range. The 5-fluoropentyl side chain and indazole-3-carboxamide scaffold contribute to high lipophilicity and brain penetration. Research has identified multiple metabolic pathways including hydroxylation, oxidative defluorination, and ester hydrolysis - important for forensic detection. The compound has been associated with serious adverse events in recreational settings, highlighting the importance of controlled research environments. Studies compare its pharmacological profile to THC (partial agonist) and other synthetic cannabinoids. Valuable for understanding synthetic cannabinoid SAR, developing analytical detection methods, and investigating cannabinoid toxicology. For research purposes only - not for human or veterinary use. Handle with maximum caution due to extreme potency and full agonist profile."
     }
   },
   {
@@ -16298,6 +16359,73 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 164.99,
       maxPrice: 254.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "Various peptide sequences (custom synthesis available)",
+        molecularFormula: "Varies by peptide sequence",
+        molecularWeight: "500-10,000 Da (typical range for research peptides)",
+        casNumber: "Various (sequence-dependent)",
+        appearance: "White to off-white lyophilized powder",
+        solubility: "Water-soluble (most sequences). Some hydrophobic peptides require DMSO or organic co-solvents. pH adjustment may be needed for optimal solubility.",
+        stability: "Store lyophilized at -20°C or -80°C for long-term stability (years). Reconstituted solutions stable 1-4 weeks at 4°C or up to 6 months at -20°C. Avoid repeated freeze-thaw cycles."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Signal transduction and receptor binding studies",
+          "Enzyme substrate and inhibitor research",
+          "Cell culture and tissue engineering applications",
+          "Immunology and vaccine development research",
+          "Drug discovery and lead optimization",
+          "Structural biology and protein interaction studies",
+          "Biomarker development and validation",
+          "Neuroscience research (neuropeptides, receptor agonists/antagonists)"
+        ],
+        therapeuticPotential: "Research-grade peptides serve as valuable tools for understanding biological mechanisms and developing therapeutic candidates. Applications span diverse areas including metabolic regulation, immune modulation, antimicrobial activity, and targeted drug delivery. Many FDA-approved peptide therapeutics originated from research-grade peptides in preclinical studies.",
+        researchLimitations: "Not for human or animal administration. For in vitro and laboratory research only. Peptides may undergo degradation by proteases - stability studies recommended. Some sequences may aggregate or form secondary structures affecting activity. Batch-to-batch variability possible - validate each lot before critical experiments."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Generally low toxicity but specific hazards vary by peptide sequence. Some peptides may be bioactive at very low concentrations. Treat all research peptides as potentially hazardous.",
+        requiredPPE: [
+          "Nitrile gloves (powder-free to avoid contamination)",
+          "Safety glasses or goggles",
+          "Lab coat",
+          "Work in biosafety cabinet if peptides are bioactive or immunogenic",
+          "Face mask when handling lyophilized powders to avoid inhalation"
+        ],
+        storageConditions: "Store lyophilized peptides at -20°C or -80°C in original sealed vials with desiccant. Protect from light and moisture. For long-term storage (>1 year), -80°C recommended. Reconstituted solutions should be aliquoted to avoid freeze-thaw cycles and stored at -20°C or -80°C.",
+        disposalGuidelines: "Dispose of peptide waste through approved biohazard or chemical waste streams depending on bioactivity and solvent composition. Inactivate bioactive peptides before disposal when possible. Follow institutional biosafety and chemical waste disposal procedures.",
+        emergencyProcedures: "In case of skin contact: Wash thoroughly with soap and water. Eye contact: Rinse with water for 15 minutes. Inhalation: Move to fresh air. Ingestion: Do not induce vomiting - seek medical attention. Most peptides have low acute toxicity, but bioactive peptides may require monitoring."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Reconstitute in sterile water, PBS, or appropriate buffer at neutral pH (unless otherwise specified)",
+          "Use glass or polypropylene vials (peptides may adsorb to some plastics)",
+          "Vortex gently and/or sonicate to ensure complete dissolution",
+          "Prepare working aliquots to avoid repeated freeze-thaw of stock solutions",
+          "Filter sterilize (0.22 µm) if required for cell culture applications",
+          "Use calibrated micropipettes and verify peptide concentration by UV absorbance or amino acid analysis",
+          "Include appropriate positive and negative controls in assays",
+          "Maintain sterile technique for cell culture applications"
+        ],
+        qualityControl: "Each peptide batch supplied with Certificate of Analysis including: HPLC purity (typically ≥95%), mass spectrometry confirmation (expected m/z), amino acid analysis (when applicable), and peptide content (mg/vial). Endotoxin testing available for cell culture-grade peptides (<1 EU/mg).",
+        handlingPrecautions: "Avoid contamination - use aseptic technique. Some peptides are hygroscopic and will absorb moisture rapidly upon opening - work quickly or use desiccated glove box. Allow vials to reach room temperature before opening to prevent condensation. Label all aliquots clearly with peptide name, concentration, solvent, date prepared, and storage conditions."
+      },
+      regulatoryInformation: {
+        legalStatus: "Generally unrestricted for research use. Some peptides may be controlled substances if they are hormones or analogs (e.g., growth hormone-releasing peptides). Check specific peptide regulatory status before ordering.",
+        restrictedJurisdictions: "Certain bioactive peptides may require import licenses or institutional approvals in some countries. Consult local regulations.",
+        complianceRequirements: "Institutional biosafety approval may be required for work with bioactive peptides, especially those with pharmacological activity. Maintain material safety data sheets (MSDS). Document chain of custody for audit trails.",
+        researchLicensing: "Most peptides available for purchase by qualified research institutions without special licensing. Some peptide hormones or controlled analogs may require additional documentation or DEA registration."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes peptide sequence, HPLC chromatogram with purity calculation, retention time, and peak integration. Lot-specific documentation.",
+        msds: "Safety Data Sheet with hazard information, handling precautions, storage requirements, and emergency procedures.",
+        nmr: "NMR spectroscopy not typically performed on peptides (amino acid analysis used instead). Available upon request for certain peptides.",
+        hplc: "Analytical HPLC chromatogram using C18 reverse-phase column with UV detection at 214-220 nm. Gradient elution with acetonitrile/water containing 0.1% TFA. Purity calculated as peak area percentage.",
+        mass: "MALDI-TOF or ESI-MS spectrum confirming molecular weight. Expected [M+H]+ ion and common adducts ([M+Na]+, [M+K]+) shown.",
+        synthesisRoute: "Peptides synthesized using solid-phase peptide synthesis (SPPS) with Fmoc or Boc chemistry. Cleaved, purified by preparative HPLC, and lyophilized. Custom synthesis available for specific sequences."
+      },
+      researchNotes: "Research-grade peptides are essential tools in modern biochemical and pharmacological research. This general peptide product represents a broad category including signal peptides, enzyme substrates, receptor ligands, antimicrobial peptides, and custom sequences. Purity is critical for reproducibility - always use highest purity grade available for your application. Peptides are susceptible to oxidation (especially Met, Cys), deamidation (Asn, Gln), and proteolytic degradation. Consider these factors when designing experiments. For cell-based assays, use cell culture-grade peptides tested for endotoxin. Peptide stability varies widely - some are stable in solution for months while others degrade within days. Perform stability studies for your specific conditions. Store working solutions at appropriate temperatures and pH. Use protease inhibitors if working in biological matrices. Many therapeutic peptides have been developed through research starting with these laboratory-grade materials. Common research peptides include: GLP-1 analogs, GHRP peptides, antimicrobial peptides (e.g., LL-37), cell-penetrating peptides (e.g., TAT, penetratin), and fluorescently labeled tracking peptides. For research purposes only - not for human or veterinary use. Not intended for self-administration or therapeutic applications."
     }
   },
 

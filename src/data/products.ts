@@ -364,8 +364,48 @@ For more information about ibuprofen, consult your pharmacist or healthcare prov
       maxPrice: 12.99
     },
     medicalInfo: {
+      uses: {
+        overview: "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that reduces hormones causing inflammation and pain in the body. It's one of the most widely used medications for pain relief and fever reduction.",
+        conditions: [
+          "**Pain Relief** - Headaches, dental pain, menstrual cramps, muscle aches, backaches, minor arthritis",
+          "**Fever Reduction** - Reduces fever in adults and children over 6 months",
+          "**Inflammation** - Osteoarthritis, rheumatoid arthritis, and other inflammatory conditions",
+          "**Cold & Flu** - Minor aches and pains associated with common cold",
+          "**Minor Injuries** - Sprains, strains, and sports injuries"
+        ]
+      },
+      sideEffects: {
+        common: ["Upset stomach", "Heartburn", "Nausea", "Dizziness", "Mild headache"],
+        serious: ["GI bleeding or ulcers", "Heart attack or stroke", "Severe allergic reactions", "Kidney problems", "Liver damage", "High blood pressure"],
+        notes: "Serious side effects are rare but require immediate medical attention. Most people tolerate ibuprofen well when used as directed."
+      },
+      warnings: {
+        blackBoxWarnings: [
+          "CARDIOVASCULAR RISK: NSAIDs may increase risk of serious heart attack or stroke, which can be fatal. Risk increases with duration of use.",
+          "GASTROINTESTINAL RISK: NSAIDs cause increased risk of serious GI bleeding, ulceration, and perforation, which can be fatal."
+        ],
+        generalWarnings: [
+          "Use lowest effective dose for shortest duration",
+          "May increase blood pressure and worsen heart failure",
+          "Can cause kidney damage, especially with long-term use",
+          "Avoid in setting of coronary artery bypass graft (CABG) surgery"
+        ],
+        specificPopulations: [
+          "**Pregnancy** - Avoid after 30 weeks gestation; use earlier only if benefits outweigh risks",
+          "**Elderly** - Increased risk of GI bleeding and kidney problems",
+          "**Children** - Safe for ages 6 months and up with proper dosing"
+        ]
+      },
+      beforeTaking: [
+        "Allergy to ibuprofen, aspirin, or other NSAIDs",
+        "History of asthma or allergic reactions to NSAIDs",
+        "Active stomach ulcers or history of GI bleeding",
+        "Severe heart, liver, or kidney disease",
+        "Pregnancy (especially third trimester)",
+        "Taking blood thinners or other NSAIDs"
+      ],
       dosage: {
-        standard: "Adults: 200-400mg every 4-6 hours. Maximum 1200mg daily (OTC) or 3200mg daily (prescription).",
+        standard: "**Adults & Children ≥12:** 200-400mg every 4-6 hours as needed. **Maximum:** 1200mg/day (OTC) or 3200mg/day (prescription under medical supervision).\n\n**Children 6 months-11 years:** 5-10mg/kg every 6-8 hours. Maximum 40mg/kg/day.",
         administration: [
           "Take with food or milk to reduce stomach upset",
           "Swallow tablets whole with full glass of water",
@@ -374,25 +414,66 @@ For more information about ibuprofen, consult your pharmacist or healthcare prov
         ],
         specialPopulations: "Avoid in third trimester of pregnancy. Reduce dose in elderly and renal impairment."
       },
-      sideEffects: {
-        common: ["Upset stomach", "Heartburn", "Nausea", "Dizziness", "Mild headache"],
-        serious: ["GI bleeding or ulcers", "Heart attack or stroke", "Severe allergic reactions", "Kidney problems", "Liver damage", "High blood pressure"]
-      },
-      contraindications: [
-        "History of peptic ulcer or GI bleeding",
-        "Severe heart failure",
-        "Active inflammatory bowel disease",
-        "Third trimester of pregnancy",
-        "Allergy to NSAIDs or aspirin"
-      ],
       drugInteractions: [
-        "Aspirin - may reduce cardioprotective effect",
-        "Warfarin, anticoagulants - increased bleeding risk",
-        "ACE inhibitors, ARBs - reduced effectiveness, kidney issues",
-        "Lithium - increased lithium levels",
-        "Methotrexate - increased toxicity",
-        "Corticosteroids - increased GI bleeding risk"
-      ]
+        {
+          drug: "Aspirin (low-dose for heart)",
+          effect: "May reduce aspirin's heart-protective effects",
+          severity: "moderate",
+          management: "Take ibuprofen at least 8 hours before or 30 minutes after aspirin"
+        },
+        {
+          drug: "Warfarin, anticoagulants",
+          effect: "Increased bleeding risk",
+          severity: "major",
+          management: "Monitor closely for bleeding; use with caution"
+        },
+        {
+          drug: "ACE inhibitors, ARBs",
+          effect: "Reduced effectiveness, increased kidney toxicity",
+          severity: "moderate",
+          management: "Monitor blood pressure and kidney function"
+        },
+        {
+          drug: "Lithium",
+          effect: "Increased lithium levels",
+          severity: "major",
+          management: "Monitor lithium levels closely"
+        },
+        {
+          drug: "Methotrexate",
+          effect: "Increased toxicity",
+          severity: "major",
+          management: "Avoid combination or monitor closely"
+        },
+        {
+          drug: "Corticosteroids",
+          effect: "Increased GI bleeding risk",
+          severity: "moderate",
+          management: "Use with caution; consider gastroprotection"
+        }
+      ],
+      faq: [
+        {
+          question: "How long does it take for ibuprofen to work?",
+          answer: "Ibuprofen typically starts working within 30 minutes to 1 hour. Peak effects occur at 1-2 hours. For inflammatory conditions like arthritis, full effects may take 1-2 weeks of regular use."
+        },
+        {
+          question: "Can I take ibuprofen with Tylenol (acetaminophen)?",
+          answer: "Yes, ibuprofen and acetaminophen can be taken together as they work differently. Some people alternate between them every 2-3 hours for better pain control. Consult your doctor for appropriate dosing."
+        },
+        {
+          question: "Is it safe to take ibuprofen every day?",
+          answer: "Long-term daily use increases risk of stomach ulcers, kidney damage, and heart problems. If you need pain relief for more than 10 days, consult your doctor for safer alternatives or protective medications."
+        },
+        {
+          question: "Can I drink alcohol while taking ibuprofen?",
+          answer: "Combining alcohol with ibuprofen increases risk of stomach bleeding. It's best to avoid alcohol or limit intake to minimal amounts while taking ibuprofen, especially with regular use."
+        }
+      ],
+      ingredients: {
+        active: "Ibuprofen",
+        inactive: ["Colloidal silicon dioxide", "Croscarmellose sodium", "Microcrystalline cellulose", "Stearic acid", "Hypromellose", "Polyethylene glycol", "Titanium dioxide"]
+      }
     }
   },
   {
@@ -10678,6 +10759,106 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 94.99,
       maxPrice: 144.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-1-(4-methylphenyl)propan-1-one",
+        molecularFormula: "C₁₁H₁₅NO",
+        molecularWeight: 177.24,
+        casNumber: "1189805-46-6",
+        appearance: "White to off-white crystalline powder or crystals",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Sparingly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in acetone, chloroform"
+        }
+      },
+      researchApplications: {
+        overview: "4-MMC (4-Methylmethcathinone), commonly known as Mephedrone, is a synthetic cathinone derivative extensively studied for its effects on monoamine neurotransmitter systems. As a research compound, it serves as an important tool for investigating stimulant pharmacology, monoamine transporter function, and the neurochemical basis of psychostimulant effects.",
+        primaryUses: [
+          "Monoamine transporter interaction studies",
+          "Neurotransmitter release mechanisms research",
+          "Comparative cathinone pharmacology",
+          "Behavioral pharmacology investigations"
+        ],
+        studyAreas: [
+          "Dopaminergic system function",
+          "Serotonergic neurotransmission",
+          "Noradrenergic pathway studies",
+          "Synthetic cathinone structure-activity relationships",
+          "Neurochemical analysis techniques"
+        ],
+        mechanismOfAction: "4-MMC functions primarily as a substrate-type monoamine releasing agent, promoting the release of dopamine, serotonin, and norepinephrine by acting as a substrate for monoamine transporters (DAT, SERT, NET). Unlike reuptake inhibitors, it causes non-exocytotic release through reverse transport mechanisms."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in a well-ventilated place. Keep container tightly closed"
+        ],
+        storageConditions: "Store in tightly closed containers in a cool (2-8°C preferred), dry place away from light, heat, and incompatible materials. Keep in ventilated area. Store under inert gas if long-term storage required.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations. Do not dispose in regular waste. Contact licensed waste disposal service. Incineration in appropriate facility recommended.",
+        requiredPPE: [
+          "Safety glasses or goggles with side shields",
+          "Nitrile gloves (minimum thickness 0.11mm)",
+          "Lab coat or protective clothing",
+          "Closed-toe shoes",
+          "Work in fume hood or well-ventilated area",
+          "Respiratory protection if dust generation possible (N95 or equivalent)"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.1-100 μM for cell-based assays; 0.01-10 μM for transporter binding studies",
+          stockSolution: "10-100 mM in DMSO for in vitro work",
+          workingSolution: "Dilute to appropriate concentration in aqueous buffer immediately before use"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in DMSO for optimal solubility",
+          "Protect solutions from light during storage and use",
+          "Use within 6 months of preparation; store at -20°C",
+          "Allow to warm to room temperature before opening to prevent condensation",
+          "Vortex well before use to ensure complete dissolution"
+        ],
+        stabilityData: "Stable as powder for 2 years at -20°C. Stock solutions in DMSO stable for 6 months at -20°C. Aqueous solutions should be prepared fresh daily. Avoid repeated freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents",
+          "Strong acids",
+          "Strong bases",
+          "Avoid exposure to moisture and air for extended periods"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Controlled substance in many jurisdictions. Schedule I in USA. Class B in UK. Researchers must comply with all applicable local, national, and international regulations.",
+        restrictions: "Restricted to licensed research facilities and institutions. Requires appropriate controlled substance registration and DEA licensing in USA. Not for human or animal consumption.",
+        certifications: ["GLP compliant", "ISO 9001:2015 facility", "DEA registered supplier"],
+        complianceNotes: "This material is supplied for research purposes only. End users must maintain appropriate licenses and comply with all applicable regulations regarding acquisition, storage, use, and disposal. Records of use must be maintained."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. (2013). Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 168(2):458-70.",
+          "Baumann MH, et al. (2012). The designer methcathinone analogs, mephedrone and methylone, are substrates for monoamine transporters. Neuropsychopharmacology. 37(5):1192-203.",
+          "Hadlock GC, et al. (2011). 4-Methylmethcathinone (mephedrone): neuropharmacological effects of a designer stimulant of abuse. J Pharmacol Exp Ther. 339(2):530-6.",
+          "Kehr J, et al. (2011). Mephedrone, compared with MDMA and amphetamine, releases more serotonin than dopamine. Br J Pharmacol. 164(8):1949-58."
+        ]
+      }
     }
   },
   {
@@ -10698,6 +10879,110 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 124.99,
       maxPrice: 194.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-Phenyl-2-(pyrrolidin-1-yl)pentan-1-one",
+        molecularFormula: "C₁₅H₂₁NO",
+        molecularWeight: 231.33,
+        casNumber: "14530-33-7",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Practically insoluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in chloroform, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "α-Pyrrolidinopentiophenone (α-PVP) is a synthetic cathinone derivative with a pyrrolidine ring structure. It is extensively researched for its interactions with monoamine transporters, particularly dopamine transporter (DAT), making it valuable for studying stimulant pharmacology, dopaminergic neurotransmission, and structure-activity relationships of synthetic cathinones.",
+        primaryUses: [
+          "Dopamine transporter (DAT) inhibition studies",
+          "Monoamine reuptake inhibition research",
+          "Pyrrolidinophenone class pharmacology",
+          "Comparative stimulant research"
+        ],
+        studyAreas: [
+          "Dopaminergic neurotransmission mechanisms",
+          "Transporter binding affinity studies",
+          "Behavioral pharmacology of stimulants",
+          "Structure-activity relationship analysis",
+          "Analytical method development"
+        ],
+        mechanismOfAction: "α-PVP primarily functions as a norepinephrine-dopamine reuptake inhibitor (NDRI), blocking the reuptake of dopamine and norepinephrine by inhibiting their respective transporters (DAT and NET). It shows high selectivity for DAT with potent inhibitory effects."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P405 - Store locked up"
+        ],
+        storageConditions: "Store in tightly closed containers at 2-8°C in a locked facility. Protect from light, moisture, and heat. Store under inert gas (nitrogen or argon) for long-term storage. Controlled substance storage requirements apply.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Must be disposed as controlled substance waste per DEA regulations. Contact licensed hazardous/controlled substance waste disposal service. Incineration at approved facility required. Maintain disposal records.",
+        requiredPPE: [
+          "Safety goggles with side shields",
+          "Nitrile or neoprene gloves (thickness ≥0.11mm)",
+          "Lab coat (flame-resistant preferred)",
+          "Closed-toe chemical-resistant shoes",
+          "Work exclusively in fume hood",
+          "Respiratory protection (N95 minimum) when dust generation possible",
+          "Face shield for large-scale handling"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.01-50 μM for cellular assays; 0.001-1 μM for transporter studies",
+          stockSolution: "10-50 mM in DMSO",
+          workingSolution: "Dilute to final concentration in aqueous buffer immediately before experiments"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity DMSO",
+          "Protect from light exposure at all times",
+          "Store stocks at -20°C in small aliquots to avoid freeze-thaw",
+          "Equilibrate to room temperature before opening containers",
+          "Vortex thoroughly; may require brief sonication for complete dissolution",
+          "Final DMSO concentration in biological assays should not exceed 0.1-0.5%"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under inert atmosphere. DMSO stock solutions stable 6 months at -20°C protected from light. Aqueous solutions stable <24 hours at 4°C. Degradation accelerated by light, heat, and moisture.",
+        incompatibilities: [
+          "Strong oxidizing agents (permanganates, peroxides)",
+          "Strong acids and bases",
+          "Prolonged exposure to air and moisture",
+          "UV light and direct sunlight"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA. Illegal in most European countries. Class B in UK. Stringent controls apply in most jurisdictions worldwide.",
+        restrictions: "Available ONLY to DEA-registered research facilities with Schedule I license. Requires detailed protocol submission and approval. Strict record-keeping and security measures mandatory. Not for human or veterinary use under any circumstances.",
+        certifications: ["DEA licensed supplier", "ISO 17025 accredited", "GLP compliant facility"],
+        complianceNotes: "End users must maintain valid DEA Schedule I registration. All acquisitions, storage, use, and disposal must be documented and reported per DEA regulations (21 CFR 1304). Facilities must meet security requirements under 21 CFR 1301. Annual inventory required."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Marusich JA, et al. (2014). Effects of synthetic cathinones contained in 'bath salts' on motor activity and schedule-controlled behavior. Neuropsychopharmacology. 39(3):598-609.",
+          "Gannon BM, et al. (2017). Vapor inhalation of α-pyrrolidinopentiophenone (α-PVP): pharmacokinetics and effects. Neuropharmacology. 122:88-94.",
+          "Kolanos R, et al. (2015). 'Deconstruction' of the abused synthetic cathinone methylenedioxypyrovalerone (MDPV) and an examination of effects at the human dopamine transporter. ACS Chem Neurosci. 6(10):1777-82.",
+          "Simmler LD, et al. (2013). Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 168(2):458-70."
+        ]
+      }
     }
   },
   {
@@ -10718,6 +11003,111 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 98.99,
       maxPrice: 154.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-1-(3,4-methylenedioxyphenyl)propan-1-one",
+        molecularFormula: "C₁₁H₁₃NO₃",
+        molecularWeight: 207.23,
+        casNumber: "186028-79-5",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.5% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in methanol, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "Methylone (βk-MDMA, bk-MDMA) is a synthetic cathinone and empathogen structurally related to MDMA. As a β-keto analog of MDMA, it serves as an important research tool for studying the effects of structural modifications on entactogenic properties, monoamine transporter interactions, and the pharmacological differences between cathinone and amphetamine classes.",
+        primaryUses: [
+          "Entactogen pharmacology research",
+          "Monoamine transporter substrate activity studies",
+          "MDMA analog comparative research",
+          "Serotonin and dopamine release mechanisms"
+        ],
+        studyAreas: [
+          "Serotonergic neurotransmission",
+          "Dopaminergic system interactions",
+          "Behavioral effects of empathogens",
+          "Structure-activity relationships of substituted cathinones",
+          "Neurochemical analysis and detection methods"
+        ],
+        mechanismOfAction: "Methylone functions primarily as a substrate-type releaser at monoamine transporters, promoting non-exocytotic release of serotonin, dopamine, and norepinephrine. It shows preferential activity at SERT compared to DAT, though with a more balanced serotonin/dopamine profile than MDMA."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed containers under inert atmosphere (nitrogen or argon). Protect from light, moisture, and heat. Store in locked, controlled substance storage area. Keep away from incompatible materials.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose as controlled substance waste according to DEA regulations and local, state, federal requirements. Contact licensed controlled substance disposal service. Complete disposal documentation required. Incineration at approved facility mandatory.",
+        requiredPPE: [
+          "Safety goggles or face shield",
+          "Nitrile gloves (minimum 0.11mm thickness)",
+          "Laboratory coat (preferably flame-resistant)",
+          "Closed-toe chemical-resistant footwear",
+          "Conduct all work in certified fume hood",
+          "Respiratory protection (N95 or P100) for powder handling",
+          "Additional protective equipment as risk assessment dictates"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.1-100 μM for cellular assays; 0.01-10 μM for transporter studies",
+          stockSolution: "10-100 mM in DMSO for optimal stability",
+          workingSolution: "Dilute in appropriate buffer to desired concentration immediately before use"
+        },
+        preparationNotes: [
+          "Dissolve in high-purity anhydrous DMSO for stock solutions",
+          "Protect from light during preparation and storage",
+          "Store aliquots at -20°C; avoid repeated freeze-thaw cycles",
+          "Allow vials to reach room temperature before opening to prevent condensation",
+          "Vortex thoroughly; brief sonication may aid dissolution",
+          "Keep final DMSO concentration in biological systems ≤0.1-0.5%"
+        ],
+        stabilityData: "Stable as powder for 2 years at -20°C under inert gas. DMSO stocks stable 6-12 months at -20°C protected from light. Aqueous solutions should be prepared fresh; maximum stability 24 hours at 4°C. Degradation accelerated by light, air, moisture, and elevated temperatures.",
+        incompatibilities: [
+          "Strong oxidizing agents",
+          "Strong acids and bases",
+          "Avoid prolonged exposure to air and moisture",
+          "Protect from UV light"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA (DEA). Class B in UK. Controlled in most European countries and worldwide. Check local regulations before ordering.",
+        restrictions: "Available ONLY to properly licensed research institutions with Schedule I DEA registration. Requires detailed research protocol and institutional approval. Strict security and record-keeping requirements apply. NOT for human or animal consumption.",
+        certifications: ["DEA Schedule I licensed supplier", "ISO 17025 accredited laboratory", "GLP compliant", "ISO 9001:2015 certified"],
+        complianceNotes: "Purchasers must provide valid Schedule I DEA registration documentation. All transactions documented per 21 CFR 1304. Facility security must meet 21 CFR 1301 requirements. Biennial inventory and annual reports required. Records maintained for minimum 2 years."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "López-Arnau R, et al. (2012). Comparative neuropharmacology of three psychostimulant cathinone derivatives: mephedrone, methylone, and methylenedioxypyrovalerone (MDPV). Br J Pharmacol. 167(2):407-20.",
+          "Baumann MH, et al. (2012). The designer methcathinone analogs, mephedrone and methylone, are substrates for monoamine transporters. Neuropsychopharmacology. 37(5):1192-203.",
+          "Cozzi NV, et al. (1999). Pharmacological examination of trifluoromethyl ring-substituted methcathinone analogs. Eur J Pharmacol. 381(2-3):63-9.",
+          "Simmler LD, et al. (2013). Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 168(2):458-70."
+        ]
+      }
     }
   },
   {
@@ -10738,6 +11128,114 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 92.99,
       maxPrice: 144.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Ethylamino)-1-(3,4-methylenedioxyphenyl)propan-1-one",
+        molecularFormula: "C₁₂H₁₅NO₃",
+        molecularWeight: 221.25,
+        casNumber: "802855-66-9",
+        appearance: "White to slightly off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in methanol, acetone, chloroform"
+        }
+      },
+      researchApplications: {
+        overview: "Ethylone (3,4-methylenedioxy-N-ethylcathinone, bk-MDEA) is a synthetic cathinone with empathogenic properties, structurally analogous to MDEA (Eve). It represents an N-ethyl homolog of methylone and serves as a valuable research compound for investigating the effects of N-alkyl substitution on cathinone pharmacology and comparing behavioral/neurochemical profiles across empathogen subclasses.",
+        primaryUses: [
+          "N-alkyl substitution effects on cathinone activity",
+          "Comparative empathogen pharmacology",
+          "Monoamine transporter interaction studies",
+          "Serotonin and dopamine release research"
+        ],
+        studyAreas: [
+          "Structure-activity relationships in substituted cathinones",
+          "Serotonergic system modulation",
+          "Dopaminergic neurotransmission",
+          "Behavioral pharmacology of empathogens",
+          "Analytical chemistry and forensic detection methods"
+        ],
+        mechanismOfAction: "Ethylone acts primarily as a monoamine releaser, functioning as a substrate at SERT, DAT, and NET to promote non-exocytotic neurotransmitter release. Like other substituted cathinones, it shows substrate-type releasing activity rather than pure reuptake inhibition, with effects on both serotonin and dopamine systems."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in a well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store in tightly closed containers at 2-8°C under inert atmosphere (nitrogen preferred). Protect from light, heat, air, and moisture. Maintain in locked controlled substance storage facility with appropriate security measures. Store away from oxidizing agents and incompatible materials.",
+        shelfLife: "2 years when properly stored under recommended conditions",
+        disposalGuidelines: "Must be disposed as Schedule I controlled substance waste in compliance with DEA regulations (21 CFR). Contact licensed hazardous/controlled substance disposal contractor. Maintain complete disposal records with DEA Form 41. Incineration at DEA-approved facility required.",
+        requiredPPE: [
+          "ANSI-approved safety goggles or face shield",
+          "Chemical-resistant gloves (nitrile or neoprene, ≥0.11mm)",
+          "Lab coat or chemical-resistant apron",
+          "Closed-toe, chemical-resistant footwear",
+          "All operations in certified fume hood or ventilated enclosure",
+          "Respiratory protection (NIOSH N95 minimum) when airborne exposure possible",
+          "Consider additional protection based on risk assessment"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.1-100 μM for cell-based assays; 0.001-10 μM for receptor/transporter binding studies",
+          stockSolution: "10-100 mM in anhydrous DMSO",
+          workingSolution: "Dilute to experimental concentrations in appropriate aqueous buffer immediately before use"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO under inert atmosphere if possible",
+          "Protect from light exposure during all handling and storage",
+          "Aliquot stocks into small volumes to minimize freeze-thaw cycles",
+          "Equilibrate sealed containers to room temperature before opening",
+          "Vortex thoroughly; brief water bath sonication (room temp) may assist dissolution",
+          "Maintain DMSO concentration ≤0.1-0.5% in final biological assays",
+          "Document all preparation steps for reproducibility"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under nitrogen or argon atmosphere. DMSO stock solutions stable 6-12 months at -20°C when protected from light and stored in amber glass vials. Aqueous solutions less stable; use within 4-6 hours at room temperature or 24 hours at 4°C. Avoid freeze-thaw; degradation products may form with repeated cycling.",
+        incompatibilities: [
+          "Strong oxidizing agents (nitric acid, hydrogen peroxide, permanganates)",
+          "Strong reducing agents",
+          "Strong acids and bases",
+          "Prolonged exposure to atmospheric oxygen and moisture",
+          "Direct UV or sunlight exposure"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA. Illegal in most EU countries. Class B in UK. Controlled worldwide under analogue laws. Verify legal status in your jurisdiction before procurement.",
+        restrictions: "Available EXCLUSIVELY to institutions and laboratories with valid Schedule I DEA registration and controlled substance license. Requires submission of research protocol, institutional DEA registration certificate, and end-user statement. Security, storage, and record-keeping requirements per 21 CFR 1301-1304. NOT for human or veterinary use under any circumstances.",
+        certifications: ["DEA Schedule I licensed supplier", "ISO 17025:2017 accredited testing laboratory", "GMP/GLP compliant facility", "ISO 9001:2015 quality management"],
+        complianceNotes: "All transactions require valid Schedule I DEA certificate of registration. Documentation per 21 CFR 1304 mandatory for all acquisitions, distributions, and disposals. Facilities must comply with security requirements (21 CFR 1301.71-1301.76). Biennial inventory required (21 CFR 1304.11). Annual controlled substance summary due to DEA. Retain all records minimum 2 years."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Iversen L, et al. (2013). Stimulant khat and ethcathinone (ethylcathinone) and novel cathinone derivatives. Drug Test Anal. 5(6):503-18.",
+          "Eshleman AJ, et al. (2017). Substituted methcathinones differ in transporter and receptor interactions. Biochem Pharmacol. 144:125-139.",
+          "Simmler LD, et al. (2013). Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 168(2):458-70.",
+          "Baumann MH, et al. (2013). The designer methcathinone analogs, mephedrone and methylone, are substrates for monoamine transporters in brain tissue. Neuropsychopharmacology. 37(5):1192-203."
+        ]
+      }
     }
   },
   {

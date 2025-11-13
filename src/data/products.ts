@@ -19715,6 +19715,68 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 79.99,
       maxPrice: 119.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(4-Methylphenyl)-2-(ethylamino)propan-1-one",
+        molecularFormula: "C12H17NO",
+        molecularWeight: "191.27 g/mol",
+        casNumber: "1225622-14-9",
+        appearance: "White to off-white crystalline powder",
+        solubility: "Hydrochloride salt: soluble in water, ethanol, methanol. Freebase: soluble in organic solvents.",
+        stability: "Stable when stored properly as HCl salt. Protect from light, heat, and moisture."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Monoamine transporter research (DAT, NET, SERT)",
+          "Ethyl-substituted cathinone SAR studies",
+          "Comparison with methyl-substituted analogs (4-MMC)",
+          "Forensic toxicology reference standards",
+          "Neurotransmitter release mechanism studies",
+          "Analytical method development"
+        ],
+        therapeuticPotential: "4-MEC (4-Methylethcathinone) is structurally related to 4-MMC (mephedrone) with an N-ethyl group instead of N-methyl. Research explores how the ethyl substitution affects monoamine transporter activity and selectivity. The compound helps understand SAR of alkyl-substituted cathinones.",
+        researchLimitations: "Limited published research. May be controlled under cathinone analog provisions. Associated with stimulant adverse effects in uncontrolled settings. No approved medical use."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Stimulant cathinone with psychoactive properties. May cause cardiovascular and CNS effects. Handle as controlled substance analog.",
+        requiredPPE: [
+          "Nitrile gloves",
+          "Safety goggles",
+          "Lab coat",
+          "Work in fume hood",
+          "Respiratory protection for powder handling"
+        ],
+        storageConditions: "Store at room temperature or refrigerated in sealed containers. Protect from light and moisture. Controlled substance storage protocols where applicable.",
+        disposalGuidelines: "Dispose through hazardous waste contractor per controlled substance regulations. Document all disposals.",
+        emergencyProcedures: "In case of exposure: Remove contaminated clothing, wash skin with soap and water. Eye contact: Rinse 15 minutes. Suspected ingestion: Seek medical attention immediately. May cause stimulant effects requiring cardiovascular monitoring."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Use analytical balance in controlled environment",
+          "Prepare stock solutions in appropriate solvents",
+          "Analytical methods: LC-MS/MS, GC-MS, HPLC-UV",
+          "Implement chain of custody procedures",
+          "Validate purity before critical use"
+        ],
+        qualityControl: "Certificate of Analysis: HPLC purity ≥97.5%, mass spectrum confirmation, NMR data, salt form identification.",
+        handlingPrecautions: "Avoid exposure. Active at milligram doses. Never work alone. Can be absorbed through skin or inhaled. Wash hands thoroughly after handling."
+      },
+      regulatoryInformation: {
+        legalStatus: "Regulatory status varies. May be controlled under cathinone analog acts. Check local regulations.",
+        restrictedJurisdictions: "May be controlled in regions with broad cathinone scheduling. Verify current status.",
+        complianceRequirements: "Where controlled: secure storage, maintain records, implement chain of custody.",
+        researchLicensing: "May require controlled substance registration depending on jurisdiction."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis with HPLC purity, MS confirmation, appearance, and batch documentation.",
+        msds: "Safety Data Sheet with stimulant warnings and emergency procedures.",
+        nmr: "NMR spectra showing cathinone scaffold with N-ethyl and para-methyl substitutions.",
+        hplc: "HPLC chromatogram at 254 nm showing purity and retention time.",
+        mass: "Mass spectrum: [M+H]+ m/z 192. Fragmentation pattern consistent with 4-MEC structure.",
+        synthesisRoute: "Synthesized from 4-methylacetophenone via halogenation and reaction with ethylamine."
+      },
+      researchNotes: "4-MEC is the N-ethyl homolog of 4-MMC (mephedrone), differing only in the alkyl substituent on the amine nitrogen. This subtle structural change can significantly affect pharmacology - N-ethyl substitution typically increases lipophilicity and may alter transporter selectivity. Research comparing 4-MEC with 4-MMC helps elucidate how N-alkyl chain length affects cathinone activity at monoamine transporters. The compound acts as a releaser and reuptake inhibitor at dopamine, norepinephrine, and serotonin transporters, though exact potency and selectivity may differ from 4-MMC. Limited published data exists. Appeared in recreational drug markets as designer stimulant, leading to regulatory attention. For research purposes only - not for human or veterinary use."
     }
   },
   {

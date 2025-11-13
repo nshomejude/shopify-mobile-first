@@ -15248,6 +15248,70 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 104.99,
       maxPrice: 162.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "8-Fluoro-6-(2-fluorophenyl)-1-methyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine",
+        molecularFormula: "C17H12F2N4",
+        molecularWeight: "310.30 g/mol",
+        casNumber: "28910-99-8",
+        appearance: "White to off-white crystalline powder",
+        solubility: "Soluble in DMSO, ethanol, methanol; sparingly soluble in water. Enhanced solubility as hydrochloride salt.",
+        stability: "Stable under normal storage conditions. Protect from light and moisture. Benzodiazepines generally stable but may degrade in strongly acidic or basic conditions."
+      },
+      researchApplications: {
+        primaryUses: [
+          "GABA-A receptor pharmacology research (benzodiazepine binding site)",
+          "Structure-activity relationship studies of triazolobenzodiazepines",
+          "Receptor binding assays and functional characterization",
+          "Comparative pharmacology vs alprazolam and other benzodiazepines",
+          "Forensic toxicology reference standards",
+          "Analytical method development for designer benzodiazepines"
+        ],
+        therapeuticPotential: "Flualprazolam is a fluorinated derivative of alprazolam with the triazolobenzodiazepine scaffold. The addition of a fluorine atom at the 8-position may enhance receptor binding affinity and alter pharmacokinetics. Research explores SAR of fluorinated benzodiazepines, metabolism pathways, and potency relationships. Designer benzodiazepines like flualprazolam help understand the structural requirements for GABA-A modulation.",
+        researchLimitations: "Limited published peer-reviewed research. Regulatory status unclear in many jurisdictions - may be controlled under analog provisions. Potency reported to be higher than alprazolam, requiring careful dose consideration in research. Lack of clinical safety data."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Benzodiazepine analog with CNS depressant properties. Potentially habit-forming. May cause respiratory depression, especially in combination with other CNS depressants. Handle as controlled substance analog.",
+        requiredPPE: [
+          "Nitrile gloves",
+          "Safety goggles or face shield",
+          "Lab coat",
+          "Work in fume hood or well-ventilated area",
+          "Respiratory protection when handling powders"
+        ],
+        storageConditions: "Store at room temperature (15-25°C) in tightly sealed containers protected from light and moisture. Controlled substance storage protocols recommended. Keep in secure, locked storage.",
+        disposalGuidelines: "Dispose through licensed hazardous waste contractor following controlled substance protocols. May require DEA-witnessed destruction depending on jurisdiction. Do not pour down drain or discard in regular waste. Document all disposals.",
+        emergencyProcedures: "In case of exposure: Remove contaminated clothing. Wash skin with soap and water. Eye contact: Rinse for 15 minutes. If ingestion suspected or CNS depression observed: Seek immediate medical attention. Flumazenil may be considered as benzodiazepine antagonist. Monitor respiratory function. Risk of dependence and withdrawal - medical supervision required for repeated exposures."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Use analytical balance for accurate milligram-level weighing",
+          "Prepare stock solutions in DMSO or ethanol at known concentrations",
+          "Dilute to working concentrations in appropriate buffers",
+          "Store solutions at -20°C in small aliquots to avoid freeze-thaw",
+          "Analytical methods: HPLC-UV, LC-MS/MS, GC-MS",
+          "Validate against authenticated reference standards",
+          "Implement chain of custody procedures for accountability"
+        ],
+        qualityControl: "Certificate of Analysis includes HPLC purity (≥98%), mass spectrometry confirmation of molecular weight, identification tests, and comparison to authenticated alprazolam and triazolam for structural confirmation.",
+        handlingPrecautions: "Potent benzodiazepine - active at low milligram doses. Avoid exposure. Never work alone. Implement buddy system. Accidental ingestion can cause sedation, amnesia, and respiratory depression. Do not handle if taking other CNS depressants. The fluorinated structure may increase potency compared to alprazolam."
+      },
+      regulatoryInformation: {
+        legalStatus: "Regulatory status varies by jurisdiction. Not explicitly scheduled in USA but may be controlled under Federal Analog Act as analog of alprazolam (Schedule IV). Some states have explicitly banned it. Controlled in UK, Sweden, and other European countries. Check local regulations.",
+        restrictedJurisdictions: "Explicitly controlled in: UK (Psychoactive Substances Act), Sweden, Switzerland. May be controlled under analog provisions in USA, Canada, and other countries. Schedule IV in some jurisdictions.",
+        complianceRequirements: "Treat as Schedule IV analog where applicable. Secure storage required. Maintain acquisition and use records. Document chain of custody. Research protocols should include institutional review and safety oversight. Report any adverse events or diversions.",
+        researchLicensing: "Specific licensing requirements vary by jurisdiction. May require Schedule IV registration or equivalent. Institutional approval for research involving benzodiazepine analogs recommended. Follow good laboratory practices and controlled substance procedures."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes chemical structure confirmation, HPLC purity ≥98%, mass spectrum showing [M+H]+ at m/z 311, and comparison to alprazolam retention time on HPLC.",
+        msds: "Safety Data Sheet noting CNS depressant properties, benzodiazepine pharmacology, controlled substance analog status, and emergency procedures including flumazenil as potential antidote.",
+        nmr: "1H-NMR and 13C-NMR spectra showing characteristic triazolobenzodiazepine scaffold, fluorine substitutions at 8-position and 2'-position on phenyl ring. 19F-NMR confirms fluorine positions.",
+        hplc: "Reverse-phase HPLC with UV detection at 254 nm. Retention time distinct from but related to alprazolam. Purity calculation showing main peak and minor impurities.",
+        mass: "High-resolution mass spectrometry: [M+H]+ m/z 311.1102 (calculated 311.1108 for C17H13F2N4+). MS/MS fragmentation pattern consistent with triazolobenzodiazepine structure.",
+        synthesisRoute: "Synthesized via modifications of alprazolam synthesis with introduction of fluorine substituents. Synthetic routes involve cyclization of appropriate benzodiazepine precursors with triazole formation."
+      },
+      researchNotes: "Flualprazolam is a designer benzodiazepine that emerged in the research chemical market as an alprazolam analog with enhanced fluorination. The compound features two fluorine atoms - one at the 8-position of the benzodiazepine core (analogous to triazolam) and one on the 2'-position of the phenyl ring (analogous to alprazolam). This dual fluorination pattern may enhance lipophilicity, metabolic stability, and receptor binding affinity. Anecdotal reports suggest flualprazolam is more potent than alprazolam on a milligram-per-milligram basis, consistent with other fluorinated benzodiazepines. The triazolobenzodiazepine class (alprazolam, triazolam, flualprazolam) tends to have faster onset and higher potency than classical benzodiazepines due to enhanced lipophilicity and GABA-A receptor binding. Research applications include: understanding SAR of benzodiazepine fluorination, studying receptor pharmacology, developing analytical detection methods, and forensic reference standards. Limited published data exists - most information comes from user reports and forensic case studies. The compound has been detected in forensic samples related to impaired driving and overdoses (often in combination with opioids). Metabolism likely involves hydroxylation and glucuronidation similar to alprazolam. Designer benzodiazepines pose risks due to unknown potency, lack of clinical data, and potential contamination. For research purposes only - not for human or veterinary use. Handle as high-potency CNS depressant with abuse potential."
     }
   },
   {
@@ -15381,6 +15445,74 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 198.99,
       maxPrice: 299.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "3,4-Dichloro-N-[2-(dimethylamino)cyclohexyl]-N-methylbenzamide",
+        molecularFormula: "C16H22Cl2N2O",
+        molecularWeight: "329.27 g/mol",
+        casNumber: "82657-23-6 (hydrochloride: 82657-24-3)",
+        appearance: "White to off-white crystalline powder (hydrochloride salt)",
+        solubility: "Hydrochloride salt soluble in water, ethanol, methanol. Freebase soluble in organic solvents (DMSO, chloroform).",
+        stability: "Stable when stored properly. Hydrochloride salt preferred for improved stability and handling. Protect from light, heat, and moisture."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Mu-opioid receptor (MOR) pharmacology research",
+          "Structure-activity relationship studies of non-fentanyl synthetic opioids",
+          "Comparative analgesic pharmacology",
+          "Opioid receptor binding and functional assays",
+          "Forensic toxicology reference standards",
+          "Analytical method development for designer opioids"
+        ],
+        therapeuticPotential: "U-47700 represents a non-fentanyl structural class of synthetic opioids developed by Upjohn in the 1970s as potential analgesic candidates. Research explores its pharmacological profile as mu-opioid receptor agonist with reported potency 7.5x morphine. The compound helps understand alternative scaffolds for opioid receptor activation beyond morphinan and fentanyl structures. Historical interest in non-addictive analgesics.",
+        researchLimitations: "CRITICAL SAFETY CONCERN: Associated with numerous overdose deaths when diverted to recreational use. Schedule I controlled substance in USA (as of 2016). Research restricted to qualified laboratories with DEA Schedule I registration. High abuse potential. Respiratory depression risk. Limited published research on safety profile. No approved medical use."
+      },
+      safetyAndHandling: {
+        hazardClassification: "EXTREMELY DANGEROUS: Potent synthetic opioid with high overdose risk. Schedule I controlled substance. Causes severe respiratory depression. High abuse and dependence potential. Active at milligram doses - fatal if ingested.",
+        requiredPPE: [
+          "Double nitrile gloves (mandatory - can be absorbed through skin)",
+          "Full face shield or safety goggles",
+          "Lab coat (dedicated to opioid work)",
+          "Work in certified fume hood",
+          "Respiratory protection (P100 cartridge) when weighing powders",
+          "Consider full-body protective equipment for bulk handling"
+        ],
+        storageConditions: "Schedule I controlled substance storage: Store at -20°C in locked, secure vault with limited access. Double-lock system required per DEA regulations. Maintain perpetual inventory. Tamper-evident containers. Video surveillance recommended. Protect from light and moisture.",
+        disposalGuidelines: "Schedule I destruction requirements: Dispose only through DEA-registered reverse distributor or via witnessed destruction by DEA-authorized personnel. Complete destruction documentation required. Two authorized witnesses mandatory. Maintain destruction records indefinitely. NEVER pour down drain or discard in regular waste.",
+        emergencyProcedures: "LIFE-THREATENING EMERGENCY: Any exposure may be fatal. Skin contact: Remove contaminated clothing immediately, wash with copious soap and water. Suspected ingestion/inhalation: CALL 911 IMMEDIATELY. Administer naloxone (Narcan) 4mg intranasal or 0.4-2mg IV immediately and repeat q2-3min as needed. Multiple doses often required. Monitor respiratory function. Provide rescue breathing/CPR if needed. Transport to emergency department - prolonged monitoring required. Have naloxone readily available in all areas where U-47700 is handled."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "NEVER work alone - buddy system with naloxone-trained partner mandatory",
+          "Use microbalance in certified fume hood with emergency eyewash/shower nearby",
+          "Prepare dilute stock solutions immediately to minimize powder handling",
+          "Work in µg/mL to low mg/mL concentration ranges only",
+          "Use volumetric dilutions rather than direct powder weighing when possible",
+          "Keep naloxone (multiple doses) immediately accessible",
+          "Implement multiple verification steps for all dose calculations",
+          "Analytical methods: LC-MS/MS (most sensitive), GC-MS, HPLC-UV",
+          "Decontaminate all surfaces with oxidizing agents after use",
+          "Maintain rigorous chain of custody and DEA inventory records"
+        ],
+        qualityControl: "Certificate of Analysis includes Schedule I controlled substance notice, HPLC purity (≥98%), mass spectrometry confirmation, optical rotation (if applicable), and comparison to DEA reference standards. Batch-specific identification and documentation.",
+        handlingPrecautions: "EXTREME DANGER: This compound has caused numerous fatal overdoses. Active at single-digit milligram doses. Can be absorbed through skin or inhaled as dust. Accidental exposure can be FATAL. Never taste, never smell. Change gloves frequently. Use disposable lab coats. Shower and change clothes after work session. Do not eat, drink, or use restroom without thorough hand washing and clothing change. Consider this compound as dangerous as fentanyl."
+      },
+      regulatoryInformation: {
+        legalStatus: "Schedule I controlled substance in United States (DEA, as of November 2016). Illegal for human consumption worldwide. Research use requires DEA Schedule I registration and license. Controlled in Canada, EU, UK, Australia, and most other countries. Emergency scheduling due to overdose crisis.",
+        restrictedJurisdictions: "Controlled globally: USA (Schedule I), Canada (Schedule I), UK (Class A), EU member states, Australia (Schedule 9), New Zealand, and most other countries. No exceptions for research without proper licensing.",
+        complianceRequirements: "DEA Schedule I registration MANDATORY. Secure vault storage with double-lock. Perpetual inventory required. Biennial inventory to DEA. Report theft/loss within 1 business day. Research protocols require extensive justification and institutional oversight. Personnel background checks. Annual DEA inspections. Severe penalties for violations.",
+        researchLicensing: "Schedule I research registration from DEA absolutely required. Institutional approvals (DEA, IRB, institutional safety committees) mandatory. Qualified researchers at registered facilities only. Approved research protocol with legitimate scientific purpose. No human administration without FDA IND (extremely unlikely to be approved)."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes Schedule I controlled substance warnings, chemical structure, HPLC purity, mass spectrum, optical rotation, and heavy metals testing. Batch numbers for DEA tracking.",
+        msds: "Safety Data Sheet with URGENT WARNINGS about potency, overdose risk, respiratory depression, Schedule I status, naloxone as antidote, and emergency procedures. Emphasizes life-threatening danger.",
+        nmr: "1H-NMR and 13C-NMR spectra showing characteristic benzamide structure with 3,4-dichloro substitution and N,N-dimethylaminocyclohexyl group. Confirms trans configuration of cyclohexane substituents.",
+        hplc: "Reverse-phase HPLC with UV detection at 254 nm. Retention time and purity assessment. Shows separation from related synthetic opioids and metabolites.",
+        mass: "High-resolution mass spectrometry: [M+H]+ m/z 329.1150/331.1121 (chlorine isotope pattern). MS/MS fragmentation shows characteristic benzamide and dimethylaminocyclohexyl fragments.",
+        synthesisRoute: "Synthesized from 3,4-dichlorobenzoyl chloride and trans-N,N-dimethyl-1,2-cyclohexanediamine. Multiple synthetic routes described in patent literature and forensic publications. Synthesis restricted due to controlled substance status."
+      },
+      researchNotes: "U-47700 (also called 'Pink,' 'Pinky,' or 'U4') is a synthetic opioid originally developed by Upjohn pharmaceutical company in the 1970s as part of a research program exploring non-morphinan analgesics. The compound was abandoned for development due to side effects and addictive potential. It resurfaced in the 2010s as a 'research chemical' and designer drug, leading to an international overdose crisis. U-47700 is a full mu-opioid receptor agonist with reported potency approximately 7.5 times that of morphine in animal studies (though potency estimates vary widely). The compound represents the benzamide class of synthetic opioids - structurally distinct from fentanyl, morphine, and other common opioid scaffolds. This unique structure provides research opportunities for understanding alternative mechanisms of opioid receptor activation and SAR studies. However, the compound is extremely dangerous and has been linked to hundreds of deaths worldwide, often in combination with other drugs. Common routes of administration in diverted use included insufflation, injection, and oral, all carrying high overdose risk due to potency and respiratory depression. Metabolism involves N-demethylation and other pathways, but metabolic data is limited. The compound's appearance in the illicit drug supply prompted emergency scheduling by the DEA in 2016. Research applications are now strictly limited to: forensic method development, pharmacological characterization for toxicology purposes, and understanding synthetic opioid SAR. NO human administration is permitted outside of (extremely unlikely) FDA-approved clinical trials. This compound serves as a cautionary example of how research chemicals can cause public health crises when diverted from legitimate research to recreational use. For forensic and research purposes only - NEVER for human or veterinary use. Handle with maximum caution as life-threatening substance."
     }
   },
   {
@@ -15401,6 +15533,72 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 186.99,
       maxPrice: 284.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "3,4-Dichloro-N-[[1-(dimethylamino)cyclohexyl]methyl]benzamide",
+        molecularFormula: "C16H22Cl2N2O",
+        molecularWeight: "329.27 g/mol",
+        casNumber: "55154-30-8 (hydrochloride: 55154-31-9)",
+        appearance: "White to off-white crystalline powder (hydrochloride salt)",
+        solubility: "Hydrochloride salt: water-soluble, soluble in ethanol, methanol. Freebase: soluble in organic solvents.",
+        stability: "Stable when stored properly as hydrochloride salt. Protect from light, heat, and excessive moisture."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Mu-opioid receptor pharmacology and SAR studies",
+          "Comparative pharmacology of synthetic opioids",
+          "Forensic toxicology reference standards",
+          "Analytical method development for designer opioids",
+          "Opioid receptor binding and functional characterization",
+          "Metabolism and pharmacokinetic studies"
+        ],
+        therapeuticPotential: "AH-7921 is a synthetic opioid from the benzamide class, originally developed by Allen & Hanburys in the 1970s. Research indicated moderate mu-opioid agonist activity with reported potency 80% that of morphine. The compound provides a research tool for understanding non-fentanyl, non-morphinan opioid structures. Historical context: abandoned for clinical development due to toxicity concerns.",
+        researchLimitations: "Schedule I controlled substance in many countries due to abuse and overdose concerns. Associated with fatal toxicity cases. Respiratory depression risk. Limited published pharmacological data. No approved medical use. Research restricted to licensed facilities."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Potent synthetic opioid - Schedule I controlled substance (USA, UK, EU). Causes respiratory depression. High abuse potential. Active at low milligram doses. Handle as dangerous opioid analog.",
+        requiredPPE: [
+          "Double nitrile gloves (risk of skin absorption)",
+          "Safety goggles or full face shield",
+          "Lab coat (dedicated to opioid research)",
+          "Work in fume hood",
+          "Respiratory protection (N95 or P100) when handling powders",
+          "Consider secondary containment for powder handling"
+        ],
+        storageConditions: "Schedule I storage requirements: Secure locked storage (double-lock where required). Store at room temperature or -20°C in tightly sealed containers. Controlled substance inventory system. Limited access to authorized personnel only. Video monitoring recommended.",
+        disposalGuidelines: "Schedule I disposal: Use DEA-registered reverse distributor or witnessed destruction by authorized personnel. Document all disposals per DEA regulations. Two witnesses required. Never pour down drain or discard in regular waste. Complete destruction records mandatory.",
+        emergencyProcedures: "OPIOID EMERGENCY: Any exposure may cause respiratory depression. Skin/eye contact: Remove contaminated clothing, wash thoroughly with soap and water. Rinse eyes for 15 minutes. Suspected ingestion/inhalation: Administer naloxone (Narcan) immediately - 4mg intranasal or 0.4-2mg IV, repeat as needed. Call 911. Monitor breathing and provide CPR if necessary. Have naloxone available in all work areas."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Never work alone - buddy system with naloxone-trained partner",
+          "Use analytical balance in fume hood with emergency equipment nearby",
+          "Prepare stock solutions promptly to minimize powder exposure",
+          "Work with dilute solutions (µg/mL to low mg/mL range)",
+          "Keep naloxone immediately accessible (multiple doses)",
+          "Analytical methods: LC-MS/MS, GC-MS, HPLC-UV",
+          "Implement strict chain of custody and inventory controls",
+          "Decontaminate work areas after each use"
+        ],
+        qualityControl: "Certificate of Analysis includes controlled substance designation, HPLC purity (≥98%), mass spectrometry confirmation, melting point determination, and comparison to authenticated reference materials. DEA tracking information included.",
+        handlingPrecautions: "Dangerous opioid analog - treat with same caution as fentanyl. Active at milligram doses. Can be absorbed through skin or inhaled. Never taste or smell. Change gloves frequently. Avoid creating aerosols or dust. Wash hands thoroughly before leaving work area. Do not eat, drink, or smoke in laboratory."
+      },
+      regulatoryInformation: {
+        legalStatus: "Schedule I controlled substance in USA (DEA, as of January 2016), UK (Class A, 2013), Sweden (2013), and controlled in many other jurisdictions. Illegal for human consumption. Research requires appropriate Schedule I registration and licensing.",
+        restrictedJurisdictions: "Controlled in: USA (Schedule I), UK (Class A), Sweden, Belgium, Poland, Czech Republic, and other EU countries. Check local regulations - status varies by country.",
+        complianceRequirements: "DEA Schedule I registration required (USA). Secure storage with perpetual inventory. Regular DEA reporting and inspections. Report theft/loss within 1 business day. Research protocols require institutional approval and justification. Background checks for personnel with access.",
+        researchLicensing: "Schedule I research license mandatory for possession and use. Institutional approvals (DEA, IRB, safety committees) required. Qualified researchers at registered facilities only. Legitimate scientific research purpose must be documented."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes Schedule I warnings, structural confirmation, HPLC purity, mass spectrum with characteristic dichlorobenzamide pattern, and batch-specific identification for controlled substance tracking.",
+        msds: "Safety Data Sheet emphasizing opioid properties, respiratory depression risk, controlled substance status, naloxone as antidote, and emergency procedures.",
+        nmr: "1H-NMR and 13C-NMR spectra showing benzamide core with 3,4-dichloro substitution and dimethylaminocyclohexylmethyl side chain. Distinguishes from structurally related U-47700.",
+        hplc: "Reverse-phase HPLC with UV detection at 254 nm. Chromatogram shows main peak purity and impurity profile. Retention time distinct from other benzamide opioids.",
+        mass: "Mass spectrometry: [M+H]+ m/z 329.1 with characteristic dichloro isotope pattern (M+2 and M+4 peaks). MS/MS fragmentation shows dichlorobenzoyl cation and dimethylaminocyclohexyl fragments.",
+        synthesisRoute: "Synthesized from 3,4-dichlorobenzoyl chloride and aminomethylcyclohexane derivatives. Synthesis documented in patent literature and research publications. Restricted due to controlled status."
+      },
+      researchNotes: "AH-7921 is a synthetic opioid developed by Allen & Hanburys (now part of GlaxoSmithKline) in the 1970s as part of a program exploring novel analgesic compounds. The compound is a benzamide-class opioid structurally related to U-47700 but with a different side chain configuration (cyclohexylmethyl vs cyclohexyl). In animal studies, AH-7921 demonstrated mu-opioid receptor agonist activity with potency estimated at 80% that of morphine, though exact potency varies by assay. The compound was never developed for clinical use due to adverse effects including respiratory depression and addiction potential. It resurfaced in the 2010s as a 'research chemical' and designer drug, leading to emergency scheduling in multiple countries after being linked to overdose deaths. The structural differences from U-47700 (position of dimethylamino group - on the ring in U-47700 vs on the methylene linker in AH-7921) provide valuable SAR insights for opioid receptor interactions. Metabolism involves N-dealkylation and hydroxylation, with multiple metabolites detected in forensic cases. AH-7921 represents the risk of 'orphan' pharmaceutical compounds being revived decades later in uncontrolled contexts. Research applications now focus on: forensic detection methods, toxicological profiling, understanding synthetic opioid SAR, and developing analytical standards. The compound has been detected in post-mortem cases, often in combination with other drugs. No approved medical use exists. For forensic and controlled research purposes only - not for human or veterinary use. Handle as dangerous opioid requiring maximum safety precautions and naloxone availability."
     }
   },
   {
@@ -15421,6 +15619,73 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 192.99,
       maxPrice: 289.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-Cyclohexyl-4-(1,2-diphenylethyl)piperazine",
+        molecularFormula: "C24H32N2",
+        molecularWeight: "348.53 g/mol",
+        casNumber: "422556-08-9 (dihydrochloride: 127000-90-2)",
+        appearance: "White to off-white crystalline powder (as dihydrochloride salt)",
+        solubility: "Dihydrochloride salt: water-soluble, soluble in ethanol and methanol. Freebase: soluble in organic solvents (DMSO, chloroform, acetone).",
+        stability: "Stable as dihydrochloride salt when stored properly. Protect from light, heat, and moisture. Freebase may be less stable."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Atypical opioid receptor pharmacology research",
+          "Structure-activity relationship studies of piperazine-based opioids",
+          "Forensic toxicology and analytical reference standards",
+          "Comparative pharmacology of designer opioids",
+          "Investigation of opioid analogs with unique structural scaffolds",
+          "Toxicological profiling and adverse effects research"
+        ],
+        therapeuticPotential: "MT-45 represents a structurally unique class of synthetic opioids based on the piperazine scaffold. Unlike morphinan, fentanyl, or benzamide opioids, MT-45 features a diphenylethylpiperazine structure. Research suggests weak opioid agonist activity, though with severe toxicity concerns. The compound provides insights into alternative structural approaches to opioid receptor modulation, though clinical development was never pursued due to adverse effects.",
+        researchLimitations: "SEVERE TOXICITY CONCERNS: Associated with ototoxicity, neurotoxicity, tissue damage at injection sites, and deaths. Schedule I controlled substance in many jurisdictions. Very limited published pharmacological data. No approved medical use. Extreme caution required in research settings."
+      },
+      safetyAndHandling: {
+        hazardClassification: "HIGHLY TOXIC synthetic opioid with severe adverse effect profile. Schedule I controlled substance. Causes ototoxicity (hearing loss), neurotoxicity, tissue necrosis, and respiratory depression. Extremely dangerous - not suitable for most research applications.",
+        requiredPPE: [
+          "Double nitrile gloves (mandatory - absorb through skin)",
+          "Full face shield",
+          "Protective lab coat (dedicated to toxic opioid work)",
+          "Work in certified chemical fume hood",
+          "Respiratory protection (P100 cartridge) for powder handling",
+          "Consider full protective suit for bulk handling"
+        ],
+        storageConditions: "Schedule I controlled substance storage protocols: Store in locked, secure vault at room temperature or -20°C. Double-lock system where required. Maintain perpetual inventory. Tamper-evident containers. Limited access to authorized personnel. Environmental and security controls per DEA regulations.",
+        disposalGuidelines: "Schedule I destruction requirements: Dispose via DEA-registered reverse distributor or witnessed destruction by DEA-authorized personnel. Two witnesses required. Complete documentation of destruction. Maintain records indefinitely. NEVER dispose in regular waste or down drain. Neutralize/inactivate before destruction when possible.",
+        emergencyProcedures: "TOXIC EMERGENCY: Exposure may cause multiple organ toxicity in addition to opioid effects. Skin contact: Remove contaminated clothing immediately, wash with copious soap and water. Eye contact: Rinse continuously for 15+ minutes. Suspected ingestion/inhalation: Administer naloxone (may only partially reverse effects) - 4mg intranasal or 2mg IV, repeat as needed. CALL 911 IMMEDIATELY. Monitor for respiratory depression, cardiovascular effects, and signs of neurotoxicity or ototoxicity. Transport to emergency department for extended monitoring. Have naloxone available in multiple locations."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "NEVER work alone - buddy system with naloxone and emergency training",
+          "Use microanalytical balance in fume hood with full safety equipment",
+          "Minimize powder handling - prepare dilute solutions immediately",
+          "Work exclusively with solutions in µg/mL concentration range",
+          "Multiple naloxone doses immediately accessible",
+          "Analytical methods: LC-MS/MS (preferred), GC-MS, HPLC-UV",
+          "Rigorous chain of custody and DEA inventory documentation",
+          "Thorough decontamination after each use with oxidizing agents",
+          "Consider this compound unsuitable for routine research due to toxicity"
+        ],
+        qualityControl: "Certificate of Analysis includes Schedule I controlled substance warnings, HPLC purity (≥98%), mass spectrometry confirmation, heavy metals testing, identification of salt form, and toxicity warnings. Comparison to authenticated reference standards.",
+        handlingPrecautions: "EXTREME DANGER: This compound has caused severe toxicity including permanent hearing loss, tissue damage, and deaths. Active at low milligram doses. Causes damage beyond typical opioid effects. Can be absorbed through skin. Never taste, never smell, never create aerosols. Change gloves frequently. Use disposable equipment. Shower and change clothes after handling. The toxicity profile makes this compound unsuitable for most research applications."
+      },
+      regulatoryInformation: {
+        legalStatus: "Schedule I controlled substance in USA (DEA, emergency scheduling 2015, permanent 2016), Sweden (2014), UK, and many other countries. Illegal for human consumption worldwide. Research requires Schedule I registration and license. Emergency scheduled due to severe toxicity and deaths.",
+        restrictedJurisdictions: "Controlled in: USA (Schedule I), UK, Sweden (2014), Belgium, and other EU countries. China banned in 2015. Check local regulations - expanding restrictions due to safety concerns.",
+        complianceRequirements: "DEA Schedule I registration mandatory. Secure vault storage with double-lock. Perpetual inventory system. Biennial DEA inventory reports. Report theft/loss within 1 business day. Research protocols require extensive safety justification and institutional oversight. Personnel background checks. Annual DEA inspections. Severe penalties for violations.",
+        researchLicensing: "Schedule I research license required. Institutional approvals (DEA, IRB, institutional safety committees, hazardous materials committee) mandatory due to toxicity. Qualified researchers at registered facilities only. Research purpose must justify use of such toxic compound. Human research absolutely prohibited."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes Schedule I warnings, toxicity alerts, chemical structure, HPLC purity, mass spectrum, identification of salt form (dihydrochloride), and batch-specific documentation for DEA tracking.",
+        msds: "Safety Data Sheet with URGENT TOXICITY WARNINGS about ototoxicity, neurotoxicity, tissue damage, opioid effects, Schedule I status, and comprehensive emergency procedures. Emphasizes extreme danger and unsuitability for most applications.",
+        nmr: "1H-NMR and 13C-NMR spectra showing piperazine ring, cyclohexyl group, and characteristic 1,2-diphenylethyl moiety. Spectral data distinguishes from other opioid classes.",
+        hplc: "Reverse-phase HPLC with UV detection at 254 nm. Shows main peak purity and minor impurities. Retention time characteristic of diphenylethylpiperazine structure.",
+        mass: "High-resolution mass spectrometry: [M+H]+ m/z 349.2644 (calculated for C24H33N2+). MS/MS fragmentation shows diphenylethyl and cyclohexylpiperazine fragments characteristic of MT-45 structure.",
+        synthesisRoute: "Synthesized from 1-cyclohexylpiperazine and 1,2-diphenylethyl halide derivatives. Multiple synthetic approaches documented in research literature. Synthesis restricted due to controlled substance status."
+      },
+      researchNotes: "MT-45 (1-cyclohexyl-4-(1,2-diphenylethyl)piperazine) is a highly controversial synthetic opioid that emerged in the research chemical market around 2013. Unlike other synthetic opioids, MT-45 has a completely unique piperazine-based structure unrelated to morphine, fentanyl, or other common opioid scaffolds. The compound was mentioned in a 1970s Japanese patent as a potential analgesic but was never clinically developed. When it appeared decades later as a designer drug, it quickly became apparent that MT-45 has an exceptionally dangerous toxicity profile. Reported adverse effects include: severe ototoxicity (bilateral hearing loss - often permanent), neurotoxicity, caustic tissue damage at injection sites, respiratory depression, and cardiovascular effects. Multiple deaths have been attributed to MT-45, often in combination with other substances. The mechanism of ototoxicity is not fully understood but may involve direct cochlear damage unrelated to opioid receptor activation. Pharmacologically, MT-45 appears to have weak to moderate mu-opioid agonist activity, though quantitative data is limited. Its toxicity makes it unsuitable for therapeutic development and highly problematic even for research. The compound was emergency scheduled by the DEA in 2015 and permanently placed in Schedule I in 2016. Sweden and other countries enacted similar controls. Research applications are extremely limited due to the severe toxicity profile - primarily restricted to: forensic method development, toxicological case studies, and understanding the adverse effects of designer opioids. The compound serves as a cautionary example of how structurally novel opioid scaffolds can have unpredictable and dangerous toxicity profiles. NO human administration is permissible under any circumstances. Use in research should be avoided unless specifically justified for toxicology or forensic purposes. If work with MT-45 is absolutely necessary, implement maximum safety precautions, have multiple naloxone doses available, and ensure emergency medical resources are immediately accessible. For strictly controlled research purposes only - not for human or veterinary use under any circumstances."
     }
   },
   {

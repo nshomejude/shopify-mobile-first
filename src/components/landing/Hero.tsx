@@ -36,18 +36,18 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[700px] md:min-h-[850px] overflow-hidden">
+    <section className="relative min-h-[700px] md:min-h-[850px] overflow-hidden bg-gradient-to-br from-primary/5 via-background to-accent/5">
       {/* Animated Gradient Mesh Background */}
       <div className="absolute inset-0 bg-background">
         <div className="absolute inset-0 opacity-60" style={{ background: 'var(--gradient-mesh)' }} />
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/20 via-transparent to-accent/20 animate-pulse" />
       </div>
 
-      {/* Animated Gradient Orbs */}
+      {/* Animated Gradient Orbs - Enhanced */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-br from-primary/30 to-accent/20 rounded-full blur-3xl animate-float-slow" />
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-accent/30 to-primary/20 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: '-10s' }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-primary/10 to-transparent rounded-full blur-2xl animate-pulse-glow" />
+        <div className="absolute -top-40 -right-40 w-[500px] h-[500px] bg-gradient-to-br from-primary/40 to-accent/30 rounded-full blur-3xl animate-float-slow shadow-2xl" />
+        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-gradient-to-tr from-accent/40 to-primary/30 rounded-full blur-3xl animate-float-slow shadow-2xl" style={{ animationDelay: '-10s' }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-gradient-radial from-primary/20 to-transparent rounded-full blur-2xl animate-pulse-glow" />
       </div>
 
       {/* Floating Medical Icons Background */}

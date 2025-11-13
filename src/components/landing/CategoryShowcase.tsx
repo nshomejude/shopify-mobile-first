@@ -7,10 +7,10 @@ import { ArrowRight, FileText, Shield } from "lucide-react";
 
 export const CategoryShowcase = () => {
   return (
-    <section className="relative py-20 md:py-28 overflow-hidden">
-      {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-muted/50 via-background to-background" />
-      <div className="absolute inset-0 opacity-30" style={{ background: 'var(--gradient-mesh)' }} />
+    <section className="relative py-20 md:py-28 overflow-hidden bg-gradient-to-b from-accent/5 via-background to-primary/5">
+      {/* Background with enhanced gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-muted/70 via-background to-background" />
+      <div className="absolute inset-0 opacity-40 animate-pulse-glow" style={{ background: 'var(--gradient-mesh)' }} />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">

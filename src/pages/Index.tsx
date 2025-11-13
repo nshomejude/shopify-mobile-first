@@ -12,6 +12,11 @@ import { DemoModeBanner } from "@/components/DemoModeBanner";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      {/* Top Promo Banner */}
+      <div className="bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] animate-gradient-x text-primary-foreground py-3 text-center font-bold text-sm md:text-base shadow-lg">
+        🎉 FLASH SALE: 40% OFF All Products + FREE Shipping | Limited Time Only! 🎉
+      </div>
+      
       <Navigation />
       <div className="container mx-auto px-4 pt-6">
         <DemoModeBanner />

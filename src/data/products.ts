@@ -6054,32 +6054,120 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     formOptions: ["Tablet"],
     tags: ["anxiety", "benzodiazepine", "seizures", "controlled"],
     medicalInfo: {
-      dosage: {
-        standard: "Panic disorder: Start 0.25mg twice daily, increase to 1mg/day after 3 days. Maximum 4mg/day. Seizures: Start 1.5mg/day in 3 doses, increase gradually.",
-        administration: [
-          "Take with or without food",
-          "Usually 2-3 times daily",
-          "Orally disintegrating tablet available",
-          "Long half-life (30-40 hours) - taper very slowly"
-        ],
-        specialPopulations: "Start with lower doses in elderly. Reduce dose in hepatic impairment. Avoid in pregnancy."
+      uses: {
+        overview: "Clonazepam is a benzodiazepine medication primarily used to prevent and control seizures and treat panic disorder. It enhances GABA activity in the brain, producing calming effects on the nervous system.",
+        conditions: [
+          "**Seizure Disorders** - Effective for absence seizures (petit mal), Lennox-Gastaut syndrome, akinetic and myoclonic seizures",
+          "**Panic Disorder** - Reduces frequency and severity of panic attacks with or without agoraphobia",
+          "**Anxiety Disorders** - Off-label use for generalized anxiety disorder and social anxiety",
+          "**Movement Disorders** - Adjunctive treatment for akathisia, restless leg syndrome, and periodic limb movement disorder",
+          "**Acute Mania** - Sometimes used as adjunct in bipolar disorder management"
+        ]
       },
       sideEffects: {
-        common: ["Somnolence", "Dizziness", "Coordination problems", "Memory impairment", "Depression", "Fatigue"],
-        serious: ["Physical dependence and addiction", "Severe withdrawal (including seizures)", "Respiratory depression", "Cognitive impairment", "Suicidal thoughts", "Paradoxical reactions"]
+        common: ["Drowsiness and sedation", "Dizziness and unsteadiness", "Coordination problems (ataxia)", "Memory impairment", "Increased salivation", "Fatigue"],
+        serious: [
+          "Physical dependence and addiction with prolonged use",
+          "Severe withdrawal symptoms including seizures if stopped abruptly",
+          "Respiratory depression, especially with other CNS depressants",
+          "Cognitive and psychomotor impairment",
+          "Suicidal thoughts or behavior",
+          "Paradoxical reactions (agitation, aggression, hallucinations)"
+        ],
+        notes: "Clonazepam has a long half-life (30-40 hours) which can lead to accumulation with repeated dosing. Elderly patients are particularly sensitive to benzodiazepine effects."
       },
-      contraindications: [
-        "Significant hepatic disease",
-        "Acute narrow-angle glaucoma",
-        "Known hypersensitivity to benzodiazepines",
-        "Pregnancy and breastfeeding"
-      ],
-      drugInteractions: [
-        "CNS depressants (opioids, alcohol) - severe respiratory depression, death",
-        "CYP3A4 inhibitors - increased clonazepam levels",
-        "Phenytoin, carbamazepine - decreased clonazepam efficacy",
-        "Other anticonvulsants - additive CNS depression",
-        "Valproic acid - may trigger absence seizures"
+      warnings: {
+        blackBoxWarnings: [
+          "CONCOMITANT USE WITH OPIOIDS: May result in profound sedation, respiratory depression, coma, and death. Reserve for patients lacking alternatives.",
+          "DEPENDENCE AND WITHDRAWAL: Physical dependence develops with regular use. Abrupt discontinuation may precipitate withdrawal seizures. Taper gradually."
+        ],
+        generalWarnings: [
+          "Risk of abuse and addiction - classified as Schedule IV controlled substance",
+          "May impair mental and physical abilities - avoid driving until effects are known",
+          "Increased risk of falls and fractures, especially in elderly",
+          "May worsen depression - monitor for suicidal ideation",
+          "Use with caution in patients with history of substance abuse",
+          "Long-term use associated with cognitive impairment"
+        ],
+        specificPopulations: [
+          "Pregnancy Category D - risk of congenital malformations and neonatal withdrawal",
+          "Excreted in breast milk - not recommended during breastfeeding",
+          "Elderly patients require lower doses due to increased sensitivity",
+          "Use with extreme caution in patients with respiratory disease"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Severe hepatic disease or impairment",
+          "Acute narrow-angle glaucoma",
+          "Significant respiratory depression",
+          "Known hypersensitivity to benzodiazepines",
+          "Concurrent use with high-dose opioids (unless no alternatives)"
+        ],
+        precautions: [
+          "Start with low doses in elderly or debilitated patients",
+          "Monitor liver function with long-term use",
+          "Screen for history of substance abuse",
+          "Assess risk of suicide in depressed patients",
+          "Use minimal effective dose for shortest duration",
+          "Taper dose gradually to discontinue - never stop abruptly"
+        ],
+        pregnancyBreastfeeding: "Pregnancy Category D. Increases risk of congenital malformations. May cause neonatal withdrawal syndrome. Excreted in breast milk and may cause sedation in nursing infants. Generally not recommended during pregnancy or breastfeeding."
+      },
+      dosage: {
+        overview: "Dosing must be individualized based on response and tolerability. Always start with lowest effective dose and titrate slowly.",
+        adult: "**Seizures**: Initial 1.5mg/day divided into 3 doses. May increase by 0.5-1mg every 3 days. Maximum 20mg/day. **Panic Disorder**: Initial 0.25mg twice daily. Increase to target dose of 1mg/day after 3 days. Some patients may benefit from doses up to 4mg/day.",
+        pediatric: "**Seizures (under 10 years or <30kg)**: Initial 0.01-0.03mg/kg/day divided into 2-3 doses, not to exceed 0.05mg/kg/day. May increase by 0.25-0.5mg every 3 days to maximum of 0.1-0.2mg/kg/day. **Over 10 years**: Adult dosing.",
+        elderly: "Start with 0.25mg once or twice daily due to increased sensitivity. Increase gradually if needed. Use lowest effective dose.",
+        specialPopulations: "**Hepatic impairment**: Start with low doses and monitor closely. Contraindicated in severe hepatic disease. **Renal impairment**: Dosage adjustment not typically required but use with caution.",
+        administration: [
+          "May be taken with or without food",
+          "Take at same time(s) each day for consistent levels",
+          "Orally disintegrating tablets available - dissolve on tongue",
+          "Do not stop abruptly - must taper gradually over weeks to months",
+          "Long half-life allows for less frequent dosing than some benzodiazepines"
+        ],
+        missedDose: "Take as soon as remembered unless close to next dose. Do not double dose. For seizure control, contact healthcare provider if multiple doses missed.",
+        overdose: "Symptoms include extreme drowsiness, confusion, impaired coordination, diminished reflexes, and coma. Rarely fatal when taken alone but can be lethal with other CNS depressants. Seek emergency care immediately. Flumazenil may be used as antidote.",
+        storage: "Store at room temperature away from moisture and heat. Keep in original container. Secure location due to abuse potential."
+      },
+      interactions: {
+        drugInteractions: [
+          "**CNS Depressants (opioids, alcohol, barbiturates)**: CRITICAL - Risk of severe respiratory depression, coma, and death. Avoid concurrent use.",
+          "**CYP3A4 Inhibitors (ketoconazole, itraconazole, nefazodone)**: Increased clonazepam levels and effects. May need dose reduction.",
+          "**CYP3A4 Inducers (phenytoin, carbamazepine, rifampin)**: Decreased clonazepam efficacy. May need dose increase.",
+          "**Other Anticonvulsants**: Additive CNS depression. Monitor closely and adjust doses.",
+          "**Valproic Acid**: May trigger absence seizures in patients with multiple seizure types.",
+          "**Phenothiazines, MAO inhibitors, TCAs**: Enhanced sedative effects."
+        ],
+        substancesToAvoid: [
+          "**Alcohol**: Severe interaction - enhances sedation and respiratory depression risk",
+          "**Grapefruit juice**: May increase clonazepam levels via CYP3A4 inhibition",
+          "**Kava, valerian, St. John's wort**: May increase sedation or alter drug levels"
+        ],
+        interactionOverview: "Clonazepam is primarily metabolized by CYP3A4. Drugs affecting this enzyme can significantly alter clonazepam levels. Most dangerous interactions involve other CNS depressants, particularly opioids, which can lead to fatal respiratory depression."
+      },
+      faq: [
+        {
+          question: "How long does clonazepam take to work?",
+          answer: "For acute anxiety or panic, effects begin within 20-60 minutes with peak levels at 1-4 hours. For seizure prevention, therapeutic effects develop over days to weeks with regular dosing."
+        },
+        {
+          question: "Is clonazepam addictive?",
+          answer: "Yes, clonazepam has significant potential for physical and psychological dependence, especially with long-term use or high doses. It's classified as a Schedule IV controlled substance. Never increase dose or frequency without medical supervision."
+        },
+        {
+          question: "How do I safely stop taking clonazepam?",
+          answer: "Never stop abruptly as this can cause dangerous withdrawal symptoms including seizures. Taper gradually under medical supervision, typically reducing by 0.25-0.5mg every 3-7 days. Tapering may take weeks to months depending on dose and duration of use."
+        },
+        {
+          question: "Can I drive while taking clonazepam?",
+          answer: "Clonazepam impairs cognitive and motor functions. Avoid driving or operating machinery until you know how it affects you. Many patients cannot drive safely while taking this medication, especially at higher doses."
+        },
+        {
+          question: "How does clonazepam compare to other benzodiazepines?",
+          answer: "Clonazepam has a long half-life (30-40 hours) compared to alprazolam (12-15 hours) or lorazepam (10-20 hours). This provides more stable blood levels with less frequent dosing but also means it takes longer to eliminate and may accumulate with repeated doses."
+        }
       ]
     }
   },
@@ -12891,6 +12979,110 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 118.99,
       maxPrice: 184.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "Naphthalen-1-yl-(1-pentylindol-3-yl)methanone",
+        molecularFormula: "C24H23NO",
+        molecularWeight: "341.4 g/mol",
+        casNumber: "209414-07-3",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol", "Acetone"]
+      },
+      researchApplications: {
+        overview: "JWH-018 is one of the earliest and most extensively studied synthetic cannabinoid compounds, developed by Professor John W. Huffman. It acts as a full agonist at both CB1 and CB2 cannabinoid receptors with high binding affinity.",
+        primaryUses: [
+          "Cannabinoid receptor binding studies",
+          "CB1/CB2 receptor pharmacology research",
+          "Structure-activity relationship (SAR) studies",
+          "Metabolite identification and toxicology research",
+          "Analytical reference standard for forensic laboratories"
+        ],
+        studyAreas: ["Neuropharmacology", "Cannabinoid receptor biology", "Forensic toxicology", "Drug metabolism", "Analytical chemistry"],
+        mechanism: "Functions as a full agonist at CB1 receptors (Ki = 9.0 nM) and CB2 receptors (Ki = 2.94 nM), exhibiting 3-5x higher binding affinity than THC. Produces effects through activation of cannabinoid receptors throughout the central nervous system and periphery."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280: Wear protective gloves/eye protection/face protection",
+          "P301+P312: IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes"
+        ],
+        storageConditions: "Store in a cool, dry place at -20°C in amber glass container. Protect from light, moisture, and oxidizing agents. Keep under inert gas (nitrogen or argon) for long-term storage.",
+        shelfLife: "≥2 years when stored properly at -20°C under inert atmosphere",
+        disposalGuidelines: "Dispose as chemical waste according to local, state, and federal regulations. Do not release into environment. Incineration in approved facility is recommended method.",
+        ppe: ["Nitrile gloves", "Safety goggles", "Lab coat", "Working in fume hood", "Dust mask if handling powder"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 1-10 mM in DMSO", "Working solutions: 0.1-100 μM for cell-based assays", "Binding assays: 0.01-10 μM"],
+        preparationNotes: [
+          "Prepare stock solutions in DMSO at 10 mM concentration",
+          "Dilute working solutions in appropriate buffer immediately before use",
+          "Vortex thoroughly to ensure complete dissolution",
+          "Solution may require brief sonication for complete dissolution",
+          "Protect solutions from light by using amber vials or wrapping in foil",
+          "Aliquot stock solutions to avoid repeated freeze-thaw cycles"
+        ],
+        stabilityData: "Stable in DMSO solution at -20°C for at least 6 months. Aqueous solutions should be prepared fresh. Degradation accelerated by light and oxidation.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids", "Strong bases", "Exposure to UV light"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Controlled substance in many jurisdictions including USA (Schedule I), EU, UK, and numerous other countries.",
+        restrictions: [
+          "Requires valid laboratory credentials and appropriate licenses",
+          "DEA Schedule I controlled substance in United States (as of March 2011)",
+          "Listed on EMCDDA European database of new psychoactive substances",
+          "Prohibited in most countries worldwide",
+          "End-user declaration and institution letterhead required for purchase",
+          "Must maintain chain of custody documentation"
+        ],
+        certifications: ["ISO 9001:2015 certified production", "GMP-compliant manufacturing"],
+        complianceNotes: [
+          "Purchaser responsible for compliance with local laws and regulations",
+          "This material is for in vitro research use only",
+          "Not for use in humans, animals, or clinical diagnostics",
+          "Institutions must have appropriate licenses for controlled substance research",
+          "Maintain accurate records of acquisition, use, and disposal"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Huffman JW, et al. Bioorg Med Chem. 2005;13(1):89-112",
+          "Aung MM, et al. J Chromatogr A. 2000;882(1-2):129-136",
+          "Lindigkeit R, et al. Forensic Sci Int. 2009;191(1-3):58-63",
+          "Sobolevsky T, et al. Forensic Sci Int. 2010;200(1-3):141-147"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "JWH-018 N-(5-hydroxypentyl)",
+          "JWH-018 N-pentanoic acid",
+          "Monohydroxylated metabolites at indole and naphthyl moieties",
+          "Dihydroxylated metabolites"
+        ],
+        pharmacokinetics: "Extensively metabolized by hepatic cytochrome P450 enzymes, primarily CYP2C9 and CYP1A2. Hydroxylation at the pentyl side chain is the major metabolic pathway. Parent compound is rarely detected in biological samples; metabolites are primary markers.",
+        similarCompounds: ["JWH-073", "JWH-081", "JWH-122", "JWH-210", "AM-2201"],
+        studyProtocols: [
+          "CB1/CB2 receptor binding assays using rat brain membranes",
+          "GTPγS functional assays to assess agonist activity",
+          "Cell-based calcium mobilization assays",
+          "Metabolic stability studies using liver microsomes",
+          "LC-MS/MS methods for biological sample analysis"
+        ]
+      }
     }
   },
   {
@@ -12911,6 +13103,120 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 128.99,
       maxPrice: 199.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "N-(1-amino-3-methyl-1-oxobutan-2-yl)-1-(4-fluorobenzyl)-1H-indazole-3-carboxamide",
+        molecularFormula: "C20H21FN4O2",
+        molecularWeight: "368.4 g/mol",
+        casNumber: "1445752-09-9",
+        appearance: "White to beige crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol"]
+      },
+      researchApplications: {
+        overview: "AB-FUBINACA is an indazole-based synthetic cannabinoid that acts as a potent agonist of the CB1 and CB2 cannabinoid receptors. It represents the third generation of synthetic cannabinoids and is significantly more potent than earlier compounds.",
+        primaryUses: [
+          "High-affinity CB1/CB2 receptor binding studies",
+          "Pharmacological potency assessments",
+          "Forensic toxicology reference standards",
+          "Metabolic pathway elucidation studies",
+          "Analytical method development for biological matrices"
+        ],
+        studyAreas: ["Forensic toxicology", "Cannabinoid pharmacology", "Clinical toxicology", "Drug metabolism", "Receptor binding studies"],
+        mechanism: "Highly potent full agonist at CB1 receptors with nanomolar affinity. The 4-fluorobenzyl moiety and indazole core contribute to enhanced receptor binding compared to classical cannabinoids. Acts through G-protein coupled receptor signaling pathways."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H361: Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P202: Do not handle until all safety precautions have been read and understood",
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280: Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312+P330: IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell. Rinse mouth",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing",
+          "P308+P313: IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store at -20°C in amber glass vial under inert atmosphere (nitrogen or argon). Protect from light, heat, and moisture. Keep container tightly closed when not in use.",
+        shelfLife: "≥2 years when stored properly at -20°C under inert gas",
+        disposalGuidelines: "Dispose as hazardous chemical waste according to federal, state, and local regulations. Contact certified waste disposal company. Do not dispose in sewage system or environment. Incineration in licensed facility recommended.",
+        ppe: ["Chemical-resistant nitrile gloves (minimum 0.4mm thickness)", "Safety goggles with side shields", "Laboratory coat", "Closed-toe shoes", "Work in certified fume hood", "Dust mask (N95 or better) when handling powder"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 10 mM in DMSO", "Working concentrations: 0.1 nM - 10 μM for receptor binding studies", "Analytical standards: 0.1-1000 ng/mL in biological matrices"],
+        preparationNotes: [
+          "Prepare stock solutions in anhydrous DMSO to 10 mM concentration",
+          "Warm to 37°C and vortex to ensure complete dissolution if needed",
+          "Dilute in appropriate assay buffer immediately before use",
+          "Use only glass or polypropylene labware - avoid polystyrene",
+          "Protect from light during preparation and storage",
+          "Aliquot stock solution into amber microcentrifuge tubes to minimize freeze-thaw cycles",
+          "Record date of preparation on all aliquots"
+        ],
+        stabilityData: "Stable as powder at -20°C for ≥2 years. DMSO stock solutions stable at -20°C for 6 months when protected from light. Aqueous solutions degrade within 24 hours - prepare fresh daily.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Peroxides", "UV radiation", "Extended exposure to air and moisture"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Controlled as Schedule I substance in multiple countries. Classified as dangerous synthetic cannabinoid.",
+        restrictions: [
+          "Schedule I controlled substance in USA (DEA)",
+          "Psychoactive Substances Act 2016 - UK (Banned)",
+          "Narcotic Drugs Act - Germany (Banned)",
+          "Listed substance in Australia, Canada, and European Union countries",
+          "Requires institutional license for controlled substance research",
+          "End-user declaration mandatory",
+          "Institution letterhead and research protocol may be required",
+          "Chain of custody documentation must be maintained"
+        ],
+        certifications: ["ISO 17025 accredited testing", "GMP-compliant synthesis"],
+        complianceNotes: [
+          "Purchaser assumes full responsibility for legal compliance in their jurisdiction",
+          "Intended for qualified researchers with appropriate training only",
+          "Not approved for human or veterinary applications",
+          "Not for use in clinical diagnostics or food/drug manufacturing",
+          "Maintain detailed inventory records per DEA requirements where applicable",
+          "Report any adverse incidents to appropriate authorities"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Takayama T, et al. Forensic Toxicol. 2014;32:1-8",
+          "Banister SD, et al. ACS Chem Neurosci. 2015;6(9):1445-1458",
+          "Wohlfarth A, et al. Anal Bioanal Chem. 2016;408(14):3751-3765",
+          "Kevin RC, et al. Br J Pharmacol. 2017;174(17):2797-2808"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "AB-FUBINACA N-(4-hydroxybenzyl)",
+          "AB-FUBINACA 3-carboxyindazole",
+          "Ester hydrolysis product (primary metabolite)",
+          "Hydroxylated tert-leucine metabolites",
+          "Multiple phase II glucuronide conjugates"
+        ],
+        pharmacokinetics: "Rapidly metabolized via ester hydrolysis and hydroxylation pathways. Primary metabolism occurs via carboxylesterases and CYP enzymes (CYP3A4, CYP2C9). Parent compound rarely detected in biological samples. Metabolites detected in urine within 1-2 hours of exposure.",
+        similarCompounds: ["ADB-FUBINACA", "AMB-FUBINACA", "FUB-AMB", "5F-ADB", "MDMB-FUBINACA"],
+        studyProtocols: [
+          "CB1/CB2 radioligand binding assays",
+          "[35S]GTPγS functional assays for receptor activation",
+          "LC-MS/MS metabolite identification in liver microsome preparations",
+          "Urine metabolite profiling studies",
+          "Stability studies in various biological matrices",
+          "Solid-phase extraction method development for forensic applications"
+        ]
+      }
     }
   },
   {
@@ -12931,6 +13237,126 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 122.99,
       maxPrice: 189.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "[1-(5-fluoropentyl)-1H-indol-3-yl]-1-naphthalenylmethanone",
+        molecularFormula: "C24H22FNO",
+        molecularWeight: "359.4 g/mol",
+        casNumber: "335161-24-5",
+        appearance: "White to pale yellow crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol", "Acetonitrile"]
+      },
+      researchApplications: {
+        overview: "AM-2201 is a potent synthetic cannabinoid and fluorinated analog of JWH-018. Developed at the Alexandros Makriyannis laboratory, it demonstrates enhanced CB1 receptor binding affinity compared to its non-fluorinated parent compound.",
+        primaryUses: [
+          "CB1/CB2 receptor pharmacology studies",
+          "Structure-activity relationship investigations of fluorinated cannabinoids",
+          "Metabolic pathway characterization",
+          "Analytical reference standard for toxicological analysis",
+          "Development of detection methods for synthetic cannabinoids"
+        ],
+        studyAreas: ["Medicinal chemistry", "Cannabinoid pharmacology", "Forensic toxicology", "Drug metabolism studies", "Analytical method development"],
+        mechanism: "Acts as a full agonist at CB1 receptors with Ki = 1.0 nM and CB2 receptors with Ki = 2.6 nM. The 5-fluoropentyl chain enhances lipophilicity and receptor binding affinity. Produces effects via activation of cannabinoid receptor-mediated G-protein signaling cascades."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H340: May cause genetic defects"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P202: Do not handle until all safety precautions have been read and understood",
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264: Wash hands thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312: IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes",
+          "P308+P313: IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass container under inert atmosphere (nitrogen or argon). Protect from light, moisture, and air. Desiccate if necessary.",
+        shelfLife: "≥2 years when stored at -20°C under proper conditions with desiccation",
+        disposalGuidelines: "Dispose as hazardous chemical waste in accordance with local, state, federal regulations. Do not release into environment or sewage systems. Arrange disposal through licensed waste management company. Incineration in approved facility is preferred method.",
+        ppe: ["Chemical-resistant nitrile gloves", "Safety goggles or face shield", "Laboratory coat", "Closed-toe laboratory shoes", "Use within fume hood", "Respiratory protection (N95 mask minimum) when weighing powder"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 5-10 mM in DMSO", "Working solutions: 1 nM - 100 μM for binding studies", "Calibration standards: 1-1000 ng/mL for LC-MS/MS analysis"],
+        preparationNotes: [
+          "Dissolve in anhydrous DMSO to prepare stock solutions",
+          "Vortex thoroughly and warm to 37°C if needed to ensure complete dissolution",
+          "Prepare working dilutions in assay-appropriate buffer or solvent",
+          "Use glass or polypropylene containers only - avoid polystyrene",
+          "Protect all solutions from light by using amber vials or aluminum foil wrapping",
+          "Aliquot stock solutions to minimize freeze-thaw degradation",
+          "Label all solutions with compound name, concentration, date, and initials",
+          "Final DMSO concentration in cell-based assays should not exceed 0.1-0.5%"
+        ],
+        stabilityData: "Solid compound stable at -20°C for at least 2 years. DMSO stock solutions stable for 6 months at -20°C when protected from light. Aqueous working solutions should be prepared fresh and used within 24 hours due to degradation.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids", "Strong bases", "UV light exposure", "Elevated temperatures", "Moisture"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL REFERENCE USE ONLY - NOT FOR HUMAN OR VETERINARY USE. Controlled substance in numerous jurisdictions worldwide.",
+        restrictions: [
+          "Schedule I controlled substance in United States (DEA, as of 2011)",
+          "Banned in European Union member states",
+          "Controlled in United Kingdom under Psychoactive Substances Act 2016",
+          "Prohibited in Australia, Canada, and many other countries",
+          "Requires appropriate controlled substance research license",
+          "End-user certification required for purchase",
+          "Institutional letterhead and research justification may be requested",
+          "Detailed record-keeping and chain of custody required"
+        ],
+        certifications: ["ISO 9001:2015 quality management", "GMP manufacturing standards"],
+        complianceNotes: [
+          "Buyer responsible for ensuring compliance with all applicable laws",
+          "For use by qualified researchers in licensed facilities only",
+          "Not for human consumption, clinical use, or therapeutic applications",
+          "Not for veterinary medicine or agricultural use",
+          "Maintain inventory logs per regulatory requirements",
+          "Report losses or thefts to appropriate authorities immediately",
+          "Dispose through licensed hazardous waste contractors only"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Huffman JW, et al. Bioorg Med Chem. 2005;13(1):89-112",
+          "Grigoryev A, et al. J Chromatogr B. 2011;879(15-16):1126-1136",
+          "de Jager AD, et al. J Chromatogr B. 2012;897:22-31",
+          "Sobolevsky T, et al. Forensic Sci Int. 2012;215(1-3):184-190"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "AM-2201 N-(5-hydroxypentyl)",
+          "AM-2201 N-pentanoic acid (major urinary metabolite)",
+          "Hydroxylated indole metabolites",
+          "Hydroxylated naphthoyl metabolites",
+          "Defluorinated metabolites",
+          "Various glucuronide conjugates"
+        ],
+        pharmacokinetics: "Extensively metabolized primarily by CYP2C9, CYP1A2, and CYP3A4. Main metabolic pathways include hydroxylation of the pentyl chain, oxidation to carboxylic acid, hydroxylation of indole and naphthalene rings, and defluorination. Parent compound minimally detected in biological samples; N-pentanoic acid metabolite is primary marker.",
+        similarCompounds: ["JWH-018", "MAM-2201", "5F-AM-2201", "JWH-122", "AM-2233"],
+        studyProtocols: [
+          "CB1/CB2 receptor radioligand displacement assays",
+          "[35S]GTPγS functional assays measuring receptor activation",
+          "In vitro metabolism studies using human liver microsomes",
+          "LC-MS/MS metabolite profiling in urine and blood",
+          "Method development for extraction from biological matrices",
+          "Stability assessment in various storage conditions",
+          "Cross-reactivity studies with other cannabinoid analogs"
+        ]
+      }
     }
   },
   {
@@ -13091,6 +13517,135 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 126.99,
       maxPrice: 194.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "Methyl 2-(1-(4-fluorobenzyl)-1H-indazole-3-carboxamido)-3-methylbutanoate",
+        molecularFormula: "C21H22FN3O3",
+        molecularWeight: "383.4 g/mol",
+        casNumber: "1971007-88-1",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol", "Acetonitrile"]
+      },
+      researchApplications: {
+        overview: "FUB-AMB (also known as MMB-FUBINACA or AMB-FUBINACA) is a potent indazole-based synthetic cannabinoid. It represents the newer generation of synthetic cannabinoids featuring an indazole core with ester linkage, showing extremely high CB1 receptor affinity.",
+        primaryUses: [
+          "Ultra-high affinity CB1/CB2 receptor binding studies",
+          "Indazole-based cannabinoid SAR research",
+          "Forensic toxicology analytical reference material",
+          "Metabolic profiling and biomarker identification",
+          "Ester hydrolysis kinetics studies"
+        ],
+        studyAreas: ["Clinical toxicology", "Forensic science", "Cannabinoid receptor pharmacology", "Drug metabolism and pharmacokinetics", "Analytical chemistry"],
+        mechanism: "Extremely potent CB1 receptor full agonist with sub-nanomolar binding affinity. The indazole-3-carboxamide core combined with 4-fluorobenzyl substituent and valine-methyl ester moiety produces enhanced receptor binding. Ester functionality allows rapid metabolism via hydrolysis pathways."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H301: Toxic if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H341: Suspected of causing genetic defects",
+          "H361: Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P202: Do not handle until all safety precautions have been read and understood",
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264: Wash exposed skin thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/protective clothing/eye protection/face protection",
+          "P281: Use personal protective equipment as required",
+          "P301+P310: IF SWALLOWED: Immediately call a POISON CENTER/doctor",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses",
+          "P308+P313: IF exposed or concerned: Get medical advice/attention",
+          "P330: Rinse mouth"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass vial under inert gas (nitrogen or argon). Protect from light, moisture, heat, and air exposure. Desiccate in low-humidity environment (<30% RH).",
+        shelfLife: "≥2 years at -20°C under inert atmosphere with proper desiccation. May degrade more rapidly due to ester functionality.",
+        disposalGuidelines: "Dispose as toxic chemical waste according to all federal, state, and local environmental regulations. Consult with certified hazardous waste disposal company. Do not discharge into drains, sewers, or environment. Incineration in licensed facility with appropriate air pollution control is recommended disposal method.",
+        ppe: ["Double nitrile gloves (inner and outer)", "Chemical splash goggles or full face shield", "Laboratory coat (disposable preferred)", "Closed-toe chemical-resistant shoes", "Work exclusively in certified fume hood with airflow ≥100 fpm", "N100 or P100 respirator when weighing powder"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 10 mM in DMSO", "Receptor binding assays: 0.01 nM - 1 μM", "Cell-based assays: 0.1 nM - 10 μM", "Analytical standards: 0.5-500 ng/mL"],
+        preparationNotes: [
+          "Prepare stock solutions in anhydrous DMSO at 10 mM concentration",
+          "Vortex vigorously and warm to 37°C for 5-10 minutes if needed for dissolution",
+          "Due to potency, perform serial dilutions for working concentrations",
+          "Use only glass, polypropylene, or Teflon labware - avoid polystyrene and PVC",
+          "Protect from light at all times - wrap vials in aluminum foil",
+          "Minimize exposure to air to prevent ester hydrolysis",
+          "Prepare aqueous dilutions immediately before use",
+          "Aliquot stock into small volumes (50-100 μL) to avoid repeated freeze-thaw",
+          "Keep detailed log of preparation dates and storage conditions",
+          "Final DMSO concentration in cell assays should not exceed 0.1%"
+        ],
+        stabilityData: "Solid stable at -20°C under inert gas for ≥2 years. DMSO stock solutions stable at -20°C for 3-6 months when protected from light and moisture. Ester bond susceptible to hydrolysis - avoid aqueous solutions. Prepare aqueous working solutions fresh and use within 4-6 hours.",
+        incompatibilities: ["Water (causes ester hydrolysis)", "Strong oxidizing agents", "Strong acids and bases (accelerate hydrolysis)", "Nucleophiles", "UV radiation", "Heat", "Atmospheric moisture"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL USE ONLY - NOT FOR HUMAN OR VETERINARY USE. Internationally controlled dangerous substance. Schedule I in multiple jurisdictions due to high potency and toxicity concerns.",
+        restrictions: [
+          "Schedule I controlled substance in United States (DEA)",
+          "Banned in European Union under early warning system for new psychoactive substances",
+          "Controlled in United Kingdom, Australia, Canada, Japan, and numerous other countries",
+          "Associated with serious adverse events and fatalities",
+          "Requires DEA or equivalent license for possession and use in research",
+          "Institutional review board approval may be required",
+          "End-user certification and research protocol mandatory for purchase",
+          "Strict inventory control and security measures required",
+          "Chain of custody documentation essential",
+          "Regular audits and inspections may apply"
+        ],
+        certifications: ["ISO 17025 accredited analytical testing", "GMP-compliant synthesis and handling"],
+        complianceNotes: [
+          "Purchaser assumes full legal responsibility for proper use and compliance",
+          "For use only by qualified researchers in licensed facilities with appropriate containment",
+          "Strictly prohibited for human consumption, clinical applications, or any non-research use",
+          "Not for veterinary medicine, food production, or environmental release",
+          "Maintain meticulous inventory records with dates, amounts, and end uses",
+          "Report any accidents, exposures, losses, or thefts immediately to authorities",
+          "Personnel handling this compound must receive specialized safety training",
+          "Emergency response protocols must be in place before use"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Banister SD, et al. ACS Chem Neurosci. 2016;7(9):1241-1254",
+          "Wohlfarth A, et al. Forensic Toxicol. 2016;34(1):148-156",
+          "Buchler IP, et al. Drug Test Anal. 2015;7(3):165-171",
+          "Diao X, et al. Forensic Sci Int. 2016;265:61-67"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "FUB-AMB hydrolysis product (primary - methyl ester to carboxylic acid)",
+          "FUB-AMB 3-carboxyindazole",
+          "Hydroxylated valine metabolites",
+          "4-Hydroxybenzyl metabolites",
+          "N-dealkylated products",
+          "Multiple glucuronide and sulfate conjugates"
+        ],
+        pharmacokinetics: "Rapidly metabolized primarily via ester hydrolysis by carboxylesterases (CES1) to form carboxylic acid metabolite. Additional metabolism via CYP3A4, CYP2C9, and other P450 enzymes produces hydroxylated metabolites. Parent compound has very short half-life (<30 min) and is rarely detected. Primary metabolite (hydrolysis product) is main biomarker detected in biological samples.",
+        similarCompounds: ["AMB-FUBINACA (isomer)", "ADB-FUBINACA", "AB-FUBINACA", "5F-AMB", "MDMB-FUBINACA", "MMB-CHMICA"],
+        studyProtocols: [
+          "CB1/CB2 receptor competitive radioligand binding assays using [3H]-CP-55,940",
+          "[35S]GTPγS functional assays to determine efficacy and potency",
+          "In vitro metabolism studies with pooled human liver microsomes (HLM)",
+          "Ester hydrolysis kinetics in human plasma and S9 fractions",
+          "LC-MS/MS method development for biological matrices (blood, urine, oral fluid)",
+          "Authentic specimen analysis from clinical/forensic cases",
+          "Stability testing in various storage conditions and matrices",
+          "Development of immunoassay screening methods"
+        ]
+      }
     }
   },
 
@@ -13107,6 +13662,125 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     rating: 4.5,
     reviews: 32,
     requiresLabLicense: true,
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(4-Chlorophenyl)-2-(methylamino)propan-1-one",
+        molecularFormula: "C10H12ClNO",
+        molecularWeight: "197.66 g/mol",
+        casNumber: "1225617-68-4",
+        appearance: "White to off-white crystalline powder or crystals",
+        purity: "≥98% (HPLC)",
+        solubility: ["Water (as hydrochloride salt)", "DMSO", "Ethanol", "Methanol"]
+      },
+      researchApplications: {
+        overview: "4-CMC (4-Chloromethcathinone, also known as Clephedrone) is a synthetic cathinone derivative with structural similarity to mephedrone. It acts as a monoamine releasing agent with effects on dopamine, norepinephrine, and serotonin systems.",
+        primaryUses: [
+          "Monoamine transporter interaction studies (DAT, NET, SERT)",
+          "Cathinone structure-activity relationship research",
+          "Neurotransmitter release mechanism investigations",
+          "Analytical reference standard for forensic toxicology",
+          "Comparison studies with other substituted cathinones"
+        ],
+        studyAreas: ["Neurochemistry", "Psychopharmacology", "Forensic toxicology", "Addiction neuroscience", "Analytical chemistry"],
+        mechanism: "Functions as a substrate-type releaser at monoamine transporters, promoting release of dopamine and norepinephrine more than serotonin. The 4-chloro substitution modifies potency and selectivity compared to unsubstituted cathinones. Acts through competitive inhibition and reversal of transporter function."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264: Wash hands and exposed skin thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P271: Use only outdoors or in a well-ventilated area",
+          "P280: Wear protective gloves/eye protection/face protection",
+          "P301+P312: IF SWALLOWED: Call a POISON CENTER/doctor if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes",
+          "P312: Call a POISON CENTER/doctor if you feel unwell",
+          "P403+P233: Store in a well-ventilated place. Keep container tightly closed"
+        ],
+        storageConditions: "Store at room temperature (15-25°C) in tightly sealed container in dry location. Protect from light, moisture, and heat. Can also be stored at 2-8°C for extended stability.",
+        shelfLife: "≥2 years when stored properly at room temperature or refrigerated",
+        disposalGuidelines: "Dispose according to local, state, and federal hazardous waste regulations. Do not dispose in regular trash or sewage system. Contact certified chemical waste disposal service. Incineration or chemical neutralization in licensed facility recommended.",
+        ppe: ["Nitrile gloves", "Safety goggles", "Laboratory coat", "Closed-toe shoes", "Work in fume hood when weighing or handling powder", "Dust mask (N95) recommended for powder handling"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 1-10 mM in DMSO or water (as HCl salt)", "Transporter assays: 0.1-100 μM", "Analytical standards: 10-1000 ng/mL"],
+        preparationNotes: [
+          "Hydrochloride salt form is water-soluble and easier to handle",
+          "Prepare stock solutions in DMSO, ethanol, or water depending on application",
+          "For aqueous solutions, may need mild warming and vortexing",
+          "Use glass or polypropylene containers",
+          "Protect solutions from prolonged light exposure",
+          "Filter sterilize aqueous solutions if needed for cell culture work",
+          "pH of aqueous solutions should be monitored and adjusted if necessary",
+          "Aliquot to avoid contamination and repeated freeze-thaw"
+        ],
+        stabilityData: "Solid compound stable at room temperature for ≥2 years. Solutions in DMSO stable at -20°C for at least 6 months. Aqueous solutions stable at 4°C for 1 week or at -20°C for 3 months. Subject to oxidation with prolonged air exposure.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Reducing agents", "Prolonged exposure to air and moisture"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Legal status varies by jurisdiction. Controlled as designer drug or new psychoactive substance in many countries.",
+        restrictions: [
+          "Controlled in multiple jurisdictions including several EU member states",
+          "May be covered under analog/designer drug laws in some countries",
+          "Subject to Psychoactive Substances Act in United Kingdom",
+          "Legal status should be verified in purchaser's jurisdiction before ordering",
+          "Requires valid laboratory credentials for purchase",
+          "End-user declaration may be required",
+          "Institutional letterhead recommended",
+          "Maintain proper documentation and chain of custody"
+        ],
+        certifications: ["ISO 9001:2015 quality management"],
+        complianceNotes: [
+          "Purchaser responsible for ensuring compliance with all applicable laws and regulations",
+          "For use in licensed research facilities by qualified personnel only",
+          "Not approved for human consumption or clinical applications",
+          "Not for veterinary use or food/feed production",
+          "Maintain inventory records per institutional requirements",
+          "Follow proper waste disposal protocols",
+          "Use appropriate safety measures to prevent diversion or misuse"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. Br J Pharmacol. 2013;168(2):458-470",
+          "Uralets V, et al. J Anal Toxicol. 2014;38(8):559-562",
+          "Liechti M. Swiss Med Wkly. 2015;145:w14043",
+          "Zawilska JB, Wojcieszak J. Forensic Sci Int. 2013;231(1-3):42-53"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "4-Chloroephedrine (reduction product)",
+          "4-Chloronorephedrine",
+          "Hydroxylated metabolites on aromatic ring",
+          "N-demethylated products",
+          "Glucuronide conjugates"
+        ],
+        pharmacokinetics: "Metabolized primarily via reduction of the ketone to form 4-chloroephedrine, N-demethylation, and aromatic hydroxylation. Metabolizing enzymes include ketoreductases and cytochrome P450 enzymes (CYP2D6, CYP2C19). Relatively short half-life with rapid clearance. Metabolites excreted primarily in urine.",
+        similarCompounds: ["4-MEC", "3-CMC", "Mephedrone", "4-BMC", "Clephedrone"],
+        studyProtocols: [
+          "Monoamine transporter inhibition assays (DAT, NET, SERT)",
+          "Neurotransmitter release assays using synaptosomes",
+          "Receptor binding screens against monoamine targets",
+          "In vitro metabolism studies with liver microsomes",
+          "LC-MS/MS method development for biological matrices",
+          "Stability studies in various conditions",
+          "Comparison with other cathinone derivatives",
+          "Behavioral pharmacology studies (where permitted)"
+        ]
+      }
+    },
     tags: ["cathinone", "stimulant", "research"],
     strengthOptions: ["100mg", "250mg", "500mg", "1g"],
     formOptions: ["Powder", "Crystal"],

@@ -48,6 +48,8 @@ export interface Product {
     maxPrice: number;
   };
   demoMode?: boolean;
+  quantityUnit?: string; // e.g., "pills", "tablets", "grams", "ml"
+  quantityOptions?: number[]; // e.g., [60, 120, 240, 300, 600, 1200]
 }
 
 // @ts-ignore - Array too large for TypeScript type inference

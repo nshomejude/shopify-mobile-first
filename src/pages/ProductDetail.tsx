@@ -48,8 +48,54 @@ const customQuantitySchema = z.object({
     .number()
     .int({ message: "Quantity must be a whole number" })
     .min(1, { message: "Quantity must be at least 1" })
-    .max(1000, { message: "Quantity cannot exceed 1000 units" })
+    .max(10000, { message: "Quantity cannot exceed 10,000 units" })
 });
+
+// Helper to determine quantity options and unit based on product
+const getQuantityConfig = (product: Product) => {
+  // Use product-specific config if available
+  if (product.quantityUnit && product.quantityOptions) {
+    return {
+      unit: product.quantityUnit,
+      options: product.quantityOptions
+    };
+  }
+
+  // Determine based on form or category
+  const formLower = (product.formOptions?.[0] || product.tags?.[0] || "").toLowerCase();
+  
+  // Pills/Tablets/Capsules
+  if (formLower.includes("tablet") || formLower.includes("pill") || formLower.includes("capsule")) {
+    return {
+      unit: "pills",
+      options: [60, 120, 240, 300, 600, 1200]
+    };
+  }
+  
+  // Powder/Research chemicals (grams)
+  if (formLower.includes("powder") || product.subcategory?.includes("research") || 
+      product.category === "research-chemicals" || formLower.includes("crystal")) {
+    return {
+      unit: "grams",
+      options: [1, 5, 10, 25, 50, 100]
+    };
+  }
+  
+  // Liquid/Injectable (ml)
+  if (formLower.includes("liquid") || formLower.includes("solution") || 
+      formLower.includes("injection") || formLower.includes("vial")) {
+    return {
+      unit: "ml",
+      options: [10, 30, 50, 100, 250, 500]
+    };
+  }
+  
+  // Default fallback (units)
+  return {
+    unit: "units",
+    options: [1, 5, 10, 30, 60, 100]
+  };
+};
 
 const mockReviews = [
   {
@@ -82,7 +128,6 @@ export const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { addItem, items } = useCart();
-  const [quantity, setQuantity] = useState(1);
   const [selectedStrength, setSelectedStrength] = useState("");
   const [selectedForm, setSelectedForm] = useState("");
   const [customQuantityOpen, setCustomQuantityOpen] = useState(false);
@@ -95,6 +140,12 @@ export const ProductDetail = () => {
   });
 
   const product = products.find((p) => p.id === id);
+
+  // Get quantity configuration for this product
+  const quantityConfig = product ? getQuantityConfig(product) : { unit: "units", options: [1, 5, 10, 30, 60] };
+  
+  // Set initial quantity to first option
+  const [quantity, setQuantity] = useState(quantityConfig.options[0]);
 
   // Get cart product IDs for interaction checking
   const cartProductIds = useMemo(() => items.map(item => item.productId), [items]);
@@ -282,54 +333,54 @@ export const ProductDetail = () => {
               <div>
                 <label className="text-sm font-bold mb-2 block">Select Quantity</label>
                 <p className="text-xs text-muted-foreground mb-3">
-                  Larger quantities may include bulk discounts
+                  Choose quantity in {quantityConfig.unit} - bulk orders may qualify for discounts
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">
-                {[
-                  { qty: 1, discount: null },
-                  { qty: 5, discount: "5% off" },
-                  { qty: 10, discount: "10% off" },
-                  { qty: 30, discount: "15% off" },
-                  { qty: 60, discount: "20% off" }
-                ].map(({ qty, discount }) => (
-                  <button
-                    key={qty}
-                    onClick={() => setQuantity(qty)}
-                    className={cn(
-                      "relative px-4 py-3 rounded-xl border-2 min-w-[90px] transition-all duration-300",
-                      "hover:scale-105 active:scale-95",
-                      "flex flex-col items-center gap-1",
-                      quantity === qty
-                        ? "border-primary bg-primary/10 text-primary shadow-md ring-2 ring-primary/20"
-                        : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent"
-                    )}
-                  >
-                    <Package className={cn(
-                      "w-5 h-5 transition-colors",
-                      quantity === qty ? "text-primary" : "text-muted-foreground"
-                    )} />
-                    <span className={cn(
-                      "font-semibold text-base",
-                      quantity === qty && "font-bold"
-                    )}>
-                      {qty}
-                    </span>
-                    {discount && (
-                      <Badge 
-                        variant="secondary" 
-                        className={cn(
-                          "absolute -top-2 -right-2 text-[10px] px-1.5 py-0.5 font-bold",
-                          quantity === qty 
-                            ? "bg-primary text-primary-foreground" 
-                            : "bg-green-500 text-white"
-                        )}
-                      >
-                        {discount}
-                      </Badge>
-                    )}
-                  </button>
-                ))}
+                {quantityConfig.options.map((qty, index) => {
+                  // Calculate discount percentage based on position
+                  const discountPercent = index === 0 ? 0 : Math.min(5 + (index - 1) * 5, 25);
+                  const discount = discountPercent > 0 ? `${discountPercent}% off` : null;
+                  
+                  return (
+                    <button
+                      key={qty}
+                      onClick={() => setQuantity(qty)}
+                      className={cn(
+                        "relative px-4 py-3 rounded-xl border-2 min-w-[100px] transition-all duration-300",
+                        "hover:scale-105 active:scale-95",
+                        "flex flex-col items-center gap-1",
+                        quantity === qty
+                          ? "border-primary bg-primary/10 text-primary shadow-md ring-2 ring-primary/20"
+                          : "border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent"
+                      )}
+                    >
+                      <Package className={cn(
+                        "w-5 h-5 transition-colors",
+                        quantity === qty ? "text-primary" : "text-muted-foreground"
+                      )} />
+                      <span className={cn(
+                        "font-semibold text-base",
+                        quantity === qty && "font-bold"
+                      )}>
+                        {qty} {quantityConfig.unit}
+                      </span>
+                      {discount && (
+                        <Badge 
+                          variant="secondary" 
+                          className={cn(
+                            "absolute -top-2 -right-2 text-[10px] px-1.5 py-0.5 font-bold",
+                            quantity === qty 
+                              ? "bg-primary text-primary-foreground" 
+                              : "bg-green-500 text-white"
+                          )}
+                        >
+                          {discount}
+                        </Badge>
+                      )}
+                    </button>
+                  );
+                })}
                 
                 {/* Custom Quantity Button */}
                 <button
@@ -338,7 +389,7 @@ export const ProductDetail = () => {
                     setCustomQuantityOpen(true);
                   }}
                   className={cn(
-                    "relative px-4 py-3 rounded-xl border-2 min-w-[90px] transition-all duration-300",
+                    "relative px-4 py-3 rounded-xl border-2 min-w-[100px] transition-all duration-300",
                     "hover:scale-105 active:scale-95",
                     "flex flex-col items-center gap-1",
                     "border-dashed border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent"
@@ -797,7 +848,7 @@ export const ProductDetail = () => {
           <DialogHeader>
             <DialogTitle>Enter Custom Quantity</DialogTitle>
             <DialogDescription>
-              Enter any quantity between 1 and 1,000 units. Bulk orders may qualify for additional discounts.
+              Enter any quantity in {quantityConfig.unit} between 1 and 10,000. Bulk orders may qualify for additional discounts.
             </DialogDescription>
           </DialogHeader>
           <Form {...customQuantityForm}>
@@ -807,14 +858,14 @@ export const ProductDetail = () => {
                 name="quantity"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Quantity</FormLabel>
+                    <FormLabel>Quantity ({quantityConfig.unit})</FormLabel>
                     <FormControl>
                       <Input 
                         type="number" 
-                        placeholder="Enter quantity (e.g., 100, 250)" 
+                        placeholder={`Enter quantity in ${quantityConfig.unit} (e.g., 100, 250)`}
                         {...field}
                         min={1}
-                        max={1000}
+                        max={10000}
                         className="text-lg"
                       />
                     </FormControl>

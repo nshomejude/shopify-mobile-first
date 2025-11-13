@@ -9,6 +9,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Progress } from "@/components/ui/progress";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { 
   Star, 
   ShoppingCart, 
@@ -21,7 +24,8 @@ import {
   Pill,
   FileText,
   ChevronRight,
-  Check
+  Check,
+  Edit3
 } from "lucide-react";
 import { products, Product } from "@/data/products";
 import { useCart } from "@/contexts/CartContext";
@@ -34,6 +38,18 @@ import { DrugInteractionWarnings } from "@/components/shop/DrugInteractionWarnin
 import { DemoModeBanner } from "@/components/DemoModeBanner";
 import { VerificationBadge } from "@/components/landing/VerificationBadge";
 import { cn } from "@/lib/utils";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+
+const customQuantitySchema = z.object({
+  quantity: z.coerce
+    .number()
+    .int({ message: "Quantity must be a whole number" })
+    .min(1, { message: "Quantity must be at least 1" })
+    .max(1000, { message: "Quantity cannot exceed 1000 units" })
+});
 
 const mockReviews = [
   {
@@ -69,6 +85,14 @@ export const ProductDetail = () => {
   const [quantity, setQuantity] = useState(1);
   const [selectedStrength, setSelectedStrength] = useState("");
   const [selectedForm, setSelectedForm] = useState("");
+  const [customQuantityOpen, setCustomQuantityOpen] = useState(false);
+
+  const customQuantityForm = useForm<z.infer<typeof customQuantitySchema>>({
+    resolver: zodResolver(customQuantitySchema),
+    defaultValues: {
+      quantity: 1
+    }
+  });
 
   const product = products.find((p) => p.id === id);
 
@@ -112,6 +136,16 @@ export const ProductDetail = () => {
     toast({
       title: "Added to cart",
       description: `${quantity}x ${product.name} has been added to your cart.`,
+    });
+  };
+
+  const handleCustomQuantity = (values: z.infer<typeof customQuantitySchema>) => {
+    setQuantity(values.quantity);
+    setCustomQuantityOpen(false);
+    customQuantityForm.reset({ quantity: values.quantity });
+    toast({
+      title: "Custom quantity set",
+      description: `Quantity updated to ${values.quantity} units.`,
     });
   };
 
@@ -296,6 +330,28 @@ export const ProductDetail = () => {
                     )}
                   </button>
                 ))}
+                
+                {/* Custom Quantity Button */}
+                <button
+                  onClick={() => {
+                    customQuantityForm.setValue("quantity", quantity);
+                    setCustomQuantityOpen(true);
+                  }}
+                  className={cn(
+                    "relative px-4 py-3 rounded-xl border-2 min-w-[90px] transition-all duration-300",
+                    "hover:scale-105 active:scale-95",
+                    "flex flex-col items-center gap-1",
+                    "border-dashed border-border bg-background text-foreground hover:border-primary/50 hover:bg-accent"
+                  )}
+                >
+                  <Edit3 className="w-5 h-5 text-muted-foreground" />
+                  <span className="font-semibold text-base">
+                    Custom
+                  </span>
+                  <span className="text-[10px] text-muted-foreground">
+                    Enter qty
+                  </span>
+                </button>
               </div>
             </div>
 
@@ -734,6 +790,54 @@ export const ProductDetail = () => {
           </div>
         </div>
       </main>
+
+      {/* Custom Quantity Dialog */}
+      <Dialog open={customQuantityOpen} onOpenChange={setCustomQuantityOpen}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Enter Custom Quantity</DialogTitle>
+            <DialogDescription>
+              Enter any quantity between 1 and 1,000 units. Bulk orders may qualify for additional discounts.
+            </DialogDescription>
+          </DialogHeader>
+          <Form {...customQuantityForm}>
+            <form onSubmit={customQuantityForm.handleSubmit(handleCustomQuantity)} className="space-y-4">
+              <FormField
+                control={customQuantityForm.control}
+                name="quantity"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Quantity</FormLabel>
+                    <FormControl>
+                      <Input 
+                        type="number" 
+                        placeholder="Enter quantity (e.g., 100, 250)" 
+                        {...field}
+                        min={1}
+                        max={1000}
+                        className="text-lg"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <DialogFooter className="gap-2 sm:gap-0">
+                <Button
+                  type="button"
+                  variant="outline"
+                  onClick={() => setCustomQuantityOpen(false)}
+                >
+                  Cancel
+                </Button>
+                <Button type="submit">
+                  Set Quantity
+                </Button>
+              </DialogFooter>
+            </form>
+          </Form>
+        </DialogContent>
+      </Dialog>
 
       <Footer />
     </div>

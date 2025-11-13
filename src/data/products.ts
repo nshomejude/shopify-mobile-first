@@ -15996,6 +15996,70 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 86.99,
       maxPrice: 134.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(3-Chlorophenyl)-2-(methylamino)propan-1-one",
+        molecularFormula: "C10H12ClNO",
+        molecularWeight: "197.66 g/mol",
+        casNumber: "1607439-32-6",
+        appearance: "White to off-white crystalline powder or crystals",
+        solubility: "Hydrochloride salt: soluble in water, ethanol, methanol. Freebase: soluble in organic solvents (DMSO, acetone, chloroform).",
+        stability: "Stable when stored properly. Hydrochloride salt recommended for improved stability and handling. Protect from light, heat, and moisture."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Monoamine transporter pharmacology (DAT, NET, SERT)",
+          "Structure-activity relationship studies of chlorinated cathinones",
+          "Comparison with 4-CMC and other positional isomers",
+          "Neurotransmitter release mechanism research",
+          "Forensic toxicology reference standards",
+          "Analytical method development for designer stimulants"
+        ],
+        therapeuticPotential: "3-CMC (3-Chloromethcathinone) is a positional isomer of 4-CMC with the chlorine substituent at the meta position instead of para. Research explores how positional chlorine substitution affects monoamine transporter activity, receptor binding affinity, and pharmacological profile. The meta-chloro position may alter potency and selectivity compared to 4-CMC. Valuable for understanding SAR of synthetic cathinones.",
+        researchLimitations: "Limited published peer-reviewed research. Regulatory status varies by jurisdiction - may be controlled under cathinone analog provisions. Associated with adverse effects in uncontrolled settings. No approved medical applications. Research restricted to qualified laboratories."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Stimulant cathinone with psychoactive properties. May cause cardiovascular and neurological effects. Handle as controlled substance analog where applicable.",
+        requiredPPE: [
+          "Nitrile gloves",
+          "Safety goggles or face shield",
+          "Lab coat",
+          "Work in fume hood or well-ventilated area",
+          "Respiratory protection (N95 or equivalent) when handling powders"
+        ],
+        storageConditions: "Store at room temperature (15-25°C) or refrigerated (2-8°C) in tightly sealed containers. Protect from light and moisture. Controlled substance storage protocols where applicable. Desiccate in low-humidity environment.",
+        disposalGuidelines: "Dispose through licensed hazardous waste contractor following local controlled substance regulations. Do not pour down drain or discard in regular trash. May require special disposal procedures depending on jurisdiction. Document all disposals.",
+        emergencyProcedures: "In case of exposure: Remove contaminated clothing. Wash skin thoroughly with soap and water for 15+ minutes. Eye contact: Rinse with water for 15 minutes. Suspected ingestion: Seek immediate medical attention. May cause stimulant effects including tachycardia, hypertension, agitation. Monitor cardiovascular function. Supportive care primary treatment."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Use analytical balance in fume hood for accurate weighing",
+          "Prepare stock solutions in DMSO, ethanol, or acidified water (for HCl salt)",
+          "Work with dilute solutions to minimize powder exposure",
+          "Analytical methods: LC-MS/MS, GC-MS, HPLC-UV, TLC",
+          "Implement chain of custody for controlled substance analogs",
+          "Store working solutions at -20°C in aliquots to prevent degradation",
+          "Validate purity before critical experiments"
+        ],
+        qualityControl: "Certificate of Analysis includes HPLC purity (≥98%), mass spectrometry confirmation (m/z 198 for [M+H]+), NMR spectral data, identification of salt form, and melting point. Comparison to authenticated reference standards.",
+        handlingPrecautions: "Stimulant cathinone - avoid exposure. Never work alone. Active at milligram doses. Can be absorbed through skin or inhaled as powder. Never taste or smell. Change gloves if contamination occurs. Clean work surfaces after use. Wash hands thoroughly before leaving laboratory."
+      },
+      regulatoryInformation: {
+        legalStatus: "Regulatory status varies by jurisdiction. Not explicitly scheduled in USA but may be controlled under cathinone analog provisions or Federal Analog Act. Controlled in UK, China, and some EU countries. Check local regulations before acquisition or use.",
+        restrictedJurisdictions: "Controlled in UK (Psychoactive Substances Act), China, Sweden. May be controlled under analog provisions in USA, Canada, Australia, and other countries. Cathinone class scheduling expanding globally.",
+        complianceRequirements: "Where controlled: Secure storage, maintain acquisition and use records, implement chain of custody, regular inventories. Research protocols require institutional approval. Follow controlled substance procedures where applicable.",
+        researchLicensing: "Licensing requirements vary by jurisdiction. May require controlled substance registration where explicitly scheduled or covered under analog acts. Institutional approvals for research with designer stimulants typically required."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes identification tests (HPLC, MS, NMR), purity determination (≥98% by HPLC), appearance and form description, and batch-specific documentation.",
+        msds: "Safety Data Sheet with stimulant properties, handling precautions, cardiovascular effects warnings, controlled substance analog status, and emergency procedures.",
+        nmr: "1H-NMR and 13C-NMR spectra showing cathinone scaffold with characteristic beta-keto group, N-methyl substitution, and meta-chlorophenyl ring. Distinguishes 3-CMC from 4-CMC positional isomer by aromatic coupling patterns.",
+        hplc: "Reverse-phase HPLC with UV detection at 254 nm. Retention time and purity assessment. Shows clear separation from 4-CMC and other cathinone analogs.",
+        mass: "Mass spectrometry: [M+H]+ m/z 198 (with characteristic chlorine isotope pattern M+2). MS/MS fragmentation shows meta-chlorobenzoyl cation and methylamine fragments.",
+        synthesisRoute: "Synthesized from 3-chloroacetophenone via bromination followed by reaction with methylamine, or through alternative synthetic routes. Structurally related to 4-CMC with meta vs para chlorine positioning."
+      },
+      researchNotes: "3-CMC (3-Chloromethcathinone) is a positional isomer of 4-CMC, featuring chlorine at the meta (3-) position of the phenyl ring rather than the para (4-) position. This positional difference has significant pharmacological implications based on SAR principles - meta substituents often produce different binding affinities and selectivity profiles compared to para or ortho positions. Like other synthetic cathinones, 3-CMC is structurally related to cathinone (the active compound in khat plant) and shares the characteristic beta-keto phenethylamine scaffold. The compound acts as a monoamine releasing agent and reuptake inhibitor at dopamine, norepinephrine, and serotonin transporters, though the exact potency and selectivity profile may differ from 4-CMC. Research comparing 3-CMC with its positional isomers (2-CMC, 4-CMC) helps elucidate structure-activity relationships of chlorinated cathinones. Limited published data exists - most information comes from forensic case reports and analytical characterization. The compound has appeared in recreational drug markets as a designer stimulant, leading to increased regulatory scrutiny. From a research perspective, 3-CMC is valuable for: understanding how ring substitution position affects cathinone pharmacology, developing analytical detection methods, studying metabolism and toxicology of designer stimulants, and forensic reference standards. The chlorine substitution affects lipophilicity, receptor binding, and metabolic pathways compared to unsubstituted methcathinone. Potential adverse effects include cardiovascular stimulation (tachycardia, hypertension), hyperthermia, agitation, and neurotoxicity concerns with repeated exposure. For research purposes only - not for human or veterinary use. Handle with appropriate caution as psychoactive stimulant compound."
     }
   },
   {
@@ -16016,6 +16080,70 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 108.99,
       maxPrice: 169.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "6-(2-Aminopropyl)benzofuran",
+        molecularFormula: "C11H13NO",
+        molecularWeight: "175.23 g/mol",
+        casNumber: "286834-85-3",
+        appearance: "White to tan powder or tan crystals",
+        solubility: "Hydrochloride salt: soluble in water, ethanol, methanol. Freebase: soluble in organic solvents (DMSO, chloroform, acetone).",
+        stability: "Stable as hydrochloride salt when stored properly. Protect from light, heat, and moisture. Freebase may oxidize over time."
+      },
+      researchApplications: {
+        primaryUses: [
+          "Serotonin-norepinephrine-dopamine releasing agent (SNDRA) research",
+          "Monoamine transporter studies (SERT, NET, DAT)",
+          "Structure-activity relationship studies of benzofuran empathogens",
+          "5-HT2B receptor agonist research and potential valvulopathy mechanisms",
+          "Comparative pharmacology with MDMA and MDA",
+          "Forensic toxicology and analytical reference standards"
+        ],
+        therapeuticPotential: "6-APB is a benzofuran-based empathogen-entactogen structurally related to MDA. The benzofuran ring replaces the methylenedioxy group of MDA, creating distinct pharmacological properties. Research explores its mechanism as monoamine releasing agent with preferential serotonin activity, plus direct 5-HT2A and 5-HT2B receptor agonism. The 5-HT2B agonism raises concerns about potential cardiac valvulopathy with chronic use, similar to concerns with fenfluramine.",
+        researchLimitations: "Controlled substance in many jurisdictions. Associated with adverse cardiovascular effects and potential valvular heart disease risk due to 5-HT2B agonism. Limited clinical safety data. Long duration of action (6-14 hours) complicates research protocols. No approved medical applications."
+      },
+      safetyAndHandling: {
+        hazardClassification: "Empathogen-entactogen with serotonergic and cardiovascular effects. Potent 5-HT2B receptor agonist with potential cardiac toxicity concerns. Handle as controlled substance analog.",
+        requiredPPE: [
+          "Nitrile gloves",
+          "Safety goggles or face shield",
+          "Lab coat",
+          "Work in fume hood or well-ventilated area",
+          "Respiratory protection when handling powders"
+        ],
+        storageConditions: "Store at room temperature (15-25°C) or refrigerated (2-8°C) in tightly sealed containers protected from light and moisture. Hydrochloride salt preferred for stability. Controlled substance storage protocols where applicable.",
+        disposalGuidelines: "Dispose through licensed hazardous waste contractor following controlled substance regulations. Do not pour down drain or discard in regular waste. Document disposals per local requirements. May require DEA-witnessed destruction where scheduled.",
+        emergencyProcedures: "In case of exposure: Remove contaminated clothing. Wash skin thoroughly with soap and water for 15+ minutes. Eye contact: Rinse for 15 minutes. Suspected ingestion: Seek immediate medical attention. May cause serotonin syndrome, cardiovascular effects (tachycardia, hypertension), hyperthermia. Monitor vital signs. Supportive care and cooling measures. Consider benzodiazepines for agitation."
+      },
+      laboratoryGuidelines: {
+        recommendedTechniques: [
+          "Use analytical balance in controlled environment",
+          "Prepare stock solutions in ethanol, DMSO, or acidified water (for HCl salt)",
+          "Work with dilute solutions when possible",
+          "Analytical methods: LC-MS/MS, GC-MS, HPLC-UV, capillary electrophoresis",
+          "Implement chain of custody documentation",
+          "Store solutions at -20°C in aliquots to prevent degradation",
+          "Protect from light during storage and handling"
+        ],
+        qualityControl: "Certificate of Analysis includes HPLC purity (≥98%), mass spectrometry confirmation ([M+H]+ m/z 176), NMR spectral characterization, identification of salt form (HCl vs freebase), and optical rotation if applicable.",
+        handlingPrecautions: "Potent empathogen-entactogen - avoid exposure. Never work alone. Active at 50-100mg doses. Can be absorbed through skin or inhaled as dust. Never taste or smell. The tan/brown color may indicate partial oxidation - validate purity before use. Change gloves if contamination occurs. Wash hands thoroughly before leaving laboratory."
+      },
+      regulatoryInformation: {
+        legalStatus: "Controlled substance in many jurisdictions. Schedule I in USA (temporarily scheduled 2013, permanent 2014). Controlled in UK (Psychoactive Substances Act), Canada, Australia, New Zealand, and many EU countries. Illegal for human consumption globally.",
+        restrictedJurisdictions: "Explicitly controlled in: USA (Schedule I), UK, Canada, Australia, New Zealand, Sweden, Germany, and many other countries. May be covered under analog provisions elsewhere.",
+        complianceRequirements: "Where scheduled: DEA Schedule I protocols apply - secure vault storage, perpetual inventory, report theft/loss within 1 business day, maintain acquisition and use records. Research protocols require institutional approval and extensive justification.",
+        researchLicensing: "Schedule I research registration required in USA. Institutional approvals (DEA, IRB, safety committees) mandatory. Qualified researchers at registered facilities only. Similar requirements in other countries with controlled substance designation."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis includes identification (HPLC, MS, NMR), purity (≥98% by HPLC), appearance, salt form identification, and batch-specific documentation for traceability.",
+        msds: "Safety Data Sheet emphasizing empathogen properties, serotonin syndrome risk, 5-HT2B cardiac concerns, controlled substance status, and comprehensive emergency procedures.",
+        nmr: "1H-NMR and 13C-NMR spectra showing characteristic benzofuran ring system with 6-position substitution and aminopropyl side chain. Distinguishes from 5-APB positional isomer by aromatic coupling pattern.",
+        hplc: "Reverse-phase HPLC with UV detection at 280 nm. Retention time and purity calculation. Shows separation from related benzofuran analogs (5-APB, 5-MAPB).",
+        mass: "High-resolution mass spectrometry: [M+H]+ m/z 176.1075 (calculated for C11H14NO+). MS/MS fragmentation shows benzofuran fragments characteristic of APB structure.",
+        synthesisRoute: "Synthesized from 6-hydroxybenzofuran derivatives via alkylation or from appropriate benzofuran precursors. Multiple synthetic approaches described in research literature."
+      },
+      researchNotes: "6-APB (6-(2-Aminopropyl)benzofuran) is a benzofuran-based empathogen-entactogen that emerged in the research chemical market around 2010. Structurally, it's related to MDA with the methylenedioxy group replaced by a benzofuran ring system - this modification significantly alters pharmacology. 6-APB acts primarily as a serotonin-norepinephrine-dopamine releasing agent (SNDRA) with preferential activity at the serotonin transporter (SERT), similar to MDMA. However, unlike MDMA, 6-APB also acts as a direct agonist at 5-HT2A and particularly 5-HT2B receptors. The 5-HT2B agonism is significant from a safety perspective - chronic activation of 5-HT2B receptors on cardiac valves can lead to fibrotic changes and valvular heart disease (valvulopathy), similar to the mechanism that led to withdrawal of fenfluramine and dexfenfluramine. Research compares 6-APB with its positional isomer 5-APB - the 5-position substitution reportedly produces a more stimulating profile while 6-position substitution is more empathogenic. Duration of action is notably long (6-14 hours), significantly longer than MDMA (3-6 hours), which may relate to metabolic differences. The benzofuran structure may provide metabolic stability compared to methylenedioxy compounds. Limited published pharmacological data exists - most information comes from user reports, forensic casework, and in vitro binding studies. Reported effects include empathogenic feelings, enhanced sociability, mild stimulation, and sensory enhancement. Adverse effects include cardiovascular stimulation, hyperthermia, bruxism, urinary retention, and concern about chronic cardiac valve effects from 5-HT2B activation. The compound was temporarily scheduled by the DEA in 2013 and permanently placed in Schedule I in 2014 due to emerging use and safety concerns. Research applications include: understanding benzofuran empathogen pharmacology, investigating 5-HT2B-mediated cardiac toxicity, developing analytical detection methods, and studying structure-activity relationships of MDA analogs. For research purposes only - not for human or veterinary use. Handle with caution as potent serotonergic compound with cardiovascular concerns."
     }
   },
   {

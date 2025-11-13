@@ -5361,34 +5361,177 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 23.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Adults: Start 20mg once daily. May increase to 40mg after 1 week. Maximum 40mg per day (20mg for >60 years or poor CYP2C19 metabolizers).",
-        administration: [
-          "Take once daily, morning or evening",
-          "Take with or without food",
-          "Swallow tablets whole with water",
-          "May take 1-4 weeks to notice improvement",
-          "Taper gradually when stopping"
-        ],
-        specialPopulations: "Maximum 20mg for patients >60 years, hepatic impairment, or poor CYP2C19 metabolizers. Use caution in pregnancy."
+      uses: {
+        overview: "Citalopram (Celexa) is a selective serotonin reuptake inhibitor (SSRI) antidepressant that increases serotonin availability in the brain. It's one of the most selective SSRIs with minimal effects on other neurotransmitter systems, potentially resulting in fewer side effects compared to some other antidepressants.",
+        conditions: [
+          "**Major Depressive Disorder (MDD)** - FDA-approved primary indication",
+          "**Generalized Anxiety Disorder (GAD)** - Off-label but commonly used",
+          "**Panic Disorder** - Off-label use with good efficacy",
+          "**Social Anxiety Disorder** - Off-label treatment",
+          "**Obsessive-Compulsive Disorder (OCD)** - Off-label, though escitalopram preferred",
+          "**Post-Traumatic Stress Disorder (PTSD)** - Off-label use",
+          "**Premenstrual Dysphoric Disorder (PMDD)** - Off-label"
+        ]
       },
       sideEffects: {
-        common: ["Nausea", "Dry mouth", "Somnolence", "Insomnia", "Increased sweating", "Sexual dysfunction", "Tremor"],
-        serious: ["QT prolongation and Torsades de Pointes", "Serotonin syndrome", "Increased suicidal thoughts", "Abnormal bleeding", "Hyponatremia", "Seizures"]
+        common: ["Nausea", "Dry mouth", "Somnolence or insomnia", "Increased sweating", "Sexual dysfunction (decreased libido, delayed ejaculation)", "Tremor", "Fatigue", "Diarrhea or constipation"],
+        serious: [
+          "QT prolongation and Torsades de Pointes (dose-dependent cardiac risk)",
+          "Serotonin syndrome (with other serotonergic drugs)",
+          "Increased suicidal thoughts (especially <25 years old)",
+          "Abnormal bleeding (especially with NSAIDs or anticoagulants)",
+          "Hyponatremia (low sodium, especially in elderly)",
+          "Seizures",
+          "Activation of mania or hypomania",
+          "Angle-closure glaucoma",
+          "Discontinuation syndrome"
+        ],
+        notes: "QT prolongation risk limits maximum dose to 40mg (20mg for elderly or certain populations). Sexual side effects occur in 20-30% of patients."
       },
-      contraindications: [
-        "Concurrent MAOI use or within 14 days",
-        "Concurrent pimozide use",
-        "Known hypersensitivity",
-        "Congenital long QT syndrome"
+      warnings: {
+        blackBoxWarnings: [
+          "SUICIDALITY AND ANTIDEPRESSANT DRUGS: Increased risk of suicidal thinking and behavior in children, adolescents, and young adults (ages 18-24) taking antidepressants. Monitor closely for worsening depression or emergence of suicidal thoughts, especially during initial treatment and dose adjustments. Not approved for pediatric use."
+        ],
+        generalWarnings: [
+          "DOSE-DEPENDENT QT PROLONGATION: Maximum dose 40mg/day. DO NOT EXCEED 20mg/day in patients >60 years, with hepatic impairment, or who are poor CYP2C19 metabolizers. Higher doses increase risk of dangerous heart rhythm abnormalities.",
+          "Risk of QT prolongation increases with: concomitant QT-prolonging drugs, hypokalemia, hypomagnesemia, bradycardia, recent MI, or heart failure",
+          "May increase bleeding risk, especially with NSAIDs, aspirin, or anticoagulants",
+          "Can activate mania in bipolar patients - screen for bipolar disorder before initiating",
+          "Risk of serotonin syndrome when combined with other serotonergic drugs",
+          "Discontinuation syndrome possible with abrupt cessation - taper gradually",
+          "May affect blood sugar control in diabetics",
+          "Can worsen angle-closure glaucoma"
+        ],
+        specificPopulations: [
+          "**Pregnancy Category C** - Use only if benefits outweigh risks; may cause neonatal complications and persistent pulmonary hypertension of newborn (PPHN)",
+          "**Breastfeeding** - Present in breast milk but in lower amounts than fluoxetine; generally compatible with breastfeeding but discuss with doctor",
+          "**Elderly (>60 years)** - MAXIMUM 20mg/day due to QT prolongation risk. Higher risk of hyponatremia and falls.",
+          "**Hepatic Impairment** - MAXIMUM 20mg/day due to reduced clearance",
+          "**Poor CYP2C19 Metabolizers** - MAXIMUM 20mg/day (about 2% of Caucasians, 4% of African Americans)"
+        ]
+      },
+      beforeTaking: [
+        "Currently taking or stopped MAOIs within 14 days",
+        "Currently taking pimozide",
+        "Known allergy to citalopram or escitalopram",
+        "History of QT prolongation or heart rhythm problems",
+        "Congenital long QT syndrome",
+        "Family history of sudden cardiac death",
+        "Low potassium or magnesium levels",
+        "Recent heart attack or heart failure",
+        "History of mania or bipolar disorder",
+        "History of seizures",
+        "Bleeding disorders or taking anticoagulants",
+        "Glaucoma",
+        "Liver disease",
+        "Age >60 years (dose restriction applies)"
       ],
+      dosage: {
+        standard: "**Adults:** Initial: 20mg once daily. May increase to 40mg/day after minimum 1 week if needed. MAXIMUM: 40mg/day.\n\n**Maximum 20mg/day for:**\n- Patients >60 years\n- Hepatic impairment\n- Poor CYP2C19 metabolizers\n- Taking cimetidine",
+        administration: [
+          "Take once daily, morning or evening - choose time that minimizes side effects",
+          "Can be taken with or without food",
+          "If upset stomach, take with food",
+          "Try to take at the same time each day for consistency",
+          "May take 1-4 weeks to notice improvement in mood",
+          "Full effect may take 4-6 weeks or longer",
+          "Continue taking even after feeling better to prevent relapse",
+          "Do not stop abruptly - taper gradually to minimize withdrawal symptoms",
+          "If you miss a dose, take it as soon as remembered unless almost time for next dose"
+        ],
+        specialPopulations: "**Elderly >60 years:** MAXIMUM 20mg/day. **Hepatic Impairment:** MAXIMUM 20mg/day. **Renal Impairment:** Mild-moderate: no adjustment; severe: use caution. **Pregnancy:** Use only if essential; discuss risks. **Breastfeeding:** Generally compatible but monitor infant."
+      },
       drugInteractions: [
-        "MAOIs - serotonin syndrome (contraindicated)",
-        "Pimozide - QT prolongation (contraindicated)",
-        "Other serotonergic drugs - serotonin syndrome",
-        "QT-prolonging drugs - increased QT prolongation risk",
-        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
-        "CYP2C19 inhibitors - increased citalopram levels"
+        {
+          drug: "MAOIs (phenelzine, tranylcypromine, selegiline, linezolid)",
+          severity: "critical",
+          effect: "CONTRAINDICATED. Can cause life-threatening serotonin syndrome with high fever, seizures, irregular heartbeat, unconsciousness, and death.",
+          management: "Do not use together. Wait 14 days after stopping MAOI before starting citalopram. Wait 14 days after stopping citalopram before starting MAOI."
+        },
+        {
+          drug: "Pimozide",
+          severity: "critical",
+          effect: "CONTRAINDICATED. Significantly increased risk of QT prolongation and potentially fatal Torsades de Pointes.",
+          management: "Do not use together. Choose alternative antipsychotic or antidepressant."
+        },
+        {
+          drug: "QT-Prolonging Drugs (quinidine, procainamide, amiodarone, sotalol, ziprasidone)",
+          severity: "major",
+          effect: "Additive QT prolongation, increasing risk of life-threatening ventricular arrhythmias.",
+          management: "Avoid combination if possible. If necessary, use lowest citalopram dose (≤20mg), monitor ECG, and check electrolytes."
+        },
+        {
+          drug: "Other Serotonergic Drugs (other SSRIs/SNRIs, triptans, tramadol, St. John's Wort, tryptophan, fentanyl)",
+          severity: "major",
+          effect: "Increased risk of serotonin syndrome, a potentially fatal condition.",
+          management: "Avoid combination if possible. If necessary, use lowest effective doses and monitor closely for serotonin syndrome symptoms."
+        },
+        {
+          drug: "NSAIDs, Aspirin, Anticoagulants (warfarin)",
+          severity: "major",
+          effect: "Increased risk of bleeding, including life-threatening gastrointestinal hemorrhage.",
+          management: "Monitor for signs of bleeding. Consider GI protection with PPI. Monitor INR closely with warfarin."
+        },
+        {
+          drug: "CYP2C19 Inhibitors (cimetidine, omeprazole)",
+          severity: "moderate",
+          effect: "Increased citalopram levels, increasing side effects and QT prolongation risk.",
+          management: "Maximum citalopram dose 20mg/day when taking cimetidine. Monitor for increased side effects."
+        },
+        {
+          drug: "CNS Depressants (alcohol, benzodiazepines, opioids)",
+          severity: "moderate",
+          effect: "Enhanced sedation and impairment of cognitive/motor function.",
+          management: "Avoid alcohol. Use other CNS depressants with caution. May increase fall risk in elderly."
+        },
+        {
+          drug: "Diuretics",
+          severity: "moderate",
+          effect: "Increased risk of hyponatremia (low sodium), especially in elderly.",
+          management: "Monitor sodium levels periodically, especially during first months of treatment."
+        }
+      ],
+      faqs: [
+        {
+          question: "Why is there a maximum dose of 20mg for people over 60?",
+          answer: "Citalopram can prolong the QT interval on ECG in a dose-dependent manner, increasing risk of dangerous heart rhythm abnormalities (Torsades de Pointes). People over 60, those with liver disease, and poor metabolizers have higher blood levels at any given dose, so the FDA limits them to maximum 20mg/day to reduce cardiac risks."
+        },
+        {
+          question: "What is QT prolongation and why does it matter?",
+          answer: "QT prolongation is a heart rhythm abnormality that can be seen on ECG. It increases the risk of a potentially fatal irregular heartbeat called Torsades de Pointes. Citalopram causes dose-dependent QT prolongation, which is why doses above 40mg are not recommended and why certain populations are limited to 20mg maximum."
+        },
+        {
+          question: "How long does citalopram take to work for depression?",
+          answer: "Most people notice some improvement in sleep, appetite, or energy within 1-2 weeks. However, significant improvement in mood and depressive symptoms typically takes 4-6 weeks at therapeutic dose. Some patients may need 8-12 weeks for full effect. Continue taking as prescribed even if you don't feel immediate improvement."
+        },
+        {
+          question: "What's the difference between citalopram and escitalopram?",
+          answer: "Escitalopram (Lexapro) is the S-enantiomer of citalopram - essentially the 'active' half of citalopram. Escitalopram is more potent (10mg escitalopram ≈ 20mg citalopram), works faster in some studies, and doesn't have the same QT prolongation concerns or dose restrictions. Some patients tolerate one better than the other."
+        },
+        {
+          question: "Will citalopram cause sexual side effects?",
+          answer: "Sexual side effects occur in 20-30% of patients and may include decreased libido, difficulty achieving orgasm, or erectile dysfunction in men. These effects may diminish over time. If bothersome, discuss with your doctor - dosage adjustments, timing changes, or switching to a different antidepressant (like bupropion) may help."
+        },
+        {
+          question: "Can I drink alcohol while taking citalopram?",
+          answer: "It's best to avoid alcohol. Alcohol is a depressant that can worsen depression and anxiety. Combining alcohol with citalopram may increase drowsiness, dizziness, and impairment. The combination can also increase risk of serotonin syndrome. If you choose to drink, do so minimally and cautiously."
+        },
+        {
+          question: "What is discontinuation syndrome?",
+          answer: "If citalopram is stopped abruptly, some people experience withdrawal-like symptoms including dizziness, nausea, headache, irritability, vivid dreams, and 'brain zaps' (electric shock sensations). This isn't dangerous but is uncomfortable. Always taper gradually over at least 1-2 weeks under medical supervision when discontinuing."
+        },
+        {
+          question: "How should I taper off citalopram?",
+          answer: "Never stop abruptly. A typical taper: 40mg→30mg (1 week)→20mg (1-2 weeks)→10mg (1-2 weeks)→5mg (1 week)→stop. Your doctor may adjust based on how long you've taken it and your response. If withdrawal symptoms occur, slow the taper. Some people may need months to taper comfortably."
+        },
+        {
+          question: "Can I take citalopram if I have heart problems?",
+          answer: "Discuss thoroughly with your doctor. Citalopram causes QT prolongation, which is of particular concern in patients with existing heart disease, recent heart attack, heart failure, bradycardia, or electrolyte imbalances. An ECG may be recommended before starting and during treatment. Alternative antidepressants without cardiac effects may be preferable."
+        },
+        {
+          question: "Is citalopram safe during pregnancy?",
+          answer: "Citalopram is Category C. Use only if benefits outweigh risks. It may slightly increase risk of certain birth defects and can cause persistent pulmonary hypertension of the newborn (PPHN) and neonatal adaptation syndrome. However, untreated depression also poses risks. Work closely with your doctor and consider risks vs. benefits thoroughly."
+        }
       ]
     }
   },
@@ -5960,29 +6103,166 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 67.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Schizophrenia: Start 5-10mg once daily, adjust by 5mg increments. Target 10-15mg/day. Maximum 20mg/day. Bipolar: 10-15mg/day.",
-        administration: [
-          "Take once daily, with or without food",
-          "Can be taken at bedtime due to sedation",
-          "Orally disintegrating tablet available (no water needed)",
-          "Taper gradually when stopping"
-        ],
-        specialPopulations: "Lower starting dose (5mg) for elderly or debilitated patients. Not recommended in pregnancy or breastfeeding."
+      uses: {
+        overview: "Olanzapine (Zyprexa) is an atypical antipsychotic medication that blocks dopamine and serotonin receptors. It's FDA-approved for schizophrenia and bipolar disorder and is particularly effective for treating acute mania and preventing mood episodes.",
+        conditions: [
+          "**Schizophrenia** - FDA-approved for acute and maintenance treatment",
+          "**Bipolar I Disorder - Acute Mania** - Manic or mixed episodes",
+          "**Bipolar I Disorder - Maintenance** - Prevention of relapse",
+          "**Bipolar Depression** - When combined with fluoxetine (Symbyax)",
+          "**Treatment-Resistant Depression** - Combined with antidepressants (off-label)",
+          "**Acute Agitation** - IM formulation for rapid control (schizophrenia/bipolar mania)"
+        ]
       },
       sideEffects: {
-        common: ["Weight gain", "Somnolence", "Dry mouth", "Constipation", "Dizziness", "Increased appetite"],
-        serious: ["Metabolic syndrome (hyperglycemia, diabetes, dyslipidemia)", "Tardive dyskinesia", "Neuroleptic malignant syndrome", "Orthostatic hypotension", "Hyperprolactinemia", "Agranulocytosis"]
+        common: ["Weight gain (significant, 10-20+ lbs)", "Increased appetite", "Somnolence/sedation", "Dry mouth", "Constipation", "Dizziness", "Orthostatic hypotension", "Fatigue"],
+        serious: [
+          "METABOLIC SYNDROME: Severe weight gain, hyperglycemia, diabetes, dyslipidemia (very common)",
+          "Tardive dyskinesia (involuntary movements, may be irreversible)",
+          "Neuroleptic malignant syndrome (fever, muscle rigidity, altered mental status - life-threatening)",
+          "Orthostatic hypotension and syncope",
+          "Hyperprolactinemia",
+          "Agranulocytosis (rare but serious blood disorder)",
+          "Seizures",
+          "Increased mortality in elderly with dementia-related psychosis"
+        ],
+        notes: "Olanzapine causes MORE weight gain than most other antipsychotics. Average weight gain 12-26 lbs over 1 year. Metabolic monitoring essential."
       },
-      contraindications: [
-        "Known hypersensitivity to olanzapine"
+      warnings: {
+        blackBoxWarnings: [
+          "INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS: Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at increased risk of death. Olanzapine is not approved for treatment of dementia-related psychosis."
+        ],
+        generalWarnings: [
+          "SIGNIFICANT WEIGHT GAIN AND METABOLIC CHANGES: Monitor weight, glucose, and lipids regularly. Olanzapine causes substantial weight gain in most patients.",
+          "Screen for diabetes risk factors before starting; monitor fasting glucose and HbA1c during treatment",
+          "May worsen or unmask diabetes - can cause diabetic ketoacidosis",
+          "Tardive dyskinesia risk increases with duration of treatment; consider discontinuation if abnormal movements develop",
+          "Orthostatic hypotension risk greatest when starting or increasing dose",
+          "May lower seizure threshold - use caution in patients with seizure history",
+          "Can impair body temperature regulation - caution in hot weather or with exercise",
+          "Increases risk of stroke in elderly with dementia",
+          "May cause dysphagia (difficulty swallowing) - aspiration risk"
+        ],
+        specificPopulations: [
+          "**Pregnancy Category C** - Use only if benefits clearly outweigh risks; may cause extrapyramidal symptoms and withdrawal in newborns",
+          "**Breastfeeding** - Present in breast milk; not recommended",
+          "**Elderly** - Lower starting dose (5mg); increased risk of mortality, stroke, falls, and metabolic effects",
+          "**Hepatic Impairment** - Lower starting dose (5mg); slower titration",
+          "**Renal Impairment** - No dose adjustment typically needed"
+        ]
+      },
+      beforeTaking: [
+        "Known allergy to olanzapine",
+        "Dementia-related psychosis (black box warning)",
+        "Diabetes or pre-diabetes (use with extreme caution)",
+        "History of cardiovascular disease or stroke",
+        "History of seizures",
+        "Low white blood cell count",
+        "Enlarged prostate or urinary retention",
+        "Narrow-angle glaucoma",
+        "Paralytic ileus",
+        "Currently pregnant, planning pregnancy, or breastfeeding",
+        "History of dyslipidemia or high cholesterol"
       ],
+      dosage: {
+        standard: "**Schizophrenia:** Initial: 5-10mg once daily. Target: 10-15mg/day. Range: 10-20mg/day. Maximum: 20mg/day.\n\n**Bipolar Mania:** Initial: 10-15mg once daily. Target: 10-20mg/day. Maximum: 20mg/day.\n\n**Bipolar Maintenance:** 5-20mg/day.",
+        administration: [
+          "Take once daily, typically at bedtime due to sedation",
+          "Can be taken with or without food",
+          "If nausea occurs, take with food",
+          "Orally disintegrating tablets (ODT): Place on tongue, dissolves without water",
+          "For ODT: Don't push through foil; use dry hands to peel back foil",
+          "Try to take at same time each day",
+          "Do not stop abruptly - taper gradually under medical supervision",
+          "Continue taking even after feeling better to prevent relapse"
+        ],
+        specialPopulations: "**Elderly/Debilitated:** Start 5mg once daily; slower titration. **Hepatic Impairment:** Start 5mg; titrate slowly. **Adolescents 13-17:** Start 2.5-5mg; slower titration; typically 10mg target. **Smoking:** Smokers may need higher doses due to increased metabolism."
+      },
       drugInteractions: [
-        "CNS depressants (alcohol, benzodiazepines) - enhanced sedation",
-        "Fluvoxamine - increased olanzapine levels",
-        "Carbamazepine - decreased olanzapine levels",
-        "Antihypertensives - enhanced hypotensive effects",
-        "Anticholinergics - additive anticholinergic effects"
+        {
+          drug: "CNS Depressants (benzodiazepines, alcohol, opioids)",
+          severity: "major",
+          effect: "Enhanced sedation, respiratory depression, and increased risk of falls and accidents.",
+          management: "Avoid alcohol entirely. Use other CNS depressants with extreme caution at lowest doses. Monitor closely."
+        },
+        {
+          drug: "Fluvoxamine (strong CYP1A2 inhibitor)",
+          severity: "major",
+          effect: "Significantly increased olanzapine levels (up to 112%), increasing sedation and metabolic side effects.",
+          management: "Consider reducing olanzapine dose by 30-50% when starting fluvoxamine. Monitor closely."
+        },
+        {
+          drug: "Antihypertensive Medications",
+          severity: "moderate",
+          effect: "Enhanced hypotensive effects; increased risk of orthostatic hypotension and falls.",
+          management: "Monitor blood pressure regularly, especially when starting or adjusting doses. Instruct patient to rise slowly."
+        },
+        {
+          drug: "Anticholinergic Drugs (antihistamines, TCAs, benztropine)",
+          severity: "moderate",
+          effect: "Additive anticholinergic effects including constipation, urinary retention, blurred vision, confusion.",
+          management: "Use caution; monitor for anticholinergic side effects. May need to reduce dose of one or both."
+        },
+        {
+          drug: "Carbamazepine (CYP1A2 inducer)",
+          severity: "moderate",
+          effect: "Decreased olanzapine levels (up to 50%), reducing effectiveness.",
+          management: "May need to increase olanzapine dose by 50-100%. Monitor clinical response."
+        },
+        {
+          drug: "Ciprofloxacin (CYP1A2 inhibitor)",
+          severity: "moderate",
+          effect: "Increased olanzapine levels, increasing side effects.",
+          management: "Consider temporary dose reduction of olanzapine if starting ciprofloxacin."
+        },
+        {
+          drug: "Dopamine Agonists (levodopa, pramipexole, ropinirole)",
+          severity: "moderate",
+          effect: "Olanzapine antagonizes dopamine effects, reducing efficacy of dopamine agonists.",
+          management: "Generally avoid combination in Parkinson's disease patients."
+        }
+      ],
+      faqs: [
+        {
+          question: "How much weight will I gain on olanzapine?",
+          answer: "Olanzapine causes MORE weight gain than most other antipsychotics. Average weight gain is 12-26 lbs (5-12 kg) over the first year, with some patients gaining even more. About 30% of patients gain over 7% of their body weight. Weight gain tends to be most rapid in the first 6 months. Regular exercise, healthy diet, and metabolic monitoring are essential."
+        },
+        {
+          question: "Can olanzapine cause diabetes?",
+          answer: "Yes. Olanzapine significantly increases risk of diabetes and metabolic syndrome. It can worsen pre-existing diabetes or cause new-onset diabetes. Monitor fasting glucose before starting and regularly during treatment. Report symptoms like excessive thirst, frequent urination, fatigue, or blurred vision immediately - these may indicate hyperglycemia or diabetes."
+        },
+        {
+          question: "Why do I feel so tired on olanzapine?",
+          answer: "Sedation is very common, especially when starting or increasing dose. Taking olanzapine at bedtime can help turn this into an advantage for sleep. Sedation usually improves after 1-2 weeks as your body adjusts. Don't drive or operate machinery until you know how it affects you. If excessive sedation persists, discuss dose adjustment with your doctor."
+        },
+        {
+          question: "What is tardive dyskinesia?",
+          answer: "Tardive dyskinesia (TD) is a movement disorder that can develop with long-term antipsychotic use. It causes involuntary, repetitive movements, typically of the face, lips, tongue, or limbs. TD may be irreversible even after stopping medication. Risk increases with duration of treatment. Report any abnormal movements to your doctor immediately."
+        },
+        {
+          question: "How long does it take for olanzapine to work?",
+          answer: "For acute mania or agitation, you may notice improvement within 24-48 hours, with significant improvement in 1-2 weeks. For schizophrenia symptoms, it typically takes 1-2 weeks to see benefit, with continued improvement over 4-6 weeks. Full stabilization may take 2-3 months. Continue taking as prescribed even if you don't see immediate results."
+        },
+        {
+          question: "Can I drink alcohol while taking olanzapine?",
+          answer: "No, you should avoid alcohol entirely. Combining olanzapine with alcohol increases drowsiness, dizziness, confusion, and impairs judgment and motor skills significantly. The combination also increases risk of dangerous falls, accidents, and respiratory depression. Alcohol can also worsen psychiatric symptoms."
+        },
+        {
+          question: "Why does my doctor keep checking my blood sugar and cholesterol?",
+          answer: "Olanzapine commonly causes metabolic changes including high blood sugar (hyperglycemia), high cholesterol (dyslipidemia), and weight gain - collectively called metabolic syndrome. These increase risk of diabetes and heart disease. Regular monitoring allows early detection and intervention. Fasting glucose and lipids should be checked before starting, at 3 months, and then annually (or more often if abnormal)."
+        },
+        {
+          question: "What should I do if I miss a dose?",
+          answer: "Take the missed dose as soon as you remember, unless it's almost time for your next dose. Don't take two doses at once. If you miss multiple doses, contact your doctor before restarting - you may need to restart at a lower dose and retitrate to avoid orthostatic hypotension."
+        },
+        {
+          question: "Can I stop olanzapine once I feel better?",
+          answer: "No, don't stop on your own. Stopping suddenly can cause withdrawal symptoms (nausea, vomiting, insomnia) and rapid return of symptoms. For bipolar disorder or schizophrenia, most people need long-term treatment to prevent relapse. Work with your doctor to determine the right duration and how to safely taper if discontinuation is appropriate."
+        },
+        {
+          question: "How can I minimize weight gain on olanzapine?",
+          answer: "While weight gain is common, you can take steps to minimize it: (1) Start diet and exercise plan immediately when starting medication, (2) Monitor weight weekly, (3) Eat a balanced, lower-calorie diet, (4) Exercise regularly (30-60 min most days), (5) Avoid sugary drinks and snacks, (6) Stay hydrated, (7) Get adequate sleep. Some doctors may recommend metformin to help prevent weight gain and metabolic changes."
+        }
       ]
     }
   },

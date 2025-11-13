@@ -67,31 +67,113 @@ export const products = [
       maxPrice: 9.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Adults: 325-650mg every 4-6 hours as needed. Maximum 4000mg per day.",
-        administration: [
-          "Take with or without food",
-          "Swallow tablets whole with water",
-          "For liquid form, use measuring device provided",
-          "Do not exceed recommended dosage"
-        ],
-        specialPopulations: "Reduced doses for liver disease. Children: dose based on weight (10-15mg/kg every 4-6 hours)."
+      uses: {
+        overview: "Paracetamol (acetaminophen) is a widely used over-the-counter medication for pain relief and fever reduction. It works by blocking pain signals in the brain and affecting chemicals that regulate body temperature.",
+        conditions: [
+          "**Mild to Moderate Pain** - Effective for headaches, toothaches, muscle aches, backaches, and minor arthritis pain",
+          "**Fever** - Reduces fever in children and adults",
+          "**Cold and Flu Symptoms** - Relieves aches and pains associated with common cold",
+          "**Menstrual Cramps** - Provides relief from period pain",
+          "**Post-vaccination Pain** - Reduces discomfort after immunizations"
+        ]
       },
       sideEffects: {
-        common: ["Nausea", "Stomach upset", "Headache"],
-        serious: ["Severe allergic reactions (rash, itching, swelling)", "Liver damage with overdose", "Dark urine or yellowing of skin/eyes", "Unusual bleeding or bruising"]
+        common: ["Nausea", "Stomach upset", "Mild allergic reactions"],
+        serious: [
+          "Severe allergic reactions (rash, hives, itching, difficulty breathing, swelling of face/lips/tongue)",
+          "Liver damage or failure (dark urine, yellowing of skin/eyes, severe fatigue)",
+          "Unusual bleeding or bruising",
+          "Severe skin reactions (Stevens-Johnson syndrome)"
+        ],
+        notes: "Most people tolerate paracetamol well when used as directed. Serious side effects are rare but require immediate medical attention."
       },
-      contraindications: [
-        "Severe liver disease or liver failure",
-        "Known hypersensitivity to acetaminophen",
-        "Active alcohol use disorder"
+      warnings: {
+        blackBoxWarnings: [
+          "LIVER DAMAGE WARNING: Taking more than the recommended dose can cause severe liver damage, which can be fatal. Maximum daily dose is 4000mg for adults."
+        ],
+        generalWarnings: [
+          "Do not take more than directed - overdose can cause severe liver damage",
+          "Do not use with other medications containing acetaminophen",
+          "Chronic alcohol users (3+ drinks daily) should consult doctor before use",
+          "Long-term high-dose use may increase risk of liver and kidney problems"
+        ],
+        specificPopulations: [
+          "Elderly patients may be more sensitive to effects and require lower doses",
+          "Not recommended for infants under 2 months without doctor supervision"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Known allergy or hypersensitivity to acetaminophen/paracetamol",
+          "Severe liver disease or active liver failure",
+          "Severe kidney disease (requires dose adjustment)"
+        ],
+        precautions: [
+          "History of liver problems or liver disease",
+          "Chronic kidney disease",
+          "Chronic alcohol consumption (3+ drinks daily)",
+          "Malnutrition or dehydration",
+          "Gilbert's syndrome or other genetic metabolic disorders"
+        ],
+        pregnancy: "Pregnancy Category B: Generally considered safe during pregnancy when used as directed. Consult your healthcare provider before use.",
+        breastfeeding: "Small amounts pass into breast milk but considered safe during breastfeeding at recommended doses."
+      },
+      dosage: {
+        overview: "Take paracetamol exactly as directed on the label or as prescribed by your healthcare provider. Do not exceed the maximum daily dose of 4000mg (4 grams) in 24 hours for adults.",
+        adults: "Adults and children 12+ years: 325-650mg every 4-6 hours, or 1000mg every 6-8 hours. Maximum 4000mg per 24 hours.",
+        children: "Children 2-11 years: Dose based on weight (10-15mg/kg every 4-6 hours). Maximum 75mg/kg per 24 hours. Use pediatric formulations.",
+        elderly: "Elderly patients: Start with lower doses and use caution. Maximum 3000mg per 24 hours may be recommended.",
+        specialPopulations: "Liver disease: Reduced doses required. Kidney disease: May require dose adjustment. Consult healthcare provider.",
+        administration: [
+          "Can be taken with or without food",
+          "Swallow tablets or capsules whole with a full glass of water",
+          "Do not crush or chew extended-release tablets",
+          "For liquid forms, use the measuring device provided - do not use household spoons",
+          "Space doses at least 4 hours apart"
+        ],
+        missedDose: "Take the missed dose as soon as you remember. If it's nearly time for the next dose, skip the missed dose. Do not double the dose to catch up.",
+        overdose: "EMERGENCY: Seek immediate medical attention or call Poison Control (1-800-222-1222). Overdose symptoms may include nausea, vomiting, loss of appetite, sweating, confusion, and abdominal pain. Liver damage may not be apparent for 24-72 hours.",
+        storage: "Store at room temperature 20-25°C (68-77°F). Keep away from moisture and heat. Keep out of reach of children.",
+        strengths: ["325mg tablets", "500mg tablets", "650mg tablets", "160mg/5ml liquid", "80mg chewable tablets"]
+      },
+      drugInteractions: {
+        overview: "Paracetamol has relatively few drug interactions compared to other pain relievers, but some important interactions exist. Always inform your healthcare provider of all medications you take.",
+        interactions: [
+          "Warfarin (blood thinner) - Regular use of paracetamol may increase bleeding risk; occasional use is generally safe",
+          "Carbamazepine, phenytoin, phenobarbital - May increase risk of liver damage and reduce paracetamol effectiveness",
+          "Isoniazid (TB medication) - Increases risk of liver damage",
+          "Other acetaminophen-containing products - Risk of overdose; check all medications for acetaminophen content",
+          "Cholestyramine - May reduce paracetamol absorption; take paracetamol at least 1 hour before",
+          "Probenecid - May increase paracetamol levels and effects"
+        ],
+        avoidWith: ["Alcohol (3+ drinks daily)", "Other acetaminophen products"]
+      },
+      faq: [
+        {
+          question: "How quickly does paracetamol start working?",
+          answer: "Paracetamol typically starts to work within 30-60 minutes after taking it orally. Pain relief and fever reduction usually peak at 1-2 hours. Effects last approximately 4-6 hours."
+        },
+        {
+          question: "Can I take paracetamol with ibuprofen?",
+          answer: "Yes, paracetamol and ibuprofen can be safely taken together as they work differently in the body. In fact, alternating doses of paracetamol and ibuprofen is sometimes recommended for better pain or fever control. However, always follow dosing instructions and consult your healthcare provider."
+        },
+        {
+          question: "Why is paracetamol dangerous to the liver?",
+          answer: "When taken in large doses or over extended periods, paracetamol is metabolized by the liver into a toxic substance called NAPQI. Normally, the liver can safely eliminate NAPQI, but in overdose situations or with chronic alcohol use, NAPQI accumulates and damages liver cells, potentially causing liver failure."
+        },
+        {
+          question: "Is paracetamol safe during pregnancy?",
+          answer: "Paracetamol is generally considered the safest pain reliever and fever reducer during pregnancy when used as directed. However, recent studies suggest limiting use to the lowest effective dose for the shortest time. Always consult your healthcare provider before taking any medication during pregnancy."
+        },
+        {
+          question: "What should I do if I accidentally take too much paracetamol?",
+          answer: "Seek emergency medical attention immediately, even if you feel fine. Paracetamol overdose can cause serious liver damage that may not show symptoms for 24-72 hours. Treatment is most effective when started early. Call Poison Control at 1-800-222-1222 or go to the emergency room."
+        }
       ],
-      drugInteractions: [
-        "Warfarin - may increase bleeding risk",
-        "Alcohol - increases risk of liver damage",
-        "Other acetaminophen-containing products - risk of overdose",
-        "Carbamazepine, phenytoin - may reduce effectiveness"
-      ]
+      ingredients: {
+        active: "Acetaminophen (Paracetamol)",
+        inactive: ["Pregelatinized starch", "Powdered cellulose", "Sodium starch glycolate", "Magnesium stearate", "Purified water"]
+      }
     }
   },
   {
@@ -10458,7 +10540,7 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
   {
     id: "rc-081",
     name: "3-MMC (3-Methylmethcathinone)",
-    description: "Research cathinone stimulant for authorized laboratory use",
+    description: "Research-grade cathinone compound for authorized laboratory analysis and neuropharmacology studies. High purity (≥98%) crystalline material.",
     price: 89.99,
     image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400",
     category: "research-chemicals",
@@ -10473,6 +10555,109 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 89.99,
       maxPrice: 139.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-1-(3-methylphenyl)propan-1-one",
+        molecularFormula: "C₁₁H₁₅NO",
+        molecularWeight: "177.24 g/mol",
+        casNumber: "1246816-62-5",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["Water", "Ethanol", "Methanol", "DMSO"]
+      },
+      researchApplications: {
+        overview: "3-MMC is a synthetic cathinone derivative used in neuroscience research, particularly in studies investigating monoamine transporter function, receptor pharmacology, and stimulant mechanisms of action.",
+        primaryUses: [
+          "Monoamine transporter (DAT, SERT, NET) binding studies",
+          "Neuropharmacological research on stimulant mechanisms",
+          "Comparative studies with other cathinone derivatives",
+          "In vitro receptor binding assays",
+          "Analytical reference standard for forensic and clinical toxicology"
+        ],
+        studyAreas: [
+          "Neuropharmacology",
+          "Psychopharmacology",
+          "Analytical Chemistry",
+          "Forensic Toxicology",
+          "Medicinal Chemistry"
+        ],
+        mechanism: "3-MMC acts as a releasing agent and reuptake inhibitor of dopamine, serotonin, and norepinephrine. Research indicates it functions as a substrate for monoamine transporters, promoting neurotransmitter release while preventing reuptake, thereby increasing synaptic concentrations."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H361: Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P261: Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280: Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312: IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340: IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes",
+          "P308+P313: IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store at -20°C in a dry, dark place in an inert atmosphere. Protect from light, moisture, and heat. Keep container tightly closed.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose of contents/container in accordance with local, state, and federal regulations for hazardous chemical waste. Do not discharge into drains or the environment.",
+        ppe: [
+          "Laboratory coat",
+          "Safety goggles or face shield",
+          "Nitrile or latex gloves",
+          "Work in fume hood or well-ventilated area"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1 µM", "10 µM", "100 µM", "1 mM"],
+        preparationNotes: [
+          "Dissolve in DMSO to create 10-100 mM stock solution",
+          "For aqueous solutions, first dissolve in minimal DMSO then dilute with buffer (max 1% DMSO final)",
+          "Vortex thoroughly for 2-3 minutes to ensure complete dissolution",
+          "Prepare fresh solutions immediately before use when possible",
+          "Stock solutions can be stored at -20°C for up to 6 months",
+          "Avoid repeated freeze-thaw cycles"
+        ],
+        stabilityData: "Solid form stable for 24 months at -20°C. Solutions in DMSO stable for 6 months at -20°C. Aqueous solutions should be prepared fresh and used within 24 hours.",
+        incompatibilities: [
+          "Strong oxidizing agents",
+          "Strong acids and bases",
+          "Halogens",
+          "Incompatible with most metal catalysts"
+        ]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Controlled substance in many jurisdictions.",
+        restrictions: [
+          "Valid laboratory credentials and institutional affiliation required for purchase",
+          "End-user declaration and research protocol may be required",
+          "Purchaser must comply with all federal, state, and local regulations",
+          "Not for use in humans, animals, or clinical applications",
+          "Restricted or prohibited in certain jurisdictions - buyer responsible for compliance"
+        ],
+        certifications: ["ISO 9001:2015", "GMP Certified Production Facility"],
+        complianceNotes: [
+          "Purchaser agrees to use strictly for legitimate research purposes",
+          "Material must be handled by qualified personnel only",
+          "All applicable safety and regulatory guidelines must be followed",
+          "Resale or distribution prohibited without proper licensing"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. (2013). Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 168(2):458-70.",
+          "Rickli A, et al. (2015). Receptor interaction profiles of novel psychoactive tryptamines compared with classic hallucinogens. Eur Neuropsychopharmacol. 25(8):1327-37.",
+          "Baumann MH, et al. (2012). The designer methcathinone analogs, mephedrone and methylone, are substrates for monoamine transporters in brain tissue. Neuropsychopharmacology. 37(5):1192-203."
+        ]
+      }
     }
   },
   {

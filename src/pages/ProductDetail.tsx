@@ -37,6 +37,7 @@ import { useDrugInteractions } from "@/hooks/useDrugInteractions";
 import { DrugInteractionWarnings } from "@/components/shop/DrugInteractionWarnings";
 import { DemoModeBanner } from "@/components/DemoModeBanner";
 import { VerificationBadge } from "@/components/landing/VerificationBadge";
+import { ShippingCalculator } from "@/components/shop/ShippingCalculator";
 import { cn } from "@/lib/utils";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -72,21 +73,21 @@ const getQuantityConfig = (product: Product) => {
     };
   }
   
-  // Powder/Research chemicals (grams)
+  // Powder/Research chemicals (grams) - MOQ 10g to 1kg
   if (formLower.includes("powder") || product.subcategory?.includes("research") || 
       product.category === "research-chemicals" || formLower.includes("crystal")) {
     return {
       unit: "grams",
-      options: [1, 5, 10, 25, 50, 100]
+      options: [10, 25, 50, 100, 250, 500, 1000]
     };
   }
   
-  // Liquid/Injectable (ml)
+  // Liquid/Injectable (ml) - MOQ 50ml to 1L
   if (formLower.includes("liquid") || formLower.includes("solution") || 
       formLower.includes("injection") || formLower.includes("vial")) {
     return {
       unit: "ml",
-      options: [10, 30, 50, 100, 250, 500]
+      options: [50, 100, 250, 500, 1000]
     };
   }
   
@@ -146,6 +147,7 @@ export const ProductDetail = () => {
   
   // Set initial quantity to first option
   const [quantity, setQuantity] = useState(quantityConfig.options[0]);
+  const [selectedShippingMethod, setSelectedShippingMethod] = useState("standard");
 
   // Get cart product IDs for interaction checking
   const cartProductIds = useMemo(() => items.map(item => item.productId), [items]);
@@ -450,6 +452,16 @@ export const ProductDetail = () => {
                 </div>
               </div>
             )}
+
+            {/* Shipping Calculator */}
+            <div className="mb-6">
+              <ShippingCalculator
+                quantity={quantity}
+                unit={quantityConfig.unit}
+                selectedMethod={selectedShippingMethod}
+                onMethodSelect={setSelectedShippingMethod}
+              />
+            </div>
 
             {/* Actions */}
             <div className="flex gap-3 mb-6">

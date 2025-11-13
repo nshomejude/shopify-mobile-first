@@ -105,7 +105,175 @@ export const products = [
   {
     id: "rx-002",
     name: "Ibuprofen",
-    description: "NSAID for pain relief and inflammation reduction",
+    description: `## Ibuprofen - Comprehensive Drug Information
+
+### Overview
+Ibuprofen is a widely used nonsteroidal anti-inflammatory drug (NSAID) belonging to the propionic acid class. First developed in the 1960s and approved by the FDA in 1974, ibuprofen has become one of the most commonly used over-the-counter and prescription medications worldwide. It works by inhibiting cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are responsible for producing prostaglandins—chemical messengers that cause inflammation, pain, and fever throughout the body. Available in multiple strengths ranging from 200mg over-the-counter to 800mg prescription formulations, ibuprofen provides effective relief for a wide variety of conditions including headaches, dental pain, menstrual cramps, muscle aches, arthritis, and fever. Its relatively rapid onset of action (30-60 minutes) and moderate duration of effect (4-6 hours) make it a convenient choice for managing acute and chronic pain conditions.
+
+### Important Safety Information
+**BLACK BOX WARNING:** NSAIDs, including ibuprofen, may increase the risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use and in patients with cardiovascular disease or risk factors for cardiovascular disease. Ibuprofen is also contraindicated in the setting of coronary artery bypass graft (CABG) surgery. NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events.
+
+### Uses and Indications
+Ibuprofen is FDA-approved for the treatment of mild to moderate pain, including headache, dental pain, menstrual cramps, muscle aches, and backache. It is also indicated for the relief of minor aches and pains associated with the common cold or flu, and for the reduction of fever. At prescription doses, ibuprofen is approved for the treatment of osteoarthritis and rheumatoid arthritis, providing both analgesic and anti-inflammatory effects that help reduce joint pain, swelling, and stiffness. The medication is particularly effective for inflammatory conditions because it targets the underlying cause of pain rather than simply masking symptoms.
+
+Common off-label uses include migraine headaches, postoperative pain management, and prevention of altitude sickness. In pediatrics, ibuprofen is widely used for fever reduction and pain relief in children as young as 6 months old. Clinical studies have demonstrated that ibuprofen is as effective as acetaminophen for fever reduction and may provide longer-lasting relief. For chronic inflammatory conditions like arthritis, patients typically notice significant improvement in pain and function within 1-2 weeks of consistent use, though full anti-inflammatory effects may take several weeks to develop.
+
+### Before Taking This Medicine
+You should not use ibuprofen if you are allergic to it, or if you have ever had an asthma attack, severe allergic reaction, or hives after taking aspirin or any other NSAID. Do not use ibuprofen immediately before or after heart bypass surgery (coronary artery bypass graft, or CABG). Tell your doctor if you have ever had heart disease, high blood pressure, high cholesterol, diabetes, stroke, stomach ulcers or bleeding, asthma, liver disease, kidney disease, lupus, or if you smoke.
+
+Taking ibuprofen during the last 3 months of pregnancy may harm the unborn baby. Tell your doctor if you are pregnant or plan to become pregnant. It is not known whether ibuprofen passes into breast milk or if it could harm a nursing baby, though small amounts have been detected. Ask your doctor before using this medicine if you are breastfeeding.
+
+Before starting ibuprofen, inform your healthcare provider about all your medical conditions, especially if you have a history of stomach problems, cardiovascular disease, bleeding disorders, or are taking medications that affect blood clotting. Patients with kidney disease should use ibuprofen with caution as NSAIDs can reduce kidney function, particularly in those with pre-existing renal impairment. Elderly patients are at increased risk for serious side effects and should use the lowest effective dose for the shortest possible duration.
+
+### How to Take / Dosing Information
+
+**For Adults:**
+- **Pain and Fever (OTC):** 200-400mg every 4-6 hours as needed. Do not exceed 1200mg in 24 hours unless directed by a doctor.
+- **Pain and Fever (Prescription):** 400-800mg every 6-8 hours as needed. Maximum daily dose is 3200mg.
+- **Osteoarthritis:** 1200-2400mg daily in divided doses (typically 400-800mg 3-4 times daily).
+- **Rheumatoid Arthritis:** 1200-3200mg daily in divided doses.
+
+**For Children:**
+Pediatric dosing is based on body weight: 5-10 mg/kg every 6-8 hours as needed. Do not exceed 40 mg/kg per day. Ibuprofen is not recommended for children under 6 months of age.
+
+**Administration Instructions:**
+Take ibuprofen with food, milk, or an antacid to minimize stomach upset. Swallow tablets or capsules whole with a full glass of water (8 ounces). Do not lie down for at least 10 minutes after taking the medication to prevent esophageal irritation. If using the liquid form, shake well before measuring each dose with the provided measuring device—do not use a household spoon.
+
+**Missed Dose:**
+If you are taking ibuprofen on a regular schedule and miss a dose, take it as soon as you remember. However, if it is almost time for your next dose, skip the missed dose. Do not take extra medicine to make up for a missed dose.
+
+**Duration of Treatment:**
+For pain and fever, ibuprofen should not be used for more than 10 days in adults or 3 days for fever in children without consulting a healthcare provider. For chronic conditions like arthritis, long-term use should be under medical supervision with regular monitoring.
+
+**Special Populations:**
+- **Elderly:** Start with lower doses (200-400mg) as older adults are more susceptible to side effects, particularly GI bleeding and kidney problems.
+- **Renal Impairment:** Dose reduction may be necessary; avoid in severe renal impairment.
+- **Hepatic Impairment:** Use with caution; dose adjustment may be required in severe liver disease.
+
+### Warnings and Precautions
+
+**Cardiovascular Risk:** Long-term use of NSAIDs, including ibuprofen, increases the risk of heart attack and stroke, especially in people with existing heart disease. This risk can begin within the first weeks of use and increases with higher doses and longer duration of treatment.
+
+**Gastrointestinal Risk:** Ibuprofen can cause ulcers, bleeding, or holes in the stomach or intestine. These problems can develop at any time during treatment and may occur without warning. The risk is higher in older adults, those with a history of stomach ulcers or bleeding, those taking blood thinners or corticosteroids, those who drink alcohol regularly, and those who take ibuprofen for extended periods.
+
+**Kidney Function:** NSAIDs can reduce blood flow to the kidneys and may cause kidney damage, especially with long-term use or in patients with pre-existing kidney disease, heart failure, liver dysfunction, or dehydration. Regular monitoring of kidney function is recommended during prolonged therapy.
+
+**Blood Pressure:** Ibuprofen can elevate blood pressure and reduce the effectiveness of blood pressure medications. Patients with hypertension should monitor their blood pressure regularly while using ibuprofen.
+
+**Liver Function:** Rare cases of severe liver injury, including liver failure, have been reported with ibuprofen use. Stop taking ibuprofen and contact your doctor immediately if you develop symptoms of liver problems including dark urine, yellowing of skin or eyes, persistent nausea, or abdominal pain.
+
+**Allergic Reactions:** Serious allergic reactions, including anaphylaxis, can occur with ibuprofen. Seek emergency medical attention if you develop hives, difficulty breathing, or swelling of your face, lips, tongue, or throat.
+
+**Asthma:** Some people with asthma are sensitive to NSAIDs and may experience worsening of asthma symptoms or severe bronchospasm when taking ibuprofen.
+
+### Side Effects
+
+**Very Common (more than 10%):**
+- Upset stomach, nausea, or heartburn
+- Indigestion or abdominal discomfort
+
+**Common (1-10%):**
+- Diarrhea or constipation
+- Gas or bloating
+- Dizziness or headache
+- Nervousness
+- Mild skin rash or itching
+- Ringing in the ears (tinnitus)
+- Fluid retention and edema
+
+**Less Common but Notable:**
+- Stomach pain or cramping
+- Vomiting
+- Drowsiness or fatigue
+- Blurred vision
+- Decreased appetite
+
+**Rare but Serious (seek immediate medical attention):**
+- Signs of stomach bleeding: bloody or black tarry stools, coughing up blood, vomit that looks like coffee grounds
+- Signs of heart attack: chest pain, shortness of breath, weakness on one side of the body, slurred speech
+- Signs of stroke: sudden severe headache, vision problems, confusion
+- Severe skin reactions: Stevens-Johnson syndrome, toxic epidermal necrolysis (skin rash with blistering and peeling)
+- Liver problems: dark urine, jaundice (yellowing of skin or eyes), severe fatigue
+- Kidney problems: change in amount of urine, swelling of feet or ankles
+- Severe allergic reactions: difficulty breathing, severe dizziness, swelling of face/tongue/throat
+- Blood disorders: unusual bruising or bleeding, pale skin, extreme fatigue
+
+**Managing Common Side Effects:**
+To minimize stomach upset, always take ibuprofen with food or milk. If you experience persistent heartburn or indigestion, talk to your doctor about adding a proton pump inhibitor or switching to a different pain reliever. Dizziness can be minimized by rising slowly from sitting or lying positions. If you develop any serious side effects, stop taking ibuprofen and seek medical attention immediately.
+
+### Drug Interactions
+
+**Major Interactions (Avoid Combination):**
+- **Anticoagulants (Warfarin, Heparin):** Ibuprofen significantly increases bleeding risk when combined with blood thinners. If concurrent use is necessary, close monitoring of INR and signs of bleeding is essential.
+- **Aspirin (Cardioprotective Doses):** Ibuprofen may interfere with the antiplatelet effect of low-dose aspirin used for heart protection. Take ibuprofen at least 8 hours before or 30 minutes after immediate-release aspirin.
+- **Other NSAIDs:** Concurrent use increases risk of GI bleeding and other NSAID toxicities without additional therapeutic benefit.
+
+**Moderate Interactions (Use with Caution):**
+- **ACE Inhibitors/ARBs (Blood Pressure Medications):** Ibuprofen may reduce the effectiveness of these medications and increase risk of kidney damage, especially in elderly or volume-depleted patients.
+- **Diuretics (Water Pills):** NSAIDs can reduce the diuretic effect and may increase risk of kidney problems.
+- **Lithium:** Ibuprofen can increase lithium blood levels, potentially causing toxicity. Close monitoring is necessary.
+- **Methotrexate:** NSAIDs can increase methotrexate levels and toxicity. Careful monitoring is required.
+- **SSRIs/SNRIs (Antidepressants):** Combined use increases risk of GI bleeding.
+- **Corticosteroids (Prednisone):** Increased risk of GI ulceration and bleeding.
+- **Cyclosporine/Tacrolimus:** Increased risk of kidney toxicity.
+
+**Food and Alcohol Interactions:**
+- **Alcohol:** Avoid alcohol while taking ibuprofen as it increases the risk of stomach bleeding. If you consume 3 or more alcoholic drinks daily, consult your doctor before using ibuprofen.
+- **Food:** Taking with food or milk reduces stomach irritation but may slightly delay absorption.
+
+**Herbal Supplements:**
+- **Ginkgo biloba, Garlic, Ginger:** May increase bleeding risk.
+- **St. John's Wort:** May alter ibuprofen metabolism.
+
+### Pregnancy, Breastfeeding, and Fertility
+
+**Pregnancy:**
+Ibuprofen is classified as Pregnancy Category C (first and second trimesters) and Category D (third trimester). During the first two trimesters, ibuprofen should only be used if the potential benefit justifies the potential risk to the fetus. Use during the third trimester (after 30 weeks of pregnancy) is contraindicated due to risk of premature closure of the fetal ductus arteriosus and oligohydramnios (low amniotic fluid). Animal studies have shown adverse effects including delayed labor and delivery, and increased perinatal mortality. There are no adequate and well-controlled studies in pregnant women during the first and second trimesters.
+
+**Breastfeeding:**
+Small amounts of ibuprofen are excreted in breast milk. The American Academy of Pediatrics considers ibuprofen usually compatible with breastfeeding. However, because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother. If used while breastfeeding, take immediately after nursing and avoid long-term use.
+
+**Fertility:**
+NSAIDs, including ibuprofen, may be associated with reversible delayed ovulation. In women with fertility problems or who are undergoing investigation of infertility, withdrawal of ibuprofen should be considered. Studies in animals have shown that NSAIDs can impair female fertility through effects on ovulation, but this effect is reversible upon discontinuation.
+
+### Overdose Information
+
+**Signs and Symptoms:**
+Symptoms of ibuprofen overdose may include severe stomach pain, vomiting (possibly with blood), drowsiness, dizziness, headache, ringing in the ears, confusion, blurred vision, seizures, little or no urination, slow or shallow breathing, and loss of consciousness. Massive overdoses may cause metabolic acidosis, kidney failure, and cardiovascular collapse.
+
+**Emergency Actions:**
+If an overdose is suspected, call the Poison Help line at 1-800-222-1222 or seek emergency medical attention immediately. If the person has collapsed, had a seizure, has trouble breathing, or cannot be awakened, call 911 emergency services immediately.
+
+**Treatment:**
+Treatment is primarily supportive and symptomatic. If the patient presents within one hour of ingestion, activated charcoal may be considered. Gastric lavage may be performed in large overdoses if the patient presents soon after ingestion. There is no specific antidote for ibuprofen overdose. Hemodialysis may be useful in severe cases, particularly if there is renal failure. Forced diuresis, alkalization of urine, or hemoperfusion may not be helpful due to high protein binding of ibuprofen.
+
+### Storage and Handling
+
+Store ibuprofen at room temperature between 68-77°F (20-25°C) away from light and moisture. Do not store in the bathroom. Keep the container tightly closed when not in use. Keep all medications out of reach of children and pets. The liquid suspension should be shaken well before each use and should not be frozen.
+
+Check the expiration date on the package and do not use ibuprofen past its expiration date. Expired medications may not be as effective and could potentially be harmful.
+
+**Disposal:**
+Do not flush medications down the toilet or pour them into a drain unless instructed to do so. Properly discard this product when it is expired or no longer needed. Consult your pharmacist or local waste disposal company for more details about medication take-back programs in your community.
+
+### Additional Information
+
+**Patient Counseling:**
+Use ibuprofen exactly as directed on the label or as prescribed by your doctor. Do not use it in larger amounts or for longer than recommended. Use the lowest effective dose for the shortest duration consistent with treatment goals. If you are taking ibuprofen for chronic conditions like arthritis, continue taking it even if you feel well, as consistent use provides better long-term results.
+
+**Lifestyle Modifications:**
+For arthritis management, combine ibuprofen with other treatments such as physical therapy, exercise, weight management, and heat/cold therapy for optimal results. Maintain adequate hydration while using ibuprofen to reduce kidney stress. Avoid smoking and limit alcohol consumption.
+
+**Monitoring:**
+Regular medical follow-up is important during long-term ibuprofen therapy. Your doctor may order periodic blood tests to monitor liver function, kidney function, and blood counts. Report any unusual symptoms promptly. Monitor blood pressure regularly if you have hypertension.
+
+**When to Follow Up:**
+Contact your healthcare provider if pain or fever persists despite using ibuprofen as directed, if symptoms worsen, if new symptoms develop, or if you experience any signs of serious side effects. Do not use OTC ibuprofen for more than 10 days for pain or 3 days for fever without medical consultation.
+
+**Resources:**
+For more information about ibuprofen, consult your pharmacist or healthcare provider. Additional resources include the FDA MedWatch program for reporting side effects (1-800-FDA-1088) and patient information from professional organizations such as the American College of Rheumatology.
+
+**IMPORTANT DEMONSTRATION NOTICE:** This medication information is provided for demonstration purposes only as part of a pharmacy catalog theme. This is not actual medical advice. Always consult with qualified healthcare professionals before starting, stopping, or changing any medication regimen.`,
     price: 6.99,
     image: "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=400",
     category: "prescription-drugs",
@@ -156,7 +324,215 @@ export const products = [
   {
     id: "rx-003",
     name: "Naproxen",
-    description: "Long-acting NSAID for pain and inflammation",
+    description: `## Naproxen - Comprehensive Drug Information
+
+### Overview
+Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) that belongs to the propionic acid class of medications. First approved by the FDA in 1976, naproxen is distinguished from other NSAIDs by its longer half-life of approximately 12-17 hours, which allows for less frequent dosing—typically twice daily rather than three or four times daily. This pharmacokinetic profile makes naproxen particularly convenient for managing chronic pain conditions. Like other NSAIDs, naproxen works by inhibiting cyclooxygenase (COX-1 and COX-2) enzymes, thereby reducing the production of prostaglandins responsible for pain, inflammation, and fever. Available in both immediate-release and extended-release formulations, naproxen is used to treat various conditions including osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, tendonitis, bursitis, gout attacks, and menstrual cramps. Over-the-counter naproxen sodium (Aleve) is available in 220mg strength, while prescription formulations range from 250mg to 500mg. The extended duration of action provides sustained pain relief, making it a preferred choice for many patients with chronic inflammatory conditions.
+
+### Important Safety Information
+**BLACK BOX WARNING:** Naproxen, like all NSAIDs, may cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk. Naproxen is contraindicated in the setting of coronary artery bypass graft (CABG) surgery. NSAIDs cause an increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding are at greater risk.
+
+### Uses and Indications
+Naproxen is FDA-approved for the relief of signs and symptoms of rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, polyarticular juvenile idiopathic arthritis, tendonitis, bursitis, and acute gout. It is also indicated for the management of pain and primary dysmenorrhea (menstrual cramps). The medication provides both analgesic (pain-relieving) and anti-inflammatory effects, making it particularly effective for conditions where inflammation is a key component of the pain experience.
+
+In osteoarthritis, naproxen helps reduce joint pain, swelling, and stiffness, improving overall function and quality of life. For rheumatoid arthritis, it helps manage the chronic inflammation that characterizes this autoimmune condition. In acute gout attacks, naproxen helps reduce the intense pain and inflammation caused by uric acid crystal deposits in joints.
+
+Common off-label uses include migraine headaches, where naproxen has shown efficacy in both acute treatment and prevention, and musculoskeletal injuries such as sprains and strains. Some studies suggest naproxen may be particularly useful for back pain and sports-related injuries. The extended-release formulation (Naprelan) is sometimes used for conditions requiring continuous around-the-clock pain control.
+
+Clinical studies have demonstrated that for chronic inflammatory conditions, patients typically begin to notice improvement within 3-7 days of starting naproxen, though full anti-inflammatory effects may take 2-4 weeks to develop. For acute pain like gout or menstrual cramps, relief usually begins within 1 hour of taking the first dose, with peak effects occurring at 2-4 hours.
+
+### Before Taking This Medicine
+You should not use naproxen if you are allergic to it, or if you have ever had an asthma attack, severe allergic reaction, or hives after taking aspirin or any other NSAID. Do not use naproxen just before or after heart bypass surgery (CABG). Naproxen can increase your risk of fatal heart attack or stroke, especially if you use it long term, take high doses, or have heart disease.
+
+Tell your doctor if you have ever had heart disease, high blood pressure, high cholesterol, diabetes, stroke, stomach ulcers or bleeding, asthma, liver disease, kidney disease, fluid retention, or if you smoke tobacco. Taking naproxen during the last 3 months of pregnancy may harm the unborn baby. Tell your doctor if you are pregnant or plan to become pregnant.
+
+Ask a doctor before using this medicine if you are breastfeeding, as naproxen can pass into breast milk and may harm a nursing baby. Naproxen is not approved for use by anyone younger than 2 years old for prescription formulations. Do not give OTC naproxen to a child younger than 12 years old without medical advice.
+
+Before starting naproxen, patients should undergo cardiovascular risk assessment, particularly if they have risk factors such as smoking, high blood pressure, high cholesterol, or diabetes. Those with a history of gastrointestinal problems should discuss with their healthcare provider whether gastroprotective therapy (such as a proton pump inhibitor) should be initiated concurrently. Kidney function should be assessed before starting long-term naproxen therapy, especially in elderly patients or those with pre-existing renal disease, diabetes, or heart failure.
+
+### How to Take / Dosing Information
+
+**For Adults:**
+- **Osteoarthritis, Rheumatoid Arthritis, Ankylosing Spondylitis:** 250-500mg twice daily. Some patients may benefit from 375-500mg twice daily for limited periods. Maximum daily dose: 1500mg.
+- **Acute Gout:** Initial dose: 750mg, followed by 250mg every 8 hours until the attack subsides.
+- **Mild to Moderate Pain, Dysmenorrhea:** Initial dose: 500mg, followed by 250mg every 6-8 hours as needed. Maximum daily dose: 1250mg on day 1, then 1000mg thereafter.
+- **Analgesia (OTC):** 220mg every 8-12 hours. Maximum: 660mg in 24 hours for individuals under 65 years; 440mg for those 65 and older.
+- **Extended-Release Formulation:** 750-1000mg once daily. Swallow whole; do not break, crush, or chew.
+
+**For Children and Adolescents (Juvenile Arthritis):**
+Children over 2 years: 5-7 mg/kg twice daily. Maximum daily dose: 1000mg.
+
+**Administration Instructions:**
+Take naproxen with food, milk, or an antacid to minimize gastric irritation. Swallow tablets or caplets whole with a full glass of water (8 ounces) and remain upright (sitting or standing) for at least 10 minutes after taking to prevent esophageal irritation. If using suspension, shake well before measuring each dose. Use the provided measuring device; do not use a household spoon.
+
+Take naproxen at the same times each day to maintain consistent blood levels, especially for chronic conditions. For best results in managing chronic inflammatory conditions, take regularly rather than only when pain is present.
+
+**Missed Dose:**
+If you miss a dose and are taking naproxen regularly, take it as soon as you remember unless it is almost time for your next scheduled dose. Do not take extra medicine to make up for the missed dose.
+
+**Duration of Treatment:**
+For self-medication (OTC use), do not use naproxen for more than 10 days for pain or more than 3 days for fever unless directed by a doctor. For chronic conditions under medical supervision, long-term use requires periodic monitoring.
+
+**Special Populations:**
+- **Elderly (65 years and older):** Use lower doses and monitor closely for side effects. Start with 220mg twice daily and increase cautiously if needed. Elderly patients are at higher risk for serious GI and cardiovascular events.
+- **Renal Impairment:** Use with caution. In moderate renal insufficiency (CrCl 30-49 mL/min), reduce dose or increase dosing interval. Avoid in severe renal impairment (CrCl <30 mL/min).
+- **Hepatic Impairment:** Use with caution in patients with liver disease. Dose reduction may be necessary with significant hepatic impairment.
+
+### Warnings and Precautions
+
+**Cardiovascular Thrombotic Risk:** NSAIDs, including naproxen, cause increased risk of serious cardiovascular thrombotic events, including MI and stroke, which can be fatal. This risk may increase with duration of use and in patients with cardiovascular disease or risk factors. Some observational studies suggest naproxen may have lower cardiovascular risk compared to other NSAIDs, but risk is still present. Monitor blood pressure closely during initiation and throughout therapy.
+
+**Gastrointestinal Risk:** Naproxen can cause serious GI adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, or intestines, which can be fatal. These events can occur at any time, with or without warning symptoms. Risk factors include longer duration of use, older age, poor general health, smoking, alcohol use, use of oral corticosteroids or anticoagulants, and history of GI disease. Consider gastroprotective therapy with proton pump inhibitors, especially in high-risk patients.
+
+**Hepatotoxicity:** Rare cases of severe hepatic reactions, including jaundice and fatal fulminant hepatitis, have been reported. Discontinue naproxen immediately if abnormal liver tests persist or worsen, or if clinical signs and symptoms of liver disease develop. Patients with pre-existing liver disease should use naproxen with extreme caution.
+
+**Hypertension:** NSAIDs including naproxen can lead to onset of new hypertension or worsening of pre-existing hypertension. Monitor blood pressure closely. Patients taking ACE inhibitors, ARBs, or diuretics may have an impaired response to these therapies when taking NSAIDs.
+
+**Heart Failure and Edema:** Fluid retention and edema have been observed in patients taking NSAIDs. Use naproxen with caution in patients with fluid retention or heart failure. NSAIDs, including naproxen, can precipitate overt cardiac failure in vulnerable patients.
+
+**Renal Toxicity:** Long-term administration of NSAIDs can result in renal papillary necrosis and other renal injury. Patients at greatest risk include elderly patients, those with impaired renal function, heart failure, liver dysfunction, taking diuretics, ACE inhibitors, or ARBs, and the elderly. Monitor renal function in patients at risk. Avoid in advanced renal disease unless benefits outweigh risks.
+
+**Anaphylactoid Reactions:** Anaphylactoid reactions may occur in patients with or without known hypersensitivity to naproxen. Seek emergency help if an anaphylactoid reaction occurs.
+
+**Skin Reactions:** NSAIDs can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. Discontinue naproxen at first appearance of skin rash, mucosal lesions, or any other sign of hypersensitivity.
+
+**Asthma:** NSAIDs may cause bronchospasm in patients with aspirin-sensitive asthma. Use with caution in patients with asthma.
+
+### Side Effects
+
+**Very Common (affecting more than 10% of users):**
+- Heartburn or indigestion
+- Stomach pain or discomfort
+- Nausea
+
+**Common (affecting 1-10% of users):**
+- Constipation or diarrhea
+- Gas or bloating
+- Dizziness or headache
+- Drowsiness or tiredness
+- Ringing in the ears (tinnitus)
+- Shortness of breath
+- Fluid retention (swelling of feet, ankles, or hands)
+- Skin rash or itching
+
+**Less Common but Notable:**
+- Vomiting
+- Mouth ulcers
+- Decreased appetite
+- Insomnia
+- Vision changes
+- Mood changes
+- Bruising
+- Palpitations
+
+**Rare but Serious (seek immediate medical attention):**
+- **Gastrointestinal:** Black, bloody, or tarry stools; vomiting blood or material that looks like coffee grounds; severe stomach pain
+- **Cardiovascular:** Chest pain; shortness of breath; sudden weakness on one side of the body; sudden vision changes; slurred speech; swelling of face or throat
+- **Liver:** Yellowing of skin or eyes (jaundice); dark-colored urine; persistent nausea or vomiting; loss of appetite; severe upper stomach pain
+- **Kidney:** Change in amount of urine; unusual tiredness; swelling of ankles/feet/hands
+- **Allergic:** Severe skin rash with blistering or peeling; hives; difficulty breathing or swallowing; swelling of face, lips, tongue, or throat
+- **Blood:** Unusual bleeding or bruising; signs of infection (fever, chills, persistent sore throat)
+- **Neurological:** Severe or persistent headache; confusion; stiff neck; seizures
+
+**Managing Side Effects:**
+To reduce stomach upset, always take naproxen with food or milk. If heartburn persists, consult your doctor about adding a proton pump inhibitor. Report any dark stools, stomach pain, or signs of bleeding immediately. For mild headache or dizziness, these often improve with continued use, but inform your doctor if they persist. Any signs of allergic reaction, difficulty breathing, or chest pain require immediate medical attention.
+
+### Drug Interactions
+
+**Major Interactions (Avoid or Use Only Under Close Medical Supervision):**
+
+- **Anticoagulants (Warfarin, Heparin):** Naproxen significantly increases bleeding risk. If combination is necessary, monitor INR closely and watch for signs of bleeding. Even short-term NSAID use in patients on anticoagulants can significantly increase bleeding risk.
+
+- **Aspirin (Low-Dose for Cardioprotection):** Naproxen may reduce the cardioprotective effect of low-dose aspirin. The interaction depends on timing of administration. If both must be used, take immediate-release aspirin at least 2 hours before naproxen.
+
+- **Other NSAIDs:** Concurrent use increases risk of GI toxicity and does not provide additional therapeutic benefit. Avoid combination.
+
+**Moderate Interactions (Use with Caution):**
+
+- **ACE Inhibitors/ARBs (Lisinopril, Losartan):** NSAIDs may diminish the antihypertensive effect and increase risk of renal impairment, particularly in elderly or volume-depleted patients or those with compromised renal function. Monitor blood pressure and renal function.
+
+- **Selective Serotonin Reuptake Inhibitors (SSRIs) and SNRIs:** Concurrent use may increase risk of GI bleeding. Consider gastroprotective therapy.
+
+- **Diuretics (Furosemide, Hydrochlorothiazide):** Naproxen may reduce natriuretic effect of diuretics and increase risk of renal impairment. Monitor blood pressure, renal function, and for signs of worsening heart failure.
+
+- **Methotrexate:** NSAIDs may increase methotrexate toxicity by reducing its renal excretion. With high-dose methotrexate, avoid NSAIDs. With low-dose methotrexate for rheumatoid arthritis, use naproxen cautiously with close monitoring.
+
+- **Lithium:** Naproxen can increase lithium levels by reducing renal clearance, potentially leading to lithium toxicity. Monitor lithium levels closely if concurrent use is necessary.
+
+- **Cyclosporine/Tacrolimus:** NSAIDs may enhance nephrotoxic effects. Monitor renal function closely.
+
+- **Oral Hypoglycemics and Insulin:** Rare cases of hypoglycemia have been reported. Monitor blood glucose in diabetic patients.
+
+- **Beta-Blockers:** NSAIDs may diminish the antihypertensive effect.
+
+**Food and Lifestyle Interactions:**
+- **Alcohol:** Concurrent use of alcohol and naproxen increases risk of GI bleeding and liver damage. Limit alcohol consumption; avoid if possible, especially if taking naproxen regularly.
+- **Food:** Taking with food reduces GI upset but does not eliminate GI bleeding risk. High-fat meals may delay absorption.
+
+**Herbal Supplements:**
+- **Ginkgo biloba, Garlic, Ginger, Saw Palmetto, Ginseng:** May increase bleeding risk when combined with naproxen.
+- **St. John's Wort:** May alter metabolism and effectiveness.
+
+### Pregnancy, Breastfeeding, and Fertility
+
+**Pregnancy:**
+Naproxen is classified as Pregnancy Category C during the first and second trimesters (before 30 weeks gestation) and Category D in the third trimester (at or after 30 weeks gestation). Use during pregnancy, especially in the third trimester, should be avoided. Starting at 30 weeks gestation, naproxen can cause premature closure of the fetal ductus arteriosus and oligohydramnios (low amniotic fluid), potentially resulting in neonatal complications or fetal death. Use of NSAIDs around 20 weeks gestation or later may cause fetal renal dysfunction.
+
+During the first and second trimesters, use only if the potential benefit justifies the potential risk to the fetus. Limited data suggest possible increased risk of cardiac malformations and oral clefts with first-trimester use. Women planning pregnancy should discuss with their healthcare provider whether to continue naproxen.
+
+**Breastfeeding:**
+Naproxen is present in breast milk at approximately 1% of the maternal plasma concentration. The manufacturer recommends that due to possible adverse effects on the nursing infant's cardiovascular system, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. The American Academy of Pediatrics previously considered naproxen usually compatible with breastfeeding, but caution is still advised. If used during breastfeeding, short-term use with monitoring of the infant is preferable to long-term use.
+
+**Fertility:**
+Naproxen, like other NSAIDs, may be associated with reversible delayed ovulation. In women who have difficulties conceiving or who are undergoing investigation of infertility, withdrawal of naproxen should be considered. NSAIDs may reduce female fertility by interfering with ovulation. This effect is reversible upon discontinuation of the drug. Data in males is limited, but some studies suggest potential effects on sperm production with long-term NSAID use.
+
+### Overdose Information
+
+**Signs and Symptoms:**
+Acute overdose symptoms may include drowsiness, lethargy, nausea, vomiting, epigastric pain, heartburn, indigestion, abdominal pain, diarrhea, and disorientation. More serious manifestations include GI bleeding, hypertension, acute renal failure, respiratory depression, and coma. Seizures have been reported but are rare. Massive overdoses may lead to metabolic acidosis, hyperkalemia, liver dysfunction, and cardiovascular collapse.
+
+The lethal dose in humans is not well established, but fatalities have been reported with doses as low as 25 grams in adults. However, many patients have survived much larger overdoses with appropriate supportive care.
+
+**Emergency Actions:**
+If overdose is suspected, immediately call the Poison Help line at 1-800-222-1222 or seek emergency medical attention. If the person has collapsed, is having a seizure, has trouble breathing, or cannot be awakened, call 911 immediately.
+
+**Treatment:**
+Treatment is primarily supportive and symptomatic. Within one hour of ingestion, consider administration of activated charcoal. Gastric lavage may be considered for large ingestions presenting shortly after overdose, though efficacy decreases with time due to rapid absorption. Monitor vital signs, fluid and electrolyte balance, renal function, and liver function. There is no specific antidote for naproxen overdose.
+
+Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion are not likely to be useful in naproxen overdose due to high protein binding (>99%). However, hemodialysis may be considered in severe cases with renal failure or when combined with other dialyzable toxins. Treat complications such as GI bleeding, seizures, or metabolic abnormalities as they arise.
+
+### Storage and Handling
+
+Store naproxen at room temperature between 68-77°F (20-25°C). Protect from light and moisture. Do not store in the bathroom or near sources of heat or moisture. Keep the container tightly closed when not in use. Store away from incompatible substances.
+
+Keep all medications out of reach of children and pets. Store in a secure location to prevent accidental ingestion or intentional misuse.
+
+**Disposal:**
+Do not flush medications down the toilet or pour them into a drain unless instructed to do so. Expired or unwanted naproxen should be disposed of properly. Take unused medication to a drug take-back program or pharmacy that participates in such programs. If no take-back program is available, mix the medication with an unpalatable substance such as dirt, cat litter, or used coffee grounds, seal in a plastic bag, and place in household trash. Remove or obscure personal information from the prescription label before disposal.
+
+### Additional Information
+
+**Patient Counseling Points:**
+Use naproxen exactly as prescribed or as directed on the OTC label. Do not exceed the recommended dose or duration without consulting a healthcare provider. Take the lowest effective dose for the shortest duration consistent with individual patient treatment goals. If you are self-treating with OTC naproxen and your condition persists or worsens, or if you think you may have a serious medical problem, seek immediate medical attention.
+
+Be aware of the signs and symptoms of cardiovascular events (chest pain, shortness of breath, weakness, slurred speech), GI ulceration and bleeding (epigastric pain, dyspepsia, melena, hematemesis), hepatotoxicity (nausea, fatigue, jaundice, right upper quadrant tenderness, flu-like symptoms), allergic reactions (difficulty breathing, swelling of face or throat, rash), and abnormal renal function (change in urination pattern, edema). Inform your doctor immediately if you experience any of these symptoms.
+
+**Lifestyle Modifications:**
+For optimal management of chronic conditions like arthritis, combine naproxen with appropriate physical therapy, exercise programs, weight management, and joint protection strategies. Maintain adequate hydration, especially during hot weather or vigorous exercise, to reduce stress on kidneys. Avoid or limit alcohol consumption. Do not smoke, as smoking increases cardiovascular and GI risks.
+
+**Regular Monitoring:**
+Patients on long-term naproxen therapy should undergo periodic evaluation including: complete blood count (CBC) to check for anemia or other blood disorders; comprehensive metabolic panel to assess liver and kidney function; blood pressure monitoring; and assessment for GI symptoms. The frequency of monitoring depends on individual risk factors but typically should occur at least every 6-12 months during chronic therapy.
+
+**When to Follow Up:**
+Contact your healthcare provider if pain or other symptoms persist or worsen despite treatment, if new symptoms develop, if you experience any signs of serious side effects, or before using for longer than recommended for self-treatment. Regular follow-up appointments are important during long-term therapy.
+
+**Special Considerations:**
+Inform all healthcare providers (including dentists and surgeons) that you are taking naproxen, especially before any surgical procedure, as it may need to be discontinued prior to surgery due to bleeding risk. Naproxen may interfere with certain laboratory tests; inform laboratory personnel that you take this medication.
+
+**Resources for More Information:**
+Consult your pharmacist or healthcare provider for additional information specific to your situation. Report side effects to the FDA MedWatch program at 1-800-FDA-1088 or www.fda.gov/medwatch. For drug safety information, visit www.fda.gov. Professional organizations such as the American College of Rheumatology provide patient education resources about arthritis medications.
+
+**IMPORTANT DEMONSTRATION NOTICE:** This medication information is provided for demonstration purposes only as part of a pharmacy catalog theme. This is not actual medical advice. No actual medications are being dispensed. This is a demonstration theme showcasing pharmaceutical product catalog functionality. Always consult with qualified healthcare professionals before starting, stopping, or changing any medication regimen.`,
     price: 8.99,
     image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
     category: "prescription-drugs",
@@ -207,7 +583,251 @@ export const products = [
   {
     id: "rx-004",
     name: "Diclofenac",
-    description: "Potent NSAID for pain and inflammation",
+    description: `## Diclofenac - Comprehensive Drug Information
+
+### Overview
+Diclofenac is a potent nonsteroidal anti-inflammatory drug (NSAID) classified as a phenylacetic acid derivative. First introduced in the 1970s, diclofenac has become one of the most widely prescribed NSAIDs worldwide due to its powerful anti-inflammatory and analgesic properties. Diclofenac works by inhibiting both cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2) enzymes, with slightly more selectivity toward COX-2, thereby reducing the synthesis of prostaglandins responsible for pain, inflammation, and fever. Available in multiple formulations including oral tablets, extended-release tablets, topical gels, patches, and ophthalmic solutions, diclofenac offers versatile treatment options for various conditions. Oral formulations are commonly used for osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, acute pain, and primary dysmenorrhea, while topical formulations are often preferred for localized pain such as osteoarthritis of the knees or hands. Diclofenac's potency allows for effective relief at relatively lower doses compared to some other NSAIDs, though this potency also requires careful consideration of potential risks. The medication's pharmacokinetics show rapid absorption with peak plasma concentrations achieved within 2-3 hours for immediate-release formulations, providing relatively quick onset of pain relief.
+
+### Important Safety Information
+**BLACK BOX WARNING:** Diclofenac can increase risk of serious cardiovascular thrombotic events, myocardial infarction, and stroke, which can be fatal. This risk may increase with duration of use. Patients with cardiovascular disease or risk factors for cardiovascular disease may be at greater risk. Diclofenac is contraindicated for treatment of perioperative pain in the setting of coronary artery bypass graft (CABG) surgery. Diclofenac causes increased risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events. Diclofenac has been associated with hepatotoxicity and should be used with extreme caution in patients with liver disease. Elevations of one or more liver tests may occur during therapy. Rare cases of severe hepatic reactions, including jaundice and fatal fulminant hepatitis, liver necrosis, and hepatic failure have been reported.
+
+### Uses and Indications
+Diclofenac is FDA-approved for multiple indications across its various formulations. Oral diclofenac is indicated for relief of signs and symptoms of osteoarthritis, rheumatoid arthritis, and ankylosing spondylitis. It is also approved for treatment of primary dysmenorrhea (menstrual cramps) and for management of acute pain in adults. The immediate-release formulations provide rapid relief for acute pain episodes, while extended-release formulations are designed for chronic conditions requiring around-the-clock pain management.
+
+Topical diclofenac gel is FDA-approved for treatment of osteoarthritis pain in joints amenable to topical therapy, such as knees and hands. The topical formulation offers the advantage of delivering medication directly to the affected area while minimizing systemic absorption and potentially reducing the risk of systemic side effects, particularly gastrointestinal complications. Diclofenac sodium topical solution (1.5%) is specifically indicated for treatment of osteoarthritis of the knee.
+
+Diclofenac ophthalmic solution is approved for treatment of postoperative inflammation following cataract extraction and for temporary relief of pain and photophobia in patients undergoing corneal refractive surgery.
+
+Common off-label uses of oral diclofenac include acute migraine headaches, where studies have shown efficacy comparable to other migraine-specific medications; acute gout flares, where its powerful anti-inflammatory properties provide rapid symptom relief; and various musculoskeletal injuries including tendonitis, bursitis, and sports injuries. Some practitioners use diclofenac for pericarditis as part of anti-inflammatory treatment protocols.
+
+Clinical efficacy varies by condition: For acute pain, patients typically experience relief within 30-60 minutes of taking immediate-release diclofenac, with peak effects at 2-3 hours. For chronic inflammatory conditions like arthritis, initial improvement may be noticed within a few days, but optimal therapeutic effect often requires 2-3 weeks of consistent use. Topical formulations generally require 2-4 weeks of regular application for maximal benefit in osteoarthritis.
+
+### Before Taking This Medicine
+You should not use diclofenac if you are allergic to it, or if you have ever had an asthma attack, severe allergic reaction, or hives after taking aspirin or any other NSAID. Do not use diclofenac immediately before or after heart bypass surgery (coronary artery bypass graft, or CABG). Diclofenac can increase your risk of fatal heart attack or stroke, especially if you use it long term, take high doses, or have heart disease. Do not use diclofenac if you have severe kidney disease, severe heart failure, or active peptic ulcer disease.
+
+Tell your doctor if you have ever had heart disease, high blood pressure, high cholesterol, diabetes, heart attack or stroke, blood clots, stomach ulcers or bleeding, asthma or allergies to NSAIDs, liver disease including hepatitis or cirrhosis, kidney disease, fluid retention or edema, inflammatory bowel disease (Crohn's disease or ulcerative colitis), bleeding or clotting disorders, or if you smoke tobacco.
+
+Diclofenac use during pregnancy, particularly in the third trimester, can cause harm to the unborn baby and complications during delivery. Tell your doctor if you are pregnant or plan to become pregnant. Diclofenac passes into breast milk and may harm a nursing baby; discuss with your doctor before breastfeeding.
+
+**Pre-Treatment Evaluation:**
+Before initiating diclofenac therapy, comprehensive assessment should include cardiovascular risk evaluation (history of heart disease, hypertension, hyperlipidemia), gastrointestinal risk assessment (history of ulcers, GI bleeding, concurrent use of aspirin/anticoagulants), baseline liver function tests (especially important for diclofenac due to hepatotoxicity risk), baseline renal function tests, and complete blood count. Patients with significant cardiovascular risk factors may require cardiology consultation before starting therapy. Those with liver disease may need alternative pain management strategies or very careful monitoring if diclofenac is deemed necessary.
+
+### How to Take / Dosing Information
+
+**Oral Immediate-Release Tablets:**
+- **Osteoarthritis:** 50mg 2-3 times daily or 75mg twice daily. Maximum: 150mg/day.
+- **Rheumatoid Arthritis:** 50mg 3-4 times daily or 75mg twice daily. Maximum: 225mg/day (higher doses increase risk without proportional benefit).
+- **Ankylosing Spondylitis:** 25mg four times daily, with an additional 25mg at bedtime if needed. Maximum: 125mg/day.
+- **Acute Pain and Primary Dysmenorrhea:** 50mg three times daily. Some patients may benefit from an initial dose of 100mg followed by 50mg doses. Maximum: 150mg/day.
+
+**Oral Extended-Release Tablets:**
+- 100mg once daily. For some patients, 100mg twice daily may provide better relief. Maximum: 200mg/day (typically reserved for short-term use in acute conditions).
+
+**Topical Gel (1%):**
+- **Lower Extremities (knee, ankle, foot):** Apply 4 grams to affected area four times daily. Maximum: 16 grams per joint per day.
+- **Upper Extremities (elbow, wrist, hand):** Apply 2 grams to affected area four times daily. Maximum: 8 grams per joint per day.
+- Total daily dose should not exceed 32 grams across all affected joints.
+
+**Topical Solution (1.5%):**
+- 40 drops applied to affected knee(s) four times daily.
+
+**Administration Instructions:**
+**For Oral Forms:** Take with food or milk to minimize gastrointestinal upset. Swallow tablets whole with a full glass of water (8 ounces); do not crush, break, or chew extended-release formulations as this can lead to rapid drug release and increased side effects. Remain upright (sitting or standing) for at least 10 minutes after taking to prevent esophageal irritation. Take at consistent times each day for chronic conditions to maintain stable blood levels.
+
+**For Topical Forms:** Apply to clean, dry, intact skin. Do not apply to open wounds, infected areas, or damaged skin. Wash hands immediately after application unless hands are the treated joint. Avoid contact with eyes and mucous membranes. Do not cover treated area with occlusive dressings or apply external heat sources. Wait at least 10 minutes before showering or bathing after application. Do not apply sunscreen, cosmetics, lotions, or other topical products to the treated area until the diclofenac has dried.
+
+**Missed Dose:**
+If you miss a dose, take it as soon as you remember unless it is almost time for your next scheduled dose. In that case, skip the missed dose. Do not double the dose to catch up. For chronic conditions, maintaining a consistent schedule is important for optimal therapeutic effect.
+
+**Duration of Treatment:**
+Use the lowest effective dose for the shortest duration consistent with individual patient treatment goals. For acute pain, limit use to 5-7 days unless otherwise directed by a healthcare provider. Long-term use for chronic conditions requires regular medical monitoring.
+
+**Special Populations:**
+- **Elderly Patients:** Use with extreme caution. Start with lower doses (25mg 2-3 times daily) and increase gradually only if necessary and tolerated. Elderly patients have increased risk of serious GI, cardiovascular, and renal adverse events.
+- **Hepatic Impairment:** Contraindicated in patients with severe hepatic impairment. Use with caution and at reduced doses in mild to moderate impairment with frequent monitoring of liver function.
+- **Renal Impairment:** Not recommended in patients with advanced renal disease. In mild to moderate impairment, use the lowest effective dose and monitor renal function closely. May need dose reduction.
+- **Pediatric Use:** Not recommended for children under 18 years for oral formulations in the United States due to limited data.
+
+### Warnings and Precautions
+
+**Cardiovascular Thrombotic Events:** NSAIDs, including diclofenac, increase risk of serious cardiovascular thrombotic events, MI, and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. Several epidemiologic studies suggest diclofenac may carry higher cardiovascular risk compared to some other NSAIDs, particularly at higher doses. Patients with established cardiovascular disease or risk factors have higher absolute risk. Use the lowest effective dose for the shortest duration. Monitor for signs and symptoms of cardiovascular events even in patients without prior history.
+
+**Gastrointestinal Bleeding, Ulceration, and Perforation:** NSAIDs cause serious GI adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, small intestine, or large intestine, which can be fatal. These events can occur at any time, with or without warning symptoms. Only one in five patients who develop serious upper GI adverse events on NSAID therapy is symptomatic. Risk factors include longer duration of use, older age, poor general health status, advanced liver disease, smoking, alcoholism, concomitant use of oral corticosteroids, anticoagulants, or SSRIs, and history of GI disease such as ulceration or GI bleeding. To minimize risk, use the lowest effective dose for the shortest duration. Consider gastroprotective agents (proton pump inhibitors or misoprostol) for high-risk patients.
+
+**Hepatotoxicity:** Diclofenac has been associated with serious hepatotoxicity, including liver failure resulting in liver transplantation or death. Elevated liver enzymes occur in about 15% of patients taking oral diclofenac. Severe hepatic reactions including jaundice and fatal fulminant hepatitis, liver necrosis, and hepatic failure have been reported rarely but are more common with diclofenac than some other NSAIDs. Measure transaminases (ALT and AST) at baseline and periodically during chronic therapy (recommended at 4-8 weeks after initiation, then periodically thereafter based on clinical assessment). Discontinue immediately if abnormal liver tests persist or worsen, or if signs and symptoms of liver disease develop.
+
+**Hypertension:** NSAIDs including diclofenac can lead to new onset or worsening of pre-existing hypertension. Blood pressure should be monitored closely during initiation and throughout therapy. NSAIDs may diminish the effectiveness of antihypertensive medications.
+
+**Heart Failure and Edema:** Fluid retention and edema have been observed in patients taking NSAIDs. Use with caution in patients with fluid retention, hypertension, or heart failure. NSAIDs, including diclofenac, can precipitate new onset or worsen pre-existing heart failure.
+
+**Renal Toxicity and Hyperkalemia:** Long-term administration of NSAIDs can result in renal papillary necrosis and other renal injury. Patients at greatest risk include elderly individuals, those with impaired renal function, hypovolemia, heart failure, liver dysfunction, those taking diuretics, ACE inhibitors, or ARBs, and the elderly. Monitor renal function in at-risk patients. Hyperkalemia may occur, particularly in patients with renal impairment, diabetes, or those taking medications that cause hyperkalemia.
+
+**Anaphylactic Reactions:** Anaphylactic reactions may occur in patients with or without known hypersensitivity to diclofenac and may be fatal. Seek emergency help immediately if an anaphylactic reaction occurs.
+
+**Exacerbation of Asthma Related to Aspirin Sensitivity:** A subpopulation of patients with asthma may have aspirin-sensitive asthma, which may include chronic rhinosinusitis complicated by nasal polyps, severe potentially fatal bronchospasm, and/or intolerance to aspirin and other NSAIDs. Diclofenac is contraindicated in patients with aspirin-sensitive asthma. Monitor patients with pre-existing asthma (without known aspirin sensitivity) for changes in asthma symptoms.
+
+**Serious Skin Reactions:** NSAIDs can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Discontinue diclofenac at the first appearance of skin rash, mucosal lesions, or any other sign of hypersensitivity.
+
+**Hematologic Toxicity:** Anemia has occurred in NSAID-treated patients. This may be due to occult or gross blood loss, fluid retention, or an incompletely described effect on erythropoiesis. Monitor hemoglobin or hematocrit in patients on long-term treatment. NSAIDs may increase risk of bleeding events by interfering with platelet function.
+
+### Side Effects
+
+**Very Common (more than 10%):**
+- Headache
+- Dizziness
+- Nausea
+- Indigestion (dyspepsia)
+- Abdominal pain
+- Diarrhea
+
+**Common (1-10%):**
+- Constipation
+- Gas (flatulence)
+- Vomiting
+- Peptic ulcer
+- Elevated liver enzymes (ALT, AST)
+- Rash or itching
+- Tinnitus (ringing in ears)
+- Fluid retention and edema
+- Increased blood pressure
+
+**Less Common but Notable:**
+- Gastritis or GERD symptoms
+- Drowsiness or insomnia
+- Anxiety or depression
+- Blurred vision
+- Decreased appetite
+- Mouth ulcers
+- Taste changes
+- Sweating
+- Fatigue
+- Palpitations
+- Bruising
+
+**Rare but Serious (requires immediate medical attention):**
+- **Cardiovascular:** Chest pain, shortness of breath, weakness on one side of body, sudden severe headache, vision or speech changes indicating heart attack or stroke
+- **Gastrointestinal:** Black/tarry stools, vomiting blood or coffee-ground material, severe abdominal pain indicating GI bleeding or perforation
+- **Hepatic:** Jaundice (yellowing of skin/eyes), dark urine, severe fatigue, persistent nausea/vomiting, right upper quadrant pain indicating liver toxicity
+- **Renal:** Significant decrease in urination, swelling of extremities, unusual weight gain indicating kidney problems
+- **Allergic/Skin:** Severe rash with blistering or peeling, hives, difficulty breathing or swallowing, swelling of face/lips/tongue/throat indicating severe allergic reaction or SJS/TEN
+- **Hematologic:** Unusual bleeding or bruising, signs of anemia (pale skin, weakness, shortness of breath)
+- **Other:** Severe headache, stiff neck, confusion, seizures; signs of aseptic meningitis
+
+**Topical Formulation Specific:**
+Local skin reactions at application site (dryness, irritation, rash) occur in up to 40% of users but are usually mild. Systemic side effects are less common with topical use but can still occur, especially with prolonged use or application to large surface areas.
+
+### Drug Interactions
+
+**Major Interactions:**
+
+- **Anticoagulants (Warfarin, Heparin, DOACs):** Significantly increased risk of GI bleeding and other bleeding complications. If combination is necessary, monitor closely for signs of bleeding and check INR frequently with warfarin. Consider gastroprotective therapy.
+
+- **Aspirin:** Concomitant use increases risk of serious GI events without providing additional cardiovascular protection. Diclofenac may interfere with the antiplatelet effect of low-dose aspirin. Avoid combination if possible.
+
+- **Other NSAIDs:** Increases GI toxicity risk without therapeutic benefit. Avoid concurrent use of multiple NSAIDs.
+
+**Moderate Interactions:**
+
+- **ACE Inhibitors/ARBs (Lisinopril, Losartan, etc.):** NSAIDs may diminish antihypertensive effect and increase risk of renal impairment, particularly in elderly or volume-depleted patients. Monitor blood pressure and renal function closely.
+
+- **Diuretics (Furosemide, Hydrochlorothiazide):** NSAIDs may reduce diuretic and natriuretic effects and increase risk of renal failure. Monitor renal function, blood pressure, and for signs of heart failure worsening.
+
+- **Lithium:** Diclofenac can increase plasma lithium concentrations by reducing renal clearance, potentially causing lithium toxicity. Monitor lithium levels closely; dose adjustment may be needed.
+
+- **Methotrexate:** NSAIDs may increase methotrexate toxicity by reducing renal clearance. Particular caution with high-dose methotrexate (e.g., for cancer treatment); avoid NSAIDs if possible. With low-dose methotrexate (for rheumatoid arthritis), use diclofenac cautiously with close monitoring for methotrexate toxicity.
+
+- **Cyclosporine/Tacrolimus:** NSAIDs may enhance nephrotoxic effects. Monitor renal function closely if combination is necessary.
+
+- **SSRIs/SNRIs (Fluoxetine, Sertraline, Venlafaxine):** Increased risk of GI bleeding when used together. Consider gastroprotective therapy.
+
+- **Digoxin:** NSAIDs may increase serum digoxin levels. Monitor digoxin levels when initiating or changing NSAID dose.
+
+- **Pemetrexed:** NSAIDs may decrease pemetrexed clearance in patients with renal impairment. Avoid NSAIDs with short elimination half-lives 2 days before through 2 days after pemetrexed administration. For longer half-life NSAIDs like diclofenac, avoid 5 days before through 2 days after pemetrexed.
+
+- **Phenytoin:** Diclofenac may increase phenytoin levels. Monitor for phenytoin toxicity.
+
+**Interactions with Common Medications:**
+
+- **Corticosteroids (Prednisone):** Increased risk of GI ulceration and bleeding. Use together with caution and consider gastroprotection.
+
+- **Beta-blockers:** NSAIDs may diminish the antihypertensive effect of beta-blockers.
+
+- **Antidiabetic Medications:** Rare reports of hypoglycemia in patients on oral hypoglycemics or insulin. Monitor blood glucose.
+
+**Food and Alcohol:**
+- **Alcohol:** Increases risk of GI bleeding and liver toxicity. Avoid alcohol consumption while taking diclofenac, especially chronic heavy use.
+- **Food:** Taking with food reduces GI irritation but does not eliminate risk of serious GI complications. High-fat meals may delay absorption but do not significantly affect total absorption.
+
+**Herbal Supplements:**
+- **Ginkgo, Garlic, Ginger, Feverfew:** May increase bleeding risk.
+- **St. John's Wort:** May affect diclofenac metabolism.
+
+### Pregnancy, Breastfeeding, and Fertility
+
+**Pregnancy:**
+Diclofenac is contraindicated in pregnancy starting at 30 weeks gestation. Use of NSAIDs at about 20 weeks gestation or later may cause fetal renal dysfunction leading to oligohydramnios and, in some cases, neonatal renal impairment. Use of NSAIDs around 30 weeks gestation or later increases risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs in pregnant women starting at 30 weeks gestation (third trimester).
+
+Between conception and 30 weeks gestation, use diclofenac only if the potential benefit justifies the potential risk to the fetus. Limited data suggest possible increased risk of cardiac septal defects and oral clefts with first-trimester NSAID use. There are also concerns about increased risk of miscarriage with NSAID use in early pregnancy. Women of reproductive potential should discuss pregnancy plans with their healthcare provider, and alternative pain management options should be considered for women planning pregnancy or in early pregnancy.
+
+**Breastfeeding:**
+Diclofenac is present in breast milk in small amounts. Due to the potential for serious adverse reactions in nursing infants, the manufacturer advises that breastfeeding is not recommended during treatment with diclofenac. If treatment with diclofenac is necessary, consider pumping and discarding breast milk during treatment and for 24 hours after the last dose before resuming breastfeeding, or consider alternative pain management compatible with breastfeeding.
+
+**Effects on Fertility:**
+Diclofenac, like other NSAIDs, may be associated with reversible delayed ovulation in women. Women who have difficulties conceiving or are undergoing fertility investigations should consider discontinuing NSAIDs. Limited animal data suggest potential effects on spermatogenesis with chronic high-dose use, though clinical significance in humans at therapeutic doses is unclear. Fertility effects are generally considered reversible upon discontinuation.
+
+### Overdose Information
+
+**Signs and Symptoms:**
+Symptoms of acute diclofenac overdose may include lethargy, drowsiness, nausea, vomiting, epigastric pain, gastrointestinal bleeding, diarrhea, disorientation, headache, tinnitus, and rarely seizures. More severe manifestations include hypertension or hypotension, acute renal failure, respiratory depression, metabolic acidosis, hyperkalemia, elevated liver transaminases, prolonged prothrombin time/INR, and coma. Massive overdoses may lead to cardiovascular collapse.
+
+Fatalities have been reported with diclofenac overdose, particularly in pediatric cases or when combined with other substances. The minimum lethal dose is not well established but serious toxicity is more likely with ingestions greater than 5mg/kg.
+
+**Emergency Actions:**
+In case of suspected overdose, immediately call the Poison Control Center at 1-800-222-1222 or seek emergency medical care. If the person has collapsed, is not breathing, having a seizure, or cannot be awakened, call 911 immediately. Do not induce vomiting unless instructed by medical personnel.
+
+**Treatment:**
+Management of diclofenac overdose is primarily supportive and symptomatic. If ingestion was recent (within 1-2 hours), consider gastric decontamination with activated charcoal (50-100g in adults, 1-2 g/kg in children) if the airway can be protected. Gastric lavage may be considered for large ingestions presenting very soon after overdose, though routine use is not recommended due to limited efficacy and potential complications.
+
+Monitor vital signs, fluid and electrolyte balance, renal function (BUN, creatinine), liver function (transaminases), and complete blood count. Correct dehydration, electrolyte imbalances, and acid-base disturbances. Treat GI bleeding if present. Seizures should be managed with benzodiazepines.
+
+There is no specific antidote for diclofenac overdose. Due to extensive protein binding (>99%), hemodialysis, hemoperfusion, forced diuresis, and urinary alkalinization are unlikely to enhance elimination significantly and are generally not recommended. However, dialysis may be considered in severe cases with significant renal failure or when combined with other dialyzable toxins.
+
+### Storage and Handling
+
+Store diclofenac tablets at room temperature between 68-77°F (20-25°C). Protect from moisture. Store in original container; keep bottle tightly closed. Do not store in bathroom or areas with high humidity. Protect from light.
+
+Store topical gel and solution at room temperature. Do not freeze. Keep tube or bottle tightly closed when not in use. Topical gel is flammable; avoid fire, flame, or smoking during and immediately following application.
+
+Keep all medications out of reach of children and pets. Even small amounts can be toxic, particularly to children and animals. Store in a secure location.
+
+**Disposal:**
+Dispose of expired or unwanted diclofenac through drug take-back programs. Check with your pharmacy or local waste management for take-back options. If no take-back program is available, mix tablets with an unpalatable substance (dirt, cat litter, coffee grounds), place in a sealed plastic bag, and dispose in household trash after removing personal information from the label. Do not flush down toilet unless specifically instructed. For topical formulations, seal tube/bottle in plastic bag before disposal.
+
+### Additional Information
+
+**Patient Counseling Points:**
+Use diclofenac exactly as prescribed. Do not increase dose or frequency without consulting your healthcare provider. Take the lowest effective dose for the shortest duration needed. Be aware that even short-term use can increase cardiovascular and GI risks, particularly in those with risk factors. Do not take other NSAIDs or aspirin (except low-dose aspirin prescribed for cardiovascular protection) while using diclofenac without medical approval.
+
+Be alert for warning signs of serious complications: chest pain, shortness of breath, weakness, slurred speech (cardiovascular events); black stools, persistent stomach pain, vomiting blood (GI bleeding); yellowing of skin or eyes, dark urine, severe fatigue (liver problems); decreased urination, swelling (kidney problems); skin rash or blistering (allergic reactions). Seek immediate medical attention if any of these occur.
+
+Inform all healthcare providers, including dentists and surgeons, that you take diclofenac, especially before any surgical or dental procedures. May need to discontinue before elective surgery.
+
+**Lifestyle Modifications:**
+For chronic conditions like arthritis, combine diclofenac with physical therapy, appropriate exercise, weight management, and joint protection techniques for optimal outcomes. Maintain good hydration. Avoid or limit alcohol consumption. Do not smoke; smoking increases cardiovascular and GI risks. Maintain healthy blood pressure through diet and lifestyle. Protect skin from sun exposure when using topical diclofenac, as it may increase photosensitivity.
+
+**Monitoring Requirements:**
+Patients on long-term diclofenac therapy require regular monitoring including: liver function tests (ALT, AST) at baseline, 4-8 weeks after initiation, and periodically thereafter (e.g., every 3-6 months); renal function assessment (serum creatinine, BUN, electrolytes) particularly in at-risk patients; complete blood count to monitor for anemia; blood pressure monitoring; assessment for GI symptoms; and evaluation of continued need for therapy and lowest effective dose.
+
+**When to Contact Healthcare Provider:**
+Contact your doctor if pain or other symptoms persist or worsen, if you develop any signs of serious side effects, before using for longer than recommended, if you miss doses frequently and need dosing schedule adjustment, or if you experience any unexpected symptoms. Regular follow-up appointments are essential during long-term therapy to assess efficacy, monitor for adverse effects, and determine if continued treatment is appropriate.
+
+**Drug and Disease Interactions:**
+Diclofenac may interfere with certain laboratory tests, including urine tests for bile. Inform laboratory personnel you are taking this medication. Diclofenac may mask signs of infection (fever, inflammation); notify doctor if signs of infection develop during therapy.
+
+**Additional Resources:**
+For more information about diclofenac and NSAID safety, consult your healthcare provider or pharmacist. Report adverse events to the FDA MedWatch program at 1-800-FDA-1088 or www.fda.gov/medwatch. The American College of Rheumatology and Arthritis Foundation provide patient education materials about arthritis medications at their websites.
+
+**IMPORTANT DEMONSTRATION NOTICE:** This comprehensive medication information is provided for demonstration purposes only as part of a pharmacy theme showcasing pharmaceutical catalog capabilities. This is not actual medical advice, and no real medications are being prescribed or dispensed. This demonstration theme illustrates how detailed drug information can be presented in a professional pharmaceutical catalog format. Always consult with qualified, licensed healthcare professionals for actual medical advice and before starting, stopping, or changing any medication regimen.`,
     price: 11.99,
     oldPrice: 19.99,
     image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",

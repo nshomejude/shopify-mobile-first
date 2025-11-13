@@ -430,44 +430,6 @@ const HomePage3 = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="py-24 relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10"></div>
-        <div className="container mx-auto px-6 relative z-10">
-          <Card className="bg-gradient-to-br from-slate-800 to-slate-900 border-slate-700 overflow-hidden">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
-            <CardContent className="p-12 md:p-16 relative">
-              <div className="max-w-2xl mx-auto text-center space-y-8">
-                <div className="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                  <Mail className="w-8 h-8 text-white" />
-                </div>
-                <div className="space-y-4">
-                  <h2 className="text-3xl md:text-4xl font-bold text-white">
-                    Stay Updated
-                  </h2>
-                  <p className="text-lg text-slate-300">
-                    Subscribe to our newsletter for health tips, product updates, and exclusive offers
-                  </p>
-                </div>
-                <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                  <Input 
-                    type="email" 
-                    placeholder="Enter your email" 
-                    className="h-12 bg-slate-900/50 border-slate-700 text-white placeholder:text-slate-500"
-                  />
-                  <Button size="lg" className="h-12 px-8 whitespace-nowrap">
-                    Subscribe
-                  </Button>
-                </div>
-                <p className="text-sm text-slate-400">
-                  We respect your privacy. Unsubscribe at any time.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-24 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10"></div>

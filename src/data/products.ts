@@ -18472,6 +18472,104 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 149.99,
       maxPrice: 499.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-1-(3-methylphenyl)propan-1-one",
+        molecularFormula: "C₁₁H₁₅NO",
+        molecularWeight: "177.24 g/mol",
+        casNumber: "1246816-62-5",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: ["Water (sparingly soluble)", "Ethanol (freely soluble)", "DMSO (soluble)", "Acetone (soluble)"]
+      },
+      researchApplications: {
+        overview: "3-MMC (3-Methylmethcathinone) is a synthetic cathinone derivative used extensively in neuroscience research to study monoamine transporter function and stimulant pharmacology. It serves as a valuable tool for investigating the structure-activity relationships of substituted cathinones and their effects on neurotransmitter systems.",
+        primaryUses: [
+          "Monoamine transporter (DAT, SERT, NET) interaction studies",
+          "Comparative cathinone pharmacology research",
+          "Neurotransmitter release mechanism investigations",
+          "Structure-activity relationship (SAR) analysis of cathinone derivatives"
+        ],
+        studyAreas: [
+          "Dopaminergic neurotransmission",
+          "Serotonergic system function",
+          "Noradrenergic pathway research",
+          "Synthetic cathinone neurochemistry",
+          "Behavioral pharmacology"
+        ],
+        mechanism: "3-MMC acts as a substrate-type monoamine releasing agent, promoting the release of dopamine, serotonin, and norepinephrine by serving as a substrate for their respective transporters. It causes non-exocytotic neurotransmitter release through reverse transport mechanisms."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes"
+        ],
+        storageConditions: "Store in tightly closed containers in a cool (2-8°C preferred), dry place away from light, heat, and incompatible materials. Store under inert atmosphere for long-term storage.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations. Contact licensed waste disposal service. Incineration in appropriate facility recommended.",
+        ppe: [
+          "Safety glasses with side shields",
+          "Nitrile gloves (minimum 0.11mm thickness)",
+          "Lab coat",
+          "Dust mask or respirator when handling powder"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1-10 μM for in vitro studies", "Stock solutions: 10-100 mM in DMSO"],
+        preparationNotes: [
+          "Prepare fresh solutions when possible",
+          "Stock solutions in DMSO stable for up to 6 months at -20°C",
+          "Protect solutions from light during storage",
+          "Allow to reach room temperature before opening container to prevent condensation"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C. Solutions in DMSO stable for 6 months at -20°C. Aqueous solutions should be used within 24 hours.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids", "Strong bases"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Requires valid laboratory credentials and license",
+          "Controlled substance in many jurisdictions",
+          "Subject to international drug control conventions"
+        ],
+        certifications: ["Analytical standard grade", "Research grade purity"],
+        complianceNotes: [
+          "Researcher must verify legal status in their jurisdiction",
+          "Proper documentation and record-keeping required",
+          "Use only in licensed research facilities"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470",
+          "Eshleman AJ, et al. Substituted methcathinones differ in transporter and receptor interactions. Biochem Pharmacol. 2013;85(12):1803-1815"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: ["3-MMC N-demethylated metabolite", "3-Methylnorephedrine", "3-Methylephedrine"],
+        pharmacokinetics: "Rapidly absorbed and distributed. Extensive hepatic metabolism. Elimination half-life approximately 2-4 hours in preclinical models.",
+        similarCompounds: ["4-MMC (Mephedrone)", "3-CMC", "2-MMC"],
+        studyProtocols: [
+          "In vitro transporter assays",
+          "Neurochemical analysis protocols",
+          "Behavioral pharmacology studies"
+        ]
+      }
     }
   },
   {
@@ -18494,6 +18592,117 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 179.99,
       maxPrice: 599.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-1-(4-methylphenyl)propan-1-one",
+        molecularFormula: "C₁₁H₁₅NO",
+        molecularWeight: "177.24 g/mol",
+        casNumber: "1189805-46-6",
+        appearance: "White to off-white crystalline powder or crystals",
+        purity: "≥98.0% (HPLC)",
+        solubility: ["Water (sparingly soluble)", "Ethanol (freely soluble)", "DMSO (soluble)", "Acetone (soluble)", "Chloroform (soluble)"]
+      },
+      researchApplications: {
+        overview: "4-MMC (4-Methylmethcathinone), commonly known as Mephedrone, is a synthetic cathinone derivative extensively studied for its effects on monoamine neurotransmitter systems. As a research compound, it serves as an important tool for investigating stimulant pharmacology, monoamine transporter function, and the neurochemical basis of psychostimulant effects.",
+        primaryUses: [
+          "Monoamine transporter interaction studies",
+          "Neurotransmitter release mechanisms research",
+          "Comparative cathinone pharmacology",
+          "Behavioral pharmacology investigations"
+        ],
+        studyAreas: [
+          "Dopaminergic system function",
+          "Serotonergic neurotransmission",
+          "Noradrenergic pathway studies",
+          "Synthetic cathinone structure-activity relationships",
+          "Neurochemical analysis techniques"
+        ],
+        mechanism: "4-MMC functions primarily as a substrate-type monoamine releasing agent, promoting the release of dopamine, serotonin, and norepinephrine by acting as a substrate for monoamine transporters (DAT, SERT, NET). Unlike reuptake inhibitors, it causes non-exocytotic release through reverse transport mechanisms."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in a well-ventilated place. Keep container tightly closed"
+        ],
+        storageConditions: "Store in tightly closed containers in a cool (2-8°C preferred), dry place away from light, heat, and incompatible materials. Keep in ventilated area. Store under inert gas if long-term storage required.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations. Do not dispose in regular waste. Contact licensed waste disposal service. Incineration in appropriate facility recommended.",
+        ppe: [
+          "Safety glasses or goggles with side shields",
+          "Nitrile gloves (minimum thickness 0.11mm)",
+          "Lab coat or protective clothing",
+          "Dust mask or respirator for powder handling",
+          "Work in fume hood when possible"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1-100 μM for transporter studies", "10-100 mM stock solutions in DMSO"],
+        preparationNotes: [
+          "Prepare solutions fresh when possible",
+          "Stock solutions in DMSO stable up to 6 months at -20°C",
+          "Protect from light during storage and use",
+          "Warm to room temperature before opening to prevent moisture condensation",
+          "Use analytical balance for accurate weighing"
+        ],
+        stabilityData: "Stable as solid for at least 2 years at -20°C under inert atmosphere. DMSO stock solutions stable 6 months at -20°C. Aqueous solutions should be prepared fresh and used within 24 hours.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Peroxides"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Requires valid laboratory credentials and research license",
+          "Controlled substance in numerous jurisdictions worldwide",
+          "Subject to UN Convention on Psychotropic Substances",
+          "Import/export permits may be required"
+        ],
+        certifications: ["Analytical reference standard", "Research grade"],
+        complianceNotes: [
+          "Researchers must verify legal status in their specific jurisdiction before ordering",
+          "Maintain detailed records of acquisition, use, and disposal",
+          "Use only in properly licensed and equipped research facilities",
+          "Follow institutional review and safety protocols"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470",
+          "Baumann MH, et al. The designer methcathinone analogs, mephedrone and methylone, are substrates for monoamine transporters. Neuropsychopharmacology. 2012;37(5):1192-1203",
+          "Kehr J, et al. Mephedrone, compared with MDMA and amphetamine, rapidly increases both dopamine and serotonin. Br J Pharmacol. 2011;164(8):1949-1958"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "4-Methylnorephedrine",
+          "4-Methylephedrine",
+          "Nor-mephedrone (demethylated metabolite)",
+          "Hydroxylated derivatives"
+        ],
+        pharmacokinetics: "Rapid absorption and distribution following administration. Extensive hepatic metabolism via N-demethylation, reduction, and oxidation pathways. Elimination half-life approximately 1.5-2.5 hours in preclinical studies.",
+        similarCompounds: ["3-MMC", "2-MMC", "Pentedrone", "Methylone"],
+        studyProtocols: [
+          "Transporter uptake inhibition assays",
+          "Neurotransmitter release studies",
+          "Receptor binding assays",
+          "In vivo microdialysis protocols",
+          "Behavioral observation studies"
+        ]
+      }
     }
   },
   {
@@ -18516,6 +18725,125 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 199.99,
       maxPrice: 549.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-Phenyl-2-(pyrrolidin-1-yl)pentan-1-one",
+        molecularFormula: "C₁₅H₂₁NO",
+        molecularWeight: "231.33 g/mol",
+        casNumber: "14530-33-7",
+        appearance: "White to off-white crystalline powder or crystals",
+        purity: "≥98.0% (GC-MS)",
+        solubility: ["DMSO (soluble)", "Ethanol (soluble)", "Water (slightly soluble)", "Chloroform (soluble)"]
+      },
+      researchApplications: {
+        overview: "α-PVP (Alpha-Pyrrolidinopentiophenone) is a synthetic cathinone and pyrrolidinophenone derivative used in neuropharmacology research. It is extensively studied for its potent effects on dopamine and norepinephrine transporters, making it valuable for investigating stimulant mechanisms and structure-activity relationships of pyrrolidinophenones.",
+        primaryUses: [
+          "Dopamine and norepinephrine transporter (DAT/NET) inhibition studies",
+          "Pyrrolidinophenone structure-activity relationship research",
+          "Comparative stimulant pharmacology investigations",
+          "Monoamine reuptake inhibition mechanism studies"
+        ],
+        studyAreas: [
+          "Dopaminergic neurotransmission",
+          "Noradrenergic system function",
+          "Cathinone and pyrrolidine pharmacology",
+          "Behavioral neuropharmacology",
+          "Drug abuse liability assessment"
+        ],
+        mechanism: "α-PVP acts primarily as a potent inhibitor of dopamine and norepinephrine reuptake transporters (DAT and NET), with minimal effects on serotonin transporters (SERT). Unlike monoamine releasers, it functions as a reuptake inhibitor, blocking the reabsorption of dopamine and norepinephrine into presynaptic neurons."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P308+P313 - IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store in tightly sealed containers in a cool (2-8°C), dry, well-ventilated area away from light and heat sources. Store under inert atmosphere (nitrogen or argon) for long-term storage.",
+        shelfLife: "2 years when stored properly at -20°C under inert atmosphere",
+        disposalGuidelines: "Dispose according to all local, state, and federal regulations. Must be handled by licensed chemical waste disposal service. Incineration in a licensed facility recommended.",
+        ppe: [
+          "Chemical safety goggles",
+          "Nitrile or neoprene gloves (minimum 0.11mm thickness)",
+          "Full lab coat",
+          "Dust mask or respirator (N95 or better) when handling powder",
+          "Work in chemical fume hood",
+          "Face shield for handling larger quantities"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["0.1-100 μM for in vitro transporter studies", "1-10 mM stock solutions in DMSO"],
+        preparationNotes: [
+          "Always prepare solutions in chemical fume hood",
+          "Use analytical balance for precise measurements",
+          "Stock solutions in DMSO should be stored at -20°C in amber vials",
+          "Allow containers to warm to room temperature before opening",
+          "Avoid repeated freeze-thaw cycles",
+          "Prepare aqueous working solutions fresh daily"
+        ],
+        stabilityData: "Stable as solid for 2+ years at -20°C under inert atmosphere. DMSO stock solutions stable for 6-12 months at -20°C when protected from light. Aqueous solutions stable for 24 hours at room temperature, 72 hours at 4°C.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids", "Strong bases", "Peroxides", "Reactive metals"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Schedule I controlled substance in many jurisdictions including USA (DEA)",
+          "Requires DEA registration and license in United States",
+          "Controlled under UN Convention on Psychotropic Substances",
+          "Strictly prohibited for human consumption",
+          "Import/export requires special permits and documentation",
+          "Subject to strict record-keeping requirements"
+        ],
+        certifications: ["Forensic reference standard", "Analytical standard grade"],
+        complianceNotes: [
+          "CRITICAL: Verify legal status in your jurisdiction before ordering",
+          "Maintain comprehensive chain-of-custody documentation",
+          "Use only in DEA-registered facilities (USA) or equivalent",
+          "Store in secure, access-controlled areas",
+          "Annual inventory audits required",
+          "Report any theft or loss immediately to authorities"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: false,
+        references: [
+          "Kolanos R, et al. Stereoselective actions of methylenedioxypyrovalerone at dopamine transporters. Neuropsychopharmacology. 2015;40(4):804-815",
+          "Baumann MH, et al. Powerful cocaine-like actions of 3,4-methylenedioxypyrovalerone (MDPV), a principal constituent of psychoactive 'bath salts'. Neuropsychopharmacology. 2013;38(4):552-562",
+          "Marusich JA, et al. Effects of α-pyrrolidinopentiophenone and 4-methyl-N-ethylcathinone, alone and in combination. Drug Alcohol Depend. 2014;141:110-117"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "α-PVP hydroxylated metabolites",
+          "Pyrrolidine ring-opened products",
+          "N-dealkylated derivatives",
+          "Ketone reduced products"
+        ],
+        pharmacokinetics: "Rapid absorption and CNS penetration. Extensive hepatic metabolism via hydroxylation and oxidation. Elimination half-life approximately 3-5 hours. Higher bioavailability compared to other stimulants.",
+        similarCompounds: ["MDPV", "α-PHP", "α-PVT", "Pyrovalerone", "MPHP"],
+        studyProtocols: [
+          "DAT/NET uptake inhibition assays",
+          "Radioligand binding studies",
+          "In vivo microdialysis protocols",
+          "Behavioral self-administration studies",
+          "Pharmacokinetic profiling",
+          "Analytical forensic methods"
+        ]
+      }
     }
   },
   {
@@ -18538,6 +18866,109 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 139.99,
       maxPrice: 429.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(4-Chlorophenyl)-2-(methylamino)propan-1-one",
+        molecularFormula: "C₁₀H₁₂ClNO",
+        molecularWeight: "197.66 g/mol",
+        casNumber: "1225622-14-9",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: ["DMSO (soluble)", "Ethanol (soluble)", "Water (slightly soluble)", "Acetone (soluble)"]
+      },
+      researchApplications: {
+        overview: "4-CMC (4-Chloromethcathinone) is a halogenated synthetic cathinone used in neurochemistry research to study the effects of halogen substitution on cathinone pharmacology. It provides insights into structure-activity relationships and monoamine transporter interactions of ring-substituted cathinones.",
+        primaryUses: [
+          "Halogenated cathinone structure-activity relationship studies",
+          "Monoamine transporter interaction research",
+          "Comparative pharmacology of substituted cathinones",
+          "Neurotransmitter system investigations"
+        ],
+        studyAreas: [
+          "Dopamine transporter (DAT) function",
+          "Serotonin transporter (SERT) activity",
+          "Norepinephrine transporter (NET) studies",
+          "Halogenation effects on cathinone activity",
+          "Synthetic cathinone neurochemistry"
+        ],
+        mechanism: "4-CMC acts as a substrate-type monoamine releasing agent with preference for dopamine and norepinephrine transporters. The 4-chloro substitution modifies its pharmacological profile compared to unsubstituted cathinones, affecting transporter selectivity and potency."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes"
+        ],
+        storageConditions: "Store in tightly closed containers at 2-8°C in a dry place away from light and heat. Protect from moisture and oxidizing agents.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations for controlled substances. Contact licensed chemical waste disposal service.",
+        ppe: [
+          "Safety goggles with side shields",
+          "Nitrile gloves",
+          "Lab coat",
+          "Dust mask when handling powder",
+          "Use fume hood for all operations"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1-50 μM for in vitro transporter studies", "10 mM stock solutions in DMSO"],
+        preparationNotes: [
+          "Prepare stock solutions in DMSO under inert atmosphere",
+          "Store stock solutions at -20°C in amber vials",
+          "Prepare working solutions fresh daily",
+          "Allow container to warm to room temperature before opening",
+          "Use analytical balance for accurate weighing"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C. DMSO stock solutions stable for 6 months at -20°C protected from light. Aqueous solutions should be used within 24 hours.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Metal catalysts"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Controlled substance in many jurisdictions",
+          "Requires valid laboratory research license",
+          "Subject to synthetic cathinone regulations",
+          "Import/export restrictions may apply"
+        ],
+        certifications: ["Research grade", "Analytical reference standard"],
+        complianceNotes: [
+          "Verify legal status in your jurisdiction",
+          "Maintain proper acquisition and use records",
+          "Use only in licensed research facilities",
+          "Follow institutional safety protocols"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470",
+          "Eshleman AJ, et al. Substituted methcathinones differ in transporter and receptor interactions. Biochem Pharmacol. 2013;85(12):1803-1815"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: ["4-Chloronorephedrine", "4-Chloroephedrine", "N-demethylated products"],
+        pharmacokinetics: "Rapid absorption and distribution. Hepatic metabolism via N-demethylation and reduction. The chloro substituent affects metabolic pathways and half-life.",
+        similarCompounds: ["3-CMC", "4-MMC", "4-BMC", "4-FMC"],
+        studyProtocols: [
+          "Transporter uptake and inhibition assays",
+          "Neurotransmitter release studies",
+          "In vitro pharmacology profiling",
+          "Metabolic stability assessment"
+        ]
+      }
     }
   },
   {
@@ -18560,6 +18991,110 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 139.99,
       maxPrice: 429.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-(3-Chlorophenyl)-2-(methylamino)propan-1-one",
+        molecularFormula: "C₁₀H₁₂ClNO",
+        molecularWeight: "197.66 g/mol",
+        casNumber: "1607439-32-6",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: ["DMSO (soluble)", "Ethanol (soluble)", "Water (slightly soluble)", "Acetone (soluble)"]
+      },
+      researchApplications: {
+        overview: "3-CMC (3-Chloromethcathinone) is a chlorinated synthetic cathinone analog used to investigate the positional effects of halogen substitution on cathinone pharmacology. It serves as a research tool for studying monoamine transporter selectivity and the impact of meta-substitution on stimulant activity.",
+        primaryUses: [
+          "Position-specific halogenation effects on cathinone activity",
+          "Monoamine transporter selectivity studies",
+          "Structure-activity relationship research",
+          "Comparative cathinone pharmacology"
+        ],
+        studyAreas: [
+          "Dopaminergic neurotransmission",
+          "Noradrenergic system function",
+          "Halogen substitution effects",
+          "Transporter binding affinity studies",
+          "Neurochemical analysis"
+        ],
+        mechanism: "3-CMC functions as a substrate-type releaser at monoamine transporters, with the 3-chloro substitution providing distinct pharmacological properties compared to para-substituted analogs. It promotes non-exocytotic neurotransmitter release through transporter-mediated reverse transport."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed containers in a dry, dark place. Protect from moisture, light, and oxidizing agents.",
+        shelfLife: "2 years when properly stored at recommended conditions",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations. Contact licensed chemical waste disposal service for proper handling.",
+        ppe: [
+          "Chemical safety goggles",
+          "Nitrile gloves (minimum 0.11mm thickness)",
+          "Laboratory coat",
+          "Dust mask or respirator when handling powder",
+          "Work in fume hood"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1-50 μM for cellular assays", "10-100 mM stock solutions in DMSO"],
+        preparationNotes: [
+          "Prepare stock solutions in DMSO in fume hood",
+          "Store aliquots at -20°C to avoid freeze-thaw cycles",
+          "Protect from light during storage and handling",
+          "Warm to room temperature before opening container",
+          "Prepare fresh working solutions daily"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under inert atmosphere. DMSO solutions stable for 6 months at -20°C when protected from light. Aqueous solutions stable for 24 hours.",
+        incompatibilities: ["Strong oxidizers", "Strong acids and bases", "Reactive metals"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Controlled substance in numerous jurisdictions",
+          "Requires laboratory research license",
+          "Subject to synthetic cathinone regulations",
+          "Import/export may require special permits"
+        ],
+        certifications: ["Research grade purity", "Analytical standard"],
+        complianceNotes: [
+          "Verify legal status before acquisition",
+          "Maintain detailed records of use and storage",
+          "Use only in authorized research facilities",
+          "Follow institutional biosafety protocols"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470",
+          "Eshleman AJ, et al. Substituted methcathinones differ in transporter and receptor interactions. Biochem Pharmacol. 2013;85(12):1803-1815"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: ["3-Chloronorephedrine", "3-Chloroephedrine", "N-demethyl-3-CMC", "Hydroxylated derivatives"],
+        pharmacokinetics: "Rapid absorption following administration. Extensive hepatic metabolism primarily through N-demethylation and reduction pathways. Meta-chloro substitution affects metabolic rate and elimination half-life.",
+        similarCompounds: ["4-CMC", "3-MMC", "3-FMC", "3-BMC"],
+        studyProtocols: [
+          "In vitro transporter assays",
+          "Neurotransmitter release measurements",
+          "Receptor binding studies",
+          "Metabolic stability profiling",
+          "Comparative pharmacology assessment"
+        ]
+      }
     }
   },
 
@@ -18584,6 +19119,121 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 169.99,
       maxPrice: 549.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-1-(3,4-methylenedioxyphenyl)propan-1-one",
+        molecularFormula: "C₁₁H₁₃NO₃",
+        molecularWeight: "207.23 g/mol",
+        casNumber: "186028-79-5",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: ["DMSO (soluble)", "Ethanol (soluble)", "Water (slightly soluble)", "Methanol (soluble)"]
+      },
+      researchApplications: {
+        overview: "Methylone (βk-MDMA, bk-MDMA) is a synthetic empathogen and cathinone derivative extensively studied as an MDMA analog. It is a valuable research tool for investigating empathogenic effects, monoamine transporter function, and the pharmacological differences between β-keto amphetamines and their non-keto counterparts.",
+        primaryUses: [
+          "MDMA analog pharmacology research",
+          "Empathogen mechanism of action studies",
+          "Monoamine transporter (SERT, DAT, NET) interaction research",
+          "β-keto amphetamine structure-activity relationships"
+        ],
+        studyAreas: [
+          "Serotonergic neurotransmission",
+          "Dopaminergic system function",
+          "Empathogenic compound pharmacology",
+          "Methylenedioxy ring effects on activity",
+          "Comparative entactogen research"
+        ],
+        mechanism: "Methylone acts as a substrate-type releaser at serotonin, dopamine, and norepinephrine transporters, with preferential activity at SERT. It causes non-exocytotic neurotransmitter release through transporter-mediated reverse transport, similar to MDMA but with distinct pharmacological profile due to the β-keto group."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P308+P313 - IF exposed or concerned: Get medical advice/attention"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed containers in a dry, dark place. Protect from light, moisture, and oxidizing agents. Store under inert atmosphere for extended storage.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations for controlled substances. Contact licensed chemical waste disposal service.",
+        ppe: [
+          "Chemical safety goggles",
+          "Nitrile gloves (minimum 0.11mm)",
+          "Full laboratory coat",
+          "Respirator or dust mask when handling powder",
+          "Work in chemical fume hood"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1-100 μM for in vitro studies", "10-100 mM stock solutions in DMSO"],
+        preparationNotes: [
+          "Prepare stock solutions in DMSO under inert atmosphere",
+          "Store aliquots at -20°C in amber vials",
+          "Avoid repeated freeze-thaw cycles",
+          "Protect from light during all handling",
+          "Prepare working solutions fresh daily",
+          "Allow container to warm to room temperature before opening"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under inert atmosphere. DMSO solutions stable for 6 months at -20°C protected from light. Aqueous solutions stable for 24 hours at room temperature.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Peroxides", "Light exposure"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Schedule I controlled substance in USA (DEA)",
+          "Controlled in most international jurisdictions",
+          "Requires DEA registration in United States",
+          "Subject to UN Convention on Psychotropic Substances",
+          "Strictly prohibited for human consumption"
+        ],
+        certifications: ["Forensic reference standard", "Analytical standard grade"],
+        complianceNotes: [
+          "Verify legal status in your specific jurisdiction before ordering",
+          "Requires secure storage in access-controlled facilities",
+          "Comprehensive record-keeping mandatory",
+          "Use only in licensed research facilities",
+          "Report theft or loss to authorities immediately"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Baumann MH, et al. The designer methcathinone analogs, mephedrone and methylone, are substrates for monoamine transporters. Neuropsychopharmacology. 2012;37(5):1192-1203",
+          "Simmler LD, et al. Pharmacological characterization of designer cathinones in vitro. Br J Pharmacol. 2013;168(2):458-470",
+          "Cozzi NV, et al. Pharmacological examination of trifluoromethyl ring-substituted methcathinone analogs. Eur J Pharmacol. 2013;699(1-3):180-187"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "3,4-Methylenedioxynorephedrine",
+          "3,4-Methylenedioxyephedrine",
+          "N-demethyl methylone",
+          "Catechol derivatives (after demethylenation)"
+        ],
+        pharmacokinetics: "Rapid absorption and CNS penetration. Extensive hepatic metabolism via N-demethylation, reduction, and O-demethylenation. Elimination half-life approximately 2-3 hours in preclinical models.",
+        similarCompounds: ["MDMA", "Ethylone", "Butylone", "Pentylone", "MDPV"],
+        studyProtocols: [
+          "Monoamine transporter uptake and release assays",
+          "Receptor binding profiling",
+          "In vivo microdialysis studies",
+          "Behavioral pharmacology assessments",
+          "Comparative empathogen studies"
+        ]
+      }
     }
   },
   {
@@ -18674,6 +19324,126 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 199.99,
       maxPrice: 649.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(2-Fluorophenyl)-2-(methylamino)cyclohexanone",
+        molecularFormula: "C₁₃H₁₆FNO",
+        molecularWeight: "221.27 g/mol",
+        casNumber: "111982-50-4",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (GC-MS)",
+        solubility: ["DMSO (soluble)", "Ethanol (soluble)", "Water (slightly soluble)", "Chloroform (soluble)"]
+      },
+      researchApplications: {
+        overview: "2-FDCK (2-Fluorodeschloroketamine) is a fluorinated ketamine analog used extensively in dissociative anesthetic research. It serves as a valuable tool for studying NMDA receptor antagonism, investigating fluorine substitution effects on arylcyclohexylamine pharmacology, and comparing dissociative compound structure-activity relationships.",
+        primaryUses: [
+          "NMDA receptor antagonist studies",
+          "Fluorinated ketamine analog pharmacology",
+          "Dissociative anesthetic mechanism research",
+          "Arylcyclohexylamine structure-activity relationships"
+        ],
+        studyAreas: [
+          "Glutamatergic neurotransmission",
+          "NMDA receptor function",
+          "Dissociative compound neurochemistry",
+          "Fluorine substitution effects",
+          "Comparative dissociative pharmacology"
+        ],
+        mechanism: "2-FDCK acts as a non-competitive NMDA receptor antagonist, binding to the phencyclidine (PCP) site within the NMDA receptor ion channel. The fluorine substitution at the 2-position modifies its binding affinity, potency, and pharmacokinetic properties compared to ketamine."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P308+P313 - IF exposed or concerned: Get medical advice/attention",
+          "P405 - Store locked up"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed, light-protected containers in a dry, well-ventilated area. Keep under inert atmosphere (nitrogen or argon) for long-term storage.",
+        shelfLife: "2 years when properly stored at -20°C under inert atmosphere",
+        disposalGuidelines: "Dispose according to all applicable local, state, and federal regulations for controlled substances. Must use licensed chemical waste disposal service.",
+        ppe: [
+          "Chemical safety goggles with side shields",
+          "Nitrile or neoprene gloves",
+          "Full-length laboratory coat",
+          "Respirator with appropriate filters when handling powder",
+          "Work exclusively in chemical fume hood",
+          "Face shield for larger quantities"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["1-100 μM for NMDA receptor studies", "10-50 mM stock solutions in DMSO or ethanol"],
+        preparationNotes: [
+          "Prepare all solutions in fume hood",
+          "Use DMSO or ethanol for stock solutions",
+          "Store stock solutions at -20°C in amber glass vials",
+          "Protect from light at all times",
+          "Allow to reach room temperature before opening container",
+          "Prepare fresh working solutions daily",
+          "Avoid freeze-thaw cycles - prepare aliquots"
+        ],
+        stabilityData: "Stable as solid for 2+ years at -20°C under inert atmosphere. DMSO/ethanol solutions stable for 6-12 months at -20°C when protected from light. Aqueous solutions should be used within 24 hours.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Peroxides", "Reactive metals", "Prolonged light exposure"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE",
+        restrictions: [
+          "Controlled substance in numerous jurisdictions",
+          "May be controlled under analog provisions in USA",
+          "Subject to ketamine analog regulations in many countries",
+          "Import/export requires special permits",
+          "Strictly prohibited for human consumption"
+        ],
+        certifications: ["Research grade", "Analytical reference standard"],
+        complianceNotes: [
+          "Verify legal status in your jurisdiction before acquisition",
+          "Maintain detailed chain-of-custody records",
+          "Store in secure, access-controlled facilities",
+          "Use only in properly licensed research institutions",
+          "Follow institutional biosafety and security protocols",
+          "Report any discrepancies in inventory immediately"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: false,
+        references: [
+          "Roth BL, et al. Salvinorin A: a potent naturally occurring nonnitrogenous kappa opioid selective agonist. Proc Natl Acad Sci USA. 2002;99(18):11934-11939",
+          "Morris H, Wallach J. From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs. Drug Test Anal. 2014;6(7-8):614-632",
+          "Wallach J, Brandt SD. 1,2-Diarylethylamine- and Ketamine-Based New Psychoactive Substances. Handb Exp Pharmacol. 2018;252:305-352"
+        ]
+      },
+      researchNotes: {
+        knownMetabolites: [
+          "Nor-2-FDCK (N-demethylated)",
+          "Hydroxylated 2-FDCK derivatives",
+          "Dehydro-2-FDCK",
+          "Glucuronide conjugates"
+        ],
+        pharmacokinetics: "Rapid absorption and CNS penetration due to lipophilicity. Extensive hepatic metabolism via N-demethylation, hydroxylation, and conjugation. The fluorine substitution affects metabolic stability. Elimination half-life estimated 4-6 hours.",
+        similarCompounds: ["Ketamine", "DCK (Deschloroketamine)", "3-MeO-PCE", "2-Oxo-PCM", "MXE"],
+        studyProtocols: [
+          "NMDA receptor binding assays",
+          "Electrophysiology studies",
+          "Behavioral dissociative effects assessment",
+          "Pharmacokinetic profiling",
+          "Comparative arylcyclohexylamine studies",
+          "Metabolite identification protocols"
+        ]
+      }
     }
   },
   {

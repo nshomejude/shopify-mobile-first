@@ -7588,33 +7588,136 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["blood-pressure", "anxiety", "migraine"],
     medicalInfo: {
-      dosage: {
-        standard: "Hypertension: Start 40mg twice daily, increase to 120-240mg/day. Anxiety: 10-40mg 3-4 times daily. Migraine: 80-240mg/day in divided doses.",
-        administration: [
-          "Immediate-release: 2-4 times daily",
-          "Extended-release: once daily at bedtime",
-          "Take with food",
-          "NEVER stop abruptly - taper over 1-2 weeks"
-        ],
-        specialPopulations: "Reduce dose in hepatic impairment and elderly. Use caution in renal impairment. Not recommended in pregnancy."
+      uses: {
+        overview: "Propranolol is a non-selective beta-adrenergic receptor blocking agent used to treat various cardiovascular and neurological conditions. It reduces heart rate, blood pressure, and cardiac workload while also having effects on the central nervous system.",
+        conditions: [
+          "**Hypertension (High Blood Pressure)** - Reduces blood pressure by decreasing cardiac output and peripheral vascular resistance",
+          "**Angina Pectoris** - Reduces myocardial oxygen demand, decreasing frequency and severity of chest pain",
+          "**Essential Tremor** - Reduces tremor amplitude by blocking peripheral beta receptors",
+          "**Migraine Prevention** - Prophylactic therapy reducing frequency and severity of migraines",
+          "**Performance Anxiety** - Off-label use to reduce physical symptoms of stage fright and performance anxiety",
+          "**Hyperthyroidism** - Manages symptoms such as tachycardia and tremor",
+          "**Hypertrophic Obstructive Cardiomyopathy** - Reduces outflow tract obstruction",
+          "**Post-Myocardial Infarction** - Reduces mortality and reinfarction risk",
+          "**Arrhythmias** - Controls certain cardiac rhythm disturbances"
+        ]
       },
       sideEffects: {
-        common: ["Fatigue", "Bradycardia", "Cold extremities", "Dizziness", "Insomnia", "Nausea"],
-        serious: ["Severe bradycardia", "Heart block", "Bronchospasm (especially in asthma)", "Heart failure", "Hypoglycemia (masked symptoms)", "Depression"]
+        common: ["Fatigue and weakness", "Cold hands and feet", "Bradycardia (slow heart rate)", "Dizziness or lightheadedness", "Insomnia or vivid dreams", "Nausea", "Diarrhea or constipation"],
+        serious: [
+          "Severe bradycardia requiring medical intervention",
+          "Heart block (second or third degree)",
+          "Bronchospasm and respiratory difficulty, especially in asthma patients",
+          "Heart failure exacerbation or decompensation",
+          "Masking of hypoglycemia symptoms in diabetics",
+          "Severe depression or mood changes",
+          "Peripheral vascular insufficiency",
+          "Severe allergic reactions"
+        ],
+        notes: "Propranolol crosses the blood-brain barrier unlike some other beta-blockers, which accounts for CNS effects like vivid dreams and its utility in anxiety management."
       },
-      contraindications: [
-        "Asthma or severe COPD",
-        "Severe bradycardia or heart block",
-        "Cardiogenic shock",
-        "Uncompensated heart failure",
-        "Sick sinus syndrome"
-      ],
-      drugInteractions: [
-        "CYP2D6 inhibitors - increased propranolol levels",
-        "Calcium channel blockers - severe hypotension, bradycardia",
-        "Insulin, oral hypoglycemics - mask hypoglycemia",
-        "Clonidine - rebound hypertension if stopped",
-        "NSAIDs - reduced antihypertensive effect"
+      warnings: {
+        blackBoxWarnings: [
+          "ABRUPT WITHDRAWAL: Sudden discontinuation may exacerbate angina, precipitate myocardial infarction, or cause ventricular arrhythmias. When discontinuing, taper gradually over 1-2 weeks with careful monitoring."
+        ],
+        generalWarnings: [
+          "Do NOT stop abruptly - must taper gradually over 1-2 weeks minimum",
+          "May mask signs of hypoglycemia and hyperthyroidism",
+          "Contraindicated in patients with asthma or severe COPD - risk of bronchospasm",
+          "May worsen peripheral vascular disease or Raynaud's phenomenon",
+          "Can cause or worsen heart failure",
+          "May provoke thyroid storm in hyperthyroid patients if stopped abruptly",
+          "Use caution when combining with other cardiovascular drugs"
+        ],
+        specificPopulations: [
+          "Pregnancy Category C - use only if benefit outweighs risk",
+          "Excreted in breast milk - monitor nursing infant for bradycardia and hypotension",
+          "Elderly patients more sensitive to bradycardia and hypotensive effects",
+          "Use with caution in hepatic impairment - may require dose reduction",
+          "Not recommended as first-line in diabetics due to masking hypoglycemia symptoms"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Asthma or history of severe bronchospasm",
+          "Severe COPD or reactive airway disease",
+          "Severe bradycardia (heart rate <45-50 bpm)",
+          "Second or third-degree heart block",
+          "Cardiogenic shock",
+          "Decompensated heart failure",
+          "Sick sinus syndrome (without pacemaker)",
+          "Known hypersensitivity to propranolol or beta-blockers"
+        ],
+        precautions: [
+          "Monitor heart rate and blood pressure regularly",
+          "Screen for asthma, COPD, or reactive airway disease before initiating",
+          "Use with extreme caution in diabetes mellitus - may mask hypoglycemia symptoms",
+          "Assess for peripheral vascular disease or Raynaud's phenomenon",
+          "Evaluate thyroid function in patients with hyperthyroidism",
+          "Liver function monitoring with long-term use",
+          "Avoid abrupt withdrawal - always taper gradually",
+          "Inform surgeon/anesthesiologist before procedures"
+        ],
+        pregnancyBreastfeeding: "Pregnancy Category C. Crosses placenta. May cause fetal bradycardia, hypoglycemia, and growth restriction. Benefits may outweigh risks in some cardiovascular conditions. Excreted in breast milk - monitor infant for signs of beta-blockade including bradycardia, hypotension, and hypoglycemia."
+      },
+      dosage: {
+        overview: "Dosing varies widely depending on indication. Start with low doses and titrate based on response. Never discontinue abruptly - taper over 1-2 weeks minimum.",
+        adult: "**Hypertension**: 40mg twice daily initially, increase weekly to 120-240mg/day in divided doses. Maximum 640mg/day. **Angina**: 80-320mg/day in 2-4 divided doses. **Migraine prophylaxis**: 80mg daily in divided doses, increase to 160-240mg/day. **Essential tremor**: 40mg twice daily, titrate to 120-320mg/day. **Performance anxiety**: 10-40mg as needed 30-60 minutes before event.",
+        pediatric: "**Children**: Off-label dosing varies by indication. Typically 0.5-1mg/kg/day divided 2-4 times daily, titrated to effect. Maximum 4mg/kg/day. Consult pediatric cardiologist for specific dosing.",
+        elderly: "Start at lower end of dosing range. Titrate more slowly. Maximum daily dose often reduced due to increased sensitivity. Monitor closely for bradycardia, hypotension, and CNS effects.",
+        specialPopulations: "**Hepatic impairment**: Reduce dose, as propranolol undergoes extensive hepatic metabolism. **Renal impairment**: No dose adjustment typically needed. **Hyperthyroidism**: Higher doses (160-240mg/day) often required.",
+        administration: [
+          "Immediate-release: Take 2-4 times daily",
+          "Extended-release: Once daily, preferably at bedtime",
+          "Take with food to enhance absorption and reduce GI upset",
+          "Swallow extended-release capsules whole - do not crush or chew",
+          "Maintain consistent timing of doses",
+          "CRITICAL: Never stop abruptly - must taper over 1-2 weeks minimum",
+          "Continue taking even if feeling well - stopping suddenly is dangerous"
+        ],
+        missedDose: "Take as soon as remembered unless within 4 hours of next dose (immediate-release) or 8 hours (extended-release). Do not double dose. If multiple doses missed, contact healthcare provider before resuming.",
+        overdose: "Symptoms include severe bradycardia, hypotension, bronchospasm, heart failure, and hypoglycemia. Can be life-threatening. Seek emergency care immediately. Treatment may include glucagon, atropine, beta-agonists, and supportive care.",
+        storage: "Store at room temperature 20-25°C (68-77°F). Protect from light, heat, and moisture. Keep in original container."
+      },
+      interactions: {
+        drugInteractions: [
+          "**Calcium Channel Blockers (verapamil, diltiazem)**: CRITICAL - Risk of severe bradycardia, heart block, and hypotension. Avoid combination or use with extreme caution.",
+          "**CYP2D6 Inhibitors (fluoxetine, paroxetine, quinidine)**: Increased propranolol levels. May need dose reduction.",
+          "**CYP1A2 Inhibitors (ciprofloxacin, fluvoxamine)**: Increased propranolol levels.",
+          "**Insulin and Oral Hypoglycemics**: Propranolol masks hypoglycemia symptoms and may prolong hypoglycemic episodes. Monitor glucose closely.",
+          "**Clonidine**: If both used, withdraw propranolol first before tapering clonidine to avoid rebound hypertension.",
+          "**NSAIDs**: Reduce antihypertensive effect of propranolol.",
+          "**Epinephrine**: Unopposed alpha-adrenergic stimulation causing severe hypertension and bradycardia.",
+          "**Digoxin**: Additive effects on AV node conduction - increased risk of bradycardia."
+        ],
+        substancesToAvoid: [
+          "**Alcohol**: May enhance hypotensive effects and increase drowsiness",
+          "**Tobacco smoking**: May reduce propranolol effectiveness",
+          "**Caffeine**: May counteract some effects but generally safe in moderation"
+        ],
+        interactionOverview: "Propranolol is extensively metabolized by CYP2D6, CYP1A2, and CYP2C19. Most serious interactions involve other cardiovascular drugs affecting heart rate or blood pressure. Diabetes medications require special attention due to masking of hypoglycemia."
+      },
+      faq: [
+        {
+          question: "Can I use propranolol for performance anxiety?",
+          answer: "Yes, propranolol is commonly used off-label for performance anxiety (stage fright). A typical dose is 10-40mg taken 30-60 minutes before the performance. It reduces physical symptoms like rapid heartbeat, trembling, and sweating without affecting mental alertness. Consult your doctor before using for this purpose."
+        },
+        {
+          question: "Why can't I stop propranolol suddenly?",
+          answer: "Abrupt discontinuation can cause serious problems including rebound hypertension, angina exacerbation, heart attack, or dangerous arrhythmias. Your body adapts to the medication, and sudden withdrawal can trigger these reactions. Always taper gradually over 1-2 weeks under medical supervision."
+        },
+        {
+          question: "Why is propranolol dangerous for people with asthma?",
+          answer: "Propranolol blocks beta-2 receptors in the lungs, which normally help keep airways open. In people with asthma or COPD, this can cause severe bronchospasm (airway constriction), potentially triggering a life-threatening asthma attack. It is generally contraindicated in these patients."
+        },
+        {
+          question: "Does propranolol affect my diabetes medications?",
+          answer: "Yes, propranolol can mask warning signs of low blood sugar (like rapid heartbeat and trembling) making hypoglycemia harder to detect. It may also prolong hypoglycemic episodes. Diabetics taking propranolol need more frequent blood sugar monitoring and should be aware of other hypoglycemia symptoms like sweating and confusion."
+        },
+        {
+          question: "Why do I have cold hands and feet on propranolol?",
+          answer: "Propranolol reduces blood flow to extremities by blocking beta receptors in peripheral blood vessels. This commonly causes cold hands and feet. While usually just uncomfortable, notify your doctor if you experience pain, numbness, or color changes in extremities, as this could indicate worsening peripheral circulation."
+        }
       ]
     }
   },
@@ -7635,29 +7738,130 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     formOptions: ["Tablet"],
     tags: ["antiplatelet", "blood-clots"],
     medicalInfo: {
-      dosage: {
-        standard: "75mg once daily with or without food. ACS: loading dose 300-600mg, then 75mg daily.",
-        administration: [
-          "Take once daily at same time",
-          "Can be taken with or without food",
-          "Swallow tablets whole",
-          "Continue as directed, even if feeling well"
-        ],
-        specialPopulations: "No dose adjustment for renal or mild-moderate hepatic impairment. Use caution in elderly. Not recommended in pregnancy."
+      uses: {
+        overview: "Clopidogrel is an antiplatelet medication that prevents blood clots by irreversibly blocking P2Y12 receptors on platelets, inhibiting platelet aggregation. It requires conversion to its active form by liver enzymes (CYP2C19).",
+        conditions: [
+          "**Acute Coronary Syndrome (ACS)** - Including unstable angina, non-ST-elevation MI (NSTEMI), and ST-elevation MI (STEMI)",
+          "**Recent Myocardial Infarction** - Reduces risk of recurrent heart attack, stroke, and cardiovascular death",
+          "**Recent Stroke** - Prevents recurrent ischemic stroke and other vascular events",
+          "**Established Peripheral Arterial Disease** - Reduces risk of MI, stroke, and vascular death",
+          "**Coronary Stent Placement** - Prevents stent thrombosis, typically used with aspirin (dual antiplatelet therapy)",
+          "**Atrial Fibrillation** - Alternative for patients unable to take anticoagulants"
+        ]
       },
       sideEffects: {
-        common: ["Bleeding", "Bruising", "Nosebleeds", "Rash", "Diarrhea", "Abdominal pain"],
-        serious: ["Thrombotic thrombocytopenic purpura (TTP)", "Severe bleeding", "Intracranial hemorrhage", "Neutropenia"]
+        common: ["Bleeding (most common - easy bruising, prolonged bleeding from cuts)", "Nosebleeds", "Gastrointestinal upset", "Diarrhea", "Abdominal pain", "Rash", "Itching"],
+        serious: [
+          "Thrombotic Thrombocytopenic Purpura (TTP) - rare but life-threatening",
+          "Major bleeding including gastrointestinal and intracranial hemorrhage",
+          "Severe neutropenia or agranulocytosis",
+          "Aplastic anemia",
+          "Severe allergic reactions including Stevens-Johnson syndrome",
+          "Hepatic failure (rare)"
+        ],
+        notes: "Risk of bleeding is cumulative with aspirin and other antiplatelet/anticoagulant drugs. Most bleeding events are minor but serious bleeding can occur."
       },
-      contraindications: [
-        "Active pathological bleeding (peptic ulcer, intracranial hemorrhage)",
-        "Hypersensitivity to clopidogrel"
-      ],
-      drugInteractions: [
-        "Proton pump inhibitors (omeprazole, esomeprazole) - reduced clopidogrel effectiveness",
-        "NSAIDs, aspirin - increased bleeding risk",
-        "Anticoagulants (warfarin) - increased bleeding risk",
-        "CYP2C19 inhibitors - reduced efficacy"
+      warnings: {
+        blackBoxWarnings: [
+          "REDUCED EFFECTIVENESS IN CYP2C19 POOR METABOLIZERS: Effectiveness depends on conversion to active metabolite by CYP2C19. Poor metabolizers (2-14% of population) have reduced platelet inhibition and higher cardiovascular event rates. Consider alternative therapy or genotyping in high-risk situations.",
+          "BLEEDING RISK: Increases risk of bleeding including life-threatening and fatal bleeding. Avoid use in patients with active pathological bleeding."
+        ],
+        generalWarnings: [
+          "Increased bleeding risk - monitor for signs of bleeding",
+          "Discontinue 5-7 days before elective surgery if antiplatelet effect not desired",
+          "Reduced effectiveness with CYP2C19 inhibitors (especially PPIs)",
+          "TTP can occur even after brief exposure - requires immediate treatment",
+          "Use with caution in patients at risk for increased bleeding",
+          "Do not start in patients likely to undergo CABG surgery"
+        ],
+        specificPopulations: [
+          "Pregnancy Category B - use only if clearly needed",
+          "Unknown if excreted in breast milk - use caution",
+          "Elderly at increased risk of bleeding",
+          "Genetic variations in CYP2C19 affect drug response - consider testing",
+          "Not established in pediatric patients"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Active pathological bleeding (peptic ulcer disease, intracranial hemorrhage)",
+          "Hypersensitivity to clopidogrel or any component",
+          "Severe hepatic impairment with coagulopathy"
+        ],
+        precautions: [
+          "Assess bleeding risk before initiating therapy",
+          "Screen for history of TTP, bleeding disorders, or GI bleeding",
+          "Check for use of other antiplatelet agents, anticoagulants, or NSAIDs",
+          "Consider CYP2C19 genotyping in high-risk patients",
+          "Avoid concomitant omeprazole or esomeprazole when possible",
+          "Monitor for signs of unusual bleeding",
+          "Use caution in patients requiring surgery - plan discontinuation timing",
+          "Assess renal and hepatic function"
+        ],
+        pregnancyBreastfeeding: "Pregnancy Category B. Animal studies show no fetal harm but human data limited. Use only if benefit outweighs risk. Unknown if excreted in breast milk. Due to potential for serious adverse reactions in nursing infants, decision should be made whether to discontinue nursing or drug."
+      },
+      dosage: {
+        overview: "Standard maintenance dose is 75mg once daily. Loading dose used for acute coronary syndromes. Typically combined with aspirin for dual antiplatelet therapy after stent placement.",
+        adult: "**Maintenance**: 75mg once daily. **ACS/PCI Loading Dose**: 300-600mg loading dose, then 75mg daily. **Duration**: Varies by indication - minimum 12 months after ACS or stent placement, potentially indefinite for other indications.",
+        pediatric: "Safety and efficacy not established in pediatric patients. Not FDA approved for pediatric use.",
+        elderly: "No dose adjustment required based on age alone, but elderly patients at higher risk of bleeding. Monitor carefully.",
+        specialPopulations: "**Hepatic impairment**: Limited data; use caution in moderate impairment, avoid in severe impairment with coagulopathy. **Renal impairment**: No dose adjustment required, but limited experience in severe renal impairment. **CYP2C19 poor metabolizers**: Consider alternative therapy or higher doses (not routinely recommended).",
+        administration: [
+          "Take once daily at the same time each day",
+          "Can be taken with or without food",
+          "Swallow tablets whole",
+          "Do not stop taking without consulting doctor - increases risk of heart attack or stroke",
+          "Continue taking even if feeling well",
+          "Inform all healthcare providers and dentists that you take clopidogrel before procedures"
+        ],
+        missedDose: "Take as soon as remembered on the same day. If remembered the next day, skip the missed dose and resume normal schedule. Do not double dose.",
+        overdose: "May lead to prolonged bleeding time and bleeding complications. No specific antidote exists. If overdose suspected, contact poison control or seek emergency care. Platelet transfusion may be considered to reverse antiplatelet effects.",
+        storage: "Store at room temperature 15-30°C (59-86°F). Protect from moisture. Keep in original container."
+      },
+      interactions: {
+        drugInteractions: [
+          "**Proton Pump Inhibitors (omeprazole, esomeprazole)**: SIGNIFICANT - Reduce clopidogrel effectiveness by inhibiting CYP2C19. Avoid if possible. Pantoprazole may be safer alternative if PPI needed.",
+          "**CYP2C19 Inhibitors (fluvoxamine, fluoxetine, fluconazole)**: Reduce conversion to active metabolite. Use with caution.",
+          "**Aspirin**: Enhanced antiplatelet effect - intended for dual therapy but increases bleeding risk.",
+          "**NSAIDs (ibuprofen, naproxen)**: Increased bleeding risk. Use with caution and monitor.",
+          "**Anticoagulants (warfarin, heparin, DOACs)**: Markedly increased bleeding risk. Use combination only when specifically indicated.",
+          "**SSRIs/SNRIs**: May increase bleeding risk. Monitor for unusual bleeding.",
+          "**CYP2C19 Inducers (rifampin)**: May increase active metabolite but also increase bleeding risk.",
+          "**Repaglinide**: Clopidogrel increases repaglinide levels - monitor blood glucose."
+        ],
+        substancesToAvoid: [
+          "**Omeprazole and Esomeprazole**: Significantly reduce clopidogrel effectiveness - avoid if possible",
+          "**Ginkgo biloba, garlic supplements**: May increase bleeding risk",
+          "**High doses of vitamin E**: May increase bleeding risk",
+          "**Alcohol**: Moderate to heavy use may increase GI bleeding risk"
+        ],
+        interactionOverview: "Clopidogrel is a prodrug requiring CYP2C19 activation. Drugs inhibiting CYP2C19 (especially PPIs like omeprazole) significantly reduce effectiveness. Drugs increasing bleeding risk should be used cautiously. The PPI interaction is particularly important as many patients take PPIs for gastric protection."
+      },
+      faq: [
+        {
+          question: "How long do I need to take clopidogrel?",
+          answer: "Duration depends on your condition. After stent placement or acute coronary syndrome, typically at least 12 months of dual antiplatelet therapy (clopidogrel + aspirin). For stroke or peripheral artery disease, often long-term or indefinite. Never stop without consulting your cardiologist, as premature discontinuation can lead to heart attack or stroke."
+        },
+        {
+          question: "Why can't I take omeprazole with clopidogrel?",
+          answer: "Omeprazole (and esomeprazole) strongly inhibit CYP2C19, the enzyme that converts clopidogrel to its active form. This can reduce clopidogrel's effectiveness by 40-50%, potentially leading to heart attacks or stent thrombosis. If you need acid suppression, pantoprazole or an H2-blocker (like famotidine) are better choices."
+        },
+        {
+          question: "What is CYP2C19 poor metabolizer status?",
+          answer: "Some people have genetic variations making them 'poor metabolizers' who can't efficiently convert clopidogrel to its active form, resulting in reduced platelet inhibition. This affects 2-14% of people depending on ethnicity. Genetic testing can identify poor metabolizers. Alternative medications like prasugrel or ticagrelor may be considered for these patients."
+        },
+        {
+          question: "When should I stop clopidogrel before surgery?",
+          answer: "Typically discontinue 5-7 days before elective surgery to allow platelet function to recover. However, this depends on the type of surgery and your cardiovascular risk. Never stop on your own - discuss timing with both your surgeon and cardiologist. For some high-risk cardiac patients, continuing therapy despite surgery may be safer."
+        },
+        {
+          question: "What are the signs of serious bleeding I should watch for?",
+          answer: "Seek immediate medical attention for: black or tarry stools, red or brown urine, coughing up blood, vomiting blood or coffee-ground material, severe headache or confusion (possible brain bleed), unusual bruising, or bleeding that won't stop. Minor bleeding like easy bruising or occasional nosebleeds is common but report persistent issues to your doctor."
+        },
+        {
+          question: "Can I take aspirin and clopidogrel together?",
+          answer: "Yes, dual antiplatelet therapy (DAPT) combining low-dose aspirin (81mg) with clopidogrel is standard after stent placement or acute coronary syndrome. While this increases bleeding risk, the cardiovascular benefit typically outweighs the risk for appropriate patients. Duration of DAPT varies by indication."
+        }
       ]
     }
   },

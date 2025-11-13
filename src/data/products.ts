@@ -13241,6 +13241,100 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 148.99,
       maxPrice: 229.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(4-Chloro-2,5-dimethoxyphenyl)-N-(2-methoxybenzyl)ethanamine",
+        molecularFormula: "C18H22ClNO3",
+        molecularWeight: "335.83 g/mol",
+        casNumber: "1227608-07-8",
+        appearance: "White to off-white powder or crystals",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol"]
+      },
+      researchApplications: {
+        overview: "25C-NBOMe is a highly potent synthetic phenethylamine belonging to the NBOMe series, which features N-methoxybenzyl substitution. It acts as an extremely selective and potent agonist at 5-HT2A serotonin receptors with sub-nanomolar affinity, making it valuable for receptor pharmacology research.",
+        primaryUses: [
+          "Ultra-high affinity 5-HT2A receptor binding studies",
+          "Serotonin receptor selectivity research",
+          "Psychedelic pharmacology investigations",
+          "NBOMe series structure-activity relationship studies",
+          "Forensic toxicology reference standards"
+        ],
+        studyAreas: ["Serotonin receptor pharmacology", "Psychedelic neuroscience", "Toxicology", "Analytical chemistry", "Receptor binding kinetics"],
+        mechanism: "Acts as an extremely potent and selective full agonist at 5-HT2A receptors with Ki values in the sub-nanomolar range (0.2-0.5 nM). The N-2-methoxybenzyl group dramatically enhances receptor binding compared to parent 2C compounds. Shows high selectivity for 5-HT2A over other serotonin receptor subtypes."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H300: Fatal if swallowed",
+          "H310: Fatal in contact with skin",
+          "H330: Fatal if inhaled",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P202: Do not handle until all safety precautions have been read and understood",
+          "P260: Do not breathe dust/fume/vapors",
+          "P280: Wear full protective equipment",
+          "P284: Wear respiratory protection (mandatory)",
+          "P301+P310: IF SWALLOWED: Immediately call POISON CENTER",
+          "P302+P350: IF ON SKIN: Gently wash with plenty of water",
+          "P304+P340: IF INHALED: Remove to fresh air immediately",
+          "P405: Store locked up",
+          "P501: Dispose as hazardous controlled substance waste"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass container under inert atmosphere. EXTREME CAUTION: Highly potent compound. Handle only in designated secure area with proper ventilation.",
+        shelfLife: "1-2 years at -20°C under proper conditions",
+        disposalGuidelines: "EXTREME HAZARD. Must be disposed as controlled substance waste with additional precautions due to extreme toxicity potential. Use specialized hazardous waste disposal contractor with Schedule I certification.",
+        ppe: ["MANDATORY: Full face respirator (P100)", "Double nitrile gloves", "Full Tyvek suit", "Safety goggles", "Work ONLY in certified fume hood"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock: 1-10 mM in DMSO", "Receptor binding: 0.0001-1 μM", "Analytical standards: 0.1-100 ng/mL"],
+        preparationNotes: [
+          "WARNING: EXTREMELY POTENT - Handle with maximum precautions",
+          "Prepare stocks in fume hood with full PPE including respirator",
+          "Use anhydrous DMSO under inert atmosphere",
+          "Protect from all light exposure",
+          "Aliquot into smallest practical volumes",
+          "Wear respirator during all handling operations",
+          "Decontaminate all surfaces after use"
+        ],
+        stabilityData: "Stable as solid at -20°C for 1-2 years. DMSO solutions stable 3-6 months at -20°C protected from light. Aqueous solutions degrade rapidly - prepare fresh.",
+        incompatibilities: ["Strong oxidizers", "Strong acids/bases", "UV light", "Heat", "Moisture"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Schedule I controlled substance in USA. Controlled internationally. Associated with serious adverse events and fatalities.",
+        restrictions: [
+          "Schedule I DEA controlled substance (USA)",
+          "Banned in EU, UK, Australia, Canada, and most countries",
+          "Requires DEA Schedule I license for possession",
+          "End-user certification mandatory",
+          "Comprehensive security and record-keeping required",
+          "Associated with multiple fatalities - extreme caution required"
+        ],
+        certifications: ["DEA Schedule I licensed supplier", "ISO 17025 accredited"],
+        complianceNotes: [
+          "Valid Schedule I DEA registration mandatory",
+          "Complete records per 21 CFR 1304 required",
+          "Biennial inventory required",
+          "Report any incidents immediately",
+          "Personnel must have specialized training"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Ettrup A, et al. J Pharmacol Exp Ther. 2011;336(2):296-302",
+          "Hansen M, et al. ACS Chem Neurosci. 2014;5(3):243-9",
+          "Lawn W, et al. J Psychopharmacol. 2014;28(8):780-8",
+          "Suzuki J, et al. Psychosomatics. 2015;56(2):129-39"
+        ]
+      }
     }
   },
   {
@@ -13261,6 +13355,97 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 168.99,
       maxPrice: 259.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "5-Methoxy-N,N-dimethyltryptamine",
+        molecularFormula: "C13H18N2O",
+        molecularWeight: "218.30 g/mol",
+        casNumber: "1019-45-0",
+        appearance: "White to tan crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol", "Propylene glycol"]
+      },
+      researchApplications: {
+        overview: "5-MeO-DMT is a naturally occurring tryptamine found in various plant species and in the venom of the Colorado River toad (Incilius alvarius). It is structurally related to DMT and serotonin and acts primarily as a non-selective agonist of serotonin receptors, particularly 5-HT1A and 5-HT2A.",
+        primaryUses: [
+          "Serotonin receptor pharmacology research",
+          "5-HT1A and 5-HT2A receptor studies",
+          "Tryptamine structure-activity relationship research",
+          "Comparative pharmacology with other tryptamines",
+          "Analytical reference standards"
+        ],
+        studyAreas: ["Neuropharmacology", "Receptor binding studies", "Psychedelic research", "Analytical chemistry", "Natural product chemistry"],
+        mechanism: "Acts as a non-selective serotonin receptor agonist with high affinity for 5-HT1A (Ki = 2.2 nM), 5-HT2A (Ki = 155 nM), and moderate affinity for 5-HT1D and 5-HT2C receptors. Unlike DMT, shows higher 5-HT1A selectivity. Also acts as substrate for monoamine oxidase A (MAO-A)."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P201: Obtain special instructions before use",
+          "P261: Avoid breathing dust/vapors",
+          "P264: Wash hands thoroughly after handling",
+          "P280: Wear protective gloves/eye protection",
+          "P301+P312: IF SWALLOWED: Call POISON CENTER if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove to fresh air",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber container under inert atmosphere (nitrogen or argon). Protect from light, heat, air, and moisture.",
+        shelfLife: "≥2 years when stored properly at -20°C under inert gas",
+        disposalGuidelines: "Dispose as controlled substance waste according to DEA and local regulations. Contact certified hazardous waste disposal company. Incineration in approved facility required.",
+        ppe: ["Nitrile gloves", "Safety goggles", "Laboratory coat", "Fume hood", "Dust mask (N95) for powder"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 1-10 mM in DMSO or ethanol", "Receptor binding: 0.001-100 μM", "Analytical standards: 1-1000 ng/mL"],
+        preparationNotes: [
+          "Prepare stock solutions in DMSO or ethanol",
+          "May require warming to 37°C and vortexing for complete dissolution",
+          "Protect from light at all stages",
+          "Use amber vials or foil-wrapped containers",
+          "Aliquot to minimize freeze-thaw cycles",
+          "As freebase, soluble in organic solvents; hydrochloride salt is water-soluble",
+          "Maintain pH neutral to slightly acidic for aqueous solutions"
+        ],
+        stabilityData: "Solid stable at -20°C for ≥2 years. DMSO solutions stable 6-12 months at -20°C protected from light. Subject to oxidation with air exposure. Aqueous solutions less stable.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids", "MAO inhibitors (in biological systems)", "UV light", "Atmospheric oxygen"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Schedule I controlled substance in USA. Controlled in many countries worldwide.",
+        restrictions: [
+          "Schedule I controlled substance (DEA, USA)",
+          "Controlled in Canada, UK, Australia, and many other countries",
+          "Requires valid DEA Schedule I license or equivalent",
+          "End-user declaration required",
+          "Research protocol may be requested",
+          "Comprehensive record-keeping mandatory",
+          "Chain of custody documentation required"
+        ],
+        certifications: ["ISO 9001:2015", "GMP-compliant manufacturing"],
+        complianceNotes: [
+          "Purchaser responsible for legal compliance in jurisdiction",
+          "For use only by qualified researchers in licensed facilities",
+          "Not for human consumption or clinical use",
+          "Maintain detailed inventory per DEA requirements",
+          "Report losses or incidents to authorities"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Shen HW, et al. Biochem Pharmacol. 2010;79(9):1286-97",
+          "Szabo A, et al. J Psychopharmacol. 2014;28(11):1065-73",
+          "Tittarelli R, et al. Curr Neuropharmacol. 2015;13(1):26-46",
+          "Weil AT, Davis W. J Ethnopharmacol. 1994;41(1-2):1-8"
+        ]
+      }
     }
   },
   {
@@ -13763,6 +13948,99 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 132.99,
       maxPrice: 204.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-Acetoxy-Δ9-tetrahydrocannabinol (THC acetate ester)",
+        molecularFormula: "C23H32O4",
+        molecularWeight: "372.50 g/mol",
+        casNumber: "32038-79-2",
+        appearance: "Viscous amber to dark brown oil or resinous solid",
+        purity: "≥95% (HPLC)",
+        solubility: ["Ethanol", "DMSO", "Vegetable oils", "Propylene glycol"]
+      },
+      researchApplications: {
+        overview: "THC-O acetate (THC-O-A) is a synthetic acetate ester derivative of delta-9-THC. It acts as a prodrug that is converted to THC in vivo after deacetylation. Research suggests it may have 2-3x higher potency than THC at cannabinoid receptors due to improved bioavailability.",
+        primaryUses: [
+          "Prodrug and ester derivative cannabinoid research",
+          "Bioavailability and pharmacokinetic studies",
+          "CB1/CB2 receptor pharmacology",
+          "Acetate ester metabolism investigations",
+          "Comparative cannabinoid potency research"
+        ],
+        studyAreas: ["Cannabinoid pharmacology", "Prodrug research", "Drug metabolism", "Forensic toxicology", "Analytical chemistry"],
+        mechanism: "Functions as a prodrug of delta-9-THC. The acetate ester is hydrolyzed by esterases (primarily carboxylesterase) to release active THC in vivo. Enhanced lipophilicity from acetate group may improve crossing of biological membranes, potentially increasing potency and duration."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation",
+          "H226: Flammable liquid and vapor (if in solution)"
+        ],
+        precautionaryStatements: [
+          "P210: Keep away from heat, sparks, open flames (if in solution)",
+          "P261: Avoid breathing vapors",
+          "P264: Wash hands thoroughly after handling",
+          "P280: Wear protective gloves/eye protection",
+          "P301+P312: IF SWALLOWED: Call POISON CENTER if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove to fresh air",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass container under inert atmosphere. Protect from light, heat, air, and moisture. Store away from ignition sources if in solution.",
+        shelfLife: "1-2 years at -20°C when properly stored; acetate esters may be less stable than parent compounds",
+        disposalGuidelines: "Dispose as controlled substance chemical waste according to federal and local regulations. Contact certified waste disposal company. Do not pour down drain. Incineration in approved facility.",
+        ppe: ["Nitrile gloves", "Safety goggles", "Laboratory coat", "Fume hood required", "Avoid skin contact due to high lipophilicity"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 1-50 mg/mL in ethanol", "Analytical standards: 0.1-1000 μg/mL", "Cell assays: 0.1-100 μM"],
+        preparationNotes: [
+          "Dissolves readily in ethanol, DMSO, and lipophilic solvents",
+          "Often supplied as viscous oil - warm to 37°C if needed",
+          "Protect from light to prevent degradation",
+          "Acetate ester bond susceptible to hydrolysis - avoid aqueous solutions",
+          "Use glass or polypropylene containers",
+          "Aliquot into small volumes to minimize repeated opening",
+          "Store solutions with minimal headspace to reduce oxidation"
+        ],
+        stabilityData: "Solid/oil form stable at -20°C for 1-2 years. Ethanolic solutions stable several months at -20°C. Acetate ester susceptible to hydrolysis in presence of water, esterases. Less stable than parent THC due to ester functionality.",
+        incompatibilities: ["Water (causes ester hydrolysis)", "Strong oxidizing agents", "Strong acids/bases (accelerate hydrolysis)", "Esterases", "UV light"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Legal status evolving; may be controlled under analog laws. Verify current status in your jurisdiction.",
+        restrictions: [
+          "May be controlled under Federal Analogue Act (USA) as THC analog",
+          "Controlled in many states and countries",
+          "Legal status currently unclear and rapidly changing",
+          "DEA issued warning in 2023 that THC-O may be controlled",
+          "Requires laboratory credentials for purchase",
+          "End-user declaration may be required",
+          "Verify legal status before ordering"
+        ],
+        certifications: ["ISO 9001:2015 quality management"],
+        complianceNotes: [
+          "Purchaser responsible for compliance with all laws",
+          "Legal status uncertain - consult legal counsel",
+          "For use only by qualified researchers",
+          "Not for human consumption or clinical applications",
+          "Maintain inventory records",
+          "Monitor regulatory developments"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Tagen M, Klootwijk T. J Anal Toxicol. 2022;46(8):940-948",
+          "Huffman JW. Curr Top Med Chem. 2008;8(3):187-204",
+          "DEA. Pharmacist's Manual. 2010. Section on cannabinoids",
+          "Gaoni Y, Mechoulam R. J Am Chem Soc. 1971;93(1):217-224"
+        ]
+      }
     }
   },
   {
@@ -13783,6 +14061,98 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 96.99,
       maxPrice: 149.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "4-(2-Chlorophenyl)-2-ethyl-9-methyl-6H-thieno[3,2-f][1,2,4]triazolo[4,3-a][1,4]diazepine",
+        molecularFormula: "C17H15ClN4S",
+        molecularWeight: "342.85 g/mol",
+        casNumber: "40054-69-1",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol", "Chloroform"]
+      },
+      researchApplications: {
+        overview: "Etizolam is a thienodiazepine derivative that differs from classical benzodiazepines by having a thiophene ring instead of a benzene ring. It acts on GABA-A receptors similar to benzodiazepines, showing anxiolytic, sedative, and muscle relaxant properties. Marketed as medication in some countries but unscheduled research chemical in others.",
+        primaryUses: [
+          "GABA-A receptor pharmacology research",
+          "Thienodiazepine structure-activity relationship studies",
+          "Comparison with classical benzodiazepines",
+          "Anxiolytic and sedative mechanism research",
+          "Forensic toxicology reference standards"
+        ],
+        studyAreas: ["GABAergic neuropharmacology", "Anxiety disorder research", "Sleep research", "Medicinal chemistry", "Forensic toxicology"],
+        mechanism: "Acts as positive allosteric modulator of GABA-A receptors, enhancing GABAergic neurotransmission. Binds to benzodiazepine binding site on GABA-A receptor complex. Shows 6-10x higher affinity than diazepam. Selective for α2-subunit containing GABA-A receptors."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261: Avoid breathing dust/vapors",
+          "P264: Wash hands thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/eye protection",
+          "P301+P312: IF SWALLOWED: Call POISON CENTER if you feel unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove to fresh air",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water"
+        ],
+        storageConditions: "Store at room temperature (15-25°C) or at 2-8°C in tightly sealed container. Protect from light and moisture. Keep in secure location.",
+        shelfLife: "≥2 years when stored properly",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations for controlled substances where applicable. Contact certified chemical waste disposal service. Do not dispose in sewage or environment.",
+        ppe: ["Nitrile gloves", "Safety goggles", "Laboratory coat", "Closed-toe shoes", "Fume hood for powder handling"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 1-10 mM in DMSO or ethanol", "GABA-A receptor assays: 0.001-100 μM", "Analytical standards: 1-1000 ng/mL"],
+        preparationNotes: [
+          "Readily soluble in DMSO and ethanol",
+          "For aqueous solutions, prepare as tartrate or other salt form",
+          "May require brief warming and vortexing",
+          "Use glass or polypropylene containers",
+          "Protect from prolonged light exposure",
+          "Aliquot to avoid repeated freeze-thaw",
+          "Filter sterilize for cell culture applications"
+        ],
+        stabilityData: "Solid stable at room temperature for ≥2 years. DMSO solutions stable at -20°C for 6-12 months. Relatively stable compound compared to some benzodiazepines.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Prolonged light exposure"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Legal status varies significantly by jurisdiction. Prescription medication in some countries, unscheduled in others, controlled substance in some regions.",
+        restrictions: [
+          "Prescription medication in Japan, India, Italy",
+          "Schedule I controlled substance in several US states",
+          "Banned or controlled in Alabama, Arkansas, Florida, Mississippi, Virginia, others",
+          "Unscheduled at federal level in USA (subject to Federal Analogue Act)",
+          "Controlled in UK under Psychoactive Substances Act 2016",
+          "Legal status varies - verify in your jurisdiction",
+          "Requires laboratory credentials for purchase"
+        ],
+        certifications: ["ISO 9001:2015 quality management"],
+        complianceNotes: [
+          "Purchaser responsible for compliance with all applicable laws",
+          "Legal status highly variable by location - verify before ordering",
+          "For use in licensed research facilities only",
+          "Not for human consumption",
+          "Not for clinical diagnostics",
+          "Maintain inventory records per institutional policy"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Nakamura J, et al. Psychopharmacology. 1987;92(1):20-24",
+          "Fracasso C, et al. Psychopharmacology. 1999;141(3):242-250",
+          "Manchester KR, et al. Drug Test Anal. 2018;10(1):181-193",
+          "Moosmann B, et al. Drug Test Anal. 2013;5(6):377-395"
+        ]
+      }
     }
   },
   {
@@ -13823,6 +14193,99 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 108.99,
       maxPrice: 169.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "6-(2-Aminopropyl)benzofuran",
+        molecularFormula: "C11H13NO",
+        molecularWeight: "175.23 g/mol",
+        casNumber: "286834-85-3",
+        appearance: "White to off-white powder or tan crystals",
+        purity: "≥98% (HPLC)",
+        solubility: ["DMSO", "Ethanol", "Methanol", "Water (as HCl salt)"]
+      },
+      researchApplications: {
+        overview: "6-APB (6-(2-Aminopropyl)benzofuran) is a synthetic benzofuran derivative and empathogen-entactogen compound structurally related to MDA. It acts primarily as a serotonin-norepinephrine-dopamine releasing agent (SNDRA) with additional effects at serotonin receptors, making it valuable for studying monoamine release mechanisms and empathogenic pharmacology.",
+        primaryUses: [
+          "Monoamine transporter research (SERT, NET, DAT)",
+          "Serotonin releasing agent pharmacology",
+          "Benzofuran structure-activity relationship studies",
+          "5-HT2B receptor agonist research",
+          "Comparative empathogen-entactogen studies"
+        ],
+        studyAreas: ["Neuropharmacology", "Monoamine transporter biology", "Receptor pharmacology", "Medicinal chemistry", "Forensic toxicology"],
+        mechanism: "Acts as releasing agent and reuptake inhibitor at serotonin, norepinephrine, and dopamine transporters. Shows preferential activity at SERT (serotonin transporter). Also acts as agonist at 5-HT2A and 5-HT2B receptors. The benzofuran ring system provides distinct pharmacological profile compared to phenethylamine analogs."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302: Harmful if swallowed",
+          "H315: Causes skin irritation",
+          "H319: Causes serious eye irritation",
+          "H335: May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261: Avoid breathing dust/fume/vapors",
+          "P264: Wash hands thoroughly after handling",
+          "P270: Do not eat, drink or smoke when using this product",
+          "P280: Wear protective gloves/eye protection",
+          "P301+P312: IF SWALLOWED: Call POISON CENTER if unwell",
+          "P302+P352: IF ON SKIN: Wash with plenty of water",
+          "P304+P340: IF INHALED: Remove to fresh air",
+          "P305+P351+P338: IF IN EYES: Rinse cautiously with water"
+        ],
+        storageConditions: "Store at room temperature (15-25°C) or refrigerated at 2-8°C in tightly sealed container. Protect from light and moisture.",
+        shelfLife: "≥2 years when stored properly",
+        disposalGuidelines: "Dispose according to local, state, and federal regulations as controlled substance waste where applicable. Contact certified waste disposal company. Do not release to environment.",
+        ppe: ["Nitrile gloves", "Safety goggles", "Laboratory coat", "Closed-toe shoes", "Fume hood for powder handling", "Dust mask (N95) recommended"]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: ["Stock solutions: 1-10 mM in DMSO or water (HCl salt)", "Transporter assays: 0.1-100 μM", "Analytical standards: 10-1000 ng/mL"],
+        preparationNotes: [
+          "Hydrochloride salt form is water-soluble",
+          "Freebase form dissolves in DMSO, ethanol, methanol",
+          "May require warming and vortexing for complete dissolution",
+          "Use glass or polypropylene containers",
+          "Protect from prolonged light exposure",
+          "Aliquot to minimize repeated freeze-thaw cycles",
+          "pH adjustment may be needed for aqueous solutions"
+        ],
+        stabilityData: "Solid stable at room temperature for ≥2 years. DMSO solutions stable at -20°C for 6+ months. Aqueous solutions stable at 4°C for 1 week or -20°C for several months. Relatively stable compound.",
+        incompatibilities: ["Strong oxidizing agents", "Strong acids and bases", "Prolonged light exposure", "Atmospheric moisture"]
+      },
+      regulatory: {
+        legalStatus: "FOR RESEARCH AND ANALYTICAL PURPOSES ONLY - NOT FOR HUMAN OR VETERINARY USE. Controlled in multiple jurisdictions as new psychoactive substance.",
+        restrictions: [
+          "Controlled in UK under Psychoactive Substances Act 2016",
+          "Scheduled in many US states",
+          "Controlled in Australia, Canada, and various EU countries",
+          "May be covered under Federal Analogue Act (USA)",
+          "Legal status varies - verify in your jurisdiction",
+          "Requires valid laboratory credentials",
+          "End-user declaration may be required"
+        ],
+        certifications: ["ISO 9001:2015 quality management"],
+        complianceNotes: [
+          "Purchaser responsible for compliance with applicable laws",
+          "Verify legal status in your jurisdiction before ordering",
+          "For use in licensed research facilities by qualified personnel",
+          "Not for human consumption or clinical use",
+          "Not for veterinary applications",
+          "Maintain inventory records per institutional requirements",
+          "Follow proper waste disposal protocols"
+        ]
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Dawson P, et al. Prog Neuropsychopharmacol Biol Psychiatry. 2014;48:102-11",
+          "Iversen L, et al. J Psychopharmacol. 2013;27(6):479-82",
+          "Simmler LD, et al. Neuropsychopharmacology. 2014;39(10):2366-74",
+          "Rickli A, et al. Eur Neuropsychopharmacol. 2015;25(3):365-77"
+        ]
+      }
     }
   },
   {

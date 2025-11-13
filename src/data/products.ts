@@ -6192,29 +6192,122 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 37.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Immediate-release: 5mg (women) or 5-10mg (men) at bedtime. Extended-release: 6.25mg (women) or 6.25-12.5mg (men). Maximum 10-12.5mg/night.",
-        administration: [
-          "Take immediately before bedtime with at least 7-8 hours of sleep time",
-          "Take on empty stomach for faster onset",
-          "Do NOT take with or after a meal",
-          "Use for short-term only (2-4 weeks)"
-        ],
-        specialPopulations: "5mg for elderly, hepatic impairment, or concurrent CNS depressants. Not recommended in pregnancy."
+      uses: {
+        overview: "Zolpidem is a sedative-hypnotic (non-benzodiazepine) medication used for the short-term treatment of insomnia. It works by enhancing GABA activity in the brain, promoting sleep onset and maintenance.",
+        conditions: [
+          "**Insomnia - Difficulty Falling Asleep** - Immediate-release formulation helps initiate sleep",
+          "**Insomnia - Difficulty Staying Asleep** - Extended-release formulation has two layers: first helps fall asleep, second helps stay asleep",
+          "**Short-term Sleep Disturbances** - Effective for transient insomnia related to stress, travel, or temporary circumstances",
+          "**Sleep Onset Latency** - Reduces time to fall asleep (sleep latency) typically within 15-30 minutes"
+        ]
       },
       sideEffects: {
-        common: ["Drowsiness", "Dizziness", "Diarrhea", "Drugged feeling", "Headache"],
-        serious: ["Complex sleep behaviors (sleep-driving, sleep-eating)", "Next-morning impairment", "Amnesia", "Hallucinations", "Worsening depression/suicidal thoughts", "Anaphylaxis", "Dependence"]
+        common: ["Drowsiness and dizziness", "Headache", "Diarrhea or nausea", "Drugged or \"hangover\" feeling", "Weakness", "Abnormal dreams"],
+        serious: [
+          "Complex sleep behaviors - sleep-walking, sleep-driving, sleep-eating, sleep-sex with no memory",
+          "Next-morning impairment - significant drowsiness affecting driving and activities",
+          "Severe allergic reactions including anaphylaxis and angioedema",
+          "Worsening depression and suicidal thoughts",
+          "Hallucinations and behavioral changes",
+          "Amnesia and memory problems",
+          "Falls and injuries, especially in elderly"
+        ],
+        notes: "Women metabolize zolpidem more slowly than men, leading to higher blood levels and increased risk of next-morning impairment."
       },
-      contraindications: [
-        "Known hypersensitivity to zolpidem"
-      ],
-      drugInteractions: [
-        "CNS depressants (opioids, benzodiazepines, alcohol) - enhanced sedation, respiratory depression",
-        "CYP3A4 inhibitors (ketoconazole) - increased zolpidem levels",
-        "Rifampin - decreased zolpidem efficacy",
-        "Sertraline - increased zolpidem effect",
-        "Food - delays and reduces absorption"
+      warnings: {
+        blackBoxWarnings: [
+          "COMPLEX SLEEP BEHAVIORS: Serious injuries and death have occurred from complex sleep behaviors including sleep-driving. Discontinue immediately if complex sleep behavior occurs."
+        ],
+        generalWarnings: [
+          "Risk of next-morning impairment - avoid driving or activities requiring alertness within 8 hours of use",
+          "Increased risk in women - lower doses required due to slower metabolism",
+          "May cause CNS depression - avoid alcohol and other CNS depressants",
+          "Potential for abuse and dependence, especially with prolonged use",
+          "Worsening of depression - monitor for suicidal ideation",
+          "Withdrawal symptoms may occur after abrupt discontinuation",
+          "Increased fall risk, particularly in elderly patients"
+        ],
+        specificPopulations: [
+          "Women require lower doses (5mg immediate-release, 6.25mg extended-release) due to slower drug clearance",
+          "Elderly patients should start with 5mg (immediate) or 6.25mg (extended) regardless of gender",
+          "Pregnancy Category C - use only if benefit outweighs risk",
+          "Present in breast milk - not recommended during breastfeeding",
+          "Not recommended in children - safety and efficacy not established"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Known hypersensitivity to zolpidem or inactive ingredients",
+          "History of complex sleep behaviors on zolpidem",
+          "Severe hepatic impairment"
+        ],
+        precautions: [
+          "Allow at least 7-8 full hours of sleep time before becoming active",
+          "Take on empty stomach - food significantly delays absorption and reduces effectiveness",
+          "Screen for depression and monitor for worsening or suicidal thoughts",
+          "Assess for history of substance abuse - use with caution",
+          "Reduce dose in hepatic impairment",
+          "Caution in patients with respiratory conditions - may worsen sleep apnea",
+          "Elderly patients at higher risk for falls and cognitive impairment"
+        ],
+        pregnancyBreastfeeding: "Pregnancy Category C. Limited human data. Animal studies show adverse effects at high doses. Use during pregnancy only if clearly needed. Zolpidem is present in breast milk - breastfeeding not recommended."
+      },
+      dosage: {
+        overview: "Lowest effective dose should be used. Dosing differs by gender due to differences in drug metabolism. Take immediately before bedtime with at least 7-8 hours available for sleep.",
+        adult: "**Women**: Immediate-release 5mg, Extended-release 6.25mg at bedtime. **Men**: Immediate-release 5-10mg, Extended-release 6.25-12.5mg at bedtime. **Maximum**: 10mg immediate-release, 12.5mg extended-release per night.",
+        pediatric: "Safety and efficacy not established in pediatric patients. Not recommended for use in children.",
+        elderly: "5mg immediate-release or 6.25mg extended-release at bedtime, regardless of gender. Do not exceed these doses due to increased sensitivity and impairment risk.",
+        specialPopulations: "**Hepatic impairment**: 5mg immediate-release or 6.25mg extended-release. Avoid in severe hepatic impairment. **Concurrent CNS depressants**: Consider dose reduction to minimize risk. **Debilitated patients**: Use lowest effective dose.",
+        administration: [
+          "Take immediately before bedtime on an empty stomach",
+          "Do NOT take with or after a meal - reduces effectiveness",
+          "Ensure 7-8 full hours available for sleep before planned awakening",
+          "Swallow extended-release tablets whole - do not crush, chew, or split",
+          "Limit use to short-term treatment (typically 2-4 weeks)",
+          "If needed nightly for more than 2-3 weeks, re-evaluate underlying cause of insomnia"
+        ],
+        missedDose: "Zolpidem is taken as needed at bedtime. If sleep is not needed or insufficient sleep time remains, skip the dose. Do not take if unable to get 7-8 hours of sleep.",
+        overdose: "Symptoms range from drowsiness and sedation to coma and death, especially when combined with other CNS depressants. Flumazenil may be useful as antidote. Seek emergency medical attention immediately.",
+        storage: "Store at room temperature 15-30°C (59-86°F). Protect from light and moisture. Keep out of reach of children."
+      },
+      interactions: {
+        drugInteractions: [
+          "**CNS Depressants (opioids, benzodiazepines, alcohol, barbiturates)**: Enhanced sedation and respiratory depression. Dose reduction may be necessary.",
+          "**CYP3A4 Inhibitors (ketoconazole, ritonavir)**: Increased zolpidem levels and effects. Consider dose reduction.",
+          "**CYP3A4 Inducers (rifampin, St. John's wort)**: Decreased zolpidem efficacy. May need alternative therapy.",
+          "**Sertraline**: May increase zolpidem effect - use caution.",
+          "**Chlorpromazine**: Impaired alertness and psychomotor performance.",
+          "**Haloperidol**: Increased sedation - monitor closely."
+        ],
+        substancesToAvoid: [
+          "**Alcohol**: CRITICAL - Severe interaction causing enhanced sedation, respiratory depression, and complex sleep behaviors. Avoid completely.",
+          "**Grapefruit juice**: May increase zolpidem levels - avoid",
+          "**Cannabis**: Additive CNS depression - avoid",
+          "**Kava, valerian, chamomile**: May increase sedative effects"
+        ],
+        interactionOverview: "Zolpidem is metabolized by CYP3A4 and to a lesser extent CYP2C9, CYP1A2, and CYP2D6. Most critical interactions involve other CNS depressants which can cause dangerous sedation. Food significantly delays absorption and reduces effectiveness - always take on empty stomach."
+      },
+      faq: [
+        {
+          question: "Why is the dose different for men and women?",
+          answer: "Women clear zolpidem from their bodies more slowly than men, leading to higher drug levels the next morning and increased risk of impaired driving and activities. The FDA mandated lower doses for women (5mg vs 5-10mg) to reduce this risk."
+        },
+        {
+          question: "Can I take zolpidem every night long-term?",
+          answer: "Zolpidem is intended for short-term use (2-4 weeks). Long-term nightly use increases risk of tolerance, dependence, and complex sleep behaviors. If insomnia persists beyond short-term use, underlying causes should be evaluated and alternative treatments considered."
+        },
+        {
+          question: "What if I wake up in the middle of the night?",
+          answer: "Do not take another dose. Zolpidem should only be taken when you can get 7-8 hours of sleep. Taking it with less sleep time available significantly increases risk of next-morning impairment and complex sleep behaviors."
+        },
+        {
+          question: "What are complex sleep behaviors?",
+          answer: "These are activities performed while not fully awake, such as driving (sleep-driving), eating, having sex, or making phone calls with no memory afterward. These can be dangerous and have resulted in serious injuries and death. If you experience any complex sleep behavior, stop zolpidem immediately and contact your doctor."
+        },
+        {
+          question: "Why must I take it on an empty stomach?",
+          answer: "Food significantly delays the absorption of zolpidem. Taking it with or after a meal can delay onset of sleep by an hour or more and reduce its effectiveness. For best results, take immediately before bedtime on an empty stomach."
+        }
       ]
     }
   },
@@ -6683,37 +6776,126 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     formOptions: ["Tablet", "Extended-Release"],
     tags: ["diabetes", "blood-sugar"],
     medicalInfo: {
-      dosage: {
-        standard: "Adults: Start 500mg twice daily or 850mg once daily with meals. Gradually increase. Maximum 2550mg daily in divided doses.",
-        administration: [
-          "Take with meals to reduce GI side effects",
-          "Swallow extended-release tablets whole, do not crush or chew",
-          "For immediate-release: take 2-3 times daily with meals",
-          "Increase dose gradually every 1-2 weeks as tolerated",
-          "Monitor blood glucose regularly"
-        ],
-        specialPopulations: "Not recommended for children under 10. Elderly: use conservative dosing and monitor renal function. Contraindicated in severe renal impairment (eGFR <30)."
+      uses: {
+        overview: "Metformin is a biguanide antidiabetic medication and the first-line treatment for type 2 diabetes mellitus. It improves glycemic control by decreasing hepatic glucose production, decreasing intestinal glucose absorption, and improving insulin sensitivity.",
+        conditions: [
+          "**Type 2 Diabetes Mellitus** - Primary indication as first-line therapy to improve glycemic control",
+          "**Polycystic Ovary Syndrome (PCOS)** - Off-label use to improve insulin resistance and restore ovulation",
+          "**Prediabetes** - May prevent or delay progression to type 2 diabetes in high-risk individuals",
+          "**Gestational Diabetes** - Sometimes used when diet and exercise alone are insufficient",
+          "**Weight Management** - May assist with modest weight loss in obese patients with diabetes"
+        ]
       },
       sideEffects: {
-        common: ["Diarrhea", "Nausea", "Upset stomach", "Gas", "Bloating", "Loss of appetite", "Metallic taste"],
-        serious: ["Lactic acidosis (rare but serious)", "Vitamin B12 deficiency with long-term use", "Hypoglycemia (especially with other diabetes meds)", "Severe allergic reactions"]
+        common: ["Diarrhea (most common, often transient)", "Nausea and vomiting", "Flatulence and bloating", "Abdominal discomfort", "Metallic taste in mouth", "Loss of appetite"],
+        serious: [
+          "Lactic acidosis - rare but potentially fatal metabolic complication",
+          "Vitamin B12 deficiency with long-term use (7-30% of patients)",
+          "Hypoglycemia when combined with insulin or sulfonylureas",
+          "Severe allergic reactions including anaphylaxis",
+          "Hepatotoxicity in rare cases"
+        ],
+        notes: "Gastrointestinal side effects occur in 20-30% of patients but often resolve within 2 weeks. Extended-release formulation may reduce GI side effects. Taking with meals helps minimize adverse effects."
       },
-      contraindications: [
-        "Severe renal impairment (eGFR <30 mL/min/1.73m²)",
-        "Acute or chronic metabolic acidosis",
-        "Diabetic ketoacidosis",
-        "Severe hepatic impairment",
-        "Acute heart failure or unstable heart failure",
-        "Conditions predisposing to lactic acidosis"
-      ],
-      drugInteractions: [
-        "Contrast dyes (iodinated) - hold metformin 48hrs before/after procedure",
-        "Alcohol - increases lactic acidosis risk",
-        "Cimetidine - increases metformin levels",
-        "Insulin, sulfonylureas - increased hypoglycemia risk",
-        "Carbonic anhydrase inhibitors - increased lactic acidosis risk",
-        "Diuretics - may affect kidney function and metformin clearance",
-        "Corticosteroids - may reduce glucose-lowering effect"
+      warnings: {
+        blackBoxWarnings: [
+          "LACTIC ACIDOSIS: Rare but serious metabolic complication with high mortality (approximately 50%). Risk factors include renal impairment, hepatic impairment, excessive alcohol intake, heart failure, and acute illness. Discontinue metformin if lactic acidosis is suspected."
+        ],
+        generalWarnings: [
+          "Risk of lactic acidosis - discontinue before surgery or contrast imaging procedures",
+          "Can cause vitamin B12 deficiency - monitor levels with long-term use",
+          "Hypoglycemia risk when combined with other diabetes medications",
+          "Temporarily discontinue for 48 hours after iodinated contrast procedures",
+          "Monitor renal function at least annually",
+          "Avoid excessive alcohol consumption"
+        ],
+        specificPopulations: [
+          "Elderly patients (≥65 years) - monitor renal function more frequently",
+          "Patients with eGFR 30-45 mL/min/1.73m² - use with caution at reduced dose",
+          "Pregnancy Category B - generally considered safe but insulin preferred",
+          "Excreted in breast milk - usually compatible with breastfeeding"
+        ]
+      },
+      beforeTaking: {
+        contraindications: [
+          "Severe renal impairment (eGFR <30 mL/min/1.73m²)",
+          "Acute or chronic metabolic acidosis, including diabetic ketoacidosis",
+          "History of lactic acidosis",
+          "Severe hepatic impairment",
+          "Acute or decompensated heart failure requiring pharmacologic treatment",
+          "Known hypersensitivity to metformin",
+          "Conditions associated with tissue hypoxia"
+        ],
+        precautions: [
+          "Assess renal function before initiation and periodically thereafter",
+          "Hold before surgery and restart when normal renal function confirmed",
+          "Discontinue 48 hours before iodinated contrast procedures if eGFR 30-60",
+          "Monitor for signs of lactic acidosis (malaise, myalgias, respiratory distress, abdominal pain)",
+          "Periodically monitor vitamin B12 levels, especially with long-term use",
+          "Start at low dose and titrate gradually to minimize GI side effects",
+          "Caution with conditions causing hypoxia or reduced tissue perfusion"
+        ],
+        pregnancyBreastfeeding: "Pregnancy Category B. Animal studies show no fetal harm. Increasingly used during pregnancy, though insulin remains preferred therapy. Metformin crosses the placenta. Excreted in breast milk in small amounts but generally considered compatible with breastfeeding. Consult healthcare provider."
+      },
+      dosage: {
+        overview: "Start with low doses and increase gradually to minimize gastrointestinal side effects. Take with meals to reduce GI upset. Maximum benefit typically achieved at 2000mg/day.",
+        adult: "**Initial**: 500mg twice daily or 850mg once daily with meals. **Titration**: Increase by 500mg weekly or 850mg every 2 weeks. **Maintenance**: 1500-2000mg/day in 2-3 divided doses. **Maximum**: 2550mg/day (immediate-release) or 2000mg/day (extended-release).",
+        pediatric: "**Children ≥10 years**: Initial 500mg twice daily. Increase by 500mg weekly. Maximum 2000mg/day in divided doses. Safety and efficacy not established in children <10 years.",
+        elderly: "Conservative initial dosing recommended. More frequent renal function monitoring required. May need dose reduction based on renal function.",
+        specialPopulations: "**Renal impairment (eGFR 30-45)**: Maximum 1000mg/day. **eGFR <30**: Contraindicated. **Hepatic impairment**: Avoid in severe impairment due to lactic acidosis risk.",
+        administration: [
+          "Take with meals to minimize gastrointestinal side effects",
+          "Immediate-release: 2-3 times daily with meals",
+          "Extended-release: Once daily with evening meal",
+          "Swallow extended-release tablets whole - do NOT crush, chew, or split",
+          "Increase dose gradually (every 1-2 weeks) to minimize GI upset",
+          "Monitor blood glucose regularly and adjust dose based on glycemic control",
+          "Continue taking even if feeling well - diabetes requires ongoing management"
+        ],
+        missedDose: "Take as soon as remembered if with a meal. If close to next dose or not eating, skip the missed dose. Do not double doses.",
+        overdose: "Overdose may cause hypoglycemia or lactic acidosis. Symptoms of lactic acidosis include extreme weakness, muscle pain, difficulty breathing, unusual sleepiness, stomach pain, nausea. Seek immediate emergency medical attention. Hemodialysis can remove metformin and lactate.",
+        storage: "Store at room temperature 15-30°C (59-86°F). Protect from light and moisture. Keep in original container."
+      },
+      interactions: {
+        drugInteractions: [
+          "**Carbonic Anhydrase Inhibitors (topiramate, acetazolamide)**: Increased risk of lactic acidosis. Use together with caution.",
+          "**Alcohol**: Increases risk of lactic acidosis and hypoglycemia. Avoid excessive alcohol consumption.",
+          "**Iodinated Contrast Media**: Increased risk of acute kidney injury and lactic acidosis. Discontinue metformin at time of or before procedure.",
+          "**Insulin and Insulin Secretagogues (sulfonylureas)**: Increased risk of hypoglycemia. May require dose adjustment.",
+          "**Cationic Drugs (cimetidine, amiloride, digoxin, morphine)**: May increase metformin levels by competing for renal tubular transport.",
+          "**Drugs Affecting Glycemic Control (diuretics, corticosteroids, phenothiazines, thyroid products)**: May affect blood glucose - monitor closely."
+        ],
+        substancesToAvoid: [
+          "**Excessive Alcohol**: Increases risk of lactic acidosis and hypoglycemia. Limit alcohol consumption.",
+          "**High-dose vitamin B supplements**: May mask B12 deficiency symptoms but generally safe"
+        ],
+        interactionOverview: "Metformin is not metabolized and is excreted unchanged in urine. Most interactions involve effects on renal excretion or glucose metabolism. Most significant risks are with nephrotoxic agents, alcohol, and medications causing lactic acidosis."
+      },
+      faq: [
+        {
+          question: "How long does metformin take to work?",
+          answer: "Blood glucose lowering effects begin within days, but maximum benefit typically occurs after 1-2 weeks at a given dose. HbA1c improvements are usually seen after 2-3 months of consistent use. Gradual dose titration over several weeks is common to minimize side effects."
+        },
+        {
+          question: "Why does metformin cause diarrhea and stomach upset?",
+          answer: "Metformin affects glucose absorption in the intestines and alters gut bacteria, leading to GI side effects in 20-30% of patients. These usually resolve within 2 weeks. Taking with meals, starting at low doses, using extended-release formulations, and gradual dose titration all help minimize GI effects."
+        },
+        {
+          question: "Can I take metformin if I need a CT scan with contrast?",
+          answer: "Metformin should be temporarily discontinued before or at the time of iodinated contrast procedures in patients with eGFR 30-60, and held for 48 hours after the procedure. Restart only after renal function confirmed as stable. This prevents potential lactic acidosis from acute kidney injury."
+        },
+        {
+          question: "Does metformin cause vitamin B12 deficiency?",
+          answer: "Yes, metformin can decrease vitamin B12 absorption, affecting 7-30% of long-term users. This may lead to anemia or neuropathy. Annual B12 level monitoring is recommended, especially in patients with anemia or peripheral neuropathy. Supplementation may be needed."
+        },
+        {
+          question: "Will metformin help me lose weight?",
+          answer: "Metformin may result in modest weight loss (2-3 kg on average) in some patients, unlike many other diabetes medications that cause weight gain. However, it should not be used solely for weight loss. Effects vary significantly between individuals."
+        },
+        {
+          question: "What is lactic acidosis and how common is it?",
+          answer: "Lactic acidosis is a rare but serious condition where lactic acid builds up in the blood faster than it can be removed. With metformin, it's very rare (<10 cases per 100,000 patient-years) when prescribed appropriately. Risk is highest in those with kidney disease, liver disease, heart failure, or excessive alcohol use. Symptoms include muscle pain, weakness, difficulty breathing, stomach pain, and unusual tiredness."
+        }
       ]
     }
   },

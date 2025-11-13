@@ -242,6 +242,28 @@ export const ProductDetail = () => {
 
             <Separator className="my-6" />
 
+            {/* Quantity */}
+            <div className="mb-6">
+              <label className="text-sm font-semibold mb-3 block">Quantity</label>
+              <div className="flex items-center gap-3">
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                >
+                  -
+                </Button>
+                <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={() => setQuantity(quantity + 1)}
+                >
+                  +
+                </Button>
+              </div>
+            </div>
+
             {/* Options */}
             {product.strengthOptions && product.strengthOptions.length > 0 && (
               <div className="mb-6 space-y-3">
@@ -286,28 +308,6 @@ export const ProductDetail = () => {
                 </div>
               </div>
             )}
-
-            {/* Quantity */}
-            <div className="mb-6">
-              <label className="text-sm font-semibold mb-3 block">Quantity</label>
-              <div className="flex items-center gap-3">
-                <Button
-                  variant="outline"
-                  size="icon"
-                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                >
-                  -
-                </Button>
-                <span className="text-xl font-semibold w-12 text-center">{quantity}</span>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  onClick={() => setQuantity(quantity + 1)}
-                >
-                  +
-                </Button>
-              </div>
-            </div>
 
             {/* Actions */}
             <div className="flex gap-3 mb-6">

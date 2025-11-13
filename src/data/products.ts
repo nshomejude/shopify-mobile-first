@@ -15659,6 +15659,133 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 144.99,
       maxPrice: 224.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2,5-Dimethoxy-4-chloroamphetamine",
+        molecularFormula: "C₁₁H₁₆ClNO₂",
+        molecularWeight: 229.70,
+        casNumber: "88441-12-5",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Sparingly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in methanol, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "DOC (2,5-Dimethoxy-4-chloroamphetamine) is a substituted amphetamine and phenethylamine research compound within the DOx family. It acts primarily as a potent and selective serotonin 5-HT2A receptor agonist with an extremely long duration of action (14-24+ hours). Valuable for studying psychedelic pharmacology, receptor binding kinetics, and structure-activity relationships of halogenated phenethylamines.",
+        primaryUses: [
+          "5-HT2A receptor agonist research",
+          "Long-duration psychedelic pharmacology studies",
+          "Halogenated phenethylamine SAR investigations",
+          "Receptor binding affinity and selectivity studies",
+          "Analytical reference standards"
+        ],
+        studyAreas: [
+          "Serotonergic system function",
+          "5-HT2A/2C receptor pharmacology",
+          "Psychedelic compound duration studies",
+          "Phenethylamine structure-activity relationships",
+          "Halogen substitution effects on potency",
+          "Receptor binding kinetics"
+        ],
+        mechanismOfAction: "DOC functions as a potent and selective 5-HT2A receptor agonist with high binding affinity (Ki ~0.7 nM at 5-HT2A). Also shows affinity for 5-HT2C and 5-HT2B receptors. The 4-chloro substitution increases potency and duration compared to unsubstituted analogs. Demonstrates unusually slow dissociation from receptors, contributing to extremely prolonged duration of effects (16-24+ hours)."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H301 - Toxic if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264 - Wash hands and exposed areas thoroughly after handling",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P310 - IF SWALLOWED: Immediately call POISON CENTER or doctor",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in a well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store at -20°C to 4°C in tightly sealed containers under inert atmosphere (nitrogen or argon). Protect from light, heat, air, and moisture. Store in locked controlled substance storage facility with appropriate security measures and access logs. Use desiccants to maintain low humidity.",
+        shelfLife: "≥2 years when stored properly at -20°C under inert atmosphere and protected from light",
+        disposalGuidelines: "Dispose as Schedule I analog and controlled substance per DEA regulations and local laws. Contact licensed controlled/hazardous substance waste disposal service. Incineration at DEA-approved facility required. Maintain comprehensive disposal documentation and chain of custody records.",
+        requiredPPE: [
+          "Nitrile or neoprene gloves (minimum 0.11mm thickness)",
+          "Safety goggles with side shields or face shield",
+          "Laboratory coat or disposable protective suit",
+          "N95 or P100 respirator when handling powder",
+          "Closed-toe shoes",
+          "Work exclusively in certified fume hood"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "Stock solutions: 1-10 mM in DMSO or ethanol",
+          "Receptor binding assays: 0.1 nM - 10 μM",
+          "Analytical standards: 0.1-100 μg/mL",
+          "Blotter analysis: typically 1-3 mg per blotter unit"
+        ],
+        preparationNotes: [
+          "Prepare solutions in amber or opaque glassware",
+          "Use only high-purity solvents (HPLC or better grade)",
+          "DOC is extremely potent - exercise extreme caution with pure powder",
+          "May require gentle warming (up to 40°C) and vortexing for complete dissolution",
+          "Store stock solutions at -20°C under nitrogen or argon",
+          "Aliquot solutions to minimize freeze-thaw cycles",
+          "Use only glass containers - avoid plastic which may adsorb compound",
+          "Label all containers with compound name, concentration, date, handler initials",
+          "Maintain detailed preparation logs as per controlled substance regulations"
+        ],
+        stabilityData: "Relatively stable when stored frozen at -20°C in dark under inert atmosphere (≥2 years). Solutions in DMSO/ethanol stable for several weeks to months at -20°C when protected from light and air. Avoid exposure to strong acids, bases, oxidizing agents. Minimal degradation observed at neutral pH.",
+        analyticalMethods: [
+          "HPLC-UV (λ = 280-310 nm typical detection)",
+          "HPLC-MS/MS for high sensitivity quantification",
+          "GC-MS (requires derivatization for optimal results)",
+          "LC-MS/MS for biological matrices",
+          "NMR spectroscopy (1H, 13C, 19F) for structure confirmation",
+          "FTIR for functional group identification",
+          "Melting point determination",
+          "TLC with appropriate visualization reagents"
+        ],
+        handlingPrecautions: [
+          "EXTREMELY POTENT - milligram quantities require extreme care",
+          "WORK IN FUME HOOD AT ALL TIMES",
+          "Double glove when handling pure powder",
+          "Avoid any skin contact - even trace amounts can have effects",
+          "Never pipette by mouth - use mechanical devices only",
+          "Work on spill trays with absorbent liner",
+          "Have emergency spill kit and eyewash station nearby",
+          "Minimize dust generation - static electricity can disperse powder",
+          "No eating, drinking, smoking, or cosmetic application in lab",
+          "Remove contaminated clothing immediately",
+          "Shower and change clothes after handling pure compound",
+          "Maintain detailed handling logs with dates, amounts, purposes"
+        ]
+      },
+      regulatoryInformation: {
+        legalStatus: "Controlled in most jurisdictions. Schedule I analog under Federal Analogue Act (USA). Explicitly scheduled in many countries including Germany, UK, Australia, Japan, Sweden, Switzerland. Check local and national regulations.",
+        controlledSubstanceSchedule: "Schedule I analog (USA), Class A (UK), similar classifications in other countries",
+        researchLicense: "DEA Schedule I research license required for possession and use in USA. Similar high-level research authorizations required in most countries.",
+        documentation: "Comprehensive documentation required for all acquisitions, storage, transfers, use, and disposal. Detailed logs mandatory as per controlled substance regulations."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis available: purity ≥98% by HPLC-UV, identity by NMR/MS",
+        msds: "Safety Data Sheet (SDS) available detailing hazards, handling, and emergency procedures",
+        nmr: "1H-NMR, 13C-NMR, and DEPT spectra available",
+        hplc: "HPLC chromatogram and method parameters available",
+        mass: "High-resolution ESI-MS and MS/MS fragmentation data available",
+        synthesisRoute: "Synthesis information available under confidentiality agreement"
+      },
+      researchNotes: "DOC is one of the most potent and long-lasting phenethylamine psychedelics, with effects persisting 14-24+ hours. The 4-chloro substitution significantly increases potency and duration compared to DOM or DOB. Extremely slow receptor dissociation kinetics contribute to prolonged duration. Active in very low doses (1-3mg range). Valuable for studying duration determinants in psychedelics and halogen effects on phenethylamine SAR. EXTREMELY POTENT - milligram-accurate scales essential. For research purposes only. Subject to controlled substance regulations worldwide."
     }
   },
   {
@@ -15679,6 +15806,139 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 146.99,
       maxPrice: 226.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2,5-Dimethoxy-4-bromoamphetamine",
+        molecularFormula: "C₁₁H₁₆BrNO₂",
+        molecularWeight: 274.15,
+        casNumber: "64638-07-9",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Sparingly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in methanol, acetone, chloroform"
+        }
+      },
+      researchApplications: {
+        overview: "DOB (2,5-Dimethoxy-4-bromoamphetamine) is a substituted amphetamine and phenethylamine psychedelic research compound within the DOx series. It acts as a potent 5-HT2A receptor agonist with very long duration (18-30+ hours). Valuable for investigating structure-activity relationships of halogenated phenethylamines, receptor binding kinetics, and ultra-long-duration psychedelic pharmacology.",
+        primaryUses: [
+          "5-HT2A receptor agonism and binding studies",
+          "Long-duration psychedelic research",
+          "Halogen substitution effects on phenethylamine activity",
+          "Receptor dissociation kinetics investigations",
+          "Comparative DOx series pharmacology",
+          "Analytical reference standards"
+        ],
+        studyAreas: [
+          "Serotonin receptor pharmacology",
+          "5-HT2A/2C receptor selectivity",
+          "Psychedelic duration determinants",
+          "Phenethylamine SAR",
+          "Bromine vs chlorine substitution effects",
+          "Receptor binding kinetics and residence time"
+        ],
+        mechanismOfAction: "DOB functions as a highly potent and selective 5-HT2A receptor agonist (Ki ~0.5-1 nM). Also shows affinity for 5-HT2C and 5-HT2B receptors. The 4-bromo substitution provides high potency and remarkably long duration (18-30+ hours). Exhibits extremely slow receptor dissociation, contributing to prolonged pharmacological effects. Demonstrates higher potency than DOM but slightly lower than DOC."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H301 - Toxic if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264 - Wash hands and all exposed areas thoroughly after handling",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P310 - IF SWALLOWED: Immediately call POISON CENTER or doctor",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up in controlled substance facility",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon preferred). Protect from light, heat, moisture, and air. Maintain in locked Schedule I controlled substance storage with access logs. Use desiccant packets. Stable for ≥2 years under these conditions.",
+        shelfLife: "≥2 years when stored properly at -20°C under inert gas and protected from light, heat, and moisture",
+        disposalGuidelines: "Dispose as Schedule I controlled substance per DEA and EPA regulations. Contact licensed controlled/hazardous waste disposal company. Incineration at approved facility required. Complete documentation mandatory including disposal logs, chain of custody, and destruction certificates.",
+        requiredPPE: [
+          "Chemical-resistant nitrile or neoprene gloves (≥0.11mm)",
+          "Safety goggles with side shields or full face shield",
+          "Laboratory coat or disposable protective coveralls",
+          "N95, P100, or supplied-air respirator for powder handling",
+          "Closed-toe chemical-resistant shoes",
+          "Work exclusively in certified chemical fume hood"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "Stock solutions: 0.5-10 mM in DMSO or anhydrous ethanol",
+          "Receptor binding assays: 0.05 nM - 10 μM",
+          "Functional assays: 0.1 nM - 1 μM",
+          "Analytical standards: 0.1-100 μg/mL",
+          "Typical blotter dosage: 1-3 mg per unit"
+        ],
+        preparationNotes: [
+          "Prepare all solutions in amber glassware to protect from light",
+          "Use HPLC-grade or better solvents only",
+          "EXTREMELY POTENT - sub-milligram quantities require microbalance",
+          "May require gentle warming (30-40°C) and sonication for dissolution",
+          "Store stock solutions at -20°C under nitrogen or argon",
+          "Aliquot to prevent multiple freeze-thaw cycles",
+          "Never use plastic containers for storage - compound may adsorb",
+          "Label clearly: compound name, concentration, date, initials",
+          "Document all preparations in controlled substance log",
+          "Verify concentration by analytical method before use"
+        ],
+        stabilityData: "Stable for ≥2 years at -20°C under inert atmosphere and protected from light. Solutions in DMSO/ethanol stable for weeks to months at -20°C when properly stored. Avoid exposure to strong oxidizing agents, acids, or bases. Relatively stable at neutral pH. Minimal photodegradation when protected from light.",
+        analyticalMethods: [
+          "HPLC-UV (λ = 280-310 nm)",
+          "HPLC-MS/MS for sensitive quantification",
+          "GC-MS (derivatization recommended)",
+          "LC-MS/MS for biological samples and metabolite analysis",
+          "NMR spectroscopy (1H, 13C, DEPT, COSY) for structure verification",
+          "FTIR spectroscopy",
+          "Melting point determination",
+          "TLC with appropriate detection methods",
+          "ICP-MS for bromine content verification"
+        ],
+        handlingPrecautions: [
+          "EXTREMELY POTENT - milligram range doses, require highest care",
+          "MANDATORY FUME HOOD USE - never handle in open lab",
+          "Double glove with nitrile gloves when handling powder",
+          "Avoid all skin contact - transdermal absorption possible",
+          "Use micropipettes or microbalances for accurate measurement",
+          "Never pipette by mouth - mechanical devices only",
+          "Use spill containment trays with absorbent material",
+          "Emergency eyewash and safety shower must be accessible",
+          "Minimize dust/aerosol generation",
+          "Ground equipment to prevent static discharge",
+          "No food, drink, smoking, or cosmetics in work area",
+          "Decontaminate all equipment after use",
+          "Maintain detailed handling records with dates, amounts, purposes",
+          "Two-person rule recommended for handling pure compound"
+        ]
+      },
+      regulatoryInformation: {
+        legalStatus: "Controlled substance in most jurisdictions worldwide. Schedule I analog under Federal Analogue Act (USA). Explicitly scheduled: Germany, UK, Australia, Canada, Japan, Sweden, Switzerland, Netherlands. Verify current local regulations before research.",
+        controlledSubstanceSchedule: "Schedule I (USA), Class A (UK), similar high-level controls internationally",
+        researchLicense: "DEA Schedule I research registration required (USA). Equivalent high-level research licenses required in most countries. Institutional approval and ethics oversight necessary.",
+        documentation: "Comprehensive documentation mandatory: acquisition records, storage logs, usage logs with dates/amounts/purposes, transfer documentation, disposal records. Annual DEA reports required."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis: purity ≥98% by HPLC-UV, identity confirmed by NMR and MS",
+        msds: "Safety Data Sheet (SDS) with complete hazard information, handling procedures, emergency response",
+        nmr: "Complete NMR package: 1H-NMR, 13C-NMR, DEPT, COSY available",
+        hplc: "HPLC chromatogram with method details and retention data",
+        mass: "High-resolution ESI-MS, MS/MS fragmentation patterns",
+        synthesisRoute: "Synthesis protocol available under appropriate NDA/confidentiality"
+      },
+      researchNotes: "DOB is among the most potent and longest-lasting phenethylamine psychedelics (18-30+ hour duration). The 4-bromo substitution provides exceptional potency with slightly less potency than DOC but more than DOM. Extremely slow 5-HT2A receptor dissociation contributes to remarkable duration. Active doses in 1-3mg range requiring precise measurement. Valuable for studying: duration determinants, halogen effects on SAR, receptor residence time, and long-acting psychedelic pharmacology. EXTREME CAUTION: milligram-accurate analytical balance essential. For research purposes only. Controlled substance - strict regulatory compliance required."
     }
   },
   {
@@ -15699,6 +15959,149 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 154.99,
       maxPrice: 239.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "N-(2-Methoxybenzyl) substituted phenethylamine derivatives",
+        molecularFormula: "Variable (25I-NBOMe: C₁₈H₂₂INO₃, 25B-NBOMe: C₁₈H₂₂BrNO₃, 25C-NBOMe: C₁₈H₂₂ClNO₃)",
+        molecularWeight: "Variable (25I: 427.28, 25B: 379.28, 25C: 335.83)",
+        casNumber: "Variable by analog (25I-NBOMe: 919797-19-6)",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Practically insoluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in methanol, acetone, chloroform"
+        }
+      },
+      researchApplications: {
+        overview: "NBOMe compounds are N-benzyl-methoxy derivatives of 2C-x phenethylamines, characterized by the addition of a 2-methoxybenzyl (NBOMe) group to the amine. This modification dramatically increases potency and selectivity at 5-HT2A receptors compared to parent 2C compounds. The family includes 25I-NBOMe, 25B-NBOMe, 25C-NBOMe, and others, each with varying halogen substitutions at the 4-position.",
+        primaryUses: [
+          "High-affinity 5-HT2A receptor research",
+          "N-benzylation effects on phenethylamine pharmacology",
+          "Receptor selectivity studies (5-HT2A vs 5-HT2C)",
+          "Structure-activity relationship investigations",
+          "Potency enhancement mechanism studies",
+          "Analytical reference standards for forensic identification"
+        ],
+        studyAreas: [
+          "Serotonin receptor pharmacology and selectivity",
+          "5-HT2A receptor agonist binding kinetics",
+          "N-benzyl modification effects on SAR",
+          "Psychedelic pharmacology",
+          "Receptor subtype selectivity determinants",
+          "Toxicology and safety research"
+        ],
+        mechanismOfAction: "NBOMe compounds function as highly potent and selective 5-HT2A receptor full agonists. The N-2-methoxybenzyl substitution increases binding affinity dramatically (often 10-100x more potent than parent 2C compounds). 25I-NBOMe shows Ki ~0.044 nM at 5-HT2A with high selectivity over other receptor subtypes. Enhanced potency attributed to additional binding interactions via the N-benzyl group."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H300 - Fatal if swallowed",
+          "H310 - Fatal in contact with skin",
+          "H330 - Fatal if inhaled",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P260 - Do not breathe dust/fume/gas/mist/vapors/spray",
+          "P264 - Wash hands and exposed areas extremely thoroughly after handling",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P284 - Wear respiratory protection - MANDATORY",
+          "P301+P310 - IF SWALLOWED: Immediately call POISON CENTER or doctor",
+          "P302+P350 - IF ON SKIN: Immediately rinse with water. Remove contaminated clothing",
+          "P304+P340 - IF INHALED: Remove person to fresh air immediately",
+          "P310 - Immediately call POISON CENTER or doctor",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up in approved controlled substance facility",
+          "P501 - Dispose as controlled substance per DEA regulations"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon MANDATORY). Protect from ALL light exposure - compound is photosensitive. Maintain in locked Schedule I facility with comprehensive access control. Use multiple layers of light protection (amber glass + foil wrap + opaque container). Desiccants essential.",
+        shelfLife: "≥1-2 years at -20°C under inert gas, protected from light. Degradation accelerates significantly with light/air/moisture exposure.",
+        disposalGuidelines: "EXTREME CAUTION REQUIRED. Dispose as Schedule I controlled substance and highly toxic material per DEA, EPA, and OSHA regulations. Licensed controlled substance waste disposal company mandatory. High-temperature incineration at approved facility required. Comprehensive documentation and certificates of destruction mandatory. Never dispose in regular waste - potentially fatal.",
+        requiredPPE: [
+          "Double nitrile gloves (minimum 0.15mm thickness each layer)",
+          "Full face shield PLUS safety goggles",
+          "Disposable protective suit or lab coat (Tyvek recommended)",
+          "MANDATORY: Full-face respirator with P100 or supplied-air system",
+          "Shoe covers",
+          "Work ONLY in certified chemical fume hood with verified airflow",
+          "Emergency shower and eyewash immediately accessible"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "Stock solutions: 0.1-1 mM in DMSO or ethanol (EXTREME CAUTION)",
+          "Receptor binding assays: 0.001 nM - 1 μM",
+          "Functional assays: 0.01 nM - 100 nM",
+          "Analytical standards: 0.01-10 μg/mL",
+          "WARNING: Active doses 0.5-1mg range - EXTREME POTENCY"
+        ],
+        preparationNotes: [
+          "CRITICAL: EXTREMELY POTENT AND TOXIC - SUB-MILLIGRAM QUANTITIES DANGEROUS",
+          "MANDATORY: Two-person rule for all powder handling",
+          "Use only certified analytical microbalance (0.001mg accuracy minimum)",
+          "Prepare solutions in triple-wrapped amber glassware",
+          "Work in dark room with minimal lighting when possible",
+          "Use only highest purity solvents (LC-MS grade)",
+          "Requires warming to 37-40°C and sonication for dissolution",
+          "Store all solutions at -20°C under nitrogen or argon",
+          "Wrap containers in aluminum foil plus opaque secondary container",
+          "Single-use aliquots strongly recommended - minimize freeze-thaw",
+          "NEVER use plastic - significant adsorption occurs",
+          "Verify concentration by analytical method before ANY use",
+          "Maintain continuous documentation of all handling",
+          "Decontaminate all surfaces and equipment immediately after use"
+        ],
+        stabilityData: "HIGHLY UNSTABLE. Extremely photosensitive - degrades rapidly in light (t½ <6 hours ambient light). Relatively stable at -20°C under nitrogen and protected from light (6-12 months). Solutions degrade faster than solid. Avoid exposure to oxidizing agents, acids, bases. Stability limited even under optimal conditions - prepare fresh regularly.",
+        analyticalMethods: [
+          "HPLC-UV (λ = 280-310 nm) with light-protected samples",
+          "HPLC-MS/MS for high sensitivity (sub-ng/mL detection)",
+          "LC-MS/MS mandatory for biological matrices",
+          "GC-MS (requires derivatization, thermal degradation risk)",
+          "NMR spectroscopy (1H, 13C, COSY, HSQC) - protect from light during acquisition",
+          "FTIR spectroscopy",
+          "High-resolution MS for exact mass confirmation",
+          "TLC (protect from light, use appropriate visualization)"
+        ],
+        handlingPrecautions: [
+          "WARNING: FATAL IF SWALLOWED, INHALED, OR ABSORBED THROUGH SKIN",
+          "EXTREME POTENCY: Microgram quantities potentially dangerous",
+          "MANDATORY: Full respiratory protection at all times",
+          "MANDATORY: Work in certified fume hood - never in open lab",
+          "Two-person rule REQUIRED for handling pure compound",
+          "Triple glove recommended for powder (nitrile + nitrile + nitrile)",
+          "Avoid ANY skin contact - transdermal absorption extremely dangerous",
+          "Use only enclosed microbalance within fume hood",
+          "Anti-static measures essential - compound disperses easily",
+          "Spill containment with multiple layers mandatory",
+          "Emergency protocols posted and rehearsed",
+          "Antidote information immediately available (though limited options)",
+          "Never pipette by mouth - mechanical devices only",
+          "Minimize time compound is open/exposed",
+          "Decontaminate immediately with 10% bleach solution",
+          "Disposal in designated highly toxic waste only",
+          "Medical surveillance for handlers recommended",
+          "Document every single handling event with witness signatures"
+        ]
+      },
+      regulatoryInformation: {
+        legalStatus: "Schedule I or equivalent in most jurisdictions. Explicitly scheduled: USA (Schedule I, DEA), UK (Class A), Germany, Australia, Canada, Sweden, Japan, many others. Federal Analogue Act applicable. Severe legal penalties for unauthorized possession.",
+        controlledSubstanceSchedule: "Schedule I (USA), Class A (UK), equivalent strict controls worldwide",
+        researchLicense: "DEA Schedule I research registration MANDATORY (USA). Requires institutional DEA registration, individual researcher authorization, detailed protocols, ethics approval, security measures. Similar stringent requirements internationally.",
+        documentation: "Comprehensive documentation required: detailed acquisition records, storage logs (daily verification), usage logs with purposes and amounts, witness signatures, security incident reports, annual DEA reports, destruction documentation. Audit trail for every molecule."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis: purity ≥98% by HPLC-UV, identity by NMR and high-resolution MS",
+        msds: "Safety Data Sheet with EXTREME HAZARD warnings, emergency procedures, first aid, toxicology data",
+        nmr: "Complete NMR package: 1H, 13C, DEPT, COSY, HSQC, HMBC (protect from light during acquisition)",
+        hplc: "HPLC chromatogram with detailed method, all parameters, light protection protocols",
+        mass: "High-resolution MS, MS/MS fragmentation, exact mass determination",
+        synthesisRoute: "Synthesis information available under strict NDA and security clearance"
+      },
+      researchNotes: "WARNING: NBOMe compounds are EXTREMELY POTENT AND DANGEROUS. Fatal overdoses reported in literature. Active doses in sub-milligram range (0.5-1mg) requiring analytical microbalance. Orders of magnitude more potent than parent 2C compounds. Narrow safety margin. Extremely photosensitive - degrade rapidly in light. Valuable for studying N-benzyl enhancement of phenethylamine potency and 5-HT2A selectivity, but EXTREME CAUTION mandatory. Transdermal absorption possible - skin contact potentially fatal. ONLY for use by highly experienced researchers with appropriate facilities, equipment, training, and emergency protocols. Schedule I controlled substance - strict regulatory compliance essential. Multiple fatalities reported - approach with maximum respect and safety measures."
     }
   },
   {
@@ -15719,6 +16122,142 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 124.99,
       maxPrice: 192.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "N-(1-Amino-3,3-dimethyl-1-oxobutan-2-yl)-1-(5-chloropentyl)-1H-indazole-3-carboxamide",
+        molecularFormula: "C₁₉H₂₇ClN₄O₂",
+        molecularWeight: 378.90,
+        casNumber: "1628842-36-3",
+        appearance: "White to beige crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Practically insoluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in acetone, methanol, propylene glycol"
+        }
+      },
+      researchApplications: {
+        overview: "5-Cl-ADB (also known as 5-Chloro-MDMB-PINACA) is a synthetic cannabinoid receptor agonist from the indazole-3-carboxamide class. It demonstrates high binding affinity and full agonist activity at both CB1 and CB2 cannabinoid receptors. Valuable for studying cannabinoid receptor pharmacology, structure-activity relationships of synthetic cannabinoids, and indazole-based cannabinoid chemistry.",
+        primaryUses: [
+          "CB1 and CB2 cannabinoid receptor research",
+          "Full agonist vs partial agonist pharmacology studies",
+          "Indazole cannabinoid structure-activity relationships",
+          "Receptor binding affinity and selectivity studies",
+          "Metabolic pathway investigations",
+          "Analytical reference standards for forensic identification"
+        ],
+        studyAreas: [
+          "Cannabinoid receptor pharmacology",
+          "CB1/CB2 receptor binding and activation",
+          "Synthetic cannabinoid SAR",
+          "Indazole-3-carboxamide class investigations",
+          "Metabolite identification and toxicology",
+          "Analytical method development",
+          "Drug metabolism and pharmacokinetics"
+        ],
+        mechanismOfAction: "5-Cl-ADB functions as a full agonist at both CB1 and CB2 cannabinoid receptors with high binding affinity (estimated Ki values in low nanomolar range at CB1). The indazole core, tert-leucine amide, and 5-chloropentyl tail contribute to high potency and receptor affinity. Demonstrates stronger effects than many earlier synthetic cannabinoids due to full agonist profile at CB1 receptors."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H301 - Toxic if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264 - Wash thoroughly after handling",
+          "P270 - Do not eat, drink or smoke when using this product",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P310 - IF SWALLOWED: Immediately call POISON CENTER or doctor",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per local/state/federal regulations"
+        ],
+        storageConditions: "Store at 2-8°C (refrigerated) in tightly sealed amber glass containers under inert atmosphere (nitrogen preferred). Protect from light, heat, moisture, and air. Maintain in locked controlled substance storage with access documentation. Use desiccant packets. Stable for ≥2 years under proper conditions.",
+        shelfLife: "2+ years when stored at 2-8°C under inert atmosphere and protected from light, heat, and moisture",
+        disposalGuidelines: "Dispose as controlled substance and hazardous waste per DEA, EPA, and local regulations. Contact licensed controlled/hazardous waste disposal service. High-temperature incineration at approved facility required. Complete documentation mandatory including disposal records and certificates of destruction.",
+        requiredPPE: [
+          "Nitrile gloves (minimum 0.11mm thickness)",
+          "Safety goggles with side shields or face shield",
+          "Laboratory coat or disposable protective clothing",
+          "N95 or P100 respirator when handling powder",
+          "Work in certified fume hood at all times"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "Stock solutions: 1-10 mM in DMSO or ethanol",
+          "Receptor binding assays: 0.1 nM - 10 μM",
+          "Functional assays: 1 nM - 10 μM",
+          "Analytical standards: 0.1-100 μg/mL",
+          "Cell-based assays: 0.01-10 μM"
+        ],
+        preparationNotes: [
+          "Prepare solutions using high-purity solvents (HPLC/LC-MS grade)",
+          "DMSO or ethanol preferred for stock solutions",
+          "May require gentle warming (37°C) and vortexing for dissolution",
+          "Sonication can aid dissolution if warming insufficient",
+          "Store stock solutions at -20°C under nitrogen or argon",
+          "Protect from light by using amber glassware",
+          "Aliquot to minimize freeze-thaw cycles (maximum 3 cycles recommended)",
+          "Avoid prolonged exposure to air - oxidation possible",
+          "Use only glass containers - plastic may cause adsorption",
+          "Label clearly with compound name, concentration, date, initials",
+          "Verify concentration by analytical method before use",
+          "Document all preparations in controlled substance log"
+        ],
+        stabilityData: "Stable for ≥2 years as solid at 2-8°C under inert atmosphere. Solutions in DMSO/ethanol stable for several weeks at -20°C when protected from light and air. Relatively stable at neutral pH. Avoid exposure to strong oxidizing agents, strong acids, and bases. Minimal degradation observed under proper storage conditions.",
+        analyticalMethods: [
+          "HPLC-UV (λ = 254-280 nm)",
+          "HPLC-MS/MS for sensitive quantification",
+          "GC-MS (direct injection or after derivatization)",
+          "LC-MS/MS for biological samples and metabolite identification",
+          "NMR spectroscopy (1H, 13C, DEPT) for structure verification",
+          "FTIR spectroscopy",
+          "Melting point determination",
+          "TLC with appropriate visualization methods"
+        ],
+        handlingPrecautions: [
+          "HIGHLY POTENT - milligram quantities require careful handling",
+          "MANDATORY: Work in certified fume hood at all times",
+          "Wear appropriate PPE including gloves, goggles, lab coat, respirator",
+          "Avoid any skin contact - use barrier protection",
+          "Never pipette by mouth - use mechanical pipetting devices only",
+          "Use spill containment trays with absorbent material",
+          "Have spill cleanup kit readily available",
+          "Minimize dust generation - handle powder carefully",
+          "Ground equipment to prevent static electricity discharge",
+          "No eating, drinking, smoking, or cosmetic application in work area",
+          "Wash hands thoroughly after handling",
+          "Remove contaminated clothing immediately",
+          "Decontaminate work surfaces after use with appropriate solvents",
+          "Maintain detailed handling logs with dates, amounts, purposes",
+          "Store securely when not in use - controlled substance protocols apply"
+        ]
+      },
+      regulatoryInformation: {
+        legalStatus: "Controlled substance in many jurisdictions. Scheduled in USA, UK, Japan, Australia, and other countries. Often controlled under cannabinoid analog provisions. Verify current local, state, and federal regulations before possession or research use.",
+        controlledSubstanceSchedule: "Schedule I (USA under cannabinoid provisions), Class B (UK), similar controls in other jurisdictions",
+        researchLicense: "DEA registration required for Schedule I research (USA). Institutional and individual research licenses required. Ethics approval and protocol review necessary. Similar requirements in other countries.",
+        documentation: "Comprehensive records required: acquisition logs, storage logs, usage records with dates/amounts/purposes, transfer documentation, disposal records. Annual regulatory reports may be required. Maintain audit trail."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis: purity ≥98% by HPLC-UV, identity confirmed by NMR and MS",
+        msds: "Material Safety Data Sheet (SDS) with hazard information, handling procedures, emergency response",
+        nmr: "1H-NMR, 13C-NMR, and DEPT spectra available for structure confirmation",
+        hplc: "HPLC chromatogram with method details and purity analysis",
+        mass: "High-resolution mass spectrometry data (ESI-MS) and MS/MS fragmentation patterns",
+        synthesisRoute: "Synthesis protocol available under appropriate confidentiality agreements"
+      },
+      researchNotes: "5-Cl-ADB is a potent synthetic cannabinoid full agonist requiring careful handling due to high receptor affinity. Part of the indazole-3-carboxamide class that has been associated with adverse events in uncontrolled settings. Valuable for cannabinoid receptor research, SAR studies, and understanding synthetic cannabinoid pharmacology. The 5-chloropentyl chain and tert-leucine amide contribute to high CB1 affinity. Metabolizes to multiple products - useful for metabolism studies. Exercise appropriate caution - full agonist profile at CB1 receptors associated with stronger effects than partial agonists. For research purposes only - not for human or veterinary use. Controlled substance - strict regulatory compliance required. Handle with respect and appropriate safety measures."
     }
   },
   {

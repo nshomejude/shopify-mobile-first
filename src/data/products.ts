@@ -2133,34 +2133,180 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     formOptions: ["Transdermal Patch", "Injectable"],
     tags: ["pain-relief", "opioid", "controlled"],
     medicalInfo: {
-      dosage: {
-        standard: "Transdermal: Start 12-25mcg/hr patch every 72 hours. Only for opioid-tolerant patients. Injectable: highly variable, medical supervision required.",
-        administration: [
-          "Patches: Apply to flat, non-irritated skin on upper body",
-          "Rotate application sites",
-          "Do not cut patches",
-          "Dispose of used patches by folding sticky sides together",
-          "Only for patients already on opioids (opioid-tolerant)"
-        ],
-        specialPopulations: "Not for opioid-naive patients. Extreme caution in elderly. Not for acute or postoperative pain. Contraindicated in pregnancy."
+      uses: {
+        overview: "Fentanyl is an extremely potent synthetic opioid analgesic, approximately 50-100 times more potent than morphine. It's reserved for severe chronic pain in opioid-tolerant patients or acute pain in controlled medical settings. Transdermal patches provide sustained pain relief for 72 hours.",
+        conditions: [
+          "**Chronic Severe Pain** - Cancer pain, severe chronic pain requiring continuous opioid analgesia",
+          "**Breakthrough Cancer Pain** - Rapid-onset formulations for breakthrough pain episodes",
+          "**Surgical Anesthesia** - Injectable form used as anesthetic adjunct",
+          "**Post-Operative Pain** - Short-term severe pain in hospital settings",
+          "**Palliative Care** - End-of-life pain management"
+        ]
       },
       sideEffects: {
-        common: ["Nausea", "Vomiting", "Constipation", "Drowsiness", "Dizziness", "Application site reactions"],
-        serious: ["Life-threatening respiratory depression", "Severe addiction potential", "Hypotension", "Bradycardia", "Chest wall rigidity", "Fatal overdose"]
+        common: ["Nausea", "Vomiting", "Constipation", "Drowsiness", "Dizziness", "Application site reactions (patches)", "Sweating", "Dry mouth"],
+        serious: [
+          "LIFE-THREATENING RESPIRATORY DEPRESSION (leading cause of opioid-related deaths)",
+          "Severe addiction, abuse, and misuse potential",
+          "Chest wall rigidity (especially IV administration)",
+          "Severe hypotension and syncope",
+          "Bradycardia and cardiac arrest",
+          "Adrenal insufficiency",
+          "Serotonin syndrome (with serotonergic drugs)",
+          "Fatal overdose risk"
+        ],
+        notes: "Fentanyl is 50-100x more potent than morphine. ONLY for opioid-tolerant patients. Non-tolerant patients can die from even small doses."
       },
-      contraindications: [
-        "Opioid non-tolerant patients",
-        "Acute or intermittent pain",
-        "Postoperative pain",
-        "Severe respiratory disease",
-        "Known hypersensitivity"
+      warnings: {
+        blackBoxWarnings: [
+          "ADDICTION, ABUSE, AND MISUSE: Exposes users to risks of addiction, abuse, and misuse, which can lead to overdose and death. Assess each patient's risk prior to prescribing.",
+          "LIFE-THREATENING RESPIRATORY DEPRESSION: Serious, life-threatening, or fatal respiratory depression may occur. Monitor closely, especially upon initiation or dose increase. Only for opioid-tolerant patients.",
+          "ACCIDENTAL EXPOSURE: Accidental exposure to even one dose of fentanyl, especially in children, can result in fatal overdose.",
+          "NEONATAL OPIOID WITHDRAWAL SYNDROME: Prolonged use during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening.",
+          "RISKS WITH CNS DEPRESSANTS: Concomitant use with benzodiazepines or other CNS depressants may result in profound sedation, respiratory depression, coma, and death.",
+          "PATIENT SELECTION: Only prescribe to opioid-tolerant patients. Non-tolerant patients have increased risk of fatal respiratory depression.",
+          "HEAT EXPOSURE: Patches - Exposure to external heat sources (heating pads, hot tubs, fever) increases fentanyl absorption and risk of fatal overdose."
+        ],
+        generalWarnings: [
+          "CONTRAINDICATED in opioid non-tolerant patients - can be fatal",
+          "NOT for acute or intermittent pain - only for chronic severe pain",
+          "NOT for post-operative pain (except in hospital for short duration)",
+          "Heat increases absorption through patches - avoid hot environments",
+          "Respiratory depression risk greatest during first 24-72 hours",
+          "Used patches contain significant residual fentanyl - dispose properly",
+          "Do not cut, divide, or damage patches",
+          "Wear gloves when applying/removing patches",
+          "Gradual tapering required - abrupt discontinuation causes withdrawal"
+        ],
+        specificPopulations: [
+          "**Pregnancy Category C** - Crosses placenta; can cause neonatal opioid withdrawal syndrome; use only if benefits clearly outweigh risks",
+          "**Breastfeeding** - Excreted in breast milk; can cause serious adverse effects in nursing infants including excess sedation and respiratory depression",
+          "**Elderly** - Increased sensitivity to effects; higher risk of respiratory depression; use lowest effective dose",
+          "**Renal/Hepatic Impairment** - Reduced clearance; significant dose reduction and extended monitoring required",
+          "**Pediatric** - Only for opioid-tolerant children ≥2 years; extreme caution required"
+        ]
+      },
+      beforeTaking: [
+        "Are you currently taking or recently took opioid pain medications regularly?",
+        "Opioid non-tolerant status (CONTRAINDICATED)",
+        "Significant respiratory depression or lung disease",
+        "Acute or severe asthma in unmonitored setting",
+        "Known or suspected gastrointestinal obstruction",
+        "Allergy to fentanyl or adhesives (patches)",
+        "Currently taking MAOIs or within 14 days of stopping",
+        "Head injury or increased intracranial pressure",
+        "Cardiac disease or arrhythmias",
+        "History of substance abuse or addiction",
+        "Liver or kidney disease",
+        "Plans to use hot tubs, heating pads, or exposure to external heat",
+        "Currently pregnant, planning pregnancy, or breastfeeding"
       ],
+      dosage: {
+        standard: "**PATCHES (Opioid-Tolerant Only):** Start with lowest dose (12-25mcg/hr) based on prior opioid use. Apply to flat, non-irritated skin on upper body. Replace every 72 hours. Rotate application sites.\n\n**Patient Qualification:** Must be taking at least morphine 60mg/day, oxycodone 30mg/day, or equianalgesic dose for ≥1 week.\n\n**Injectable:** Highly variable; only in medical settings under supervision.",
+        administration: [
+          "**Transdermal Patches:**",
+          "- Only for opioid-tolerant patients - verify opioid tolerance",
+          "- Apply to clean, dry, intact skin on flat surface (chest, back, upper arm)",
+          "- Clip hair; do not shave (may increase absorption)",
+          "- Do not use on irritated, broken, or irradiated skin",
+          "- Press firmly for 30 seconds to ensure contact",
+          "- Wear each patch for 72 hours exactly",
+          "- Rotate application sites (wait ≥7 days before reusing site)",
+          "- Do not cut, damage, or alter patches in any way",
+          "- Avoid heat exposure (heating pads, electric blankets, hot tubs, fever)",
+          "- Dispose of used patches by folding sticky sides together and flushing",
+          "**Critical Safety:**",
+          "- Never start fentanyl patches in opioid non-tolerant patients",
+          "- Keep patches away from children and pets",
+          "- Used patches still contain active drug - dispose immediately"
+        ],
+        specialPopulations: "**Elderly:** Start with lowest dose (12mcg/hr); monitor closely. **Renal/Hepatic Impairment:** Reduce dose; extended monitoring required. **Pediatric (opioid-tolerant only):** Age ≥2 years; dose based on prior opioid requirement. **Pregnancy/Breastfeeding:** Use only if absolutely necessary; risk of neonatal withdrawal and respiratory depression."
+      },
       drugInteractions: [
-        "CNS depressants - fatal respiratory depression",
-        "CYP3A4 inhibitors (ritonavir, ketoconazole) - dangerous increase in fentanyl levels",
-        "CYP3A4 inducers - reduced effectiveness",
-        "Serotonergic drugs - serotonin syndrome",
-        "Muscle relaxants - increased respiratory depression"
+        {
+          drug: "CNS Depressants (benzodiazepines, alcohol, other opioids, sedatives)",
+          severity: "critical",
+          effect: "Profound sedation, respiratory depression, coma, and death. Concomitant use can be fatal.",
+          management: "Avoid concomitant use. If unavoidable, use lowest doses and monitor closely. Educate patients about risks."
+        },
+        {
+          drug: "CYP3A4 Inhibitors (ritonavir, ketoconazole, itraconazole, clarithromycin, nelfinavir)",
+          severity: "major",
+          effect: "Dramatically increased fentanyl plasma concentrations, leading to potentially fatal respiratory depression.",
+          management: "Avoid concomitant use. If required, monitor closely and reduce fentanyl dose."
+        },
+        {
+          drug: "CYP3A4 Inducers (rifampin, carbamazepine, phenytoin)",
+          severity: "major",
+          effect: "Decreased fentanyl plasma concentrations, reduced efficacy, potential withdrawal symptoms.",
+          management: "Monitor for reduced analgesic effect. May need dose adjustment."
+        },
+        {
+          drug: "Serotonergic Drugs (SSRIs, SNRIs, MAOIs, triptans, TCAs)",
+          severity: "major",
+          effect: "Increased risk of serotonin syndrome, a potentially life-threatening condition.",
+          management: "Monitor for symptoms (agitation, hallucinations, rapid heartbeat, fever, tremor). Discontinue if serotonin syndrome suspected."
+        },
+        {
+          drug: "Muscle Relaxants",
+          severity: "major",
+          effect: "Enhanced respiratory depression and sedation.",
+          management: "Use with extreme caution; monitor respiratory function closely."
+        },
+        {
+          drug: "Anticholinergic Drugs",
+          severity: "moderate",
+          effect: "Increased risk of severe constipation and urinary retention.",
+          management: "Monitor for constipation; consider prophylactic laxatives."
+        },
+        {
+          drug: "Diuretics",
+          severity: "moderate",
+          effect: "Opioids may reduce efficacy of diuretics.",
+          management: "Monitor fluid status and diuretic effectiveness."
+        }
+      ],
+      faqs: [
+        {
+          question: "How strong is fentanyl compared to other opioids?",
+          answer: "Fentanyl is approximately 50-100 times more potent than morphine and about 50 times more potent than heroin. Even small amounts can be lethal in opioid-naive individuals. This extreme potency is why fentanyl is only prescribed to patients who are already tolerant to opioids."
+        },
+        {
+          question: "Who should NEVER use fentanyl patches?",
+          answer: "Fentanyl patches are CONTRAINDICATED in: (1) Opioid non-tolerant patients (those not regularly taking strong opioids), (2) Management of acute or intermittent pain, (3) Post-operative pain (except in-hospital short-term), (4) Mild pain, and (5) Anyone with severe respiratory conditions. Using patches in these situations can be fatal."
+        },
+        {
+          question: "What does 'opioid-tolerant' mean?",
+          answer: "Opioid-tolerant means you've been taking at least 60mg of oral morphine daily, 30mg of oral oxycodone daily, 8mg of oral hydromorphone daily, or an equianalgesic dose of another opioid for one week or longer. Only opioid-tolerant patients can safely use fentanyl patches."
+        },
+        {
+          question: "Why is heat exposure dangerous with fentanyl patches?",
+          answer: "Heat increases the rate of fentanyl absorption through the skin. Fever, heating pads, electric blankets, heat lamps, saunas, hot tubs, and heated waterbeds can cause potentially fatal fentanyl overdose by rapidly increasing blood levels. Avoid all external heat sources while wearing patches."
+        },
+        {
+          question: "How should I dispose of used fentanyl patches?",
+          answer: "Used patches still contain significant amounts of active fentanyl. Fold the patch in half with sticky sides together immediately after removal and flush down the toilet. This prevents accidental exposure to children, pets, or others. Never dispose in trash. Keep used patches away from children and pets until disposed."
+        },
+        {
+          question: "Can I cut a fentanyl patch to use a smaller dose?",
+          answer: "NO. Never cut, divide, chew, or damage fentanyl patches. Cutting patches can cause rapid release of fentanyl, leading to fatal overdose. If you need a different dose, your doctor must prescribe a different strength patch."
+        },
+        {
+          question: "What are signs of fentanyl overdose?",
+          answer: "Signs include: extreme drowsiness, difficulty waking up, slow or shallow breathing (less than 8 breaths per minute), blue/purple lips or fingernails, cold and clammy skin, pinpoint pupils, loss of consciousness. Fentanyl overdose is a MEDICAL EMERGENCY requiring immediate 911 call and naloxone (Narcan) administration if available."
+        },
+        {
+          question: "How do I safely stop using fentanyl?",
+          answer: "NEVER stop fentanyl abruptly. Sudden discontinuation causes severe withdrawal symptoms and can be dangerous. Your doctor will create a gradual tapering schedule, slowly reducing the dose over time. Follow the tapering plan exactly. Withdrawal symptoms may include anxiety, sweating, muscle aches, insomnia, nausea, and diarrhea."
+        },
+        {
+          question: "Can I drink alcohol while using fentanyl?",
+          answer: "NO. Combining fentanyl with alcohol, benzodiazepines, or other central nervous system depressants can cause severe respiratory depression, coma, and death. This combination is extremely dangerous and potentially fatal. Avoid all alcohol and sedating medications unless specifically approved by your doctor."
+        },
+        {
+          question: "How should I store fentanyl patches?",
+          answer: "Store patches in original packaging at room temperature. Keep in a secure, locked location out of reach of children and pets. Unused patches contain enough fentanyl to be fatal to a child. Account for all patches. If a child or pet accidentally applies or ingests a patch, call 911 immediately - this is a life-threatening emergency."
+        }
       ]
     }
   },
@@ -5029,33 +5175,169 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 25.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Depression: Start 20mg once daily in morning. May increase after several weeks. Maximum 80mg per day. OCD: May require 60-80mg.",
-        administration: [
-          "Take once daily in the morning",
-          "Can be taken with or without food",
-          "Swallow capsules/tablets whole",
-          "May take 4-6 weeks for full effect",
-          "Taper gradually when discontinuing"
-        ],
-        specialPopulations: "Children 8+ for OCD. Lower doses for elderly or hepatic impairment. Weigh risks/benefits in pregnancy."
+      uses: {
+        overview: "Fluoxetine (Prozac) is a selective serotonin reuptake inhibitor (SSRI) antidepressant that increases serotonin levels in the brain. It's one of the most widely prescribed antidepressants and has a long half-life, which provides steady medication levels and easier discontinuation compared to other SSRIs.",
+        conditions: [
+          "**Major Depressive Disorder (MDD)** - First-line treatment for depression in adults and children ≥8 years",
+          "**Obsessive-Compulsive Disorder (OCD)** - FDA-approved for adults and children ≥7 years",
+          "**Bulimia Nervosa** - Only FDA-approved medication for bulimia",
+          "**Panic Disorder** - With or without agoraphobia",
+          "**Premenstrual Dysphoric Disorder (PMDD)** - As Sarafem for severe PMS symptoms",
+          "**Treatment-Resistant Depression** - Often combined with olanzapine (Symbyax)",
+          "**Bipolar Depression** - When combined with olanzapine"
+        ]
       },
       sideEffects: {
-        common: ["Nausea", "Insomnia", "Drowsiness", "Anxiety", "Sexual dysfunction", "Loss of appetite", "Tremor", "Sweating"],
-        serious: ["Serotonin syndrome", "Increased suicidal thoughts", "Mania/hypomania", "Seizures", "Abnormal bleeding", "Hyponatremia", "Serotonin syndrome"]
+        common: ["Nausea (very common initially)", "Insomnia or drowsiness", "Sexual dysfunction (decreased libido, delayed orgasm)", "Loss of appetite", "Anxiety or nervousness", "Tremor", "Sweating", "Dry mouth", "Diarrhea", "Headache"],
+        serious: [
+          "Serotonin syndrome (with other serotonergic drugs) - life-threatening",
+          "Increased suicidal thoughts (especially in youth <25 years)",
+          "Activation of mania or hypomania (in bipolar disorder)",
+          "Seizures",
+          "Abnormal bleeding (especially with NSAIDs or anticoagulants)",
+          "Severe hyponatremia (low sodium)",
+          "Angle-closure glaucoma",
+          "QT prolongation (dose-related)",
+          "Severe allergic reactions"
+        ],
+        notes: "Sexual dysfunction occurs in 30-40% of patients. Full therapeutic effect typically takes 4-6 weeks. Due to long half-life, fluoxetine stays in system for weeks after stopping."
       },
-      contraindications: [
-        "Concurrent MAOI use or within 14 days (5 weeks after stopping fluoxetine)",
-        "Use with pimozide or thioridazine",
-        "Known hypersensitivity"
+      warnings: {
+        blackBoxWarnings: [
+          "SUICIDALITY AND ANTIDEPRESSANT DRUGS: Increased risk of suicidal thinking and behavior in children, adolescents, and young adults (ages 18-24) taking antidepressants for major depressive disorder and other psychiatric disorders. Monitor closely for worsening depression, suicidal thoughts or behavior, especially during initial months of treatment and following dose changes. Advise families and caregivers to observe patients closely and communicate with prescriber."
+        ],
+        generalWarnings: [
+          "May increase bleeding risk, especially when combined with NSAIDs, aspirin, or anticoagulants",
+          "Can activate mania in patients with bipolar disorder - screen for bipolar before starting",
+          "Risk of serotonin syndrome when combined with other serotonergic drugs (MAOIs, triptans, tramadol, St. John's Wort)",
+          "May cause or worsen anxiety initially (first 1-2 weeks)",
+          "Discontinuation syndrome less common than other SSRIs due to long half-life, but still possible",
+          "May affect blood sugar control in diabetics",
+          "Can cause weight loss initially; some patients gain weight long-term",
+          "May impair platelet function and increase bleeding risk"
+        ],
+        specificPopulations: [
+          "**Pregnancy Category C** - Use only if benefits outweigh risks; may cause persistent pulmonary hypertension of newborn (PPHN) and neonatal adaptation problems",
+          "**Breastfeeding** - Present in breast milk in higher amounts than other SSRIs; discuss risks/benefits with doctor",
+          "**Children and Adolescents** - FDA-approved for MDD (≥8 years) and OCD (≥7 years); monitor closely for suicidal thoughts",
+          "**Elderly** - Lower starting dose recommended; increased risk of hyponatremia and falls",
+          "**Hepatic Impairment** - Lower dose or less frequent dosing recommended"
+        ]
+      },
+      beforeTaking: [
+        "Currently taking or stopped MAOIs within 14 days (5 weeks after stopping fluoxetine before starting MAOI)",
+        "Currently taking pimozide or thioridazine",
+        "Known allergy to fluoxetine",
+        "History of mania or bipolar disorder",
+        "History of seizures",
+        "Bleeding disorders or taking anticoagulants",
+        "Glaucoma (especially angle-closure type)",
+        "Liver disease",
+        "Diabetes",
+        "Currently pregnant, planning pregnancy, or breastfeeding",
+        "History of suicidal thoughts or attempts",
+        "Low sodium levels or taking diuretics"
       ],
+      dosage: {
+        standard: "**Depression:** Initial: 20mg once daily in morning. May increase after several weeks to 40-60mg/day. Maximum: 80mg/day.\n\n**OCD:** May require 40-60mg/day; maximum 80mg/day.\n\n**Bulimia:** 60mg once daily in morning.\n\n**Panic Disorder:** Start 10mg/day, increase to 20mg after 1 week.\n\n**Children (8-17 years):** Start 10mg/day; may increase to 20mg after 1-2 weeks.",
+        administration: [
+          "Take once daily in the morning (preferred) or as directed",
+          "Can be taken with or without food",
+          "If stomach upset occurs, take with food",
+          "Capsules can be opened and mixed with food if needed",
+          "Try to take at the same time each day",
+          "If you miss a dose, skip it if almost time for next dose (due to long half-life)",
+          "May take 4-6 weeks to feel full benefit - don't stop early",
+          "Do not abruptly discontinue - taper gradually even though withdrawal less common",
+          "Continue taking even after feeling better to prevent relapse"
+        ],
+        specialPopulations: "**Children:** 10-20mg/day depending on indication and weight. **Elderly:** Start 10-20mg/day; lower doses often effective. **Hepatic Impairment:** Reduce dose or frequency; fluoxetine has long half-life. **Pregnancy:** Use only if clearly needed; discuss risks. **Breastfeeding:** Higher levels in milk than other SSRIs; consider alternatives."
+      },
       drugInteractions: [
-        "MAOIs - serotonin syndrome (contraindicated)",
-        "Pimozide, thioridazine - QT prolongation (contraindicated)",
-        "Other serotonergic drugs - serotonin syndrome",
-        "NSAIDs, aspirin, anticoagulants - increased bleeding risk",
-        "CYP2D6 substrates (TCAs, antiarrhythmics) - increased levels",
-        "Tamoxifen - reduced effectiveness"
+        {
+          drug: "MAOIs (phenelzine, tranylcypromine, linezolid, methylene blue)",
+          severity: "critical",
+          effect: "CONTRAINDICATED. Can cause fatal serotonin syndrome with symptoms including high fever, seizures, irregular heartbeat, and loss of consciousness.",
+          management: "Do not use together. Wait 14 days after stopping MAOI before starting fluoxetine. Wait 5 weeks after stopping fluoxetine before starting MAOI due to long half-life."
+        },
+        {
+          drug: "Pimozide and Thioridazine",
+          severity: "critical",
+          effect: "CONTRAINDICATED. Increased risk of QT prolongation and potentially fatal heart rhythm abnormalities.",
+          management: "Do not use together. Wait 5 weeks after stopping fluoxetine before starting these medications."
+        },
+        {
+          drug: "Other Serotonergic Drugs (other SSRIs/SNRIs, triptans, tramadol, St. John's Wort, tryptophan)",
+          severity: "major",
+          effect: "Increased risk of serotonin syndrome, a potentially life-threatening condition.",
+          management: "Avoid combination if possible. If necessary, start with lower doses and monitor closely for symptoms of serotonin syndrome."
+        },
+        {
+          drug: "NSAIDs, Aspirin, Anticoagulants (warfarin)",
+          severity: "major",
+          effect: "Increased risk of bleeding, including severe gastrointestinal bleeding.",
+          management: "Monitor for signs of bleeding. Consider protective therapy for GI tract if long-term NSAID use. Monitor INR more frequently with warfarin."
+        },
+        {
+          drug: "Tamoxifen",
+          severity: "major",
+          effect: "Fluoxetine inhibits CYP2D6, reducing conversion of tamoxifen to active form, potentially reducing cancer treatment efficacy.",
+          management: "Consider alternative antidepressant with less CYP2D6 inhibition (e.g., citalopram, escitalopram, venlafaxine)."
+        },
+        {
+          drug: "CYP2D6 Substrates (TCAs, antiarrhythmics, some antipsychotics)",
+          severity: "moderate",
+          effect: "Fluoxetine inhibits CYP2D6, increasing levels of these drugs and risk of toxicity.",
+          management: "May need to reduce dose of CYP2D6 substrates. Monitor for increased side effects."
+        },
+        {
+          drug: "CNS Depressants (alcohol, benzodiazepines, opioids)",
+          severity: "moderate",
+          effect: "Enhanced sedation and impairment of mental/physical abilities.",
+          management: "Use caution. Avoid alcohol. Use other CNS depressants cautiously."
+        }
+      ],
+      faqs: [
+        {
+          question: "How long does it take for fluoxetine to work?",
+          answer: "Most people notice some improvement in mood, sleep, appetite, or energy within 1-2 weeks. However, it typically takes 4-6 weeks to experience the full antidepressant effect. Some patients may need 8-12 weeks at therapeutic dose. Don't stop early - continue taking as prescribed even if you don't feel immediate improvement."
+        },
+        {
+          question: "Why does fluoxetine cause sexual side effects?",
+          answer: "Up to 30-40% of people on fluoxetine experience sexual side effects including decreased libido, difficulty achieving orgasm, or erectile dysfunction. This occurs because increased serotonin can dampen sexual response. These effects may diminish over time. Discuss with your doctor if bothersome - dosage adjustments, timing changes, or medication holidays may help."
+        },
+        {
+          question: "Can I drink alcohol while taking fluoxetine?",
+          answer: "It's best to avoid alcohol while taking fluoxetine. Alcohol is a depressant and can worsen depression symptoms. Additionally, combining alcohol with fluoxetine can increase drowsiness, dizziness, and impairment of judgment and motor skills. If you choose to drink, do so minimally and cautiously."
+        },
+        {
+          question: "What makes fluoxetine different from other antidepressants?",
+          answer: "Fluoxetine has the longest half-life of all SSRIs (4-6 days for fluoxetine, up to 16 days for its active metabolite). This means it stays in your system longer, providing more stable medication levels and making discontinuation easier with less withdrawal symptoms. It's also the only antidepressant specifically FDA-approved for bulimia nervosa."
+        },
+        {
+          question: "Will I gain weight on fluoxetine?",
+          answer: "Fluoxetine is actually associated with slight weight loss in the first months of treatment, unlike some other antidepressants. However, some people may gain weight long-term (after 6-12 months). Weight effects vary greatly between individuals. Maintaining healthy diet and exercise habits can help manage any weight changes."
+        },
+        {
+          question: "Why do I feel more anxious when I first start fluoxetine?",
+          answer: "Some people experience increased anxiety, jitteriness, or restlessness during the first 1-2 weeks of treatment as the brain adjusts to increased serotonin levels. This typically improves as your body adapts. Starting with a lower dose (10mg) and gradually increasing can help minimize this. Contact your doctor if anxiety is severe or persists beyond 2 weeks."
+        },
+        {
+          question: "Can I stop taking fluoxetine once I feel better?",
+          answer: "No, you should not stop on your own. Most guidelines recommend continuing treatment for 6-12 months after symptoms improve to prevent relapse. For recurrent depression, longer treatment (years) may be needed. Work with your doctor to determine the right duration and how to safely taper off if discontinuation is appropriate."
+        },
+        {
+          question: "Is fluoxetine habit-forming or addictive?",
+          answer: "No, fluoxetine is not addictive and has no abuse potential. However, you may experience discontinuation syndrome if stopped abruptly, though this is much less common with fluoxetine than other SSRIs due to its long half-life. These are withdrawal symptoms, not addiction. Always taper gradually under medical supervision."
+        },
+        {
+          question: "Why does my doctor want me to wait 5 weeks after stopping fluoxetine before starting certain medications?",
+          answer: "Fluoxetine's long half-life means it takes about 5 weeks to clear from your body. This is especially important before starting MAOIs (to prevent serotonin syndrome) or certain other medications that could interact. Other SSRIs require only 2 weeks because they clear faster. Follow your doctor's timing recommendations exactly."
+        },
+        {
+          question: "Can fluoxetine be taken during pregnancy?",
+          answer: "Fluoxetine is Category C in pregnancy. Use only if benefits outweigh risks. It may slightly increase risk of certain birth defects and can cause persistent pulmonary hypertension in newborns (PPHN) and neonatal adaptation syndrome. However, untreated depression also poses risks to mother and baby. Discuss thoroughly with your doctor to make an informed decision."
+        }
       ]
     }
   },

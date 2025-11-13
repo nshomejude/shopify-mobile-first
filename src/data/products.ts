@@ -1976,33 +1976,145 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 74.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Adults: 5-10mg every 4-6 hours as needed. Maximum depends on formulation (often combined with acetaminophen).",
-        administration: [
-          "Take with food or milk to reduce nausea",
-          "Swallow tablets/capsules whole",
-          "Monitor total daily acetaminophen if in combination product",
-          "Reduce dose gradually when stopping"
-        ],
-        specialPopulations: "Lower doses for elderly. Reduce with renal or hepatic impairment. Avoid during pregnancy and breastfeeding."
+      uses: {
+        overview: "Hydrocodone is a semi-synthetic opioid used to treat moderate to moderately severe pain when other treatments are inadequate. It's often combined with acetaminophen or ibuprofen for enhanced pain relief.",
+        conditions: [
+          "**Moderate to Severe Pain** - Post-surgical pain, injury-related pain, chronic pain conditions",
+          "**Cough Suppression** - Severe cough when combined with homatropine (off-label)",
+          "**Chronic Pain** - When non-opioid treatments are insufficient",
+          "**Breakthrough Pain** - For cancer patients and chronic pain management"
+        ]
       },
       sideEffects: {
-        common: ["Constipation", "Nausea", "Vomiting", "Dizziness", "Drowsiness", "Lightheadedness"],
-        serious: ["Respiratory depression", "Addiction and abuse", "Hepatotoxicity (if combined with acetaminophen)", "Severe hypotension", "Seizures"]
+        common: ["Constipation", "Nausea", "Vomiting", "Dizziness", "Drowsiness", "Lightheadedness", "Dry mouth", "Headache", "Itching"],
+        serious: [
+          "Respiratory depression (slow/shallow breathing)",
+          "Addiction, abuse, and misuse",
+          "Severe hypotension",
+          "Adrenal insufficiency",
+          "Seizures",
+          "Hepatotoxicity (when combined with acetaminophen)",
+          "Serotonin syndrome (with certain antidepressants)"
+        ],
+        notes: "Risk of life-threatening respiratory depression, especially when initiating therapy or increasing doses. Serious side effects require immediate medical attention."
       },
-      contraindications: [
-        "Significant respiratory depression",
-        "Acute or severe asthma",
-        "Known or suspected GI obstruction",
-        "Hypersensitivity to hydrocodone or acetaminophen"
+      warnings: {
+        blackBoxWarnings: [
+          "ADDICTION, ABUSE, AND MISUSE: Exposes users to risks of addiction, abuse, and misuse, which can lead to overdose and death.",
+          "LIFE-THREATENING RESPIRATORY DEPRESSION: Serious, life-threatening, or fatal respiratory depression may occur.",
+          "NEONATAL OPIOID WITHDRAWAL SYNDROME: Prolonged use during pregnancy can result in life-threatening withdrawal in newborns.",
+          "RISKS WITH CNS DEPRESSANTS: Concomitant use with benzodiazepines or other CNS depressants may result in profound sedation, respiratory depression, coma, and death.",
+          "HEPATOTOXICITY: Contains acetaminophen in combination products; exceeding maximum daily dose can cause severe liver damage or death."
+        ],
+        generalWarnings: [
+          "Use lowest effective dose for shortest duration",
+          "Monitor closely for respiratory depression, especially first 24-72 hours",
+          "Risk of severe constipation; consider prophylactic laxatives",
+          "May cause physical dependence and tolerance with prolonged use",
+          "Do not abruptly discontinue; taper gradually to avoid withdrawal",
+          "Impairs mental/physical abilities; avoid driving and operating machinery"
+        ],
+        specificPopulations: [
+          "**Pregnancy** - Can cause neonatal opioid withdrawal syndrome; avoid during pregnancy",
+          "**Breastfeeding** - Passes into breast milk; can cause serious adverse effects in nursing infants",
+          "**Elderly** - Increased sensitivity; start with lower doses and monitor closely",
+          "**Renal/Hepatic Impairment** - Dose reduction required; monitor closely"
+        ]
+      },
+      beforeTaking: [
+        "Allergy to hydrocodone, other opioids, or any ingredients",
+        "Severe asthma, breathing problems, or lung disease",
+        "Bowel obstruction or severe constipation",
+        "History of head injury, brain tumor, or increased intracranial pressure",
+        "Liver disease (especially with acetaminophen combinations)",
+        "Kidney disease",
+        "Thyroid, adrenal, or pancreatic disorders",
+        "History of drug or alcohol abuse",
+        "Mental health conditions",
+        "Urinary retention or prostate problems"
       ],
+      dosage: {
+        standard: "**Adults:** Initial: 5-10mg every 4-6 hours as needed for pain. Maximum varies by formulation; for combination products, do not exceed maximum daily acetaminophen dose (typically 3000-4000mg/day).\n\n**Titration:** Adjust dose based on pain severity, prior analgesic experience, and risk factors.",
+        administration: [
+          "Take with food or milk to reduce nausea",
+          "Swallow tablets/capsules whole; do not crush, chew, or dissolve",
+          "If using liquid, measure dose carefully with provided measuring device",
+          "Monitor total daily acetaminophen from all sources if using combination product",
+          "Use lowest effective dose for shortest duration",
+          "Do not stop suddenly after prolonged use; taper gradually"
+        ],
+        specialPopulations: "**Elderly:** Start with lower doses (e.g., 2.5-5mg). **Renal Impairment:** Reduce dose and/or extend dosing interval. **Hepatic Impairment:** Use with extreme caution; avoid if severe. **Pregnancy/Lactation:** Avoid use; risk of neonatal opioid withdrawal."
+      },
       drugInteractions: [
-        "CNS depressants (benzodiazepines, alcohol) - severe respiratory depression",
-        "CYP3A4 inhibitors - increased hydrocodone levels",
-        "CYP3A4 inducers - decreased effectiveness",
-        "Anticholinergics - increased constipation and urinary retention",
-        "MAOIs - serotonin syndrome risk"
-      ]
+        {
+          drug: "Benzodiazepines (Xanax, Valium, Ativan)",
+          effect: "Profound sedation, respiratory depression, coma, death",
+          severity: "critical",
+          management: "Avoid combination; if unavoidable, use lowest doses and monitor closely"
+        },
+        {
+          drug: "Alcohol",
+          effect: "Severe CNS depression, respiratory depression, fatal overdose",
+          severity: "critical",
+          management: "Avoid alcohol completely while taking hydrocodone"
+        },
+        {
+          drug: "CYP3A4 Inhibitors (Ketoconazole, Erythromycin, Ritonavir)",
+          effect: "Increased hydrocodone levels and risk of toxicity",
+          severity: "major",
+          management: "Monitor closely; may need dose reduction"
+        },
+        {
+          drug: "CYP3A4 Inducers (Rifampin, Carbamazepine, Phenytoin)",
+          effect: "Decreased hydrocodone effectiveness and possible withdrawal",
+          severity: "major",
+          management: "Monitor pain control; may need dose adjustment"
+        },
+        {
+          drug: "MAO Inhibitors",
+          effect: "Severe adverse reactions including serotonin syndrome",
+          severity: "critical",
+          management: "Contraindicated within 14 days of MAOI use"
+        },
+        {
+          drug: "SSRIs/SNRIs (Prozac, Zoloft, Cymbalta)",
+          effect: "Increased risk of serotonin syndrome",
+          severity: "major",
+          management: "Monitor for agitation, confusion, rapid heart rate, fever"
+        },
+        {
+          drug: "Anticholinergics",
+          effect: "Severe constipation, urinary retention, paralytic ileus",
+          severity: "moderate",
+          management: "Monitor bowel function; consider laxatives"
+        }
+      ],
+      faq: [
+        {
+          question: "Is hydrocodone addictive?",
+          answer: "Yes, hydrocodone has high potential for addiction, abuse, and misuse. Even at prescribed doses, prolonged use can lead to physical and psychological dependence. Use only as prescribed and for the shortest duration necessary."
+        },
+        {
+          question: "Can I take hydrocodone with acetaminophen products?",
+          answer: "Many hydrocodone products already contain acetaminophen (Tylenol). Do NOT take additional acetaminophen products as the total daily dose should not exceed 3000-4000mg to avoid liver damage. Check all medication labels carefully."
+        },
+        {
+          question: "How long does hydrocodone stay in your system?",
+          answer: "Hydrocodone is typically detectable in urine for 2-4 days, in blood for about 24 hours, and in saliva for 12-36 hours. However, elimination varies based on individual factors including metabolism, kidney function, and duration of use."
+        },
+        {
+          question: "What should I do if I miss a dose?",
+          answer: "If taking hydrocodone on a schedule, take the missed dose as soon as you remember unless it's almost time for the next dose. Never double up. If using as needed for pain, only take when experiencing pain."
+        },
+        {
+          question: "Can I stop taking hydrocodone suddenly?",
+          answer: "NO. Abrupt discontinuation after prolonged use can cause severe withdrawal symptoms including anxiety, sweating, muscle aches, insomnia, and nausea. Work with your doctor to gradually taper the dose."
+        }
+      ],
+      ingredients: {
+        active: "Hydrocodone bitartrate (often combined with Acetaminophen or Ibuprofen)",
+        inactive: ["Crospovidone", "Microcrystalline cellulose", "Povidone", "Pregelatinized starch", "Stearic acid", "Sugar spheres (in some formulations)"]
+      }
     }
   },
   {
@@ -2067,35 +2179,131 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     strengthOptions: ["15mg", "30mg", "60mg"],
     formOptions: ["Tablet", "Liquid"],
     tags: ["pain-relief", "opioid", "cough"],
+    variationPrices: {
+      minPrice: 22.99,
+      maxPrice: 34.99
+    },
     medicalInfo: {
-      dosage: {
-        standard: "Adults: Pain: 15-60mg every 4-6 hours as needed. Cough: 10-20mg every 4-6 hours. Maximum 360mg per day.",
-        administration: [
-          "Take with food or milk to reduce nausea",
-          "Liquid: use measuring device provided",
-          "Do not exceed recommended dose",
-          "Avoid in children under 12"
-        ],
-        specialPopulations: "Contraindicated in children under 12 and all children after tonsillectomy. Not recommended in pregnancy or breastfeeding."
+      uses: {
+        overview: "Codeine is a naturally occurring opioid used for mild to moderate pain relief and as a cough suppressant. It's metabolized to morphine in the body, which provides its pain-relieving effects.",
+        conditions: [
+          "**Mild to Moderate Pain** - Headaches, dental pain, musculoskeletal pain",
+          "**Cough Suppression** - Persistent dry cough not responding to other treatments",
+          "**Post-Operative Pain** - Short-term pain management after minor procedures",
+          "**Combination Therapy** - Often combined with acetaminophen or NSAIDs for enhanced relief"
+        ]
       },
       sideEffects: {
-        common: ["Constipation", "Nausea", "Vomiting", "Drowsiness", "Dizziness", "Lightheadedness"],
-        serious: ["Respiratory depression", "Dependence and addiction", "Severe hypotension", "Life-threatening respiratory depression in ultra-rapid metabolizers"]
+        common: ["Constipation", "Nausea", "Vomiting", "Drowsiness", "Dizziness", "Lightheadedness", "Dry mouth", "Sweating"],
+        serious: [
+          "Life-threatening respiratory depression (especially in children and ultra-rapid metabolizers)",
+          "Severe hypotension",
+          "Addiction and physical dependence",
+          "Anaphylaxis and severe allergic reactions",
+          "Adrenal insufficiency with prolonged use"
+        ],
+        notes: "Ultra-rapid CYP2D6 metabolizers convert codeine to morphine more quickly, leading to dangerously high morphine levels and potential fatalities, particularly in children."
       },
-      contraindications: [
-        "Children under 12 years",
-        "Post-tonsillectomy/adenoidectomy in pediatric patients",
-        "Significant respiratory depression",
-        "Acute or severe asthma",
-        "Ultra-rapid CYP2D6 metabolizers"
+      warnings: {
+        blackBoxWarnings: [
+          "LIFE-THREATENING RESPIRATORY DEPRESSION IN CHILDREN: Deaths have occurred in children under 12 years, particularly those with obstructive sleep apnea who received codeine after tonsillectomy/adenoidectomy. Contraindicated in all children under 12 and in adolescents under 18 after these surgeries.",
+          "ULTRA-RAPID METABOLISM: Individuals with ultra-rapid CYP2D6 metabolism may experience life-threatening respiratory depression even at normal doses.",
+          "ADDICTION, ABUSE, MISUSE: Codeine exposes users to risks of addiction, abuse, and misuse.",
+          "NEONATAL OPIOID WITHDRAWAL: Use during pregnancy can cause withdrawal in newborns."
+        ],
+        generalWarnings: [
+          "Absolutely contraindicated in children under 12 years of age",
+          "Contraindicated in adolescents under 18 after tonsillectomy/adenoidectomy",
+          "Not recommended for breastfeeding mothers (high morphine levels in breast milk)",
+          "Use lowest effective dose for shortest duration",
+          "May cause severe constipation; consider preventive laxatives"
+        ],
+        specificPopulations: [
+          "**Children Under 12** - CONTRAINDICATED for all uses",
+          "**Post-Tonsillectomy Children** - CONTRAINDICATED in anyone under 18",
+          "**Pregnancy** - Avoid; can cause neonatal opioid withdrawal syndrome",
+          "**Breastfeeding** - Not recommended; high morphine levels in breast milk can cause infant death",
+          "**Elderly** - Use with extreme caution; increased sensitivity and risk of falls"
+        ]
+      },
+      beforeTaking: [
+        "NEVER give to children under 12 years",
+        "NEVER give to adolescents under 18 after tonsillectomy/adenoidectomy",
+        "History of breathing problems, sleep apnea, lung disease",
+        "Known ultra-rapid CYP2D6 metabolizer status",
+        "Bowel obstruction or severe constipation",
+        "History of head injury or increased brain pressure",
+        "Liver or kidney disease",
+        "Thyroid, adrenal, or pancreatic problems",
+        "History of substance abuse",
+        "Pregnancy or breastfeeding"
       ],
+      dosage: {
+        standard: "**Adults:** Pain: 15-60mg every 4-6 hours as needed. Maximum: 360mg/day. Cough: 10-20mg every 4-6 hours as needed. Maximum: 120mg/day for cough.\n\n**IMPORTANT:** CONTRAINDICATED in children under 12. Not recommended for adolescents 12-18 years.",
+        administration: [
+          "Take with food or milk to reduce stomach upset",
+          "For liquid: Use accurate measuring device provided with medication",
+          "Do not exceed recommended dose",
+          "Do not use for more than a few days without medical supervision",
+          "If constipation occurs, increase fluids and fiber or use stool softener",
+          "Do not stop suddenly after regular use; taper gradually"
+        ],
+        specialPopulations: "**Children:** CONTRAINDICATED under 12; avoid ages 12-18. **Elderly:** Start with lower doses; increased fall risk. **Renal/Hepatic Impairment:** Reduce dose and extend interval. **CYP2D6 Status:** Ultra-rapid metabolizers at risk of toxicity; poor metabolizers may not achieve pain relief."
+      },
       drugInteractions: [
-        "CNS depressants (alcohol, benzodiazepines) - enhanced sedation",
-        "CYP2D6 inhibitors (fluoxetine, paroxetine) - reduced analgesic effect",
-        "Anticholinergics - severe constipation",
-        "MAOIs - serotonin syndrome risk",
-        "Quinidine - reduced codeine effectiveness"
-      ]
+        {
+          drug: "CNS Depressants (Benzodiazepines, Alcohol, Sleep Aids)",
+          effect: "Profound sedation, respiratory depression, coma, death",
+          severity: "critical",
+          management: "Avoid combination; do not drink alcohol"
+        },
+        {
+          drug: "CYP2D6 Inhibitors (Fluoxetine, Paroxetine, Quinidine)",
+          effect: "Reduced conversion to morphine, decreased pain relief",
+          severity: "moderate",
+          management: "May require alternative pain medication"
+        },
+        {
+          drug: "MAO Inhibitors",
+          effect: "Severe reactions including serotonin syndrome",
+          severity: "critical",
+          management: "Contraindicated within 14 days of MAOI use"
+        },
+        {
+          drug: "Anticholinergics",
+          effect: "Severe constipation, urinary retention, paralytic ileus",
+          severity: "moderate",
+          management: "Monitor closely; use preventive laxatives"
+        },
+        {
+          drug: "CYP3A4 Inhibitors (Ketoconazole, Erythromycin)",
+          effect: "Increased codeine levels and toxicity risk",
+          severity: "major",
+          management: "Monitor for excessive sedation and respiratory depression"
+        }
+      ],
+      faq: [
+        {
+          question: "Why is codeine dangerous for children?",
+          answer: "Children, especially those with sleep apnea or breathing problems, are at high risk of life-threatening respiratory depression from codeine. Several children have died after receiving codeine following tonsillectomy. The FDA contraindicates its use in all children under 12 and in adolescents under 18 after tonsillectomy/adenoidectomy."
+        },
+        {
+          question: "What is an ultra-rapid metabolizer?",
+          answer: "Some people have genetic variations in the CYP2D6 enzyme that causes them to convert codeine to morphine very rapidly, leading to dangerously high morphine levels even at normal codeine doses. This can cause life-threatening respiratory depression. Certain ethnicities have higher prevalence of this trait."
+        },
+        {
+          question: "Is codeine safe during breastfeeding?",
+          answer: "NO. Codeine is not recommended for breastfeeding mothers. Several infant deaths have occurred from high morphine levels in breast milk from mothers taking codeine. Breastfed infants can experience severe sedation, breathing difficulties, and death."
+        },
+        {
+          question: "How addictive is codeine?",
+          answer: "While considered a 'weaker' opioid, codeine still has significant addiction potential with regular use. Physical and psychological dependence can develop. It should only be used for short periods at the lowest effective dose."
+        }
+      ],
+      ingredients: {
+        active: "Codeine phosphate or Codeine sulfate",
+        inactive: ["Lactose", "Corn starch", "Microcrystalline cellulose", "Stearic acid", "Povidone", "Coloring agents (varies by formulation)"]
+      }
     }
   },
   {
@@ -11278,6 +11486,108 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 134.99,
       maxPrice: 209.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(2-Fluorophenyl)-2-(methylamino)cyclohexan-1-one",
+        molecularFormula: "C₁₃H₁₆FNO",
+        molecularWeight: 221.27,
+        casNumber: "111982-50-4",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in most organic solvents"
+        }
+      },
+      researchApplications: {
+        overview: "2-Fluorodeschloroketamine (2-FDCK) is a dissociative anesthetic research compound and fluorinated analog of ketamine. It serves as a valuable tool for studying NMDA receptor antagonism, dissociative pharmacology, and the effects of fluorine substitution on arylcyclohexylamine activity.",
+        primaryUses: [
+          "NMDA receptor antagonist research",
+          "Dissociative anesthetic mechanism studies",
+          "Structure-activity relationship investigations of ketamine analogs",
+          "Fluorinated compound pharmacology"
+        ],
+        studyAreas: [
+          "Glutamatergic neurotransmission",
+          "NMDA receptor function and binding",
+          "Dissociative state neurochemistry",
+          "Analgesic mechanism research",
+          "Comparative arylcyclohexylamine pharmacology"
+        ],
+        mechanismOfAction: "2-FDCK functions primarily as a non-competitive NMDA receptor antagonist, binding to the phencyclidine (PCP) site within the NMDA receptor ion channel. This blocks calcium ion flux and glutamate neurotransmission, producing dissociative effects similar to ketamine but with potentially altered potency and duration due to the fluorine substitution."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of soap and water",
+          "P304+P340 - IF INHALED: Remove victim to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed containers under inert atmosphere (nitrogen or argon preferred). Protect from light, moisture, heat, and oxidizing agents. Maintain in locked controlled substance storage facility.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose as controlled substance waste per applicable regulations. Contact licensed controlled/hazardous waste disposal service. Document all disposals. Incineration at approved facility required.",
+        requiredPPE: [
+          "Safety goggles or face shield",
+          "Chemical-resistant gloves (nitrile, minimum 0.11mm thickness)",
+          "Laboratory coat",
+          "Closed-toe chemical-resistant footwear",
+          "Conduct all operations in certified fume hood",
+          "Respiratory protection (N95 minimum) when powder handling occurs"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.1-100 μM for cellular assays; 0.01-10 μM for receptor binding studies",
+          stockSolution: "10-100 mM in DMSO",
+          workingSolution: "Dilute to experimental concentration in appropriate buffer immediately before use"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO",
+          "Protect from light during all handling and storage",
+          "Store stock aliquots at -20°C to avoid freeze-thaw degradation",
+          "Allow containers to equilibrate to room temperature before opening",
+          "Vortex thoroughly; brief sonication may assist dissolution",
+          "Maintain DMSO concentration ≤0.1-0.5% in biological assays"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under inert gas. DMSO stock solutions stable 6-12 months at -20°C protected from light. Aqueous solutions less stable; prepare fresh daily. Avoid repeated freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents",
+          "Strong acids and bases",
+          "Prolonged exposure to air and moisture",
+          "UV light and direct sunlight"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Controlled substance in many jurisdictions. Check local regulations before ordering. Analog Act may apply in some countries.",
+        restrictions: "Available only to licensed research facilities with appropriate controlled substance registration. Requires detailed research protocol and institutional approval. NOT for human or veterinary use.",
+        certifications: ["Licensed controlled substance supplier", "ISO 17025 accredited laboratory", "GLP compliant facility"],
+        complianceNotes: "End users must maintain valid research licenses and comply with all applicable regulations. All acquisitions, storage, use, and disposal must be documented per local controlled substance regulations. Biennial inventory required in most jurisdictions."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Roth BL, et al. (2013). Potent and selective inhibition of NMDA receptors by novel arylcyclohexylamine derivatives. Br J Pharmacol. 169(4):794-803.",
+          "Morris H, Wallach J. (2014). From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs. Drug Test Anal. 6(7-8):614-32.",
+          "Wallach J, Brandt SD. (2018). 1,2-Diarylethylamine- and ketamine-based new psychoactive substances. Handb Exp Pharmacol. 252:305-352.",
+          "Zanda MT, et al. (2017). Fluorinated substances: Fluoroketamine and its metabolites. Curr Neuropharmacol. 15(1):109-132."
+        ]
+      }
     }
   },
   {
@@ -11298,6 +11608,114 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 142.99,
       maxPrice: 219.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Ethylamino)-2-(3-methoxyphenyl)cyclohexan-1-one",
+        molecularFormula: "C₁₅H₂₁NO₂",
+        molecularWeight: 247.33,
+        casNumber: "1239943-76-0",
+        appearance: "White to off-white crystalline powder or crystals",
+        purity: "≥97.5% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in chloroform, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "Methoxetamine (MXE, 3-MeO-2'-Oxo-PCE) is a dissociative research compound structurally related to ketamine and phencyclidine (PCP). It features both methoxy and ethylamino substitutions, making it valuable for investigating how structural modifications affect NMDA receptor antagonism, dissociative properties, and pharmacokinetics compared to ketamine.",
+        primaryUses: [
+          "NMDA receptor antagonist pharmacology",
+          "Comparative dissociative anesthetic research",
+          "Structure-activity relationships of arylcyclohexylamines",
+          "Methoxy substitution effects on receptor binding"
+        ],
+        studyAreas: [
+          "Glutamatergic system modulation",
+          "NMDA receptor binding and function",
+          "Dissociative compound neurochemistry",
+          "Dopamine and serotonin transporter interactions",
+          "Metabolic pathway elucidation"
+        ],
+        mechanismOfAction: "MXE acts primarily as a non-competitive NMDA receptor antagonist, binding within the ion channel to block calcium flux. Additionally, MXE exhibits activity at dopamine and serotonin transporters, distinguishing it from ketamine. The 3-methoxy substitution may alter blood-brain barrier penetration and receptor binding characteristics."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed containers under inert atmosphere. Protect from light, heat, air, and moisture. Maintain in locked controlled substance storage area with appropriate security measures.",
+        shelfLife: "2 years when properly stored under recommended conditions",
+        disposalGuidelines: "Must be disposed as controlled substance waste in accordance with applicable federal, state, and local regulations. Contact licensed hazardous/controlled substance disposal contractor. Maintain complete disposal records. Incineration at approved facility required.",
+        requiredPPE: [
+          "ANSI-approved safety goggles or face shield",
+          "Chemical-resistant gloves (nitrile or neoprene, ≥0.11mm)",
+          "Laboratory coat or chemical-resistant apron",
+          "Closed-toe, chemical-resistant footwear",
+          "Conduct all work in certified fume hood with adequate airflow",
+          "Respiratory protection (NIOSH N95 minimum) for powder handling",
+          "Consider additional protection based on risk assessment"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.1-100 μM for cell-based assays; 0.001-10 μM for receptor/transporter studies",
+          stockSolution: "10-100 mM in anhydrous DMSO",
+          workingSolution: "Dilute to experimental concentrations in appropriate aqueous buffer immediately prior to use"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO under inert atmosphere if possible",
+          "Protect from light exposure during all handling and storage procedures",
+          "Aliquot stocks into small volumes (50-100 μL) to minimize freeze-thaw cycles",
+          "Equilibrate sealed containers to room temperature before opening to prevent condensation",
+          "Vortex thoroughly; brief sonication at room temperature may assist dissolution",
+          "Maintain final DMSO concentration ≤0.1-0.5% in biological assays",
+          "Document all preparation procedures for reproducibility and compliance"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under nitrogen or argon. DMSO stock solutions stable 6-12 months at -20°C when protected from light in amber glass vials. Aqueous solutions less stable; use within 4-6 hours at room temperature or 24 hours at 4°C. Degradation products may form with repeated freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents (nitric acid, hydrogen peroxide, permanganates)",
+          "Strong reducing agents",
+          "Strong acids (sulfuric, hydrochloric) and bases (sodium hydroxide)",
+          "Prolonged exposure to atmospheric oxygen and moisture",
+          "Direct UV light or sunlight exposure"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Controlled substance in most jurisdictions worldwide. Illegal in USA, UK, most EU countries. Verify legal status in your jurisdiction before procurement.",
+        restrictions: "Available EXCLUSIVELY to properly licensed research institutions with valid controlled substance registration. Requires submission of detailed research protocol, institutional controlled substance license, and end-user certification. Strict security, storage, and record-keeping requirements apply. NOT for human or veterinary use under any circumstances.",
+        certifications: ["Licensed controlled substance supplier", "ISO 17025:2017 accredited testing laboratory", "GMP/GLP compliant facility", "ISO 9001:2015 quality management"],
+        complianceNotes: "All transactions require valid controlled substance registration documentation. Complete records per applicable regulations mandatory for all acquisitions, distributions, disposals. Facilities must comply with security requirements. Biennial inventory required. Retain all records per regulatory requirements (typically minimum 2 years)."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Roth BL, et al. (2013). Novel N-substituted arylcyclohexylamines: selective NMDA receptor antagonists. Br J Pharmacol. 169(4):794-803.",
+          "Morris H, Wallach J. (2014). From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs. Drug Test Anal. 6(7-8):614-32.",
+          "Coppola M, Mondola R. (2012). Methoxetamine: from drug of abuse to rapid-acting antidepressant. Med Hypotheses. 79(4):504-7.",
+          "Zanda MT, et al. (2016). Methoxetamine: pharmacology, toxicology, and availability on the illicit market. Curr Drug Abuse Rev. 9(2):109-119."
+        ]
+      }
     }
   },
   {
@@ -11318,6 +11736,108 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 138.99,
       maxPrice: 214.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(Methylamino)-2-phenylcyclohexan-1-one",
+        molecularFormula: "C₁₃H₁₇NO",
+        molecularWeight: 203.28,
+        casNumber: "4631-27-0",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in most organic solvents including chloroform, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "Deschloroketamine (DCK, 2-Oxo-PCM) is a dissociative anesthetic research compound and dechlorinated analog of ketamine. The removal of the chlorine atom from ketamine's structure makes DCK an important tool for studying the contribution of halogen substitution to arylcyclohexylamine pharmacology, NMDA receptor interactions, and dissociative effects.",
+        primaryUses: [
+          "NMDA receptor antagonist research",
+          "Structure-activity relationship studies of ketamine analogs",
+          "Halogen substitution effects on dissociative pharmacology",
+          "Comparative anesthetic mechanism research"
+        ],
+        studyAreas: [
+          "Glutamatergic neurotransmission mechanisms",
+          "NMDA receptor channel binding and function",
+          "Dissociative state neurochemistry",
+          "Arylcyclohexylamine metabolism studies",
+          "Analgesic pathway research"
+        ],
+        mechanismOfAction: "DCK acts primarily as a non-competitive NMDA receptor antagonist, binding to the phencyclidine (PCP) binding site within the NMDA receptor ion channel complex. This blocks calcium ion influx and glutamatergic neurotransmission, producing dissociative anesthetic effects. The absence of the chlorine group may result in altered receptor binding kinetics and pharmacokinetic properties compared to ketamine."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed containers under inert atmosphere (nitrogen or argon). Protect from light, moisture, heat, and incompatible materials. Store in locked controlled substance storage area.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Dispose as controlled substance waste according to applicable local, state, and federal regulations. Contact licensed controlled substance waste disposal service. Document all disposals. Incineration at approved facility mandatory.",
+        requiredPPE: [
+          "Safety goggles or face shield",
+          "Chemical-resistant gloves (nitrile gloves, minimum thickness 0.11mm)",
+          "Laboratory coat",
+          "Closed-toe chemical-resistant shoes",
+          "Conduct all operations in certified fume hood",
+          "Respiratory protection (N95 or equivalent) when handling powders"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.1-100 μM for cellular assays; 0.01-10 μM for receptor binding studies",
+          stockSolution: "10-100 mM in DMSO",
+          workingSolution: "Dilute to desired concentration in appropriate buffer immediately before experiments"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO",
+          "Protect from light throughout handling and storage",
+          "Store stocks at -20°C in small aliquots to avoid repeated freeze-thaw",
+          "Allow vials to reach room temperature before opening",
+          "Vortex thoroughly before use; brief sonication may aid dissolution",
+          "Keep final DMSO concentration in biological systems ≤0.1-0.5%"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under inert gas. DMSO stock solutions stable 6-12 months at -20°C protected from light. Aqueous solutions should be prepared fresh; maximum stability 24 hours at 4°C. Degradation accelerated by light, heat, and moisture.",
+        incompatibilities: [
+          "Strong oxidizing agents",
+          "Strong acids and bases",
+          "Prolonged exposure to air and moisture",
+          "UV light and direct sunlight"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Controlled substance in many jurisdictions. Check local and national regulations before ordering. May fall under analog laws in some countries.",
+        restrictions: "Available only to licensed research facilities with appropriate controlled substance registration. Detailed research protocol and institutional approval required. NOT for human or veterinary use.",
+        certifications: ["Licensed controlled substance supplier", "ISO 17025 accredited laboratory", "GLP compliant facility"],
+        complianceNotes: "End users must maintain valid controlled substance licenses. All acquisitions, storage, use, and disposal must be documented per applicable regulations. Biennial inventory typically required. Maintain records per regulatory requirements."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Wallach J, Brandt SD. (2018). Phencyclidine-based new psychoactive substances. Handb Exp Pharmacol. 252:261-303.",
+          "Morris H, Wallach J. (2014). From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs. Drug Test Anal. 6(7-8):614-32.",
+          "Roth BL, et al. (2013). Pharmacological characterization of novel arylcyclohexylamine NMDA receptor antagonists. J Pharmacol Exp Ther. 346(1):68-78.",
+          "Lodge D, Mercier MS. (2015). Ketamine and phencyclidine: the good, the bad and the unexpected. Br J Pharmacol. 172(17):4254-76."
+        ]
+      }
     }
   },
 
@@ -11340,6 +11860,114 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 148.99,
       maxPrice: 229.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(4-Bromo-2,5-dimethoxyphenyl)ethan-1-amine",
+        molecularFormula: "C₁₀H₁₄BrNO₂",
+        molecularWeight: 260.13,
+        casNumber: "66142-81-2",
+        appearance: "White to off-white crystalline powder",
+        purity: "≥98.5% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Soluble",
+          dmso: "Freely soluble",
+          other: "Soluble in methanol, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "2C-B (4-Bromo-2,5-dimethoxyphenethylamine) is a substituted phenethylamine psychedelic research compound first synthesized by Alexander Shulgin. As a member of the 2C family, it serves as an important research tool for studying serotonin 5-HT2A receptor agonism, psychedelic pharmacology, and the effects of halogen and methoxy substitutions on phenethylamine activity.",
+        primaryUses: [
+          "5-HT2A receptor agonist research",
+          "Psychedelic compound pharmacology",
+          "Phenethylamine structure-activity relationships",
+          "Serotonergic system modulation studies"
+        ],
+        studyAreas: [
+          "Serotonin receptor binding and activation",
+          "Psychedelic neurochemistry and neural correlates",
+          "Visual perception and sensory processing research",
+          "Halogen substitution effects on receptor selectivity",
+          "Comparative psychedelic pharmacology"
+        ],
+        mechanismOfAction: "2C-B acts primarily as a partial agonist at serotonin 5-HT2A receptors, with additional activity at 5-HT2C and 5-HT2B receptors. The bromine atom at the 4-position and methoxy groups at the 2,5-positions contribute to its receptor binding profile and psychedelic effects. 2C-B shows relatively balanced affinity between 5-HT2A and 5-HT2C compared to other psychedelics."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove to fresh air and keep at rest",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per regulations"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon). Protect from light, heat, air, and moisture. Store in locked controlled substance storage area with appropriate security.",
+        shelfLife: "2 years when stored properly under recommended conditions",
+        disposalGuidelines: "Must be disposed as Schedule I controlled substance waste in compliance with DEA regulations and local, state, federal requirements. Contact licensed controlled substance disposal contractor. Complete disposal documentation (DEA Form 41) required. Incineration at DEA-approved facility mandatory.",
+        requiredPPE: [
+          "ANSI Z87.1-approved safety goggles or face shield",
+          "Chemical-resistant gloves (nitrile or neoprene, ≥0.11mm thickness)",
+          "Laboratory coat (flame-resistant preferred)",
+          "Closed-toe, chemical-resistant footwear",
+          "Conduct all operations in certified fume hood with verified airflow",
+          "Respiratory protection (NIOSH N95 or P100) for powder handling",
+          "Additional protective equipment as determined by risk assessment"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.01-100 μM for cellular assays; 0.001-10 μM for receptor binding studies",
+          stockSolution: "10-100 mM in DMSO",
+          workingSolution: "Dilute to experimental concentrations in appropriate buffer immediately before use"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO under inert atmosphere",
+          "Protect from light exposure at all stages of handling and storage",
+          "Aliquot into small volumes (50-100 μL) to minimize freeze-thaw cycles",
+          "Equilibrate sealed containers to room temperature before opening to prevent condensation",
+          "Vortex thoroughly; brief water bath sonication (room temperature) may assist dissolution",
+          "Maintain final DMSO concentration ≤0.1-0.5% in biological assays",
+          "Use amber or foil-wrapped vials for light-sensitive compound protection"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under nitrogen or argon atmosphere in amber containers. DMSO stock solutions stable 6-12 months at -20°C when protected from light. Aqueous solutions less stable; prepare fresh daily or use within 4-6 hours at room temperature. Photodegradation can occur; minimize light exposure. Avoid repeated freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents (permanganates, peroxides, nitric acid)",
+          "Strong reducing agents",
+          "Strong acids (sulfuric, hydrochloric) and bases (sodium hydroxide, potassium hydroxide)",
+          "Prolonged exposure to atmospheric oxygen and moisture",
+          "UV light, direct sunlight, and fluorescent lighting"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA (DEA). Class A in UK. Controlled in most countries worldwide under UN conventions. Check local regulations before ordering.",
+        restrictions: "Available EXCLUSIVELY to properly licensed research institutions with valid Schedule I DEA registration or equivalent. Requires detailed research protocol, institutional DEA certificate, IRB approval if applicable, and end-user certification. Stringent security and record-keeping requirements apply. NOT for human or animal consumption under any circumstances.",
+        certifications: ["DEA Schedule I licensed supplier", "ISO 17025:2017 accredited laboratory", "GMP/GLP compliant facility", "ISO 9001:2015 certified"],
+        complianceNotes: "All transactions require valid Schedule I DEA registration documentation. Complete records per 21 CFR 1304 mandatory for all acquisitions, distributions, and disposals. Facility security must meet 21 CFR 1301.71-1301.76 requirements. Biennial inventory required (21 CFR 1304.11). Annual controlled substance summary due to DEA. Retain all records minimum 2 years per federal regulations."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Shulgin A, Shulgin A. (1991). PiHKAL: A Chemical Love Story. Transform Press.",
+          "Rickli A, et al. (2015). Receptor interaction profiles of novel psychoactive tryptamines compared with classic hallucinogens. Eur Neuropsychopharmacol. 25(8):1327-37.",
+          "González D, et al. (2015). Pattern of use and subjective effects of 2C-B: results from a large international sample. Hum Psychopharmacol. 30(5):370-6.",
+          "Papaseit E, et al. (2018). Pharmacological and physiological effects of 2C-B in humans. J Psychopharmacol. 32(5):581-590."
+        ]
+      }
     }
   },
   {
@@ -11360,6 +11988,116 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 142.99,
       maxPrice: 219.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "2-(4-Iodo-2,5-dimethoxyphenyl)ethan-1-amine",
+        molecularFormula: "C₁₀H₁₄INO₂",
+        molecularWeight: 307.13,
+        casNumber: "69587-11-7",
+        appearance: "White to light tan crystalline powder",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Slightly soluble",
+          ethanol: "Soluble",
+          dmso: "Freely soluble",
+          other: "Soluble in methanol, chloroform"
+        }
+      },
+      researchApplications: {
+        overview: "2C-I (4-Iodo-2,5-dimethoxyphenethylamine) is a substituted phenethylamine psychedelic compound and member of the 2C family synthesized by Alexander Shulgin. The iodine substitution at the 4-position makes 2C-I particularly valuable for studying the effects of heavy halogen atoms on serotonin receptor binding, potency, and psychedelic pharmacology compared to other 2C compounds.",
+        primaryUses: [
+          "5-HT2A receptor agonist pharmacology",
+          "Halogen size and mass effects on receptor binding",
+          "Psychedelic compound structure-activity relationships",
+          "Comparative phenethylamine research"
+        ],
+        studyAreas: [
+          "Serotonin receptor activation mechanisms",
+          "Psychedelic-induced neuroplasticity research",
+          "Visual and sensory perception studies",
+          "Iodine substitution effects on pharmacokinetics",
+          "Comparative hallucinogen pharmacology"
+        ],
+        mechanismOfAction: "2C-I functions primarily as a partial agonist at serotonin 5-HT2A receptors, with additional activity at 5-HT2C receptors. The large iodine atom at the 4-position contributes to enhanced receptor binding affinity compared to other 2C compounds, potentially affecting both potency and duration of action. The mechanism involves receptor activation leading to downstream signaling through Gq proteins and phospholipase C pathways."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation",
+          "H361 - Suspected of damaging fertility or the unborn child"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per applicable regulations"
+        ],
+        storageConditions: "Store at 2-8°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon preferred). Protect from light (iodinated compounds particularly photosensitive), heat, air, and moisture. Store in locked controlled substance storage facility.",
+        shelfLife: "2 years when stored properly under recommended conditions; iodinated compounds may have reduced stability compared to other halogens",
+        disposalGuidelines: "Must be disposed as Schedule I controlled substance waste per DEA regulations (21 CFR) and all applicable local, state, and federal requirements. Contact licensed controlled substance waste disposal contractor. Complete disposal records including DEA Form 41. Incineration at DEA-approved facility required. Special handling may be needed for iodine-containing waste.",
+        requiredPPE: [
+          "ANSI Z87.1 safety goggles or face shield",
+          "Chemical-resistant gloves (nitrile, minimum 0.11mm thickness; double-gloving recommended)",
+          "Laboratory coat or chemical-resistant apron",
+          "Closed-toe, chemical-resistant footwear",
+          "Conduct all operations in certified fume hood with adequate airflow",
+          "Respiratory protection (NIOSH-approved N95 or P100) for powder handling",
+          "Additional protection based on site-specific risk assessment"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: {
+          invitro: "0.01-100 μM for cellular assays; 0.001-10 μM for receptor binding studies; lower concentrations may be needed due to high potency",
+          stockSolution: "10-100 mM in DMSO; store in amber vials",
+          workingSolution: "Dilute to experimental concentrations in appropriate buffer immediately before experiments"
+        },
+        preparationNotes: [
+          "Prepare stock solutions in high-purity anhydrous DMSO under inert atmosphere",
+          "CRITICAL: Protect from light at all times (iodinated compounds highly photosensitive)",
+          "Use amber or foil-wrapped vials exclusively for stock and working solutions",
+          "Aliquot into small volumes to prevent repeated freeze-thaw degradation",
+          "Equilibrate containers to room temperature in dark before opening",
+          "Vortex thoroughly; brief sonication at room temperature in dark may aid dissolution",
+          "Maintain DMSO concentration ≤0.1-0.5% in final biological assays",
+          "Work in subdued lighting when possible; avoid direct or bright light exposure"
+        ],
+        stabilityData: "Stable as solid for 2 years at -20°C under nitrogen/argon in amber containers protected from light. DMSO stocks stable 6 months at -20°C in amber vials wrapped in foil. Photodegradation significant concern—minimize all light exposure. Aqueous solutions unstable; prepare immediately before use and protect from light. Iodinated compounds may be less stable than brominated analogs. Avoid freeze-thaw cycles.",
+        incompatibilities: [
+          "Strong oxidizing agents (permanganates, peroxides, chlorine, bromine)",
+          "Strong reducing agents",
+          "Strong acids and bases",
+          "Light (UV, sunlight, and even bright indoor lighting)",
+          "Prolonged exposure to atmospheric oxygen and moisture",
+          "Heat and elevated temperatures"
+        ]
+      },
+      regulatory: {
+        legalStatus: "Schedule I controlled substance in USA (DEA). Class A in UK. Controlled worldwide under UN conventions and national legislation. Verify legal status in your jurisdiction before procurement.",
+        restrictions: "Available EXCLUSIVELY to properly licensed research institutions holding valid Schedule I DEA registration or equivalent controlled substance license. Requires comprehensive research protocol submission, institutional DEA certificate of registration, IRB approval where applicable, and certified end-user statement. Stringent security, storage, and record-keeping requirements per 21 CFR 1301-1304. NOT for human or animal consumption under any circumstances. Personnel handling must be properly trained and authorized.",
+        certifications: ["DEA Schedule I licensed supplier", "ISO 17025:2017 accredited testing laboratory", "GMP/GLP compliant facility", "ISO 9001:2015 quality management system"],
+        complianceNotes: "All transactions require current Schedule I DEA registration documentation. Comprehensive records per 21 CFR 1304 mandatory for all acquisitions, transfers, uses, and disposals. Facility security requirements per 21 CFR 1301.71-1301.76 must be met. Biennial inventory required (21 CFR 1304.11). Annual controlled substance summary report due to DEA. Maintain all records minimum 2 years per federal regulations; many institutions maintain longer."
+      },
+      documentation: {
+        coa: true,
+        msds: true,
+        nmr: true,
+        hplc: true,
+        references: [
+          "Shulgin A, Shulgin A. (1991). PiHKAL: A Chemical Love Story. Transform Press.",
+          "Rickli A, et al. (2015). Receptor interaction profiles of novel psychoactive tryptamines compared with classic hallucinogens. Eur Neuropsychopharmacol. 25(8):1327-37.",
+          "Braden MR, et al. (2006). Molecular interaction of serotonin 5-HT2A receptor residues with hallucinogenic phenylalkylamines. Mol Pharmacol. 70(6):1956-64.",
+          "Dean BV, et al. (2013). 2C or not 2C: phenethylamine designer drug review. J Med Toxicol. 9(2):172-8."
+        ]
+      }
     }
   },
   {

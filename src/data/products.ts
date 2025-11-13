@@ -6894,33 +6894,155 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 39.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Zopiclone: 7.5mg at bedtime (3.75mg for elderly). Eszopiclone: Start 1mg, may increase to 2-3mg at bedtime. Maximum 3mg.",
-        administration: [
-          "Take immediately before bedtime",
-          "Ensure 7-8 hours available for sleep",
-          "Can be taken with or without food",
-          "Use for short-term treatment (typically 2-4 weeks)"
-        ],
-        specialPopulations: "Reduce dose by half in elderly and hepatic impairment. Avoid in severe renal impairment. Not recommended in pregnancy."
+      uses: {
+        overview: "Eszopiclone (Lunesta) is a non-benzodiazepine hypnotic medication used for treating insomnia. It's the S-enantiomer of zopiclone and is FDA-approved for long-term use unlike many other sleep aids. It works by enhancing GABA activity in the brain to promote sleep.",
+        conditions: [
+          "**Insomnia - Sleep Onset** - Difficulty falling asleep",
+          "**Insomnia - Sleep Maintenance** - Difficulty staying asleep",
+          "**Chronic Insomnia** - FDA-approved for long-term use (unlike most sleep aids which are short-term only)",
+          "**Mixed Insomnia** - Both sleep onset and maintenance problems"
+        ]
       },
       sideEffects: {
-        common: ["Metallic/bitter taste", "Dry mouth", "Drowsiness", "Dizziness", "Headache"],
-        serious: ["Complex sleep behaviors", "Next-day impairment", "Memory impairment", "Depression", "Dependence and withdrawal", "Respiratory depression"]
+        common: ["Unpleasant metallic/bitter taste (very common, ~34% of patients)", "Dry mouth", "Drowsiness next day", "Headache", "Dizziness", "Cold or flu-like symptoms"],
+        serious: [
+          "Complex sleep behaviors (sleep-walking, sleep-driving, sleep-eating with no memory)",
+          "Next-day impairment affecting driving and tasks requiring alertness",
+          "Memory problems and amnesia",
+          "Depression and suicidal thoughts",
+          "Physical dependence with prolonged use",
+          "Withdrawal symptoms if stopped abruptly",
+          "Severe allergic reactions (angioedema, anaphylaxis)"
+        ],
+        notes: "The bitter/metallic taste is the most common complaint, occurring in up to 1/3 of patients. It typically lasts several hours after waking."
       },
-      contraindications: [
+      warnings: {
+        blackBoxWarnings: [
+          "COMPLEX SLEEP BEHAVIORS: Can cause complex sleep-related behaviors including sleep-walking, sleep-driving, preparing and eating food, making phone calls, or having sex while not fully awake. Patients usually do not remember these events. Discontinue immediately if complex sleep behavior occurs."
+        ],
+        generalWarnings: [
+          "May cause next-day impairment even when feeling fully awake; avoid driving until effects are known",
+          "Do not take unless you can get 7-8 full hours of sleep",
+          "Taking with or immediately after a meal reduces effectiveness",
+          "Risk of dependence with prolonged use; potential for abuse",
+          "May worsen depression; monitor for suicidal thoughts",
+          "Worsening of insomnia or unusual thoughts/behaviors may indicate underlying psychiatric disorder",
+          "Withdrawal symptoms possible if stopped abruptly after regular use",
+          "Use caution in elderly - increased risk of falls and confusion"
+        ],
+        specificPopulations: [
+          "**Pregnancy Category C** - Use only if benefits outweigh risks; limited human data",
+          "**Breastfeeding** - Present in breast milk; not recommended",
+          "**Elderly** - Start with lowest dose (1mg); increased sensitivity and fall risk",
+          "**Hepatic Impairment** - Mild-moderate: start 2mg; severe: 2mg maximum",
+          "**Debilitated Patients** - Start with lower doses; increased sensitivity"
+        ]
+      },
+      beforeTaking: [
+        "Known allergy to eszopiclone or zopiclone",
+        "Cannot get at least 7-8 hours of sleep before needing to be active",
+        "History of complex sleep behaviors",
+        "History of substance abuse or addiction",
+        "Depression or mental health disorders",
+        "Liver disease",
+        "Lung disease or breathing problems",
         "Myasthenia gravis",
-        "Severe respiratory insufficiency",
-        "Severe sleep apnea syndrome",
-        "Severe hepatic insufficiency",
-        "Known hypersensitivity"
+        "Currently pregnant, planning pregnancy, or breastfeeding",
+        "History of alcohol abuse"
       ],
+      dosage: {
+        standard: "**Adults:** Initial: 1mg at bedtime. May increase to 2mg or 3mg if needed. Maximum: 3mg/night.\n\n**Elderly:** Start 1mg; maximum 2mg.\n\n**Sleep Onset Difficulty:** 1-2mg typically sufficient.\n\n**Sleep Maintenance Difficulty:** 2-3mg may be needed.",
+        administration: [
+          "Take immediately before bedtime with at least 7-8 hours available for sleep",
+          "Take on empty stomach - food delays onset and reduces effectiveness",
+          "Do NOT take with or immediately after a meal",
+          "Swallow tablets whole; do not crush, chew, or break",
+          "Can be used long-term unlike most sleep medications",
+          "Do not take if you drank alcohol that evening",
+          "Do not take more than prescribed dose",
+          "If you miss a dose and it's the middle of the night, skip it - don't double dose"
+        ],
+        specialPopulations: "**Elderly:** Start 1mg; maximum 2mg at bedtime. **Hepatic Impairment:** Mild-moderate: start 2mg; severe: maximum 2mg. **Renal Impairment:** No dose adjustment needed. **Concurrent CYP3A4 Inhibitors:** Maximum 2mg."
+      },
       drugInteractions: [
-        "CNS depressants (opioids, alcohol, benzodiazepines) - enhanced sedation",
-        "CYP3A4 inhibitors (clarithromycin, ketoconazole) - increased levels",
-        "CYP3A4 inducers (rifampin, carbamazepine) - decreased efficacy",
-        "Erythromycin - increased eszopiclone levels",
-        "Antidepressants - additive CNS depression"
+        {
+          drug: "Opioids (Oxycodone, Hydrocodone, Morphine, Fentanyl)",
+          severity: "critical",
+          effect: "Profound sedation, respiratory depression, coma, and death.",
+          management: "Avoid combination if possible. If unavoidable, use lowest doses of both and monitor closely."
+        },
+        {
+          drug: "Alcohol",
+          severity: "critical",
+          effect: "Severe CNS depression, increased risk of complex sleep behaviors, respiratory depression, and next-day impairment.",
+          management: "Do NOT drink alcohol on days when taking eszopiclone. Warn patients about this combination."
+        },
+        {
+          drug: "CYP3A4 Inhibitors (Ketoconazole, Itraconazole, Clarithromycin, Nefazodone)",
+          severity: "major",
+          effect: "Significantly increased eszopiclone levels, prolonged sedation and increased side effects.",
+          management: "Maximum eszopiclone dose 2mg. Monitor for increased sedation and side effects."
+        },
+        {
+          drug: "CYP3A4 Inducers (Rifampin, Carbamazepine, Phenytoin)",
+          severity: "moderate",
+          effect: "Decreased eszopiclone levels and reduced effectiveness for sleep.",
+          management: "May need higher eszopiclone dose or alternative sleep medication."
+        },
+        {
+          drug: "Other CNS Depressants (Benzodiazepines, Barbiturates, Sedating Antihistamines)",
+          severity: "major",
+          effect: "Additive CNS depression, increased sedation and respiratory depression risk.",
+          management: "Avoid combination or use with extreme caution at reduced doses."
+        },
+        {
+          drug: "Antidepressants (SSRIs, SNRIs, TCAs)",
+          severity: "moderate",
+          effect: "Additive CNS depression and sedation.",
+          management: "Monitor for increased drowsiness and next-day impairment."
+        }
+      ],
+      faqs: [
+        {
+          question: "How is eszopiclone different from other sleep medications?",
+          answer: "Eszopiclone (Lunesta) is FDA-approved for LONG-TERM use, unlike most sleep aids which are only for short-term (2-4 weeks). It's a non-benzodiazepine 'Z-drug' with potentially less dependence risk than benzodiazepines, though dependence can still occur. The main drawback is the bitter/metallic taste experienced by many users."
+        },
+        {
+          question: "How long does the bitter taste last?",
+          answer: "The characteristic bitter or metallic taste affects about 1/3 of users and typically lasts several hours after waking. Some describe it as 'pennies in your mouth.' For many, it improves over time, but for others, it persists and is the main reason for discontinuation. Taking it with water and eating breakfast may help."
+        },
+        {
+          question: "Can I take eszopiclone every night?",
+          answer: "Yes, unlike most sleep medications, eszopiclone is FDA-approved for long-term use. Clinical trials have studied it for up to 6-12 months of nightly use. However, discuss long-term use with your doctor, as dependence can still develop. Regular reassessment is important."
+        },
+        {
+          question: "Why must I take it on an empty stomach?",
+          answer: "Food significantly delays eszopiclone absorption and reduces its effectiveness. Taking it with or after a meal can delay sleep onset by over an hour and reduce peak blood levels by 50%. For best results, take it on an empty stomach immediately before bedtime."
+        },
+        {
+          question: "What are complex sleep behaviors?",
+          answer: "These are activities performed while not fully awake: sleep-walking, sleep-driving, preparing/eating food, making phone calls, or having sex - all with no memory of the events. This is SERIOUS and requires immediate discontinuation. Never take eszopiclone with alcohol or if you took it previously that night."
+        },
+        {
+          question: "Can I cut the tablet in half for a lower dose?",
+          answer: "No, eszopiclone tablets should not be cut, crushed, or chewed. If you need a lower dose than prescribed, talk to your doctor about getting the appropriate strength tablet. The 1mg, 2mg, and 3mg tablets are available."
+        },
+        {
+          question: "Will I have withdrawal if I stop taking it?",
+          answer: "If used regularly for weeks or months, stopping abruptly may cause rebound insomnia (worse sleep than before starting), anxiety, tremor, sweating, or other withdrawal symptoms. Taper gradually under medical supervision rather than stopping suddenly, especially after prolonged use."
+        },
+        {
+          question: "Can I drive the next morning?",
+          answer: "Exercise caution. Eszopiclone can impair driving ability the next morning even if you feel fully awake. The 3mg dose carries FDA warning about next-day driving impairment. Wait at least 8 hours after taking before driving. If you feel drowsy, foggy, or uncoordinated, do NOT drive."
+        },
+        {
+          question: "Can I drink alcohol in the evening?",
+          answer: "NO. Do not drink alcohol on days when you plan to take eszopiclone. Alcohol significantly increases CNS depression, risk of complex sleep behaviors, and next-day impairment. The combination can be dangerous and even fatal due to respiratory depression."
+        },
+        {
+          question: "Is eszopiclone habit-forming?",
+          answer: "While less addictive than benzodiazepines, eszopiclone can cause physical dependence with regular use. It's a Schedule IV controlled substance. Use the lowest effective dose for the shortest duration necessary. Regular reassessment with your doctor is important for long-term use."
+        }
       ]
     }
   },
@@ -6944,32 +7066,165 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
       maxPrice: 34.99
     },
     medicalInfo: {
-      dosage: {
-        standard: "Adults: 15-30mg at bedtime. Elderly/debilitated: 7.5mg initially. Maximum 30mg.",
-        administration: [
-          "Take at bedtime",
-          "Swallow capsules whole",
-          "Short-term use only (7-10 days)",
-          "Taper gradually if used for more than a few weeks"
-        ],
-        specialPopulations: "Start 7.5mg in elderly and debilitated. Contraindicated in pregnancy. Avoid in breastfeeding."
+      uses: {
+        overview: "Temazepam (Restoril) is a benzodiazepine medication specifically indicated for short-term treatment of insomnia. It works by enhancing GABA neurotransmission in the brain, promoting sedation and sleep. Unlike some benzodiazepines used for anxiety, temazepam is primarily prescribed for sleep.",
+        conditions: [
+          "**Insomnia - Sleep Onset** - Difficulty falling asleep",
+          "**Insomnia - Sleep Maintenance** - Difficulty staying asleep through the night",
+          "**Short-Term Insomnia** - Transient sleep disturbances (7-10 days typical use)",
+          "**Situational Insomnia** - Sleep problems due to stress or life changes"
+        ]
       },
       sideEffects: {
-        common: ["Drowsiness", "Dizziness", "Lethargy", "Confusion", "Euphoria", "Weakness"],
-        serious: ["Physical dependence", "Withdrawal syndrome", "Respiratory depression", "Anterograde amnesia", "Complex sleep behaviors", "Falls (especially elderly)"]
+        common: ["Drowsiness and daytime sedation", "Dizziness and lightheadedness", "Lethargy and fatigue", "Coordination problems (ataxia)", "Headache", "Nervousness", "Euphoria"],
+        serious: [
+          "PHYSICAL DEPENDENCE and ADDICTION (can develop in 2-4 weeks)",
+          "Withdrawal seizures if stopped abruptly",
+          "Severe respiratory depression (especially with opioids or alcohol)",
+          "Anterograde amnesia (can't form new memories)",
+          "Complex sleep behaviors (sleep-walking, sleep-driving, sleep-eating)",
+          "Paradoxical reactions (agitation, aggression, hallucinations)",
+          "Falls and hip fractures (especially in elderly)",
+          "Depression and suicidal ideation"
+        ],
+        notes: "Temazepam has high abuse potential. Physical dependence develops quickly. Risk of serious injury from falls and accidents is significant, especially in elderly."
       },
-      contraindications: [
-        "Known hypersensitivity to benzodiazepines",
-        "Pregnancy",
-        "Sleep apnea (relative)",
-        "Severe respiratory insufficiency"
+      warnings: {
+        blackBoxWarnings: [
+          "CONCOMITANT USE WITH OPIOIDS: Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing for patients with inadequate alternative treatment options. Limit dosages and durations to minimum required. Follow patients for signs/symptoms of respiratory depression and sedation."
+        ],
+        generalWarnings: [
+          "INTENDED FOR SHORT-TERM USE ONLY (7-10 days)",
+          "Physical dependence develops rapidly - often within 2-4 weeks of daily use",
+          "NEVER stop abruptly - withdrawal can cause life-threatening seizures",
+          "High abuse and addiction potential - Schedule IV controlled substance",
+          "Impairs next-day cognitive and motor function - avoid driving",
+          "Increased fall risk, especially in elderly - can cause hip fractures",
+          "May worsen sleep apnea and respiratory conditions",
+          "Tolerance develops - patients may escalate dose seeking initial effect",
+          "Rebound insomnia common when stopping (worse than before starting)"
+        ],
+        specificPopulations: [
+          "**Pregnancy Category X** - CONTRAINDICATED in pregnancy; causes fetal harm including congenital malformations",
+          "**Breastfeeding** - Contraindicated; excreted in milk and causes sedation/feeding problems in infants",
+          "**Elderly** - Start 7.5mg; extreme caution due to high risk of falls, confusion, cognitive impairment",
+          "**Hepatic Impairment** - Use with extreme caution; reduced clearance increases toxicity risk",
+          "**Respiratory Disease** - Contraindicated in severe respiratory insufficiency"
+        ]
+      },
+      beforeTaking: [
+        "Pregnancy (CONTRAINDICATED - Category X)",
+        "Breastfeeding",
+        "Known allergy to benzodiazepines",
+        "Severe respiratory disease, sleep apnea, or COPD",
+        "Severe liver disease",
+        "History of substance abuse or addiction",
+        "Currently taking opioids or other CNS depressants",
+        "Myasthenia gravis",
+        "Acute narrow-angle glaucoma",
+        "Depression or suicidal thoughts",
+        "History of falls (especially elderly)",
+        "Cannot commit to short-term use only"
       ],
+      dosage: {
+        standard: "**Adults:** 15-30mg at bedtime. Usual dose: 15mg.\n\n**Elderly/Debilitated:** Start 7.5mg at bedtime. Maximum: 15mg.\n\n**Duration:** SHORT-TERM ONLY (7-10 days typical; maximum 2-4 weeks)",
+        administration: [
+          "Take immediately before bedtime with at least 7-8 hours available for sleep",
+          "Swallow capsules whole; do not open, crush, or chew",
+          "Can be taken with or without food",
+          "Use for shortest duration possible (typically 7-10 days)",
+          "Do NOT take if you've consumed alcohol",
+          "Do NOT take in middle of night if you wake up",
+          "If used beyond 2 weeks, MUST taper gradually when stopping",
+          "Never stop abruptly after regular use - risk of seizures"
+        ],
+        specialPopulations: "**Elderly/Debilitated:** 7.5mg initially; maximum 15mg. **Hepatic Impairment:** Use lowest dose with extreme caution. **Renal Impairment:** No specific adjustment but use caution. **Pregnancy:** CONTRAINDICATED. **Breastfeeding:** CONTRAINDICATED."
+      },
       drugInteractions: [
-        "CNS depressants (opioids, alcohol) - severe respiratory depression",
-        "Other benzodiazepines - additive sedation",
-        "CYP3A4 inhibitors - may increase temazepam levels",
-        "Probenecid - decreased temazepam clearance",
-        "Theophylline - may decrease sedative effects"
+        {
+          drug: "Opioids (Oxycodone, Hydrocodone, Morphine, Fentanyl)",
+          severity: "critical",
+          effect: "PROFOUND sedation, RESPIRATORY DEPRESSION, coma, and DEATH. This combination has caused thousands of overdose deaths.",
+          management: "AVOID combination if at all possible. If unavoidable, use lowest doses of both, monitor constantly for respiratory depression, and educate patient about extreme danger."
+        },
+        {
+          drug: "Alcohol",
+          severity: "critical",
+          effect: "Severe CNS and respiratory depression, increased risk of complex sleep behaviors, amnesia, and death.",
+          management: "AVOID alcohol completely while taking temazepam. This combination is extremely dangerous."
+        },
+        {
+          drug: "Other Benzodiazepines (Alprazolam, Diazepam, Lorazepam)",
+          severity: "major",
+          effect: "Additive sedation and respiratory depression; increased dependence and overdose risk.",
+          management: "Avoid using multiple benzodiazepines simultaneously. If necessary, use lowest combined dose."
+        },
+        {
+          drug: "CNS Depressants (Barbiturates, Z-drugs, Sedating Antihistamines)",
+          severity: "major",
+          effect: "Enhanced sedation, respiratory depression, and impairment.",
+          management: "Avoid combination or use with extreme caution at reduced doses of both."
+        },
+        {
+          drug: "CYP3A4 Inhibitors (Ketoconazole, Itraconazole)",
+          severity: "moderate",
+          effect: "Increased temazepam levels, prolonged sedation.",
+          management: "May need temazepam dose reduction. Monitor for increased sedation."
+        },
+        {
+          drug: "Probenecid",
+          severity: "moderate",
+          effect: "Decreased temazepam clearance, prolonged effects.",
+          management: "May need dose reduction of temazepam."
+        },
+        {
+          drug: "Theophylline",
+          severity: "moderate",
+          effect: "May reduce sedative effects of temazepam.",
+          management: "Monitor sleep effectiveness; may need dose adjustment."
+        }
+      ],
+      faqs: [
+        {
+          question: "How quickly does temazepam cause dependence?",
+          answer: "Physical dependence can develop in as little as 2-4 weeks of nightly use, sometimes even sooner. This is why temazepam is intended for SHORT-TERM use only (7-10 days). The longer you take it, the harder it becomes to stop without experiencing withdrawal symptoms."
+        },
+        {
+          question: "What happens if I stop temazepam suddenly?",
+          answer: "Abrupt discontinuation after regular use can cause LIFE-THREATENING WITHDRAWAL including seizures, severe anxiety, tremors, hallucinations, delirium, and potentially fatal complications. NEVER stop suddenly. Always taper gradually under medical supervision, typically over several weeks."
+        },
+        {
+          question: "Why is temazepam only for short-term use?",
+          answer: "Temazepam causes rapid tolerance (needing higher doses), physical dependence, cognitive impairment, and increased fall risk. Long-term benzodiazepine use is associated with increased dementia risk, persistent cognitive deficits, and difficulty stopping. It should only be used for 7-10 days, maximum 2-4 weeks."
+        },
+        {
+          question: "Can I take temazepam with pain medications?",
+          answer: "Combining temazepam with opioid pain medications (oxycodone, hydrocodone, morphine, etc.) is EXTREMELY DANGEROUS and can be FATAL due to respiratory depression. This combination has caused thousands of overdose deaths. Avoid if at all possible. If absolutely necessary, use only under close medical supervision with lowest doses."
+        },
+        {
+          question: "Why can't I take temazepam if I'm pregnant?",
+          answer: "Temazepam is Pregnancy Category X - CONTRAINDICATED in pregnancy. It crosses the placenta and causes fetal harm including congenital malformations, neonatal withdrawal syndrome, floppy infant syndrome, and respiratory depression in newborns. Do NOT take if pregnant or planning pregnancy."
+        },
+        {
+          question: "Will temazepam affect me the next day?",
+          answer: "Yes. Temazepam commonly causes next-day drowsiness, impaired coordination, slowed reaction time, and cognitive impairment even when you feel 'awake.' Do NOT drive or operate machinery until you know how it affects you. Elderly are particularly susceptible to next-day effects and falls."
+        },
+        {
+          question: "What is rebound insomnia?",
+          answer: "Rebound insomnia is worse sleep than you had before starting temazepam. It commonly occurs when stopping, even after short-term use. Your brain becomes dependent on the medication, so when you stop, sleep is temporarily worse. This often leads people to restart the medication, perpetuating dependence."
+        },
+        {
+          question: "Can I have a glass of wine in the evening?",
+          answer: "NO. Do NOT drink alcohol while taking temazepam. The combination causes severe CNS depression, dramatically increases risk of respiratory depression, complex sleep behaviors, amnesia, falls, accidents, and can be FATAL. Avoid alcohol completely."
+        },
+        {
+          question: "Is temazepam safer than other sleep medications?",
+          answer: "No. Temazepam is a benzodiazepine with HIGH potential for dependence, abuse, and serious adverse effects. It may be riskier than newer non-benzodiazepine sleep aids (Z-drugs) or other alternatives. Long-term benzodiazepine use carries significant risks including cognitive impairment, falls, and increased mortality in elderly."
+        },
+        {
+          question: "What should I do if temazepam isn't working anymore?",
+          answer: "This is tolerance - your body adapting to the medication. DO NOT increase the dose on your own. Contact your doctor immediately. Increasing dose accelerates dependence and makes stopping harder. Your doctor should help you taper off and explore non-medication treatments for insomnia (CBT-I is gold standard)."
+        }
       ]
     }
   },
@@ -15258,6 +15513,132 @@ DEMONSTRATION PURPOSES ONLY: This medication information is provided for theme d
     variationPrices: {
       minPrice: 158.99,
       maxPrice: 244.99
+    },
+    researchChemicalInfo: {
+      chemicalProperties: {
+        iupacName: "1-Propionyl-lysergic acid diethylamide",
+        molecularFormula: "C23H29N3O2",
+        molecularWeight: 379.50,
+        casNumber: "2349358-81-0",
+        appearance: "White to off-white crystalline powder or blotter paper",
+        purity: "≥98.0% (HPLC)",
+        solubility: {
+          water: "Sparingly soluble",
+          ethanol: "Freely soluble",
+          dmso: "Soluble",
+          other: "Soluble in methanol, acetone"
+        }
+      },
+      researchApplications: {
+        overview: "1-Propionyl-lysergic acid diethylamide (1P-LSD) is a semi-synthetic lysergamide research compound and structural analog of LSD-25. It is theorized to act as a prodrug for LSD, being metabolized to LSD in vivo by hydrolysis of the N1-propionyl group. It serves as a valuable tool for studying serotonergic psychedelic pharmacology, receptor binding profiles, and structure-activity relationships.",
+        primaryUses: [
+          "Serotonin receptor pharmacology research (5-HT2A agonism)",
+          "Prodrug metabolism and pharmacokinetic studies",
+          "Lysergamide structure-activity relationship investigations",
+          "Comparative psychedelic compound analysis",
+          "Analytical reference standards for forensic laboratories"
+        ],
+        studyAreas: [
+          "5-HT2A receptor binding and activation",
+          "Psychedelic neuropharmacology",
+          "Prodrug design and metabolism",
+          "Tryptamine and lysergamide SAR",
+          "Analytical method development",
+          "Receptor selectivity profiling"
+        ],
+        mechanismOfAction: "1P-LSD is hypothesized to function as a prodrug that is rapidly metabolized to LSD-25 by enzymatic hydrolysis of the N1-propionyl group in vivo. Like LSD, it likely acts as a partial agonist at serotonin 5-HT2A receptors, with additional binding affinity for 5-HT1A, 5-HT2C, dopamine D1/D2, and adrenergic receptors, producing complex psychedelic effects through modulation of cortico-striato-thalamo-cortical circuits."
+      },
+      safetyHandling: {
+        hazardStatements: [
+          "H302 - Harmful if swallowed",
+          "H315 - Causes skin irritation",
+          "H319 - Causes serious eye irritation",
+          "H335 - May cause respiratory irritation"
+        ],
+        precautionaryStatements: [
+          "P201 - Obtain special instructions before use",
+          "P261 - Avoid breathing dust/fume/gas/mist/vapors/spray",
+          "P264 - Wash hands and exposed areas thoroughly after handling",
+          "P280 - Wear protective gloves/protective clothing/eye protection/face protection",
+          "P301+P312 - IF SWALLOWED: Call a POISON CENTER or doctor if you feel unwell",
+          "P302+P352 - IF ON SKIN: Wash with plenty of water and soap",
+          "P304+P340 - IF INHALED: Remove person to fresh air and keep comfortable for breathing",
+          "P305+P351+P338 - IF IN EYES: Rinse cautiously with water for several minutes",
+          "P403+P233 - Store in a well-ventilated place. Keep container tightly closed",
+          "P405 - Store locked up",
+          "P501 - Dispose of contents/container per local/state/federal regulations"
+        ],
+        storageConditions: "Store at -20°C in tightly sealed amber glass containers under inert atmosphere (nitrogen or argon preferred). Protect from light, heat, air, moisture, and UV radiation. Lysergamides are light-sensitive and degrade rapidly when exposed to light and oxygen. Use desiccants and maintain low humidity. Store in locked controlled substance storage.",
+        shelfLife: "2-3 years when stored properly at -20°C under inert gas and protected from light. Degradation accelerates at room temperature and with light/air exposure.",
+        disposalGuidelines: "Dispose as Schedule I analog and controlled substance per DEA regulations. Contact licensed controlled substance waste disposal service. Incineration at DEA-approved facility required with proper documentation. Maintain detailed disposal records.",
+        requiredPPE: [
+          "Nitrile gloves (double glove for powder handling)",
+          "Safety goggles or face shield",
+          "Laboratory coat or protective clothing",
+          "N95 or P100 respirator when handling powder",
+          "Work in certified fume hood"
+        ]
+      },
+      laboratoryGuidelines: {
+        recommendedConcentrations: [
+          "Stock solutions: 0.1-10 mM in ethanol or DMSO",
+          "Receptor binding assays: 0.1 nM - 10 μM",
+          "Analytical standards: 0.1-100 μg/mL",
+          "Blotter analysis: 50-200 μg per blotter unit"
+        ],
+        preparationNotes: [
+          "Prepare all solutions in amber glassware to protect from light",
+          "Use only high-purity solvents (HPLC grade or better)",
+          "Lysergamides degrade rapidly in light - work quickly and minimize light exposure",
+          "May require gentle warming (room temp to 37°C) and vortexing for dissolution",
+          "Store stock solutions at -20°C under nitrogen or argon",
+          "Aliquot to minimize freeze-thaw cycles",
+          "Never use plastic containers for long-term storage - lysergamides adsorb to plastic",
+          "Use only amber borosilicate glass vials",
+          "Wrap containers in aluminum foil for added light protection",
+          "Document all handling with detailed records"
+        ],
+        stabilityData: "Highly light-sensitive. Degrades rapidly when exposed to light (t½ <24 hours in direct light). Relatively stable when frozen at -20°C in dark under inert atmosphere (≥2 years). Solutions in ethanol/DMSO stable for 1-2 weeks at -20°C in amber vials under nitrogen. Avoid repeated freeze-thaw cycles. pH-sensitive; stable at neutral pH, degrades in acidic/basic conditions.",
+        analyticalMethods: [
+          "HPLC-UV (λ = 310-330 nm typical detection)",
+          "HPLC-MS/MS for high sensitivity and specificity",
+          "GC-MS (requires derivatization; direct GC can cause thermal degradation)",
+          "LC-MS/MS for biological matrices and metabolite identification",
+          "NMR spectroscopy (1H, 13C) for structure confirmation",
+          "FTIR for functional group identification",
+          "Melting point determination (requires careful technique, light-sensitive)",
+          "TLC with Ehrlich's reagent visualization"
+        ],
+        handlingPrecautions: [
+          "WORK IN FUME HOOD AT ALL TIMES - lysergamides are extremely potent",
+          "Use double nitrile gloves when handling pure powder",
+          "Avoid any skin contact - microgramquantities can have effects",
+          "Wear eye protection - accidental eye exposure risk",
+          "Never pipette by mouth - use mechanical pipetting devices only",
+          "Work on spill trays with absorbent material",
+          "Have spill cleanup kit readily available",
+          "Minimize generation of aerosols",
+          "Avoid static electricity when handling powders",
+          "Document all transfers and use with detailed logs",
+          "Ensure proper ventilation at all times",
+          "No eating, drinking, or cosmetic application in work area"
+        ]
+      },
+      regulatoryInformation: {
+        legalStatus: "Legal status varies by jurisdiction. Often regulated as LSD analog under Federal Analogue Act in USA. Scheduled or controlled in many countries including Germany, UK, Japan, Australia. Check local regulations before research use.",
+        controlledSubstanceSchedule: "Treated as Schedule I analog in most jurisdictions where analog laws apply",
+        researchLicense: "DEA Schedule I research license typically required for possession and research in USA. Similar licenses required in most countries.",
+        documentation: "Comprehensive documentation required for all acquisitions, storage, use, and disposal. Maintain detailed logs as per controlled substance regulations."
+      },
+      technicalDocumentation: {
+        coa: "Certificate of Analysis available showing purity ≥98% by HPLC-UV, identity confirmation by NMR and MS",
+        msds: "Material Safety Data Sheet (SDS) available detailing physical/chemical properties, hazards, handling, and emergency measures",
+        nmr: "1H-NMR and 13C-NMR spectra available for structure confirmation",
+        hplc: "HPLC chromatogram and method details available",
+        mass: "High-resolution mass spectrometry data available (ESI-MS)",
+        synthesisRoute: "Proprietary synthesis information available under appropriate confidentiality agreements"
+      },
+      researchNotes: "1P-LSD is extensively studied as an LSD prodrug and as a tool for investigating the role of N1-substitution on lysergamide pharmacology. Research suggests rapid in vivo hydrolysis to LSD, though this is debated and may vary between species. Valuable for structure-activity relationship studies and understanding lysergamide metabolism. Extremely light-sensitive - handle with appropriate light protection. For research purposes only; not for human or veterinary use. Subject to controlled substance regulations in most jurisdictions."
     }
   },
   {

@@ -878,7 +878,218 @@ For more information about diclofenac and NSAID safety, consult your healthcare 
   {
     id: "rx-005",
     name: "Aspirin",
-    description: "Analgesic and antiplatelet agent for pain and cardiovascular protection",
+    description: `## Aspirin (Acetylsalicylic Acid) - Comprehensive Drug Information
+
+### Overview
+Aspirin, chemically known as acetylsalicylic acid (ASA), is one of the oldest and most widely used medications in the world, with a history dating back over a century. First synthesized in 1897 by Felix Hoffmann at Bayer, aspirin revolutionized pain management and later cardiovascular medicine. Aspirin belongs to the class of nonsteroidal anti-inflammatory drugs (NSAIDs) but has unique properties that distinguish it from other NSAIDs, particularly its irreversible inhibition of cyclooxygenase (COX) enzymes. This irreversible action on platelets makes aspirin uniquely valuable for cardiovascular protection. Aspirin works by inhibiting COX-1 and COX-2 enzymes, reducing the production of prostaglandins and thromboxanes—chemical messengers involved in pain, inflammation, fever, and blood clotting. Available in multiple strengths ranging from low-dose 81mg "baby aspirin" for heart protection to 325-500mg tablets for pain relief, aspirin serves dual roles as both an analgesic/antipyretic agent and an antiplatelet medication for cardiovascular disease prevention. Low-dose aspirin (81-100mg daily) is widely prescribed for secondary prevention of heart attacks and strokes in high-risk patients, while higher doses (325-650mg) provide effective relief for headaches, muscle aches, toothaches, menstrual cramps, and fever. The medication's accessibility as an over-the-counter drug, combined with its proven efficacy and relatively low cost, has made it a cornerstone of both pain management and cardiovascular preventive medicine.
+
+### Important Safety Information
+**BLACK BOX WARNING:** Use of aspirin in children and teenagers with viral infections has been associated with Reye's syndrome, a rare but serious condition that causes swelling in the liver and brain. Do not give aspirin to anyone younger than 18 years unless specifically directed by a doctor for certain conditions such as Kawasaki disease. **CARDIOVASCULAR AND GASTROINTESTINAL RISKS:** Like other NSAIDs, aspirin can increase the risk of serious gastrointestinal adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk. While low-dose aspirin reduces cardiovascular risk in appropriate patients, higher doses and prolonged use increase the risk of serious bleeding events. Aspirin should not be used in patients with active bleeding disorders or in situations where bleeding could be catastrophic.
+
+### Uses and Indications
+**FDA-Approved Uses:** Aspirin is approved for multiple indications across different dosage ranges. For pain and fever, aspirin (325-650mg) is indicated for the temporary relief of minor aches and pains due to headache, muscle aches, toothache, menstrual cramps, colds, minor arthritis pain, and for the reduction of fever. For cardiovascular protection, low-dose aspirin (75-325mg, commonly 81mg daily) is approved for reducing the risk of death and/or nonfatal myocardial infarction in patients with a previous infarction or unstable angina pectoris (secondary prevention). It is also indicated for reducing the risk of morbidity and mortality in patients with chronic stable angina pectoris, and for reducing the combined risk of death and nonfatal stroke in patients who have had an ischemic stroke or transient ischemia of the brain due to fibrin platelet emboli (secondary prevention of stroke). Aspirin is also approved for reducing the combined risk of TIA and death in patients with TIA due to fibrin platelet emboli, and for use during suspected acute myocardial infarction (chewed or dissolved 160-325mg immediately at symptom onset).
+
+**Common Off-Label Uses:** Aspirin is widely used off-label for primary prevention of cardiovascular disease in patients at increased risk, though recent guidelines have become more selective about recommending primary prevention due to bleeding risks. Off-label uses include prevention of pre-eclampsia in high-risk pregnant women (low-dose aspirin starting in second trimester), prevention of colorectal cancer in high-risk individuals, treatment of pericarditis, and management of Kawasaki disease in children. Some evidence supports use for migraine prevention and treatment. Aspirin is also sometimes used in fertility treatments and to prevent pregnancy complications in women with antiphospholipid syndrome.
+
+**Clinical Efficacy:** For acute pain and fever, aspirin typically provides relief within 30-60 minutes, with effects lasting 4-6 hours. For cardiovascular protection, the antiplatelet effects begin within 30-60 minutes of a dose and persist for the life of the platelets (7-10 days) due to irreversible COX-1 inhibition. Studies have consistently demonstrated that low-dose aspirin reduces the risk of recurrent myocardial infarction by approximately 25% and ischemic stroke by about 20% in appropriate secondary prevention populations. For primary prevention, benefits must be carefully weighed against bleeding risks on an individual basis.
+
+### Before Taking This Medicine
+You should not use aspirin if you are allergic to it, or if you have ever had an asthma attack or severe allergic reaction after taking aspirin or any other NSAID. Do not give aspirin to children or teenagers with viral infections, chickenpox, or flu symptoms due to risk of Reye's syndrome. Consult a doctor before use if the child has not been drinking fluids or has lost a lot of fluid due to vomiting or diarrhea.
+
+Tell your doctor if you have ever had stomach ulcers or bleeding, bleeding disorders such as hemophilia or von Willebrand disease, liver disease, kidney disease, asthma or seasonal allergies, nasal polyps, gout, heart disease, high blood pressure, or if you regularly drink alcohol. Aspirin should be avoided in patients with severe kidney or liver disease, active peptic ulcer disease, or bleeding disorders.
+
+**Pregnancy Considerations:** Use of aspirin, particularly in the third trimester, can cause harm to the unborn baby, including premature closure of the ductus arteriosus, and complications during delivery. Low-dose aspirin (81mg) is sometimes prescribed during pregnancy for specific indications such as prevention of pre-eclampsia, but this should only be done under medical supervision. Tell your doctor if you are pregnant or plan to become pregnant.
+
+**Breastfeeding:** Aspirin passes into breast milk and could harm a nursing baby, particularly at higher doses. The American Academy of Pediatrics classifies aspirin with caution during breastfeeding. Occasional use of a single dose is unlikely to cause harm, but regular use should be avoided or done only under medical supervision.
+
+**Allergy and Asthma:** A subset of patients with asthma have aspirin-exacerbated respiratory disease (AERD), characterized by asthma, chronic rhinosinusitis with nasal polyps, and sensitivity to aspirin and other NSAIDs that can cause severe bronchospasm. This affects approximately 9% of adults with asthma. If you have asthma, particularly with nasal polyps, use aspirin with extreme caution and under medical supervision.
+
+### How to Take / Dosing Information
+
+**For Pain and Fever (Adults and Children ≥12 years):**
+- **Standard Dose:** 325-650mg every 4 hours as needed. Do not exceed 4000mg in 24 hours.
+- **Extra Strength:** Some formulations contain 500mg per tablet.
+
+**For Cardiovascular Protection (Secondary Prevention):**
+- **Post-MI, Post-Stroke, Stable Angina:** 75-100mg once daily (commonly 81mg). Some patients may require up to 325mg daily.
+- **Acute MI (Heart Attack):** Chew or dissolve 160-325mg as soon as possible after symptom onset, then continue 75-100mg daily indefinitely unless contraindicated.
+- **Post-Coronary Intervention (Stenting):** Typically 81-325mg daily, often in combination with another antiplatelet agent for a specified duration (dual antiplatelet therapy).
+
+**For Rheumatic Conditions (under medical supervision):**
+- 3000-4000mg daily in divided doses, though this high-dose regimen is rarely used in modern practice due to availability of better-tolerated alternatives.
+
+**Pediatric Dosing (when specifically indicated by a physician):**
+- Generally avoided due to Reye's syndrome risk. When necessary for specific conditions like Kawasaki disease, dosing is weight-based and carefully supervised.
+
+**Administration Instructions:**
+- **With Food:** Take aspirin with food, milk, or a full glass of water to reduce stomach irritation. Taking with food does not eliminate GI bleeding risk but may reduce dyspepsia.
+- **Chewable Tablets:** Chew thoroughly before swallowing, then drink a full glass of water. Chewable or rapid-dissolve forms are particularly important for acute MI treatment.
+- **Enteric-Coated Tablets:** Swallow whole; do not crush, chew, or break. Enteric coating reduces stomach irritation but delays absorption (not appropriate for acute MI treatment).
+- **Timing:** For cardiovascular protection, take at the same time each day to maintain consistent antiplatelet effects. Evening dosing may be slightly more effective for some patients, but consistency is most important.
+
+**Missed Dose:**
+- **For Pain:** Take as soon as you remember if needed, but do not take if almost time for next scheduled dose.
+- **For Cardiovascular Protection:** Take the missed dose as soon as you remember, unless it's almost time for your next dose. Do not double doses.
+
+**Duration of Use:**
+- **Self-Treatment:** For pain or fever, do not use for more than 10 days (adults) or 5 days (children, when specifically indicated) without consulting a healthcare provider. For fever, do not use for more than 3 days without medical advice.
+- **Cardiovascular Protection:** This is typically lifelong therapy, though duration should be reassessed periodically with your healthcare provider.
+
+**Special Populations:**
+- **Elderly:** More susceptible to GI bleeding and other side effects. Use the lowest effective dose. Monitor closely for signs of toxicity.
+- **Renal Impairment:** Use with caution; may worsen kidney function. Dose adjustment may be necessary.
+- **Hepatic Impairment:** Use with caution in patients with liver disease; avoid in severe hepatic impairment.
+- **Surgical Patients:** Typically discontinued 5-7 days before elective surgery to reduce bleeding risk, but individual circumstances vary. For some cardiovascular patients, continuing aspirin may be appropriate despite bleeding risk.
+
+### Warnings and Precautions
+
+**Reye's Syndrome:** This rare but serious condition occurs almost exclusively in children and teenagers with viral infections who take aspirin. Symptoms include persistent vomiting, confusion, seizures, and loss of consciousness. It can lead to liver failure and brain damage. Never give aspirin to children or teenagers with viral illnesses unless specifically directed by a physician for conditions like Kawasaki disease.
+
+**Gastrointestinal Bleeding Risk:** Aspirin increases risk of GI bleeding through multiple mechanisms: direct gastric mucosal injury, systemic inhibition of prostaglandins that protect the stomach lining, and antiplatelet effects that impair clotting. Risk factors include history of ulcers or GI bleeding, older age (especially >70 years), high doses, prolonged use, concurrent use of other NSAIDs, corticosteroids, or anticoagulants, smoking, and alcohol use. Even low-dose aspirin carries increased GI bleeding risk. Consider gastroprotective agents (proton pump inhibitors) in high-risk patients.
+
+**Bleeding Disorders:** Aspirin irreversibly inhibits platelet function for the life of the platelet (7-10 days). Do not use in patients with hemophilia, von Willebrand disease, or other bleeding disorders unless specifically indicated and carefully monitored. Discontinue aspirin at least 5-7 days before major surgery unless cardiovascular risk of discontinuation outweighs bleeding risk.
+
+**Allergic Reactions and Aspirin Sensitivity:** True aspirin allergy is rare but can be severe. More common is aspirin-exacerbated respiratory disease (AERD) in patients with asthma, characterized by bronchospasm, rhinorrhea, and sometimes skin reactions within minutes to hours of ingestion. Seek emergency care immediately if you develop hives, facial swelling, difficulty breathing, or signs of anaphylaxis.
+
+**Cardiovascular Considerations:** While low-dose aspirin reduces cardiovascular risk in appropriate patients, inappropriate use or over-use can increase risks without providing benefits. Recent guidelines have become more conservative about primary prevention due to bleeding risks, particularly in elderly patients. Discuss with your healthcare provider whether aspirin is appropriate for your cardiovascular risk profile.
+
+**Kidney Function:** Aspirin, especially at higher doses or with prolonged use, can impair kidney function through prostaglandin inhibition. Risk is higher in elderly patients, those with pre-existing kidney disease, heart failure, liver disease, or volume depletion, and those taking ACE inhibitors, ARBs, or diuretics. Monitor kidney function in at-risk patients.
+
+**Gout:** Paradoxically, low doses of aspirin (75-325mg) can decrease uric acid excretion and may precipitate gout attacks, while very high doses (>3g daily) increase uric acid excretion. Patients with gout should discuss aspirin use with their physician.
+
+**Liver Toxicity:** While rare, aspirin can cause hepatotoxicity, particularly at high doses. Patients with pre-existing liver disease should use aspirin cautiously and with monitoring.
+
+**Tinnitus and Hearing Loss:** High doses of aspirin can cause reversible tinnitus (ringing in the ears) and hearing loss. This typically occurs at doses >3g per day but can occur at lower doses in some individuals. Tinnitus often indicates aspirin toxicity and should prompt dose reduction or discontinuation.
+
+### Side Effects
+
+**Common (affecting 1-10%):**
+- Heartburn, indigestion, dyspepsia
+- Nausea or stomach discomfort
+- Increased bruising tendency (even with low-dose aspirin)
+- Minor bleeding (e.g., nosebleeds, prolonged bleeding from cuts)
+
+**Less Common:**
+- Abdominal pain or cramping
+- Diarrhea or constipation
+- Dizziness or lightheadedness
+- Drowsiness
+- Headache (paradoxically, aspirin can sometimes trigger headaches)
+
+**Rare but Serious (seek immediate medical attention):**
+- **Gastrointestinal:** Black, tarry, or bloody stools; vomiting blood or coffee-ground-like material; severe stomach pain; persistent indigestion
+- **Allergic Reactions:** Hives; facial, lip, tongue, or throat swelling; difficulty breathing or swallowing; severe skin rash or blistering
+- **Bleeding:** Unusual bruising; bleeding that won't stop; coughing up blood; blood in urine; unusually heavy menstrual bleeding
+- **Neurological:** Severe or persistent headache; confusion; drowsiness or difficulty waking; seizures; ringing in ears (tinnitus) especially with high doses
+- **Respiratory:** Wheezing; difficulty breathing; chest tightness (especially in aspirin-sensitive asthmatics)
+- **Reye's Syndrome (children/teenagers):** Persistent vomiting, confusion, unusual behavior, seizures, loss of consciousness
+- **Signs of Stroke:** Sudden severe headache, weakness on one side, vision problems, slurred speech
+- **Other:** Jaundice (yellowing of skin or eyes); dark urine; unusual fatigue; rapid heartbeat
+
+**Managing Common Side Effects:**
+Taking aspirin with food or milk can help reduce stomach upset. If you experience persistent heartburn or indigestion, talk to your doctor about using a proton pump inhibitor for gastric protection, especially if you need long-term aspirin therapy. Increased bruising with low-dose aspirin is common but usually not dangerous; however, report unusual or severe bruising to your doctor.
+
+### Drug Interactions
+
+**Major Interactions (Use with Extreme Caution or Avoid):**
+
+- **Anticoagulants (Warfarin, Heparin, DOACs like rivaroxaban, apixaban):** Significantly increased bleeding risk. If combination is necessary (e.g., mechanical heart valve with coronary stents), requires very close monitoring and often gastroprotection. Even low-dose aspirin substantially increases bleeding risk with anticoagulants.
+
+- **Other Antiplatelet Agents (Clopidogrel, Ticagrelor, Prasugrel):** Dual antiplatelet therapy is often prescribed after coronary stenting but significantly increases bleeding risk. Duration and need for dual therapy should be carefully determined based on indication and bleeding risk.
+
+- **Other NSAIDs (Ibuprofen, Naproxen):** Ibuprofen can interfere with the antiplatelet effect of aspirin, potentially reducing cardiovascular protection. If both are necessary, take aspirin at least 2 hours before ibuprofen, or take ibuprofen at least 8 hours before aspirin. Better to avoid combination if possible. Concurrent use also increases GI bleeding risk.
+
+**Moderate Interactions (Use with Caution and Monitoring):**
+
+- **Selective Serotonin Reuptake Inhibitors (SSRIs) and SNRIs:** Increased risk of GI bleeding. Consider gastroprotection if combination is necessary. Risk appears highest with sertraline and paroxetine.
+
+- **Corticosteroids (Prednisone, Methylprednisolone):** Significantly increased risk of GI ulceration and bleeding. Use together only when necessary and consider gastroprotective therapy.
+
+- **Methotrexate:** Aspirin (particularly high doses) can increase methotrexate toxicity by reducing renal clearance and displacing methotrexate from protein binding sites. Close monitoring required if used together.
+
+- **ACE Inhibitors and ARBs (Lisinopril, Losartan, etc.):** NSAIDs including aspirin may reduce the antihypertensive and renal protective effects, particularly at higher aspirin doses. Low-dose aspirin (81-100mg) has minimal effect. Monitor blood pressure and kidney function.
+
+- **Diuretics:** Aspirin may reduce the diuretic effect and increase risk of renal impairment, particularly in volume-depleted patients. Effects are dose-dependent, with low-dose aspirin having minimal impact.
+
+- **Valproic Acid:** Aspirin can increase valproic acid levels and toxicity through displacement from protein binding and inhibition of metabolism. Avoid combination if possible.
+
+- **Oral Hypoglycemics and Insulin:** High-dose aspirin may enhance the glucose-lowering effect. Monitor blood glucose in diabetic patients, particularly with aspirin doses >3g daily.
+
+- **Uricosuric Agents (Probenecid, Sulfinpyrazone):** Aspirin antagonizes the uricosuric effect of these gout medications. Avoid combination in patients being treated for hyperuricemia.
+
+**Food and Alcohol Interactions:**
+- **Alcohol:** Concurrent use of alcohol and aspirin increases the risk of GI bleeding substantially. Chronic alcohol users are at particularly high risk. If you consume 3 or more alcoholic drinks daily, consult your doctor before using aspirin.
+- **Food:** Taking with food reduces stomach irritation but does not eliminate GI bleeding risk.
+- **Vitamin K:** Aspirin's effects on bleeding may be enhanced in patients with vitamin K deficiency.
+
+**Herbal Supplements:**
+- **Ginkgo Biloba, Garlic, Ginger, Feverfew, Fish Oil (high doses):** May increase bleeding risk when combined with aspirin. Use combination cautiously and monitor for unusual bleeding.
+
+### Pregnancy, Breastfeeding, and Fertility
+
+**Pregnancy:**
+Aspirin crosses the placenta, and use during pregnancy, especially in the third trimester, poses risks to the fetus. **Third Trimester (After 30 weeks):** Aspirin should be avoided due to risks of premature closure of the fetal ductus arteriosus, pulmonary hypertension in the newborn, prolonged labor, increased maternal bleeding during delivery, and potential for brain hemorrhage in premature infants. **First and Second Trimesters:** Low-dose aspirin (81mg) is sometimes prescribed for specific indications such as prevention of pre-eclampsia in high-risk women, prevention of pregnancy loss in women with antiphospholipid syndrome, or as part of fertility treatment protocols. When prescribed for these indications, benefits are considered to outweigh risks. However, routine use is not recommended. Some data suggest possible increased risk of gastroschisis with early pregnancy exposure to any NSAIDs. Pregnant women should only use aspirin when specifically prescribed by their healthcare provider who has weighed the risks and benefits.
+
+**Breastfeeding:**
+Aspirin is excreted in breast milk in small amounts. Regular use of aspirin while breastfeeding, particularly at higher doses, is generally not recommended due to potential adverse effects in the nursing infant including bleeding tendencies and, theoretically, Reye's syndrome risk if the infant contracts a viral illness. Occasional single doses of regular-strength aspirin (325mg) are probably compatible with breastfeeding, but chronic use should be avoided. Low-dose aspirin (81mg daily) is sometimes considered acceptable while breastfeeding when medically necessary for the mother, but this should be discussed with a healthcare provider. Alternative pain relievers that are more compatible with breastfeeding (such as acetaminophen or ibuprofen) are generally preferred.
+
+**Fertility:**
+Like other NSAIDs, aspirin may reversibly impair female fertility by inhibiting ovulation. However, low-dose aspirin is sometimes used in fertility treatments, particularly in women with recurrent pregnancy loss or antiphospholipid syndrome, where its antiplatelet effects may improve implantation and pregnancy outcomes. Women having difficulty conceiving should discuss aspirin use with their healthcare provider. Effects on male fertility are less studied but theoretical concerns exist with chronic high-dose use.
+
+### Overdose Information
+
+**Signs and Symptoms:**
+Aspirin overdose can range from mild to life-threatening depending on the amount ingested and individual factors. **Mild to Moderate Toxicity:** Tinnitus (ringing in ears), hearing loss, confusion, dizziness, rapid breathing (hyperventilation), nausea, vomiting, sweating, and dehydration. Tinnitus is often an early sign of toxicity. **Severe Toxicity:** Severe hyperventilation, hyperpyrexia (elevated body temperature), metabolic acidosis, electrolyte abnormalities, agitation, confusion progressing to lethargy or coma, seizures, cerebral edema, pulmonary edema, cardiovascular collapse, and multi-organ failure. Chronic toxicity (salicylism) from repeated excessive doses may be less obvious and manifest as confusion, dehydration, and non-specific symptoms, particularly in elderly patients.
+
+**Toxic Doses:**
+- Mild toxicity: >150 mg/kg
+- Moderate toxicity: >250 mg/kg  
+- Severe toxicity: >500 mg/kg
+- Potentially fatal: >500-750 mg/kg (though fatalities have occurred at lower doses)
+
+**Emergency Actions:**
+If overdose is suspected, immediately call the Poison Control Center at 1-800-222-1222 or seek emergency medical care. If the person has collapsed, is not breathing, having a seizure, or cannot be awakened, call 911 immediately. Do not induce vomiting unless specifically instructed by poison control or medical personnel.
+
+**Treatment:**
+Treatment depends on severity and time since ingestion. **Decontamination:** If presentation is within 1-2 hours of ingestion, activated charcoal (50-100g in adults) may be given if the airway can be protected. Gastric lavage is rarely used due to limited efficacy and potential complications. **Enhanced Elimination:** For severe toxicity, alkalinization of the urine with intravenous sodium bicarbonate enhances salicylate excretion by ion trapping in the renal tubules. Hemodialysis is indicated for severe poisoning (salicylate level >100 mg/dL, or >80 mg/dL with symptoms), refractory metabolic acidosis, pulmonary edema, CNS effects, or renal failure. **Supportive Care:** Monitor vital signs, electrolytes, acid-base status, and salicylate levels. Correct dehydration, electrolyte abnormalities, and acidosis. Treat hyperpyrexia with cooling measures (not antipyretics, as these worsen toxicity). Manage seizures, cerebral edema, and pulmonary edema if present. Monitor for hypoglycemia, particularly in children.
+
+### Storage and Handling
+
+Store aspirin at room temperature between 68-77°F (20-25°C), away from light, moisture, and heat. Do not store in the bathroom due to humidity. Keep tablets in their original container with the lid tightly closed. Aspirin is sensitive to moisture and can degrade if exposed to humid conditions; degradation products have a vinegar-like odor.
+
+Check the expiration date and do not use aspirin that has expired or smells strongly of vinegar, as this indicates breakdown into salicylic acid and acetic acid.
+
+Keep all medications out of reach of children and pets. Aspirin poisoning is particularly dangerous in children. Store in a secure location.
+
+**Disposal:**
+Dispose of expired or unwanted aspirin through drug take-back programs. Check with your pharmacy or local waste disposal company. If no take-back program is available, mix tablets with an undesirable substance (dirt, cat litter, coffee grounds), place in a sealed plastic bag, and dispose in household trash after removing personal information from the label. Do not flush down the toilet unless specifically instructed.
+
+### Additional Information
+
+**Patient Counseling Points:**
+If using aspirin for pain or fever, follow label directions carefully and do not exceed the recommended dose or duration. Do not use for more than 10 days for pain or 3 days for fever without consulting a healthcare provider. If symptoms persist or worsen, seek medical attention.
+
+If taking low-dose aspirin for cardiovascular protection, take it every day as prescribed. Consistency is important for maintaining antiplatelet effects. Do not stop taking aspirin without consulting your healthcare provider, as sudden discontinuation can lead to rebound cardiovascular events in some patients (aspirin rebound).
+
+**When to Seek Medical Attention:**
+Contact your healthcare provider before using aspirin if you have a history of stomach ulcers or bleeding, bleeding disorders, kidney or liver disease, asthma (especially with nasal polyps), gout, or if you regularly drink alcohol (3 or more drinks daily). Seek immediate medical care if you experience signs of GI bleeding (black stools, blood in stools or vomit), unusual bleeding or bruising, allergic reactions, chest pain, stroke symptoms, or signs of overdose.
+
+**Surgery and Dental Procedures:**
+Inform all healthcare providers, including dentists and surgeons, that you take aspirin, especially before any surgical or invasive procedure. Your doctor may advise stopping aspirin 5-7 days before elective surgery to reduce bleeding risk, though for some patients the cardiovascular risk of stopping may outweigh the bleeding risk.
+
+**Laboratory Tests:**
+Aspirin can interfere with certain laboratory tests, including some urine tests. Inform laboratory personnel that you take aspirin. Prolonged bleeding time is expected with aspirin and does not necessarily indicate a problem.
+
+**Brand Names and Formulations:**
+Aspirin is available under numerous brand names including Bayer Aspirin, Ecotrin (enteric-coated), Bufferin (buffered with antacids), and many others. Generic aspirin is as effective as branded formulations.
+
+**Historical Note:**
+Aspirin's development from willow bark has saved countless lives. It remains on the World Health Organization's List of Essential Medicines as one of the most important medications for a basic health system.
+
+**Resources:**
+For more information about aspirin safety and usage, consult your healthcare provider or pharmacist. Report side effects to the FDA MedWatch program at 1-800-FDA-1088. The American Heart Association provides patient education about aspirin for cardiovascular disease prevention.
+
+**IMPORTANT DEMONSTRATION NOTICE:** This comprehensive medication information is provided for demonstration purposes only as part of a pharmacy catalog theme showcasing detailed pharmaceutical information presentation. This is not actual medical advice, and no real medications are being prescribed or dispensed. This demonstration theme illustrates how detailed drug information can be presented in a professional pharmaceutical format. Always consult with qualified, licensed healthcare professionals for actual medical advice before starting, stopping, or changing any medication regimen. For children and teenagers, consult a pediatrician before giving any medication.`,
     price: 5.99,
     image: "https://images.unsplash.com/photo-1550572017-4a6e8d4d7c0e?w=400",
     category: "prescription-drugs",
@@ -928,7 +1139,224 @@ For more information about diclofenac and NSAID safety, consult your healthcare 
   {
     id: "rx-006",
     name: "Tramadol",
-    description: "Opioid analgesic for moderate to moderately severe pain",
+    description: `## Tramadol - Comprehensive Drug Information
+
+### Overview
+Tramadol is a centrally acting synthetic opioid analgesic with a unique dual mechanism of action that distinguishes it from traditional opioids. Approved by the FDA in 1995, tramadol provides moderate to moderately severe pain relief through two complementary pathways: weak μ-opioid receptor agonism (approximately 6,000 times less potent than morphine at the μ-receptor) and inhibition of norepinephrine and serotonin reuptake in the central nervous system. This dual mechanism potentially provides analgesia comparable to stronger opioids but with theoretically lower risk of respiratory depression and addiction, though these risks still exist and have led to increased regulatory controls. Tramadol is metabolized in the liver by CYP2D6 to O-desmethyltramadol (M1), which has significantly higher opioid receptor affinity and contributes substantially to the analgesic effect. Genetic variations in CYP2D6 metabolism can significantly affect tramadol's efficacy and safety—ultra-rapid metabolizers may experience excessive opioid effects and toxicity, while poor metabolizers may experience inadequate pain relief. Available in immediate-release formulations (typically 50mg) taken every 4-6 hours and extended-release formulations (100-300mg) taken once or twice daily, tramadol has become widely prescribed for various acute and chronic pain conditions including postoperative pain, osteoarthritis, fibromyalgia, neuropathic pain, and back pain. Despite initial perceptions of being safer than traditional opioids, tramadol carries significant risks including seizures (particularly at higher doses or in susceptible patients), serotonin syndrome when combined with serotonergic drugs, physical dependence, addiction potential, and respiratory depression. In 2014, tramadol was reclassified as a Schedule IV controlled substance in the United States due to reports of abuse and dependence.
+
+### Important Safety Information
+**BLACK BOX WARNING - Addiction, Abuse, and Misuse:** Tramadol exposes users to the risks of addiction, abuse, and misuse, which can lead to overdose and death. Assess each patient's risk before prescribing, and monitor regularly for development of these behaviors or conditions. **Life-Threatening Respiratory Depression:** Serious, life-threatening, or fatal respiratory depression may occur. Monitor closely, especially upon initiation or following a dose increase. **Accidental Ingestion:** Accidental ingestion of tramadol, especially by children, can result in fatal overdose. **Neonatal Opioid Withdrawal Syndrome:** Prolonged use during pregnancy can result in neonatal opioid withdrawal syndrome, which may be life-threatening if not recognized and treated. If opioid use is required for an extended period during pregnancy, advise the patient of the risk and ensure appropriate treatment will be available. **Ultra-Rapid Metabolism of Tramadol and Risk of Overdose and Death in Children:** Tramadol is contraindicated in children younger than 12 years and in children younger than 18 years following tonsillectomy and/or adenoidectomy. Life-threatening respiratory depression and death have occurred in children who received tramadol and who evidence ultra-rapid metabolism of tramadol to its active metabolite M1 due to CYP2D6 polymorphism. **Risks from Concomitant Use with Benzodiazepines or Other CNS Depressants:** Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing for patients with inadequate alternative treatment options, use minimum effective dosages and durations, and follow patients for signs and symptoms of respiratory depression and sedation.
+
+### Uses and Indications
+Tramadol is FDA-approved for the management of moderate to moderately severe pain in adults. Immediate-release tramadol is indicated for acute pain episodes where an opioid analgesic is appropriate, while extended-release formulations are specifically indicated for patients requiring around-the-clock pain management for an extended period. The medication is particularly useful for conditions where both nociceptive and neuropathic pain components may exist due to its dual mechanism.
+
+**Common Labeled Uses:** Postoperative pain management (when other analgesics are inadequate), chronic pain conditions including osteoarthritis and chronic back pain (extended-release formulations), and pain episodes requiring opioid analgesia where non-opioid alternatives are ineffective or contraindicated.
+
+**Common Off-Label Uses:** Fibromyalgia pain (based on evidence showing modest benefit), neuropathic pain syndromes including diabetic neuropathy and postherpetic neuralgia, premature ejaculation (typically at lower doses due to serotonergic effects), and restless legs syndrome. Tramadol's monoaminergic effects may provide additional benefit in these conditions beyond pure opioid analgesia.
+
+**Clinical Efficacy and Timeline:** For immediate-release tramadol, pain relief typically begins within 30-60 minutes, with peak effects at 2-3 hours and duration of 4-6 hours. Extended-release formulations provide steady analgesia over 12-24 hours depending on the formulation. Clinical studies have shown tramadol provides analgesia roughly equivalent to 60mg of codeine combined with acetaminophen. For chronic pain conditions, consistent dosing for several days may be needed to achieve optimal steady-state effects due to accumulation of active metabolites. Some patients experience inadequate analgesia despite appropriate dosing, often related to poor CYP2D6 metabolism—these patients require alternative analgesics.
+
+### Before Taking This Medicine
+You should not use tramadol if you are allergic to it, or if you have severe breathing problems, a blockage in your stomach or intestines, or if you have recently used alcohol, sedatives, tranquilizers, narcotic medications, or MAO inhibitors (isocarboxazid, linezolid, methylene blue injection, phenelzine, tranylcypromine, and others) within the past 14 days.
+
+Tramadol is contraindicated in children under 12 years old and in adolescents under 18 years who have undergone tonsillectomy or adenoidectomy due to risk of fatal respiratory depression. Do not use tramadol if you are breastfeeding, as tramadol can pass into breast milk and cause serious adverse effects in nursing infants.
+
+Tell your doctor if you have ever had breathing problems or sleep apnea, a head injury, brain tumor, or seizures, drug or alcohol addiction, mental illness, liver or kidney disease, urination problems, problems with your gallbladder, pancreas, or thyroid, or stomach problems including obstruction. Tramadol should be avoided in patients with uncontrolled epilepsy or history of seizures.
+
+**Risk Assessment:** Before prescribing tramadol, healthcare providers should assess for risk factors for opioid abuse including personal or family history of substance abuse, younger age (particularly 16-45), and psychiatric disorders. Patients at higher risk require more careful monitoring and possibly alternative treatments.
+
+**Pregnancy:** Tramadol may harm an unborn baby and cause serious withdrawal symptoms in a newborn. Do not use tramadol during pregnancy unless your doctor specifically advises it. Prolonged use during pregnancy can result in neonatal opioid withdrawal syndrome requiring management according to neonatology expert protocols.
+
+**Drug Testing:** Tramadol may cause false-positive results on drug screening tests for PCP (phencyclidine). Inform laboratory personnel you take tramadol if undergoing drug screening.
+
+### How to Take / Dosing Information
+
+**Immediate-Release Tablets:**
+- **Initial Dose:** 25mg once daily in the morning. Increase by 25mg every 3 days as tolerated to reach 25mg four times daily, then increase by 50mg every 3 days to target dose.
+- **Usual Dose:** 50-100mg every 4-6 hours as needed for pain. Maximum: 400mg per day (8 tablets of 50mg).
+- **Rapid Titration (if needed for acute pain):** Start with 50-100mg, then 50-100mg every 4-6 hours as needed. Maximum: 400mg/day.
+
+**Extended-Release Tablets:**
+- **Initial Dose:** 100mg once daily. Increase by 100mg every 5 days as needed.
+- **Usual Dose:** 100-300mg once daily. Maximum: 300mg per day.
+- Swallow whole; do not crush, chew, break, or dissolve as this can lead to rapid release and dangerous dose dumping.
+
+**Administration Instructions:**
+- May be taken with or without food; taking with food may reduce nausea, a common side effect.
+- Immediate-release: Swallow tablets whole with adequate water.
+- Extended-release: Swallow whole; do not chew, crush, split, or dissolve. Tampering with extended-release formulation can result in uncontrolled delivery and potentially fatal overdose.
+- Take at consistent times each day for chronic pain management.
+- Use the lowest effective dose for the shortest duration consistent with treatment goals.
+
+**Discontinuation:**
+Do not stop taking tramadol suddenly after prolonged use (more than a few weeks) as this can cause withdrawal symptoms including anxiety, sweating, insomnia, rigors, pain, nausea, tremors, diarrhea, upper respiratory symptoms, piloerection, and rarely hallucinations. Taper dose gradually, typically reducing by 25-50% every 2-4 days, or more slowly if withdrawal symptoms develop.
+
+**Missed Dose:**
+If using tramadol on a regular schedule for chronic pain, take missed dose as soon as remembered unless it's almost time for the next dose. Do not take extra medicine to make up the missed dose. If using as needed for pain, take only when needed.
+
+**Special Populations:**
+- **Elderly (>75 years):** Maximum 300mg/day. Increased risk of side effects including confusion and falls.
+- **Renal Impairment:** CrCl <30 mL/min: Increase dosing interval to every 12 hours; maximum 200mg/day. Avoid extended-release in severe renal impairment.
+- **Hepatic Impairment:** Start with 50mg every 12 hours (immediate-release). Maximum 100mg/day. Avoid extended-release in severe hepatic impairment.
+- **CYP2D6 Poor Metabolizers:** May experience inadequate analgesia. Alternative analgesics should be considered.
+- **CYP2D6 Ultra-Rapid Metabolizers:** At risk for toxicity even at normal doses. Signs of toxicity include excessive sedation, confusion, and respiratory depression.
+
+### Warnings and Precautions
+
+**Seizure Risk:** Tramadol lowers the seizure threshold and has been associated with seizures even at therapeutic doses. Risk is increased with doses above 400mg/day, in patients with epilepsy or history of seizures, with concomitant use of other seizure threshold-lowering medications (SSRIs, SNRIs, tricyclic antidepressants, antipsychotics, bupropion), in patients with head trauma, metabolic disorders, CNS infections, or during alcohol or drug withdrawal. Use with extreme caution or avoid in patients with seizure disorders.
+
+**Serotonin Syndrome:** Life-threatening serotonin syndrome can occur with tramadol use, particularly when combined with other serotonergic drugs including SSRIs, SNRIs, tricyclic antidepressants, triptans, certain muscle relaxants, MAO inhibitors, linezolid, lithium, and St. John's Wort. Symptoms include agitation, hallucinations, rapid heart rate, fever, excessive sweating, shivering, muscle twitching, loss of coordination, nausea, vomiting, and diarrhea. Severe cases can be fatal. Seek immediate medical attention if these symptoms occur.
+
+**Respiratory Depression:** Serious, life-threatening, or fatal respiratory depression can occur, particularly during initiation or dose escalation, in opioid-naive patients, or in patients with underlying respiratory conditions (COPD, asthma, sleep apnea). Risk is greatly increased with concomitant use of benzodiazepines, alcohol, or other CNS depressants. Monitor closely for respiratory depression, especially during first 24-72 hours of therapy and after dose increases.
+
+**Addiction, Abuse, and Misuse:** Tramadol carries risk of addiction even at therapeutic doses. Risk is increased in patients with personal or family history of substance abuse or mental illness. Signs of addiction include taking more than prescribed, using to get high, doctor shopping, and continuing use despite negative consequences. Addiction can occur even in properly prescribed patients without prior addiction history.
+
+**Adrenal Insufficiency:** Rare cases of adrenal insufficiency have been reported with prolonged opioid use, manifesting as nausea, vomiting, anorexia, fatigue, weakness, dizziness, and low blood pressure. If suspected, perform diagnostic testing and treat with corticosteroids. Taper and discontinue tramadol to allow recovery.
+
+**Hypotension:** Tramadol may cause severe hypotension including orthostatic hypotension and syncope. Risk is increased in patients with compromised ability to maintain blood pressure due to depleted blood volume or concurrent medications that lower blood pressure.
+
+**Hypoglycemia:** Rare cases of serious hypoglycemia have been reported, particularly in patients with predisposing factors such as diabetes, renal insufficiency, or use of other hypoglycemic agents. Monitor blood glucose in susceptible patients.
+
+**QT Prolongation:** Post-marketing reports suggest tramadol may cause QT prolongation. Use cautiously in patients with risk factors for QT prolongation or arrhythmias.
+
+### Side Effects
+
+**Very Common (>10%):**
+- Dizziness or vertigo (15-33%)
+- Nausea (24-40% initially, often improves with continued use)
+- Constipation (24-46%)
+- Headache (18-32%)
+- Somnolence/drowsiness (25-43%)
+
+**Common (1-10%):**
+- Vomiting (9-17%)
+- Dry mouth (10%)
+- Sweating/excessive perspiration (9%)
+- Pruritus/itching (8-12%)
+- Weakness/asthenia
+- Dyspepsia/indigestion
+- Diarrhea
+- Loss of appetite
+- Anxiety or nervousness
+- Tremor
+- Mood changes
+
+**Less Common but Clinically Significant:**
+- Orthostatic hypotension
+- Urinary retention
+- Hot flashes
+- Flushing
+- Insomnia
+- Visual disturbances
+- Confusion (particularly in elderly)
+- Difficulty concentrating
+- Agitation
+
+**Serious Adverse Effects (seek immediate medical attention):**
+- **Seizures:** Can occur even at therapeutic doses, particularly with risk factors
+- **Serotonin Syndrome:** Agitation, confusion, rapid heart rate, high blood pressure, dilated pupils, muscle rigidity, high fever, excessive sweating
+- **Respiratory Depression:** Slow or difficult breathing, confusion, extreme drowsiness
+- **Severe Allergic Reactions:** Difficulty breathing, swelling of face/lips/tongue/throat, severe rash, blistering
+- **Anaphylaxis:** Severe, potentially life-threatening allergic reaction requiring immediate emergency treatment
+- **Adrenal Crisis:** Severe nausea, vomiting, loss of appetite, fatigue, weakness, dizziness, low blood pressure
+- **Severe Hypotension:** Dizziness, fainting, confusion
+- **Withdrawal Symptoms:** With abrupt discontinuation after prolonged use
+
+**Managing Side Effects:**
+Nausea often improves after first few days; taking with food may help. If nausea persists, anti-nausea medications may be prescribed. For constipation, increase fluid intake, dietary fiber, and consider stool softeners or laxatives. Dizziness may improve with slow position changes. If drowsiness is severe, avoid driving and operating machinery. Report any severe or persistent side effects to your healthcare provider.
+
+### Drug Interactions
+
+**Contraindicated Combinations (Do Not Use Together):**
+- **MAO Inhibitors:** Risk of fatal serotonin syndrome. Do not use tramadol within 14 days of MAOI use.
+- **Linezolid or IV Methylene Blue:** Serotonergic drugs that can cause serotonin syndrome with tramadol.
+
+**Major Interactions (Use Only if Absolutely Necessary with Close Monitoring):**
+- **Benzodiazepines and Other CNS Depressants (alprazolam, diazepam, zolpidem):** Profound sedation, respiratory depression, coma, and death. If combination cannot be avoided, use lowest doses and shortest durations possible. Monitor closely.
+- **Alcohol:** Severe respiratory depression, coma, death. Avoid alcohol entirely while taking tramadol.
+- **SSRIs, SNRIs (fluoxetine, paroxetine, sertraline, venlafaxine, duloxetine):** Increased risk of serotonin syndrome and seizures. Use together with extreme caution.
+- **Tricyclic Antidepressants (amitriptyline, nortriptyline):** Increased seizure risk and serotonin syndrome risk. Use cautiously with close monitoring.
+- **Other Opioids:** Additive CNS and respiratory depression. Generally avoid combination.
+- **Carbamazepine:** Significantly increases tramadol metabolism, reducing efficacy. May need alternative analgesic.
+
+**Moderate Interactions (Use with Caution and Monitoring):**
+- **CYP2D6 Inhibitors (quinidine, fluoxetine, paroxetine, bupropion):** Reduce conversion to active metabolite M1, potentially decreasing analgesia. Monitor efficacy.
+- **CYP3A4 Inducers (rifampin, St. John's Wort):** Increase tramadol metabolism, potentially reducing efficacy and increasing withdrawal risk.
+- **CYP3A4 Inhibitors (ketoconazole, erythromycin):** May increase tramadol levels and toxicity risk.
+- **Warfarin:** Rare reports of increased INR and ecchymoses. Monitor INR closely if combination necessary.
+- **Digoxin:** Rare reports of digoxin toxicity. Monitor digoxin levels.
+- **Ondansetron and Other 5-HT3 Antagonists:** May reduce tramadol efficacy.
+- **Anticholinergic Drugs:** Increased risk of urinary retention and severe constipation.
+- **Triptans (sumatriptan, rizatriptan):** Increased serotonin syndrome risk.
+- **Muscle Relaxants (cyclobenzaprine, metaxalone):** Enhanced CNS depression; cyclobenzaprine may increase serotonin syndrome risk.
+
+**Herbal Supplements:**
+- **St. John's Wort:** Can cause serotonin syndrome and increases tramadol metabolism. Avoid combination.
+- **Kava, Valerian:** May increase CNS depression.
+
+### Pregnancy, Breastfeeding, and Fertility
+
+**Pregnancy:**
+Tramadol is generally not recommended during pregnancy due to potential risks. **Fetal Risk:** Tramadol crosses the placenta. While major malformations have not been consistently associated with tramadol use in pregnancy, some studies suggest possible increased risk. **Neonatal Opioid Withdrawal Syndrome:** Prolonged use during pregnancy can lead to physical dependence in the fetus, resulting in neonatal opioid withdrawal syndrome which can be life-threatening and requires specialized management. Symptoms in newborns include irritability, hyperactivity, abnormal sleep patterns, high-pitched crying, tremor, vomiting, diarrhea, poor feeding, seizures, and fever. Onset ranges from birth to several days after birth. **Labor and Delivery:** Tramadol should be avoided during labor and delivery. Opioids can prolong labor and cause respiratory depression in the newborn. **Recommendation:** Use during pregnancy only if potential benefit justifies potential risk to fetus. Discuss alternative pain management options with healthcare provider.
+
+**Breastfeeding:**
+**Contraindicated:** Tramadol use is not recommended during breastfeeding. Tramadol and its metabolite M1 are excreted in breast milk. Case reports describe excessive sedation and respiratory depression in breastfed infants exposed to tramadol, including one infant death. Mothers with CYP2D6 ultra-rapid metabolism may produce excessive amounts of M1, putting nursing infants at higher risk. Symptoms of tramadol exposure in infants include increased sleepiness, difficulty breastfeeding, breathing difficulties, and limpness. If a breastfeeding mother requires tramadol, close monitoring of the infant is essential, though avoidance is strongly preferred. Alternative analgesics more compatible with breastfeeding should be considered.
+
+**Fertility:**
+Limited data suggest tramadol does not impair fertility in animal studies at therapeutic doses. However, chronic opioid use has been associated with reduced gonadal hormone levels which could theoretically affect fertility. Effects are likely reversible upon discontinuation.
+
+### Overdose Information
+
+**Signs and Symptoms:**
+Tramadol overdose presents with both opioid toxicity and unique features related to its monoaminergic effects. **Opioid Effects:** Respiratory depression (slow, shallow breathing), extreme drowsiness progressing to stupor or coma, cold and clammy skin, pinpoint pupils, skeletal muscle flaccidity, bradycardia, hypotension. **Seizures:** Unlike most opioids, tramadol characteristically causes seizures in overdose, often before respiratory depression becomes severe. **Serotonin Toxicity:** Agitation, hyperthermia, tachycardia, hypertension, hyperreflexia, clonus, tremor. **Severe Cases:** Cardiac arrest, respiratory arrest, death. Tramadol toxicity can be more difficult to reverse than pure opioid overdoses due to multiple mechanisms.
+
+**Toxic Doses:**
+Deaths have been reported with tramadol alone at doses starting around 500-1000mg, though susceptibility varies. Risk is dramatically increased with coingestants (alcohol, benzodiazepines, other opioids).
+
+**Emergency Actions:**
+Call 911 immediately if overdose is suspected or if the person is not breathing, cannot be awakened, or is having a seizure. Call Poison Control at 1-800-222-1222 for guidance while awaiting emergency services. If naloxone (Narcan) is available and the person is not breathing or very difficult to awaken, administer naloxone and provide rescue breathing if trained. Note: Naloxone may reverse respiratory depression but does not prevent seizures and may be less effective for tramadol than for pure opioids.
+
+**Treatment:**
+**Airway Management:** Ensure adequate ventilation and oxygenation. Intubation may be necessary for severe respiratory depression. **Naloxone:** Opioid antagonist that can reverse respiratory depression, but use cautiously as it may increase seizure risk and may be less effective than for pure opioids. May require repeated or continuous infusion due to tramadol's long half-life. **Seizure Management:** Benzodiazepines (lorazepam, diazepam) are first-line for tramadol-induced seizures. **Decontamination:** Activated charcoal may be considered if patient presents within 1-2 hours of ingestion with protected airway. **Supportive Care:** Monitor vital signs, cardiac rhythm, oxygenation. Treat hypotension with IV fluids and vasopressors if needed. Extended monitoring required due to long half-life and extended-release formulations. **Hemodialysis:** Removes less than 7% of tramadol; not effective for overdose treatment.
+
+### Storage and Handling
+
+Store tramadol at room temperature between 68-77°F (20-25°C), away from light, moisture, and heat. Keep in original container with child-resistant cap tightly closed. Do not store in bathroom.
+
+**Controlled Substance:** Tramadol is a Schedule IV controlled substance. Store securely to prevent theft or accidental exposure. Keep track of medication to ensure no doses are missing.
+
+Keep all opioid medications out of reach of children. Even one dose can cause fatal respiratory depression in a child. Store in locked cabinet if children are in the household.
+
+**Disposal:**
+Unused tramadol should be disposed of as soon as no longer needed. **Preferred Method:** Drug take-back programs or DEA-registered collectors. Contact local pharmacy, law enforcement, or waste management to find collection sites. **If Take-Back Not Available:** FDA recommends flushing tramadol down the toilet to prevent accidental ingestion or intentional misuse, as the risk of overdose death outweighs environmental concerns. Alternatively, mix with unpalatable substance (dirt, cat litter, coffee grounds), seal in plastic bag, remove personal information from bottle, and dispose in household trash.
+
+### Additional Information
+
+**Patient Counseling:**
+Use tramadol exactly as prescribed. Do not take more frequently, in higher doses, or for longer than prescribed. Physical dependence and addiction can develop even when taking as prescribed. Store securely and count pills regularly. Never share tramadol with others, especially someone with history of substance abuse—doing so is illegal and can cause death.
+
+**Signs of Addiction:**
+Be alert for signs you may be developing addiction: taking more than prescribed, running out early, feeling you "need" the medication rather than using for pain, continued use despite negative consequences, obtaining tramadol from multiple providers or sources, or using to cope with emotions rather than physical pain.
+
+**Driving and Operating Machinery:**
+Tramadol causes drowsiness and dizziness. Do not drive, operate machinery, or perform dangerous tasks until you know how tramadol affects you. Even if you feel alert, reaction time and judgment may be impaired.
+
+**Avoid Alcohol:**
+Never consume alcohol while taking tramadol. The combination can cause fatal respiratory depression. Check all medications including cough syrups for alcohol content.
+
+**Naloxone Access:**
+Consider obtaining naloxone (Narcan), an opioid overdose reversal medication available without prescription in most states. Family members and caregivers should be trained in recognizing overdose and administering naloxone.
+
+**Regular Monitoring:**
+Patients on long-term tramadol should have regular follow-up appointments to assess pain control, side effects, signs of addiction, and continued need for opioid therapy. Healthcare providers should regularly reassess whether benefits outweigh risks.
+
+**Alternative Treatments:**
+Chronic pain is often better managed with multimodal approaches including physical therapy, exercise, cognitive behavioral therapy, non-opioid medications, interventional procedures, and lifestyle modifications. Discuss comprehensive pain management strategies with your healthcare provider.
+
+**Resources:**
+SAMHSA National Helpline (substance abuse information and treatment referral): 1-800-662-4357. FDA MedWatch (report side effects): 1-800-FDA-1088. Poison Control: 1-800-222-1222.
+
+**IMPORTANT DEMONSTRATION NOTICE:** This comprehensive medication information is provided for demonstration purposes only as part of a pharmacy catalog theme showcasing pharmaceutical information presentation. This is not actual medical advice, and no real medications are being prescribed or dispensed. This demonstration theme illustrates how detailed controlled substance information can be presented. Tramadol is a controlled substance with significant risks including addiction, respiratory depression, seizures, and death. Always consult with qualified, licensed healthcare professionals before starting, stopping, or changing any medication regimen, especially opioid medications. Never share opioid medications with others.`,
     price: 28.99,
     image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
     category: "prescription-drugs",
